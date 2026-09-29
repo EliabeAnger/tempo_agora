@@ -82,7 +82,7 @@ a{color:var(--accent)}
 @keyframes spin{to{transform:rotate(360deg)}}
 
 /* navegação */
-.nav{position:fixed;left:0;right:0;bottom:0;z-index:700;display:grid;grid-template-columns:repeat(5,1fr);
+.nav{position:fixed;left:0;right:0;bottom:0;z-index:700;display:grid;grid-template-columns:repeat(6,1fr);
   background:var(--glass);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-top:1px solid var(--line);
   padding-bottom:env(safe-area-inset-bottom,0px)}
 .nav button{background:none;border:0;height:var(--nav-h);display:grid;place-items:center;align-content:center;gap:3px;color:var(--muted);font-size:11px;font-weight:600;position:relative}
@@ -91,7 +91,7 @@ a{color:var(--accent)}
 .nav button[aria-current="page"]::before{content:"";position:absolute;top:0;left:30%;right:30%;height:3px;border-radius:0 0 3px 3px;background:var(--accent)}
 .nav .badge{position:absolute;top:8px;left:calc(50% + 6px);min-width:17px;height:17px;padding:0 4px;border-radius:9px;background:var(--danger);color:#fff;font-size:10px;font-weight:700;display:grid;place-items:center}
 @media (min-width:900px){
-  .nav{position:sticky;top:calc(env(safe-area-inset-top,0px) + 62px);bottom:auto;max-width:1080px;margin:0 auto;border:1px solid var(--line);border-radius:14px;grid-template-columns:repeat(5,auto);justify-content:start;gap:4px;padding:4px;margin-top:10px;background:var(--glass)}
+  .nav{position:sticky;top:calc(env(safe-area-inset-top,0px) + 62px);bottom:auto;max-width:1080px;margin:0 auto;border:1px solid var(--line);border-radius:14px;grid-template-columns:repeat(6,auto);justify-content:start;gap:4px;padding:4px;margin-top:10px;background:var(--glass)}
   .nav button{height:auto;grid-auto-flow:column;gap:8px;padding:8px 16px;border-radius:10px;font-size:14px}
   .nav button[aria-current="page"]{background:color-mix(in srgb,var(--accent) 15%,transparent)}
   .nav button[aria-current="page"]::before{display:none}
@@ -273,7 +273,7 @@ a{color:var(--accent)}
 .sun text{fill:var(--muted);font:500 12px var(--f-mono)}
 .aq-bar{height:10px;border-radius:6px;background:linear-gradient(90deg,#4ade80 0%,#d7e04a 25%,#f5c33d 45%,#ff7a59 65%,#ff5468 80%,#b594ff 100%);position:relative;margin:10px 0 4px}
 .aq-bar i{position:absolute;top:-4px;width:4px;height:18px;border-radius:2px;background:var(--fg);box-shadow:0 0 0 2px var(--bg);transform:translateX(-50%)}
-#map{height:min(58vh,440px);border-radius:12px;overflow:hidden;background:var(--panel2)}
+#map{border-radius:12px;overflow:hidden;background:var(--panel2)}
 .radar-ctl{display:flex;gap:10px;align-items:center;margin-top:10px;flex-wrap:wrap}
 .radar-ctl button{border:1px solid var(--line);background:var(--panel2);border-radius:999px;padding:7px 14px;font-weight:600;font-size:13px}
 .radar-ctl input[type=range]{flex:1;min-width:120px;accent-color:var(--accent)}
@@ -393,6 +393,81 @@ footer{font-size:12px;color:var(--muted);display:grid;gap:4px;padding:18px 2px 0
 .hour{cursor:pointer}
 .hour:active{transform:scale(.97)}
 
+
+/* ===== mapa ===== */
+.btn.small{padding:6px 12px;font-size:12.5px}
+.mapbox{position:relative}
+#map{height:min(58vh,460px)}
+.mapctl{display:grid;gap:10px;margin-top:10px}
+.mapmode{grid-template-columns:1fr 1fr}
+.radar-ctl button{min-width:44px}
+.maplegend{position:absolute;left:8px;bottom:26px;z-index:500;background:var(--glass);border:1px solid var(--line);border-radius:10px;padding:6px 8px;font-size:11px;color:var(--fg);display:flex;gap:6px;align-items:center;flex-wrap:wrap;max-width:calc(100% - 16px);backdrop-filter:blur(8px)}
+.maplegend i{display:inline-block;width:14px;height:10px;border-radius:2px}
+.mapclose{position:absolute;top:10px;right:10px;z-index:600;width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:var(--glass);color:var(--fg);font-size:26px;line-height:1;backdrop-filter:blur(8px)}
+.wind-ar{width:22px;height:22px;display:grid;place-items:center;color:#fff;filter:drop-shadow(0 1px 1px rgba(0,0,0,.7));pointer-events:none}
+.wind-ar svg{width:18px;height:18px}
+.wind-ar span{position:absolute;top:18px;font:700 9px var(--f-mono);color:#fff;text-shadow:0 1px 2px #000}
+.mapwrap.full{position:fixed;inset:0;z-index:950;border-radius:0;margin:0;padding:calc(env(safe-area-inset-top,0px) + 8px) 10px calc(env(safe-area-inset-bottom,0px) + 10px);display:grid;grid-template-rows:auto 1fr auto;background:var(--bg);backdrop-filter:none}
+.mapwrap.full>header{margin-bottom:6px}
+.mapwrap.full .mapbox{min-height:0}
+.mapwrap.full #map{height:100%;border-radius:12px}
+.mapwrap.full #mapFull{display:none}
+body.lock{overflow:hidden}
+
+/* ===== culturas ===== */
+.crops{display:flex;gap:6px;overflow-x:auto;padding-bottom:6px;scrollbar-width:none}
+.crops::-webkit-scrollbar{display:none}
+.crop{flex:none;display:grid;justify-items:center;gap:2px;min-width:70px;padding:8px 10px;border-radius:14px;border:1px solid var(--line);background:var(--panel2);font-size:12.5px;font-weight:600;color:var(--muted)}
+.crop b{font-size:22px;line-height:1}
+.crop[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.cropgrid{display:grid;gap:10px;margin-top:12px;grid-template-columns:1fr}
+@media (min-width:700px){.cropgrid{grid-template-columns:1fr 1fr}}
+.ccard{background:var(--panel2);border-radius:14px;padding:12px 14px;display:grid;gap:4px;border-left:4px solid var(--c,var(--line))}
+.ccard h4{margin:0;font-size:14.5px;display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.ccard h4 span{font-size:11px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--c)}
+.ccard p{margin:0;font-size:13.5px;color:var(--muted)}
+.ccard.good{--c:var(--ok)} .ccard.mid{--c:var(--warn)} .ccard.bad{--c:var(--danger)} .ccard.info{--c:var(--accent)}
+.cropnote{font-size:12px;color:var(--muted);margin:10px 0 0}
+.agenda{display:grid;gap:6px}
+.aday{display:grid;grid-template-columns:62px 38px 1fr;gap:10px;align-items:center;padding:8px 10px;border-radius:12px;background:var(--panel2)}
+.aday .dn{font-weight:700;font-size:14px;line-height:1.15}
+.aday .dn small{display:block;font-weight:500;color:var(--muted);font-size:11.5px}
+.aday svg.ic{width:36px;height:36px}
+.acts{display:flex;flex-wrap:wrap;gap:5px}
+.act{font-size:11.5px;font-weight:700;padding:3px 8px;border-radius:999px;background:color-mix(in srgb,var(--c) 18%,transparent);color:var(--c);border:1px solid color-mix(in srgb,var(--c) 40%,transparent)}
+.act.good{--c:var(--ok)} .act.mid{--c:var(--warn)} .act.bad{--c:var(--danger)} .act.info{--c:var(--accent)}
+
+/* ===== notícias ===== */
+.nfilters{display:flex;gap:6px;overflow-x:auto;padding-bottom:8px;scrollbar-width:none}
+.nfilters::-webkit-scrollbar{display:none}
+.nlist{display:grid;gap:10px}
+@media (min-width:760px){.nlist{grid-template-columns:1fr 1fr}}
+.ncard{display:grid;grid-template-columns:1fr 96px;gap:12px;align-items:start;text-align:left;width:100%;border:1px solid var(--line);background:var(--panel2);border-radius:14px;padding:12px;color:var(--fg)}
+.ncard.noimg{grid-template-columns:1fr}
+.ncard img{width:96px;height:96px;object-fit:cover;border-radius:10px;background:var(--line)}
+.ncard .meta{display:flex;gap:6px;flex-wrap:wrap;align-items:center;font-size:11.5px;color:var(--muted);margin-bottom:4px}
+.ncard .tag{font-weight:800;letter-spacing:.05em;text-transform:uppercase;font-size:10px;padding:2px 6px;border-radius:5px;background:color-mix(in srgb,var(--c) 20%,transparent);color:var(--c)}
+.ncard .tag.t-tempo{--c:var(--accent)} .ncard .tag.t-agro{--c:var(--ok)} .ncard .tag.t-alerta{--c:var(--orange)} .ncard .tag.t-regiao{--c:var(--storm)}
+.ncard h3{margin:0;font-size:15.5px;line-height:1.3;text-wrap:pretty}
+.ncard p{margin:4px 0 0;font-size:13px;color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.nempty{padding:20px;text-align:center;color:var(--muted)}
+
+.reader{position:fixed;inset:0;z-index:960;background:var(--bg);overflow-y:auto;overscroll-behavior:contain;animation:fade .15s}
+.rd-top{position:sticky;top:0;z-index:2;display:flex;gap:8px;align-items:center;padding:calc(env(safe-area-inset-top,0px) + 8px) 12px 8px;background:var(--glass);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.rd-src{flex:1;min-width:0;font-weight:700;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rd-body{max-width:720px;margin:0 auto;padding:18px 18px calc(40px + env(safe-area-inset-bottom,0px));font-size:var(--rd-size,17px);line-height:1.65}
+.rd-body h1{font-family:var(--f-body);font-size:1.55em;line-height:1.2;margin:0 0 8px;text-wrap:balance}
+.rd-body .rd-meta{color:var(--muted);font-size:13px;margin-bottom:14px}
+.rd-body img{max-width:100%;height:auto;border-radius:12px;display:block;margin:12px auto}
+.rd-body figure{margin:14px 0}
+.rd-body figcaption{font-size:12.5px;color:var(--muted);text-align:center}
+.rd-body h2,.rd-body h3{line-height:1.25;margin:1.3em 0 .4em}
+.rd-body blockquote{margin:1em 0;padding:4px 14px;border-left:4px solid var(--accent);color:var(--muted)}
+.rd-body table{display:block;overflow-x:auto;border-collapse:collapse;font-size:14px}
+.rd-body td,.rd-body th{border:1px solid var(--line);padding:4px 8px}
+.rd-body iframe,.rd-body video,.rd-body script,.rd-body style{display:none}
+.rd-foot{margin-top:28px;padding-top:14px;border-top:1px solid var(--line);font-size:13px;color:var(--muted);display:grid;gap:10px}
+.rd-more{display:grid;gap:8px;margin-top:18px}
 /* layout largo: Agora em duas colunas */
 .agora-top{display:grid;gap:14px;grid-template-columns:minmax(0,1fr)}
 .agora-top>.left{display:grid;gap:14px;min-width:0}
@@ -440,6 +515,7 @@ footer{font-size:12px;color:var(--muted);display:grid;gap:4px;padding:18px 2px 0
   <button data-view="graficos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="m7 15 4-5 3 3 5-7"/></svg>Gráficos</button>
   <button data-view="dias"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>14 dias</button>
   <button data-view="campo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21V11"/><path d="M12 11C12 7 9 4 4 4c0 4 3 7 8 7zM12 14c0-3 3-6 8-6 0 3-3 6-8 6z"/></svg>Campo</button>
+  <button data-view="noticias"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5h12v14H6a2 2 0 0 1-2-2z"/><path d="M16 9h4v8a2 2 0 0 1-2 2h-2"/><path d="M7.5 9h5M7.5 12.5h5M7.5 16h3"/></svg>Notícias</button>
   <button data-view="local"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>Local</button>
 </nav>
 
@@ -586,6 +662,15 @@ footer{font-size:12px;color:var(--muted);display:grid;gap:4px;padding:18px 2px 0
   <!-- ================= CAMPO ================= -->
   <section class="view" id="v-campo" data-view="campo" hidden>
     <div class="panel">
+      <header><h2>Minha lavoura</h2><small>Escolha a cultura</small></header>
+      <div class="crops" id="crops" role="tablist" aria-label="Cultura"></div>
+      <div id="cropBody"></div>
+    </div>
+    <div class="panel">
+      <header><h2>Agenda de trabalho · 7 dias</h2><small id="agendaCrop"></small></header>
+      <div class="agenda" id="agenda"></div>
+    </div>
+    <div class="panel">
       <header><h2>Janela de pulverização</h2><small>48 h</small></header>
       <div id="agroWindow"></div>
     </div>
@@ -599,19 +684,39 @@ footer{font-size:12px;color:var(--muted);display:grid;gap:4px;padding:18px 2px 0
     </div>
   </section>
 
+  <!-- ================= NOTÍCIAS ================= -->
+  <section class="view" id="v-noticias" data-view="noticias" hidden>
+    <div class="panel">
+      <header><h2>Notícias de tempo e campo</h2><small id="newsUpd"></small></header>
+      <div class="nfilters" id="nfilters" role="tablist" aria-label="Filtro de notícias"></div>
+      <div class="nlist" id="nlist"><div class="sk" style="height:90px"></div><div class="sk" style="height:90px"></div><div class="sk" style="height:90px"></div></div>
+      <p class="chart-note" id="newsSrc">Fontes: MetSul Meteorologia, Canal Rural e Agência Brasil. Notícias selecionadas por assunto: tempo, clima, plantio e safra.</p>
+    </div>
+  </section>
+
   <!-- ================= LOCAL ================= -->
   <section class="view" id="v-local" data-view="local" hidden>
-    <div class="panel">
-      <header><h2>Radar e alertas no mapa</h2><small>Últimas ~2 h</small></header>
-      <div id="map"></div>
-      <div class="radar-ctl">
-        <button id="radarPlay">▶ Animar radar</button>
-        <input type="range" id="radarSlider" min="0" max="0" value="0" aria-label="Quadro do radar">
-        <span class="rt num" id="radarTime">--:--</span>
+    <div class="panel mapwrap" id="mapWrap">
+      <header><h2>Mapa do tempo</h2><button class="btn ghost small" id="mapFull">Tela cheia</button></header>
+      <div class="mapbox"><div id="map"></div>
+        <div class="maplegend" id="mapLegend"></div>
+        <button class="mapclose" id="mapClose" aria-label="Sair da tela cheia" hidden>×</button>
       </div>
-      <div class="layers">
-        <label><input type="checkbox" id="lyrRadar" checked> Radar de chuva</label>
-        <label><input type="checkbox" id="lyrAlerts" checked> Áreas de aviso do INMET</label>
+      <div class="mapctl">
+        <div class="seg mapmode" role="tablist" aria-label="O que mostrar">
+          <button data-mode="prev" aria-pressed="true">Previsão 24 h</button>
+          <button data-mode="radar" aria-pressed="false">Radar agora</button>
+        </div>
+        <div class="radar-ctl">
+          <button id="radarPlay" aria-label="Animar">▶</button>
+          <input type="range" id="radarSlider" min="0" max="0" value="0" aria-label="Momento no mapa">
+          <span class="rt num" id="radarTime">--:--</span>
+        </div>
+        <div class="layers">
+          <label><input type="checkbox" id="lyrSat"> Satélite (nuvens)</label>
+          <label><input type="checkbox" id="lyrWind" checked> Vento</label>
+          <label><input type="checkbox" id="lyrAlerts" checked> Avisos do INMET</label>
+        </div>
       </div>
     </div>
 
@@ -641,6 +746,13 @@ footer{font-size:12px;color:var(--muted);display:grid;gap:4px;padding:18px 2px 0
 
 <div class="toast" id="toast" hidden></div>
 <div class="updbar" id="updBar" hidden><span>Nova versão do app disponível</span><button id="updBtn">Atualizar</button></div>
+<div class="reader" id="reader" hidden role="dialog" aria-modal="true" aria-labelledby="rdTitle">
+  <div class="rd-top"><button class="iconbtn" id="rdBack" aria-label="Voltar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <span class="rd-src" id="rdSrc"></span>
+    <button class="iconbtn" id="rdText" aria-label="Tamanho do texto"><b style="font-size:15px">Aa</b></button>
+    <button class="iconbtn" id="rdShare" aria-label="Compartilhar notícia"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="M8.2 10.8l7.6-4.4M8.2 13.2l7.6 4.4"/></svg></button></div>
+  <article class="rd-body" id="rdBody"></article>
+</div>
 <div class="sheet-bg" id="sheetBg" hidden><div class="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle">
   <div class="grip"></div><button class="x" id="sheetX" aria-label="Fechar">×</button>
   <div id="sheetBody"></div>
@@ -673,7 +785,7 @@ function setStatus(txt, mode=""){ $("#statusText").textContent = txt; $("#status
 let toastT; function toast(msg){ const t=$("#toast"); t.textContent=msg; t.hidden=false; clearTimeout(toastT); toastT=setTimeout(()=>t.hidden=true,3500); }
 
 /* Busca JSON/texto; se o servidor oficial bloquear o navegador (CORS), tenta por um intermediário público */
-const PROXIES = [u=>`https://corsproxy.io/?url=${encodeURIComponent(u)}`, u=>`https://api.allorigins.win/raw?url=${encodeURIComponent(u)}`];
+const PROXIES = [u=>`https://corsproxy.io/?url=${encodeURIComponent(u)}`, u=>`https://api.allorigins.win/raw?url=${encodeURIComponent(u)}`, u=>`https://api.codetabs.com/v1/proxy/?quest=${encodeURIComponent(u)}`];
 async function getData(url, {type="json", proxy=false, timeout=15000}={}){
   const attempt = async u => {
     const ctl = new AbortController(); const tm = setTimeout(()=>ctl.abort(), timeout);
@@ -769,6 +881,7 @@ function showView(v){
   window.scrollTo({top:0,behavior:"instant"});
   if(v==="graficos"){ renderChart(); renderModels(); }
   if(v==="local"){ ensureMap(); setTimeout(()=>state.map && state.map.invalidateSize(),60); }
+  if(v==="noticias") loadNews();
 }
 $$(".nav button").forEach(b => b.addEventListener("click", ()=>showView(b.dataset.view)));
 window.addEventListener("scroll", ()=>$("#top").classList.toggle("scrolled", scrollY>4), {passive:true});
@@ -1242,7 +1355,7 @@ function renderWeather(){
 
   renderWind(c); renderTimeline(i); renderAlerts(); renderDays(); renderSummary(); renderAgro(); renderMoonCal(); renderSun();
   renderPreview(); updateBarNotification();
-  renderNowcast(); renderDaySum(); renderFavs(); setFx();
+  renderNowcast(); renderDaySum(); renderFavs(); setFx(); renderCropChips(); renderCrop(); renderAgenda();
   if(state.view==="graficos") renderChart();
 }
 
@@ -1484,48 +1597,138 @@ function renderLinks(){
   $("#copySms").onclick = async ()=>{ try{ await navigator.clipboard.writeText("40199"); toast("Número 40199 copiado."); }catch(e){ toast("Número: 40199"); } };
 }
 
+/* =============== MAPA: previsão em grade, radar, satélite, vento e avisos =============== */
+const MAP = {mode:"prev", grid:null, cells:null, winds:null, idx:0, timer:null, sat:null, satLvl:0, base:null, ref:null};
+const PCOL = [[0.1,"#9be7ff"],[0.5,"#4fb8ff"],[1.5,"#2f7bff"],[3,"#2ecc71"],[6,"#f5d020"],[10,"#ff9340"],[20,"#ff4d5e"],[40,"#b36bff"]];
+const pcol = mm => { let c=null; for(const [v,col] of PCOL) if(mm>=v) c=col; return c; };
+function setBase(){
+  if(!state.map) return;
+  const light = document.documentElement.dataset.theme==="light", t = light ? "Light_Gray" : "Dark_Gray";
+  if(MAP.base) state.map.removeLayer(MAP.base); if(MAP.ref) state.map.removeLayer(MAP.ref);
+  MAP.base = L.tileLayer(`https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_${t}_Base/MapServer/tile/{z}/{y}/{x}`,{maxZoom:16,attribution:"Esri · RainViewer · NASA GIBS · Open-Meteo"}).addTo(state.map);
+  MAP.ref = L.tileLayer(`https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_${t}_Reference/MapServer/tile/{z}/{y}/{x}`,{maxZoom:16,zIndex:30,pane:"overlayPane"}).addTo(state.map);
+  MAP.base.bringToBack();
+}
 function ensureMap(){
   if(state.map || !state.loc) return;
   if(typeof L==="undefined"){ $("#map").innerHTML=`<p class="muted" style="padding:16px">Mapa indisponível sem internet.</p>`; return; }
-  state.map = L.map("map",{zoomControl:true}).setView([state.loc.lat,state.loc.lon],7);
-  L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}",{maxZoom:16,attribution:"Esri"}).addTo(state.map);
-  L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}",{maxZoom:16,zIndex:20,pane:"overlayPane"}).addTo(state.map);
-  state.marker = L.marker([state.loc.lat,state.loc.lon],{icon:L.divIcon({className:"",html:'<div class="me-dot"></div>',iconSize:[16,16],iconAnchor:[8,8]})}).addTo(state.map);
-  loadRadar(); drawAlertAreas();
+  $("#map").style.height = $("#map").style.height || "";
+  state.map = L.map("map",{zoomControl:true}).setView([state.loc.lat,state.loc.lon],8);
+  setBase();
+  state.marker = L.marker([state.loc.lat,state.loc.lon],{zIndexOffset:1000,icon:L.divIcon({className:"",html:'<div class="me-dot"></div>',iconSize:[16,16],iconAnchor:[8,8]})}).addTo(state.map);
+  loadRadar(); loadGrid(); drawAlertAreas(); setMapMode(MAP.mode);
 }
-function updateMap(){ state.map.setView([state.loc.lat,state.loc.lon], Math.max(6,Math.min(state.map.getZoom(),9))); state.marker.setLatLng([state.loc.lat,state.loc.lon]); loadRadar(); }
+function updateMap(){ state.map.setView([state.loc.lat,state.loc.lon], Math.max(6,Math.min(state.map.getZoom(),9))); state.marker.setLatLng([state.loc.lat,state.loc.lon]); loadRadar(); loadGrid(); }
+
+/* previsão de chuva e vento em grade (9 x 9 pontos, ~200 km) */
+async function loadGrid(){
+  if(!state.map) return;
+  const N=9, step=0.25, {lat,lon}=state.loc, pts=[];
+  for(let r=0;r<N;r++) for(let c=0;c<N;c++) pts.push({la:+(lat+(r-(N-1)/2)*step).toFixed(3), lo:+(lon+(c-(N-1)/2)*step).toFixed(3), r, c});
+  try{
+    const j = await getData(`https://api.open-meteo.com/v1/forecast?latitude=${pts.map(p=>p.la).join(",")}&longitude=${pts.map(p=>p.lo).join(",")}&hourly=precipitation,wind_speed_10m,wind_direction_10m&forecast_hours=25&timezone=auto`, {timeout:25000});
+    const arr = Array.isArray(j) ? j : [j];
+    MAP.grid = {pts, step, times: arr[0].hourly.time, hr: arr.map(x=>x.hourly)};
+    if(MAP.cells) state.map.removeLayer(MAP.cells); if(MAP.winds) state.map.removeLayer(MAP.winds);
+    MAP.cells = L.layerGroup(pts.map(p=>L.rectangle([[p.la-step/2,p.lo-step/2],[p.la+step/2,p.lo+step/2]],{stroke:false,fillOpacity:0,interactive:false}))).addTo(state.map);
+    MAP.winds = L.layerGroup(pts.map((p,k)=>({p,k})).filter(({p})=>p.r%2===0 && p.c%2===0).map(({p,k})=>{ const m = L.marker([p.la,p.lo],{interactive:false,icon:L.divIcon({className:"",html:"",iconSize:[22,22],iconAnchor:[11,11]})}); m._k=k; return m; }));
+    if($("#lyrWind").checked) MAP.winds.addTo(state.map);
+    if(MAP.mode==="prev"){ MAP.idx = 0; setMapMode("prev"); } else renderMapFrame();
+  }catch(e){ if(MAP.mode==="prev") $("#radarTime").textContent = "Previsão indisponível"; }
+}
+function renderWinds(hIdx){
+  if(!MAP.winds || !MAP.grid) return;
+  MAP.winds.eachLayer(m=>{ const h = MAP.grid.hr[m._k]; const sp = h.wind_speed_10m[hIdx], dir = h.wind_direction_10m[hIdx];
+    m.setIcon(L.divIcon({className:"",iconSize:[22,22],iconAnchor:[11,11],html:`<div class="wind-ar" style="transform:rotate(${dir+180}deg)"><svg viewBox="0 0 12 12"><path d="M6 1l3.5 9L6 8 2.5 10z" fill="currentColor"/></svg></div><span class="wind-ar" style="position:absolute;top:0;left:0"><span>${r0(sp)}</span></span>`})); });
+}
+function renderMapFrame(){
+  const R = state.radar, G = MAP.grid;
+  if(MAP.mode==="prev"){
+    if(R) R.layers.forEach(l=>l.setOpacity(0));
+    if(!G) return;
+    const i = Math.min(MAP.idx, G.times.length-1);
+    let k=0; MAP.cells.eachLayer(rc=>{ const mm = G.hr[k++].precipitation[i]||0, col = pcol(mm); rc.setStyle({fillColor:col||"#000", fillOpacity: col ? .5 : 0}); });
+    renderWinds(i);
+    $("#radarTime").textContent = whenTxt(G.times[i]);
+  } else {
+    if(MAP.cells) MAP.cells.eachLayer(rc=>rc.setStyle({fillOpacity:0}));
+    if(G) renderWinds(0);
+    if(!R || !R.frames.length){ $("#radarTime").textContent = "Radar indisponível"; return; }
+    const n = Math.min(MAP.idx, R.frames.length-1);
+    R.layers.forEach((l,i)=>l.setOpacity(i===n?.8:0));
+    const f = R.frames[n], t = new Date(f.time*1000).toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"});
+    $("#radarTime").textContent = t + (f.nowcast ? " · previsão" : n===R.pastCount-1 ? " · último" : "");
+  }
+  $("#radarSlider").value = MAP.idx;
+}
+function mapLegend(){
+  const el = $("#mapLegend");
+  if(MAP.mode==="prev") el.innerHTML = `<b>Chuva mm/h</b>` + [[0.1,"fraca"],[1.5,""],[6,"forte"],[20,""],[40,"extrema"]].map(([v,l])=>`<span><i style="background:${pcol(v)}"></i>${l||v}</span>`).join("");
+  else el.innerHTML = `<b>Radar</b><span><i style="background:#88ddee"></i>fraca</span><span><i style="background:#0099cc"></i></span><span><i style="background:#ffee00"></i></span><span><i style="background:#ff4400"></i>forte</span>`;
+}
+function setMapMode(m){
+  MAP.mode = m; stopMapAnim();
+  $$(".mapmode button").forEach(b=>b.setAttribute("aria-pressed", b.dataset.mode===m));
+  if(m==="prev"){ const G = MAP.grid; $("#radarSlider").max = G ? G.times.length-1 : 0; MAP.idx = 0; }
+  else { const R = state.radar; $("#radarSlider").max = R ? Math.max(0,R.frames.length-1) : 0; MAP.idx = R ? Math.max(0,R.pastCount-1) : 0; }
+  mapLegend(); renderMapFrame();
+}
+$$(".mapmode button").forEach(b=>b.addEventListener("click", ()=>setMapMode(b.dataset.mode)));
+async function loadRadar(){
+  try{ const j = await getData("https://api.rainviewer.com/public/weather-maps.json");
+    const past = (j.radar&&j.radar.past)||[], now = ((j.radar&&j.radar.nowcast)||[]).map(f=>({...f,nowcast:true})), fr = past.concat(now);
+    if(state.radar) state.radar.layers.forEach(l=>state.map.removeLayer(l));
+    state.radar = {frames:fr, pastCount:past.length, layers:fr.map(f=>L.tileLayer(`${j.host}${f.path}/256/{z}/{x}/{y}/2/1_1.png`,{opacity:0,maxNativeZoom:7,maxZoom:16,zIndex:10}))};
+    state.radar.layers.forEach(l=>l.addTo(state.map));
+    if(MAP.mode==="radar") setMapMode("radar"); else renderMapFrame();
+  }catch(e){ if(MAP.mode==="radar") $("#radarTime").textContent="Radar indisponível"; }
+}
+function stopMapAnim(){ clearInterval(MAP.timer); MAP.timer=null; $("#radarPlay").textContent="▶"; $("#radarPlay").setAttribute("aria-label","Animar"); }
+$("#radarSlider").addEventListener("input", e=>{ MAP.idx = +e.target.value; renderMapFrame(); });
+$("#radarPlay").addEventListener("click", ()=>{
+  if(MAP.timer){ stopMapAnim(); return; }
+  const max = +$("#radarSlider").max; if(!max) return;
+  $("#radarPlay").textContent="❚❚"; $("#radarPlay").setAttribute("aria-label","Pausar");
+  MAP.timer = setInterval(()=>{ MAP.idx = (MAP.idx+1) % (max+1); renderMapFrame(); }, MAP.mode==="prev" ? 700 : 600);
+});
+/* satélite de nuvens (NASA GIBS, GOES-East infravermelho) */
+const SAT_LVLS = [6,7,5];
+function satLayer(){
+  const lvl = SAT_LVLS[MAP.satLvl];
+  const l = L.tileLayer(`https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/GOES-East_ABI_Band13_Clean_Infrared/default/default/GoogleMapsCompatible_Level${lvl}/{z}/{y}/{x}.png`,{maxNativeZoom:lvl,maxZoom:16,opacity:.65,zIndex:5});
+  let errs = 0; l.on("tileerror", ()=>{ if(++errs===4 && MAP.satLvl < SAT_LVLS.length-1){ MAP.satLvl++; state.map.removeLayer(l); MAP.sat = satLayer().addTo(state.map); } });
+  return l;
+}
+$("#lyrSat").addEventListener("change", e=>{ if(!state.map) return; if(e.target.checked){ MAP.sat = satLayer().addTo(state.map); } else if(MAP.sat){ state.map.removeLayer(MAP.sat); MAP.sat=null; } });
+$("#lyrWind").addEventListener("change", e=>{ if(!state.map || !MAP.winds) return; e.target.checked ? MAP.winds.addTo(state.map) : state.map.removeLayer(MAP.winds); });
 function drawAlertAreas(){
   if(!state.map) return;
   if(state.alertLayer) state.map.removeLayer(state.alertLayer);
   const feats = (state.inmetAll||[]).filter(a=>a.geo).map(a=>({type:"Feature",geometry:a.geo,properties:a}));
   state.alertLayer = L.geoJSON({type:"FeatureCollection",features:feats},{
-    style:f=>({color:CV(SEV_COLOR[f.properties.sev].replace(/var\(|\)/g,"")),weight:1.5,fillOpacity:.18}),
+    style:f=>({color:CV(SEV_COLOR[f.properties.sev].replace(/var\(|\)/g,"")),weight:1.5,fillOpacity:.12}),
     onEachFeature:(f,l)=>l.bindPopup(`<b>${esc(f.properties.title)}</b><br>${esc(f.properties.sevTxt)}<br>${f.properties.end?"até "+fmtDT(f.properties.end):""}`)
   });
   if($("#lyrAlerts").checked) state.alertLayer.addTo(state.map);
 }
 $("#lyrAlerts").addEventListener("change",e=>{ if(!state.alertLayer) return; e.target.checked?state.alertLayer.addTo(state.map):state.map.removeLayer(state.alertLayer); });
-$("#lyrRadar").addEventListener("change",()=>state.radar && showFrame(state.radar.idx));
-async function loadRadar(){
-  try{ const j=await getData("https://api.rainviewer.com/public/weather-maps.json"); const fr=(j.radar&&j.radar.past)||[];
-    if(state.radar){ clearInterval(state.radar.timer); state.radar.layers.forEach(l=>state.map.removeLayer(l)); $("#radarPlay").textContent="▶ Animar radar"; }
-    state.radar={frames:fr,layers:fr.map(f=>L.tileLayer(`${j.host}${f.path}/256/{z}/{x}/{y}/2/1_1.png`,{opacity:0,maxNativeZoom:7,maxZoom:16,zIndex:10})),idx:fr.length-1,timer:null};
-    state.radar.layers.forEach(l=>l.addTo(state.map)); $("#radarSlider").max=Math.max(0,fr.length-1); showFrame(state.radar.idx);
-  }catch(e){ $("#radarTime").textContent="Radar indisponível"; }
+/* tela cheia */
+function mapFull(on){
+  const w = $("#mapWrap");
+  if(on===w.classList.contains("full")) return;
+  w.classList.toggle("full", on); document.body.classList.toggle("lock", on); $("#mapClose").hidden = !on;
+  setTimeout(()=>state.map && state.map.invalidateSize(), 60);
+  if(on) pushOverlay("map", ()=>mapFull(false)); else popOverlay("map");
 }
-function showFrame(n){ const R=state.radar; if(!R||!R.frames.length) return; const on=$("#lyrRadar").checked;
-  R.layers.forEach((l,i)=>l.setOpacity(on&&i===n?.75:0)); R.idx=n; $("#radarSlider").value=n;
-  $("#radarTime").textContent=new Date(R.frames[n].time*1000).toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})+(n===R.frames.length-1?" · último":""); }
-$("#radarSlider").addEventListener("input",e=>showFrame(+e.target.value));
-$("#radarPlay").addEventListener("click",()=>{ const R=state.radar; if(!R) return; if(R.timer){clearInterval(R.timer);R.timer=null;$("#radarPlay").textContent="▶ Animar radar";return;}
-  $("#radarPlay").textContent="❚❚ Pausar"; R.timer=setInterval(()=>showFrame((R.idx+1)%R.frames.length),650); });
+$("#mapFull").addEventListener("click", ()=>{ ensureMap(); mapFull(true); });
+$("#mapClose").addEventListener("click", ()=>mapFull(false));
 
 /* =============== AJUSTES E TEMA =============== */
 const settings = Object.assign({theme:"auto", fx:true}, store.get("wx_settings")||{});
 const mqLight = window.matchMedia ? matchMedia("(prefers-color-scheme: light)") : null;
 function applyTheme(){
   const t = settings.theme==="auto" ? (mqLight && mqLight.matches ? "light" : "dark") : settings.theme;
-  document.documentElement.dataset.theme = t;
+  document.documentElement.dataset.theme = t; setBase();
   if(state.data){ renderWeather(); if(state.view==="graficos"){ renderChart(); renderModels(); } }
 }
 if(mqLight && mqLight.addEventListener) mqLight.addEventListener("change", ()=>{ if(settings.theme==="auto") applyTheme(); });
@@ -1535,13 +1738,15 @@ function saveSettings(){ store.set("wx_settings", settings); }
 let sheetReturn = null;
 function openSheet(html){
   sheetReturn = document.activeElement;
+  const was = $("#sheetBg").hidden;
   $("#sheetBody").innerHTML = html; $("#sheetBg").hidden = false;
+  if(was) pushOverlay("sheet", fb=>closeSheet(fb));
   setTimeout(()=>$("#sheetX").focus(), 30);
 }
-function closeSheet(){ $("#sheetBg").hidden = true; if(sheetReturn && sheetReturn.focus) sheetReturn.focus(); }
-$("#sheetX").addEventListener("click", closeSheet);
+function closeSheet(fromBack){ if($("#sheetBg").hidden) return; $("#sheetBg").hidden = true; if(!fromBack) popOverlay("sheet"); if(sheetReturn && sheetReturn.focus) sheetReturn.focus(); }
+$("#sheetX").addEventListener("click", ()=>closeSheet());
 $("#sheetBg").addEventListener("click", e=>{ if(e.target.id==="sheetBg") closeSheet(); });
-document.addEventListener("keydown", e=>{ if(e.key==="Escape" && !$("#sheetBg").hidden) closeSheet(); });
+document.addEventListener("keydown", e=>{ if(e.key!=="Escape") return; if(!$("#sheetBg").hidden) closeSheet(); else if(!$("#reader").hidden) closeArticle(); else if($("#mapWrap").classList.contains("full")) mapFull(false); });
 
 function openSettings(){
   const segBtn = (v,l) => `<button data-theme-set="${v}" aria-pressed="${settings.theme===v}">${l}</button>`;
@@ -1669,7 +1874,7 @@ $("#btnFav").addEventListener("click", ()=>{
   addEventListener("touchstart", e=>{ if(scrollY<=0 && $("#sheetBg").hidden && !e.target.closest(".timeline,.spray,#map,.tabs,.cscroll,.favs,.results")){ y0=e.touches[0].clientY; dy=0; } }, {passive:true});
   addEventListener("touchmove", e=>{ if(y0==null) return; dy=e.touches[0].clientY-y0; if(dy>0 && scrollY<=0){ const d=Math.min(dy*.5,90); ptr.style.transform=`translate(-50%,${d}px)`; ptr.style.opacity=Math.min(1,d/50); ptr.textContent = d>=60 ? "Solte para atualizar" : "Puxe para atualizar"; } }, {passive:true});
   addEventListener("touchend", ()=>{ if(y0==null) return; const d=Math.min(dy*.5,90); y0=null; ptr.style.transform=""; ptr.style.opacity=0;
-    if(d>=60){ refreshIfStale(true); toast("Atualizando…"); try{ navigator.vibrate && navigator.vibrate(12); }catch(e){} } });
+    if(d>=60){ if(state.view==="noticias") loadNews(true); else refreshIfStale(true); toast("Atualizando…"); try{ navigator.vibrate && navigator.vibrate(12); }catch(e){} } });
 })();
 
 /* =============== AVISO DE NOVA VERSÃO =============== */
@@ -1775,6 +1980,289 @@ $("#btnShareImg").addEventListener("click", shareImage);
 
 applyTheme();
 
+/* =============== BOTÃO VOLTAR DO CELULAR fecha telas abertas =============== */
+const overlays = []; let skipPop = 0;
+function pushOverlay(name, close){ overlays.push({name, close}); try{ history.pushState({ov:name}, ""); }catch(e){} }
+function popOverlay(name){ const i = overlays.findIndex(o=>o.name===name); if(i<0) return; overlays.splice(i,1); skipPop++; try{ history.back(); }catch(e){ skipPop--; } }
+addEventListener("popstate", ()=>{ if(skipPop>0){ skipPop--; return; } const o = overlays.pop(); if(o) o.close(true); });
+
+/* =============== CULTURAS =============== */
+const CROPS = {
+  soja:  {n:"Soja", soil:[15,20], frost:2, heat:35, kc:1.15, harvest:true,
+          dis:[{n:"Ferrugem asiática", wet:8, t:[15,28], tip:"Folhas molhadas por muitas horas com temperatura amena favorecem a ferrugem. Monitore folhas do terço inferior e siga o calendário de fungicida."},
+               {n:"Mofo-branco", wet:12, t:[12,22], tip:"Tempo úmido e fresco na floração favorece o mofo-branco. Atenção em áreas com histórico da doença."}],
+          heatTip:"Calor acima de 35 °C na floração causa abortamento de flores e vagens."},
+  milho: {n:"Milho", soil:[10,16], frost:1, heat:35, kc:1.2, harvest:true,
+          dis:[{n:"Cercosporiose e mancha-branca", wet:10, t:[22,30], tip:"Umidade alta com calor favorece manchas foliares. Vistorie folhas acima da espiga."}],
+          heatTip:"Calor acima de 35 °C no pendoamento prejudica a polinização e o enchimento de grãos."},
+  trigo: {n:"Trigo", soil:[8,12], frost:2, heat:30, kc:1.15, harvest:true,
+          dis:[{n:"Giberela", wetTotal:36, t:[20,28], tip:"Chuva e umidade por mais de 36 horas com 20 a 28 °C na floração favorecem a giberela. Proteja as espigas antes da chuva."},
+               {n:"Brusone", wet:10, t:[23,30], tip:"Noites quentes e úmidas favorecem a brusone no espigamento."}],
+          heatTip:"Calor acima de 30 °C na floração reduz o número de grãos.", frostTip:"Geada no espigamento e na floração pode esterilizar as espigas."},
+  arroz: {n:"Arroz", soil:[15,20], frost:3, heat:35, kc:1.2, harvest:true, cold:15,
+          dis:[{n:"Brusone", wet:10, t:[20,28], tip:"Folhas molhadas por mais de 10 horas com 20 a 28 °C favorecem a brusone. Evite excesso de nitrogênio."}],
+          heatTip:"Calor extremo na floração causa esterilidade.", coldTip:"Temperaturas abaixo de 15 °C no emborrachamento causam esterilidade das espiguetas."},
+  feijao:{n:"Feijão", soil:[15,20], frost:3, heat:30, kc:1.15, harvest:true,
+          dis:[{n:"Antracnose", wet:10, t:[13,26], tip:"Tempo úmido e fresco favorece a antracnose. Use sementes sadias e monitore vagens."}],
+          heatTip:"Calor acima de 30 °C na floração derruba flores."},
+  fumo:  {n:"Fumo", soil:[15,18], frost:3, heat:35, kc:1.1, harvest:true,
+          dis:[{n:"Mofo-azul", wet:10, t:[15,23], tip:"Noites frescas e úmidas favorecem o mofo-azul nos canteiros e na lavoura."}],
+          heatTip:"Calor forte com solo seco causa murcha e queima das folhas."},
+  hort:  {n:"Hortaliças", soil:[12,18], frost:3, heat:32, kc:1.05, harvest:false, smith:true,
+          dis:[{n:"Requeima (tomate e batata)", smith:true, tip:"Dois dias seguidos com mínima acima de 10 °C e mais de 11 horas de umidade muito alta formam o período crítico da requeima."}],
+          heatTip:"Calor forte queima folhas e derruba flores; irrigue no início da manhã."},
+  cafe:  {n:"Café", soil:[15,18], frost:3, heat:34, kc:1.05, harvest:true,
+          dis:[{n:"Ferrugem do cafeeiro", wet:6, t:[21,25], tip:"Folhas molhadas por mais de 6 horas com 21 a 25 °C favorecem a ferrugem."}],
+          heatTip:"Calor acima de 34 °C na florada causa abortamento (estrelinhas)."},
+  cana:  {n:"Cana", soil:[15,20], frost:2, heat:38, kc:1.25, harvest:true, dis:[],
+          heatTip:"Calor extremo com solo seco reduz o crescimento."},
+  past:  {n:"Pastagem", soil:[10,15], frost:2, heat:36, kc:0.95, harvest:false, dis:[],
+          heatTip:"Calor forte aumenta o estresse dos animais: garanta sombra e água.", past:true}
+};
+let cropKey = store.get("wx_crop") || "soja";
+function renderCropChips(){
+  $("#crops").innerHTML = Object.entries(CROPS).map(([k,c])=>`<button class="crop" role="tab" data-crop="${k}" aria-selected="${k===cropKey}">${c.n}</button>`).join("");
+}
+$("#crops").addEventListener("click", e=>{ const b = e.target.closest(".crop"); if(!b) return; cropKey = b.dataset.crop; store.set("wx_crop", cropKey); renderCropChips(); renderCrop(); renderAgenda(); });
+function wetStats(from, hours){
+  const h = state.data.hourly; let run=0, runT=[], best={len:0,t:0}, total=0, totalT=[];
+  for(let i=from;i<Math.min(h.time.length, from+hours);i++){
+    const wet = h.relative_humidity_2m[i]>=90 || (h.precipitation[i]||0)>=0.1;
+    if(wet){ run++; runT.push(h.temperature_2m[i]); total++; totalT.push(h.temperature_2m[i]); if(run>best.len) best={len:run, t:sum(runT)/runT.length}; }
+    else { run=0; runT=[]; }
+  }
+  return {best, total, totalT: totalT.length ? sum(totalT)/totalT.length : 0};
+}
+function smithDays(){
+  const h = state.data.hourly, dd = state.data.daily; let streak=0, bestStreak=0;
+  dd.time.slice(0,5).forEach((day,n)=>{
+    const hrs = h.time.map((t,i)=>t.slice(0,10)===day?i:-1).filter(i=>i>=0);
+    const ok = dd.temperature_2m_min[n]>=10 && hrs.filter(i=>h.relative_humidity_2m[i]>=90).length>=11;
+    streak = ok ? streak+1 : 0; bestStreak = Math.max(bestStreak, streak);
+  });
+  return bestStreak;
+}
+function renderCrop(){
+  if(!state.data) return;
+  const c = CROPS[cropKey], d = state.data, h = d.hourly, dd = d.daily, i0 = nowIndex();
+  const soil24 = sum(h.soil_temperature_0cm.slice(i0,i0+24))/Math.max(1,h.soil_temperature_0cm.slice(i0,i0+24).length);
+  const sm = h.soil_moisture_3_to_9cm[i0];
+  const rain2 = sum(dd.precipitation_sum.slice(0,2)), rain3 = sum(dd.precipitation_sum.slice(0,3)), rain7 = sum(dd.precipitation_sum.slice(0,7));
+  const et7 = sum(dd.et0_fao_evapotranspiration.slice(0,7)), need = et7*c.kc;
+  const tminArr = dd.temperature_2m_min.slice(0,7), tmin = Math.min(...tminArr), tminDay = dd.time[tminArr.indexOf(tmin)];
+  const tmaxArr = dd.temperature_2m_max.slice(0,7), tmax = Math.max(...tmaxArr), tmaxDay = dd.time[tmaxArr.indexOf(tmax)];
+  const dayName = t => { const n = dd.time.indexOf(t); return n===0?"hoje":n===1?"amanhã":DIAS_L[parseLocal(t).getDay()].toLowerCase(); };
+  let dry=0; for(const mm of dd.precipitation_sum){ if(mm<1) dry++; else break; }
+  const cards = [];
+  // plantio
+  const plantTitle = c.past ? "Plantio e reforma de pasto" : cropKey==="cafe"||cropKey==="cana" ? "Plantio de mudas" : "Plantio e semeadura";
+  if(soil24 < c.soil[0]) cards.push(["bad",plantTitle,"Esperar",`Solo frio (${r0(soil24)} °C em média). ${c.n} precisa de solo acima de ${c.soil[0]} °C, ideal acima de ${c.soil[1]} °C.`]);
+  else if(sm < 0.18) cards.push([rain3>=10?"mid":"bad",plantTitle,rain3>=10?"Após a chuva":"Esperar", rain3>=10 ? `Solo seco agora, mas vêm ${r0(rain3)} mm em 3 dias. Plante logo depois da chuva.` : `Solo seco (${r0(sm*100)}%) e pouca chuva prevista. Espere umidade para garantir a germinação.`]);
+  else if(sm >= 0.38) cards.push(["mid",plantTitle,"Esperar drenar","Solo encharcado: risco de compactação e de atolar máquinas."]);
+  else if(Math.min(...dd.temperature_2m_min.slice(0,3)) <= c.frost) cards.push(["mid",plantTitle,"Esperar a geada",`Solo em boas condições, mas há previsão de geada nos próximos 3 dias (mínima de ${r0(Math.min(...dd.temperature_2m_min.slice(0,3)))} °C). Plante depois que o frio passar.`]);
+  else if(rain2 >= 40) cards.push(["mid",plantTitle,"Cuidado",`Chuva forte nos próximos 2 dias (${r0(rain2)} mm) pode causar erosão e arrastar sementes.`]);
+  else cards.push(["good",plantTitle,"Favorável",`Solo com ${r0(soil24)} °C e umidade de ${r0(sm*100)}%. ${soil24>=c.soil[1]?"Condição boa":"Condição aceitável"} para ${c.n.toLowerCase()}.`]);
+  // doenças
+  const w72 = wetStats(i0, 72);
+  c.dis.forEach(ds=>{
+    let lvl="good", txt;
+    if(ds.smith){ const s = smithDays(); lvl = s>=2?"bad":s===1?"mid":"good"; txt = s>=2 ? `Período crítico previsto (${s} dias seguidos). ${ds.tip}` : s===1 ? `Um dia com condição favorável. ${ds.tip}` : "Sem período crítico nos próximos 5 dias."; }
+    else if(ds.wetTotal){ const inT = w72.totalT>=ds.t[0] && w72.totalT<=ds.t[1]; lvl = w72.total>=ds.wetTotal && inT ? "bad" : w72.total>=ds.wetTotal/2 && inT ? "mid" : "good";
+      txt = lvl==="good" ? `Baixo risco: ${w72.total} h de umidade alta em 72 h.` : `${w72.total} horas de umidade alta nas próximas 72 h, média de ${r0(w72.totalT)} °C. ${ds.tip}`; }
+    else { const inT = w72.best.t>=ds.t[0] && w72.best.t<=ds.t[1]; lvl = w72.best.len>=ds.wet && inT ? "bad" : w72.best.len>=ds.wet/2 && inT ? "mid" : "good";
+      txt = lvl==="good" ? `Baixo risco: maior período de folha molhada previsto é de ${w72.best.len} h.` : `Até ${w72.best.len} horas seguidas de folha molhada com ${r0(w72.best.t)} °C. ${ds.tip}`; }
+    cards.push([lvl, ds.n, lvl==="bad"?"Risco alto":lvl==="mid"?"Atenção":"Risco baixo", txt]);
+  });
+  // frio, geada e calor
+  if(tmin <= c.frost) cards.push(["bad","Geada",`${dayName(tminDay)}`,`Mínima de ${r0(tmin)} °C ${dayName(tminDay)}. ${c.frostTip||`${c.n} sofre com geada; proteja lavouras novas e viveiros.`}`]);
+  else if(c.cold && tmin < c.cold) cards.push(["mid","Frio",dayName(tminDay),`Mínima de ${r0(tmin)} °C. ${c.coldTip}`]);
+  else cards.push(["good","Frio e geada","Sem risco",`Mínima prevista de ${r0(tmin)} °C nos próximos 7 dias.`]);
+  cards.push(tmax >= c.heat ? ["bad","Calor",dayName(tmaxDay),`Máxima de ${r0(tmax)} °C ${dayName(tmaxDay)}. ${c.heatTip}`] : ["good","Calor","Sem estresse",`Máxima prevista de ${r0(tmax)} °C, abaixo do limite de ${c.heat} °C para ${c.n.toLowerCase()}.`]);
+  // água
+  const bal = rain7 - need;
+  cards.push(bal < -15 ? ["bad","Água na lavoura","Déficit",`A lavoura deve consumir cerca de ${r0(need)} mm na semana e a chuva prevista é de ${r0(rain7)} mm. Faltam ${r0(-bal)} mm.`]
+    : bal < 0 ? ["mid","Água na lavoura","Leve déficit",`Consumo previsto de ${r0(need)} mm contra ${r0(rain7)} mm de chuva na semana.`]
+    : ["good","Água na lavoura","Suficiente",`Chuva prevista (${r0(rain7)} mm) cobre o consumo da semana (${r0(need)} mm).`]);
+  // colheita
+  if(c.harvest) cards.push(dry>=3 ? ["good","Colheita",`${dry} dias secos`,`Sequência de ${dry} dias sem chuva a partir de hoje: boa janela para colher e secar.`]
+    : dry>=1 ? ["mid","Colheita","Janela curta",`Só ${dry} dia(s) seco(s) antes da próxima chuva. Priorize as áreas prontas.`]
+    : ["bad","Colheita","Esperar","Chuva prevista para hoje: evite colher com o produto úmido."]);
+  if(c.past) cards.push([tmin<=c.frost||tmax>=c.heat?"mid":"good","Animais",tmin<=c.frost?"Frio":tmax>=c.heat?"Calor":"Tranquilo", tmin<=c.frost?"Noites de geada: ofereça abrigo e reforce a alimentação.":tmax>=c.heat?c.heatTip:"Condições confortáveis para o rebanho."]);
+  $("#cropBody").innerHTML = `<div class="cropgrid">${cards.map(([cl,t,tag,p])=>`<div class="ccard ${cl}"><h4>${t}<span>${esc(tag)}</span></h4><p>${p}</p></div>`).join("")}</div>
+    <p class="cropnote">Recomendações calculadas pela previsão para o seu local. As datas oficiais de plantio da sua região estão no Zoneamento Agrícola de Risco Climático (ZARC) do Ministério da Agricultura. Na dúvida, fale com o técnico da Emater ou da sua cooperativa.</p>`;
+}
+function renderAgenda(){
+  if(!state.data) return;
+  const c = CROPS[cropKey], d = state.data, h = d.hourly, dd = d.daily;
+  $("#agendaCrop").textContent = c.n;
+  const rows = dd.time.slice(0,7).map((day,n)=>{
+    const hrs = h.time.map((t,i)=>t.slice(0,10)===day?i:-1).filter(i=>i>=0), dayHrs = hrs.filter(i=>{ const H=+h.time[i].slice(11,13); return H>=6 && H<=19; });
+    const good = dayHrs.filter(i=>i+2<h.time.length && sprayRate(i).s===2);
+    const mm = dd.precipitation_sum[n], prev = n>0 ? dd.precipitation_sum[n-1] : 0, storm = dd.weather_code[n]>=95;
+    const rhDay = dayHrs.length ? sum(dayHrs.map(i=>h.relative_humidity_2m[i]))/dayHrs.length : 100;
+    const acts = [];
+    if(storm) acts.push(["bad","Trovoada: evite o campo"]);
+    else if(mm>=15) acts.push(["bad",`Chuva forte ${r0(mm)} mm`]);
+    else if(mm>=1) acts.push(["info",`Chuva ${r1(mm)} mm`]);
+    if(dd.temperature_2m_min[n]<=c.frost) acts.push(["bad","Geada"]);
+    if(good.length>=2) acts.push(["good",`Pulverizar ${+h.time[good[0]].slice(11,13)}h–${+h.time[good[good.length-1]].slice(11,13)+1}h`]);
+    if(c.harvest && mm<1 && prev<5 && rhDay<80 && !storm) acts.push(["good","Colher"]);
+    if(!c.past && mm<15 && !storm && dd.temperature_2m_min[n]>c.frost && dd.temperature_2m_max[n]>=c.soil[0]+8 && (n===0 ? h.soil_moisture_3_to_9cm[nowIndex()]>=0.18 : prev>=3 || h.soil_moisture_3_to_9cm[nowIndex()]>=0.2)) acts.push(["good","Plantar"]);
+    if(!acts.length) acts.push(["mid","Dia de manutenção"]);
+    const dt = parseLocal(day);
+    return `<div class="aday"><div class="dn">${n===0?"Hoje":n===1?"Amanhã":DIAS[dt.getDay()]}<small>${dt.getDate()}/${dt.getMonth()+1}</small></div>${icon(dd.weather_code[n],1,{gust:dd.wind_gusts_10m_max[n]})}<div class="acts">${acts.map(([cl,t])=>`<span class="act ${cl}">${t}</span>`).join("")}</div></div>`;
+  });
+  $("#agenda").innerHTML = rows.join("");
+}
+
+/* =============== NOTÍCIAS =============== */
+const NEWS_SRC = [
+  {name:"MetSul Meteorologia", url:"https://metsul.com/feed/", mode:"all"},
+  {name:"Canal Rural", url:"https://www.canalrural.com.br/feed/", mode:"topic"},
+  {name:"Canal Rural", url:"https://www.canalrural.com.br/agricultura/feed/", mode:"topic"},
+  {name:"Agência Brasil", url:"https://agenciabrasil.ebc.com.br/rss/geral/feed.xml", mode:"strict"}
+];
+const K_TEMPO = /chuv|clima|frio|calor|geada|temporal|tempestade|granizo|ventania|vendaval|ciclone|frente fria|seca\b|estiagem|enchente|cheia|inunda|alagamento|previs[aã]o|meteorolog|el ni[nñ]o|la ni[nñ]a|onda de|neblina|nevoeiro|temperatura|inmet|defesa civil|massa de ar|umidade/i;
+const K_TEMPO_STRONG = /chuva|frio intenso|onda de (calor|frio)|geada|temporal|tempestade|granizo|ventania|vendaval|ciclone|frente fria|estiagem|enchente|inunda|alagamento|previs[aã]o do tempo|meteorolog|el ni[nñ]o|la ni[nñ]a|inmet|defesa civil/i;
+const K_AGRO = /plantio|semeadura|colheita|safra|lavoura|soja|milho|trigo|arroz|feij[aã]o|caf[eé]\b|cana|algod[aã]o|fumo|tabaco|pastagem|irriga|praga|doen[cç]a|ferrugem|zoneamento|zarc|embrapa|emater|agricultor|produtor rural|hortali|fruticult|videira|lavouras|cultivo|cultura de|grãos|gr[aã]os/i;
+const K_AGRO_STRONG = /plantio|semeadura|colheita|safra|lavoura|agricultor|produtor rural|embrapa|zoneamento agr/i;
+const K_ALERTA = /alerta|aviso|temporal|tempestade|granizo|ciclone|enchente|cheia|inunda|alagamento|defesa civil|ventania|vendaval|risco de/i;
+const GENT = {RS:"ga[uú]ch",SC:"catarinense",PR:"paranaense",SP:"paulista",MG:"mineir",RJ:"fluminense",GO:"goian",MT:"mato-grossense",MS:"sul-mato-grossense",BA:"baian",PE:"pernambucan",CE:"cearense",PA:"paraense",TO:"tocantinense",MA:"maranhense",PI:"piauiense",ES:"capixaba",DF:"brasiliense",RO:"rondoniense",AM:"amazonense"};
+const news = {items:[], t:0, filter:"tudo", loading:false};
+try{ const c = JSON.parse(localStorage.getItem("wx_news")||"null"); if(c && c.items){ news.items = c.items; news.t = c.t; } }catch(e){}
+const stripHtml = h => { const d = new DOMParser().parseFromString(`<body>${h||""}`, "text/html"); return (d.body.textContent||"").replace(/\s+/g," ").trim(); };
+function regionRe(){
+  const l = state.loc; if(!l) return null; const parts = [];
+  if(l.state) parts.push(norm(l.state).replace(/[.*+?^${}()|[\]\\]/g,"\\$&"));
+  if(l.name) parts.push(norm(l.name).replace(/[.*+?^${}()|[\]\\]/g,"\\$&"));
+  if(l.uf && GENT[l.uf]) parts.push(GENT[l.uf]);
+  return parts.length ? new RegExp(`(^|[^a-z])(${parts.join("|")})`, "i") : null;
+}
+function parseFeed(xml, src){
+  const doc = new DOMParser().parseFromString(xml, "application/xml"), out = [];
+  doc.querySelectorAll("item").forEach(it=>{
+    const g = n => { const e = it.getElementsByTagName(n)[0]; return e ? e.textContent.trim() : ""; };
+    const enc = it.getElementsByTagNameNS("*","encoded")[0], content = enc ? enc.textContent : "";
+    const desc = g("description");
+    let img = "";
+    const mc = it.getElementsByTagNameNS("*","content")[0] || it.getElementsByTagNameNS("*","thumbnail")[0];
+    if(mc && mc.getAttribute("url")) img = mc.getAttribute("url");
+    const encl = it.getElementsByTagName("enclosure")[0]; if(!img && encl && /image/.test(encl.getAttribute("type")||"")) img = encl.getAttribute("url");
+    if(!img) img = g("imagem-destaque");
+    if(!img){ const m = (content+desc).match(/<img[^>]+(?:data-src|src)=["']([^"']+)["']/i); if(m) img = m[1]; }
+    const title = stripHtml(g("title")), link = g("link"), summary = stripHtml(desc).replace(/The post .*$|O post .* apareceu primeiro em.*$/i,"").slice(0,280);
+    const date = new Date(g("pubDate") || g("dc:date") || Date.now());
+    if(!title || !link) return;
+    const text = `${title} ${summary}`;
+    if(src.mode==="topic" && !(K_TEMPO.test(text) || K_AGRO.test(text))) return;
+    if(src.mode==="strict" && !(K_TEMPO_STRONG.test(title) || K_AGRO_STRONG.test(title))) return;
+    const cats = [];
+    if(K_ALERTA.test(title)) cats.push("alerta");
+    if(src.mode==="all" || K_TEMPO.test(text)) cats.push("tempo");
+    if(K_AGRO.test(text)) cats.push("agro");
+    out.push({title, link, summary, content, img, date:date.getTime(), src:src.name, cats});
+  });
+  return out;
+}
+async function loadNews(force=false){
+  if(news.loading) return;
+  if(!force && news.items.length && Date.now()-news.t < 30*60*1000){ renderNews(); return; }
+  news.loading = true; if(!news.items.length) renderNews();
+  const res = await Promise.allSettled(NEWS_SRC.map(s=>getData(s.url,{type:"text",proxy:true,timeout:15000}).then(x=>parseFeed(x,s))));
+  const all = res.filter(r=>r.status==="fulfilled").flatMap(r=>r.value);
+  news.loading = false;
+  if(all.length){
+    const seen = new Set(), items = [];
+    all.sort((a,b)=>b.date-a.date).forEach(it=>{ const k = norm(it.title).slice(0,60); if(seen.has(it.link)||seen.has(k)) return; seen.add(it.link); seen.add(k); items.push(it); });
+    news.items = items.slice(0,40); news.t = Date.now();
+    const save = n => { try{ localStorage.setItem("wx_news", JSON.stringify({t:news.t, items:news.items.slice(0,n)})); return true; }catch(e){ return false; } };
+    save(40) || save(20) || save(8);
+  }
+  renderNews(!all.length);
+}
+function agoTxt(ms){ const m = Math.round((Date.now()-ms)/60000); if(m<60) return `há ${Math.max(1,m)} min`; const h = Math.round(m/60); if(h<24) return `há ${h} h`; const d = Math.round(h/24); return d===1 ? "ontem" : `há ${d} dias`; }
+function renderNews(failed=false){
+  const re = regionRe();
+  news.items.forEach(it=>{ it.reg = re ? re.test(norm(`${it.title} ${it.summary}`)) : false; });
+  const counts = {tudo:news.items.length, regiao:news.items.filter(x=>x.reg).length, tempo:news.items.filter(x=>x.cats.includes("tempo")).length, agro:news.items.filter(x=>x.cats.includes("agro")).length, alerta:news.items.filter(x=>x.cats.includes("alerta")).length};
+  const F = [["tudo","Tudo"],["regiao",state.loc&&state.loc.state?`${state.loc.uf||state.loc.state}`:"Sua região"],["tempo","Tempo"],["agro","Plantio e safra"],["alerta","Alertas"]];
+  $("#nfilters").innerHTML = F.map(([k,l])=>`<button class="fchip ${news.filter===k?"on":""}" data-f="${k}">${esc(l)}${counts[k]?` · ${counts[k]}`:""}</button>`).join("");
+  const list = news.items.filter(x=> news.filter==="tudo" || (news.filter==="regiao" ? x.reg : x.cats.includes(news.filter)));
+  $("#newsUpd").textContent = news.loading ? "Atualizando…" : news.t ? `Atualizado ${agoTxt(news.t)}` : "";
+  if(!news.items.length){ $("#nlist").innerHTML = news.loading ? `<div class="sk" style="height:90px"></div><div class="sk" style="height:90px"></div>` : `<div class="nempty">Não consegui carregar as notícias agora. Verifique a internet e puxe a tela para atualizar.</div>`; return; }
+  $("#nlist").innerHTML = list.length ? list.map(it=>{
+    const i = news.items.indexOf(it), tags = [];
+    if(it.reg) tags.push(`<span class="tag t-regiao">Sua região</span>`);
+    if(it.cats.includes("alerta")) tags.push(`<span class="tag t-alerta">Alerta</span>`); else if(it.cats.includes("tempo")) tags.push(`<span class="tag t-tempo">Tempo</span>`);
+    if(it.cats.includes("agro")) tags.push(`<span class="tag t-agro">Campo</span>`);
+    return `<button class="ncard ${it.img?"":"noimg"}" data-n="${i}"><div><div class="meta">${tags.join("")}<span>${esc(it.src)} · ${agoTxt(it.date)}</span></div><h3>${esc(it.title)}</h3><p>${esc(it.summary)}</p></div>${it.img?`<img src="${esc(it.img)}" alt="" loading="lazy" onerror="this.remove()">`:""}</button>`;
+  }).join("") : `<div class="nempty">Nenhuma notícia neste filtro agora.</div>`;
+  if(failed) toast("Sem conexão: mostrando as últimas notícias salvas.");
+}
+$("#nfilters").addEventListener("click", e=>{ const b = e.target.closest("[data-f]"); if(!b) return; news.filter = b.dataset.f; renderNews(); });
+$("#nlist").addEventListener("click", e=>{ const b = e.target.closest(".ncard"); if(b) openArticle(news.items[+b.dataset.n]); });
+
+/* limpeza segura do HTML: só texto, títulos, listas, citações e imagens */
+const SAFE = {P:1,BR:1,H2:1,H3:1,H4:1,UL:1,OL:1,LI:1,STRONG:1,B:1,EM:1,I:1,BLOCKQUOTE:1,FIGURE:1,FIGCAPTION:1,IMG:1,TABLE:1,THEAD:1,TBODY:1,TR:1,TD:1,TH:1};
+const JUNK = /apareceu primeiro em|leia (tamb[eé]m|mais)|siga (o|a|nosso)|inscreva-se|clique aqui|whatsapp|telegram|newsletter|publicidade|assine|baixe o app/i;
+function cleanHtml(html, base){
+  const doc = new DOMParser().parseFromString(`<body>${html||""}`, "text/html"), out = document.createElement("div");
+  const walk = (node, into) => node.childNodes.forEach(n=>{
+    if(n.nodeType===3){ into.appendChild(document.createTextNode(n.textContent)); return; }
+    if(n.nodeType!==1) return;
+    const tag = n.tagName;
+    if(/^(SCRIPT|STYLE|IFRAME|NOSCRIPT|FORM|BUTTON|INPUT|SVG|NAV|ASIDE|FOOTER|HEADER|VIDEO|AUDIO|OBJECT|EMBED)$/.test(tag)) return;
+    if(tag==="IMG"){
+      let src = n.getAttribute("data-lazy-src")||n.getAttribute("data-src")||n.getAttribute("src")||"";
+      if(!src || /^data:/.test(src) || (+n.getAttribute("width")||99) < 40) return;
+      try{ src = new URL(src, base).href; }catch(e){ return; }
+      if(!/^https:/.test(src)) return;
+      const im = document.createElement("img"); im.src = src; im.alt = n.getAttribute("alt")||""; im.loading = "lazy"; im.setAttribute("onerror","this.remove()"); into.appendChild(im); return;
+    }
+    if(SAFE[tag]){
+      if(tag==="P" && JUNK.test(n.textContent||"") && (n.textContent||"").length < 220) return;
+      const el = document.createElement(tag==="B"?"STRONG":tag==="I"?"EM":tag); walk(n, el);
+      if(tag==="P" && !el.textContent.trim() && !el.querySelector("img")) return;
+      into.appendChild(el);
+    } else walk(n, into);   // links e outras marcações viram só texto: o leitor fica no app
+  });
+  walk(doc.body, out);
+  return out;
+}
+function loadScript(src){ return new Promise((res,rej)=>{ if(document.querySelector(`script[src="${src}"]`)) return res(); const s = document.createElement("script"); s.src = src; s.onload = res; s.onerror = rej; document.head.appendChild(s); }); }
+async function fetchFullText(url){
+  const html = await getData(url, {type:"text", proxy:true, timeout:20000});
+  const doc = new DOMParser().parseFromString(html, "text/html");
+  const b = doc.createElement("base"); b.href = url; doc.head.prepend(b);
+  try{ await loadScript("https://cdn.jsdelivr.net/npm/@mozilla/readability@0.5.0/Readability.js"); const art = new Readability(doc).parse(); if(art && art.content && art.textContent.length > 300) return art.content; }catch(e){}
+  const cand = doc.querySelector("article .entry-content, .entry-content, article, main") ; return cand ? cand.innerHTML : "";
+}
+let rdSize = store.get("wx_rdsize") || 17, rdItem = null;
+document.documentElement.style.setProperty("--rd-size", rdSize+"px");
+$("#rdText").addEventListener("click", ()=>{ rdSize = rdSize>=21 ? 15 : rdSize+2; store.set("wx_rdsize", rdSize); document.documentElement.style.setProperty("--rd-size", rdSize+"px"); toast(`Texto ${rdSize===15?"pequeno":rdSize===17?"normal":rdSize===19?"grande":"muito grande"}`); });
+$("#rdShare").addEventListener("click", ()=>{ if(rdItem) shareOut(rdItem.title, `${rdItem.title} (${rdItem.src}) · via Tempo Agora PWSIS`, rdItem.link); });
+$("#rdBack").addEventListener("click", ()=>closeArticle());
+function closeArticle(fromBack){ if($("#reader").hidden) return; $("#reader").hidden = true; document.body.classList.remove("lock"); if(!fromBack) popOverlay("reader"); }
+async function openArticle(it){
+  if(!it) return; rdItem = it;
+  const r = $("#reader"), body = $("#rdBody"); let host = ""; try{ host = new URL(it.link).hostname.replace(/^www\./,""); }catch(e){}
+  $("#rdSrc").textContent = it.src;
+  const head = `<h1 id="rdTitle">${esc(it.title)}</h1><div class="rd-meta">${esc(it.src)} · ${new Date(it.date).toLocaleString("pt-BR",{day:"2-digit",month:"long",hour:"2-digit",minute:"2-digit"})}</div>`;
+  const foot = () => { const rel = news.items.filter(x=>x!==it && x.cats.some(c=>it.cats.includes(c))).slice(0,3);
+    return `<div class="rd-foot"><span>Conteúdo de <b>${esc(it.src)}</b> (${esc(host)}), reproduzido a partir do feed público do veículo.</span><a class="btn ghost" href="${esc(it.link)}" target="_blank" rel="noopener">Abrir no site original</a>
+      ${rel.length?`<span class="label" style="margin-top:8px">Mais notícias</span><div class="rd-more">${rel.map(x=>`<button class="ncard noimg" data-n="${news.items.indexOf(x)}"><div><div class="meta"><span>${esc(x.src)} · ${agoTxt(x.date)}</span></div><h3>${esc(x.title)}</h3></div></button>`).join("")}</div>`:""}</div>`; };
+  const lead = it.img ? `<img src="${esc(it.img)}" alt="" onerror="this.remove()">` : "";
+  const render = html => { const clean = cleanHtml(html, it.link); if(it.img && clean.querySelector(`img[src="${CSS.escape(it.img)}"]`)) body.innerHTML = head; else body.innerHTML = head + lead; body.appendChild(clean); body.insertAdjacentHTML("beforeend", foot()); };
+  const wasHidden = r.hidden; r.hidden = false; document.body.classList.add("lock"); r.scrollTop = 0;
+  if(wasHidden) pushOverlay("reader", fb=>closeArticle(fb));
+  if(stripHtml(it.content).length > 700){ render(it.content); return; }
+  body.innerHTML = head + lead + `<p>${esc(it.summary)}</p><div class="sk" style="height:18px;margin:10px 0"></div><div class="sk" style="height:18px;margin:10px 0;width:80%"></div><div class="sk" style="height:18px;margin:10px 0;width:90%"></div>`;
+  try{ const full = await fetchFullText(it.link); if(rdItem!==it) return; if(stripHtml(full).length > 300){ it.content = full; render(full); return; } }catch(e){}
+  if(rdItem!==it) return;
+  body.innerHTML = head + lead + `<p>${esc(it.summary)}</p><p class="muted">Não consegui carregar o texto completo agora. Tente de novo mais tarde ou abra no site.</p>` + foot();
+}
+$("#rdBody").addEventListener("click", e=>{ const b = e.target.closest(".ncard"); if(b) openArticle(news.items[+b.dataset.n]); });
+
 /* =============== início =============== */
 $("#btnGps").addEventListener("click", ()=>getGps(true));
 $("#btnRefresh").addEventListener("click", ()=>refreshIfStale(true));
@@ -1782,10 +2270,11 @@ const tab=store.get("wx_tab"); if(tab){ state.chartKey=tab; $$(".tab").forEach(x
 refreshNotifUI();
 const savedLoc = store.get("wx_loc");
 if(savedLoc){ state.loc=savedLoc; renderPlace(); restoreBundle(); }
-const startView = (location.hash||"").slice(1); if(["agora","graficos","dias","campo","local"].includes(startView)) showView(startView);
+const startView = (location.hash||"").slice(1); if(["agora","graficos","dias","campo","noticias","local"].includes(startView)) showView(startView);
 if(!savedLoc || savedLoc.fallback) getGps(); else refreshIfStale();
 setInterval(()=>{ if(!document.hidden) refreshIfStale(); }, 5*60*1000);
 document.addEventListener("visibilitychange",()=>{ if(!document.hidden) refreshIfStale(); });
+setTimeout(()=>loadNews(), 4000);
 /* mensagem do service worker ao tocar numa notificação com o app já aberto */
 if(hasSW) navigator.serviceWorker.addEventListener("message", e=>{ if(e.data && e.data.type==="open") showView(e.data.view||"agora"); });
 if(hasSW) navigator.serviceWorker.register("sw.js").then(reg=>{ syncWorker(); registerBackground(); refreshNotifUI(); watchUpdates(reg); }).catch(()=>{});
