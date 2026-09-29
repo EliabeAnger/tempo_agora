@@ -2,7 +2,7 @@
 // 1) Guarda a interface para abrir rápido e sem internet.
 // 2) Em segundo plano (Periodic Background Sync do Chrome/Android), atualiza a notificação
 //    do tempo na barra e verifica alertas oficiais do INMET para o último local salvo.
-const CACHE = "tempo-agora-v8";
+const CACHE = "tempo-agora-v9";
 const CFG = "tempo-agora-config";
 const SHELL = ["./", "./index.html", "./manifest.json", "./icon-192.png", "./icon-512.png", "./badge-96.png", "./icon-maskable-512.png"];
 
@@ -96,13 +96,22 @@ async function bgUpdate() {
 
   if (cfg.prefs.bar) {
     try {
-      const j = await getJSON(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=auto&forecast_days=1`);
-      const t = Math.round(j.current.temperature_2m), d = j.daily;
+      const j = await getJSON(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,apparent_temperature,weather_code,wind_speed_10m,wind_direction_10m,wind_gusts_10m&hourly=precipitation_probability,precipitation&daily=temperature_2m_max,temperature_2m_min&forecast_hours=8&timezone=auto&forecast_days=1`);
+      const c = j.current, t = Math.round(c.temperature_2m), d = j.daily, hp = j.hourly.precipitation_probability, hm = j.hourly.precipitation;
+      const pts = ["N","NE","L","SE","S","SO","O","NO"], dir = pts[Math.round(((c.wind_direction_10m % 360) + 360) % 360 / 45) % 8];
+      const pNext = hp[1] ?? hp[0] ?? 0, p6 = Math.max(...hp.slice(1, 7)), mm6 = hm.slice(1, 7).reduce((a, b) => a + (b || 0), 0);
+      const rain = (pNext >= 10 || p6 >= 10) ? `Chuva ${pNext}% na próxima hora · até ${p6}% em 6 h${mm6 >= 0.5 ? ` (${mm6.toFixed(1).replace(".", ",")} mm)` : ""}` : "Sem chuva prevista nas próximas 6 h";
       const hora = new Date().toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit", timeZone: j.timezone });
-      await self.registration.showNotification(`${t}° · ${WMO[j.current.weather_code] || ""}`, {
+      const lines = [
+        `${name} · sensação ${Math.round(c.apparent_temperature)}° · ↑${Math.round(d.temperature_2m_max[0])}° ↓${Math.round(d.temperature_2m_min[0])}°`,
+        rain,
+        `Vento ${dir} ${Math.round(c.wind_speed_10m)} km/h · rajadas ${Math.round(c.wind_gusts_10m)} km/h`
+      ];
+      if (alertCount) lines.push(`⚠ ${alertCount} alerta(s) oficial(is) para a sua região`);
+      lines.push(`Atualizado ${hora} · Tempo Agora PWSIS`);
+      await self.registration.showNotification(`${t}° · ${WMO[c.weather_code] || ""}`, {
         tag: "wx-now", silent: true, renotify: false, icon: "icon-192.png", badge: await badgeData(t),
-        body: `${name} · ↑${Math.round(d.temperature_2m_max[0])}° ↓${Math.round(d.temperature_2m_min[0])}° · chuva ${d.precipitation_probability_max[0]}% · vento ${Math.round(j.current.wind_speed_10m)} km/h${alertCount ? ` · ⚠ ${alertCount} alerta(s)` : ""} · ${hora}`,
-        data: { url: "index.html#agora" }
+        body: lines.join("\n"), data: { url: "index.html#agora" }
       });
     } catch (e) {}
   }

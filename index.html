@@ -309,7 +309,7 @@ a{color:var(--accent)}
 .preview-notif{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;align-items:center;margin-top:12px;padding:10px 12px;border-radius:14px;background:#e9eef7;color:#1b2333}
 .preview-notif img{grid-row:2/4;grid-column:1;width:36px;height:36px;border-radius:8px}
 .preview-notif b{grid-column:2;font-size:14px}
-.preview-notif span{grid-column:2;font-size:12.5px;color:#4b5670;line-height:1.35}
+.preview-notif span{grid-column:2;font-size:12.5px;color:#4b5670;line-height:1.4;white-space:pre-line}
 .preview-notif .bar{grid-column:1/-1;display:flex;align-items:center;gap:6px;font:600 11px var(--f-mono);color:#4b5670;border-bottom:1px solid #cfd7e6;padding-bottom:6px;margin-bottom:4px}
 .preview-notif .bar i{display:inline-grid;place-items:center;min-width:22px;height:18px;border-radius:4px;background:#1b2333;color:#fff;font-style:normal;font-size:11px;padding:0 3px}
 .bgstate{font-size:12.5px;color:var(--muted);margin-top:10px;padding:10px 12px;border-radius:10px;background:var(--panel2)}
@@ -1181,21 +1181,51 @@ function tempBadge(t){
   }catch(e){ return "badge-96.png"; }
 }
 async function swReg(){ if(!hasSW) return null; try{ return await navigator.serviceWorker.ready; }catch(e){ return null; } }
+/* conteúdo da notificação: chance de chuva de AGORA e das próximas horas, não a máxima do dia */
 function barContent(){
-  const c = state.data.current, d = state.data.daily, t = r0(c.temperature_2m);
-  const alertTxt = state.official && state.official.length ? ` · ⚠ ${state.official.length} alerta(s)` : "";
-  return { t, title:`${t}° · ${wmo(c.weather_code)[0]}`,
-    body:`${state.loc.name} · ↑${r0(d.temperature_2m_max[0])}° ↓${r0(d.temperature_2m_min[0])}° · chuva ${r0(d.precipitation_probability_max[0])}% · vento ${r0(c.wind_speed_10m)} km/h${alertTxt}` };
+  const d = state.data, c = d.current, dd = d.daily, h = d.hourly, i0 = nowIndex(), t = r0(c.temperature_2m);
+  const pNext = h.precipitation_probability[i0+1] ?? h.precipitation_probability[i0] ?? 0;
+  const next6 = h.precipitation_probability.slice(i0+1, i0+7), p6 = next6.length ? Math.max(...next6) : pNext;
+  const mm6 = sum(h.precipitation.slice(i0+1, i0+7));
+  const rainLine = pNext>=10 || p6>=10
+    ? `Chuva ${pNext}% na próxima hora · até ${p6}% em 6 h${mm6>=0.5?` (${r1(mm6)} mm)`:""}`
+    : `Sem chuva prevista nas próximas 6 h`;
+  const [, bn] = beaufort(c.wind_speed_10m);
+  const lines = [
+    `${state.loc.name} · sensação ${r0(c.apparent_temperature)}° · ↑${r0(dd.temperature_2m_max[0])}° ↓${r0(dd.temperature_2m_min[0])}°`,
+    rainLine,
+    `Vento ${dirTxt(c.wind_direction_10m)} ${r0(c.wind_speed_10m)} km/h (${bn.toLowerCase()}) · rajadas ${r0(c.wind_gusts_10m)} km/h`
+  ];
+  const off = state.official || [];
+  if(off.length) lines.push(`⚠ ${off.length===1 ? `Alerta: ${off[0].title} (${off[0].src})` : `${off.length} alertas oficiais: ${off[0].title} e mais ${off.length-1}`}`);
+  return { t, title:`${t}° · ${wmo(c.weather_code)[0]}`, body: lines.join("\n") };
 }
 function renderPreview(){
   if(!state.data) return; const b = barContent();
   $("#pvBadge").textContent = b.t+"°"; $("#pvTitle").textContent = b.title; $("#pvBody").textContent = b.body;
+  weatherIconPng().then(u=>{ if(u) $("#notifPreview img").src = u; });
+}
+/* ícone da notificação: o desenho do tempo atual (sol, nuvem, chuva...) em vez do logo */
+let wxIconCache = {key:"", url:""};
+async function weatherIconPng(){
+  if(!state.data) return "";
+  const c = state.data.current, key = `${c.weather_code}-${c.is_day}-${Math.round(c.wind_gusts_10m/10)}`;
+  if(wxIconCache.key===key) return wxIconCache.url;
+  try{
+    const im = await svgImg(icon(c.weather_code, c.is_day, {gust:c.wind_gusts_10m, cloud:c.cloud_cover, forDark:1}), 150); if(!im) return "";
+    const cv = document.createElement("canvas"); cv.width = cv.height = 192; const x = cv.getContext("2d");
+    x.fillStyle = c.is_day ? "#2d74c4" : "#16244a"; x.beginPath(); x.roundRect ? x.roundRect(0,0,192,192,40) : x.rect(0,0,192,192); x.fill();
+    x.drawImage(im, 21, 16, 150, 150);
+    x.fillStyle = "#ffffff"; x.font = '700 22px "Barlow Condensed", sans-serif'; x.textAlign = "center"; x.fillText("PWSIS", 96, 182);
+    wxIconCache = {key, url: cv.toDataURL("image/png")}; return wxIconCache.url;
+  }catch(e){ return ""; }
 }
 async function updateBarNotification(){
   if(!prefs.bar || !hasNotif || Notification.permission!=="granted" || !state.data) return;
   const reg = await swReg(); if(!reg) return;
-  const b = barContent();
-  try{ await reg.showNotification(b.title, {tag:"wx-now", silent:true, renotify:false, body:b.body+` · ${new Date().toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})}`, icon:"icon-192.png", badge:tempBadge(b.t), data:{url:"index.html#agora"}}); }catch(e){}
+  const b = barContent(), ic = await weatherIconPng();
+  const hora = new Date().toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"});
+  try{ await reg.showNotification(b.title, {tag:"wx-now", silent:true, renotify:false, body:`${b.body}\nAtualizado ${hora} · Tempo Agora PWSIS`, icon: ic || "icon-192.png", badge:tempBadge(b.t), data:{url:"index.html#agora"}}); }catch(e){}
 }
 async function clearBarNotification(){ const reg = await swReg(); if(!reg) return; (await reg.getNotifications({tag:"wx-now"})).forEach(n=>n.close()); }
 
