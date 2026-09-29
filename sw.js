@@ -2,7 +2,7 @@
 // 1) Guarda a interface para abrir rápido e sem internet.
 // 2) Em segundo plano (Periodic Background Sync do Chrome/Android), atualiza a notificação
 //    do tempo na barra e verifica alertas oficiais do INMET para o último local salvo.
-const CACHE = "tempo-agora-v4";
+const CACHE = "tempo-agora-v5";
 const CFG = "tempo-agora-config";
 const SHELL = ["./", "./index.html", "./manifest.json", "./icon-192.png", "./icon-512.png", "./badge-96.png", "./icon-maskable-512.png"];
 
@@ -87,7 +87,7 @@ async function bgUpdate() {
         const id = "inmet-" + a.id; if (seen.has(id)) continue; seen.add(id);
         await self.registration.showNotification("⚠ " + (a.descricao || "Aviso meteorológico"), {
           body: `INMET · ${a.severidade || ""} · ${name}`, icon: "icon-192.png", badge: "badge-96.png",
-          tag: id, requireInteraction: true, data: { url: "./index.html#agora" }
+          tag: id, requireInteraction: true, data: { url: "index.html#agora" }
         });
       }
       cfg.seen = [...seen].slice(-300); await setCfg(cfg);
@@ -102,18 +102,25 @@ async function bgUpdate() {
       await self.registration.showNotification(`${t}° · ${WMO[j.current.weather_code] || ""}`, {
         tag: "wx-now", silent: true, renotify: false, icon: "icon-192.png", badge: await badgeData(t),
         body: `${name} · ↑${Math.round(d.temperature_2m_max[0])}° ↓${Math.round(d.temperature_2m_min[0])}° · chuva ${d.precipitation_probability_max[0]}% · vento ${Math.round(j.current.wind_speed_10m)} km/h${alertCount ? ` · ⚠ ${alertCount} alerta(s)` : ""} · ${hora}`,
-        data: { url: "./index.html#agora" }
+        data: { url: "index.html#agora" }
       });
     } catch (e) {}
   }
 }
 
-/* toque na notificação abre o app */
+/* toque na notificação abre o app (endereço completo, dentro do escopo do app) */
 self.addEventListener("notificationclick", e => {
   e.notification.close();
-  const target = (e.notification.data && e.notification.data.url) || "./index.html#agora";
-  e.waitUntil(self.clients.matchAll({ type: "window", includeUncontrolled: true }).then(list => {
-    for (const c of list) { if ("focus" in c) return c.focus(); }
-    return self.clients.openWindow(target);
-  }));
+  const scope = self.registration.scope;                     // ex.: https://eliabeanger.github.io/tempo_agora/
+  let target = new URL((e.notification.data && e.notification.data.url) || "index.html#agora", scope).href;
+  if (!target.startsWith(scope)) target = scope + "index.html#agora";
+  e.waitUntil((async () => {
+    const list = await self.clients.matchAll({ type: "window", includeUncontrolled: true });
+    const mine = list.find(c => c.url.startsWith(scope));
+    if (mine) {                                               // app já aberto: traz para frente e mostra a aba Agora
+      mine.postMessage({ type: "open", view: "agora" });
+      return mine.focus();
+    }
+    return self.clients.openWindow(target);                   // app fechado: abre com os dados salvos
+  })());
 });

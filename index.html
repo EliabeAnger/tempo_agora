@@ -627,22 +627,30 @@ $$(".nav button").forEach(b => b.addEventListener("click", ()=>showView(b.datase
 window.addEventListener("scroll", ()=>$("#top").classList.toggle("scrolled", scrollY>4), {passive:true});
 
 /* =============== localização (GPS + busca) =============== */
-function getGps(){
+/* distância em km entre dois pontos */
+function distKm(a,b){ const R=6371, t=x=>x*Math.PI/180, dLa=t(b.lat-a.lat), dLo=t(b.lon-a.lon);
+  const h=Math.sin(dLa/2)**2+Math.cos(t(a.lat))*Math.cos(t(b.lat))*Math.sin(dLo/2)**2; return 2*R*Math.asin(Math.sqrt(h)); }
+const FRESH_MS = 15*60*1000;
+const isFresh = () => state.data && Date.now()-state.lastLoad < FRESH_MS;
+
+function getGps(force=false){
   if(!("geolocation" in navigator)){ setStatus("Este navegador não tem GPS. Busque sua cidade.", "err"); return; }
-  setStatus("Pedindo a localização ao GPS do celular…","load");
+  if(!state.data) setStatus("Pedindo a localização ao GPS do celular…","load");
   $("#btnGps").classList.add("busy");
   navigator.geolocation.getCurrentPosition(async p=>{
     $("#btnGps").classList.remove("busy"); $("#btnGps").classList.add("on");
     const {latitude:lat, longitude:lon, accuracy} = p.coords;
-    const prev = state.loc, same = prev && prev.gps && Math.abs(prev.lat-lat)<0.01 && Math.abs(prev.lon-lon)<0.01;
+    const prev = state.loc, near = prev && prev.gps && distKm(prev,{lat,lon}) < 1;
     const loc = {lat, lon, gps:true, acc:Math.round(accuracy)};
-    if(same) ["name","district","state","uf","country","cc","ibge","micro"].forEach(k=>{ if(prev[k]) loc[k]=prev[k]; });
-    setLocation(loc, same);
+    if(near) ["name","district","state","uf","country","cc","ibge","micro"].forEach(k=>{ if(prev[k]) loc[k]=prev[k]; });
+    // mesmo lugar e dados recentes: só atualiza o GPS, sem baixar tudo de novo
+    if(near && !force && isFresh()){ state.loc = {...loc, lat:prev.lat, lon:prev.lon}; store.set("wx_loc", state.loc); renderPlace(); tickStatus(); return; }
+    setLocation(loc, near);
   }, err=>{
     $("#btnGps").classList.remove("busy");
     const msg = {1:"Você não permitiu a localização.",2:"Sem sinal de GPS agora.",3:"O GPS demorou para responder."}[err.code] || "Falha no GPS.";
     const hint = location.protocol==="file:" ? " Abra o app por um link https (veja a aba Local) ou busque a cidade." : " Toque no alvo para tentar de novo ou busque a cidade.";
-    setStatus(msg+hint, "err");
+    if(!state.data) setStatus(msg+hint, "err"); else toast(msg);
     if(!state.loc) setLocation({lat:-28.2926, lon:-53.5017, name:"Panambi", uf:"RS", state:"Rio Grande do Sul", country:"Brasil", fallback:true});
   }, {enableHighAccuracy:true, timeout:20000, maximumAge:120000});
 }
@@ -670,8 +678,8 @@ async function enrichLocation(loc){
 
 async function setLocation(loc, silent=false){
   state.loc = loc; renderPlace();
-  if(!silent) setStatus("Identificando o local…","load");
-  await enrichLocation(loc);
+  const known = loc.name && loc.state && (loc.ibge || (loc.cc && loc.cc!=="BR"));
+  if(!known){ if(!silent && !state.data) setStatus("Identificando o local…","load"); await enrichLocation(loc); }
   store.set("wx_loc", loc);
   syncWorker();
   renderPlace();
@@ -708,11 +716,35 @@ async function searchCity(q){
   }catch(e){ toast("Sem conexão para buscar cidades."); }
 }
 
+/* =============== memória local: guarda tudo para abrir na hora =============== */
+function saveBundle(){
+  if(!state.data || !state.loc) return;
+  const b = {t:state.lastLoad, loc:state.loc, data:state.data, models:state.models, air:state.air,
+    official:state.official, officialStatus:state.officialStatus, aboutHTML:state.aboutHTML, wikiSrc:state.wikiSrc};
+  try{ localStorage.setItem("wx_cache", JSON.stringify(b)); }
+  catch(e){ try{ delete b.models; localStorage.setItem("wx_cache", JSON.stringify(b)); }catch(_){} }
+}
+function restoreBundle(){
+  const b = store.get("wx_cache"); if(!b || !b.data || !b.loc || !state.loc || distKm(b.loc,state.loc)>1) return false;
+  state.data = b.data; state.lastLoad = b.t; state.models = b.models||null; state.air = b.air||null;
+  state.official = (b.official||[]).map(a=>({...a, start:a.start?new Date(a.start):null, end:a.end?new Date(a.end):null})).filter(a=>!a.end || a.end>new Date());
+  state.officialStatus = b.officialStatus||{}; state.aboutHTML = b.aboutHTML; state.wikiSrc = b.wikiSrc;
+  renderWeather(); renderAir(); renderLinks();
+  if(state.aboutHTML){ $("#about").innerHTML = state.aboutHTML; $("#wikiSrc").textContent = state.wikiSrc||""; }
+  $("#navBadge").hidden = !state.official.length; $("#navBadge").textContent = state.official.length;
+  tickStatus(); return true;
+}
+function refreshIfStale(force=false){
+  if(!state.loc) return;
+  if(state.loc.gps) getGps(force);
+  else if(force || !isFresh()) loadAll();
+}
+
 /* =============== carregamento =============== */
 async function loadAll(){
   if(!state.loc) return;
   $("#btnRefresh").classList.add("busy");
-  setStatus("Baixando a previsão…","load");
+  if(!state.data) setStatus("Baixando a previsão…","load");
   const {lat,lon} = state.loc;
   const H="temperature_2m,apparent_temperature,relative_humidity_2m,dew_point_2m,precipitation_probability,precipitation,weather_code,pressure_msl,cloud_cover,visibility,wind_speed_10m,wind_direction_10m,wind_gusts_10m,uv_index,cape,is_day,soil_temperature_0cm,soil_moisture_0_to_1cm,soil_moisture_3_to_9cm,et0_fao_evapotranspiration,vapour_pressure_deficit";
   const D="weather_code,temperature_2m_max,temperature_2m_min,apparent_temperature_max,apparent_temperature_min,sunrise,sunset,daylight_duration,sunshine_duration,uv_index_max,precipitation_sum,precipitation_probability_max,precipitation_hours,wind_speed_10m_max,wind_gusts_10m_max,wind_direction_10m_dominant,et0_fao_evapotranspiration,shortwave_radiation_sum";
@@ -720,16 +752,16 @@ async function loadAll(){
   try{
     state.data = await getData(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=${C}&hourly=${H}&daily=${D}&timezone=auto&forecast_days=14&wind_speed_unit=kmh`);
     state.lastLoad = Date.now();
-    store.set("wx_cache", {t:state.lastLoad, loc:state.loc, data:state.data});
     renderWeather();
+    saveBundle();
     tickStatus();
   }catch(e){
-    const c = store.get("wx_cache");
-    if(c && c.data && !state.data){ state.data=c.data; state.lastLoad=c.t; renderWeather(); }
-    setStatus("Sem conexão com o serviço de previsão. Mostrando os últimos dados salvos, se houver.", "err");
+    if(!state.data) restoreBundle();
+    setStatus(state.data ? "Sem internet agora. Mostrando os últimos dados salvos." : "Sem conexão com o serviço de previsão.", "err");
   }finally{ $("#btnRefresh").classList.remove("busy"); }
   // em paralelo, sem travar a tela
-  loadOfficial(); loadModels(); loadAir(); loadAbout(); renderLinks();
+  Promise.allSettled([loadOfficial(), loadModels(), loadAir(), loadAbout()]).then(saveBundle);
+  renderLinks();
   if(state.map) updateMap();
 }
 function tickStatus(){
@@ -901,7 +933,7 @@ async function updateBarNotification(){
   if(!prefs.bar || !hasNotif || Notification.permission!=="granted" || !state.data) return;
   const reg = await swReg(); if(!reg) return;
   const b = barContent();
-  try{ await reg.showNotification(b.title, {tag:"wx-now", silent:true, renotify:false, body:b.body+` · ${new Date().toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})}`, icon:"icon-192.png", badge:tempBadge(b.t), data:{url:"./index.html#agora"}}); }catch(e){}
+  try{ await reg.showNotification(b.title, {tag:"wx-now", silent:true, renotify:false, body:b.body+` · ${new Date().toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})}`, icon:"icon-192.png", badge:tempBadge(b.t), data:{url:"index.html#agora"}}); }catch(e){}
 }
 async function clearBarNotification(){ const reg = await swReg(); if(!reg) return; (await reg.getNotifications({tag:"wx-now"})).forEach(n=>n.close()); }
 
@@ -1018,7 +1050,7 @@ async function notifyNew(list){
   if(!prefs.alerts || !fresh.length || !hasNotif || Notification.permission!=="granted") return;
   const reg = await swReg();
   for(const a of fresh){
-    const opt = {body:`${a.src} · ${a.sevTxt||""}${a.end?" · até "+fmtDT(a.end):""}`, icon:"icon-192.png", badge:"badge-96.png", tag:a.id, requireInteraction:true, data:{url:"./index.html#agora"}};
+    const opt = {body:`${a.src} · ${a.sevTxt||""}${a.end?" · até "+fmtDT(a.end):""}`, icon:"icon-192.png", badge:"badge-96.png", tag:a.id, requireInteraction:true, data:{url:"index.html#agora"}};
     try{ reg ? reg.showNotification("⚠ "+a.title, opt) : new Notification("⚠ "+a.title, opt); }catch(e){}
   }
 }
@@ -1250,11 +1282,16 @@ function renderAgro(){
 
 /* =============== LOCAL: ar, sobre, links, mapa =============== */
 async function loadAir(){
-  try{ const {lat,lon}=state.loc; state.air = await getData(`https://air-quality-api.open-meteo.com/v1/air-quality?latitude=${lat}&longitude=${lon}&current=european_aqi,us_aqi,pm10,pm2_5,ozone,nitrogen_dioxide&timezone=auto`);
+  try{ const {lat,lon}=state.loc; state.air = await getData(`https://air-quality-api.open-meteo.com/v1/air-quality?latitude=${lat}&longitude=${lon}&current=european_aqi,us_aqi,pm10,pm2_5,ozone,nitrogen_dioxide&timezone=auto`); renderAir(); }
+  catch(e){ if(!state.air) $("#air").innerHTML = `<p class="muted">Qualidade do ar indisponível agora.</p>`; }
+}
+function renderAir(){
+  if(!state.air || !state.air.current) return;
+  {
     const a=state.air.current, v=a.european_aqi, c=v<=20?["Boa","var(--ok)"]:v<=40?["Razoável","#d7e04a"]:v<=60?["Moderada","var(--warn)"]:v<=80?["Ruim","var(--orange)"]:v<=100?["Muito ruim","var(--danger)"]:["Extrema","var(--storm)"];
     $("#air").innerHTML = `<div class="row" style="align-items:baseline"><span class="num" style="font:600 46px/1 var(--f-display)">${r0(v)}</span><b style="color:${c[1]}">${c[0]}</b></div><div class="aq-bar"><i style="left:${Math.min(100,v/120*100)}%"></i></div>
       <dl class="kv" style="margin-top:12px"><dt>PM2.5</dt><dd>${r1(a.pm2_5)} µg/m³</dd><dt>PM10</dt><dd>${r1(a.pm10)} µg/m³</dd><dt>Ozônio</dt><dd>${r0(a.ozone)} µg/m³</dd><dt>NO₂</dt><dd>${r1(a.nitrogen_dioxide)} µg/m³</dd><dt>US AQI</dt><dd>${r0(a.us_aqi)}</dd></dl>`;
-  }catch(e){ $("#air").innerHTML = `<p class="muted">Qualidade do ar indisponível agora.</p>`; }
+  }
 }
 async function loadAbout(){
   const l=state.loc, d=state.data;
@@ -1272,10 +1309,12 @@ async function loadAbout(){
     try{ const w = await getData(`https://pt.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(t.replace(/ /g,"_"))}`);
       if(!w || w.type==="disambiguation" || !w.extract) continue;
       $("#about").innerHTML = `<div class="wiki">${w.thumbnail?`<img src="${esc(w.thumbnail.source)}" alt="${esc(w.title)}" loading="lazy">`:""}<div><p>${esc(w.extract)}</p><p style="margin-top:6px"><a href="${esc(w.content_urls.desktop.page)}" target="_blank" rel="noopener">Ler mais na Wikipédia ↗</a></p></div></div>${facts}`;
-      $("#wikiSrc").textContent = "Wikipédia · IBGE"; return;
+      $("#wikiSrc").textContent = "Wikipédia · IBGE";
+      state.aboutHTML = $("#about").innerHTML; state.wikiSrc = "Wikipédia · IBGE"; return;
     }catch(e){}
   }
   $("#wikiSrc").textContent = "IBGE · Open-Meteo";
+  state.aboutHTML = $("#about").innerHTML; state.wikiSrc = "IBGE · Open-Meteo";
 }
 function renderLinks(){
   const l=state.loc, uf=(l.uf||"").toLowerCase(), q=encodeURIComponent(`Defesa Civil ${l.state||""}`);
@@ -1329,16 +1368,18 @@ $("#radarPlay").addEventListener("click",()=>{ const R=state.radar; if(!R) retur
   $("#radarPlay").textContent="❚❚ Pausar"; R.timer=setInterval(()=>showFrame((R.idx+1)%R.frames.length),650); });
 
 /* =============== início =============== */
-$("#btnGps").addEventListener("click", getGps);
-$("#btnRefresh").addEventListener("click", ()=>{ if(state.loc && state.loc.gps) getGps(); else loadAll(); });
+$("#btnGps").addEventListener("click", ()=>getGps(true));
+$("#btnRefresh").addEventListener("click", ()=>refreshIfStale(true));
 const tab=store.get("wx_tab"); if(tab){ state.chartKey=tab; $$(".tab").forEach(x=>x.setAttribute("aria-selected",x.dataset.k===tab)); }
 refreshNotifUI();
-const cache = store.get("wx_cache"), savedLoc = store.get("wx_loc");
-if(savedLoc){ state.loc=savedLoc; renderPlace(); if(cache && cache.data && cache.loc && cache.loc.lat===savedLoc.lat){ state.data=cache.data; state.lastLoad=cache.t; renderWeather(); tickStatus(); } }
+const savedLoc = store.get("wx_loc");
+if(savedLoc){ state.loc=savedLoc; renderPlace(); restoreBundle(); }
 const startView = (location.hash||"").slice(1); if(["agora","graficos","dias","campo","local"].includes(startView)) showView(startView);
-if(!savedLoc || savedLoc.gps || savedLoc.fallback) getGps(); else loadAll();
-setInterval(()=>{ if(!document.hidden) (state.loc&&state.loc.gps?getGps():loadAll()); }, 10*60*1000);
-document.addEventListener("visibilitychange",()=>{ if(!document.hidden && Date.now()-state.lastLoad>10*60*1000) (state.loc&&state.loc.gps?getGps():loadAll()); });
+if(!savedLoc || savedLoc.fallback) getGps(); else refreshIfStale();
+setInterval(()=>{ if(!document.hidden) refreshIfStale(); }, 5*60*1000);
+document.addEventListener("visibilitychange",()=>{ if(!document.hidden) refreshIfStale(); });
+/* mensagem do service worker ao tocar numa notificação com o app já aberto */
+if(hasSW) navigator.serviceWorker.addEventListener("message", e=>{ if(e.data && e.data.type==="open") showView(e.data.view||"agora"); });
 if(hasSW) navigator.serviceWorker.register("sw.js").then(()=>{ syncWorker(); registerBackground(); refreshNotifUI(); }).catch(()=>{});
 if(!hasSW) $("#bgState").textContent = "Aberto como arquivo: notificações exigem o app instalado por um link https.";
 </script>
