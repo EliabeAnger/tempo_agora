@@ -4,14 +4,17 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0b1426">
-<meta name="description" content="Previsão do tempo pelo GPS com alertas oficiais do INMET e da Defesa Civil.">
+<meta name="description" content="Tempo Agora PWSIS: previsão do tempo pelo GPS com alertas oficiais do INMET e da Defesa Civil.">
+<meta name="apple-mobile-web-app-title" content="Tempo PWSIS">
+<meta name="application-name" content="Tempo PWSIS">
+<meta name="author" content="PWSIS">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="manifest" href="manifest.json">
 <link rel="icon" href="icon-192.png">
 <link rel="apple-touch-icon" href="icon-192.png">
-<title>Tempo Agora</title>
+<title>Tempo Agora PWSIS</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Figtree:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -311,6 +314,10 @@ a{color:var(--accent)}
 
 .toast{position:fixed;left:50%;bottom:calc(var(--nav-h) + env(safe-area-inset-bottom,0px) + 14px);transform:translateX(-50%);z-index:800;background:var(--panel2);border:1px solid var(--line);padding:10px 16px;border-radius:12px;font-size:13.5px;box-shadow:0 10px 30px rgba(0,0,0,.4);max-width:calc(100% - 32px)}
 /* aviso de instalação */
+.brand{grid-column:1/-1;font:700 12px/1 var(--f-display);letter-spacing:.22em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.brand span{color:var(--accent);margin-left:4px}
+.brandfoot{font-size:13px;color:var(--fg)}
+.brandfoot b{color:var(--accent);letter-spacing:.06em}
 .install{margin-top:10px;display:grid;grid-template-columns:auto 1fr auto;gap:4px 12px;align-items:start;padding:12px 14px;border-radius:14px;background:color-mix(in srgb,var(--accent) 16%,var(--panel));border:1px solid color-mix(in srgb,var(--accent) 50%,transparent)}
 .install img{grid-row:1/3;width:42px;height:42px;border-radius:10px}
 .install b{font-size:15px}
@@ -351,7 +358,7 @@ footer{font-size:12px;color:var(--muted);display:grid;gap:4px;padding:18px 2px 0
   <div class="status load" id="status"><span class="dot"></span><span id="statusText">Iniciando…</span></div>
   <div class="install" id="installCard" hidden>
     <img src="icon-192.png" alt="">
-    <b>Instale o Tempo Agora no celular</b>
+    <b>Instale o Tempo Agora PWSIS no celular</b>
     <button class="close" id="installClose" aria-label="Fechar aviso">×</button>
     <div class="how" id="installHow"></div>
   </div>
@@ -359,6 +366,7 @@ footer{font-size:12px;color:var(--muted);display:grid;gap:4px;padding:18px 2px 0
   <!-- ================= AGORA ================= -->
   <section class="view" id="v-agora" data-view="agora">
     <div class="hero">
+      <div class="brand">Tempo Agora <span>PWSIS</span></div>
       <div class="place"><h1 id="placeName">Localizando…</h1><span class="chip" id="placeChip" hidden></span></div>
       <div class="subplace" id="placeSub">Permita o acesso à localização quando o celular pedir</div>
       <div class="temp num" id="temp"><span class="sk" style="display:inline-block;width:150px;height:110px"></span></div>
@@ -523,6 +531,7 @@ footer{font-size:12px;color:var(--muted);display:grid;gap:4px;padding:18px 2px 0
   </section>
 
   <footer>
+    <div class="brandfoot">Tempo Agora é um aplicativo <b>PWSIS</b>.</div>
     <div>Previsão: Open-Meteo (ECMWF, GFS, ICON, JMA e outros). Avisos oficiais: INMET e Defesa Civil (IDAP/MIDR). Radar: RainViewer. Mapa: Esri. Local: IBGE, Wikipédia.</div>
     <div>Os alertas marcados “Previsão” são calculados pelo app. Em emergência ligue 199 (Defesa Civil) ou 193 (Bombeiros).</div>
   </footer>
@@ -977,14 +986,14 @@ $("#optBar").addEventListener("change", e=>setPref("bar", e.target.checked));
 $("#optAlerts").addEventListener("change", e=>setPref("alerts", e.target.checked));
 $("#goNotify").addEventListener("click", ()=>$("#notifPanel").scrollIntoView({behavior:"smooth"}));
 $("#btnTestNotif").addEventListener("click", async ()=>{ const reg = await swReg(); if(!reg) return;
-  reg.showNotification("Teste · Tempo Agora", {body:"As notificações estão funcionando neste aparelho.", icon:"icon-192.png", badge:"badge-96.png", tag:"wx-test"}); });
+  reg.showNotification("Teste · Tempo Agora PWSIS", {body:"As notificações da PWSIS estão funcionando neste aparelho.", icon:"icon-192.png", badge:"badge-96.png", tag:"wx-test"}); });
 window.addEventListener("beforeinstallprompt", e=>{ e.preventDefault(); installEvt = e; refreshNotifUI(); });
 window.addEventListener("appinstalled", ()=>{ installEvt = null; refreshNotifUI(); toast("App instalado. Procure o ícone Tempo na tela inicial."); });
 $("#btnInstall").addEventListener("click", async ()=>{ if(!installEvt) return; installEvt.prompt(); await installEvt.userChoice; installEvt = null; refreshNotifUI(); });
 
 /* =============== instalação guiada =============== */
 const UA = navigator.userAgent || "";
-const isStandalone = () => matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
+const isStandalone = () => { try{ return (window.matchMedia && matchMedia("(display-mode: standalone)").matches) || navigator.standalone === true; }catch(e){ return false; } };
 function browserKind(){
   if(/iPhone|iPad|iPod/i.test(UA)) return /CriOS|FxiOS|EdgiOS/i.test(UA) ? "ios-other" : "ios";
   if(/GitHub|FBAN|FBAV|Instagram|WhatsApp|Line\/|; wv\)|Telegram/i.test(UA)) return "inapp";
@@ -1018,7 +1027,7 @@ function renderInstall(){
 $("#installClose").addEventListener("click", ()=>{ try{ sessionStorage.setItem("wx_inst_x","1"); }catch(e){} $("#installCard").hidden = true; });
 window.addEventListener("beforeinstallprompt", ()=>setTimeout(renderInstall,0));
 window.addEventListener("appinstalled", ()=>{ $("#installCard").hidden = true; });
-renderInstall();
+try{ renderInstall(); }catch(e){}
 
 /* =============== compartilhar =============== */
 const appUrl = () => location.protocol.startsWith("http") ? location.origin + location.pathname.replace(/index\.html$/,"") : "https://eliabeanger.github.io/tempo_agora/";
@@ -1029,7 +1038,7 @@ async function shareOut(title, text, url){
   catch(e){ toast(url || text); }
 }
 function shareApp(){
-  shareOut("Tempo Agora", "Tempo Agora: previsão pelo GPS, alertas oficiais do INMET e da Defesa Civil, radar e dicas para o campo. Abra o link e toque em Instalar:", appUrl());
+  shareOut("Tempo Agora PWSIS", "Tempo Agora PWSIS: previsão pelo GPS, alertas oficiais do INMET e da Defesa Civil, radar e dicas para o campo. Abra o link e toque em Instalar:", appUrl());
 }
 $("#btnShareApp").addEventListener("click", shareApp);
 $("#btnShareApp2").addEventListener("click", shareApp);
@@ -1038,7 +1047,7 @@ $("#btnShareWx").addEventListener("click", ()=>{
   const c = state.data.current, d = state.data.daily;
   const amanha = d.time[1] ? `Amanhã: ${wmo(d.weather_code[1])[0].toLowerCase()}, ↑${r0(d.temperature_2m_max[1])}° ↓${r0(d.temperature_2m_min[1])}°, chuva ${r0(d.precipitation_probability_max[1])}%.` : "";
   const al = (state.official||[]).length ? `⚠ Alertas oficiais: ${state.official.map(a=>`${a.title} (${a.src}${a.sevTxt?", "+a.sevTxt:""})`).join("; ")}.` : "Sem alertas oficiais agora.";
-  const text = `🌦 Tempo em ${state.loc.name} agora: ${r0(c.temperature_2m)}°, ${wmo(c.weather_code)[0].toLowerCase()}. Sensação ${r0(c.apparent_temperature)}°. Hoje ↑${r0(d.temperature_2m_max[0])}° ↓${r0(d.temperature_2m_min[0])}°, chuva ${r0(d.precipitation_probability_max[0])}%, vento ${r0(c.wind_speed_10m)} km/h.\n${amanha}\n${al}\n\nVeja no app Tempo Agora:`;
+  const text = `🌦 Tempo em ${state.loc.name} agora: ${r0(c.temperature_2m)}°, ${wmo(c.weather_code)[0].toLowerCase()}. Sensação ${r0(c.apparent_temperature)}°. Hoje ↑${r0(d.temperature_2m_max[0])}° ↓${r0(d.temperature_2m_min[0])}°, chuva ${r0(d.precipitation_probability_max[0])}%, vento ${r0(c.wind_speed_10m)} km/h.\n${amanha}\n${al}\n\nVeja no app Tempo Agora PWSIS:`;
   shareOut(`Tempo em ${state.loc.name}`, text, appUrl());
 });
 
@@ -1050,7 +1059,7 @@ async function notifyNew(list){
   if(!prefs.alerts || !fresh.length || !hasNotif || Notification.permission!=="granted") return;
   const reg = await swReg();
   for(const a of fresh){
-    const opt = {body:`${a.src} · ${a.sevTxt||""}${a.end?" · até "+fmtDT(a.end):""}`, icon:"icon-192.png", badge:"badge-96.png", tag:a.id, requireInteraction:true, data:{url:"index.html#agora"}};
+    const opt = {body:`${a.src} · ${a.sevTxt||""}${a.end?" · até "+fmtDT(a.end):""} · Tempo Agora PWSIS`, icon:"icon-192.png", badge:"badge-96.png", tag:a.id, requireInteraction:true, data:{url:"index.html#agora"}};
     try{ reg ? reg.showNotification("⚠ "+a.title, opt) : new Notification("⚠ "+a.title, opt); }catch(e){}
   }
 }
@@ -1119,7 +1128,7 @@ function renderTimeline(i0){
 /* =============== gráficos =============== */
 $$(".tab").forEach(b=>b.addEventListener("click",()=>{ $$(".tab").forEach(x=>x.setAttribute("aria-selected",x===b)); state.chartKey=b.dataset.k; store.set("wx_tab",state.chartKey); renderChart(); }));
 const CV = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
-if(typeof Chart!=="undefined"){ Chart.defaults.font.family = 'Figtree, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif'; Chart.defaults.color = "#93a3c0"; }
+if(typeof Chart!=="undefined" && Chart.defaults && Chart.defaults.font){ Chart.defaults.font.family = 'Figtree, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif'; Chart.defaults.color = "#93a3c0"; }
 function chartOpts(scales, titleCb){
   const grid=CV("--line"), muted=CV("--muted"), fg=CV("--fg");
   return {responsive:true,maintainAspectRatio:false,interaction:{mode:"index",intersect:false},

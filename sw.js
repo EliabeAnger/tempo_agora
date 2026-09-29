@@ -1,8 +1,8 @@
-// Tempo Agora — service worker
+// Tempo Agora PWSIS — service worker
 // 1) Guarda a interface para abrir rápido e sem internet.
 // 2) Em segundo plano (Periodic Background Sync do Chrome/Android), atualiza a notificação
 //    do tempo na barra e verifica alertas oficiais do INMET para o último local salvo.
-const CACHE = "tempo-agora-v5";
+const CACHE = "tempo-agora-v6";
 const CFG = "tempo-agora-config";
 const SHELL = ["./", "./index.html", "./manifest.json", "./icon-192.png", "./icon-512.png", "./badge-96.png", "./icon-maskable-512.png"];
 
@@ -86,7 +86,7 @@ async function bgUpdate() {
         alertCount++;
         const id = "inmet-" + a.id; if (seen.has(id)) continue; seen.add(id);
         await self.registration.showNotification("⚠ " + (a.descricao || "Aviso meteorológico"), {
-          body: `INMET · ${a.severidade || ""} · ${name}`, icon: "icon-192.png", badge: "badge-96.png",
+          body: `INMET · ${a.severidade || ""} · ${name} · Tempo Agora PWSIS`, icon: "icon-192.png", badge: "badge-96.png",
           tag: id, requireInteraction: true, data: { url: "index.html#agora" }
         });
       }

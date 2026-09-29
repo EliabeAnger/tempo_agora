@@ -1,7 +1,7 @@
 {
-  "name": "Tempo Agora",
-  "short_name": "Tempo",
-  "description": "Previsão do tempo pelo GPS com alertas oficiais do INMET e da Defesa Civil.",
+  "name": "Tempo Agora PWSIS",
+  "short_name": "Tempo PWSIS",
+  "description": "Tempo Agora PWSIS: previsão do tempo pelo GPS com alertas oficiais do INMET e da Defesa Civil.",
   "lang": "pt-BR",
   "start_url": "./index.html#agora",
   "scope": "./",
