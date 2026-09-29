@@ -310,6 +310,15 @@ a{color:var(--accent)}
 @keyframes sk{to{background-position:-200% 0}}
 
 .toast{position:fixed;left:50%;bottom:calc(var(--nav-h) + env(safe-area-inset-bottom,0px) + 14px);transform:translateX(-50%);z-index:800;background:var(--panel2);border:1px solid var(--line);padding:10px 16px;border-radius:12px;font-size:13.5px;box-shadow:0 10px 30px rgba(0,0,0,.4);max-width:calc(100% - 32px)}
+/* aviso de instalação */
+.install{margin-top:10px;display:grid;grid-template-columns:auto 1fr auto;gap:4px 12px;align-items:start;padding:12px 14px;border-radius:14px;background:color-mix(in srgb,var(--accent) 16%,var(--panel));border:1px solid color-mix(in srgb,var(--accent) 50%,transparent)}
+.install img{grid-row:1/3;width:42px;height:42px;border-radius:10px}
+.install b{font-size:15px}
+.install .close{grid-row:1;grid-column:3;background:none;border:0;color:var(--muted);font-size:20px;line-height:1;padding:2px 4px}
+.install .how{grid-column:2/4;font-size:13.5px;color:var(--fg)}
+.install ol{margin:4px 0 0;padding-left:18px;display:grid;gap:3px}
+.install .how .btn{margin-top:8px}
+.install kbd{font:600 12px var(--f-mono);background:var(--bg);border:1px solid var(--line);border-radius:5px;padding:1px 6px}
 footer{font-size:12px;color:var(--muted);display:grid;gap:4px;padding:18px 2px 0}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
@@ -340,6 +349,12 @@ footer{font-size:12px;color:var(--muted);display:grid;gap:4px;padding:18px 2px 0
 
 <main class="app">
   <div class="status load" id="status"><span class="dot"></span><span id="statusText">Iniciando…</span></div>
+  <div class="install" id="installCard" hidden>
+    <img src="icon-192.png" alt="">
+    <b>Instale o Tempo Agora no celular</b>
+    <button class="close" id="installClose" aria-label="Fechar aviso">×</button>
+    <div class="how" id="installHow"></div>
+  </div>
 
   <!-- ================= AGORA ================= -->
   <section class="view" id="v-agora" data-view="agora">
@@ -934,6 +949,44 @@ $("#btnTestNotif").addEventListener("click", async ()=>{ const reg = await swReg
 window.addEventListener("beforeinstallprompt", e=>{ e.preventDefault(); installEvt = e; refreshNotifUI(); });
 window.addEventListener("appinstalled", ()=>{ installEvt = null; refreshNotifUI(); toast("App instalado. Procure o ícone Tempo na tela inicial."); });
 $("#btnInstall").addEventListener("click", async ()=>{ if(!installEvt) return; installEvt.prompt(); await installEvt.userChoice; installEvt = null; refreshNotifUI(); });
+
+/* =============== instalação guiada =============== */
+const UA = navigator.userAgent || "";
+const isStandalone = () => matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
+function browserKind(){
+  if(/iPhone|iPad|iPod/i.test(UA)) return /CriOS|FxiOS|EdgiOS/i.test(UA) ? "ios-other" : "ios";
+  if(/GitHub|FBAN|FBAV|Instagram|WhatsApp|Line\/|; wv\)|Telegram/i.test(UA)) return "inapp";
+  if(/SamsungBrowser/i.test(UA)) return "samsung";
+  if(/Firefox/i.test(UA)) return "firefox";
+  if(/EdgA/i.test(UA)) return "edge";
+  if(/Chrome/i.test(UA) && /Android/i.test(UA)) return "chrome";
+  return "desktop";
+}
+function renderInstall(){
+  const card = $("#installCard");
+  let dismissed = false; try{ dismissed = sessionStorage.getItem("wx_inst_x")==="1"; }catch(e){}
+  if(isStandalone() || dismissed){ card.hidden = true; return; }
+  const url = location.href.split("#")[0];
+  const steps = {
+    inapp: `Você abriu o link <b>dentro de outro app</b>, que não permite instalar.<ol><li>Toque em <kbd>⋮</kbd> (ou <kbd>…</kbd>) no canto da tela.</li><li>Escolha <b>Abrir no Chrome</b> / <b>Abrir no navegador</b>.</li><li>No Chrome, siga o aviso que vai aparecer aqui.</li></ol><button class="btn ghost" id="copyUrl">Copiar link para colar no Chrome</button>`,
+    chrome: `<ol><li>Toque em <kbd>⋮</kbd> no canto superior direito do Chrome.</li><li>Toque em <b>Instalar app</b> ou <b>Adicionar à tela inicial</b>.</li><li>Confirme em <b>Instalar</b>.</li></ol>`,
+    samsung: `<ol><li>Toque em <kbd>≡</kbd> na barra de baixo.</li><li>Toque em <b>Adicionar página a</b> → <b>Tela inicial</b>.</li></ol>Se preferir, abra no Chrome para ter as notificações em segundo plano.`,
+    edge: `<ol><li>Toque em <kbd>…</kbd> na barra de baixo.</li><li>Toque em <b>Adicionar ao telefone</b>.</li></ol>`,
+    firefox: `<ol><li>Toque em <kbd>⋮</kbd>.</li><li>Toque em <b>Instalar</b> ou <b>Adicionar à tela inicial</b>.</li></ol>`,
+    ios: `<ol><li>Toque no botão <b>Compartilhar</b> (quadrado com seta) do Safari.</li><li>Role e toque em <b>Adicionar à Tela de Início</b>.</li></ol>`,
+    "ios-other": `No iPhone só o <b>Safari</b> instala apps. Copie o link e abra no Safari.<br><button class="btn ghost" id="copyUrl">Copiar link</button>`,
+    desktop: `No computador: clique no ícone de instalar na barra de endereço do Chrome ou Edge. No celular: abra este link no Chrome.`
+  };
+  const kind = browserKind();
+  $("#installHow").innerHTML = (installEvt ? `<button class="btn" id="installNow">Instalar agora</button><div style="margin-top:8px;color:var(--muted)">Ou, pelo menu:</div>` : "") + steps[kind];
+  card.hidden = false;
+  const now = $("#installNow"); if(now) now.onclick = async ()=>{ installEvt.prompt(); const r = await installEvt.userChoice; installEvt = null; if(r.outcome!=="accepted") renderInstall(); };
+  const cp = $("#copyUrl"); if(cp) cp.onclick = async ()=>{ try{ await navigator.clipboard.writeText(url); toast("Link copiado. Cole na barra de endereço do navegador."); }catch(e){ toast(url); } };
+}
+$("#installClose").addEventListener("click", ()=>{ try{ sessionStorage.setItem("wx_inst_x","1"); }catch(e){} $("#installCard").hidden = true; });
+window.addEventListener("beforeinstallprompt", ()=>setTimeout(renderInstall,0));
+window.addEventListener("appinstalled", ()=>{ $("#installCard").hidden = true; });
+renderInstall();
 
 /* =============== compartilhar =============== */
 const appUrl = () => location.protocol.startsWith("http") ? location.origin + location.pathname.replace(/index\.html$/,"") : "https://eliabeanger.github.io/tempo_agora/";

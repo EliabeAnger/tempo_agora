@@ -2,12 +2,13 @@
 // 1) Guarda a interface para abrir rápido e sem internet.
 // 2) Em segundo plano (Periodic Background Sync do Chrome/Android), atualiza a notificação
 //    do tempo na barra e verifica alertas oficiais do INMET para o último local salvo.
-const CACHE = "tempo-agora-v3";
+const CACHE = "tempo-agora-v4";
 const CFG = "tempo-agora-config";
-const SHELL = ["./", "./index.html", "./manifest.json", "./icon-192.png", "./icon-512.png", "./badge-96.png"];
+const SHELL = ["./", "./index.html", "./manifest.json", "./icon-192.png", "./icon-512.png", "./badge-96.png", "./icon-maskable-512.png"];
 
+// Guarda cada arquivo separadamente: se um falhar, a instalação do app não é bloqueada
 self.addEventListener("install", e => {
-  e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
+  e.waitUntil(caches.open(CACHE).then(c => Promise.all(SHELL.map(u => c.add(u).catch(() => null)))).then(() => self.skipWaiting()));
 });
 self.addEventListener("activate", e => {
   e.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(k => k !== CACHE && k !== CFG).map(k => caches.delete(k)))).then(() => self.clients.claim()));
