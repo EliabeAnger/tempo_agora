@@ -2,7 +2,7 @@
 // 1) Guarda a interface para abrir rápido e sem internet.
 // 2) Em segundo plano (Periodic Background Sync do Chrome/Android), atualiza a notificação
 //    do tempo na barra e verifica alertas oficiais do INMET para o último local salvo.
-const CACHE = "tempo-agora-v9";
+const CACHE = "tempo-agora-v10";
 const CFG = "tempo-agora-config";
 const SHELL = ["./", "./index.html", "./manifest.json", "./icon-192.png", "./icon-512.png", "./badge-96.png", "./icon-maskable-512.png"];
 

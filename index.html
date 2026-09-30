@@ -82,7 +82,7 @@ a{color:var(--accent)}
 @keyframes spin{to{transform:rotate(360deg)}}
 
 /* navegação */
-.nav{position:fixed;left:0;right:0;bottom:0;z-index:700;display:grid;grid-template-columns:repeat(6,1fr);
+.nav{position:fixed;left:0;right:0;bottom:0;z-index:700;display:grid;grid-template-columns:repeat(5,1fr);
   background:var(--glass);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-top:1px solid var(--line);
   padding-bottom:env(safe-area-inset-bottom,0px)}
 .nav button{background:none;border:0;height:var(--nav-h);display:grid;place-items:center;align-content:center;gap:3px;color:var(--muted);font-size:11px;font-weight:600;position:relative}
@@ -91,7 +91,7 @@ a{color:var(--accent)}
 .nav button[aria-current="page"]::before{content:"";position:absolute;top:0;left:30%;right:30%;height:3px;border-radius:0 0 3px 3px;background:var(--accent)}
 .nav .badge{position:absolute;top:8px;left:calc(50% + 6px);min-width:17px;height:17px;padding:0 4px;border-radius:9px;background:var(--danger);color:#fff;font-size:10px;font-weight:700;display:grid;place-items:center}
 @media (min-width:900px){
-  .nav{position:sticky;top:calc(env(safe-area-inset-top,0px) + 62px);bottom:auto;max-width:1080px;margin:0 auto;border:1px solid var(--line);border-radius:14px;grid-template-columns:repeat(6,auto);justify-content:start;gap:4px;padding:4px;margin-top:10px;background:var(--glass)}
+  .nav{position:sticky;top:calc(env(safe-area-inset-top,0px) + 62px);bottom:auto;max-width:1080px;margin:0 auto;border:1px solid var(--line);border-radius:14px;grid-template-columns:repeat(5,auto);justify-content:start;gap:4px;padding:4px;margin-top:10px;background:var(--glass)}
   .nav button{height:auto;grid-auto-flow:column;gap:8px;padding:8px 16px;border-radius:10px;font-size:14px}
   .nav button[aria-current="page"]{background:color-mix(in srgb,var(--accent) 15%,transparent)}
   .nav button[aria-current="page"]::before{display:none}
@@ -468,6 +468,44 @@ body.lock{overflow:hidden}
 .rd-body iframe,.rd-body video,.rd-body script,.rd-body style{display:none}
 .rd-foot{margin-top:28px;padding-top:14px;border-top:1px solid var(--line);font-size:13px;color:var(--muted);display:grid;gap:10px}
 .rd-more{display:grid;gap:8px;margin-top:18px}
+
+/* ===== ajuda (?) ===== */
+.qi{display:inline-grid;place-items:center;width:20px;height:20px;border-radius:50%;border:1px solid var(--line);background:color-mix(in srgb,var(--accent) 12%,transparent);color:var(--accent);font:800 12px/1 var(--f-body);vertical-align:middle;margin-left:4px;padding:0;letter-spacing:0;text-transform:none;cursor:pointer}
+.qi:hover{background:var(--accent);color:var(--on-accent)}
+.label .qi{width:17px;height:17px;font-size:10.5px;margin-left:3px}
+.help-now{margin:10px 0 0;padding:10px 12px;border-radius:12px;background:var(--panel2);font-size:14px}
+.help-scale{display:grid;gap:4px;margin-top:10px;font-size:13.5px}
+.help-scale div{display:grid;grid-template-columns:12px auto 1fr;gap:8px;align-items:center}
+.help-scale i{width:12px;height:12px;border-radius:3px}
+.help-scale b{font-family:var(--f-mono);font-size:12.5px;white-space:nowrap}
+.sheet p{line-height:1.55}
+.more-days{margin-top:10px;width:100%}
+
+/* ===== pergunte ===== */
+.ask{display:flex;align-items:center;gap:6px;background:var(--glass);border:1px solid color-mix(in srgb,var(--accent) 45%,var(--line));border-radius:999px;padding:5px 5px 5px 14px;backdrop-filter:blur(10px)}
+.ask input{flex:1;min-width:0;border:0;background:none;outline:none;font-size:15px;padding:8px 0}
+.ask input::placeholder{color:var(--muted)}
+.ask-ic{width:20px;height:20px;color:var(--accent);flex:none}
+.ask-mic,.ask-send{flex:none;width:40px;height:40px;border-radius:50%;border:0;display:grid;place-items:center;background:var(--accent);color:var(--on-accent)}
+.ask-mic{background:color-mix(in srgb,var(--accent) 16%,transparent);color:var(--accent)}
+.ask-mic svg,.ask-send svg{width:20px;height:20px}
+.ask-mic.rec{background:var(--danger);color:#fff;animation:pulse 1s infinite}
+.chat{position:fixed;inset:0;z-index:960;background:var(--bg);display:grid;grid-template-rows:auto 1fr auto auto;animation:fade .15s}
+.chat-log{overflow-y:auto;padding:14px 14px 6px;display:flex;flex-direction:column;gap:10px;max-width:760px;width:100%;margin:0 auto}
+.msg{max-width:88%;padding:10px 14px;border-radius:18px;font-size:15px;line-height:1.5;white-space:pre-line}
+.msg.me{align-self:flex-end;background:var(--accent);color:var(--on-accent);border-bottom-right-radius:6px}
+.msg.bot{align-self:flex-start;background:var(--panel2);border:1px solid var(--line);border-bottom-left-radius:6px}
+.msg.bot .say{display:inline-flex;align-items:center;gap:4px;margin-top:6px;border:0;background:none;color:var(--accent);font-weight:700;font-size:12.5px;padding:0}
+.msg.bot .say svg{width:15px;height:15px}
+.msg.bot .src{display:block;margin-top:6px;font-size:11.5px;color:var(--muted)}
+.msg.typing{color:var(--muted)}
+.chat-sugs{display:flex;gap:6px;overflow-x:auto;padding:6px 14px;scrollbar-width:none;max-width:760px;width:100%;margin:0 auto}
+.chat-sugs::-webkit-scrollbar{display:none}
+.chat-ask{margin:4px auto calc(10px + env(safe-area-inset-bottom,0px));width:calc(100% - 24px);max-width:736px}
+#chatVoice[aria-pressed="false"] #chatVoiceWaves{display:none}
+.fab{position:fixed;right:16px;bottom:calc(var(--nav-h) + env(safe-area-inset-bottom,0px) + 14px);z-index:690;width:54px;height:54px;border-radius:50%;border:0;background:var(--accent);color:var(--on-accent);display:grid;place-items:center;box-shadow:0 10px 26px rgba(0,0,0,.35)}
+.fab svg{width:26px;height:26px}
+@media (min-width:900px){.fab{bottom:24px;right:24px}}
 /* layout largo: Agora em duas colunas */
 .agora-top{display:grid;gap:14px;grid-template-columns:minmax(0,1fr)}
 .agora-top>.left{display:grid;gap:14px;min-width:0}
@@ -513,7 +551,6 @@ body.lock{overflow:hidden}
 <nav class="nav" id="nav" aria-label="Seções">
   <button data-view="agora" aria-current="page"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>Agora<span class="badge" id="navBadge" hidden>0</span></button>
   <button data-view="graficos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="m7 15 4-5 3 3 5-7"/></svg>Gráficos</button>
-  <button data-view="dias"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>14 dias</button>
   <button data-view="campo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21V11"/><path d="M12 11C12 7 9 4 4 4c0 4 3 7 8 7zM12 14c0-3 3-6 8-6 0 3-3 6-8 6z"/></svg>Campo</button>
   <button data-view="noticias"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5h12v14H6a2 2 0 0 1-2-2z"/><path d="M16 9h4v8a2 2 0 0 1-2 2h-2"/><path d="M7.5 9h5M7.5 12.5h5M7.5 16h3"/></svg>Notícias</button>
   <button data-view="local"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>Local</button>
@@ -547,8 +584,14 @@ body.lock{overflow:hidden}
       </div>
     </div>
 
+    <form class="ask" id="askBar" autocomplete="off">
+      <svg class="ask-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l1.8 4.6L18.5 9l-4.7 1.5L12 15l-1.8-4.5L5.5 9l4.7-1.4z"/><path d="M19 15l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"/></svg>
+      <input id="askInput" type="text" placeholder="Pergunte: vai chover amanhã?" aria-label="Pergunte sobre o tempo" enterkeyhint="send">
+      <button type="button" class="ask-mic" id="askMic" aria-label="Perguntar falando"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></button>
+    </form>
+
     <div class="panel" id="nowcast">
-      <header><h2>Chuva nas próximas 2 h</h2><small>de 15 em 15 min</small></header>
+      <header><h2>Chuva nas próximas 2 h <button class="qi" data-help="chance" aria-label="Como ler a chuva">?</button></h2><small>de 15 em 15 min</small></header>
       <p class="nc-line" id="ncLine">—</p>
       <div class="nc-bars" id="ncBars"></div>
       <div class="nc-axis" id="ncAxis"></div>
@@ -571,17 +614,39 @@ body.lock{overflow:hidden}
       <div class="timeline" id="timeline"></div>
     </div>
 
+    <div class="panel">
+      <header><h2>Próximos 14 dias</h2><small>Toque num dia para detalhes</small></header>
+      <div class="days" id="days"></div>
+      <button class="btn ghost more-days" id="moreDays">Mostrar mais 7 dias</button>
+    </div>
+
+    <div class="panel">
+      <header><h2>Resumo do período <button class="qi" data-help="balanco" aria-label="O que é o resumo">?</button></h2><small>14 dias</small></header>
+      <div class="summary" id="summary"></div>
+    </div>
+
     <div class="cols">
       <div class="panel">
         <header><h2>Condições</h2><small id="updated"></small></header>
         <div class="metrics" id="metrics"></div>
       </div>
       <div class="panel">
-        <header><h2>Vento</h2><small>km/h · 10 m do solo</small></header>
+        <header><h2>Vento <button class="qi" data-help="beaufort" aria-label="Como ler o vento">?</button></h2><small>km/h · 10 m do solo</small></header>
         <div class="wind">
           <svg class="compass" id="compass" viewBox="0 0 200 200" role="img" aria-label="Direção do vento"></svg>
           <div class="wind-data" id="windData"></div>
         </div>
+      </div>
+    </div>
+
+    <div class="cols">
+      <div class="panel">
+        <header><h2>Sol e Lua hoje</h2><small id="daylen"></small></header>
+        <div class="sun" id="sun"></div>
+      </div>
+      <div class="panel">
+        <header><h2>Fases da Lua</h2><small>30 dias</small></header>
+        <div id="moonCal"></div>
       </div>
     </div>
 
@@ -630,32 +695,10 @@ body.lock{overflow:hidden}
     </div>
 
     <div class="panel">
-      <header><h2>Consenso dos modelos</h2><small>ECMWF · GFS · ICON · JMA</small></header>
-      <p class="chart-note" style="margin:0 0 10px">Os quatro principais modelos globais de previsão, comparados dia a dia. Quando concordam, a previsão é mais confiável.</p>
+      <header><h2>Consenso dos modelos <button class="qi" data-help="modelos" aria-label="O que são os modelos">?</button></h2><small>ECMWF · GFS · ICON · JMA</small></header>
+      <p class="chart-note" style="margin:0 0 10px">Previsão do tempo é feita por supercomputadores. Aqui comparamos quatro deles, de centros diferentes do mundo. <b>Quando todos dizem a mesma coisa, a confiança é alta.</b> Quando discordam, o tempo está mais difícil de prever e pode mudar.</p>
       <div class="chartbox" style="height:230px"><canvas id="chartModels"></canvas></div>
       <div class="cscroll" style="margin-top:12px"><div class="consensus" id="consensus"><div class="sk" style="height:120px"></div></div></div>
-    </div>
-  </section>
-
-  <!-- ================= 14 DIAS ================= -->
-  <section class="view" id="v-dias" data-view="dias" hidden>
-    <div class="panel">
-      <header><h2>Resumo do período</h2><small>14 dias</small></header>
-      <div class="summary" id="summary"></div>
-    </div>
-    <div class="panel">
-      <header><h2>Dia a dia</h2><small>Toque para detalhes</small></header>
-      <div class="days" id="days"></div>
-    </div>
-    <div class="cols">
-      <div class="panel">
-        <header><h2>Fases da Lua</h2><small>30 dias</small></header>
-        <div id="moonCal"></div>
-      </div>
-      <div class="panel">
-        <header><h2>Sol e Lua hoje</h2><small id="daylen"></small></header>
-        <div class="sun" id="sun"></div>
-      </div>
     </div>
   </section>
 
@@ -671,11 +714,11 @@ body.lock{overflow:hidden}
       <div class="agenda" id="agenda"></div>
     </div>
     <div class="panel">
-      <header><h2>Janela de pulverização</h2><small>48 h</small></header>
+      <header><h2>Janela de pulverização <button class="qi" data-help="pulverizacao" aria-label="Como funciona a janela">?</button></h2><small>48 h</small></header>
       <div id="agroWindow"></div>
     </div>
     <div class="panel">
-      <header><h2>Índices agrometeorológicos</h2><small>Agora</small></header>
+      <header><h2>Índices do campo</h2><small>Toque no ? para entender</small></header>
       <div class="metrics" id="agroIdx"></div>
     </div>
     <div class="panel">
@@ -726,7 +769,7 @@ body.lock{overflow:hidden}
         <div id="about"><div class="sk" style="height:90px"></div></div>
       </div>
       <div class="panel">
-        <header><h2>Qualidade do ar</h2><small>Índice europeu</small></header>
+        <header><h2>Qualidade do ar <button class="qi" data-help="ar" aria-label="Como ler a qualidade do ar">?</button></h2><small>Índice europeu</small></header>
         <div id="air"><div class="sk" style="height:90px"></div></div>
       </div>
       <div class="panel wide">
@@ -746,6 +789,19 @@ body.lock{overflow:hidden}
 
 <div class="toast" id="toast" hidden></div>
 <div class="updbar" id="updBar" hidden><span>Nova versão do app disponível</span><button id="updBtn">Atualizar</button></div>
+<div class="chat" id="chat" hidden role="dialog" aria-modal="true" aria-label="Pergunte ao Tempo">
+  <div class="rd-top"><button class="iconbtn" id="chatBack" aria-label="Voltar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <span class="rd-src">Pergunte ao Tempo <span class="muted" style="font-weight:600">PWSIS</span></span>
+    <button class="iconbtn" id="chatVoice" aria-pressed="true" aria-label="Respostas faladas"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 9v6h4l5 4V5L8 9z"/><path id="chatVoiceWaves" d="M16 9a4 4 0 0 1 0 6M18.5 6.5a8 8 0 0 1 0 11"/></svg></button></div>
+  <div class="chat-log" id="chatLog" aria-live="polite"></div>
+  <div class="chat-sugs" id="chatSugs"></div>
+  <form class="ask chat-ask" id="chatForm" autocomplete="off">
+    <input id="chatInput" type="text" placeholder="Escreva ou toque no microfone" aria-label="Sua pergunta" enterkeyhint="send">
+    <button type="button" class="ask-mic" id="chatMic" aria-label="Perguntar falando"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></button>
+    <button type="submit" class="ask-send" aria-label="Enviar"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 20l18-8L3 4v6l12 2-12 2z"/></svg></button>
+  </form>
+</div>
+<button class="fab" id="fabAsk" aria-label="Pergunte ao Tempo" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5h16v11H9l-5 4z"/><path d="M8.5 10h.01M12 10h.01M15.5 10h.01" stroke-width="3" stroke-linecap="round"/></svg></button>
 <div class="reader" id="reader" hidden role="dialog" aria-modal="true" aria-labelledby="rdTitle">
   <div class="rd-top"><button class="iconbtn" id="rdBack" aria-label="Voltar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M15 5l-7 7 7 7"/></svg></button>
     <span class="rd-src" id="rdSrc"></span>
@@ -882,6 +938,7 @@ function showView(v){
   if(v==="graficos"){ renderChart(); renderModels(); }
   if(v==="local"){ ensureMap(); setTimeout(()=>state.map && state.map.invalidateSize(),60); }
   if(v==="noticias") loadNews();
+  $("#fabAsk").hidden = v==="agora";
 }
 $$(".nav button").forEach(b => b.addEventListener("click", ()=>showView(b.dataset.view)));
 window.addEventListener("scroll", ()=>$("#top").classList.toggle("scrolled", scrollY>4), {passive:true});
@@ -1386,6 +1443,7 @@ function renderWeather(){
   renderWind(c); renderTimeline(i); renderAlerts(); renderDays(); renderSummary(); renderAgro(); renderMoonCal(); renderSun();
   renderPreview(); updateBarNotification();
   renderNowcast(); renderDaySum(); renderFavs(); setFx(); renderCropChips(); renderCrop(); renderAgenda();
+  trimDays(); addHelpButtons();
   if(state.view==="graficos") renderChart();
 }
 
@@ -1445,6 +1503,8 @@ function renderChart(){
   if(state.chart) state.chart.destroy();
   state.chart = new Chart($("#chart"),{data:{labels:lab,datasets:ds},options:chartOpts(sc,tcb)});
   $("#chartNote").textContent = note;
+  const hk = {temp:"orvalho", rain:"chance", wind:"beaufort", hum:"pressao", uv:"cape", soil:"solo", daily:"mm"}[state.chartKey];
+  if(hk) $("#chartNote").insertAdjacentHTML("beforeend", ` <button class="qi" data-help="${hk}" aria-label="Explicação">?</button>`);
 }
 
 /* consenso dos modelos */
@@ -1459,7 +1519,7 @@ async function loadModels(){
 function renderModels(){
   const M = state.models; if(!M || !M.daily) return; const d=M.daily;
   const get = (v,m) => d[`${v}_${m}`] || [];
-  let html = `<div class="crow h"><span>Dia</span>${MODELS.map(m=>`<span style="text-align:center;color:${m[2]}">${m[1]}</span>`).join("")}<span style="text-align:center">Conf.</span></div>`;
+  let html = `<div class="crow h"><span>Dia</span>${MODELS.map(m=>`<span style="text-align:center;color:${m[2]}">${m[1]}</span>`).join("")}<span style="text-align:center">Conf.<button class="qi" data-help="confianca" aria-label="O que é a confiança">?</button></span></div>`;
   d.time.forEach((t,n)=>{
     const x=parseLocal(t), mx=MODELS.map(m=>get("temperature_2m_max",m[0])[n]), pr=MODELS.map(m=>get("precipitation_sum",m[0])[n]);
     const vmx=mx.filter(ok), vpr=pr.filter(ok);
@@ -1776,7 +1836,7 @@ function openSheet(html){
 function closeSheet(fromBack){ if($("#sheetBg").hidden) return; $("#sheetBg").hidden = true; if(!fromBack) popOverlay("sheet"); if(sheetReturn && sheetReturn.focus) sheetReturn.focus(); }
 $("#sheetX").addEventListener("click", ()=>closeSheet());
 $("#sheetBg").addEventListener("click", e=>{ if(e.target.id==="sheetBg") closeSheet(); });
-document.addEventListener("keydown", e=>{ if(e.key!=="Escape") return; if(!$("#sheetBg").hidden) closeSheet(); else if(!$("#reader").hidden) closeArticle(); else if($("#mapWrap").classList.contains("full")) mapFull(false); });
+document.addEventListener("keydown", e=>{ if(e.key!=="Escape") return; if(!$("#sheetBg").hidden) closeSheet(); else if(!$("#reader").hidden) closeArticle(); else if(!$("#chat").hidden) closeChat(); else if($("#mapWrap").classList.contains("full")) mapFull(false); });
 
 function openSettings(){
   const segBtn = (v,l) => `<button data-theme-set="${v}" aria-pressed="${settings.theme===v}">${l}</button>`;
@@ -2072,9 +2132,8 @@ function smithDays(){
   });
   return bestStreak;
 }
-function renderCrop(){
-  if(!state.data) return;
-  const c = CROPS[cropKey], d = state.data, h = d.hourly, dd = d.daily, i0 = nowIndex();
+function cropCards(key){
+  const c = CROPS[key], d = state.data, h = d.hourly, dd = d.daily, i0 = nowIndex();
   const soil24 = sum(h.soil_temperature_0cm.slice(i0,i0+24))/Math.max(1,h.soil_temperature_0cm.slice(i0,i0+24).length);
   const sm = h.soil_moisture_3_to_9cm[i0];
   const rain2 = sum(dd.precipitation_sum.slice(0,2)), rain3 = sum(dd.precipitation_sum.slice(0,3)), rain7 = sum(dd.precipitation_sum.slice(0,7));
@@ -2085,11 +2144,12 @@ function renderCrop(){
   let dry=0; for(const mm of dd.precipitation_sum){ if(mm<1) dry++; else break; }
   const cards = [];
   // plantio
-  const plantTitle = c.past ? "Plantio e reforma de pasto" : cropKey==="cafe"||cropKey==="cana" ? "Plantio de mudas" : "Plantio e semeadura";
+  const plantTitle = c.past ? "Plantio e reforma de pasto" : key==="cafe"||key==="cana" ? "Plantio de mudas" : "Plantio e semeadura";
   if(soil24 < c.soil[0]) cards.push(["bad",plantTitle,"Esperar",`Solo frio (${r0(soil24)} °C em média). ${c.n} precisa de solo acima de ${c.soil[0]} °C, ideal acima de ${c.soil[1]} °C.`]);
   else if(sm < 0.18) cards.push([rain3>=10?"mid":"bad",plantTitle,rain3>=10?"Após a chuva":"Esperar", rain3>=10 ? `Solo seco agora, mas vêm ${r0(rain3)} mm em 3 dias. Plante logo depois da chuva.` : `Solo seco (${r0(sm*100)}%) e pouca chuva prevista. Espere umidade para garantir a germinação.`]);
   else if(sm >= 0.38) cards.push(["mid",plantTitle,"Esperar drenar","Solo encharcado: risco de compactação e de atolar máquinas."]);
-  else if(Math.min(...dd.temperature_2m_min.slice(0,3)) <= c.frost) cards.push(["mid",plantTitle,"Esperar a geada",`Solo em boas condições, mas há previsão de geada nos próximos 3 dias (mínima de ${r0(Math.min(...dd.temperature_2m_min.slice(0,3)))} °C). Plante depois que o frio passar.`]);
+  else if(Math.min(...dd.temperature_2m_min.slice(0,3)) <= c.frost){ const last = [0,1,2].filter(n=>dd.temperature_2m_min[n]<=c.frost).pop();
+    cards.push(["mid",plantTitle,"Esperar a geada",`Solo em boas condições, mas há geada prevista ${dayName(dd.time[last])} (mínima de ${r0(dd.temperature_2m_min[last])} °C). Plante depois ${last===0?"de hoje":last===1?"de amanhã":`de ${dayName(dd.time[last])}`}, quando o frio passar.`]); }
   else if(rain2 >= 40) cards.push(["mid",plantTitle,"Cuidado",`Chuva forte nos próximos 2 dias (${r0(rain2)} mm) pode causar erosão e arrastar sementes.`]);
   else cards.push(["good",plantTitle,"Favorável",`Solo com ${r0(soil24)} °C e umidade de ${r0(sm*100)}%. ${soil24>=c.soil[1]?"Condição boa":"Condição aceitável"} para ${c.n.toLowerCase()}.`]);
   // doenças
@@ -2118,31 +2178,36 @@ function renderCrop(){
     : dry>=1 ? ["mid","Colheita","Janela curta",`Só ${dry} dia(s) seco(s) antes da próxima chuva. Priorize as áreas prontas.`]
     : ["bad","Colheita","Esperar","Chuva prevista para hoje: evite colher com o produto úmido."]);
   if(c.past) cards.push([tmin<=c.frost||tmax>=c.heat?"mid":"good","Animais",tmin<=c.frost?"Frio":tmax>=c.heat?"Calor":"Tranquilo", tmin<=c.frost?"Noites de geada: ofereça abrigo e reforce a alimentação.":tmax>=c.heat?c.heatTip:"Condições confortáveis para o rebanho."]);
+  return cards;
+}
+function renderCrop(){
+  if(!state.data) return; const cards = cropCards(cropKey);
   $("#cropBody").innerHTML = `<div class="cropgrid">${cards.map(([cl,t,tag,p])=>`<div class="ccard ${cl}"><h4>${t}<span>${esc(tag)}</span></h4><p>${p}</p></div>`).join("")}</div>
     <p class="cropnote">Recomendações calculadas pela previsão para o seu local. As datas oficiais de plantio da sua região estão no Zoneamento Agrícola de Risco Climático (ZARC) do Ministério da Agricultura. Na dúvida, fale com o técnico da Emater ou da sua cooperativa.</p>`;
 }
+function agendaActs(key, n){
+  const c = CROPS[key], d = state.data, h = d.hourly, dd = d.daily, day = dd.time[n];
+  const hrs = h.time.map((t,i)=>t.slice(0,10)===day?i:-1).filter(i=>i>=0), dayHrs = hrs.filter(i=>{ const H=+h.time[i].slice(11,13); return H>=6 && H<=19; });
+  const good = dayHrs.filter(i=>i+2<h.time.length && sprayRate(i).s===2);
+  const mm = dd.precipitation_sum[n], prev = n>0 ? dd.precipitation_sum[n-1] : 0, storm = dd.weather_code[n]>=95;
+  const rhDay = dayHrs.length ? sum(dayHrs.map(i=>h.relative_humidity_2m[i]))/dayHrs.length : 100;
+  const acts = [];
+  if(storm) acts.push(["bad","Trovoada: evite o campo"]);
+  else if(mm>=15) acts.push(["bad",`Chuva forte ${r0(mm)} mm`]);
+  else if(mm>=1) acts.push(["info",`Chuva ${r1(mm)} mm`]);
+  if(dd.temperature_2m_min[n]<=c.frost) acts.push(["bad","Geada"]);
+  if(good.length>=2) acts.push(["good",`Pulverizar ${+h.time[good[0]].slice(11,13)}h–${+h.time[good[good.length-1]].slice(11,13)+1}h`]);
+  if(c.harvest && mm<1 && prev<5 && rhDay<80 && !storm) acts.push(["good","Colher"]);
+  if(!c.past && mm<15 && !storm && Math.min(...dd.temperature_2m_min.slice(n, n+3)) > c.frost && dd.temperature_2m_max[n]>=c.soil[0]+8 && (n===0 ? h.soil_moisture_3_to_9cm[nowIndex()]>=0.18 : prev>=3 || h.soil_moisture_3_to_9cm[nowIndex()]>=0.2)) acts.push(["good","Plantar"]);
+  if(!acts.length) acts.push(["mid","Dia de manutenção"]);
+  return acts;
+}
 function renderAgenda(){
   if(!state.data) return;
-  const c = CROPS[cropKey], d = state.data, h = d.hourly, dd = d.daily;
+  const c = CROPS[cropKey], dd = state.data.daily;
   $("#agendaCrop").textContent = c.n;
-  const rows = dd.time.slice(0,7).map((day,n)=>{
-    const hrs = h.time.map((t,i)=>t.slice(0,10)===day?i:-1).filter(i=>i>=0), dayHrs = hrs.filter(i=>{ const H=+h.time[i].slice(11,13); return H>=6 && H<=19; });
-    const good = dayHrs.filter(i=>i+2<h.time.length && sprayRate(i).s===2);
-    const mm = dd.precipitation_sum[n], prev = n>0 ? dd.precipitation_sum[n-1] : 0, storm = dd.weather_code[n]>=95;
-    const rhDay = dayHrs.length ? sum(dayHrs.map(i=>h.relative_humidity_2m[i]))/dayHrs.length : 100;
-    const acts = [];
-    if(storm) acts.push(["bad","Trovoada: evite o campo"]);
-    else if(mm>=15) acts.push(["bad",`Chuva forte ${r0(mm)} mm`]);
-    else if(mm>=1) acts.push(["info",`Chuva ${r1(mm)} mm`]);
-    if(dd.temperature_2m_min[n]<=c.frost) acts.push(["bad","Geada"]);
-    if(good.length>=2) acts.push(["good",`Pulverizar ${+h.time[good[0]].slice(11,13)}h–${+h.time[good[good.length-1]].slice(11,13)+1}h`]);
-    if(c.harvest && mm<1 && prev<5 && rhDay<80 && !storm) acts.push(["good","Colher"]);
-    if(!c.past && mm<15 && !storm && dd.temperature_2m_min[n]>c.frost && dd.temperature_2m_max[n]>=c.soil[0]+8 && (n===0 ? h.soil_moisture_3_to_9cm[nowIndex()]>=0.18 : prev>=3 || h.soil_moisture_3_to_9cm[nowIndex()]>=0.2)) acts.push(["good","Plantar"]);
-    if(!acts.length) acts.push(["mid","Dia de manutenção"]);
-    const dt = parseLocal(day);
-    return `<div class="aday"><div class="dn">${n===0?"Hoje":n===1?"Amanhã":DIAS[dt.getDay()]}<small>${dt.getDate()}/${dt.getMonth()+1}</small></div>${icon(dd.weather_code[n],1,{gust:dd.wind_gusts_10m_max[n]})}<div class="acts">${acts.map(([cl,t])=>`<span class="act ${cl}">${t}</span>`).join("")}</div></div>`;
-  });
-  $("#agenda").innerHTML = rows.join("");
+  $("#agenda").innerHTML = dd.time.slice(0,7).map((day,n)=>{ const dt = parseLocal(day), acts = agendaActs(cropKey, n);
+    return `<div class="aday"><div class="dn">${n===0?"Hoje":n===1?"Amanhã":DIAS[dt.getDay()]}<small>${dt.getDate()}/${dt.getMonth()+1}</small></div>${icon(dd.weather_code[n],1,{gust:dd.wind_gusts_10m_max[n]})}<div class="acts">${acts.map(([cl,t])=>`<span class="act ${cl}">${t}</span>`).join("")}</div></div>`; }).join("");
 }
 
 /* =============== NOTÍCIAS =============== */
@@ -2293,6 +2358,298 @@ async function openArticle(it){
 }
 $("#rdBody").addEventListener("click", e=>{ const b = e.target.closest(".ncard"); if(b) openArticle(news.items[+b.dataset.n]); });
 
+/* =============== EXPLICAÇÕES EM LINGUAGEM SIMPLES =============== */
+const curH = () => state.data ? nowIndex() : 0;
+const GLOSS = {
+  umidade:{t:"Umidade do ar", p:["Mostra quanto vapor de água tem no ar, de 0 a 100%.","Com umidade baixa o ar fica seco, a garganta resseca e o fogo se espalha fácil. Com umidade alta o tempo fica abafado e aparecem orvalho e neblina."],
+    scale:[["var(--danger)","Muito seco","abaixo de 30%"],["var(--ok)","Confortável","30 a 60%"],["var(--warn)","Úmido","60 a 85%"],["var(--accent)","Muito úmido, abafado","acima de 85%"]],
+    now:()=>`Agora: ${r0(state.data.current.relative_humidity_2m)}%.`},
+  orvalho:{t:"Ponto de orvalho", p:["É a temperatura em que o ar fica tão cheio de água que ela vira gotinhas.","Quanto mais perto da temperatura do ar, mais abafado fica e maior a chance de orvalho de manhã e neblina. Ponto de orvalho acima de 20 °C é sinal de tempo pesado e abafado."],
+    now:()=>`Agora: ponto de orvalho ${r0(state.data.hourly.dew_point_2m[curH()])} °C com o ar a ${r0(state.data.current.temperature_2m)} °C.`},
+  sensacao:{t:"Sensação térmica", p:["É a temperatura que o corpo sente. O vento faz parecer mais frio; a umidade alta faz o calor parecer maior."], now:()=>`Agora: ${r0(state.data.current.temperature_2m)} °C no termômetro e sensação de ${r0(state.data.current.apparent_temperature)} °C.`},
+  pressao:{t:"Pressão do ar", p:["É o peso do ar sobre nós, medido em hPa. O valor normal fica perto de 1013 hPa.","O mais importante é se ela está subindo ou caindo. Caindo rápido (mais de 2 hPa em 3 horas) costuma indicar mau tempo chegando. Subindo, o tempo tende a melhorar."],
+    now:()=>{ const h=state.data.hourly, i=curH(), dp=state.data.current.pressure_msl-h.pressure_msl[Math.max(0,i-3)]; return `Agora: ${r0(state.data.current.pressure_msl)} hPa, ${Math.abs(dp)<0.6?"estável":dp>0?"subindo":"caindo"} nas últimas 3 horas.`; }},
+  uv:{t:"Índice UV", p:["Mede a força dos raios do sol que queimam a pele. Vai de 0 a 11 ou mais.","A partir de 3 já é bom usar protetor. Entre 10h e 16h o índice é mais alto, mesmo com nuvens."],
+    scale:[["var(--ok)","Baixo","0 a 2"],["var(--warn)","Moderado","3 a 5"],["var(--orange)","Alto","6 a 7"],["var(--danger)","Muito alto","8 a 10"],["var(--storm)","Extremo","11 ou mais"]],
+    now:()=>`Máximo de hoje: ${r1(state.data.daily.uv_index_max[0])}.`},
+  visibilidade:{t:"Visibilidade", p:["É até onde dá para enxergar. Abaixo de 1 km é neblina: dirija devagar e com farol baixo."]},
+  mm:{t:"Milímetros de chuva", p:["1 mm de chuva é 1 litro de água em cada metro quadrado.","Em um dia: até 2 mm é chuva fraca, de 2 a 10 mm moderada, de 10 a 30 mm forte e acima de 30 mm muito forte, com risco de alagamento. Em uma hora, mais de 10 mm já é chuva forte."],
+    scale:[["#9be7ff","Fraca","até 2 mm no dia"],["#4fb8ff","Moderada","2 a 10 mm"],["#2f7bff","Forte","10 a 30 mm"],["#ff4d5e","Muito forte","acima de 30 mm"]]},
+  chance:{t:"Chance de chuva (%)", p:["40% de chance quer dizer que, em situações parecidas com esta, chove em 4 de cada 10 vezes nesse lugar.","Não é a parte do dia com chuva nem o tamanho da área. Olhe junto com os milímetros: chance alta com pouco milímetro é garoa; chance média com muito milímetro é pancada forte em alguns lugares."]},
+  beaufort:{t:"Vento e rajadas", p:["A velocidade média é o vento constante. A rajada é um golpe de vento de poucos segundos, e é ela que derruba árvores e telhados.","A escala Beaufort (0 a 12) traduz a velocidade no que você vê na rua:"],
+    scale:[["var(--ok)","0–2 Calmaria e aragem: fumaça sobe reta","até 11 km/h"],["var(--ok)","3–4 Brisa: folhas e bandeiras mexem","12 a 28 km/h"],["var(--accent)","5–6 Vento fresco: galhos balançam, poeira","29 a 49 km/h"],["var(--warn)","7–8 Vento forte: difícil andar, galhos quebram","50 a 74 km/h"],["var(--danger)","9 ou mais Ventania: destelha, derruba árvores","75 km/h ou mais"]],
+    now:()=>`Agora: ${r0(state.data.current.wind_speed_10m)} km/h vindo de ${dirTxt(state.data.current.wind_direction_10m)}, rajadas de ${r0(state.data.current.wind_gusts_10m)} km/h.`},
+  deltat:{t:"Delta T (pulverização)", p:["Mostra a rapidez com que a gota de defensivo evapora no ar. É calculado pela temperatura e pela umidade.","Entre 2 e 8 °C a gota chega bem na planta. Abaixo de 2 o ar está saturado: as gotas escorrem e o produto pode ficar suspenso e derivar. Acima de 8 a 10 as gotas finas evaporam antes de chegar na folha e o produto se perde."],
+    scale:[["var(--warn)","Evitar: escorrimento e deriva","abaixo de 2 °C"],["var(--ok)","Ideal","2 a 8 °C"],["var(--orange)","Cuidado: use gotas maiores","8 a 10 °C"],["var(--danger)","Não pulverizar","acima de 10 °C"]],
+    now:()=>`Agora: Delta T de ${r1(sprayRate(curH()).dT)} °C.`},
+  et0:{t:"Evapotranspiração (ET₀)", p:["É a água que a terra e as plantas perdem para o ar por dia, em milímetros. 5 mm quer dizer 5 litros por metro quadrado.","Se a chuva da semana for menor do que a soma da ET₀, vai faltar água para a lavoura. Dias quentes, secos e com vento aumentam muito a perda."],
+    now:()=>`Hoje: ${r1(state.data.daily.et0_fao_evapotranspiration[0])} mm. Nos próximos 7 dias: ${r0(sum(state.data.daily.et0_fao_evapotranspiration.slice(0,7)))} mm.`},
+  radiacao:{t:"Horas de sol e radiação", p:["Horas de sol é o tempo com sol aberto no dia. A radiação (MJ/m²) é a energia do sol que chega ao chão, e é ela que a planta usa para crescer. Dias nublados seguidos atrasam o desenvolvimento da lavoura."]},
+  solo:{t:"Umidade do solo", p:["Quanta água tem na terra perto da superfície (de 3 a 9 cm de profundidade), em porcentagem do volume.","Serve para saber se dá para plantar e se as máquinas vão atolar."],
+    scale:[["var(--danger)","Seco: semente pode não germinar","abaixo de 15%"],["var(--warn)","Razoável","15 a 25%"],["var(--ok)","Bom para plantio","25 a 35%"],["var(--accent)","Encharcado: risco de compactar e atolar","acima de 38%"]],
+    now:()=>`Agora: ${r0(state.data.hourly.soil_moisture_3_to_9cm[curH()]*100)}%.`},
+  tempsolo:{t:"Temperatura do solo", p:["É a temperatura da terra na superfície. Cada cultura precisa de solo quente o bastante para a semente germinar rápido: soja e arroz gostam de solo acima de 20 °C; milho a partir de 16 °C; trigo germina com solo mais frio."]},
+  vpd:{t:"Déficit de pressão de vapor", p:["Mostra o quanto o ar 'puxa' água das folhas.","Entre 0,4 e 1,2 kPa a planta respira e cresce bem. Abaixo disso o ar está saturado e favorece doenças de fungo. Acima de 1,5 a planta fecha os poros para não perder água e para de crescer."]},
+  cape:{t:"Instabilidade (CAPE)", p:["É o 'combustível' que a atmosfera tem para formar nuvens de tempestade, medido em J/kg.","Sozinho ele não faz chover: precisa de umidade e de um empurrão, como uma frente fria. Mas quando está alto e chega chuva, os temporais podem ser fortes, com raios, vento e granizo."],
+    scale:[["var(--ok)","Estável","abaixo de 500"],["var(--warn)","Instabilidade fraca","500 a 1000"],["var(--orange)","Moderada: trovoadas","1000 a 2500"],["var(--danger)","Forte: temporais e granizo","acima de 2500"]]},
+  modelos:{t:"Modelos de previsão", p:["A previsão do tempo é calculada por supercomputadores que simulam a atmosfera. Cada centro do mundo tem o seu programa, chamado de modelo:",
+      "<b>ECMWF</b>: Centro Europeu de Previsão. Costuma ser o mais preciso para vários dias.","<b>GFS</b>: serviço de meteorologia dos Estados Unidos. Muito usado no mundo inteiro.","<b>ICON</b>: serviço de meteorologia da Alemanha.","<b>JMA</b>: agência de meteorologia do Japão.",
+      "A previsão principal do app escolhe automaticamente a melhor combinação para o seu local. Comparar os quatro mostra se a previsão está firme ou incerta."]},
+  confianca:{t:"Confiança da previsão", p:["Compara os quatro modelos para cada dia."],
+    scale:[["var(--ok)","Alta: todos concordam","temperatura com até 2 °C de diferença e todos dizem se chove ou não"],["var(--warn)","Média","até 4 °C de diferença ou chuva incerta"],["var(--danger)","Baixa: pode mudar","os modelos discordam; acompanhe as atualizações"]]},
+  ar:{t:"Qualidade do ar", p:["O índice europeu (0 a 100 ou mais) junta os principais poluentes. O PM2.5 são partículas finíssimas, como fumaça de queimada, que entram fundo no pulmão."],
+    scale:[["var(--ok)","Boa","0 a 20"],["#d7e04a","Razoável","20 a 40"],["var(--warn)","Moderada","40 a 60"],["var(--orange)","Ruim: evite exercício ao ar livre","60 a 80"],["var(--danger)","Muito ruim","80 a 100"],["var(--storm)","Extrema","acima de 100"]]},
+  balanco:{t:"Resumo e balanço hídrico", p:["O resumo conta os dias com chuva, com sol, com vento forte e com trovoada nos próximos 14 dias.","O balanço hídrico é a chuva prevista menos a água que evapora (ET₀). Positivo: sobra água no solo. Negativo: a lavoura e a pastagem podem sentir falta de água."]},
+  pulverizacao:{t:"Janela de pulverização", p:["Cada quadrado é uma hora das próximas 48 horas. Verde é hora boa para aplicar defensivo, amarelo é com cuidado e vermelho é para evitar.","Para ficar verde a hora precisa ter vento entre 3 e 10 km/h, rajada abaixo de 20 km/h, Delta T entre 2 e 8 °C, temperatura abaixo de 30 °C e nada de chuva nas 2 horas seguintes. Sempre siga a bula do produto."]}
+};
+function openHelp(key){
+  const g = GLOSS[key]; if(!g) return;
+  let now = ""; try{ if(g.now && state.data) now = g.now(); }catch(e){}
+  openSheet(`<h3 id="sheetTitle">${g.t}</h3><p class="sub">Explicação simples</p>${g.p.map(x=>`<p>${x}</p>`).join("")}
+    ${g.scale?`<div class="help-scale">${g.scale.map(([c,l,v])=>`<div><i style="background:${c}"></i><span>${l}</span><b>${v}</b></div>`).join("")}</div>`:""}
+    ${now?`<div class="help-now">${now}</div>`:""}
+    <div class="row" style="margin-top:14px"><button class="btn ghost" id="helpAsk">Perguntar mais sobre isso</button></div>`);
+  $("#helpAsk").onclick = ()=>{ closeSheet(); openChat(`O que é ${g.t.toLowerCase()}?`); };
+}
+document.addEventListener("click", e=>{ const b = e.target.closest("[data-help]"); if(!b) return; e.preventDefault(); e.stopPropagation(); openHelp(b.dataset.help); });
+const LABEL_HELP = {"Umidade":"umidade","Pressão":"pressao","Índice UV":"uv","Visibilidade":"visibilidade","Chuva agora":"mm","Nuvens":"chance","Delta T":"deltat","ET₀ hoje":"et0","Horas de sol":"radiacao","Solo 3–9 cm":"solo","Temp. do solo":"tempsolo","Déficit de vapor":"vpd","Sensação":"sensacao","Chuva":"chance","Vento":"beaufort"};
+function addHelpButtons(root){
+  (root||document).querySelectorAll(".metric .label").forEach(l=>{ if(l.querySelector(".qi")) return; const k = LABEL_HELP[l.textContent.trim()]; if(k) l.insertAdjacentHTML("beforeend", `<button class="qi" data-help="${k}" aria-label="O que é ${l.textContent.trim()}">?</button>`); });
+}
+
+/* 14 dias: mostra 7 e abre o resto quando pedir */
+let allDays = false;
+function trimDays(){ $$("#days .dayd").forEach((d,i)=>d.hidden = !allDays && i>=7); $("#moreDays").textContent = allDays ? "Mostrar só 7 dias" : "Mostrar mais 7 dias"; }
+$("#moreDays").addEventListener("click", ()=>{ allDays = !allDays; trimDays(); });
+
+/* =============== ASSISTENTE: PERGUNTE AO TEMPO =============== */
+const ask = {voice: store.get("wx_voice") ?? true, busy:false};
+const CROP_WORDS = {soja:"soja",milho:"milho",trigo:"trigo",arroz:"arroz",feijao:"feijao",fumo:"fumo",tabaco:"fumo",hortalica:"hort",horta:"hort",tomate:"hort",batata:"hort",verdura:"hort",cafe:"cafe",cana:"cana",pasto:"past",pastagem:"past",gado:"past"};
+const WEEK = ["domingo","segunda","terca","quarta","quinta","sexta","sabado"];
+function speakable(t){ return t.replace(/↑/g,"máxima de ").replace(/↓/g,"mínima de ").replace(/°C|°/g," graus").replace(/km\/h/g," quilômetros por hora").replace(/(\d)\s?mm\b/g,"$1 milímetros").replace(/\bmm\b/g,"milímetros").replace(/(\d+)h\b/g,"$1 horas").replace(/·/g,",").replace(/⚠/g,"Atenção:").replace(/\n+/g,". "); }
+function speak(t){
+  try{ if(!("speechSynthesis" in window)) return; speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(speakable(t)); u.lang = "pt-BR"; u.rate = 1.02;
+    const v = speechSynthesis.getVoices().find(v=>/pt[-_]BR/i.test(v.lang)) || speechSynthesis.getVoices().find(v=>/^pt/i.test(v.lang)); if(v) u.voice = v;
+    speechSynthesis.speak(u); }catch(e){}
+}
+if("speechSynthesis" in window) try{ speechSynthesis.getVoices(); speechSynthesis.onvoiceschanged = ()=>speechSynthesis.getVoices(); }catch(e){}
+
+/* entende o dia e a parte do dia */
+function whichDays(q){
+  const dd = state.data.daily, today = parseLocal(dd.time[0]).getDay(), n = [];
+  let part = null;
+  if(/\bmadrugada\b/.test(q)) part = [0,6]; else if(/\bmanha\b|\bcedo\b/.test(q)) part = [6,12]; else if(/\btarde\b/.test(q)) part = [12,18]; else if(/\bnoite\b|anoitecer/.test(q)) part = [18,24];
+  if(/depois de amanha/.test(q)) n.push(2);
+  else if(/amanha/.test(q)) n.push(1);
+  if(/fim de semana|final de semana|\bfds\b/.test(q)){ for(let k=0;k<7;k++){ const w=(today+k)%7; if(w===6||w===0) n.push(k); } }
+  WEEK.forEach((w,wi)=>{ if(new RegExp(`\\b${w}(-feira)?\\b`).test(q)) n.push((wi-today+7)%7); });
+  const dm = q.match(/\bdia (\d{1,2})\b/); if(dm){ const k = dd.time.findIndex(t=>+t.slice(8,10)===+dm[1]); if(k>=0) n.push(k); }
+  if(/semana|proximos dias|proximos 7|essa semana|esta semana/.test(q) && !n.length) for(let k=0;k<7;k++) n.push(k);
+  if(/quando|qual dia|que dia|melhor dia/.test(q) && !n.length) for(let k=0;k<7;k++) n.push(k);
+  if(!n.length) n.push(0);
+  return {days:[...new Set(n)].filter(k=>k<dd.time.length).sort((a,b)=>a-b), part, now:/\bagora\b|neste momento|nesse momento|ja ta|esta chovendo|ta chovendo/.test(q)};
+}
+const dayLabel = n => { const dd = state.data.daily; return n===0?"hoje":n===1?"amanhã":`${DIAS_L[parseLocal(dd.time[n]).getDay()].toLowerCase()} (${+dd.time[n].slice(8,10)}/${+dd.time[n].slice(5,7)})`; };
+const cap = s => s.charAt(0).toUpperCase()+s.slice(1);
+function hoursOf(n, part){ const h = state.data.hourly, day = state.data.daily.time[n], i0 = nowIndex();
+  return h.time.map((t,i)=>t.slice(0,10)===day && (n>0 || i>=i0) && (!part || (+t.slice(11,13)>=part[0] && +t.slice(11,13)<part[1])) ? i : -1).filter(i=>i>=0); }
+function rainWindow(hrs){ const h = state.data.hourly, wet = hrs.filter(i=>h.precipitation_probability[i]>=40 || h.precipitation[i]>=0.3); if(!wet.length) return "";
+  const a = +h.time[wet[0]].slice(11,13), b = +h.time[wet[wet.length-1]].slice(11,13)+1; return a===b-1 ? `por volta das ${a}h` : `entre ${a}h e ${b}h`; }
+
+function ansRain(D){
+  const h = state.data.hourly, dd = state.data.daily;
+  if(D.now){ const c = state.data.current, pn = h.precipitation_probability[nowIndex()+1]||0, nc = $("#ncLine").textContent, raining = c.precipitation>=0.1 || /agora|continua/.test(nc);
+    return raining ? `Sim, está chovendo agora. ${nc}` : `Agora não está chovendo. ${nc} Chance de ${pn}% na próxima hora.`; }
+  const lines = D.days.map(n=>{
+    const hrs = hoursOf(n, D.part), p = hrs.length ? Math.max(...hrs.map(i=>h.precipitation_probability[i]||0)) : dd.precipitation_probability_max[n];
+    const mm = hrs.length ? sum(hrs.map(i=>h.precipitation[i])) : dd.precipitation_sum[n], win = rainWindow(hrs), when = dayLabel(n) + (D.part ? (D.part[0]===6?" de manhã":D.part[0]===12?" à tarde":D.part[0]===18?" à noite":" de madrugada") : "");
+    if(p>=60 || mm>=2) return `${cap(when)}: sim, deve chover. Chance de ${p}%, cerca de ${r1(mm)} mm${win?`, mais provável ${win}`:""}.`;
+    if(p>=30 || mm>=0.3) return `${cap(when)}: pode chover. Chance de ${p}%${mm>=0.1?`, até ${r1(mm)} mm`:""}${win?`, ${win}`:""}.`;
+    return `${cap(when)}: não deve chover (chance de ${p}%).`;
+  });
+  if(D.days.length>3){ const rainy = D.days.filter(n=>dd.precipitation_sum[n]>=1 || dd.precipitation_probability_max[n]>=60);
+    return rainy.length ? `Nos próximos dias deve chover ${rainy.map(dayLabel).join(", ")}. Total previsto de ${r0(sum(D.days.map(n=>dd.precipitation_sum[n])))} mm.` + (rainy.length<=3 ? "\n"+rainy.map(n=>lines[D.days.indexOf(n)]).join("\n") : "") : `Não há chuva importante prevista nos próximos ${D.days.length} dias.`; }
+  return lines.join("\n");
+}
+function ansTemp(D, q){
+  const dd = state.data.daily, c = state.data.current;
+  if(D.now || (D.days.length===1 && D.days[0]===0 && !D.part && /agora|esta fazendo|ta fazendo/.test(q))) return `Agora faz ${r0(c.temperature_2m)} °C, com sensação de ${r0(c.apparent_temperature)} °C. Hoje a máxima é ${r0(dd.temperature_2m_max[0])} °C e a mínima ${r0(dd.temperature_2m_min[0])} °C.`;
+  const lines = D.days.map(n=>{ const hrs = hoursOf(n, D.part), h = state.data.hourly;
+    if(D.part && hrs.length){ const ts = hrs.map(i=>h.temperature_2m[i]); return `${cap(dayLabel(n))}: entre ${r0(Math.min(...ts))} e ${r0(Math.max(...ts))} °C nesse período.`; }
+    const mx = dd.temperature_2m_max[n], mn = dd.temperature_2m_min[n], feel = mx>=32?" Dia quente.":mn<=5?" Madrugada bem fria.":mx<=15?" Dia frio.":"";
+    return `${cap(dayLabel(n))}: mínima de ${r0(mn)} °C e máxima de ${r0(mx)} °C.${feel}`; });
+  if(/frio|esfri/.test(q) && D.days.length>3){ const k = D.days.reduce((a,b)=>dd.temperature_2m_min[b]<dd.temperature_2m_min[a]?b:a); return `O dia mais frio dos próximos dias deve ser ${dayLabel(k)}, com mínima de ${r0(dd.temperature_2m_min[k])} °C.`; }
+  if(/calor|quente|esquent/.test(q) && D.days.length>3){ const k = D.days.reduce((a,b)=>dd.temperature_2m_max[b]>dd.temperature_2m_max[a]?b:a); return `O dia mais quente deve ser ${dayLabel(k)}, com máxima de ${r0(dd.temperature_2m_max[k])} °C.`; }
+  return lines.join("\n");
+}
+function ansFrost(){
+  const dd = state.data.daily, cold = dd.time.map((t,n)=>n).filter(n=>n<10 && dd.temperature_2m_min[n]<=3);
+  if(!cold.length){ const k = dd.temperature_2m_min.slice(0,10).reduce((a,b,i,arr)=>b<arr[a]?i:a,0); return `Não há risco de geada nos próximos 10 dias. A menor mínima prevista é ${r0(dd.temperature_2m_min[k])} °C, ${dayLabel(k)}.`; }
+  return `Sim, há risco de geada: ${cold.map(n=>`${dayLabel(n)} (mínima de ${r0(dd.temperature_2m_min[n])} °C${dd.temperature_2m_min[n]<=0?", geada forte possível":""})`).join("; ")}. Proteja mudas, hortas e animais novos.`;
+}
+function ansWind(D){
+  const dd = state.data.daily, c = state.data.current;
+  if(D.now) return `Agora o vento está em ${r0(c.wind_speed_10m)} km/h vindo de ${dirTxt(c.wind_direction_10m)} (${beaufort(c.wind_speed_10m)[1].toLowerCase()}), com rajadas de ${r0(c.wind_gusts_10m)} km/h.`;
+  return D.days.map(n=>{ const g = dd.wind_gusts_10m_max[n]; return `${cap(dayLabel(n))}: vento de até ${r0(dd.wind_speed_10m_max[n])} km/h vindo de ${dirTxt(dd.wind_direction_10m_dominant[n])}, rajadas de ${r0(g)} km/h.${g>=75?" Ventania perigosa: risco de destelhamento e queda de árvores.":g>=55?" Rajadas fortes: prenda objetos soltos.":g>=35?" Vento moderado.":" Vento fraco."}`; }).join("\n");
+}
+function ansStorm(D){
+  const h = state.data.hourly, dd = state.data.daily, off = state.official||[];
+  const days = D.days.length===1 && D.days[0]===0 && !/hoje/.test(D.q||"") ? [0,1,2] : D.days;
+  const out = days.map(n=>{ const hrs = hoursOf(n); const st = hrs.filter(i=>h.weather_code[i]>=95), capeMax = hrs.length ? Math.max(...hrs.map(i=>h.cape[i]||0)) : 0;
+    if(st.length) return `${cap(dayLabel(n))}: sim, há previsão de trovoada ${rainWindow(st) || `a partir das ${+h.time[st[0]].slice(11,13)}h`}${h.weather_code.slice(st[0],st[st.length-1]+1).some(c=>c>=96)?", com risco de granizo":""}.`;
+    if(capeMax>=1000 && dd.precipitation_probability_max[n]>=40) return `${cap(dayLabel(n))}: atmosfera instável; podem se formar temporais isolados.`;
+    return `${cap(dayLabel(n))}: sem previsão de temporal.`; });
+  if(off.length) out.push(`⚠ Alerta oficial em vigor: ${off.map(a=>`${a.title} (${a.src})`).join("; ")}.`);
+  return out.join("\n");
+}
+function ansSpray(D){
+  const h = state.data.hourly;
+  const out = D.days.slice(0,3).map(n=>{
+    const hrs = hoursOf(n).filter(i=>{ const H=+h.time[i].slice(11,13); return H>=5 && H<=20 && i+2<h.time.length; });
+    const good = hrs.filter(i=>sprayRate(i).s===2), mid = hrs.filter(i=>sprayRate(i).s===1);
+    if(good.length){ let best=[good[0]], cur=[good[0]]; for(let k=1;k<good.length;k++){ if(good[k]===good[k-1]+1) cur.push(good[k]); else cur=[good[k]]; if(cur.length>best.length) best=[...cur]; }
+      return `${cap(dayLabel(n))}: sim. Melhor janela das ${+h.time[best[0]].slice(11,13)}h às ${+h.time[best[best.length-1]].slice(11,13)+1}h (vento ${r0(h.wind_speed_10m[best[0]])} km/h, Delta T ${r1(sprayRate(best[0]).dT)} °C).`; }
+    if(!hrs.length) return `${cap(dayLabel(n))}: o dia já está no fim.`;
+    const cnt = {"vento forte":hrs.filter(i=>h.wind_speed_10m[i]>10||h.wind_gusts_10m[i]>20).length, "chuva":hrs.filter(i=>(h.precipitation_probability[i]||0)>=60||(h.precipitation[i]||0)>=0.3).length, "ar seco e quente (Delta T alto)":hrs.filter(i=>sprayRate(i).dT>8).length, "ar saturado (Delta T baixo)":hrs.filter(i=>sprayRate(i).dT<2).length};
+    const why = Object.entries(cnt).filter(x=>x[1]>0).sort((a,b)=>b[1]-a[1]).slice(0,2).map(x=>x[0]);
+    return `${cap(dayLabel(n))}: ${mid.length?"só com cuidado":"melhor não"}. Motivo: ${why.join(", ") || "condições fora do ideal"}.${mid.length?` Horas aceitáveis: ${+h.time[mid[0]].slice(11,13)}h a ${+h.time[mid[mid.length-1]].slice(11,13)+1}h.`:""}`;
+  });
+  return out.join("\n") + "\nSiga sempre a bula do produto.";
+}
+function ansCrop(topic, crop){
+  const cards = cropCards(crop), c = CROPS[crop];
+  const pick = t => cards.find(x=>x[1].toLowerCase().startsWith(t));
+  if(topic==="plant"){ const k = cards[0]; const ag = [...$$("#agenda .aday")].map(d=>d.textContent).join(" ");
+    const plantDays = state.data.daily.time.slice(0,7).map((t,n)=>n).filter(n=>agendaActs(crop,n).some(a=>a[1]==="Plantar"));
+    return `${k[1]} de ${c.n.toLowerCase()}: ${k[2].toLowerCase()}. ${k[3]}${plantDays.length?`\nDias bons na semana: ${plantDays.map(dayLabel).join(", ")}.`:""}\nAs datas oficiais estão no Zoneamento Agrícola (ZARC).`; }
+  if(topic==="harvest"){ const k = pick("colheita"); if(!k) return `Para ${c.n.toLowerCase()} a colheita é contínua; olhe a agenda de 7 dias na aba Campo.`;
+    const hd = state.data.daily.time.slice(0,7).map((t,n)=>n).filter(n=>agendaActs(crop,n).some(a=>a[1]==="Colher"));
+    return `Colheita de ${c.n.toLowerCase()}: ${k[2].toLowerCase()}. ${k[3]}${hd.length?`\nDias bons para colher: ${hd.map(dayLabel).join(", ")}.`:""}`; }
+  if(topic==="disease"){ const ds = cards.filter(x=>c.dis.some(d=>d.n===x[1])); return ds.length ? ds.map(x=>`${x[1]}: ${x[2].toLowerCase()}. ${x[3]}`).join("\n") : `Não tenho alerta de doença pelo clima para ${c.n.toLowerCase()}.`; }
+  return `${c.n}:\n` + cards.map(x=>`• ${x[1]}: ${x[2]}`).join("\n") + "\nDetalhes na aba Campo.";
+}
+function ansGeneral(D){
+  const dd = state.data.daily, c = state.data.current;
+  if(D.now) return `Agora em ${state.loc.name}: ${r0(c.temperature_2m)} °C, ${wmo(c.weather_code)[0].toLowerCase()}, sensação de ${r0(c.apparent_temperature)} °C, vento de ${r0(c.wind_speed_10m)} km/h.`;
+  if(D.days.length===1 && D.days[0]===0 && !D.part) return $("#daySum").textContent;
+  return D.days.map(n=>`${cap(dayLabel(n))}: ${wmo(dd.weather_code[n])[0].toLowerCase()}, ${r0(dd.temperature_2m_min[n])} a ${r0(dd.temperature_2m_max[n])} °C, chuva ${dd.precipitation_probability_max[n]}%${dd.precipitation_sum[n]>=1?` (${r1(dd.precipitation_sum[n])} mm)`:""}.`).join("\n");
+}
+function ansAlerts(){ const off = state.official||[], calc = calcAlerts();
+  let t = off.length ? `Alertas oficiais para ${state.loc.name}:\n` + off.map(a=>`⚠ ${a.title} (${a.src}, ${a.sevTxt||""})${a.end?` até ${fmtDT(a.end)}`:""}`).join("\n") : `Não há alerta oficial do INMET ou da Defesa Civil para ${state.loc.name} agora.`;
+  if(calc.length) t += `\nPela previsão, fique atento a: ${calc.slice(0,3).map(a=>a.title.toLowerCase()).join(", ")}.`;
+  return t; }
+function ansSun(){ const dd = state.data.daily, len = dd.daylight_duration[0]/3600; return `Hoje o sol nasce às ${hhmm(dd.sunrise[0])} e se põe às ${hhmm(dd.sunset[0])}, com ${Math.floor(len)} h ${Math.round(len%1*60)} min de luz. Amanhã nasce às ${hhmm(dd.sunrise[1])} e se põe às ${hhmm(dd.sunset[1])}.`; }
+function ansMoon(){ const a = moonAge(new Date()), ill = Math.round((1-Math.cos(2*Math.PI*a/SYN))/2*100);
+  const nx = [["lua nova",0],["quarto crescente",SYN/4],["lua cheia",SYN/2],["quarto minguante",3*SYN/4]].map(([nm,q])=>({nm, w:new Date(Date.now()+(((q-a)%SYN+SYN)%SYN)*864e5)})).sort((x,y)=>x.w-y.w)[0];
+  return `Hoje a lua está em fase de ${moonName(a).toLowerCase().replace(/^lua /,"")}, ${ill}% iluminada. A próxima fase é ${nx.nm}, por volta de ${nx.w.toLocaleDateString("pt-BR",{weekday:"long",day:"numeric",month:"long"})}.`; }
+function ansLaundry(){ const h = state.data.hourly, i0 = nowIndex(); const dry = []; for(let i=i0;i<i0+12 && i<h.time.length;i++){ if((h.precipitation_probability[i]||0)<30 && h.is_day[i]) dry.push(i); }
+  if(dry.length>=4 && h.relative_humidity_2m[i0]<80) return `Sim, dá para estender roupa: tempo seco ${rainWindow(dry).replace(/^por volta das|^entre/, m=>m==="entre"?"entre":"por volta das")} com umidade de ${r0(h.relative_humidity_2m[i0])}%.`.replace("tempo seco por volta","tempo seco por volta");
+  return dry.length ? `Dá, mas seca devagar: poucas horas secas pela frente e umidade de ${r0(h.relative_humidity_2m[i0])}%.` : "Hoje não é um bom dia: há chuva ou o dia já está acabando."; }
+function ansUv(){ const u = state.data.daily.uv_index_max[0]; return `O índice UV máximo hoje é ${r1(u)} (${u<3?"baixo":u<6?"moderado":u<8?"alto":u<11?"muito alto":"extremo"}). ${u>=3?"Use protetor solar e chapéu, principalmente entre 10h e 16h.":"Risco baixo de queimadura."}`; }
+function ansAir(){ const a = state.air && state.air.current; if(!a) return "Não tenho a qualidade do ar agora. Tente de novo em instantes."; const v = a.european_aqi;
+  return `A qualidade do ar está ${v<=20?"boa":v<=40?"razoável":v<=60?"moderada":v<=80?"ruim":"muito ruim"} (índice ${r0(v)}).${v>60?" Evite exercícios ao ar livre.":""}`; }
+function ansHum(){ const c = state.data.current, dp = state.data.hourly.dew_point_2m[nowIndex()]; return `A umidade agora é de ${r0(c.relative_humidity_2m)}%${dp>=20?" e o tempo está abafado":c.relative_humidity_2m<30?": ar muito seco, beba água":""}. Ponto de orvalho: ${r0(dp)} °C.`; }
+const GLOSS_KEYS = [["delta ?t","deltat"],["evapotranspira|\\bet0\\b|\\bet ?₀","et0"],["\\bcape\\b|instabilidade","cape"],["ponto de orvalho|orvalho","orvalho"],["pressao","pressao"],["indice uv|\\buv\\b|ultravioleta","uv"],["beaufort|rajada","beaufort"],["deficit de (pressao de )?vapor|\\bvpd\\b","vpd"],["ecmwf|\\bgfs\\b|\\bicon\\b|\\bjma\\b|modelo","modelos"],["confianca","confianca"],["balanco hidrico","balanco"],["pm ?2[.,]?5|qualidade do ar|poluicao","ar"],["umidade do solo|solo","solo"],["milimetro|\\bmm\\b","mm"],["probabilidade|chance|porcentagem","chance"],["sensacao","sensacao"],["umidade","umidade"],["visibilidade","visibilidade"],["pulveriza","pulverizacao"]];
+function ansGloss(q){ for(const [re,k] of GLOSS_KEYS) if(new RegExp(re).test(q)){ const g = GLOSS[k]; let t = `${g.t}: ${g.p.map(x=>x.replace(/<[^>]+>/g,"")).join(" ")}`; try{ if(g.now && state.data) t += "\n" + g.now(); }catch(e){} return t; } return null; }
+
+/* outra cidade: "vai chover em Cruz Alta amanhã?" */
+async function otherCity(q){
+  const m = q.match(/\bem ([a-z][a-z' -]{2,40})/); if(!m) return null;
+  const stop = /\b(amanha|hoje|depois|agora|sabado|domingo|segunda|terca|quarta|quinta|sexta|fim de semana|semana|de manha|a tarde|a noite|casa|campo|lavoura|minha|meu|relacao)\b.*$/;
+  const name = m[1].replace(stop,"").replace(/\s+(vai|esta|tem|de)$/,"").trim(); if(name.length<3) return null;
+  if(state.loc && norm(state.loc.name)===name) return null;
+  const g = await getData(`https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(name)}&count=5&language=pt&format=json`);
+  const r = (g.results||[]).sort((a,b)=>(b.country_code==="BR")-(a.country_code==="BR"))[0]; if(!r) return {txt:`Não encontrei a cidade "${name}".`};
+  const f = await getData(`https://api.open-meteo.com/v1/forecast?latitude=${r.latitude}&longitude=${r.longitude}&current=temperature_2m,weather_code&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_sum,precipitation_probability_max,wind_gusts_10m_max&timezone=auto&forecast_days=7`);
+  const D = whichDays(q), dd = f.daily, lbl = n => n===0?"hoje":n===1?"amanhã":DIAS_L[parseLocal(dd.time[n]).getDay()].toLowerCase();
+  const lines = D.days.map(n=>`${cap(lbl(n))}: ${wmo(dd.weather_code[n])[0].toLowerCase()}, ${r0(dd.temperature_2m_min[n])} a ${r0(dd.temperature_2m_max[n])} °C, chuva ${dd.precipitation_probability_max[n]}%${dd.precipitation_sum[n]>=1?` (${r1(dd.precipitation_sum[n])} mm)`:""}.`);
+  return {txt:`Em ${r.name}${r.admin1?` (${r.admin1})`:""}: agora ${r0(f.current.temperature_2m)} °C.\n`+lines.join("\n"), src:`Previsão Open-Meteo para ${r.name}`};
+}
+
+async function answer(raw){
+  if(!state.data) return {txt:"Ainda estou carregando a previsão. Tente de novo em alguns segundos."};
+  const q = norm(raw).replace(/[?!.,;]/g," ").replace(/\s+/g," ").trim(), D = whichDays(q); D.q = q;
+  const cropHit = Object.keys(CROP_WORDS).find(w=>new RegExp(`\\b${w}s?\\b`).test(q)), crop = cropHit ? CROP_WORDS[cropHit] : cropKey;
+  const has = re => re.test(q), src = `Previsão para ${state.loc.name}`;
+  if(!q) return null;
+  if(/^(oi|ola|bom dia|boa tarde|boa noite|e ai)\b/.test(q) && q.split(" ").length<=4) return {txt:`Olá! Sou o assistente do Tempo Agora PWSIS. Pergunte, por exemplo: "vai chover amanhã?", "posso pulverizar hoje?" ou "quando plantar ${CROPS[crop].n.toLowerCase()}?"`};
+  if(/obrigad|valeu/.test(q)) return {txt:"De nada! Qualquer dúvida sobre o tempo, é só perguntar."};
+  if(/preco|cotacao|valor da saca|\bsaca\b|mercado|bolsa|dolar/.test(q)) return {txt:"Não tenho cotações de preço: o Tempo Agora é focado em tempo e manejo da lavoura. Na aba Notícias aparecem reportagens sobre safra, e para preços consulte sua cooperativa ou um site de cotações."};
+  if(has(/o que (e|significa|quer dizer)|explica|significado|pra que serve|para que serve|como funciona|como ler/)){ const g = ansGloss(q); if(g) return {txt:g, src:"Explicação do Tempo Agora PWSIS"}; }
+  try{ const oc = await otherCity(q); if(oc) return oc; }catch(e){ }
+  if(has(/alerta|aviso|defesa civil|perigo/)) return {txt:ansAlerts(), src:"INMET, Defesa Civil e previsão"};
+  if(has(/pulveriz|aplicar|aplicacao|passar veneno|veneno|defensivo|herbicida|fungicida|inseticida|secante/)) return {txt:ansSpray(D), src};
+  if(has(/plant|semea|semeadura/)) return {txt:ansCrop("plant", crop), src};
+  if(has(/colh/)) return {txt:ansCrop("harvest", crop), src};
+  if(has(/doenca|ferrugem|fungo|mofo|giberela|brusone|requeima|antracnose|praga/)) return {txt:ansCrop("disease", crop), src};
+  if(cropHit && !has(/chov|chuva|frio|calor|vento|geada/)) return {txt:ansCrop("all", crop), src};
+  if(has(/gead|gear/)) return {txt:ansFrost(), src};
+  if(has(/tempestade|trovoad|temporal|raio|granizo|pedra/)) return {txt:ansStorm(D), src};
+  if(has(/chov|chuva|guarda.?chuva|molhar|garoa|pancada/)) return {txt:ansRain(D), src};
+  if(has(/roupa|varal|secar roupa|lavar roupa/)) return {txt:ansLaundry(), src};
+  if(has(/vento|ventar|ventania|rajada|ventando/)) return {txt:ansWind(D), src};
+  if(has(/nascer do sol|por do sol|amanhece|anoitece|escurece|horas de luz/)) return {txt:ansSun(), src};
+  if(has(/\blua\b/)) return {txt:ansMoon(), src:"Calendário lunar"};
+  if(has(/protetor|queimar|\buv\b|sol forte|ultravioleta/)) return {txt:ansUv(), src};
+  if(has(/qualidade do ar|poluic|fumaca|queimada/)) return {txt:ansAir(), src:"Qualidade do ar (Open-Meteo)"};
+  if(has(/umidade|abafad|seco o ar|ar seco/)) return {txt:ansHum(), src};
+  if(has(/frio|calor|quente|temperatura|graus|esfri|esquent|agasalho|casaco|minima|maxima|sensacao/)) return {txt:ansTemp(D, q), src};
+  if(has(/tempo|previsao|clima|como (vai|fica|esta)|vai ficar|vai estar/) || D.days.length>1 || /amanha|hoje|agora|semana/.test(q)) return {txt:ansGeneral(D), src};
+  const g = ansGloss(q); if(g) return {txt:g, src:"Explicação do Tempo Agora PWSIS"};
+  return {txt:`Ainda não sei responder isso. Posso ajudar com chuva, temperatura, geada, vento, temporais, alertas, pulverização, plantio, colheita e doenças das lavouras, lua, nascer do sol e o significado dos índices do app.`, miss:true};
+}
+
+/* tela do chat */
+function sugs(){ const c = CROPS[cropKey].n.toLowerCase();
+  return ["Vai chover amanhã?","Posso pulverizar hoje?",`Quando plantar ${c}?`,"Vai gear esta semana?","Como fica o fim de semana?","Tem algum alerta?","Vai ventar forte?","O que é Delta T?",`Posso colher ${c}?`,"Qual a fase da lua?"]; }
+function renderSugs(){ $("#chatSugs").innerHTML = sugs().map(s=>`<button class="fchip" data-q="${esc(s)}">${esc(s)}</button>`).join(""); }
+function addMsg(who, txt, src){
+  const el = document.createElement("div"); el.className = `msg ${who}`; el.textContent = txt;
+  if(who==="bot"){ if(src){ const s = document.createElement("span"); s.className="src"; s.textContent = src; el.appendChild(s); }
+    const b = document.createElement("button"); b.className="say"; b.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16 9a4 4 0 0 1 0 6"/></svg>Ouvir`; b.onclick = ()=>speak(txt); el.appendChild(b); }
+  $("#chatLog").appendChild(el); $("#chatLog").scrollTop = $("#chatLog").scrollHeight; return el;
+}
+async function sendQ(q, spoken=false){
+  q = (q||"").trim(); if(!q || ask.busy) return;
+  ask.busy = true; addMsg("me", q); $("#chatInput").value = "";
+  const t = addMsg("bot typing", "Pensando…"); t.querySelector(".say")?.remove();
+  let r; try{ r = await answer(q); }catch(e){ r = {txt:"Não consegui buscar essa informação agora. Verifique a internet e tente de novo."}; }
+  t.remove(); addMsg("bot", r.txt, r.src);
+  if(ask.voice || spoken) speak(r.txt);
+  ask.busy = false;
+}
+function openChat(q, spoken=false){
+  const c = $("#chat");
+  if(c.hidden){ c.hidden = false; document.body.classList.add("lock"); pushOverlay("chat", fb=>closeChat(fb)); renderSugs();
+    if(!$("#chatLog").children.length) addMsg("bot", `Olá! Pergunte o que quiser sobre o tempo em ${state.loc ? state.loc.name : "sua cidade"}: chuva, frio, vento, geada, pulverização, plantio, colheita ou o que significa algum índice. Você pode escrever ou tocar no microfone.`); }
+  if(q) sendQ(q, spoken); else setTimeout(()=>$("#chatInput").focus(), 60);
+}
+function closeChat(fromBack){ if($("#chat").hidden) return; $("#chat").hidden = true; document.body.classList.remove("lock"); try{ speechSynthesis.cancel(); }catch(e){} if(!fromBack) popOverlay("chat"); }
+$("#chatBack").addEventListener("click", ()=>closeChat());
+$("#chatForm").addEventListener("submit", e=>{ e.preventDefault(); sendQ($("#chatInput").value); });
+$("#askBar").addEventListener("submit", e=>{ e.preventDefault(); const q = $("#askInput").value; $("#askInput").value = ""; openChat(q); });
+$("#askInput").addEventListener("focus", ()=>{ if(!$("#askInput").value) { $("#askInput").blur(); openChat(); } });
+$("#chatSugs").addEventListener("click", e=>{ const b = e.target.closest("[data-q]"); if(b) sendQ(b.dataset.q); });
+$("#fabAsk").addEventListener("click", ()=>openChat());
+const setVoiceBtn = () => $("#chatVoice").setAttribute("aria-pressed", ask.voice);
+$("#chatVoice").addEventListener("click", ()=>{ ask.voice = !ask.voice; store.set("wx_voice", ask.voice); setVoiceBtn(); if(!ask.voice) try{ speechSynthesis.cancel(); }catch(e){} toast(ask.voice ? "Respostas faladas ligadas" : "Respostas faladas desligadas"); });
+setVoiceBtn();
+/* microfone */
+const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+function listen(btn, then){
+  if(!SR){ toast("Este navegador não tem reconhecimento de voz. Use o microfone do teclado do celular."); const inp = $("#chat").hidden ? $("#askInput") : $("#chatInput"); inp.focus(); return; }
+  try{ speechSynthesis.cancel(); }catch(e){}
+  const r = new SR(); r.lang = "pt-BR"; r.interimResults = true; r.maxAlternatives = 1;
+  btn.classList.add("rec"); let final = "";
+  r.onresult = ev=>{ let t = ""; for(const res of ev.results){ t += res[0].transcript; if(res.isFinal) final = t; } ($("#chat").hidden ? $("#askInput") : $("#chatInput")).value = t; };
+  r.onerror = ev=>{ btn.classList.remove("rec"); if(ev.error==="not-allowed") toast("Permita o uso do microfone para perguntar falando."); };
+  r.onend = ()=>{ btn.classList.remove("rec"); const t = final || ($("#chat").hidden ? $("#askInput").value : $("#chatInput").value); if(t.trim()) then(t); };
+  r.start();
+}
+$("#askMic").addEventListener("click", ()=>listen($("#askMic"), t=>{ $("#askInput").value=""; openChat(t, true); }));
+$("#chatMic").addEventListener("click", ()=>listen($("#chatMic"), t=>sendQ(t, true)));
+
 /* =============== início =============== */
 $("#btnGps").addEventListener("click", ()=>getGps(true));
 $("#btnRefresh").addEventListener("click", ()=>refreshIfStale(true));
@@ -2300,7 +2657,7 @@ const tab=store.get("wx_tab"); if(tab){ state.chartKey=tab; $$(".tab").forEach(x
 refreshNotifUI();
 const savedLoc = store.get("wx_loc");
 if(savedLoc){ state.loc=savedLoc; renderPlace(); restoreBundle(); }
-const startView = (location.hash||"").slice(1); if(["agora","graficos","dias","campo","noticias","local"].includes(startView)) showView(startView);
+const startView = (location.hash||"").slice(1); if(["agora","graficos","campo","noticias","local"].includes(startView)) showView(startView);
 if(!savedLoc || savedLoc.fallback) getGps(); else refreshIfStale();
 setInterval(()=>{ if(!document.hidden) refreshIfStale(); }, 5*60*1000);
 document.addEventListener("visibilitychange",()=>{ if(!document.hidden) refreshIfStale(); });
