@@ -503,6 +503,10 @@ body.lock{overflow:hidden}
 .chat-sugs::-webkit-scrollbar{display:none}
 .chat-ask{margin:4px auto calc(10px + env(safe-area-inset-bottom,0px));width:calc(100% - 24px);max-width:736px}
 #chatVoice[aria-pressed="false"] #chatVoiceWaves{display:none}
+.micbox{margin:0 auto 8px;width:calc(100% - 24px);max-width:736px;padding:16px;border-radius:18px;background:var(--panel2);border:1px solid color-mix(in srgb,var(--accent) 45%,var(--line));text-align:center}
+.micbox p{margin:10px 0 12px;font-size:15px;font-weight:600}
+.micbars{display:flex;gap:6px;justify-content:center;align-items:center;height:56px}
+.micbars i{width:8px;height:56px;border-radius:5px;background:var(--accent);transform:scaleY(.12);transition:transform .08s}
 .fab{position:fixed;right:16px;bottom:calc(var(--nav-h) + env(safe-area-inset-bottom,0px) + 14px);z-index:690;width:54px;height:54px;border-radius:50%;border:0;background:var(--accent);color:var(--on-accent);display:grid;place-items:center;box-shadow:0 10px 26px rgba(0,0,0,.35)}
 .fab svg{width:26px;height:26px}
 @media (min-width:900px){.fab{bottom:24px;right:24px}}
@@ -794,6 +798,7 @@ body.lock{overflow:hidden}
     <span class="rd-src">Pergunte ao Tempo <span class="muted" style="font-weight:600">PWSIS</span></span>
     <button class="iconbtn" id="chatVoice" aria-pressed="true" aria-label="Respostas faladas"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 9v6h4l5 4V5L8 9z"/><path id="chatVoiceWaves" d="M16 9a4 4 0 0 1 0 6M18.5 6.5a8 8 0 0 1 0 11"/></svg></button></div>
   <div class="chat-log" id="chatLog" aria-live="polite"></div>
+  <div class="micbox" id="micBox" hidden><div class="micbars" id="micBars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><p id="micText">Ouvindo…</p><div class="row" style="justify-content:center"><button class="btn" id="micDone" type="button">Enviar</button><button class="btn ghost" id="micCancel" type="button">Cancelar</button></div></div>
   <div class="chat-sugs" id="chatSugs"></div>
   <form class="ask chat-ask" id="chatForm" autocomplete="off">
     <input id="chatInput" type="text" placeholder="Escreva ou toque no microfone" aria-label="Sua pergunta" enterkeyhint="send">
@@ -1844,12 +1849,26 @@ function openSettings(){
     <div class="setgroup"><span class="label">Aparência</span><div class="seg">${segBtn("auto","Automático")}${segBtn("light","Claro")}${segBtn("dark","Escuro")}</div>
       <small class="muted">Automático segue o tema do celular. O claro é melhor para ler no sol.</small></div>
     <div class="setting" style="border-bottom:0"><b>Fundo animado</b><label class="switch"><input type="checkbox" id="optFx" ${settings.fx?"checked":""} aria-label="Fundo animado"><span></span></label><small>Mostra chuva, neve, estrelas ou relâmpagos no fundo, conforme o tempo.</small></div>
+    <div class="setgroup"><span class="label">Voz do assistente</span>
+      <select id="setVoice" style="padding:10px;border-radius:10px;border:1px solid var(--line);background:var(--panel2);color:var(--fg)"><option value="">Melhor voz do Brasil (automático)</option></select>
+      <label style="display:grid;gap:4px;font-size:13.5px">Velocidade da fala <input type="range" id="setRate" min="0.8" max="1.3" step="0.05" value="${voiceCfg.rate}"></label>
+      <button class="btn ghost" id="setVoiceTest" type="button">Testar a voz</button>
+      <small class="muted">As vozes vêm do próprio celular. Para uma voz mais natural, instale ou atualize os "Serviços de fala do Google" na Play Store e baixe a voz Português (Brasil) em alta qualidade.</small></div>
+    <div class="setgroup"><span class="label">Microfone</span>
+      <div class="seg" style="grid-template-columns:1fr 1fr">${["auto","local"].map(m=>`<button data-mic="${m}" aria-pressed="${(store.get("wx_micmode")||"auto")===m}">${m==="auto"?"Automático":"No próprio celular"}</button>`).join("")}</div>
+      <small class="muted">Automático usa o reconhecimento do navegador quando ele existe. "No próprio celular" funciona em qualquer navegador e sem enviar sua voz para fora; na primeira vez baixa cerca de 80 MB.</small></div>
     <div class="setgroup"><span class="label">Mais</span>
       <button class="btn ghost" id="setNotif">Notificações e instalação</button>
       <button class="btn ghost" id="setShare">Enviar o app para alguém</button></div>
     <p class="sub" style="margin-top:14px">Versão 2026.09.29 · Dados: Open-Meteo, INMET, Defesa Civil, RainViewer, IBGE.</p>`);
   $$("[data-theme-set]").forEach(b=>b.onclick=()=>{ settings.theme=b.dataset.themeSet; saveSettings(); applyTheme(); $$("[data-theme-set]").forEach(x=>x.setAttribute("aria-pressed", x===b)); });
   $("#optFx").onchange = e=>{ settings.fx = e.target.checked; saveSettings(); setFx(); };
+  getVoices().then(vs=>{ const sel = $("#setVoice"); if(!sel) return; vs.filter(v=>voiceScore(v)>-99).sort((x,y)=>voiceScore(y)-voiceScore(x)).forEach(v=>{ const o = document.createElement("option"); o.value = v.name; o.textContent = `${v.name} (${v.lang})`; if(v.name===voiceCfg.name) o.selected = true; sel.appendChild(o); });
+    if(sel.options.length===1) sel.insertAdjacentHTML("afterend", `<small class="muted">Nenhuma voz em português encontrada neste aparelho.</small>`); });
+  $("#setVoice").onchange = e=>{ voiceCfg.name = e.target.value; store.set("wx_voicecfg", voiceCfg); speak("Olá! Esta é a voz do Tempo Agora PWSIS."); };
+  $("#setRate").oninput = e=>{ voiceCfg.rate = +e.target.value; store.set("wx_voicecfg", voiceCfg); };
+  $("#setVoiceTest").onclick = ()=>speak("Olá! Amanhã deve chover entre 14h e 18h, com rajadas de vento de 40 km/h vindo de NE. Mínima de -1°C na quinta (1/10)." );
+  $$("[data-mic]").forEach(b=>b.onclick=()=>{ store.set("wx_micmode", b.dataset.mic); $$("[data-mic]").forEach(x=>x.setAttribute("aria-pressed", x===b)); if(b.dataset.mic==="local") loadWhisper(); });
   $("#setNotif").onclick = ()=>{ closeSheet(); showView("agora"); setTimeout(()=>$("#notifPanel").scrollIntoView({behavior:"smooth"}),80); };
   $("#setShare").onclick = ()=>{ closeSheet(); shareApp(); };
 }
@@ -2426,14 +2445,6 @@ $("#moreDays").addEventListener("click", ()=>{ allDays = !allDays; trimDays(); }
 const ask = {voice: store.get("wx_voice") ?? true, busy:false};
 const CROP_WORDS = {soja:"soja",milho:"milho",trigo:"trigo",arroz:"arroz",feijao:"feijao",fumo:"fumo",tabaco:"fumo",hortalica:"hort",horta:"hort",tomate:"hort",batata:"hort",verdura:"hort",cafe:"cafe",cana:"cana",pasto:"past",pastagem:"past",gado:"past"};
 const WEEK = ["domingo","segunda","terca","quarta","quinta","sexta","sabado"];
-function speakable(t){ return t.replace(/↑/g,"máxima de ").replace(/↓/g,"mínima de ").replace(/°C|°/g," graus").replace(/km\/h/g," quilômetros por hora").replace(/(\d)\s?mm\b/g,"$1 milímetros").replace(/\bmm\b/g,"milímetros").replace(/(\d+)h\b/g,"$1 horas").replace(/·/g,",").replace(/⚠/g,"Atenção:").replace(/\n+/g,". "); }
-function speak(t){
-  try{ if(!("speechSynthesis" in window)) return; speechSynthesis.cancel();
-    const u = new SpeechSynthesisUtterance(speakable(t)); u.lang = "pt-BR"; u.rate = 1.02;
-    const v = speechSynthesis.getVoices().find(v=>/pt[-_]BR/i.test(v.lang)) || speechSynthesis.getVoices().find(v=>/^pt/i.test(v.lang)); if(v) u.voice = v;
-    speechSynthesis.speak(u); }catch(e){}
-}
-if("speechSynthesis" in window) try{ speechSynthesis.getVoices(); speechSynthesis.onvoiceschanged = ()=>speechSynthesis.getVoices(); }catch(e){}
 
 /* entende o dia e a parte do dia */
 function whichDays(q){
@@ -2607,7 +2618,7 @@ function renderSugs(){ $("#chatSugs").innerHTML = sugs().map(s=>`<button class="
 function addMsg(who, txt, src){
   const el = document.createElement("div"); el.className = `msg ${who}`; el.textContent = txt;
   if(who==="bot"){ if(src){ const s = document.createElement("span"); s.className="src"; s.textContent = src; el.appendChild(s); }
-    const b = document.createElement("button"); b.className="say"; b.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16 9a4 4 0 0 1 0 6"/></svg>Ouvir`; b.onclick = ()=>speak(txt); el.appendChild(b); }
+    const b = document.createElement("button"); b.className="say"; b.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 9v6h4l5 4V5L8 9z"/><path d="M16 9a4 4 0 0 1 0 6"/></svg>Ouvir`; b.onclick = ()=>{ if(b.dataset.on){ stopSpeak(); delete b.dataset.on; b.lastChild.textContent="Ouvir"; return; } $$(".say[data-on]").forEach(x=>{ delete x.dataset.on; x.lastChild.textContent="Ouvir"; }); b.dataset.on=1; b.lastChild.textContent="Parar"; speak(txt, ()=>{ delete b.dataset.on; b.lastChild.textContent="Ouvir"; }); }; el.appendChild(b); }
   $("#chatLog").appendChild(el); $("#chatLog").scrollTop = $("#chatLog").scrollHeight; return el;
 }
 async function sendQ(q, spoken=false){
@@ -2619,13 +2630,13 @@ async function sendQ(q, spoken=false){
   if(ask.voice || spoken) speak(r.txt);
   ask.busy = false;
 }
-function openChat(q, spoken=false){
+function openChat(q, spoken=false, noFocus=false){
   const c = $("#chat");
   if(c.hidden){ c.hidden = false; document.body.classList.add("lock"); pushOverlay("chat", fb=>closeChat(fb)); renderSugs();
     if(!$("#chatLog").children.length) addMsg("bot", `Olá! Pergunte o que quiser sobre o tempo em ${state.loc ? state.loc.name : "sua cidade"}: chuva, frio, vento, geada, pulverização, plantio, colheita ou o que significa algum índice. Você pode escrever ou tocar no microfone.`); }
-  if(q) sendQ(q, spoken); else setTimeout(()=>$("#chatInput").focus(), 60);
+  if(q) sendQ(q, spoken); else if(!noFocus) setTimeout(()=>$("#chatInput").focus(), 60);
 }
-function closeChat(fromBack){ if($("#chat").hidden) return; $("#chat").hidden = true; document.body.classList.remove("lock"); try{ speechSynthesis.cancel(); }catch(e){} if(!fromBack) popOverlay("chat"); }
+function closeChat(fromBack){ if($("#chat").hidden) return; $("#chat").hidden = true; document.body.classList.remove("lock"); stopSpeak(); cancelListening(); if(!fromBack) popOverlay("chat"); }
 $("#chatBack").addEventListener("click", ()=>closeChat());
 $("#chatForm").addEventListener("submit", e=>{ e.preventDefault(); sendQ($("#chatInput").value); });
 $("#askBar").addEventListener("submit", e=>{ e.preventDefault(); const q = $("#askInput").value; $("#askInput").value = ""; openChat(q); });
@@ -2633,22 +2644,191 @@ $("#askInput").addEventListener("focus", ()=>{ if(!$("#askInput").value) { $("#a
 $("#chatSugs").addEventListener("click", e=>{ const b = e.target.closest("[data-q]"); if(b) sendQ(b.dataset.q); });
 $("#fabAsk").addEventListener("click", ()=>openChat());
 const setVoiceBtn = () => $("#chatVoice").setAttribute("aria-pressed", ask.voice);
-$("#chatVoice").addEventListener("click", ()=>{ ask.voice = !ask.voice; store.set("wx_voice", ask.voice); setVoiceBtn(); if(!ask.voice) try{ speechSynthesis.cancel(); }catch(e){} toast(ask.voice ? "Respostas faladas ligadas" : "Respostas faladas desligadas"); });
+$("#chatVoice").addEventListener("click", ()=>{ ask.voice = !ask.voice; store.set("wx_voice", ask.voice); setVoiceBtn(); if(!ask.voice) stopSpeak(); toast(ask.voice ? "Respostas faladas ligadas" : "Respostas faladas desligadas"); });
 setVoiceBtn();
-/* microfone */
-const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
-function listen(btn, then){
-  if(!SR){ toast("Este navegador não tem reconhecimento de voz. Use o microfone do teclado do celular."); const inp = $("#chat").hidden ? $("#askInput") : $("#chatInput"); inp.focus(); return; }
-  try{ speechSynthesis.cancel(); }catch(e){}
-  const r = new SR(); r.lang = "pt-BR"; r.interimResults = true; r.maxAlternatives = 1;
-  btn.classList.add("rec"); let final = "";
-  r.onresult = ev=>{ let t = ""; for(const res of ev.results){ t += res[0].transcript; if(res.isFinal) final = t; } ($("#chat").hidden ? $("#askInput") : $("#chatInput")).value = t; };
-  r.onerror = ev=>{ btn.classList.remove("rec"); if(ev.error==="not-allowed") toast("Permita o uso do microfone para perguntar falando."); };
-  r.onend = ()=>{ btn.classList.remove("rec"); const t = final || ($("#chat").hidden ? $("#askInput").value : $("#chatInput").value); if(t.trim()) then(t); };
-  r.start();
+/* =============== VOZ: fala em português do Brasil, com pronúncia certa =============== */
+const voiceCfg = Object.assign({name:"", rate:1.0}, store.get("wx_voicecfg")||{});
+const MESES = ["janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"];
+const DIRS = {N:"norte",NNE:"nor-nordeste",NE:"nordeste",ENE:"lés-nordeste",L:"leste",ESE:"lés-sudeste",SE:"sudeste",SSE:"su-sudeste",S:"sul",SSO:"su-sudoeste",SO:"sudoeste",OSO:"oés-sudoeste",O:"oeste",ONO:"oés-noroeste",NO:"noroeste",NNO:"nor-noroeste"};
+const WD = {"seg.":"segunda-feira","ter.":"terça-feira","qua.":"quarta-feira","qui.":"quinta-feira","sex.":"sexta-feira","sáb.":"sábado","dom.":"domingo"};
+const hourWord = h => { h = +h; return h===0||h===24 ? "meia-noite" : h===12 ? "meio-dia" : h===1 ? "uma hora" : `${h} horas`; };
+const hourNum = h => { h = +h; return h===0||h===24 ? "meia-noite" : h===12 ? "meio-dia" : String(h); };
+function speakable(t){
+  let s = " " + t + " ";
+  s = s.replace(/[•⚠🌦]/g, m => m==="⚠" ? " Atenção! " : " ");
+  s = s.replace(/↑\s?(-?\d+)°/g,"máxima de $1 graus").replace(/↓\s?(-?\d+)°/g,"mínima de $1 graus");
+  // dias da semana abreviados e datas
+  s = s.replace(/\b(seg|ter|qua|qui|sex|sáb|dom)\.,?/g, m => (WD[m.replace(",","")]||m) + ",");
+  s = s.replace(/\(?\b(\d{1,2})\/(\d{1,2})\)?/g, (m,d,mo) => +mo>=1 && +mo<=12 ? ` ${+d===1?"primeiro":+d} de ${MESES[+mo-1]} ` : m);
+  s = s.replace(/(janeiro|fevereiro|março|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)\s*,\s*(\d{1,2}):(\d{2})/g, "$1, às $2:$3");
+  // horários
+  s = s.replace(/\b(\d{1,2})h\s?[–-]\s?(\d{1,2})h\b/g, (m,a,b)=>`das ${hourNum(a)} às ${hourWord(b)}`);
+  s = s.replace(/\bdas (\d{1,2})h às (\d{1,2})h\b/g, (m,a,b)=>`das ${hourNum(a)} às ${hourWord(b)}`);
+  s = s.replace(/\bentre (\d{1,2})h e (\d{1,2})h\b/g, (m,a,b)=>`entre ${hourNum(a)} e ${hourWord(b)}`);
+  s = s.replace(/\b(\d{1,2}):00\b/g, (m,h)=>hourWord(h)).replace(/\b(\d{1,2}):(\d{2})\b/g, (m,h,mi)=>`${hourNum(h)} e ${+mi}`);
+  s = s.replace(/\b(\d{1,2})h\b/g, (m,h)=>hourWord(h));
+  s = s.replace(/às meia-noite/g,"à meia-noite").replace(/às meio-dia/g,"ao meio-dia").replace(/das meia-noite/g,"da meia-noite").replace(/das meio-dia/g,"do meio-dia").replace(/das uma hora/g,"da uma hora").replace(/às uma hora/g,"à uma hora");
+  // direção do vento
+  s = s.replace(/(de|Vento|vento) (NNE|ENE|ESE|SSE|SSO|OSO|ONO|NNO|NE|SE|SO|NO|N|L|S|O)\b/g, (m,p,d)=>`${p} ${DIRS[d]}`);
+  // temperaturas e unidades
+  s = s.replace(/-\s?1(?![\d,])\s?°C?/g,"menos 1 grau").replace(/-\s?(\d+(?:,\d+)?)\s?°C?/g,"menos $1 graus").replace(/\b1(?![\d,])\s?°C?/g,"1 grau").replace(/\s?°C|°/g," graus");
+  s = s.replace(/km\/h/g,"quilômetros por hora").replace(/\b1 mm\b/g,"1 milímetro").replace(/\bmm\/h\b/g,"milímetros por hora").replace(/(\d)\s?mm\b/g,"$1 milímetros").replace(/\bmm\b/g,"milímetros");
+  s = s.replace(/hPa/g,"hectopascais").replace(/kPa/g,"quilopascais").replace(/J\/kg/g,"joules por quilo").replace(/µg\/m³/g,"microgramas por metro cúbico").replace(/MJ\/m²/g,"megajoules por metro quadrado").replace(/m³\/m³/g,"");
+  s = s.replace(/\bET₀|\bET0\b/g,"E T zero").replace(/\bUV\b/g,"U V").replace(/\bPWSIS\b/g,"Pê Dáblio Sis").replace(/\bZARC\b/g,"Zarc").replace(/\bINMET\b/g,"Inmet").replace(/\bCAPE\b/g,"Cape").replace(/\bECMWF\b/g,"E C M W F").replace(/\bGFS\b/g,"G F S").replace(/\bJMA\b/g,"J M A").replace(/\bRS\b/g,"Rio Grande do Sul");
+  s = s.replace(/(\d),(\d)/g,"$1 vírgula $2").replace(/·/g,", ").replace(/[()]/g,", ").replace(/~/g,"").replace(/\n+/g,". ").replace(/graus (mínima|máxima)/g,"graus, $1").replace(/,\s*([;:])/g,"$1").replace(/\s+([,.!?;:])/g,"$1").replace(/([,.]){2,}/g,"$1").replace(/\s{2,}/g," ");
+  return s.trim();
 }
-$("#askMic").addEventListener("click", ()=>listen($("#askMic"), t=>{ $("#askInput").value=""; openChat(t, true); }));
-$("#chatMic").addEventListener("click", ()=>listen($("#chatMic"), t=>sendQ(t, true)));
+function chunks(t){ const parts = t.split(/(?<=[.!?;])\s+/); const out=[]; let cur="";
+  parts.forEach(p=>{ if((cur+" "+p).length > 170 && cur){ out.push(cur); cur=p; } else cur = cur ? cur+" "+p : p; }); if(cur) out.push(cur);
+  return out.flatMap(c=>c.length>220 ? c.split(/,\s+/) : [c]); }
+let voicesReady = null;
+function getVoices(){
+  if(!("speechSynthesis" in window)) return Promise.resolve([]);
+  if(voicesReady) return voicesReady;
+  voicesReady = new Promise(res=>{ let v = speechSynthesis.getVoices(); if(v.length) return res(v);
+    const done = ()=>res(speechSynthesis.getVoices()); speechSynthesis.addEventListener?.("voiceschanged", done, {once:true}); setTimeout(done, 1500); });
+  return voicesReady;
+}
+function voiceScore(v){ let s = 0; const l = (v.lang||"").replace("_","-").toLowerCase(), n = v.name.toLowerCase();
+  if(l==="pt-br") s += 10; else if(l.startsWith("pt")) s += (n.includes("brasil")||n.includes("brazil")) ? 9 : 2; else return -99;
+  if(/portugal|pt-pt/.test(n) || l==="pt-pt") s -= 6;
+  if(/natural|neural|enhanced|premium|wavenet|online/.test(n)) s += 4;
+  if(/google/.test(n)) s += 3; if(/francisca|antonio|thalita|luciana|felipe|daniel/.test(n)) s += 2;
+  if(v.localService===false) s += 1; return s; }
+async function pickVoice(){ const vs = await getVoices(); const pt = vs.filter(v=>voiceScore(v)>-99).sort((a,b)=>voiceScore(b)-voiceScore(a));
+  return (voiceCfg.name && pt.find(v=>v.name===voiceCfg.name)) || pt[0] || null; }
+let speakToken = 0;
+async function speak(t, onEnd){
+  if(!("speechSynthesis" in window)) return;
+  const my = ++speakToken; try{ speechSynthesis.cancel(); }catch(e){}
+  const v = await pickVoice(); if(my!==speakToken) return;
+  const list = chunks(speakable(t));
+  list.forEach((c,i)=>{ const u = new SpeechSynthesisUtterance(c); u.lang = "pt-BR"; if(v) u.voice = v; u.rate = voiceCfg.rate; u.pitch = 1;
+    if(i===list.length-1 && onEnd) u.onend = onEnd; speechSynthesis.speak(u); });
+}
+function stopSpeak(){ speakToken++; try{ speechSynthesis.cancel(); }catch(e){} }
+getVoices();
+
+/* =============== MICROFONE: navegador ou reconhecimento no próprio celular =============== */
+const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+const mic = {state:"idle", rec:null, stream:null, media:null, chunks:[], ctx:null, raf:0, timer:0, worker:null, ready:false, stopAt:0, heard:false, silentSince:0, target:null};
+function micUI(show, text, level){
+  const box = $("#micBox"); if(!box) return;
+  box.hidden = !show; if(text!=null) $("#micText").textContent = text;
+  if(level!=null) $$("#micBars i").forEach((b,k)=>b.style.transform = `scaleY(${Math.max(.12, Math.min(1, level*(1.4 - Math.abs(k-3)*.25) ))})`);
+}
+function micFail(msg){ micUI(false); mic.state = "idle"; $$(".ask-mic").forEach(b=>b.classList.remove("rec")); if(!$("#chat").hidden) addMsg("bot", msg); else toast(msg); }
+function cleanupRec(){ cancelAnimationFrame(mic.raf); clearTimeout(mic.timer); try{ mic.stream && mic.stream.getTracks().forEach(t=>t.stop()); }catch(e){} try{ mic.ctx && mic.ctx.close(); }catch(e){} mic.stream = mic.ctx = mic.media = null; }
+async function startListening(target){
+  if(mic.workerFailed && !mic.worker) mic.workerFailed = "";
+  if(mic.state!=="idle"){ finishListening(); return; }
+  stopSpeak(); mic.target = target; $$(".ask-mic").forEach(b=>b.classList.add("rec"));
+  if(!$("#chat").hidden || target==="chat") micUI(true, "Ouvindo… fale sua pergunta", .2);
+  const mode = store.get("wx_micmode") || "auto";
+  if(SR && mode!=="local") nativeListen(); else localListen();
+}
+function nativeListen(){
+  mic.state = "native"; let final = "", got = false;
+  const r = new SR(); mic.rec = r; r.lang = "pt-BR"; r.interimResults = true; r.maxAlternatives = 1;
+  r.onresult = ev=>{ let t=""; for(const res of ev.results){ t += res[0].transcript; if(res.isFinal) final = t; } got = true; micUI(true, `“${t}”`, .7); };
+  r.onerror = ev=>{ mic.rec = null;
+    if(ev.error==="not-allowed" || ev.error==="service-not-allowed"){ if(ev.error==="not-allowed"){ micFail("Preciso da permissão do microfone. Toque no cadeado ao lado do endereço e libere o microfone."); return; } }
+    if(ev.error==="aborted") return;
+    mic.state = "idle"; localListen();       // rede ruim ou serviço indisponível: usa o reconhecimento do próprio celular
+  };
+  r.onend = ()=>{ if(mic.state!=="native") return; mic.state = "idle"; micUI(false); $$(".ask-mic").forEach(b=>b.classList.remove("rec"));
+    const t = (final || "").trim(); if(t) deliver(t); else if(!got) micFail("Não ouvi nada. Toque no microfone e fale perto do celular."); };
+  try{ r.start(); }catch(e){ mic.state = "idle"; localListen(); }
+}
+async function localListen(){
+  if(!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia){ micFail("Este navegador não libera o microfone para o app. Use o microfone do teclado do celular."); return; }
+  if($("#chat").hidden){ openChat(null, false, true); }
+  micUI(true, "Ouvindo… fale sua pergunta", .2);
+  try{ mic.stream = await navigator.mediaDevices.getUserMedia({audio:{channelCount:1, echoCancellation:true, noiseSuppression:true, autoGainControl:true}}); }
+  catch(e){ micFail(e && e.name==="NotAllowedError" ? "O microfone está bloqueado para o app. Toque no cadeado ao lado do endereço (ou em Configurações › Apps › navegador › Permissões) e libere o microfone." : "Não consegui acessar o microfone do celular."); return; }
+  mic.state = "rec"; mic.chunks = []; mic.heard = false; mic.silentSince = 0; mic.stopAt = Date.now() + 10000;
+  loadWhisper();                                     // começa a preparar a transcrição enquanto você fala
+  const type = ["audio/webm;codecs=opus","audio/ogg;codecs=opus","audio/webm","audio/mp4"].find(t=>window.MediaRecorder && MediaRecorder.isTypeSupported && MediaRecorder.isTypeSupported(t)) || "";
+  try{ mic.media = new MediaRecorder(mic.stream, type ? {mimeType:type} : undefined); }catch(e){ cleanupRec(); micFail("Este navegador não consegue gravar áudio."); return; }
+  mic.media.ondataavailable = e=>{ if(e.data && e.data.size) mic.chunks.push(e.data); };
+  mic.media.onstop = ()=>transcribe(new Blob(mic.chunks, {type: mic.media && mic.media.mimeType || type}));
+  mic.media.start(250);
+  mic.ctx = new (window.AudioContext || window.webkitAudioContext)(); const src = mic.ctx.createMediaStreamSource(mic.stream), an = mic.ctx.createAnalyser(); an.fftSize = 1024; src.connect(an);
+  const buf = new Float32Array(an.fftSize), t0 = Date.now();
+  const loop = ()=>{ if(mic.state!=="rec") return; an.getFloatTimeDomainData(buf); let rms = 0; for(const x of buf) rms += x*x; rms = Math.sqrt(rms/buf.length); const lvl = Math.min(1, rms*8);
+    micUI(true, mic.heard ? "Ouvindo… toque em Enviar quando terminar" : "Ouvindo… fale sua pergunta", lvl);
+    if(rms > 0.035){ mic.heard = true; mic.silentSince = 0; } else if(mic.heard){ mic.silentSince = mic.silentSince || Date.now(); }
+    if((mic.heard && mic.silentSince && Date.now()-mic.silentSince > 1300) || Date.now() > mic.stopAt || (!mic.heard && Date.now()-t0 > 7000)){ finishListening(); return; }
+    mic.raf = requestAnimationFrame(loop); };
+  loop();
+}
+function finishListening(){
+  if(mic.state==="native"){ try{ mic.rec && mic.rec.stop(); }catch(e){} return; }
+  if(mic.state!=="rec") return;
+  mic.state = "busy"; cancelAnimationFrame(mic.raf); $$(".ask-mic").forEach(b=>b.classList.remove("rec"));
+  if(!mic.heard){ try{ mic.media.onstop = null; mic.media.stop(); }catch(e){} cleanupRec(); micFail("Não ouvi nada. Toque no microfone e fale perto do celular."); return; }
+  micUI(true, "Entendendo o que você falou…", .15);
+  try{ mic.media.stop(); }catch(e){ cleanupRec(); micFail("Falha na gravação. Tente de novo."); }
+}
+function cancelListening(){ if(mic.state==="native"){ try{ mic.rec.abort(); }catch(e){} } if(mic.media){ mic.media.onstop = null; try{ mic.media.stop(); }catch(e){} } cleanupRec(); mic.state="idle"; micUI(false); $$(".ask-mic").forEach(b=>b.classList.remove("rec")); }
+async function toPcm16k(blob){
+  const ab = await blob.arrayBuffer(); const ac = new (window.AudioContext || window.webkitAudioContext)();
+  const dec = await ac.decodeAudioData(ab); try{ ac.close(); }catch(e){}
+  const len = Math.ceil(dec.duration * 16000), off = new OfflineAudioContext(1, len, 16000), s = off.createBufferSource(); s.buffer = dec; s.connect(off.destination); s.start();
+  const out = await off.startRendering(); return out.getChannelData(0);
+}
+/* Whisper rodando no celular (num processo separado para não travar a tela) */
+const WHISPER_MODEL = "onnx-community/whisper-base";
+const WORKER_SRC = `
+import { pipeline, env } from "__ASR_URL__";
+env.allowLocalModels = false;
+let asr = null;
+async function load(){ if(asr) return asr;
+  asr = await pipeline("automatic-speech-recognition", "${WHISPER_MODEL}", { dtype: "q8", device: "wasm",
+    progress_callback: p => { if(p.status==="progress" && p.total) postMessage({type:"progress", file:p.file, loaded:p.loaded, total:p.total}); } });
+  return asr; }
+onmessage = async e => {
+  try{
+    if(e.data.type==="load"){ await load(); postMessage({type:"ready"}); return; }
+    if(e.data.type==="run"){ const a = await load(); const r = await a(e.data.audio, { language:"portuguese", task:"transcribe", chunk_length_s:30 }); postMessage({type:"text", text:(r && r.text || "").trim()}); }
+  }catch(err){ postMessage({type:"error", message:String(err && err.message || err)}); }
+};`;
+const dl = {};
+function loadWhisper(){
+  if(mic.worker) return mic.worker;
+  const src = WORKER_SRC.replace("__ASR_URL__", window.WX_ASR_URL || "https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.8.1/dist/transformers.min.js");
+  mic.workerFailed = "";
+  try{ mic.worker = new Worker(URL.createObjectURL(new Blob([src], {type:"text/javascript"})), {type:"module"}); }
+  catch(e){ mic.worker = null; return null; }
+  mic.worker.onmessage = e=>{ const m = e.data;
+    if(m.type==="progress"){ dl[m.file] = m; const tot = Object.values(dl).reduce((a,b)=>a+b.total,0), got = Object.values(dl).reduce((a,b)=>a+b.loaded,0);
+      if(!mic.ready && mic.state==="busy") micUI(true, `Preparando o reconhecimento de voz (só na primeira vez): ${Math.round(got/tot*100)}% de ${Math.round(tot/1048576)} MB`, .15); }
+    if(m.type==="ready"){ mic.ready = true; store.set("wx_whisper", 1); }
+    if(m.type==="text"){ mic.ready = true; mic.state = "idle"; micUI(false); if(m.text && !/^\[|^\(|^…$|^\.+$/.test(m.text)) deliver(m.text.replace(/^[\s"“]+|[\s"”]+$/g,"")); else micFail("Não entendi o que foi falado. Tente de novo, falando um pouco mais devagar."); }
+    if(m.type==="error") workerFailed("Não consegui preparar o reconhecimento de voz agora. Na primeira vez ele precisa de internet para baixar. Enquanto isso, use o microfone do teclado do celular.");
+  };
+  mic.worker.onerror = ev=>{ ev && ev.preventDefault && ev.preventDefault(); workerFailed("Este navegador não conseguiu rodar o reconhecimento de voz. Use o microfone do teclado do celular."); };
+  mic.worker.postMessage({type:"load"});
+  return mic.worker;
+}
+function workerFailed(msg){
+  try{ mic.worker && mic.worker.terminate(); }catch(e){} mic.worker = null; mic.workerFailed = msg;
+  if(mic.state==="busy"){ mic.state = "idle"; micFail(msg); }      // só avisa se já estava esperando a transcrição; a gravação continua
+}
+async function transcribe(blob){
+  cleanupRec();
+  try{ const pcm = await toPcm16k(blob); if(pcm.length < 16000*0.4){ micFail("A gravação ficou curta demais. Segure e fale a pergunta inteira."); return; }
+    if(mic.workerFailed && !mic.worker){ const msg = mic.workerFailed; mic.state = "idle"; micFail(msg); return; }
+    const w = loadWhisper(); if(!w){ micFail("Este navegador não consegue reconhecer voz. Use o microfone do teclado do celular."); return; }
+    if(!mic.ready) micUI(true, store.get("wx_whisper") ? "Entendendo o que você falou…" : "Preparando o reconhecimento de voz (só na primeira vez)…", .15);
+    w.postMessage({type:"run", audio:pcm}, [pcm.buffer]);
+  }catch(e){ micFail("Não consegui ler o áudio gravado. Tente de novo."); }
+}
+function deliver(t){ $$(".ask-mic").forEach(b=>b.classList.remove("rec")); $("#askInput").value = ""; if($("#chat").hidden) openChat(t, true); else sendQ(t, true); }
+$("#micDone").addEventListener("click", ()=>finishListening());
+$("#micCancel").addEventListener("click", ()=>{ cancelListening(); });
+$("#askMic").addEventListener("click", ()=>{ if(mic.state!=="idle"){ finishListening(); return; } openChat(null, false, true); startListening("chat"); });
+$("#chatMic").addEventListener("click", ()=>{ if(mic.state!=="idle") finishListening(); else startListening("chat"); });
 
 /* =============== início =============== */
 $("#btnGps").addEventListener("click", ()=>getGps(true));
