@@ -2,31 +2,31 @@
 // 1) Guarda a interface para abrir rápido e sem internet.
 // 2) Em segundo plano (Periodic Background Sync do Chrome/Android), atualiza a notificação
 //    do tempo na barra e verifica alertas oficiais do INMET para o último local salvo.
-const CACHE = "tempo-agora-v11";
+const CACHE = "tempo-agora-v12";
+const LIBS = "tempo-agora-libs-v1";          // bibliotecas locais: não mudam entre versões
 const CFG = "tempo-agora-config";
-const SHELL = ["./", "./index.html", "./manifest.json", "./icon-192.png", "./icon-512.png", "./badge-96.png", "./icon-maskable-512.png"];
+const SHELL = ["./", "./index.html", "./app.js", "./manifest.json", "./icon-192.png", "./icon-512.png", "./badge-96.png", "./icon-maskable-512.png",
+  "./vendor/fonts.css", "./vendor/leaflet/leaflet.css", "./vendor/leaflet/leaflet.js", "./vendor/chart.umd.min.js"];
 
 // Guarda cada arquivo separadamente: se um falhar, a instalação do app não é bloqueada
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => Promise.all(SHELL.map(u => c.add(u).catch(() => null)))).then(() => self.skipWaiting()));
 });
 self.addEventListener("activate", e => {
-  e.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(k => k !== CACHE && k !== CFG).map(k => caches.delete(k)))).then(() => self.clients.claim()));
+  e.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(k => k !== CACHE && k !== CFG && k !== LIBS).map(k => caches.delete(k)))).then(() => self.clients.claim()));
 });
 
 self.addEventListener("fetch", e => {
   const url = new URL(e.request.url);
-  if (e.request.method !== "GET") return;
-  if (url.origin === location.origin) {
-    e.respondWith(
-      fetch(e.request).then(r => { const copy = r.clone(); caches.open(CACHE).then(c => c.put(e.request, copy)); return r; })
-        .catch(() => caches.match(e.request).then(r => r || caches.match("./index.html")))
-    );
+  if (e.request.method !== "GET" || url.origin !== location.origin) return;   // nada de terceiros passa pelo cache
+  if (url.pathname.includes("/vendor/")) {                                     // bibliotecas e fontes: cache primeiro
+    e.respondWith(caches.open(LIBS).then(c => c.match(e.request).then(r => r || fetch(e.request).then(res => { if (res.ok) c.put(e.request, res.clone()); return res; }))));
     return;
   }
-  if (/cdnjs\.cloudflare\.com|cdn\.jsdelivr\.net|fonts\.(googleapis|gstatic)\.com/.test(url.host)) {
-    e.respondWith(caches.match(e.request).then(r => r || fetch(e.request).then(res => { const copy = res.clone(); caches.open(CACHE).then(c => c.put(e.request, copy)); return res; })));
-  }
+  e.respondWith(                                                               // app: rede primeiro, cache sem internet
+    fetch(e.request).then(r => { const copy = r.clone(); caches.open(CACHE).then(c => c.put(e.request, copy)); return r; })
+      .catch(() => caches.match(e.request).then(r => r || caches.match("./index.html")))
+  );
 });
 
 /* ---------- configuração enviada pela página ---------- */
