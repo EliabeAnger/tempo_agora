@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-10-27T01:30:00-03:00",
-  "alerta": "Mercado em queda forte após a eleição: Ibovespa acionou circuit breaker e o dólar subiu mais de 9% nesta segunda (26/10).",
+  "atualizadoEm": "2026-10-27T06:50:00-03:00",
+  "alerta": "Flávio desiste de pedir a anulação da eleição e vai buscar a cassação da chapa de Lula no TSE. Mercado tenta se recompor após a bolsa cair 13,88% e o dólar subir 8,2%.",
   "eleicoes": {
     "candidatos": [
       {
@@ -13,7 +13,7 @@
         "id": "flavio",
         "nome": "Flávio Bolsonaro (PL)",
         "pct": 48.21,
-        "situacao": "Não reconhece o resultado e diz que vai pedir a anulação ao TSE."
+        "situacao": "Contesta o resultado, mas desistiu de pedir a anulação; vai pedir no TSE a cassação da chapa Lula-Alckmin."
       }
     ],
     "segundoTurno": {
@@ -48,6 +48,18 @@
       {
         "data": "26/10",
         "texto": "Polícia Federal apura denúncias de falta de transporte de eleitores em alguns estados."
+      },
+      {
+        "data": "26/10",
+        "texto": "Presidente do TSE, Nunes Marques, diz que a prorrogação do horário não afetou a totalização dos votos."
+      },
+      {
+        "data": "26/10",
+        "texto": "TSE diz ser falsa a alegação de que fiscais do PL foram expulsos da sala de totalização."
+      },
+      {
+        "data": "26/10",
+        "texto": "Flávio desiste de pedir a anulação e anuncia ações para cassar a chapa Lula-Alckmin por suposto abuso de poder."
       },
       {
         "data": "05/01/27",
@@ -102,28 +114,28 @@
     "juros": [
       {
         "nome": "DI jan/2027",
-        "taxa": 13.869,
-        "var": 0.394
+        "taxa": 13.723,
+        "var": 0.248
       },
       {
         "nome": "DI jan/2028",
-        "taxa": 14.295,
-        "var": 1.47
+        "taxa": 14.905,
+        "var": 2.08
       },
       {
         "nome": "DI jan/2031",
-        "taxa": 14.46,
-        "var": 1.82
+        "taxa": 15.24,
+        "var": 2.665
       },
       {
         "nome": "DI jan/2033",
-        "taxa": 14.575,
-        "var": 1.925
+        "taxa": 15.25,
+        "var": 2.6
       },
       {
         "nome": "DI jan/2035",
-        "taxa": 14.585,
-        "var": 1.93
+        "taxa": 15.195,
+        "var": 2.54
       }
     ],
     "moedas": [
@@ -283,31 +295,41 @@
       },
       {
         "nome": "Inflação (IPCA) de 2026",
-        "valor": "5,22%"
+        "valor": "5,19%"
+      },
+      {
+        "nome": "Selic no fim de 2027",
+        "valor": "11,75%"
+      },
+      {
+        "nome": "Dólar no fim de 2026",
+        "valor": "R$ 5,05"
       }
     ],
-    "focusData": "Boletim Focus de 13/10/2026"
+    "focusData": "Boletim Focus de 26/10/2026 (projeções coletadas antes do 2º turno)"
   },
   "historias": [
     {
       "id": "bolsa",
       "tema": "Bolsa e dólar",
-      "titulo": "Bolsa despenca e dólar dispara depois da eleição",
-      "chamada": "A bolsa caiu cerca de 15% em um dia. Entenda por quê e o que pode fazer o mercado se acalmar.",
-      "data": "26/10/2026",
+      "titulo": "Bolsa tem pior dia desde 2020 e dólar a maior alta desde 1999",
+      "chamada": "O Ibovespa caiu 13,88% e o dólar subiu 8,2% depois da eleição. Entenda o porquê e o que pode acalmar o mercado.",
+      "data": "27/10/2026",
       "inicio": [
-        "Na segunda (26/10), primeiro dia de negócios depois do 2º turno, o Ibovespa chegou a cair mais de 17% e a B3 parou o pregão por 30 minutos (circuit breaker).",
-        "O dólar subiu mais de 9%, de R$ 4,99 na sexta para a faixa de R$ 5,45, e os juros futuros saltaram quase 2 pontos."
+        "Na segunda (26/10), primeiro pregão depois do 2º turno, o Ibovespa fechou em queda de 13,88%, aos 176.608 pontos, o pior dia desde março de 2020. Na mínima chegou a cair mais de 17%, e a B3 parou o pregão por 30 minutos (circuit breaker).",
+        "O dólar fechou a R$ 5,40, alta de 8,21%, a maior em um dia desde janeiro de 1999. Os juros futuros longos subiram cerca de 2,6 pontos, para perto de 15,2% ao ano.",
+        "O Tesouro cancelou leilões de títulos da semana e recomprou papéis para conter os juros. Citi e BCA Research rebaixaram a recomendação para ativos brasileiros."
       ],
       "cadeia": [
-        "O mercado apostava cerca de 80% na vitória de Flávio e comprou muitas ações",
+        "O mercado apostava na vitória de Flávio e comprou muitas ações",
         "O resultado veio ao contrário",
         "Investidores vendem ações e compram dólar para se proteger",
         "Dólar sobe e juros futuros disparam",
+        "Bancos estrangeiros reduzem a aposta no Brasil",
         "Crédito fica mais caro e a dívida do governo também"
       ],
-      "porque": "Para a maioria dos analistas, o medo é o controle dos gastos públicos: sem sinais de ajuste, a dívida cresce e os juros precisam ficar altos por mais tempo.",
-      "outraLeitura": "Outra visão, publicada pela CartaCapital, é que a queda reflete principalmente perdas de quem apostou alto na derrota de Lula. A empresa continua lucrando o mesmo: muda o preço que o investidor aceita pagar pelo risco.",
+      "porque": "Para a maioria dos analistas, o medo é o controle dos gastos públicos: sem sinais de ajuste, a dívida cresce e os juros precisam ficar altos por mais tempo. Parte da queda também é o desmonte de apostas feitas antes da eleição.",
+      "outraLeitura": "Outra visão, publicada pela CartaCapital, é que a queda reflete principalmente perdas de quem apostou alto na derrota de Lula. O próprio Citi disse que os preços podem cair além do valor justo justamente porque muita gente estava comprada. As empresas exportadoras, como Suzano e Vale, até subiram com o dólar alto.",
       "cenarios": [
         {
           "tipo": "otimista",
@@ -319,13 +341,13 @@
         },
         {
           "tipo": "pessimista",
-          "texto": "Dólar de R$ 5,60 a R$ 5,65 no curto prazo (Armor Capital). Sem ajuste fiscal, pode testar R$ 6, que não é o cenário principal do Morgan Stanley."
+          "texto": "Dólar de R$ 5,60 a R$ 5,65 no curto prazo (Armor Capital). A BCA Research vê risco maior de calote e de inflação com o real fraco; o BTG espera juro real longo acima de 8% até sair a nova política fiscal."
         }
       ],
       "saidas": [
         "Anunciar logo o ministro da Fazenda e a equipe econômica, com metas claras",
         "Medidas concretas de controle de gastos. O ministro Durigan prometeu mudar a lei, ou a Constituição se precisar, para mirar o centro da meta fiscal",
-        "O Tesouro já começou a recomprar títulos para acalmar os juros",
+        "O Tesouro já recomprou títulos e cancelou leilões para acalmar os juros",
         "Diálogo com o novo Congresso, que ficou mais à direita",
         "Preencher as vagas da diretoria do Banco Central"
       ],
@@ -336,35 +358,198 @@
       ],
       "fontes": [
         {
-          "nome": "InfoMoney",
+          "nome": "InfoMoney (fechamento 26/10)",
           "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26102026/"
+        },
+        {
+          "nome": "ES Brasil",
+          "url": "https://esbrasil.com.br/dolar-e-ibovespa-fechamento-reeleicao-lula/"
+        },
+        {
+          "nome": "InfoMoney (Tesouro)",
+          "url": "https://www.infomoney.com.br/onde-investir/tesouro-amplia-intervencao-e-anuncia-recompra-de-titulos-atrelados-a-inflacao/"
+        },
+        {
+          "nome": "Reuters via Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/citi-bca-downgrade-brazilian-assets-after-lula-comeback-4974254"
         },
         {
           "nome": "Exame",
           "url": "https://exame.com/invest/mercados/dolar-pode-chegar-a-r-6-com-lula-reeleito-veja-ate-onde-a-moeda-pode-ir/"
         },
         {
-          "nome": "Seu Dinheiro",
-          "url": "https://www.seudinheiro.com/2026/bolsa-dolar/lula-venceu-e-a-festa-da-bolsa-pode-acabar-o-que-esperar-dos-investimentos-agora-miql/"
+          "nome": "Eu Quero Investir",
+          "url": "https://euqueroinvestir.com/renda-fixa/juros-futuros-vitoria-lula"
         },
         {
           "nome": "CartaCapital",
           "url": "https://www.cartacapital.com.br/economia/mercado-faz-terror-economico-depois-de-apostar-alto-na-derrota-de-lula/"
-        },
-        {
-          "nome": "Money Times",
-          "url": "https://www.moneytimes.com.br/tempo-real-ibovespa-reage-a-vitoria-de-lula-rens-apsa-lils-jcav/"
         }
       ],
       "indicadores": [
         "dolar",
         "ibov"
       ],
-      "atualizadoEm": "2026-10-26T22:00:00-03:00",
-      "atualizacoes": [],
+      "atualizadoEm": "2026-10-27T06:50:00-03:00",
+      "atualizacoes": [
+        {
+          "hora": "6h",
+          "texto": "Fechamento confirmado: Ibovespa -13,88% e dólar a R$ 5,40 (+8,21%); Citi e BCA Research rebaixam ativos do Brasil."
+        }
+      ],
       "referencia": {
-        "dolar": 5.446,
-        "ibov": 175032.74,
+        "dolar": 5.403,
+        "ibov": 176608.23,
+        "selic": 13.75
+      }
+    },
+    {
+      "id": "eleicao",
+      "tema": "Eleições",
+      "titulo": "Flávio desiste da anulação e mira a cassação da chapa de Lula",
+      "chamada": "O pedido de anular a eleição foi deixado de lado. O que cada lado diz e quais são os próximos passos.",
+      "data": "27/10/2026",
+      "inicio": [
+        "Lula venceu o 2º turno com 51,79% dos votos válidos, cerca de 4,4 milhões de votos à frente. O TSE confirmou o resultado.",
+        "Na segunda (26/10), aliados e o jurídico de Flávio Bolsonaro disseram que não vão pedir a anulação. Em vídeo, Flávio afirmou que vai pedir a cassação da chapa Lula-Alckmin por suposto abuso de poder político e econômico."
+      ],
+      "cadeia": [
+        "Faltam ônibus e há filas em algumas cidades",
+        "As duas campanhas pedem mais tempo de votação em alguns lugares",
+        "O ministro Zanin, do STF, prorroga a votação até 19h onde as seções ainda estavam abertas",
+        "Flávio diz no domingo que vai pedir a anulação",
+        "Na segunda, recua e troca a estratégia por ações de cassação no TSE",
+        "A oposição passa a se organizar no novo Congresso"
+      ],
+      "porque": "A campanha de Flávio argumenta que houve abuso de poder na campanha e que a prorrogação, decidida por um ministro do STF, tratou eleitores de forma desigual. Segundo a imprensa, cerca de 20 ações de cassação já foram apresentadas.",
+      "outraLeitura": "O presidente do TSE, Nunes Marques, disse que a prorrogação não afetou a totalização, e o tribunal classificou como falsa a alegação de que fiscais do PL foram expulsos da sala de totalização. Juristas ouvidos pela imprensa avaliam que pedidos desse tipo têm poucas chances. A campanha de Flávio também tinha pedido mais tempo de votação em cidades de SP, PR e SC.",
+      "cenarios": [
+        {
+          "tipo": "base",
+          "texto": "Segundo ministros do TSE ouvidos pela imprensa, as ações não devem avançar, e o calendário segue até a posse."
+        },
+        {
+          "tipo": "incerto",
+          "texto": "As ações de cassação e a apuração da Polícia Federal sobre transporte de eleitores podem levar meses e manter o tema em debate."
+        }
+      ],
+      "saidas": [
+        "Julgamento rápido e transparente das ações no TSE",
+        "Divulgação das apurações da Polícia Federal",
+        "Oposição atuando pelo Congresso, como defendem aliados de Flávio",
+        "Posse do presidente eleito em 5 de janeiro de 2027"
+      ],
+      "bolso": [],
+      "fontes": [
+        {
+          "nome": "Metrópoles",
+          "url": "https://www.metropoles.com/brasil/flavio-nao-vai-mais-pedir-anulacao-da-eleicao-dizem-aliados-e-juridico"
+        },
+        {
+          "nome": "Gazeta do Povo",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/flavio-bolsonaro-pronunciamento-anulacao-eleicao/"
+        },
+        {
+          "nome": "Fundação Perseu Abramo",
+          "url": "https://fpabramo.org.br/tse-confirma-vitoria-de-lula-flavio-bolsonaro-desiste-de-pedir-anulacao-da-eleicao/"
+        },
+        {
+          "nome": "Imirante",
+          "url": "https://m.imirante.com/noticias/brasil/2026/10/26/ipolitica-tse-descarta-pedido-flavio-bolsonaro-contra-eleicao"
+        },
+        {
+          "nome": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-diz-que-pedira-anulacao-das-eleicoes/"
+        }
+      ],
+      "indicadores": [],
+      "atualizadoEm": "2026-10-27T06:50:00-03:00",
+      "atualizacoes": [
+        {
+          "hora": "6h",
+          "texto": "Flávio deixa de lado o pedido de anulação e anuncia ações para cassar a chapa Lula-Alckmin; TSE confirma o resultado."
+        }
+      ],
+      "referencia": {
+        "dolar": 5.403,
+        "ibov": 176608.23,
+        "selic": 13.75
+      }
+    },
+    {
+      "id": "fazenda",
+      "tema": "Governo",
+      "titulo": "Quem vai cuidar da economia no 4º mandato?",
+      "chamada": "O mercado espera o nome do ministro da Fazenda. Alckmin aparece como favorito. Por que isso importa.",
+      "data": "27/10/2026",
+      "inicio": [
+        "Lula foi reeleito e o mandato novo começa em 5 de janeiro de 2027. Ainda não há anúncio oficial da equipe econômica.",
+        "A imprensa aponta o vice Geraldo Alckmin como o nome mais cotado para a Fazenda. Uma ala do PT defende o governador do Piauí, Rafael Fonteles."
+      ],
+      "cadeia": [
+        "Mercado reage mal à reeleição",
+        "Investidores querem saber como será o controle de gastos",
+        "O nome do ministro da Fazenda vira o principal sinal",
+        "Um nome visto como fiscalmente cuidadoso pode acalmar dólar e juros",
+        "Uma demora ou um nome mal recebido pode manter a pressão"
+      ],
+      "porque": "O ministro da Fazenda define as metas de gastos e a relação com o Congresso. Por isso, o mercado usa a escolha como pista do rumo das contas públicas.",
+      "outraLeitura": "O presidente do PT, Edinho Silva, diz que o superávit será mantido e que a escolha cabe a alguém da confiança de Lula. Já a EQI calcula que estabilizar a dívida exigiria superávit de 3% a 3,5% do PIB, ajuste que vê como improvável no curto prazo; o economista Felipe Salto (Warren) defende meta de 2% do PIB e corte de benefícios tributários.",
+      "cenarios": [
+        {
+          "tipo": "otimista",
+          "texto": "Equipe crível e disciplina fiscal concreta abrem espaço para juros menores (avaliação do BTG Pactual)."
+        },
+        {
+          "tipo": "base",
+          "texto": "Anúncio da equipe nas próximas semanas, com mercado ainda volátil até o detalhamento das metas."
+        },
+        {
+          "tipo": "pessimista",
+          "texto": "Sem ajuste à vista, juros longos seguem altos por mais tempo (Stephan Kautz, da EQI)."
+        }
+      ],
+      "saidas": [
+        "Anunciar cedo o ministro e a equipe econômica",
+        "Apresentar metas fiscais com números claros",
+        "Negociar com o novo Congresso a agenda de reformas, como a tributária"
+      ],
+      "bolso": [
+        "Enquanto a incerteza durar, evite decisões financeiras grandes no impulso",
+        "Para dinheiro de curto prazo, aplicações atreladas ao CDI ou à Selic oscilam menos"
+      ],
+      "fontes": [
+        {
+          "nome": "Mix Vale",
+          "url": "https://www.mixvale.com.br/2026/10/26/geraldo-alckmin-desponta-como-favorito-para-assumir-o-ministerio-da-fazenda-no-quarto-mandato-de-lula/"
+        },
+        {
+          "nome": "Band",
+          "url": "https://www.band.com.br/politica/eleicoes/lula-avalia-nomes-para-o-ministerio-da-fazenda-veja-lista-2"
+        },
+        {
+          "nome": "InfoMoney",
+          "url": "https://www.infomoney.com.br/politica/com-lula-reeleito-havera-troca-de-ministros-e-nova-posse-entenda/"
+        },
+        {
+          "nome": "Eu Quero Investir",
+          "url": "https://euqueroinvestir.com/renda-fixa/juros-futuros-vitoria-lula"
+        }
+      ],
+      "indicadores": [
+        "dolar",
+        "selic"
+      ],
+      "atualizadoEm": "2026-10-27T06:50:00-03:00",
+      "atualizacoes": [
+        {
+          "hora": "6h",
+          "texto": "Nova história: Alckmin aparece como favorito para a Fazenda; não há anúncio oficial."
+        }
+      ],
+      "referencia": {
+        "dolar": 5.403,
+        "ibov": 176608.23,
         "selic": 13.75
       }
     },
@@ -373,10 +558,10 @@
       "tema": "Juros",
       "titulo": "Juros (Selic) altos por mais tempo",
       "chamada": "A Selic está em 13,75%. Por que ela pode cair mais devagar e o que isso muda na sua vida.",
-      "data": "26/10/2026",
+      "data": "27/10/2026",
       "inicio": [
         "A Selic está em 13,75% ao ano, depois de cinco cortes em 2026. A próxima decisão do Banco Central é em 4 de novembro.",
-        "A inflação de 12 meses chegou a 4,58% em setembro, acima do limite da meta (4,5%)."
+        "A inflação de 12 meses chegou a 4,58% em setembro, acima do limite da meta (4,5%). Depois da eleição, os juros futuros longos saltaram para perto de 15,2% ao ano."
       ],
       "cadeia": [
         "Inflação acima do teto da meta",
@@ -390,15 +575,15 @@
       "cenarios": [
         {
           "tipo": "otimista",
-          "texto": "Com o dólar estabilizando, o BC segue cortando 0,25 ponto por reunião."
+          "texto": "Com o dólar estabilizando, o BC segue cortando 0,25 ponto por reunião (cenário do Boletim Focus)."
         },
         {
           "tipo": "base",
-          "texto": "Selic em 13,25% no fim de 2026, segundo o Boletim Focus de 19/10."
+          "texto": "Selic em 13,25% no fim de 2026 e 11,75% no fim de 2027, segundo o Focus de 26/10, mas a pesquisa foi feita antes da eleição."
         },
         {
           "tipo": "pessimista",
-          "texto": "Depois da eleição, gestoras passaram a falar em Selic perto de 13% ainda em 2027 (antes esperavam 11,75%) e crescimento perto de 1%."
+          "texto": "O BTG diz que juro real mais alto, real fraco e expectativas soltas podem frear os cortes; gestoras já falam em Selic perto de 13% em 2027."
         }
       ],
       "saidas": [
@@ -413,12 +598,16 @@
       ],
       "fontes": [
         {
-          "nome": "Ouviram (Copom e inflação)",
-          "url": "https://ouviram.com.br/economia/selic-copom-e-inflacao-2026"
+          "nome": "Central do Varejo (Focus 26/10)",
+          "url": "https://centraldovarejo.com.br/boletim-focus-mercado-reduz-projecoes-de-ipca-e-pib-e-mantem-selic-de-1325-no-fim-do-ano/"
         },
         {
-          "nome": "CartaCapital",
-          "url": "https://www.cartacapital.com.br/economia/mercado-faz-terror-economico-depois-de-apostar-alto-na-derrota-de-lula/"
+          "nome": "Eu Quero Investir",
+          "url": "https://euqueroinvestir.com/renda-fixa/juros-futuros-vitoria-lula"
+        },
+        {
+          "nome": "Ouviram (Copom e inflação)",
+          "url": "https://ouviram.com.br/economia/selic-copom-e-inflacao-2026"
         },
         {
           "nome": "Seu Dinheiro",
@@ -429,33 +618,39 @@
         "selic",
         "ipca"
       ],
-      "atualizadoEm": "2026-10-26T22:00:00-03:00",
-      "atualizacoes": [],
+      "atualizadoEm": "2026-10-27T06:50:00-03:00",
+      "atualizacoes": [
+        {
+          "hora": "6h",
+          "texto": "Focus de 26/10 mantém Selic de 13,25% no fim de 2026, mas foi coletado antes da eleição; juros futuros longos sobem para cerca de 15,2%."
+        }
+      ],
       "referencia": {
-        "dolar": 5.446,
-        "ibov": 175032.74,
+        "dolar": 5.403,
+        "ibov": 176608.23,
         "selic": 13.75
       }
     },
     {
       "id": "diesel",
       "tema": "Combustíveis",
-      "titulo": "Diesel sobe 20% no ano e pesa no frete",
-      "chamada": "O diesel S10 passou de R$ 7 o litro. O que causou e o que pode acontecer em novembro.",
-      "data": "21/10/2026",
+      "titulo": "Diesel: subsídio venceu e petróleo está em US$ 117",
+      "chamada": "O diesel S10 passou de R$ 7 o litro. O subsídio principal venceu em 26/10. O que pode acontecer agora.",
+      "data": "27/10/2026",
       "inicio": [
-        "O diesel S10 custa em média R$ 7,38 o litro no Brasil, alta de 20,5% desde janeiro.",
-        "A gasolina subiu 5,5% no ano, e o etanol caiu 3,8%."
+        "O diesel S10 custa em média R$ 7,38 o litro no Brasil, alta de 20,5% desde janeiro. A gasolina subiu 5,5% no ano, e o etanol caiu 3,8%.",
+        "O subsídio de R$ 2,12 por litro ao diesel venceu na segunda (26/10); até a última checagem, a renovação não tinha sido anunciada. O petróleo Brent chegou a US$ 117 na sexta (23/10), com a guerra no Oriente Médio."
       ],
       "cadeia": [
-        "Petróleo Brent perto de US$ 110 o barril",
-        "Diesel importado fica R$ 3,50 por litro mais caro que o da Petrobras",
-        "Governo paga subsídio de R$ 3,52 por litro aos importadores",
-        "Mesmo assim o preço na bomba subiu",
-        "Frete mais caro (+13% no 3º trimestre) e alimentos e produtos encarecem"
+        "Guerra no Oriente Médio leva o Brent a US$ 117 o barril",
+        "Diesel da Petrobras fica cerca de R$ 3,50 por litro abaixo do preço de importação",
+        "Governo paga até R$ 3,52 por litro (R$ 2,12 a todos e mais R$ 1,40 ao importado)",
+        "A parcela de R$ 2,12 venceu em 26/10 e o dólar disparou",
+        "Se não houver renovação, o diesel tende a subir",
+        "Frete mais caro encarece alimentos e produtos"
       ],
       "porque": "O Brasil importa parte do diesel que usa. Quando o petróleo e o dólar sobem, o diesel de fora fica mais caro e pressiona o preço aqui.",
-      "outraLeitura": "Nas últimas quatro semanas o preço do diesel ficou estável, porque o subsídio está cobrindo quase toda a diferença.",
+      "outraLeitura": "O fim do subsídio não vira reajuste automático na bomba: o preço depende da Petrobras, das distribuidoras e dos postos. O Goldman Sachs trabalha com cenário base de Petrobras sem reajuste até dezembro, e o ministro Durigan disse que as ajudas podem continuar em 2027 se o petróleo seguir caro.",
       "cenarios": [
         {
           "tipo": "otimista",
@@ -463,23 +658,32 @@
         },
         {
           "tipo": "base",
-          "texto": "Subsídio é prorrogado depois de 12/11 e o preço segue estável."
+          "texto": "Governo renova o subsídio por mais 30 dias, como a regra permite, e a Petrobras segura o preço até dezembro (cenário do Goldman Sachs)."
         },
         {
           "tipo": "pessimista",
-          "texto": "Subsídio acaba em 12/11 sem prorrogação, somado ao dólar alto, e o diesel volta a subir."
+          "texto": "Sem renovação e com o dólar a R$ 5,40, a diferença para o preço de importação cresce e analistas veem risco de reajuste após a eleição."
         }
       ],
       "saidas": [
-        "Prorrogação do subsídio (vale até 12/11 e pode ser estendido pelo mesmo prazo)",
+        "Renovação do subsídio de R$ 2,12 por mais 30 dias (a portaria permite)",
         "Queda do petróleo no mercado internacional",
-        "Dólar mais baixo"
+        "Dólar mais baixo",
+        "Proposta ao Congresso para manter a ajuda em 2027, se necessário"
       ],
       "bolso": [
         "Carro flex: o etanol compensa quando custa até 70% do preço da gasolina. Faça a conta no posto",
         "Para quem trabalha com frete, negociar reajuste atrelado ao diesel ajuda a proteger a margem"
       ],
       "fontes": [
+        {
+          "nome": "Minaspetro",
+          "url": "https://minaspetro.com.br/subsidio-de-r-212-por-litro-do-diesel-vence-nesta-segunda-feira/"
+        },
+        {
+          "nome": "Mix Vale (Brent)",
+          "url": "https://www.mixvale.com.br/2026/10/26/petroleo-tipo-brent-atinge-us-117-com-guerra-e-forca-governo-a-discutir-subsidios-ao-diesel-para-2027/"
+        },
         {
           "nome": "eixos",
           "url": "https://eixos.com.br/newsletters/comece-seu-dia/diesel-para-de-subir-nas-bombas-mas-a-defasagem-ja-encosta-no-subsidio/"
@@ -490,71 +694,19 @@
         }
       ],
       "indicadores": [
-        "etanol"
+        "etanol",
+        "dolar"
       ],
-      "atualizadoEm": "2026-10-26T22:00:00-03:00",
-      "atualizacoes": [],
-      "referencia": {
-        "dolar": 5.446,
-        "ibov": 175032.74,
-        "selic": 13.75
-      }
-    },
-    {
-      "id": "eleicao",
-      "tema": "Eleições",
-      "titulo": "Resultado contestado: e agora?",
-      "chamada": "Flávio diz que vai pedir anulação. O que cada lado diz e quais são os próximos passos.",
-      "data": "26/10/2026",
-      "inicio": [
-        "Lula venceu o 2º turno com 51,79% dos votos válidos, cerca de 4,4 milhões de votos à frente.",
-        "Flávio Bolsonaro disse que não reconhece o resultado e que vai pedir a anulação da eleição."
-      ],
-      "cadeia": [
-        "Faltam ônibus e há filas em algumas cidades",
-        "As duas campanhas pedem mais tempo de votação",
-        "O ministro Zanin, do STF, prorroga a votação até 19h onde as seções ainda estavam abertas",
-        "A campanha de Flávio contesta a decisão",
-        "O pedido de anulação vai à Justiça Eleitoral"
-      ],
-      "porque": "A campanha de Flávio argumenta que a prorrogação foi decidida por um ministro do STF, e não pelo TSE, e que tratou eleitores de forma desigual entre cidades e estados.",
-      "outraLeitura": "O TSE certificou o resultado sem encontrar irregularidades na contagem. A prorrogação foi pedida pelas duas campanhas, e juristas ouvidos pela imprensa avaliam que o pedido de anulação tem pouco amparo legal.",
-      "cenarios": [
+      "atualizadoEm": "2026-10-27T06:50:00-03:00",
+      "atualizacoes": [
         {
-          "tipo": "base",
-          "texto": "A Justiça Eleitoral analisa e rejeita o pedido, e o calendário segue até a posse."
-        },
-        {
-          "tipo": "incerto",
-          "texto": "A Polícia Federal apura as denúncias sobre transporte de eleitores; o resultado da investigação pode alimentar o debate."
+          "hora": "6h",
+          "texto": "Subsídio de R$ 2,12 por litro venceu em 26/10 sem renovação anunciada até agora; Brent chegou a US$ 117."
         }
       ],
-      "saidas": [
-        "Decisão rápida e transparente da Justiça Eleitoral sobre o pedido",
-        "Divulgação das apurações da Polícia Federal",
-        "Posse do presidente eleito em 5 de janeiro de 2027"
-      ],
-      "bolso": [],
-      "fontes": [
-        {
-          "nome": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-diz-que-pedira-anulacao-das-eleicoes/"
-        },
-        {
-          "nome": "Brasil de Fato",
-          "url": "https://www.brasildefato.com.br/2026/10/26/sem-amparo-legal-pedido-de-flavio-bolsonaro-para-anular-eleicao-nao-deve-prosperar/"
-        },
-        {
-          "nome": "Latin Times",
-          "url": "https://www.latintimes.com/lula-defeats-flavio-bolsonaro-brazil-runoff-600558"
-        }
-      ],
-      "indicadores": [],
-      "atualizadoEm": "2026-10-26T22:00:00-03:00",
-      "atualizacoes": [],
       "referencia": {
-        "dolar": 5.446,
-        "ibov": 175032.74,
+        "dolar": 5.403,
+        "ibov": 176608.23,
         "selic": 13.75
       }
     }
