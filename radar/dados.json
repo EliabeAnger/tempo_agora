@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-10-26T15:00:00-03:00",
+  "atualizadoEm": "2026-10-27T01:30:00-03:00",
   "alerta": "Mercado em queda forte após a eleição: Ibovespa acionou circuit breaker e o dólar subiu mais de 9% nesta segunda (26/10).",
   "eleicoes": {
     "candidatos": [
@@ -355,7 +355,18 @@
           "nome": "Money Times",
           "url": "https://www.moneytimes.com.br/tempo-real-ibovespa-reage-a-vitoria-de-lula-rens-apsa-lils-jcav/"
         }
-      ]
+      ],
+      "indicadores": [
+        "dolar",
+        "ibov"
+      ],
+      "atualizadoEm": "2026-10-26T22:00:00-03:00",
+      "atualizacoes": [],
+      "referencia": {
+        "dolar": 5.446,
+        "ibov": 175032.74,
+        "selic": 13.75
+      }
     },
     {
       "id": "juros",
@@ -413,7 +424,18 @@
           "nome": "Seu Dinheiro",
           "url": "https://www.seudinheiro.com/2026/bolsa-dolar/lula-venceu-e-a-festa-da-bolsa-pode-acabar-o-que-esperar-dos-investimentos-agora-miql/"
         }
-      ]
+      ],
+      "indicadores": [
+        "selic",
+        "ipca"
+      ],
+      "atualizadoEm": "2026-10-26T22:00:00-03:00",
+      "atualizacoes": [],
+      "referencia": {
+        "dolar": 5.446,
+        "ibov": 175032.74,
+        "selic": 13.75
+      }
     },
     {
       "id": "diesel",
@@ -466,7 +488,17 @@
           "nome": "Combustíveis ANP (balanço 2026)",
           "url": "https://www.combustiveis-anp.com.br/guia/quanto-subiram-combustiveis-2026-balanco"
         }
-      ]
+      ],
+      "indicadores": [
+        "etanol"
+      ],
+      "atualizadoEm": "2026-10-26T22:00:00-03:00",
+      "atualizacoes": [],
+      "referencia": {
+        "dolar": 5.446,
+        "ibov": 175032.74,
+        "selic": 13.75
+      }
     },
     {
       "id": "eleicao",
@@ -516,7 +548,15 @@
           "nome": "Latin Times",
           "url": "https://www.latintimes.com/lula-defeats-flavio-bolsonaro-brazil-runoff-600558"
         }
-      ]
+      ],
+      "indicadores": [],
+      "atualizadoEm": "2026-10-26T22:00:00-03:00",
+      "atualizacoes": [],
+      "referencia": {
+        "dolar": 5.446,
+        "ibov": 175032.74,
+        "selic": 13.75
+      }
     }
   ],
   "economia": [

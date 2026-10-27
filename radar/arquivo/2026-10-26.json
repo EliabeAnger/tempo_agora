@@ -1,0 +1,284 @@
+{
+  "data": "2026-10-26",
+  "arquivadoEm": "2026-10-27T04:26:12+00:00",
+  "alerta": "Mercado em queda forte após a eleição: Ibovespa acionou circuit breaker e o dólar subiu mais de 9% nesta segunda (26/10).",
+  "numeros": {
+    "Dólar": "R$ 5,446",
+    "Ibovespa": "175.033 pts (-14,58%)",
+    "Selic": "13,75%",
+    "Inflação 12 meses": "4,58%",
+    "Gasolina": "R$ 6,58",
+    "Diesel S10": "R$ 7,38"
+  },
+  "historias": [
+    {
+      "id": "bolsa",
+      "tema": "Bolsa e dólar",
+      "titulo": "Bolsa despenca e dólar dispara depois da eleição",
+      "chamada": "A bolsa caiu cerca de 15% em um dia. Entenda por quê e o que pode fazer o mercado se acalmar.",
+      "data": "26/10/2026",
+      "inicio": [
+        "Na segunda (26/10), primeiro dia de negócios depois do 2º turno, o Ibovespa chegou a cair mais de 17% e a B3 parou o pregão por 30 minutos (circuit breaker).",
+        "O dólar subiu mais de 9%, de R$ 4,99 na sexta para a faixa de R$ 5,45, e os juros futuros saltaram quase 2 pontos."
+      ],
+      "cadeia": [
+        "O mercado apostava cerca de 80% na vitória de Flávio e comprou muitas ações",
+        "O resultado veio ao contrário",
+        "Investidores vendem ações e compram dólar para se proteger",
+        "Dólar sobe e juros futuros disparam",
+        "Crédito fica mais caro e a dívida do governo também"
+      ],
+      "porque": "Para a maioria dos analistas, o medo é o controle dos gastos públicos: sem sinais de ajuste, a dívida cresce e os juros precisam ficar altos por mais tempo.",
+      "outraLeitura": "Outra visão, publicada pela CartaCapital, é que a queda reflete principalmente perdas de quem apostou alto na derrota de Lula. A empresa continua lucrando o mesmo: muda o preço que o investidor aceita pagar pelo risco.",
+      "cenarios": [
+        {
+          "tipo": "otimista",
+          "texto": "Dólar volta para R$ 5,20 a R$ 5,30 se o governo der sinais fiscais claros (Avenue, MA7 Capital)."
+        },
+        {
+          "tipo": "base",
+          "texto": "Dólar perto de R$ 5,40 em 2027, inflação mais teimosa e menos cortes de juros (Suno Research)."
+        },
+        {
+          "tipo": "pessimista",
+          "texto": "Dólar de R$ 5,60 a R$ 5,65 no curto prazo (Armor Capital). Sem ajuste fiscal, pode testar R$ 6, que não é o cenário principal do Morgan Stanley."
+        }
+      ],
+      "saidas": [
+        "Anunciar logo o ministro da Fazenda e a equipe econômica, com metas claras",
+        "Medidas concretas de controle de gastos. O ministro Durigan prometeu mudar a lei, ou a Constituição se precisar, para mirar o centro da meta fiscal",
+        "O Tesouro já começou a recomprar títulos para acalmar os juros",
+        "Diálogo com o novo Congresso, que ficou mais à direita",
+        "Preencher as vagas da diretoria do Banco Central"
+      ],
+      "bolso": [
+        "Se precisa de dólar para viagem ou compra, especialistas sugerem comprar aos poucos, não tudo de uma vez",
+        "Evite concentrar todo o dinheiro em um só tipo de investimento",
+        "Em momentos assim, renda fixa pós-fixada (atrelada ao CDI) costuma ser vista como mais defensiva"
+      ],
+      "fontes": [
+        {
+          "nome": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26102026/"
+        },
+        {
+          "nome": "Exame",
+          "url": "https://exame.com/invest/mercados/dolar-pode-chegar-a-r-6-com-lula-reeleito-veja-ate-onde-a-moeda-pode-ir/"
+        },
+        {
+          "nome": "Seu Dinheiro",
+          "url": "https://www.seudinheiro.com/2026/bolsa-dolar/lula-venceu-e-a-festa-da-bolsa-pode-acabar-o-que-esperar-dos-investimentos-agora-miql/"
+        },
+        {
+          "nome": "CartaCapital",
+          "url": "https://www.cartacapital.com.br/economia/mercado-faz-terror-economico-depois-de-apostar-alto-na-derrota-de-lula/"
+        },
+        {
+          "nome": "Money Times",
+          "url": "https://www.moneytimes.com.br/tempo-real-ibovespa-reage-a-vitoria-de-lula-rens-apsa-lils-jcav/"
+        }
+      ],
+      "indicadores": [
+        "dolar",
+        "ibov"
+      ],
+      "atualizadoEm": "2026-10-26T22:00:00-03:00",
+      "atualizacoes": [],
+      "referencia": {
+        "dolar": 5.446,
+        "ibov": 175032.74,
+        "selic": 13.75
+      }
+    },
+    {
+      "id": "juros",
+      "tema": "Juros",
+      "titulo": "Juros (Selic) altos por mais tempo",
+      "chamada": "A Selic está em 13,75%. Por que ela pode cair mais devagar e o que isso muda na sua vida.",
+      "data": "26/10/2026",
+      "inicio": [
+        "A Selic está em 13,75% ao ano, depois de cinco cortes em 2026. A próxima decisão do Banco Central é em 4 de novembro.",
+        "A inflação de 12 meses chegou a 4,58% em setembro, acima do limite da meta (4,5%)."
+      ],
+      "cadeia": [
+        "Inflação acima do teto da meta",
+        "Dólar alto encarece importados e combustíveis",
+        "Banco Central evita cortar os juros rápido",
+        "Empréstimo, financiamento e cartão continuam caros",
+        "Empresas investem menos e o crescimento desacelera"
+      ],
+      "porque": "O Banco Central usa os juros para segurar os preços. Com inflação acima da meta e dólar subindo, cortar rápido poderia fazer a inflação piorar.",
+      "outraLeitura": "Juros altos têm um lado bom para quem poupa: CDB, Tesouro Selic e outros investimentos de renda fixa rendem mais.",
+      "cenarios": [
+        {
+          "tipo": "otimista",
+          "texto": "Com o dólar estabilizando, o BC segue cortando 0,25 ponto por reunião."
+        },
+        {
+          "tipo": "base",
+          "texto": "Selic em 13,25% no fim de 2026, segundo o Boletim Focus de 19/10."
+        },
+        {
+          "tipo": "pessimista",
+          "texto": "Depois da eleição, gestoras passaram a falar em Selic perto de 13% ainda em 2027 (antes esperavam 11,75%) e crescimento perto de 1%."
+        }
+      ],
+      "saidas": [
+        "Inflação voltar para dentro da meta",
+        "Dólar se acalmar, o que barateia importados",
+        "Um plano fiscal crível, que abre espaço para o BC cortar juros"
+      ],
+      "bolso": [
+        "Evite dívidas caras, como rotativo do cartão e cheque especial",
+        "Se for financiar algo grande, compare o custo total (CET) entre bancos",
+        "Para guardar dinheiro, aplicações atreladas ao CDI ou à Selic rendem bem nesse cenário"
+      ],
+      "fontes": [
+        {
+          "nome": "Ouviram (Copom e inflação)",
+          "url": "https://ouviram.com.br/economia/selic-copom-e-inflacao-2026"
+        },
+        {
+          "nome": "CartaCapital",
+          "url": "https://www.cartacapital.com.br/economia/mercado-faz-terror-economico-depois-de-apostar-alto-na-derrota-de-lula/"
+        },
+        {
+          "nome": "Seu Dinheiro",
+          "url": "https://www.seudinheiro.com/2026/bolsa-dolar/lula-venceu-e-a-festa-da-bolsa-pode-acabar-o-que-esperar-dos-investimentos-agora-miql/"
+        }
+      ],
+      "indicadores": [
+        "selic",
+        "ipca"
+      ],
+      "atualizadoEm": "2026-10-26T22:00:00-03:00",
+      "atualizacoes": [],
+      "referencia": {
+        "dolar": 5.446,
+        "ibov": 175032.74,
+        "selic": 13.75
+      }
+    },
+    {
+      "id": "diesel",
+      "tema": "Combustíveis",
+      "titulo": "Diesel sobe 20% no ano e pesa no frete",
+      "chamada": "O diesel S10 passou de R$ 7 o litro. O que causou e o que pode acontecer em novembro.",
+      "data": "21/10/2026",
+      "inicio": [
+        "O diesel S10 custa em média R$ 7,38 o litro no Brasil, alta de 20,5% desde janeiro.",
+        "A gasolina subiu 5,5% no ano, e o etanol caiu 3,8%."
+      ],
+      "cadeia": [
+        "Petróleo Brent perto de US$ 110 o barril",
+        "Diesel importado fica R$ 3,50 por litro mais caro que o da Petrobras",
+        "Governo paga subsídio de R$ 3,52 por litro aos importadores",
+        "Mesmo assim o preço na bomba subiu",
+        "Frete mais caro (+13% no 3º trimestre) e alimentos e produtos encarecem"
+      ],
+      "porque": "O Brasil importa parte do diesel que usa. Quando o petróleo e o dólar sobem, o diesel de fora fica mais caro e pressiona o preço aqui.",
+      "outraLeitura": "Nas últimas quatro semanas o preço do diesel ficou estável, porque o subsídio está cobrindo quase toda a diferença.",
+      "cenarios": [
+        {
+          "tipo": "otimista",
+          "texto": "Um acordo no Oriente Médio derruba o petróleo e alivia o diesel."
+        },
+        {
+          "tipo": "base",
+          "texto": "Subsídio é prorrogado depois de 12/11 e o preço segue estável."
+        },
+        {
+          "tipo": "pessimista",
+          "texto": "Subsídio acaba em 12/11 sem prorrogação, somado ao dólar alto, e o diesel volta a subir."
+        }
+      ],
+      "saidas": [
+        "Prorrogação do subsídio (vale até 12/11 e pode ser estendido pelo mesmo prazo)",
+        "Queda do petróleo no mercado internacional",
+        "Dólar mais baixo"
+      ],
+      "bolso": [
+        "Carro flex: o etanol compensa quando custa até 70% do preço da gasolina. Faça a conta no posto",
+        "Para quem trabalha com frete, negociar reajuste atrelado ao diesel ajuda a proteger a margem"
+      ],
+      "fontes": [
+        {
+          "nome": "eixos",
+          "url": "https://eixos.com.br/newsletters/comece-seu-dia/diesel-para-de-subir-nas-bombas-mas-a-defasagem-ja-encosta-no-subsidio/"
+        },
+        {
+          "nome": "Combustíveis ANP (balanço 2026)",
+          "url": "https://www.combustiveis-anp.com.br/guia/quanto-subiram-combustiveis-2026-balanco"
+        }
+      ],
+      "indicadores": [
+        "etanol"
+      ],
+      "atualizadoEm": "2026-10-26T22:00:00-03:00",
+      "atualizacoes": [],
+      "referencia": {
+        "dolar": 5.446,
+        "ibov": 175032.74,
+        "selic": 13.75
+      }
+    },
+    {
+      "id": "eleicao",
+      "tema": "Eleições",
+      "titulo": "Resultado contestado: e agora?",
+      "chamada": "Flávio diz que vai pedir anulação. O que cada lado diz e quais são os próximos passos.",
+      "data": "26/10/2026",
+      "inicio": [
+        "Lula venceu o 2º turno com 51,79% dos votos válidos, cerca de 4,4 milhões de votos à frente.",
+        "Flávio Bolsonaro disse que não reconhece o resultado e que vai pedir a anulação da eleição."
+      ],
+      "cadeia": [
+        "Faltam ônibus e há filas em algumas cidades",
+        "As duas campanhas pedem mais tempo de votação",
+        "O ministro Zanin, do STF, prorroga a votação até 19h onde as seções ainda estavam abertas",
+        "A campanha de Flávio contesta a decisão",
+        "O pedido de anulação vai à Justiça Eleitoral"
+      ],
+      "porque": "A campanha de Flávio argumenta que a prorrogação foi decidida por um ministro do STF, e não pelo TSE, e que tratou eleitores de forma desigual entre cidades e estados.",
+      "outraLeitura": "O TSE certificou o resultado sem encontrar irregularidades na contagem. A prorrogação foi pedida pelas duas campanhas, e juristas ouvidos pela imprensa avaliam que o pedido de anulação tem pouco amparo legal.",
+      "cenarios": [
+        {
+          "tipo": "base",
+          "texto": "A Justiça Eleitoral analisa e rejeita o pedido, e o calendário segue até a posse."
+        },
+        {
+          "tipo": "incerto",
+          "texto": "A Polícia Federal apura as denúncias sobre transporte de eleitores; o resultado da investigação pode alimentar o debate."
+        }
+      ],
+      "saidas": [
+        "Decisão rápida e transparente da Justiça Eleitoral sobre o pedido",
+        "Divulgação das apurações da Polícia Federal",
+        "Posse do presidente eleito em 5 de janeiro de 2027"
+      ],
+      "bolso": [],
+      "fontes": [
+        {
+          "nome": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-diz-que-pedira-anulacao-das-eleicoes/"
+        },
+        {
+          "nome": "Brasil de Fato",
+          "url": "https://www.brasildefato.com.br/2026/10/26/sem-amparo-legal-pedido-de-flavio-bolsonaro-para-anular-eleicao-nao-deve-prosperar/"
+        },
+        {
+          "nome": "Latin Times",
+          "url": "https://www.latintimes.com/lula-defeats-flavio-bolsonaro-brazil-runoff-600558"
+        }
+      ],
+      "indicadores": [],
+      "atualizadoEm": "2026-10-26T22:00:00-03:00",
+      "atualizacoes": [],
+      "referencia": {
+        "dolar": 5.446,
+        "ibov": 175032.74,
+        "selic": 13.75
+      }
+    }
+  ]
+}

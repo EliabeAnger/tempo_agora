@@ -111,7 +111,7 @@ h3{font-family:var(--f-display);font-stretch:85%;font-weight:700;font-size:13px;
 .fuel{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
 .fuel>div{background:var(--soft);border-radius:10px;padding:9px 11px;display:grid;min-width:0}
 .fuel .k{font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:700}
-.fuel .v{font-family:var(--f-data);font-size:17px;font-weight:700;white-space:nowrap}
+.fuel .v{font-family:var(--f-data);font-size:17px;font-weight:700;overflow-wrap:anywhere}
 .fuel small{font-size:11px;color:var(--muted)}
 .shortcuts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
 .sc{border:1px solid var(--line);background:var(--soft);border-radius:12px;padding:12px 6px;font:700 14px var(--f-body);color:var(--ink);cursor:pointer;display:grid;justify-items:center;gap:4px;text-align:center}
@@ -218,6 +218,13 @@ ol.tl li.next .dt{color:var(--accent);font-weight:700}
 .slist .m{grid-column:1;font:700 11px var(--f-data);text-transform:uppercase;letter-spacing:.06em;color:var(--accent)}
 .slist .a{grid-row:1/3;grid-column:2;align-self:center;color:var(--muted);font-size:22px}
 
+.novo{color:var(--warn)}
+.dia{border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin:4px 0 8px}
+.dia b{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--accent)}
+.dia ol{list-style:none;margin:6px 0 0;padding:0;display:grid;gap:6px}
+.dia li{display:grid;grid-template-columns:48px minmax(0,1fr);gap:8px;font-size:14px}
+.dia li span{font:700 12px var(--f-data);color:var(--muted);padding-top:2px}
+.alert ul li+li{margin-top:4px}
 /* economize */
 .calc .cgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
 .calc label{display:block;font:700 11px var(--f-data);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:4px}
@@ -350,11 +357,16 @@ footer{font-size:12px;color:var(--muted);padding-top:18px;display:grid;gap:8px;j
     <div class="chips stick" id="entSeg" role="group" aria-label="Parte">
       <button class="chip" data-ent="historias" aria-pressed="true">Histórias do momento</button>
       <button class="chip" data-ent="economize" aria-pressed="false">Economize no dia a dia</button>
+      <button class="chip" data-ent="arquivo" aria-pressed="false">Dias anteriores</button>
     </div>
     <div id="entHist">
-      <div class="panel intro"><h2>Entenda o momento</h2><p class="sub" style="margin:0">Cada assunto contado em 3 partes: o que aconteceu, por que aconteceu e o que pode vir pela frente, com as saídas possíveis. Toque para abrir.</p></div>
+      <div class="panel intro"><h2>Entenda o momento</h2><p class="sub" style="margin:0">Cada assunto contado em 3 partes: o que aconteceu, por que aconteceu e o que pode vir pela frente, com as saídas possíveis. Toque para abrir.</p><p class="note" id="histUpd"></p></div>
       <div class="stories" id="stories" style="margin-top:14px"><p class="empty">Carregando…</p></div>
       <p class="note">As previsões são de analistas e veículos citados nas fontes de cada história. Não são recomendação de investimento.</p>
+    </div>
+    <div id="entArq" hidden>
+      <div class="panel intro"><h2>Dias anteriores</h2><p class="sub" style="margin:0">Todo fim de dia as histórias são guardadas aqui automaticamente. Toque num dia para ler como estava a situação.</p></div>
+      <div id="arqBody" style="margin-top:14px"><p class="empty">Carregando…</p></div>
     </div>
     <div id="entEco" hidden>
       <div class="panel intro"><h2>Economize no dia a dia</h2><p class="sub" style="margin:0">Jeitos práticos de passar pela alta de alimentos, combustível e gás com o menor estrago no orçamento.</p></div>
@@ -695,8 +707,16 @@ function renderStatus(){
   dot.className="dot";
   st.textContent=S.ultima?`Ao vivo · atualizado às ${new Date(S.ultima).toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})} · dólar a cada 1 min`:"Conectando…";
 }
+function alertas(){
+  const l=[],u=usd(),ib=S.ibov;
+  if(u&&!u.cache&&Math.abs(u.var)>=1.5)l.push(`Dólar ${u.var>0?"dispara":"despenca"} ${num(Math.abs(u.var),1)}% hoje e está em R$ ${num(u.valor,2)}.`);
+  if(ib?.aoVivo&&Math.abs(ib.var)>=2)l.push(`Bolsa ${ib.var>0?"sobe":"cai"} ${num(Math.abs(ib.var),1)}% hoje.`);
+  const bt=S.moedas?.find(m=>m.sigla==="BTC");if(bt&&!bt.cache&&Math.abs(bt.var)>=6)l.push(`Bitcoin ${bt.var>0?"sobe":"cai"} ${num(Math.abs(bt.var),1)}% em 24 horas.`);
+  if(S.base?.alerta)l.push(S.base.alerta);
+  return l.slice(0,3);
+}
 function renderInicio(){
-  const a=S.base?.alerta;$("alert").hidden=!a;if(a)$("alert").textContent=a;
+  const al=alertas();$("alert").hidden=!al.length;$("alert").innerHTML=al.length>1?`<ul style="margin:0;padding-left:18px">${al.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:esc(al[0]||"");
   $("today").innerHTML=resumoDia();
   $("hDolar").innerHTML=dolarHero(false)+`<button class="link" style="color:#f5c242" data-go="mercado" data-j="mDolar">Ver gráfico completo ›</button>`;
   const ib=S.ibov,se=S.ind.selic,ip=S.ind.ipca12,ga=S.base?.combustiveis.itens[0],eu=S.moedas?.find(m=>m.sigla==="EUR");
@@ -743,19 +763,36 @@ function renderMercado(){
   const j=S.base?.mercado.juros;
   $("mJuros").innerHTML=`<h2>Juros futuros (DI)</h2><p class="sub">Quanto o mercado espera de juros nos próximos anos. Subindo, o crédito tende a ficar mais caro.</p>${j?`<table><thead><tr><th>Vencimento</th><th class="n">Taxa</th><th class="n">No dia</th></tr></thead><tbody>${j.map(x=>`<tr><td>${esc(x.nome)}</td><td class="n">${num(x.taxa,2)}%</td><td class="n d">+${num(x.var,2)}</td></tr>`).join("")}</tbody></table><p class="note">Registro de 26/10, em pontos percentuais.</p>`:""}`;
 }
+function indicadoresDa(h){
+  if(h.indicadores)return h.indicadores;
+  return {bolsa:["dolar","ibov"],juros:["selic","ipca"],diesel:["etanol"]}[h.id]||[];
+}
 function blocoAoVivo(h){
   // números do momento, calculados com os dados que o app tem agora
-  const u=usd(),ib=S.ibov,c=S.base?.combustiveis?.itens||[];
-  if(h.id==="bolsa"&&u)return`<div class="live"><b>Agora:</b> dólar a R$ ${num(u.valor,3)} (${u.var>=0?"+":""}${num(u.var,2)}% hoje)${ib?` · Ibovespa ${num(ib.pontos,0)} pts (${ib.var>=0?"+":""}${num(ib.var,2)}%)`:""}</div>`;
-  if(h.id==="juros"&&S.ind.selic)return`<div class="live"><b>Agora:</b> Selic ${num(S.ind.selic.valor,2)}% ao ano${S.ind.ipca12?` · inflação de 12 meses ${num(S.ind.ipca12.valor,2)}%`:""}</div>`;
-  if(h.id==="diesel"){const g=c.find(x=>x.nome==="Gasolina"),e=c.find(x=>x.nome==="Etanol");if(g&&e){const r=e.valor/g.valor*100;return`<div class="live"><b>Conta do etanol (média Brasil):</b> R$ ${num(e.valor,2)} ÷ R$ ${num(g.valor,2)} = ${num(r,0)}%. ${r<=70?"Abaixo de 70%: na média, <b>o etanol compensa</b>.":"Acima de 70%: na média, <b>a gasolina compensa</b>."} Confira no teu posto.</div>`}}
-  return"";
+  const u=usd(),ib=S.ibov,c=S.base?.combustiveis?.itens||[],q=indicadoresDa(h),partes=[];
+  if(q.includes("dolar")&&u)partes.push(`dólar R$ ${num(u.valor,3)} (${u.var>=0?"+":""}${num(u.var,2)}% hoje)`);
+  if(q.includes("ibov")&&ib)partes.push(`Ibovespa ${num(ib.pontos,0)} pts (${ib.var>=0?"+":""}${num(ib.var,2)}%)`);
+  if(q.includes("selic")&&S.ind.selic)partes.push(`Selic ${num(S.ind.selic.valor,2)}% ao ano`);
+  if(q.includes("ipca")&&S.ind.ipca12)partes.push(`inflação de 12 meses ${num(S.ind.ipca12.valor,2)}%`);
+  let html=partes.length?`<div class="live"><b>Agora:</b> ${partes.join(" · ")}</div>`:"";
+  if(q.includes("etanol")){const g=c.find(x=>x.nome==="Gasolina"),e=c.find(x=>x.nome==="Etanol");if(g&&e){const r=e.valor/g.valor*100;html+=`<div class="live"><b>Conta do etanol (média Brasil):</b> R$ ${num(e.valor,2)} ÷ R$ ${num(g.valor,2)} = ${num(r,0)}%. ${r<=70?"Abaixo de 70%: na média, <b>o etanol compensa</b>.":"Acima de 70%: na média, <b>a gasolina compensa</b>."} Confira no teu posto.</div>`}}
+  // compara com os números de quando a história foi escrita
+  const ref=h.referencia||{},mud=[];
+  const cmp=(nome,antes,agora,d,pre="",suf="")=>{if(antes&&agora){const dv=(agora/antes-1)*100;if(Math.abs(dv)>=1)mud.push(`${nome} foi de ${pre}${num(antes,d)}${suf} para ${pre}${num(agora,d)}${suf} (${dv>=0?"+":""}${num(dv,1)}%)`)}};
+  cmp("o dólar",ref.dolar,u&&!u.cache?u.valor:null,3,"R$ ");
+  cmp("o Ibovespa",ref.ibov,ib?.aoVivo?ib.pontos:null,0,""," pts");
+  if(ref.selic&&S.ind.selic?.aoVivo&&ref.selic!==S.ind.selic.valor)mud.push(`a Selic mudou de ${num(ref.selic,2)}% para ${num(S.ind.selic.valor,2)}%`);
+  if(mud.length)html+=`<div class="other"><b>Mudou desde a última atualização${h.atualizadoEm?" ("+esc(hora(h.atualizadoEm))+")":""}</b>${mud.join("; ")}. A análise pode ser revista na próxima atualização.</div>`;
+  return html;
 }
-function historiaHTML(h,aberta){
+function hora(iso){const d=new Date(iso);return isNaN(d)?"":d.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit",timeZone:"America/Sao_Paulo"})}
+function historiaHTML(h,aberta,arquivo){
   const L=a=>(a||[]).map(esc);
-  return `<details class="story" id="st-${esc(h.id)}" ${aberta?"open":""}><summary><span class="tema">${esc(h.tema)} · ${esc(h.data)}</span><span class="tit">${esc(h.titulo)}</span><span class="cham">${esc(h.chamada)}</span></summary>
+  const at=h.atualizacoes||[];
+  return `<details class="story" id="st-${esc(h.id)}" ${aberta?"open":""}><summary><span class="tema">${esc(h.tema)} · ${esc(h.data)}${h.atualizadoEm&&!arquivo?" · atualizada às "+esc(hora(h.atualizadoEm)):""}${at.length?` · <span class="novo">${at.length} ${at.length>1?"atualizações":"atualização"}</span>`:""}</span><span class="tit">${esc(h.titulo)}</span><span class="cham">${esc(h.chamada)}</span></summary>
   <div class="sbody">
-    <div class="step"><span class="nro">1</span><div><h4>O que aconteceu</h4>${L(h.inicio).map(p=>`<p>${p}</p>`).join("")}${blocoAoVivo(h)}</div></div>
+    <div class="step"><span class="nro">1</span><div><h4>O que aconteceu</h4>${L(h.inicio).map(p=>`<p>${p}</p>`).join("")}${arquivo?"":blocoAoVivo(h)}
+      ${at.length?`<div class="dia"><b>Durante o dia</b><ol>${at.map(x=>`<li><span>${esc(x.hora)}</span>${esc(x.texto)}</li>`).join("")}</ol></div>`:""}</div></div>
     <div class="step"><span class="nro">2</span><div><h4>Por que, e o que isso causa</h4><p>${esc(h.porque)}</p>
       <ol class="chain" aria-label="Causa e efeito">${L(h.cadeia).map(x=>`<li>${x}</li>`).join("")}</ol>
       ${h.outraLeitura?`<div class="other"><b>Outra leitura</b>${esc(h.outraLeitura)}</div>`:""}</div></div>
@@ -799,11 +836,32 @@ function renderEconomize(){
     ${x.tabela?`<div class="tw"><table><thead><tr>${x.tabela.cab.map(h=>`<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${x.tabela.linhas.map(l=>`<tr>${l.map((v,j)=>`<td>${j?esc(v):`<b>${esc(v)}</b>`}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`:""}
     ${x.nota?`<p class="note">${esc(x.nota)}</p>`:""}</div></details>`).join("");
 }
+const fmtDia=d=>{const[a,m,dd]=d.split("-");const dt=new Date(+a,m-1,+dd);return dt.toLocaleDateString("pt-BR",{weekday:"long",day:"2-digit",month:"long"})};
+async function carregaIndice(){try{S.indice=await req("arquivo/indice.json?"+Date.now())}catch(e){S.indice=S.indice||null}}
+async function abreDia(d){
+  $("arqBody").innerHTML='<p class="empty">Abrindo…</p>';
+  try{const x=await req(`arquivo/${d}.json`);S.diaAberto={data:d,...x}}catch(e){S.diaAberto={data:d,erro:true}}
+  renderArquivo();window.scrollTo(0,0);
+}
+function renderArquivo(){
+  const b=$("arqBody"),dia=S.diaAberto;
+  if(dia){
+    b.innerHTML=`<button class="more" data-dia="">‹ Voltar para a lista de dias</button>
+    <div class="panel" style="margin-top:12px"><h2 style="text-transform:none">${esc(fmtDia(dia.data))}</h2>${dia.alerta?`<p class="sub" style="margin:4px 0 0">${esc(dia.alerta)}</p>`:""}
+    ${dia.numeros?`<div class="fuel" style="margin-top:10px">${Object.entries(dia.numeros).map(([k,v])=>`<div><span class="k">${esc(k)}</span><span class="v" style="font-size:15px">${esc(v)}</span></div>`).join("")}</div>`:""}</div>
+    <div class="stories" style="margin-top:14px">${dia.erro?'<p class="empty">Não consegui abrir esse dia agora. Tente de novo com internet.</p>':(dia.historias||[]).map(h=>historiaHTML(h,false,true)).join("")}</div>`;
+    return;
+  }
+  const dias=S.indice?.dias||[];
+  b.innerHTML=dias.length?`<div class="panel"><div class="slist">${dias.map(d=>`<button data-dia="${esc(d.data)}"><span class="m">${esc(fmtDia(d.data))}</span><span class="t">${esc(d.manchete||"")}</span><span class="a">›</span></button>`).join("")}</div></div>`:'<p class="empty">O primeiro dia aparece aqui depois do fechamento automático, às 23h30.</p>';
+}
 function renderEntenda(){
-  const eco=S.ent==="economize";
-  document.querySelectorAll("#entSeg .chip").forEach(b=>b.setAttribute("aria-pressed",b.dataset.ent===(S.ent||"historias")));
-  $("entHist").hidden=eco;$("entEco").hidden=!eco;
-  if(eco){if(!S.ecoOk){renderEconomize();S.ecoOk=true}return}
+  const modo=S.ent||"historias";
+  document.querySelectorAll("#entSeg .chip").forEach(b=>b.setAttribute("aria-pressed",b.dataset.ent===modo));
+  $("entHist").hidden=modo!=="historias";$("entEco").hidden=modo!=="economize";$("entArq").hidden=modo!=="arquivo";
+  if(modo==="economize"){if(!S.ecoOk){renderEconomize();S.ecoOk=true}return}
+  if(modo==="arquivo"){if(!S.indice)carregaIndice().then(renderArquivo);renderArquivo();return}
+  const up=S.base?.atualizadoEm;$("histUpd").textContent=up?`Última atualização: ${new Date(up).toLocaleString("pt-BR",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit",timeZone:"America/Sao_Paulo"})}. O robô atualiza às 7h, 12h e 18h e arquiva o dia às 23h30.`:"";
   const hs=S.base?.historias||[];
   $("stories").innerHTML=hs.length?hs.map(h=>historiaHTML(h,h.id===S.abrir)).join(""):'<p class="empty">Nenhuma história no momento.</p>';
   if(S.abrir){const el=$("st-"+S.abrir);S.abrir=null;if(el)requestAnimationFrame(()=>el.scrollIntoView({behavior:"smooth",block:"start"}))}
@@ -840,6 +898,7 @@ document.addEventListener("click",async e=>{
   const t=e.target.closest(".tab");if(t)return vai(t.dataset.v);
   const g=e.target.closest("[data-go]");if(g)return vai(g.dataset.go,g.dataset.j);
   const j=e.target.closest("[data-j]");if(j)return $(j.dataset.j)?.scrollIntoView({behavior:"smooth",block:"start"});
+  const dd=e.target.closest("[data-dia]");if(dd){if(dd.dataset.dia)return abreDia(dd.dataset.dia);S.diaAberto=null;return renderArquivo()}
   const en=e.target.closest("[data-ent]");if(en){S.ent=en.dataset.ent;S.ecoOk=false;if(S.view!=="entenda")return vai("entenda");renderEntenda();return window.scrollTo(0,0)}
   const st=e.target.closest("[data-story]");if(st)S.ent="historias";if(st){S.abrir=st.dataset.story;return vai("entenda")}
   const sc=e.target.closest("[data-cat]");if(sc){S.cat=sc.dataset.cat;store.set("cat",S.cat);return vai("noticias")}
@@ -855,8 +914,10 @@ function precisaNoticias(){
 /* ================= ATUALIZAÇÃO ================= */
 function digitando(){const a=document.activeElement;return a&&a.matches&&a.matches("input,select")}
 function renderSeguro(){if(!digitando())render();else{renderTape();renderStatus()}}
+async function carregaBase(){try{const b=await req("dados.json?"+Date.now());if(b&&b.atualizadoEm)S.base=b}catch(e){}}
 async function atualizaTudo(forcar){
   $("btnRefresh").classList.add("spin");
+  await carregaBase();if(forcar||S.ent==="arquivo")carregaIndice();
   await Promise.all([carregaMoedas(),carregaAcoes(),carregaIndicadores()]);
   await carregaHist();renderSeguro();
   const cats=new Set(["destaques",S.cat,"eleicoes"]);if(forcar)Object.keys(S.news).forEach(c=>cats.add(c));
