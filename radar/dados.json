@@ -518,5 +518,204 @@
         }
       ]
     }
+  ],
+  "economia": [
+    {
+      "id": "mercado",
+      "icone": "carrinho",
+      "titulo": "Compras no mercado",
+      "intro": "Pequenas mudanças no jeito de comprar fazem mais diferença que cortar itens.",
+      "dicas": [
+        "Faça lista antes de sair e evite ir ao mercado com fome",
+        "Compare o preço por quilo ou por litro, não o preço da embalagem (use a calculadora abaixo)",
+        "Marcas próprias do mercado costumam custar menos pelo mesmo produto",
+        "Atacarejos compensam para itens que você usa muito: arroz, feijão, óleo, papel higiênico, produtos de limpeza",
+        "Feira no fim do horário costuma ter frutas e verduras mais baratas",
+        "Prefira frutas e verduras da estação: estão mais baratas e mais gostosas",
+        "Use aplicativos e encartes de ofertas e combine compras com vizinhos ou família para levar em quantidade",
+        "Troque carne vermelha por ovo, frango, feijão, lentilha ou grão-de-bico em algumas refeições da semana"
+      ]
+    },
+    {
+      "id": "despensa",
+      "icone": "caixa",
+      "titulo": "Despensa inteligente",
+      "intro": "Comprar na promoção e guardar direito protege contra aumentos. O segredo é estocar só o que você consome antes de vencer.",
+      "dicas": [
+        "Organize com a regra: primeiro que entra, primeiro que sai. Os mais novos vão para o fundo da prateleira",
+        "Guarde em potes bem fechados, em local seco, fresco e longe do sol",
+        "Farinha e grãos: 48 horas no congelador antes de guardar ajuda a evitar caruncho",
+        "Anote a data de compra nas embalagens abertas",
+        "Monte um estoque para 2 a 4 semanas, não mais: dinheiro parado em comida que vence é prejuízo"
+      ],
+      "tabela": {
+        "cab": [
+          "Item",
+          "Dura (fechado)",
+          "Como guardar"
+        ],
+        "linhas": [
+          [
+            "Arroz",
+            "cerca de 1 ano",
+            "pote fechado, local seco"
+          ],
+          [
+            "Feijão",
+            "6 a 12 meses",
+            "pote fechado; mais velho demora mais para cozinhar"
+          ],
+          [
+            "Macarrão seco",
+            "1 a 2 anos",
+            "embalagem fechada"
+          ],
+          [
+            "Enlatados",
+            "até a validade",
+            "lata sem amassado ou ferrugem"
+          ],
+          [
+            "Óleo",
+            "cerca de 1 ano",
+            "longe da luz e do fogão"
+          ],
+          [
+            "Farinha",
+            "cerca de 6 meses",
+            "pote fechado; congelar 48 h antes"
+          ],
+          [
+            "Açúcar e sal",
+            "muito tempo",
+            "pote fechado e seco"
+          ],
+          [
+            "Leite longa vida",
+            "até a validade",
+            "depois de aberto, geladeira por até 3 dias"
+          ],
+          [
+            "Carnes",
+            "3 a 6 meses no freezer",
+            "porções pequenas, datadas"
+          ]
+        ]
+      },
+      "nota": "Prazos aproximados. Siga sempre a validade da embalagem."
+    },
+    {
+      "id": "horta",
+      "icone": "planta",
+      "titulo": "Horta em casa (até em apartamento)",
+      "intro": "Temperos e folhas são caros no mercado e fáceis de plantar. A primavera é uma boa época para começar.",
+      "dicas": [
+        "Escolha um lugar com pelo menos 4 a 6 horas de sol por dia: janela, sacada, muro ou laje",
+        "Horta suspensa: garrafas PET cortadas, pallets, canos de PVC ou vasos pendurados na parede economizam espaço",
+        "Faça furos no fundo dos vasos e coloque pedrinhas ou argila expandida para escoar a água",
+        "Use terra adubada; restos de cascas e borra de café viram adubo numa composteira caseira",
+        "Regue de manhã cedo ou no fim da tarde, sem encharcar",
+        "Replante a base: o pé da cebolinha e o miolo da alface voltam a brotar num copo com água e depois na terra"
+      ],
+      "tabela": {
+        "cab": [
+          "Planta",
+          "Espaço",
+          "Colheita em"
+        ],
+        "linhas": [
+          [
+            "Rúcula",
+            "vaso raso",
+            "30 a 40 dias"
+          ],
+          [
+            "Rabanete",
+            "vaso raso",
+            "25 a 35 dias"
+          ],
+          [
+            "Alface",
+            "vaso médio",
+            "45 a 60 dias"
+          ],
+          [
+            "Cebolinha",
+            "vaso pequeno",
+            "60 a 75 dias, depois corta e rebrota"
+          ],
+          [
+            "Salsinha",
+            "vaso pequeno",
+            "60 a 80 dias, rebrota"
+          ],
+          [
+            "Manjericão",
+            "vaso médio",
+            "40 a 60 dias"
+          ],
+          [
+            "Couve",
+            "vaso grande",
+            "50 a 70 dias, colhe as folhas por meses"
+          ],
+          [
+            "Tomate-cereja",
+            "vaso grande com tutor",
+            "70 a 90 dias"
+          ],
+          [
+            "Pimenta",
+            "vaso médio",
+            "90 a 120 dias"
+          ]
+        ]
+      },
+      "nota": "Tempos aproximados, a partir do semeio. Mudas já crescidas encurtam o prazo."
+    },
+    {
+      "id": "combustivel",
+      "icone": "bomba",
+      "titulo": "Gastar menos combustível",
+      "intro": "Com o diesel acima de R$ 7 e a gasolina perto de R$ 6,60, cada litro conta.",
+      "dicas": [
+        "Carro flex: abasteça com etanol quando ele custar até 70% da gasolina (calculadora abaixo)",
+        "Mantenha os pneus calibrados: pneu murcho aumenta o consumo",
+        "Acelere e freie com suavidade e evite deixar o motor ligado parado",
+        "Tire peso desnecessário do porta-malas",
+        "Combine trajetos: várias tarefas numa saída só",
+        "Carona solidária para o trabalho ou a igreja divide o custo",
+        "Compare preços entre postos com aplicativos; a diferença na mesma cidade pode ser grande",
+        "Faça a manutenção em dia: filtro de ar sujo e velas gastas aumentam o consumo"
+      ]
+    },
+    {
+      "id": "cozinha",
+      "icone": "panela",
+      "titulo": "Cozinha sem desperdício e gás rendendo mais",
+      "intro": "O botijão passou de R$ 116 na média. Dá para fazer render mais.",
+      "dicas": [
+        "Panela de pressão cozinha feijão, carne e legumes muito mais rápido e gasta menos gás",
+        "Tampe a panela e ajuste a chama para não passar das bordas",
+        "Cozinhe em quantidade e congele em porções: um cozimento serve vários dias",
+        "Planeje o cardápio da semana com base no que já tem em casa",
+        "Talos, cascas e folhas viram caldo, farofa, bolo e refogado",
+        "Congele pão, frutas maduras e sobras antes que estraguem",
+        "Deixe feijão de molho na véspera: cozinha mais rápido"
+      ]
+    },
+    {
+      "id": "renda",
+      "icone": "moeda",
+      "titulo": "Proteger o dinheiro",
+      "intro": "Com juros altos, o dinheiro guardado pode render mais que a inflação.",
+      "dicas": [
+        "Primeiro, quite dívidas caras: rotativo do cartão e cheque especial cobram os juros mais altos do país",
+        "Monte uma reserva de emergência, de preferência de 3 a 6 meses de gastos",
+        "Para a reserva, prefira aplicações com liquidez diária atreladas ao CDI ou à Selic",
+        "Renegocie contas de celular, internet e seguros; ofertas para clientes novos costumam valer também para quem pede",
+        "Anote os gastos do mês: só dá para cortar o que se enxerga"
+      ]
+    }
   ]
 }

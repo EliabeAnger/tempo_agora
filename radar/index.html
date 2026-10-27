@@ -218,6 +218,28 @@ ol.tl li.next .dt{color:var(--accent);font-weight:700}
 .slist .m{grid-column:1;font:700 11px var(--f-data);text-transform:uppercase;letter-spacing:.06em;color:var(--accent)}
 .slist .a{grid-row:1/3;grid-column:2;align-self:center;color:var(--muted);font-size:22px}
 
+/* economize */
+.calc .cgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.calc label{display:block;font:700 11px var(--f-data);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:4px}
+.calc input{width:100%;font:700 18px var(--f-data);padding:10px;border-radius:10px;border:1px solid var(--line);background:var(--soft);color:var(--ink);min-width:0}
+.cres{margin-top:12px;border-radius:12px;padding:12px;background:var(--soft);font-size:15px}
+.cres:empty{display:none}
+.cres.win{background:var(--accent-soft)}
+.cres strong{font-family:var(--f-display);font-stretch:85%;font-size:20px;display:block;text-transform:uppercase}
+.guias{display:grid;gap:14px}
+.guia{background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.guia>summary{list-style:none;cursor:pointer;padding:14px 16px;display:grid;grid-template-columns:44px minmax(0,1fr) auto;gap:12px;align-items:center}
+.guia>summary::-webkit-details-marker{display:none}
+.guia .gi{width:44px;height:44px;border-radius:12px;background:var(--gold-soft);display:grid;place-items:center}
+.guia .gi svg{width:24px;height:24px;stroke:var(--warn);fill:none;stroke-width:2}
+.guia .gt{font-family:var(--f-display);font-stretch:85%;font-weight:800;font-size:18px;line-height:1.2}
+.guia .gs{font-size:14px;color:var(--muted);grid-column:2}
+.guia .ga{grid-row:1/3;grid-column:3;color:var(--muted);font-size:22px;transition:transform .2s}
+.guia[open] .ga{transform:rotate(90deg)}
+.guia .gb{padding:0 16px 16px}
+.tw{overflow-x:auto;margin-top:8px}
+.tw table td,.tw table th{font-size:14px;padding-right:8px}
+
 /* navegação inferior */
 nav.bottom{position:fixed;left:0;right:0;bottom:0;z-index:6;background:var(--surface);border-top:1px solid var(--line);
   display:grid;grid-template-columns:repeat(5,1fr);padding-bottom:env(safe-area-inset-bottom,0px);
@@ -325,9 +347,30 @@ footer{font-size:12px;color:var(--muted);padding-top:18px;display:grid;gap:8px;j
 
   <!-- ENTENDA -->
   <section class="view" id="v-entenda" hidden>
-    <div class="panel intro"><h2>Entenda o momento</h2><p class="sub" style="margin:0">Cada assunto contado em 3 partes: o que aconteceu, por que aconteceu e o que pode vir pela frente, com as saídas possíveis. Toque para abrir.</p></div>
-    <div class="stories" id="stories"><p class="empty">Carregando…</p></div>
-    <p class="note">As previsões são de analistas e veículos citados nas fontes de cada história. Não são recomendação de investimento.</p>
+    <div class="chips stick" id="entSeg" role="group" aria-label="Parte">
+      <button class="chip" data-ent="historias" aria-pressed="true">Histórias do momento</button>
+      <button class="chip" data-ent="economize" aria-pressed="false">Economize no dia a dia</button>
+    </div>
+    <div id="entHist">
+      <div class="panel intro"><h2>Entenda o momento</h2><p class="sub" style="margin:0">Cada assunto contado em 3 partes: o que aconteceu, por que aconteceu e o que pode vir pela frente, com as saídas possíveis. Toque para abrir.</p></div>
+      <div class="stories" id="stories" style="margin-top:14px"><p class="empty">Carregando…</p></div>
+      <p class="note">As previsões são de analistas e veículos citados nas fontes de cada história. Não são recomendação de investimento.</p>
+    </div>
+    <div id="entEco" hidden>
+      <div class="panel intro"><h2>Economize no dia a dia</h2><p class="sub" style="margin:0">Jeitos práticos de passar pela alta de alimentos, combustível e gás com o menor estrago no orçamento.</p></div>
+      <div class="cols" style="margin-top:14px">
+        <div>
+          <div class="panel calc"><h2>Etanol ou gasolina?</h2><p class="sub">Coloque os preços do posto onde você abastece.</p>
+            <div class="cgrid"><div><label for="cEt">Etanol (R$/L)</label><input id="cEt" inputmode="decimal" data-calc></div><div><label for="cGa">Gasolina (R$/L)</label><input id="cGa" inputmode="decimal" data-calc></div></div>
+            <div class="cres" id="rEt"></div></div>
+          <div class="panel calc"><h2>Qual embalagem compensa?</h2><p class="sub">Compare dois produtos pelo preço por quilo, litro ou unidade.</p>
+            <div class="cgrid"><div><label for="pA">Preço A (R$)</label><input id="pA" inputmode="decimal" placeholder="ex.: 7,90" data-calc></div><div><label for="qA">Quantidade A</label><input id="qA" inputmode="decimal" placeholder="ex.: 1 (kg)" data-calc></div>
+              <div><label for="pB">Preço B (R$)</label><input id="pB" inputmode="decimal" placeholder="ex.: 34,90" data-calc></div><div><label for="qB">Quantidade B</label><input id="qB" inputmode="decimal" placeholder="ex.: 5 (kg)" data-calc></div></div>
+            <div class="cres" id="rEmb"></div></div>
+        </div>
+        <div><div class="guias" id="guias"></div></div>
+      </div>
+    </div>
   </section>
 
   <!-- ELEIÇÕES -->
@@ -670,7 +713,7 @@ function renderInicio(){
   $("hEleicao").innerHTML=e?`<h2>Eleição presidencial</h2><p class="sub">Resultado do 2º turno (25/10).</p>${duelo(e)}<button class="link" data-go="eleicoes">Ver andamento completo ›</button>`:"";
   $("destaques").innerHTML=listaHTML("destaques",6);
   const hs=S.base?.historias||[];
-  $("hEntenda").innerHTML=hs.length?`<h2>Entenda o momento</h2><p class="sub">O que aconteceu, por quê e o que pode vir pela frente.</p><div class="slist">${hs.map(h=>`<button data-story="${esc(h.id)}"><span class="m">${esc(h.tema)}</span><span class="t">${esc(h.titulo)}</span><span class="a">›</span></button>`).join("")}</div>`:"";
+  $("hEntenda").innerHTML=hs.length?`<h2>Entenda o momento</h2><p class="sub">O que aconteceu, por quê e o que pode vir pela frente.</p><div class="slist">${hs.map(h=>`<button data-story="${esc(h.id)}"><span class="m">${esc(h.tema)}</span><span class="t">${esc(h.titulo)}</span><span class="a">›</span></button>`).join("")}</div><button class="more" data-ent="economize">Dicas para economizar: mercado, horta, combustível ›</button>`:"";
 }
 function renderNoticias(){
   document.querySelectorAll("#chips .chip").forEach(b=>b.setAttribute("aria-pressed",b.dataset.c===S.cat));
@@ -723,7 +766,44 @@ function historiaHTML(h,aberta){
     <div class="fontes">Fontes: ${(h.fontes||[]).map(f=>`<a href="${esc(safeUrl(f.url))}" target="_blank" rel="noopener">${esc(f.nome)}</a>`).join(" · ")}</div>
   </div></details>`;
 }
+const ICONES={
+  carrinho:'<path d="M3 4h2l2.4 11h11L21 7H6.2"/><circle cx="9" cy="19" r="1.6"/><circle cx="17" cy="19" r="1.6"/>',
+  caixa:'<path d="M3 8l9-5 9 5v8l-9 5-9-5z"/><path d="M3 8l9 5 9-5M12 13v8"/>',
+  planta:'<path d="M12 21v-9M12 12c0-4 3-7 8-7 0 4-3 7-8 7zM12 15c0-3-2.5-5-6-5 0 3 2.5 5 6 5z"/><path d="M7 21h10"/>',
+  bomba:'<rect x="4" y="3" width="10" height="18" rx="1"/><path d="M4 9h10M14 7l4 3v8a2 2 0 0 1-4 0v-4"/>',
+  panela:'<path d="M4 10h16v5a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5zM2 10h2M20 10h2M9 6c0-1 1-1 1-2M14 6c0-1 1-1 1-2"/>',
+  moeda:'<circle cx="12" cy="12" r="9"/><path d="M15 9c-.5-1-1.6-1.5-3-1.5-1.8 0-3 .9-3 2.2 0 3 6 1.6 6 4.6 0 1.3-1.3 2.2-3 2.2-1.5 0-2.6-.6-3-1.6M12 6v1.5M12 16.5V18"/>'
+};
+function lerNum(id){const v=$(id)?.value||"";return parseFloat(v.replace(/\./g,"").replace(",","."))}
+function calcula(){
+  const et=lerNum("cEt"),ga=lerNum("cGa");
+  if(et>0&&ga>0){const r=et/ga*100,ok=r<=70;
+    $("rEt").className="cres win";$("rEt").innerHTML=`<strong>${ok?"Abasteça com etanol":"Abasteça com gasolina"}</strong>O etanol custa ${num(r,0)}% do preço da gasolina. ${ok?"Abaixo de 70%, o etanol rende mais pelo dinheiro.":"Acima de 70%, a gasolina rende mais pelo dinheiro."}`;
+  }else $("rEt").innerHTML="";
+  const pA=lerNum("pA"),qA=lerNum("qA"),pB=lerNum("pB"),qB=lerNum("qB");
+  if(pA>0&&qA>0&&pB>0&&qB>0){const a=pA/qA,b=pB/qB,m=Math.min(a,b),dif=(Math.max(a,b)/m-1)*100;
+    $("rEmb").className="cres win";
+    $("rEmb").innerHTML=Math.abs(a-b)<0.005?`<strong>Empate</strong>As duas saem por R$ ${num(a,2)} por unidade de medida.`:`<strong>A opção ${a<b?"A":"B"} compensa</strong>A: R$ ${num(a,2)} · B: R$ ${num(b,2)} por unidade de medida. A mais cara sai ${num(dif,0)}% acima.`;
+  }else $("rEmb").innerHTML="";
+}
+document.addEventListener("input",e=>{if(e.target.matches("[data-calc]")){calcula();try{store.set("calc-"+e.target.id,e.target.value)}catch(_){}}});
+function renderEconomize(){
+  const c=S.base?.combustiveis?.itens||[],g=c.find(x=>x.nome==="Gasolina"),e=c.find(x=>x.nome==="Etanol");
+  ["cEt","cGa","pA","qA","pB","qB"].forEach(id=>{const el=$(id);if(el&&!el.value){const v=store.get("calc-"+id,"");if(v)el.value=v}});
+  if(!$("cEt").value&&e)$("cEt").placeholder="média "+num(e.valor,2);
+  if(!$("cGa").value&&g)$("cGa").placeholder="média "+num(g.valor,2);
+  calcula();
+  const gs=S.base?.economia||[];
+  $("guias").innerHTML=gs.map((x,i)=>`<details class="guia" ${i===0?"open":""}><summary><span class="gi"><svg viewBox="0 0 24 24">${ICONES[x.icone]||""}</svg></span><span class="gt">${esc(x.titulo)}</span><span class="ga">›</span><span class="gs">${esc(x.intro)}</span></summary>
+    <div class="gb"><ul class="ok">${x.dicas.map(d=>`<li>${esc(d)}</li>`).join("")}</ul>
+    ${x.tabela?`<div class="tw"><table><thead><tr>${x.tabela.cab.map(h=>`<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${x.tabela.linhas.map(l=>`<tr>${l.map((v,j)=>`<td>${j?esc(v):`<b>${esc(v)}</b>`}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`:""}
+    ${x.nota?`<p class="note">${esc(x.nota)}</p>`:""}</div></details>`).join("");
+}
 function renderEntenda(){
+  const eco=S.ent==="economize";
+  document.querySelectorAll("#entSeg .chip").forEach(b=>b.setAttribute("aria-pressed",b.dataset.ent===(S.ent||"historias")));
+  $("entHist").hidden=eco;$("entEco").hidden=!eco;
+  if(eco){if(!S.ecoOk){renderEconomize();S.ecoOk=true}return}
   const hs=S.base?.historias||[];
   $("stories").innerHTML=hs.length?hs.map(h=>historiaHTML(h,h.id===S.abrir)).join(""):'<p class="empty">Nenhuma história no momento.</p>';
   if(S.abrir){const el=$("st-"+S.abrir);S.abrir=null;if(el)requestAnimationFrame(()=>el.scrollIntoView({behavior:"smooth",block:"start"}))}
@@ -760,7 +840,8 @@ document.addEventListener("click",async e=>{
   const t=e.target.closest(".tab");if(t)return vai(t.dataset.v);
   const g=e.target.closest("[data-go]");if(g)return vai(g.dataset.go,g.dataset.j);
   const j=e.target.closest("[data-j]");if(j)return $(j.dataset.j)?.scrollIntoView({behavior:"smooth",block:"start"});
-  const st=e.target.closest("[data-story]");if(st){S.abrir=st.dataset.story;return vai("entenda")}
+  const en=e.target.closest("[data-ent]");if(en){S.ent=en.dataset.ent;S.ecoOk=false;if(S.view!=="entenda")return vai("entenda");renderEntenda();return window.scrollTo(0,0)}
+  const st=e.target.closest("[data-story]");if(st)S.ent="historias";if(st){S.abrir=st.dataset.story;return vai("entenda")}
   const sc=e.target.closest("[data-cat]");if(sc){S.cat=sc.dataset.cat;store.set("cat",S.cat);return vai("noticias")}
   const c=e.target.closest("#chips .chip");if(c){S.cat=c.dataset.c;store.set("cat",S.cat);renderNoticias();return precisaNoticias()}
   const m=e.target.closest("[data-more]");if(m){S.shown[m.dataset.more]=(S.shown[m.dataset.more]||15)+15;return renderNoticias()}

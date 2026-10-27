@@ -1,7 +1,7 @@
 // Radar Brasil — service worker
 // App (telas) fica guardado para abrir offline; dados vêm da internet primeiro e,
 // se cair a conexão, mostra a última versão guardada.
-const VERSAO = "radar-v4";
+const VERSAO = "radar-v5";
 const APP = ["./", "./index.html", "./manifest.webmanifest", "./dados.json",
   "./icons/icon-192.png", "./icons/icon-512.png", "./icons/icon-maskable-512.png"];
 
