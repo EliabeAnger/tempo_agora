@@ -12,8 +12,8 @@ os combustíveis da ANP, a linha do tempo da eleição e as notícias de reserva
 
 ## Modos
 
-- **ATUALIZAR** (7h, 12h e 18h de Brasília): pesquisa e atualiza `dados.json`.
-- **FECHAR O DIA** (23h30 de Brasília): faz uma última ATUALIZAR e depois roda `python3 radar/tools/arquivar.py`,
+- **ATUALIZAR** (por volta das 6h40, 11h40 e 17h40 de Brasília): pesquisa e atualiza `dados.json`.
+- **FECHAR O DIA** (23h de Brasília): faz uma última ATUALIZAR e depois roda `python3 radar/tools/arquivar.py`,
   que guarda o dia em `radar/arquivo/AAAA-MM-DD.json`, atualiza `radar/arquivo/indice.json` e zera as "atualizacoes" do dia.
 
 ## Passo a passo

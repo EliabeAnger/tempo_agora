@@ -853,7 +853,7 @@ function renderArquivo(){
     return;
   }
   const dias=S.indice?.dias||[];
-  b.innerHTML=dias.length?`<div class="panel"><div class="slist">${dias.map(d=>`<button data-dia="${esc(d.data)}"><span class="m">${esc(fmtDia(d.data))}</span><span class="t">${esc(d.manchete||"")}</span><span class="a">›</span></button>`).join("")}</div></div>`:'<p class="empty">O primeiro dia aparece aqui depois do fechamento automático, às 23h30.</p>';
+  b.innerHTML=dias.length?`<div class="panel"><div class="slist">${dias.map(d=>`<button data-dia="${esc(d.data)}"><span class="m">${esc(fmtDia(d.data))}</span><span class="t">${esc(d.manchete||"")}</span><span class="a">›</span></button>`).join("")}</div></div>`:'<p class="empty">O primeiro dia aparece aqui depois do fechamento automático, às 23h.</p>';
 }
 function renderEntenda(){
   const modo=S.ent||"historias";
@@ -861,7 +861,7 @@ function renderEntenda(){
   $("entHist").hidden=modo!=="historias";$("entEco").hidden=modo!=="economize";$("entArq").hidden=modo!=="arquivo";
   if(modo==="economize"){if(!S.ecoOk){renderEconomize();S.ecoOk=true}return}
   if(modo==="arquivo"){if(!S.indice)carregaIndice().then(renderArquivo);renderArquivo();return}
-  const up=S.base?.atualizadoEm;$("histUpd").textContent=up?`Última atualização: ${new Date(up).toLocaleString("pt-BR",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit",timeZone:"America/Sao_Paulo"})}. O robô atualiza às 7h, 12h e 18h e arquiva o dia às 23h30.`:"";
+  const up=S.base?.atualizadoEm;$("histUpd").textContent=up?`Última atualização: ${new Date(up).toLocaleString("pt-BR",{day:"2-digit",month:"2-digit",hour:"2-digit",minute:"2-digit",timeZone:"America/Sao_Paulo"})}. O robô atualiza por volta das 6h40, 11h40 e 17h40 e arquiva o dia às 23h.`:"";
   const hs=S.base?.historias||[];
   $("stories").innerHTML=hs.length?hs.map(h=>historiaHTML(h,h.id===S.abrir)).join(""):'<p class="empty">Nenhuma história no momento.</p>';
   if(S.abrir){const el=$("st-"+S.abrir);S.abrir=null;if(el)requestAnimationFrame(()=>el.scrollIntoView({behavior:"smooth",block:"start"}))}
