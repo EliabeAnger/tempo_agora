@@ -1,0 +1,258 @@
+{
+  "atualizadoEm": "2026-10-26T15:00:00-03:00",
+  "alerta": "Mercado em queda forte após a eleição: Ibovespa acionou circuit breaker e o dólar subiu mais de 9% nesta segunda (26/10).",
+  "eleicoes": {
+    "candidatos": [
+      {
+        "id": "lula",
+        "nome": "Lula (PT)",
+        "pct": 51.79,
+        "situacao": "Reeleito para o 4º mandato. Posse em 5 de janeiro de 2027."
+      },
+      {
+        "id": "flavio",
+        "nome": "Flávio Bolsonaro (PL)",
+        "pct": 48.21,
+        "situacao": "Não reconhece o resultado e diz que vai pedir a anulação ao TSE."
+      }
+    ],
+    "segundoTurno": {
+      "data": "25/out",
+      "lula": 51.79,
+      "flavio": 48.21,
+      "margem": "≈ 4,4 milhões de votos"
+    },
+    "primeiroTurno": {
+      "data": "4/out",
+      "lula": 45.16,
+      "flavio": 47.03,
+      "obs": "Flávio liderou por ≈ 2,2 milhões"
+    },
+    "linhaTempo": [
+      {
+        "data": "04/10",
+        "texto": "1º turno: Flávio fica em primeiro com 47,03%; Lula tem 45,16%."
+      },
+      {
+        "data": "25/10",
+        "texto": "2º turno: ministro Zanin (STF) prorroga a votação até 19h onde as seções ainda estavam abertas."
+      },
+      {
+        "data": "25/10",
+        "texto": "TSE certifica o resultado sem irregularidades na contagem. Lula vence com 51,79%."
+      },
+      {
+        "data": "25/10",
+        "texto": "Flávio diz que não reconhece o resultado e aciona a equipe jurídica para pedir a anulação."
+      },
+      {
+        "data": "26/10",
+        "texto": "Polícia Federal apura denúncias de falta de transporte de eleitores em alguns estados."
+      },
+      {
+        "data": "05/01/27",
+        "texto": "Posse do presidente eleito.",
+        "futuro": true
+      }
+    ]
+  },
+  "mercado": {
+    "ibov": {
+      "pontos": 175032.74,
+      "var": -14.58,
+      "anterior": 205088.74,
+      "minimo": 169500,
+      "hora": "26/10 14h37",
+      "obs": "Circuit breaker acionado na abertura; pregão parado por 30 minutos."
+    },
+    "acoes": [
+      {
+        "ticker": "B3SA3",
+        "var": -42.49
+      },
+      {
+        "ticker": "BBAS3",
+        "var": -29.17
+      },
+      {
+        "ticker": "BBDC4",
+        "var": -23.22
+      },
+      {
+        "ticker": "ITUB4",
+        "var": -14.47
+      },
+      {
+        "ticker": "PETR4",
+        "var": -8.98
+      },
+      {
+        "ticker": "VALE3",
+        "var": 4.26
+      },
+      {
+        "ticker": "WEGE3",
+        "var": 5.08
+      },
+      {
+        "ticker": "SUZB3",
+        "var": 7.71
+      }
+    ],
+    "juros": [
+      {
+        "nome": "DI jan/2027",
+        "taxa": 13.869,
+        "var": 0.394
+      },
+      {
+        "nome": "DI jan/2028",
+        "taxa": 14.295,
+        "var": 1.47
+      },
+      {
+        "nome": "DI jan/2031",
+        "taxa": 14.46,
+        "var": 1.82
+      },
+      {
+        "nome": "DI jan/2033",
+        "taxa": 14.575,
+        "var": 1.925
+      },
+      {
+        "nome": "DI jan/2035",
+        "taxa": 14.585,
+        "var": 1.93
+      }
+    ],
+    "moedas": [
+      {
+        "sigla": "USD",
+        "nome": "Dólar Americano",
+        "valor": 5.446,
+        "var": 9.06
+      },
+      {
+        "sigla": "EUR",
+        "nome": "Euro",
+        "valor": 5.56,
+        "var": null
+      }
+    ]
+  },
+  "combustiveis": {
+    "semana": "Média nacional ANP, semana de 27/09 a 03/10/2026. Variação desde o início do ano.",
+    "itens": [
+      {
+        "nome": "Gasolina",
+        "valor": 6.582,
+        "un": "L",
+        "varAno": 5.5,
+        "dec": 3
+      },
+      {
+        "nome": "Etanol",
+        "valor": 4.464,
+        "un": "L",
+        "varAno": -3.8,
+        "dec": 3
+      },
+      {
+        "nome": "Diesel S10",
+        "valor": 7.383,
+        "un": "L",
+        "varAno": 20.5,
+        "dec": 3
+      },
+      {
+        "nome": "Diesel S500",
+        "valor": 6.99,
+        "un": "L",
+        "varAno": 15.3
+      },
+      {
+        "nome": "Gás (13 kg)",
+        "valor": 116.13,
+        "un": "bot.",
+        "varAno": 4.5
+      },
+      {
+        "nome": "GNV",
+        "valor": 5.034,
+        "un": "m³",
+        "varAno": 8.8,
+        "dec": 3
+      }
+    ]
+  },
+  "noticias": [
+    {
+      "cat": "eleicoes",
+      "titulo": "Lula é reeleito com 51,79% e vira o placar do 1º turno",
+      "resumo": "É a primeira vez desde a redemocratização que o segundo colocado no 1º turno vence a eleição presidencial.",
+      "fonte": "Latin Times",
+      "traduzido": true,
+      "url": "https://www.latintimes.com/lula-defeats-flavio-bolsonaro-brazil-runoff-600558"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "Flávio não reconhece vitória de Lula e diz que pedirá anulação",
+      "resumo": "Ele critica a prorrogação da votação até 19h decidida pelo ministro Zanin, do STF.",
+      "fonte": "CNN Brasil",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-diz-que-pedira-anulacao-das-eleicoes/"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "Especialistas avaliam chances do pedido de anulação",
+      "resumo": "Juristas ouvidos dizem que o pedido tem pouco amparo legal para prosperar.",
+      "fonte": "Brasil de Fato",
+      "url": "https://www.brasildefato.com.br/2026/10/26/sem-amparo-legal-pedido-de-flavio-bolsonaro-para-anular-eleicao-nao-deve-prosperar/"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Ibovespa desaba cerca de 15% e aciona circuit breaker",
+      "resumo": "Bancos lideram as perdas; exportadoras sobem com o dólar alto.",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26102026/"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Dólar dispara e chega a bater R$ 5,60",
+      "resumo": "A moeda abriu em alta de mais de 8% sobre o fechamento de sexta, de R$ 4,99.",
+      "fonte": "Gazeta do Povo",
+      "url": "https://www.gazetadopovo.com.br/economia/dolar-dispara-apos-vitoria-de-lula-acompanhe-a-reacao-do-mercado/"
+    },
+    {
+      "cat": "mundo",
+      "titulo": "Bloomberg: mercados brasileiros afundam após vitória improvável de Lula",
+      "resumo": "Investidores estavam posicionados para uma vitória de Flávio e tiveram de refazer as apostas.",
+      "fonte": "Bloomberg",
+      "traduzido": true,
+      "url": "https://www.bloomberg.com/news/articles/2026-10-26/brazil-markets-brace-for-rout-on-lula-s-improbable-election-win"
+    },
+    {
+      "cat": "mundo",
+      "titulo": "Time: Brasil reelege Lula para um quarto mandato histórico",
+      "resumo": "Revista destaca o Congresso mais conservador desde os anos 1980 como desafio do próximo governo.",
+      "fonte": "Time",
+      "traduzido": true,
+      "url": "https://time.com/article/2026/10/26/brazil-lula-bolsonaro-presidential-election-trump/"
+    },
+    {
+      "cat": "politica",
+      "titulo": "PL e aliados podem ter maioria na Câmara e no Senado",
+      "resumo": "Projeções apontam mais de 280 das 513 cadeiras na Câmara e até 50 das 81 no Senado.",
+      "fonte": "Time",
+      "traduzido": true,
+      "url": "https://time.com/article/2026/10/26/brazil-lula-bolsonaro-presidential-election-trump/"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Luciano Zucco é eleito governador do Rio Grande do Sul",
+      "resumo": "Resultado do 2º turno no estado.",
+      "fonte": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/luciano-zucco-e-eleito-governador-do-rs"
+    }
+  ]
+}
