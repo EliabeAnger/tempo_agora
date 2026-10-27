@@ -82,54 +82,54 @@
   },
   "mercado": {
     "ibov": {
-      "pontos": 176608.23,
-      "var": -13.88,
-      "anterior": 205082.56,
-      "minimo": 176608.23,
-      "maximo": 176608.23,
-      "hora": "27/10 07h38",
-      "ts": 1793097484377
+      "pontos": 176184.45,
+      "var": -0.24,
+      "anterior": 176608.23,
+      "minimo": 175156.77,
+      "maximo": 178526.08,
+      "hora": "27/10 13h42",
+      "ts": 1793119372855
     },
     "acoes": [
       {
         "ticker": "PETR4",
-        "preco": 53.88,
-        "var": -8.18
+        "preco": 53.34,
+        "var": -1.0
       },
       {
         "ticker": "VALE3",
-        "preco": 64.38,
-        "var": 4.01
+        "preco": 63.05,
+        "var": -2.07
       },
       {
         "ticker": "ITUB4",
-        "preco": 41.7,
-        "var": -13.66
+        "preco": 41.53,
+        "var": -0.41
       },
       {
         "ticker": "BBDC4",
-        "preco": 15.95,
-        "var": -21.7
+        "preco": 15.84,
+        "var": -0.69
       },
       {
         "ticker": "BBAS3",
-        "preco": 17.47,
-        "var": -29.33
+        "preco": 17.67,
+        "var": 1.14
       },
       {
         "ticker": "WEGE3",
-        "preco": 44.53,
-        "var": 4.21
+        "preco": 45.79,
+        "var": 2.83
       },
       {
         "ticker": "SUZB3",
-        "preco": 47.4,
-        "var": 10.08
+        "preco": 47.2,
+        "var": -0.42
       },
       {
         "ticker": "B3SA3",
-        "preco": 15.07,
-        "var": -36.28
+        "preco": 15.41,
+        "var": 2.26
       }
     ],
     "juros": [
@@ -173,7 +173,7 @@
         "var": null
       }
     ],
-    "acoesTs": 1793097484377
+    "acoesTs": 1793119372855
   },
   "combustiveis": {
     "semana": "Média nacional ANP, semana de 27/09 a 03/10/2026. Variação desde o início do ano.",
@@ -223,57 +223,63 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Após turbulência no mercado, Lula se reúne com ministros da Fazenda e do Planejamento",
-      "fonte": "Valor Econômico",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZjh4UkJOOVVKdk4yWFczRnpMVXhQZzFhSkZQbkJ0eHg4RHlGZXF5WkhDSlB3T0lqZWxBMW85d2ZLakk0c2l6SGFzR0gzdXBWVkV4ZTFmRm1NeVctU0MzdGpjeUVqTUV5aDFIQ2hHNHRIWHNuVkN1QkNNb3VNM0dqN0JHOTRubEhDQzhSdmUyRVIzaE5PT3BIWkd6VE5Nai1lVGUzaG51VFJpVW0xQUV3QkZ3UWdhc3Q2X3pfZXg0MVpNMHhhOHZOeWNwMllGZm9UbHlnVmlB0gHkAUFVX3lxTFBERGQ2a25RdWpCQ1Bvek1yN1F5bkQzUUZxNmRic1UtNEMwSURPa1VhTlJpOHRnQW9mQ1VuUVFwX3NhaXkwUW82VzF5Z2V1V0I1LXE0R3kzMmhZVV8wa2pKMVByQS1kN3g4V3dXSElCSjd2RFhOa21QS1l0T2F1UEpaQU9rQm5WOG9wS3hRVHhnc2JWLWg1U3ZySnYzWGFUaFlhQmZQcHBSYVByOE9tR2FIWWh0WThtcE1Ic1RuMnR3ZWRZVUZaNENxVnpnbGhDbVhDd21CajFfZTVNaGMzWXNjeHFwQg?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Mega-Sena: quanto R$ 305 milhões rendem todo mês na poupança e no Tesouro",
-      "fonte": "UOL Economia",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbHdpYnpJOHBaN3d2VzE1RnpsLVpjdllEZS1sUGxJMkRCMlJHLXBIWVVqQXdsMGdCdGVaVk5DRDNRNThmVDFLOWNBZllBQTJZZjNnOEpLZkl3XzVMZk5QU2hraDBGSGJBN25NRHQ3UUxkZ2NJTGpoeWNRQXhXc2NmM05JZWlPYl9vZmgwREl1QjFVOTdHQ25lRFRpVTFQQmx3cGZBanFybnp1ejFEajFUanI0ZGRZdkxKajF0dzBBNDhPaF9OZU44YlhHWnlweGRaenc?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Juros disparam após reeleição de Lula. Onde investir na renda fixa agora?",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYnBpTW55TENaZ3BRV1FYZXQxRHZ0YmhZd2VQandWMFl2emxPaVZGZTN4WFJoRUN1OEY1Wl9HUzdTZXVUM2hkVFNDck53N2tqbjZVMmMzVUpEeXNDQ2NpdW44SlVPYk5ya3p1VEJ5VVZfRTBYWnJhOFpONi1MUHJjaDhHWXdLYXg2bWJlQllUaGhsYmM3WVdZSUZfYU5pblB6MHh2Nm9LaG9YNmNhcDFmYkdXNjdfek9OcmJtTUxaM0x2S1A4N1ZseTJn0gHPAUFVX3lxTE11a05SSFhwRTFoWHBsZmRjYzRac2NHUmNzNTE2RXhOcVNEVzlOZTdLYzlQU3MxY3BqOW1yN2s1eUYwRks2WE9rREVYcnhyTzVVLWQwcjBuZXZnOVkxWW1tWXFZWDJPa3VpSWllVkZSR3JRVTJBRjZOcFJqWVZWdk5mRHNRTlllaDZCdnBuNC1nT0EzY042TDBRN3pVazh1dVBHVmFjNU44TGE5YjhKVERtWDhpbWU0eXZMLTljWXQ4RTcybG5DcVBnYTM4VkZyRQ?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "PL, partido de Flávio Bolsonaro, reconhece resultado da eleição, mas cobra esclarecimentos",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPU3oyLVVpOFFGTUpOMzVMSGwxa3d6VGREM3NqUWJ1NDNKa19tQmRjOFV4YngxaHdrV1FpdkZMVWt4RjJHUERoTW92TW03M05KRndfenBhQnBGdFFJNG5MVkQxMGFrVFotUjhoU09YNmVOS3NXMUI2MGotLVhiODVqbWszTEhJX3RxS09IVWk0QlZMMV90UXIyamtFVDdkY0x6bUFrbDRkc9IBtgFBVV95cUxQSjBfNDVUX2V2NDlHSkxRR2VjMnh3US1SMno3c3NWc3N4YW5mRk1sNlA3WnBzS0xFVmVfcmxNMmYyZ1k1b0hPYjhaUzl4bUtXcnZGNUNNLXBSSUV2TjktQTh5VmQ0cUZ0U1NfTkZObzNaRVVzcHJIMWU3Rm15akZqSDYyQVoyVWxhbjVXR0pGYlNTbThhM1hXTWowaTM2MTk5dGtBa0RtYldwcGU4ZHhGYnE2ZXFNUQ?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Wassef visita Flávio após PF intimar senador a entregar passaporte",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSDBEbTNJLWtrUldQQTNCb0J5eG9pNm8tM2tLb0x3MjhWRmZ3ZnBta0NmS0lZVGo2dUJKZjFaWXVRRHBOV1Z6dkZoSWNTOXRsUkVBNm8zWkZtdHRWa0tiLVUxcGg4Q1llbFFmVDk0WVB5dFRfOTZkTG1GZGJFMFI1bUljcjlVUlRlRGlERDJEYWIyYk9OSXJVb0VEY0RrSjFUT3lCaXprcGZEY2I2MXlwaGI3RkVadw?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Tarcísio se reúne com Flávio após derrota e tenta evitar confronto com bolsonarismo",
-      "fonte": "Jovem Pan",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPXzNVd2lPZDBZaHZJTHJwOHRvS29SalVUVndfX1prdUFKSGVrXzE0cmlpd0RzTkZ5N0ItR0k0a2dra0tVblkxakpaUm4tYm5WLWNPQmI2NFlXRDZwNzRfWHhqWTB0SG85Y2JwdzBkZmhVOU9NWkhrdVZ0NE9hczE2TDlnUkpnUEE0bTAyZ2hFaUI0Y0pMSkJBd2JYUEphTHdvazgyemlMaVIzNWpBTE1UR1JqbFM4WDB4cS1yTXFsVTlJT21uOV8taFhPdEVianQ4dzhESw?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Política ambiental de Lula tem Congresso como desafio, dizem entidades",
-      "fonte": "Valor Econômico",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSS0ySEYyc3BSX3ZYam85U2hkVG1PUTQxM1c1djZNZ2xtT3BLV3huMGpGSjQxT3NPVWhzSVhSb1czdUVLblI3N1NSZFRNOTRzcEtrcEQ0TU8wSkVtUThGcTlxOG9YYlFfblktTjByNkVMWHB4S1ItYVBlc1VoR25LdkdKQnphMUxtLWo0d3J5Qnluc1I1MlA3NVN3c0ZhZzgzZ0hTdTh6X3BUNDJ4VE1xcnlZM2lSMnpSMEtyUlRETGVXbXc?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Lula quer reforma política e do Judiciário em 2027",
+      "titulo": "Ibovespa opera com volatilidade após choque com vitória de Lula; dólar cai",
       "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTGhlTFlUdl9nenE3bUFDLUJBNFRqNFI4a2ZwekpUV2RRQ1RLNFBuWENFeFZONnAxeS1RODMtYlB5YmdYSTJPdjdOMnVhd0plY1BwUjJzeng0Q2ZPTUNtT2YwaWdEdXotbFM1ZDc1N2NjLVU4NGhxNlBwMFRiZFJvUEpVSGpxRmlGTWwxRC1sUE9EZms?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZ3dhWno4Ulh3ZHlEbkVWQTlQUnoyZm9TYzlBU3pfQ3czVTJGWUdOR0pOQmt4XzRqTHJmQXg0T0tMeThVQWx5NzU0aVJzSDM2OUZsSW5SVmF3ekRNelItLWxCV29mNU9WNWh1QVlDY3lLeTJMOWxMaVBiY0toakhFaHJBdEV5WHY4QzR0R0ZKTXJQRHVKUGdGeFQ3OTlyNUczd1ctMg?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Principais preocupações dos bancos são com as contas públicas e inadimplência, diz Banco Central",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNSnhNMlNJaGI0RDIwdkl4aGM5NmhmUW93QkFEdVlWRDdjZUtqQlR6WmRkb3NMTGxuamZUaWE1R1E2elRvcThvV25BcGtZTy1TaU9HdUFJSUlVZnYtTGg3WENpVjc1R09hNnVad1p1VVNNcUQ0aU1tQm5RaFZ3aWl0TnNkZTlHMHd4cmJjVXU4NlV4R19pUEQ4Um5RMUZEWjdBQjJmOEVkMHJjS3lHMloyTFNSQlJ0VjBxXzJ1OGZtT0ZoVzExZ054amd5YVc3MFJTWkIwcTZZZ3h0X3hYQ2dQTkNlQ3JXeDFxdWlfcTZqTXJqWVVhRGfSAYQCQVVfeXFMTlFlVzNVelRoYllvTjIxaE84LXQtMUJpR2ZXOTQ4b0JWWnlMN08ycGVGRF9jZEVDTGtNSTd0TXJ0ZHBIQ3dlNHBOdTFMQVVIZGZUVE04ejA3LWwxOWRyekN2WjlwekpySHNLZmxITzFHVVdPYTgxbXdyaXFMNk1tWDB2Zm00S3JsLXNqVWEzLVQtRklnRXhlay1zSzRLZmFEVWxBOEhqRkc0a0FJaGhCSUgzNTU4UFlyY0UtcFpJWkNqQXdRVGZEN1FFU3hMaHBrNGJobjBzcWNoeEdtYWsyZnZNZVg2Y3FUWThhdTg1bV9JSTBKU3ZoeDd4bTdHUkg3eWlBd0g?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Durigan rebate mercado e reafirma compromisso de Lula com política fiscal",
+      "fonte": "UOL Economia",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTlF1bUEya2RJd1BLRUZ1cVhiQjRTNWJwTWFPamZSUXZyOGNHcUowQXRxWXk3YWU2ajdwanc3eC1vSEFjTkZiR1d0VkNJU1QweWVCb0s4WHlXM1NBd2ltYmZGVkVYdk50ZklWTVRfWWZORHRfekc1Q0FfZUk2YTI1Tmtvc0dmNk0?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "PF investiga se Flávio Bolsonaro fugiu do País após Moraes determinar entrega dos passaportes",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQeGRMRDZmaVRVSHNCWWp3cExXajVpdUVGV2dBemJES3dveVJkZFFxRTMzMWdoQm85S25GNjN5djUwa2Z4Q0VYY2RmMkswdzhwbWwxN1o0VkhZWWJDWU5sYmdPMkdmVU5DUFZidnVxaDNveW01eHBkbTFtRERqbHkzOUtSMDljSkVUNFcyRTUzUGpSM2lVS1d4TmZZUHFUX1NKM2J1Q0psTHROcWs5cTRvNEVsMDQwWi15QnhPUmdvLVJ0bkM5YkFNTzR3VUFVM1VTYkZtZXZR0gHbAUFVX3lxTE84LWlvRzBrX1ptM1JKY1JGU2hlNW1EMDQ2TmljM2JEcGw1ZWR2dE9QNS1PVFNMV0ZZa1NpWGRUSVJkb3l4aHlONHpkN0x5eXFYeFp0Y2x5QXo4YlhlTUZveUU0ZTZlSVZxbkVNYmZwUXUwSmdFTWhrNEtZLThiSEF1VnYyQXJadjVFeGI2Z0E3LThVQm45d2I2RFRhby16M2hnRFIya0pIaUpWVlRpTE5Ib2QtM2tFd2hBcnRFTnJUUFMzQmktOEMySW9aaTg0clRoTTBVZW5DNE9GQQ?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Durigan diz que não há definição sobre Fazenda e elogia nome de Fonteles",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTUxCM0Z0WVM5SV9SVFFsazhFMk8wQ2xnd0VrM3c4WGN3Z2duTDVIcVZTSWQ3RVZSb3dxOFE3QWFITXZZc3hCelB2QWVENlJYUEh5Z2lkQkxBOWlsemhCNXJnRVZDMnBFWXZGQm0zbk9NSHhtNk1VU3lhOENkb1FQZHJ2Z1dWTG9JUnlRem5sTEYzckNiS3FBMk12SWNkTG54RmFmWkY1cDdMYXdTVDNROW5CZGtsMmE1QmlKT3VjakRsMnZaRWZrOVlyYw?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Dino manda PF investigar suposto financiamento estrangeiro na campanha de Flávio Bolsonaro",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNYkU5Mm00R2t5bWREMjdJNzc4M2hJZTg3bDQyVWU1ZHNTSjdXazA5ZF9ZanhNQ092WldsSmdXenh5a21tTkVEUnk5SnYzM1FiN2c1dFFPbjhndFVkR2NTYjlGV1l4YTVsSm9ZZDdWOXpnQ01KY2E5dkktMHRwcUpSN09GeGNIamN6aE9BT3V4XzlnS3EyVFpZSTV5SDZkR0dPQjZUM1N4ajBoSXZ6MGJrSlo0Z1JXakpzWDA2V3Nuci1JWllHUlAwNHlFXzBkQVFxckhEStIB4wFBVV95cUxQLWZkQUdLVW9scFVTVUhweUhWMjRXQkhESTdpLXFFWUFkUk5PaVdlSWFUSmFnYlFpaXIzZ2NjQWRMV1NhZzBnTlhFLVpDbTBiQndad21nbFBLeEZ0eFFJOUx2Y1ljRVJpdzkweG1SM0NpT2hDSWtRb19HcFVnLTl1X05femEzWW1ubGhHUDdZTzdtWjJPaFc3TWk5ejZpeV9DMF96eHlLZUJ4N3RESXNVNjhmVDh5VjNNSUx4ZUVkMHkwR01aTGF1YTFCY2liMUxHSEZzdVNuSktRNDVOV0dLZ0FTbw?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Centrão será peça-chave para contrapor oposição fortalecida no Congresso, dizem especialistas",
-      "fonte": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5qYVNJdjRWTjloLWFhdkhRbW4yMWc1UXFMSU1sRS0yVzNqMlE1M0l1YWlPVTJ5eVFnYS1OdTBKRjU5enh1ZG9RTlhMazJtd091RVY1UHhXb3o3S1ZqX1cya3pHSQ?oc=5"
+      "titulo": "Motta e Alcolumbre intensificam articulação para reeleição no Congresso e contam com apoio de Lula",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPSlVfeXZ2c1A2VFVObTdrdWN2RU1MR3JlQWdsT3p1S2FmZ0RqUHRyMV9hOUJEcDJIV2hZUWQzTDRDRTJOdl91dHIzbnl2WlVvQWl4UkwwbW94djRoZkltSU42NldzTFJJRmFDcVkyV2Zhc0NvZFhlWkRRd09ickIwOFRicGdfM3BMRV81emlTQ0dNajNyLVNmVWtjTkprYndiLTIyT2hSOVlHNldaMG9GVnpHTTZvVC0zLWgtNzhhaXFrZGxWY1NKNUc3MmVfQXpRZUFVQzJIYTJvSzdqTUNaT0RxbW9fckZDYjUtaV9R0gH8AUFVX3lxTE84MDNTOUNjZDRBaVdSWGxQQlRQTjl2aERhMEI4N3FmYURkeEQ4Z2pIRWUyeFBBNWdiNkEtYTN6enVBd1IyLVB5N2kyeWdKeGZNVXBKMlFkbURLeFEzaUZpVU9pU2lnM2JmUjNkZHR4azZBaDBLTDFJOVFnTGZuNnpGdnlCZ3N5YWtTSVM2bUFoM1hIazBmYWFLTVE1UFR6WjB6eUh6dzVtX0NybkNhbDd4YVJoZ2FrUllodDBzOEQ2cE1PZXFPdVV6NnRhMFQxZWh4UGt6YlpJN1UwQzFQWUZYWEpKV0h2ekJabi02VVlnM1ZuSjRBS3YzaEJ3cw?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Política: Governo quer acelerar pautas no Congresso Base de Lula pretende votar PEC da Segurança, indicação para o STF e Orçamento ainda em 2026, antes da posse dos novos parlamentares; Centrão também articula mudanças eleitorais e no Judiciário",
+      "fonte": "Portal Terra da Luz",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWmZ0YXBLYWN4MFNjeDYzS2c0RnIwaUQ0N1FNakRiTnJmRmNGVW5mQ0UzZEVZWmFUSTBacFdfSkxRT3lkUEFBd0lQMUp4NDJ4MWtZUXhaU09OZi1OaEdJdVhCd3ptSGF4TFVUQlQ5TF9uWHRTaUJheGo1VThpZDJXU1poaFB6bjd6QjNUWnhQcU9FQkowcEtn?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Para facilitar aprovação, governistas defendem acelerar pautas no Congresso ainda em 2026",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNdXNQMWl0WF9uTFpPQ0hQVWY2RHRLaFhLYlVSbHUzNFVaZWZQN3FiUjlKcU9qVUlfRmFsbjBMUFNpcnpaZTV2dmdzajVIcGRpQ0hSOHlFRlBlYWhxNl9VdmhDQlJoNGtWUEZHam1GZUQtNjcxTmlDOGhTMzBnUXVwSFNvWlVvdFhrRjFFZE9MczhOYU9GQkdyRkstQi1RTlpQUXB2Yjl6WVNUcURhMHRBRlZpd19nZzNTODY2OTlFVGlyeVRxQmx5eTN4dnU5cjkweTU2Q1dFTWdVTmPSAeoBQVVfeXFMTzFjY3NkR045RmtlZjNyU0hzTHdwVVljeXgwWmZFc3IyZ212TFhjMENzdldWZnZBTDhMSzlvNDNWZmg0MWxZVVdHMzRRY0xTSEJnTEFUTmk2Vk5Lamt0cUhYWmVUVVNvZ0JRTGJfdEk1X1BSVWljZGd1dFF1d3c5OG0zX3gwZEF6bVhyTXcxWjN1VFdHRVhscF9YQ0JjcU4tZk1RSElFenlTWktnb013blFWeHFtZEhFUUJHSzFyV2x6eEpPWGl4dGkxVEQzc1dObmk2MWxGV1dDeDVvb2RCeWNZd3pzSTIxYnZB?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "PL, partido de Flávio Bolsonaro, reconhece resultado da eleição em que Lula foi vitorioso",
+      "fonte": "JOTA Info",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORUh4aTBoMHBNNnhEMDVIN1JEQ250alpER1FrUTlvN3BURVlsM0g0OUVhSVUxdW5xckRuVzhjX0R3cXFLUGZCNGFvdXVmZ3I4MzVHZFZPajU3TFRFNGVxNTVCVDB6OUJYNUl6bWdWWVRuMXUteHZ5NGZScFc1dVdLWkdXTmdVR09JSTFvU253bHJJdUJjc3VhS09ua0hlZWpTcTVfcjBuQlZ3VHdoWFVNRll1ZDZZeEdqUTZmazZzRFFLSDNkVDI1OTlNSmQ?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -283,15 +289,9 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "Flávio Bolsonaro não reconhece derrota, mas PL aceita vitória de Lula",
-      "fonte": "Consultor Jurídico",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTGRmNFhqUTRlZkVJTFVFQXVMSW40UWZtVzcwOVdVRWtYUGhFNTVQU0ZwNjJzWTYxck1BcENmSWlKN05sa0c2SDAxQ3BobFJxS0lKVHlPdy05Ui1kLTZvdnRKdVp6Z1dQbjhWZXZ2dm9pTGF4M29FZUpQOUduUkl6dkRvY2JDbnFKSTdUN0V1WjY0VVNiWW9ReQ?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "PL, partido de Flávio Bolsonaro, reconhece resultado da eleição em que Lula foi vitorioso",
-      "fonte": "JOTA Info",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORUh4aTBoMHBNNnhEMDVIN1JEQ250alpER1FrUTlvN3BURVlsM0g0OUVhSVUxdW5xckRuVzhjX0R3cXFLUGZCNGFvdXVmZ3I4MzVHZFZPajU3TFRFNGVxNTVCVDB6OUJYNUl6bWdWWVRuMXUteHZ5NGZScFc1dVdLWkdXTmdVR09JSTFvU253bHJJdUJjc3VhS09ua0hlZWpTcTVfcjBuQlZ3VHdoWFVNRll1ZDZZeEdqUTZmazZzRFFLSDNkVDI1OTlNSmQ?oc=5"
+      "titulo": "A busca por culpados: aliados de Flávio atribuem derrota a 'salto alto', estratégia errática contra Lula e fator Marçal",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNZ3kxTFJaLU9aaW8xY2V3SFhSVW1VVXNZYnRpM1hPZW0zY1Q0bG9hYVVvMTBmaVB3ZkR1cDIxWkNBSXF0ajZfd3RzTzRRQkprUXVrejJVQm16aXl3akt6UTc2eGVRa1QwVFd4a0tnZWpiQXVkWlZhZ1hBWk5JUVQxb1VsLXhQYVlCNjRIMnNPRUVmM2N5amJkZUFWQTVzSmg2SjRqdldrOFpYalh3SzZVX2tSazEyeUk5elBtcXN1RWJuVnFOMTRSeG8zTXFPd3JlY2VNMWNVem5kSDNEeHRwVGxqMFdtNkZHUlZkM2dIWi1SdWo0dzliZnlTMk5CNkFRU01MbFZJa0x2NjV1cExCTkdKdnVXaVHSAaYCQVVfeXFMUDVCTHpib3hsSkMxQUc3N3FpcXpyRk5mVVBucW9lNHdjZmllVTZBdGdRSEdJUXFvS0FYdnYycFV0YlJrUEt0ZFdWcDMzeEc3VFg2WXM2ZFBxeVlKSW94ZkF1cEYxams5RlZUVXB2MjdSYVlzQkFkTEpZQUd0QkluNFZXeHI0UHpySjRSYzhQQmJaY3VNdW9DVElrMmpKenBpdHBJSDlmZE9CZXpId2MzTVNrVWtmbWFFNDZFTzVBZ0owS2pJV3NXdTZacktuNk9DcjJPdV9WekdZQXBQYVcwSzRvd19xbGotNS1ZbmJTajZlMldwSEYzT1Q0S2tmc3JnelRtQ1VldkF2U3hiZ002aGpad0NIMW5QaXM3c0JJY2NLUUJBVWdR?oc=5"
     }
   ],
   "indicadores": {
@@ -304,7 +304,7 @@
       },
       "cdi": {
         "valor": 13.65,
-        "data": "23/10/2026",
+        "data": "26/10/2026",
         "fonte": "Banco Central"
       },
       "ipca12": {
@@ -323,8 +323,8 @@
         "fonte": "Banco Central"
       },
       "poup": {
-        "valor": 0.5964,
-        "data": "23/10/2026",
+        "valor": 0.6607,
+        "data": "26/10/2026",
         "fonte": "Banco Central"
       },
       "desemp": {
@@ -1015,7 +1015,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-10-27T07:38:06-03:00",
+    "atualizadoEm": "2026-10-27T13:42:54-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
