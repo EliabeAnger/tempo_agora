@@ -290,6 +290,8 @@ footer{font-size:12px;color:var(--muted);padding-top:18px;display:grid;gap:8px;j
   <section class="view" id="v-inicio">
     <div class="ios" id="iosHint" hidden>Para instalar no iPhone: toque em <b>Compartilhar</b> e depois em <b>Adicionar à Tela de Início</b>. Toque aqui para fechar.</div>
     <div class="alert" id="alert" hidden></div>
+    <div class="panel notif" id="hNotif" hidden><h2>Resumo na notificação</h2><p class="sub">Receba no celular o dólar, a bolsa e o assunto principal sempre que o robô publicar novidades (de manhã, ao meio-dia e no fim da tarde).</p>
+      <div class="drow" style="justify-content:flex-start;margin-top:0"><button class="btn2 pri" data-notif="ativar">Ativar notificações</button><button class="btn2" data-notif="fechar">Agora não</button></div><p class="note" data-notif-st></p></div>
     <div class="panel"><h2>Resumo de hoje</h2><p class="today" id="today">Buscando os números do dia…</p></div>
     <div class="cols">
       <div>
@@ -412,6 +414,10 @@ footer{font-size:12px;color:var(--muted);padding-top:18px;display:grid;gap:8px;j
   <label for="token">Chave da brapi (opcional)</label>
   <input type="text" id="token" placeholder="cole aqui sua chave gratuita" autocomplete="off">
   <p class="note">Sem chave, o app mostra ao vivo PETR4, VALE3, ITUB4 e MGLU3. Com uma chave gratuita do site brapi.dev, mostra também o Ibovespa ao vivo, bancos, Eletrobras, WEG e outras.</p>
+  <label>Resumo na notificação</label>
+  <p class="note" style="margin-top:0">Funciona com o app instalado no Android (Chrome). O celular decide o momento exato, normalmente algumas vezes por dia.</p>
+  <div class="drow" style="justify-content:flex-start;margin-top:6px"><button class="btn2 pri" data-notif="ativar">Ativar</button><button class="btn2" data-notif="teste">Enviar teste</button><button class="btn2" data-notif="desativar">Desativar</button></div>
+  <p class="note" data-notif-st></p>
   <div class="drow"><button class="btn2" id="dlgClose">Fechar</button><button class="btn2 pri" id="dlgSave">Salvar</button></div>
 </dialog>
 
@@ -942,6 +948,37 @@ addEventListener("offline",()=>{S.online=false;renderStatus()});
 $("btnAjustes").addEventListener("click",()=>{$("token").value=store.get("token","");$("dlg").showModal()});
 $("dlgClose").addEventListener("click",()=>$("dlg").close());
 $("dlgSave").addEventListener("click",async()=>{store.set("token",$("token").value.trim());$("dlg").close();S.acoes=null;S.ibov=null;await carregaAcoes();render()});
+
+/* ================= NOTIFICAÇÕES ================= */
+function notifStatus(t){document.querySelectorAll("[data-notif-st]").forEach(p=>p.textContent=t)}
+async function notifAtivar(){
+  if(!("Notification" in window)||!("serviceWorker" in navigator)){notifStatus("Este navegador não mostra notificações de apps da web.");return}
+  const p=Notification.permission==="granted"?"granted":await Notification.requestPermission();
+  if(p!=="granted"){notifStatus("Notificações bloqueadas. Libere em Configurações do celular › Apps › Chrome › Notificações.");return}
+  const reg=await navigator.serviceWorker.ready;
+  reg.active?.postMessage({tipo:"cfg",ativo:true});
+  store.set("notif",true);$("hNotif").hidden=true;
+  if(!("periodicSync" in reg)){notifStatus("Ativado, mas este celular não permite avisos com o app fechado (é o caso do iPhone). Você verá o resumo ao abrir o app.");return}
+  try{
+    const st=await navigator.permissions.query({name:"periodic-background-sync"});
+    if(st.state!=="granted"){notifStatus("Para receber com o app fechado, instale o Radar Brasil na tela inicial (botão Instalar) e ative de novo.");return}
+    await reg.periodicSync.register("radar-resumo",{minInterval:3*60*60*1000});
+    notifStatus("Pronto! O resumo vai chegar na notificação quando houver novidade. Toque em Enviar teste para ver como fica.");
+  }catch(e){notifStatus("Não consegui ligar o aviso em segundo plano: "+(e.message||e))}
+}
+async function notifTeste(){
+  if(Notification.permission!=="granted"){await notifAtivar();if(Notification.permission!=="granted")return}
+  const reg=await navigator.serviceWorker.ready;reg.active?.postMessage({tipo:"teste"});notifStatus("Teste enviado. Confira a barra de notificações.");
+}
+async function notifDesativar(){
+  try{const reg=await navigator.serviceWorker.ready;reg.active?.postMessage({tipo:"cfg",ativo:false});if(reg.periodicSync)await reg.periodicSync.unregister("radar-resumo")}catch(e){}
+  store.set("notif",false);notifStatus("Notificações do resumo desativadas.");
+}
+document.addEventListener("click",e=>{
+  const b=e.target.closest("[data-notif]");if(!b)return;
+  ({ativar:notifAtivar,teste:notifTeste,desativar:notifDesativar,fechar:()=>{store.set("notifFechado",true);$("hNotif").hidden=true}})[b.dataset.notif]();
+});
+if("Notification" in window&&!store.get("notif",false)&&!store.get("notifFechado",false)&&Notification.permission!=="denied")$("hNotif").hidden=false;
 
 /* ================= INSTALAÇÃO ================= */
 let pedido=null;
