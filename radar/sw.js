@@ -1,7 +1,7 @@
 // Radar Brasil — service worker
 // App (telas) fica guardado para abrir offline; dados vêm da internet primeiro e,
 // se cair a conexão, mostra a última versão guardada.
-const VERSAO = "radar-v1";
+const VERSAO = "radar-v3";
 const APP = ["./", "./index.html", "./manifest.webmanifest", "./dados.json",
   "./icons/icon-192.png", "./icons/icon-512.png", "./icons/icon-maskable-512.png"];
 
@@ -26,6 +26,8 @@ self.addEventListener("fetch", e => {
         caches.open(VERSAO).then(c => c.put(req, copia)).catch(() => {});
       }
       return res;
-    }).catch(() => caches.match(req).then(r => r || caches.match("./index.html")))
+    }).catch(() => caches.match(req).then(r => r ||
+      // só a página do app volta para o index; dados que falharam continuam falhando (o app usa o plano B)
+      (req.mode === "navigate" ? caches.match("./index.html") : Response.error())))
   );
 });

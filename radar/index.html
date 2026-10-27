@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Radar Brasil</title>
-<meta name="description" content="Notícias do Brasil e do mundo sobre o Brasil, bolsa, dólar, combustíveis e eleições.">
+<meta name="description" content="Dólar ao vivo, bolsa, juros, inflação, combustíveis, notícias do Brasil e eleições.">
 <meta name="theme-color" content="#14201c">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/icon-192.png">
@@ -16,26 +16,27 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Source+Sans+3:wght@400;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
 <style>
-/* Layout: faixa de cotações fixa no topo, abas de seção, barra de navegação inferior no celular */
+/* Layout: topo escuro com cotações; telas em cartões; barra de navegação embaixo (polegar) */
 :root{
-  --bg:#f3f5f4; --surface:#ffffff; --ink:#14201c; --muted:#5b6964; --line:#d9e0dd;
-  --accent:#0b6e57; --up:#0f7a3d; --down:#c0352b; --warn:#a86a00;
-  --lula:#c0352b; --flavio:#1f5fa8; --bar:#14201c; --barfg:#e7eeeb;
+  --bg:#eef2f0; --surface:#ffffff; --ink:#14201c; --muted:#5b6964; --line:#d9e0dd; --soft:#f5f8f6;
+  --accent:#0b6e57; --accent-soft:#dff0ea; --up:#0f7a3d; --down:#c0352b; --warn:#a86a00;
+  --lula:#c0352b; --flavio:#1f5fa8; --bar:#14201c; --barfg:#e7eeeb; --hero:#14201c; --herofg:#f2f7f5;
   --f-display:"Archivo","Arial Narrow",Arial,sans-serif;
   --f-body:"Source Sans 3","Segoe UI",Roboto,sans-serif;
   --f-data:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
   color-scheme:light;
 }
 @media (prefers-color-scheme:dark){:root{
-  --bg:#0f1513; --surface:#17201d; --ink:#e7eeeb; --muted:#93a29c; --line:#2a3632;
-  --accent:#4cc9a6; --up:#4ccb7f; --down:#ff7a6e; --warn:#e5ad45;
-  --lula:#ff7a6e; --flavio:#6fa8f0; --bar:#0a0f0d; color-scheme:dark}}
+  --bg:#0c1210; --surface:#161f1c; --ink:#e7eeeb; --muted:#93a29c; --line:#28342f; --soft:#1b2522;
+  --accent:#4cc9a6; --accent-soft:#163029; --up:#4ccb7f; --down:#ff7a6e; --warn:#e5ad45;
+  --lula:#ff7a6e; --flavio:#6fa8f0; --bar:#070b0a; --hero:#1d2b26; color-scheme:dark}}
 *{box-sizing:border-box}
 html,body{margin:0}
 body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.5;
-  padding-bottom:calc(64px + env(safe-area-inset-bottom,0px));-webkit-tap-highlight-color:transparent}
+  padding-bottom:calc(70px + env(safe-area-inset-bottom,0px));-webkit-tap-highlight-color:transparent}
 a{color:inherit}
 [hidden]{display:none!important}
+button{font-family:inherit}
 .wrap{max-width:1100px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 
 /* topo */
@@ -44,103 +45,153 @@ a{color:inherit}
 .logo{font-family:var(--f-display);font-stretch:68%;font-weight:900;font-size:28px;line-height:1;text-transform:uppercase;letter-spacing:-.01em}
 .logo span{color:#4cc9a6}
 .head .act{display:flex;gap:8px;align-items:center}
-.btn{font:700 13px var(--f-body);border:1px solid #3c4a45;background:transparent;color:var(--barfg);padding:6px 12px;border-radius:999px;cursor:pointer}
+.btn{font:700 14px var(--f-body);border:1px solid #3c4a45;background:transparent;color:var(--barfg);padding:8px 14px;border-radius:999px;cursor:pointer;min-height:38px}
 .btn.pri{background:#4cc9a6;color:#0a0f0d;border-color:#4cc9a6}
-.btn:focus-visible,.tab:focus-visible,.chip:focus-visible{outline:3px solid #4cc9a6;outline-offset:2px}
-.btn.spin{opacity:.6}
-.tape{display:flex;gap:20px;overflow-x:auto;padding-block:6px 9px;scrollbar-width:none;font-family:var(--f-data);font-size:13px;white-space:nowrap}
+.btn.spin .ic{display:inline-block;animation:gira 1s linear infinite}
+@keyframes gira{to{transform:rotate(360deg)}}
+.tape{display:flex;gap:20px;overflow-x:auto;padding-block:6px 8px;scrollbar-width:none;font-family:var(--f-data);font-size:13px;white-space:nowrap}
 .tape::-webkit-scrollbar{display:none}
 .tk b{color:#9fb3ac;margin-right:5px}
 .tk .u{color:#5fdc95}.tk .d{color:#ff8a7e}
-.status{font-family:var(--f-data);font-size:11px;color:#9fb3ac;padding-bottom:6px;display:flex;gap:8px;align-items:center}
-.dot{width:7px;height:7px;border-radius:50%;background:#5fdc95;flex:none}
+.status{font-family:var(--f-data);font-size:11px;color:#9fb3ac;padding-bottom:7px;display:flex;gap:8px;align-items:center}
+.dot{width:8px;height:8px;border-radius:50%;background:#5fdc95;flex:none}
 .dot.off{background:#e5ad45}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
 
-.alert{margin-top:14px;border-left:4px solid var(--down);background:var(--surface);padding:10px 14px;font-weight:600}
+main{padding-block:14px 24px}
+.view{display:grid;gap:16px}
+.cols{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px;align-items:start}
+.cols>*{min-width:0;display:grid;gap:16px}
+@media (max-width:820px){.cols{grid-template-columns:minmax(0,1fr)}}
 
-/* abas de notícias */
-.chips{display:flex;gap:6px;overflow-x:auto;padding-block:14px 4px;scrollbar-width:none}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;min-width:0;scroll-margin-top:130px}
+h2{font-family:var(--f-display);font-stretch:80%;font-weight:800;font-size:21px;text-transform:uppercase;letter-spacing:.02em;margin:0 0 4px;text-wrap:balance}
+.sub{font-size:14px;color:var(--muted);margin:0 0 12px}
+h3{font-family:var(--f-display);font-stretch:85%;font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:.07em;margin:16px 0 8px;color:var(--muted)}
+.note{font-size:13px;color:var(--muted);margin:6px 0 0}
+.chg{font-family:var(--f-data);font-weight:700;font-variant-numeric:tabular-nums}
+.u{color:var(--up)}.d{color:var(--down)}
+.tag{font:700 10px var(--f-data);text-transform:uppercase;letter-spacing:.06em;border:1px solid var(--line);color:var(--muted);padding:1px 6px;border-radius:4px;vertical-align:middle}
+.tag.live{color:var(--up);border-color:var(--up)}
+.empty{color:var(--muted);padding:14px 0;margin:0}
+.link{font:700 15px var(--f-body);color:var(--accent);background:none;border:0;padding:10px 0 0;cursor:pointer;display:inline-flex;gap:6px;align-items:center}
+.alert{border-left:4px solid var(--down);background:var(--surface);border-radius:0 12px 12px 0;padding:10px 14px;font-weight:600}
+
+/* resumo do dia */
+.today{font-size:17px;line-height:1.45;margin:0}
+.today b{font-family:var(--f-data);font-weight:700}
+
+/* destaque do dólar */
+.hero{background:var(--hero);color:var(--herofg);border:0}
+.hero .lbl{font:700 12px var(--f-data);text-transform:uppercase;letter-spacing:.08em;color:#9fb3ac}
+.hero .price{font-family:var(--f-data);font-weight:700;font-size:clamp(40px,12vw,56px);line-height:1.05;font-variant-numeric:tabular-nums}
+.hero .price small{font-size:.45em;color:#9fb3ac;margin-right:6px}
+.hero .u{color:#5fdc95}.hero .d{color:#ff8a7e}
+.hero .row{display:flex;flex-wrap:wrap;gap:6px 16px;font-family:var(--f-data);font-size:13px;color:#c5d3ce;margin-top:6px}
+.hero svg text{fill:#c5d3ce}
+.hero .seg button{border-color:#3c4a45;color:var(--herofg)}
+.hero .seg button[aria-pressed="true"]{background:#4cc9a6;color:#0a0f0d;border-color:#4cc9a6}
+.conv{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:8px;align-items:end;margin-top:14px;padding-top:12px;border-top:1px solid #33433d}
+.conv label{display:block;font:700 11px var(--f-data);text-transform:uppercase;letter-spacing:.06em;color:#9fb3ac;margin-bottom:4px}
+.conv input,.conv select{width:100%;font:700 18px var(--f-data);padding:9px 10px;border-radius:10px;border:1px solid #3c4a45;background:#0e1513;color:var(--herofg);min-width:0}
+.conv select{font-size:13px;padding:6px;margin-bottom:6px}
+.conv .eq{font:700 20px var(--f-data);color:#9fb3ac;padding-bottom:10px}
+
+/* blocos clicáveis */
+.tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 14px;text-align:left;color:var(--ink);cursor:pointer;display:grid;gap:2px;min-width:0;position:relative}
+.tile::after{content:"›";position:absolute;right:12px;top:8px;font-size:22px;color:var(--muted)}
+.tile .k{font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:700;padding-right:14px}
+.tile .v{font-family:var(--f-data);font-size:clamp(18px,5.4vw,22px);font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tile .x{font-size:13px;color:var(--muted)}
+.tile:active{transform:scale(.98)}
+
+.fuel{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.fuel>div{background:var(--soft);border-radius:10px;padding:9px 11px;display:grid;min-width:0}
+.fuel .k{font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:700}
+.fuel .v{font-family:var(--f-data);font-size:17px;font-weight:700;white-space:nowrap}
+.fuel small{font-size:11px;color:var(--muted)}
+.shortcuts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.sc{border:1px solid var(--line);background:var(--soft);border-radius:12px;padding:12px 6px;font:700 14px var(--f-body);color:var(--ink);cursor:pointer;display:grid;justify-items:center;gap:4px;text-align:center}
+.sc svg{width:22px;height:22px;stroke:var(--accent);fill:none;stroke-width:2}
+
+/* chips */
+.chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
 .chips::-webkit-scrollbar{display:none}
-.chip{font:600 14px var(--f-body);border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:7px 14px;border-radius:999px;cursor:pointer;white-space:nowrap}
+.chip{font:600 14px var(--f-body);border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:8px 14px;border-radius:999px;cursor:pointer;white-space:nowrap;min-height:38px}
 .chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
-
-/* navegação inferior */
-nav.bottom{position:fixed;left:0;right:0;bottom:0;z-index:6;background:var(--surface);border-top:1px solid var(--line);
-  display:grid;grid-template-columns:repeat(4,1fr);padding-bottom:env(safe-area-inset-bottom,0px);
-  padding-left:env(safe-area-inset-left,0px);padding-right:env(safe-area-inset-right,0px)}
-.tab{background:none;border:0;color:var(--muted);font:700 12px var(--f-body);padding:8px 4px 10px;display:grid;justify-items:center;gap:2px;cursor:pointer}
-.tab svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:2}
-.tab[aria-current="page"]{color:var(--accent)}
-
-main{padding-block:6px 24px}
-.view{display:grid;gap:22px}
-h2{font-family:var(--f-display);font-stretch:80%;font-weight:800;font-size:22px;text-transform:uppercase;letter-spacing:.02em;margin:0 0 10px;padding-bottom:6px;border-bottom:3px solid var(--ink);text-wrap:balance}
-h3{font-family:var(--f-display);font-stretch:85%;font-weight:700;font-size:14px;text-transform:uppercase;letter-spacing:.06em;margin:16px 0 8px;color:var(--muted)}
-.grid2{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:22px}
-@media (max-width:820px){.grid2{grid-template-columns:minmax(0,1fr)}}
-.stack{display:grid;gap:22px;min-width:0}
-.panel{background:var(--surface);border:1px solid var(--line);padding:16px;min-width:0}
+.stick{position:sticky;top:calc(env(safe-area-inset-top,0px) + 96px);z-index:3;background:var(--bg);padding-block:6px}
 
 /* notícias */
 .item{padding:13px 0;border-bottom:1px solid var(--line);display:grid;gap:3px;min-width:0}
 .item:last-child{border-bottom:0}
 .meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:12px;color:var(--muted);font-family:var(--f-data)}
 .cat{font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--accent)}
-.cat.eleicoes{color:var(--flavio)}.cat.economia{color:var(--warn)}.cat.mundo{color:var(--lula)}
+.cat.eleicoes{color:var(--flavio)}.cat.economia{color:var(--warn)}.cat.mundo,.cat.intl{color:var(--lula)}
 .tr{border:1px solid var(--line);border-radius:4px;padding:0 5px}
-.tt{font-family:var(--f-display);font-stretch:84%;font-weight:800;font-size:19px;line-height:1.18;margin:0;text-wrap:balance;text-decoration:none;display:block}
-.tt:hover{text-decoration:underline}
+.tt{font-family:var(--f-display);font-stretch:84%;font-weight:800;font-size:19px;line-height:1.2;margin:0;text-wrap:balance;text-decoration:none;display:block}
 .orig{font-size:13px;color:var(--muted);margin:0;font-style:italic}
 .rs{margin:0;max-width:68ch}
-.more{font:700 14px var(--f-body);color:var(--accent);background:none;border:1px solid var(--line);padding:8px 14px;border-radius:999px;margin-top:10px;cursor:pointer}
-.empty{color:var(--muted);padding:18px 0;margin:0}
+.more{font:700 14px var(--f-body);color:var(--accent);background:none;border:1px solid var(--line);padding:9px 16px;border-radius:999px;margin-top:10px;cursor:pointer}
 .src-note{font-size:12px;color:var(--muted);margin:8px 0 0}
 
-/* mercado */
-.big{font-family:var(--f-data);font-size:32px;font-weight:700;line-height:1.05;font-variant-numeric:tabular-nums}
-.chg{font-family:var(--f-data);font-weight:700;font-variant-numeric:tabular-nums}
-.u{color:var(--up)}.d{color:var(--down)}
-.note{font-size:13px;color:var(--muted);margin:6px 0 0}
-.tag{font:700 10px var(--f-data);text-transform:uppercase;letter-spacing:.06em;border:1px solid var(--line);color:var(--muted);padding:1px 6px;border-radius:4px;vertical-align:middle}
-.tag.live{color:var(--up);border-color:var(--up)}
-.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
-.cards>div{border:1px solid var(--line);padding:10px}
-.cards .k{font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:700}
-.cards .v{font-family:var(--f-data);font-size:clamp(15px,4.4vw,20px);white-space:nowrap;font-weight:700;font-variant-numeric:tabular-nums}
+/* tabelas e indicadores */
 table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
-td,th{padding:7px 0;border-bottom:1px solid var(--line);font-size:14px;text-align:left}
+td,th{padding:8px 0;border-bottom:1px solid var(--line);font-size:15px;text-align:left;vertical-align:top}
+tr:last-child td{border-bottom:0}
 th{font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:700}
-td.n,th.n{text-align:right;font-family:var(--f-data)}
+td.n,th.n{text-align:right;font-family:var(--f-data);white-space:nowrap}
+.big{font-family:var(--f-data);font-size:32px;font-weight:700;line-height:1.05;font-variant-numeric:tabular-nums}
+.ind{display:grid;gap:0}
+.ind details{border-bottom:1px solid var(--line);padding:10px 0}
+.ind details:last-child{border-bottom:0}
+.ind summary{list-style:none;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 10px;cursor:pointer}
+.ind summary::-webkit-details-marker{display:none}
+.ind .nm{font-weight:700}
+.ind .nm::after{content:" ⓘ";color:var(--muted);font-weight:400;font-size:13px}
+.ind .vl{font:700 18px var(--f-data);text-align:right;white-space:nowrap}
+.ind .dt{font-size:12px;color:var(--muted);font-family:var(--f-data);grid-column:1/-1}
+.ind p{margin:6px 0 0;font-size:14px;color:var(--muted);max-width:60ch}
+.box{background:var(--soft);border-radius:10px;padding:10px 12px;margin-top:12px;font-size:14px}
+.seg{display:flex;gap:6px;margin:10px 0 4px}
+.seg button{font:600 13px var(--f-data);border:1px solid var(--line);background:none;color:var(--ink);padding:5px 11px;border-radius:999px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
 svg text{fill:var(--ink);font-family:var(--f-data)}
 svg .mut{fill:var(--muted)}
-.seg{display:flex;gap:6px;margin:6px 0}
-.seg button{font:600 12px var(--f-data);border:1px solid var(--line);background:none;color:var(--ink);padding:3px 9px;border-radius:4px;cursor:pointer}
-.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
 
 /* eleições */
-.duel{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}
+.duel{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .cand{border-top:5px solid var(--c);padding-top:8px;min-width:0}
 .cand .nm{font-family:var(--f-display);font-weight:800;font-stretch:80%;font-size:18px;text-transform:uppercase;line-height:1.1}
 .cand .pc{font-family:var(--f-data);font-size:28px;font-weight:700;color:var(--c)}
 .cand .st{font-size:14px;color:var(--muted)}
 .rlab{font-size:12px;color:var(--muted);font-family:var(--f-data);display:flex;justify-content:space-between;gap:8px;margin-top:18px}
-.rbar{position:relative;display:flex;height:26px;margin-top:4px;font-family:var(--f-data);font-size:12px;font-weight:700;color:#fff}
+.rbar{position:relative;display:flex;height:26px;margin-top:4px;font-family:var(--f-data);font-size:12px;font-weight:700;color:#fff;border-radius:6px;overflow:hidden}
 .rbar div{display:flex;align-items:center;padding:0 8px;white-space:nowrap;overflow:hidden}
-.rbar .mid{position:absolute;left:50%;top:-4px;bottom:-4px;border-left:2px dashed var(--ink);padding:0}
+.rbar .mid{position:absolute;left:50%;top:0;bottom:0;border-left:2px dashed #fff;padding:0}
 ol.tl{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:10px}
 ol.tl li{display:grid;grid-template-columns:72px 1fr;gap:10px;font-size:15px}
 ol.tl .dt{font-family:var(--f-data);font-size:12px;color:var(--muted);padding-top:3px}
 ol.tl li.next .dt{color:var(--accent);font-weight:700}
 
-/* ajustes */
-dialog{border:1px solid var(--line);background:var(--surface);color:var(--ink);max-width:min(460px,calc(100vw - 32px));padding:18px}
+/* navegação inferior */
+nav.bottom{position:fixed;left:0;right:0;bottom:0;z-index:6;background:var(--surface);border-top:1px solid var(--line);
+  display:grid;grid-template-columns:repeat(4,1fr);padding-bottom:env(safe-area-inset-bottom,0px);
+  padding-left:env(safe-area-inset-left,0px);padding-right:env(safe-area-inset-right,0px)}
+.tab{background:none;border:0;color:var(--muted);font:700 12px var(--f-body);padding:9px 4px 11px;display:grid;justify-items:center;gap:3px;cursor:pointer;position:relative}
+.tab svg{width:24px;height:24px;stroke:currentColor;fill:none;stroke-width:2}
+.tab[aria-current="page"]{color:var(--accent)}
+.tab[aria-current="page"]::before{content:"";position:absolute;top:0;left:30%;right:30%;height:3px;border-radius:0 0 3px 3px;background:var(--accent)}
+
+dialog{border:1px solid var(--line);border-radius:14px;background:var(--surface);color:var(--ink);max-width:min(460px,calc(100vw - 32px));padding:18px}
 dialog::backdrop{background:rgba(0,0,0,.5)}
-label{display:block;font-weight:700;font-size:14px;margin:12px 0 4px}
-input[type=text]{width:100%;font:15px var(--f-data);padding:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink)}
-.row{display:flex;gap:8px;justify-content:flex-end;margin-top:14px;flex-wrap:wrap}
-.btn2{font:700 14px var(--f-body);border:1px solid var(--line);background:var(--bg);color:var(--ink);padding:8px 14px;border-radius:999px;cursor:pointer}
+dialog label{display:block;font-weight:700;font-size:14px;margin:12px 0 4px}
+dialog input{width:100%;font:15px var(--f-data);padding:9px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
+.drow{display:flex;gap:8px;justify-content:flex-end;margin-top:14px;flex-wrap:wrap}
+.btn2{font:700 14px var(--f-body);border:1px solid var(--line);background:var(--bg);color:var(--ink);padding:9px 16px;border-radius:999px;cursor:pointer}
 .btn2.pri{background:var(--accent);color:#fff;border-color:var(--accent)}
-.ios{font-size:14px;background:var(--surface);border:1px solid var(--line);padding:12px 14px;margin-top:14px}
+.ios{font-size:14px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+footer{font-size:12px;color:var(--muted);padding-top:18px;display:grid;gap:8px;justify-items:start}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 </style>
 </head>
@@ -152,7 +203,7 @@ input[type=text]{width:100%;font:15px var(--f-data);padding:8px;border:1px solid
       <div class="logo">Radar <span>Brasil</span></div>
       <div class="act">
         <button class="btn pri" id="btnInstall" hidden>Instalar</button>
-        <button class="btn" id="btnRefresh" aria-label="Atualizar agora">↻ Atualizar</button>
+        <button class="btn" id="btnRefresh" aria-label="Atualizar agora"><span class="ic">↻</span> Atualizar</button>
       </div>
     </div>
     <div class="tape" id="tape" aria-label="Cotações"><span class="tk">Carregando cotações…</span></div>
@@ -161,65 +212,90 @@ input[type=text]{width:100%;font:15px var(--f-data);padding:8px;border:1px solid
 </div>
 
 <main class="wrap">
-  <div class="alert" id="alert" hidden></div>
-  <div class="ios" id="iosHint" hidden>Para instalar no iPhone: toque em <b>Compartilhar</b> (quadrado com seta) e depois em <b>Adicionar à Tela de Início</b>.</div>
 
   <!-- INÍCIO -->
   <section class="view" id="v-inicio">
-    <div class="grid2">
-      <div class="panel"><h2>Destaques agora</h2><div id="destaques"><p class="empty">Buscando manchetes…</p></div></div>
-      <div class="stack">
-        <div class="panel" id="resumoMercado"><h2>Mercado</h2><p class="empty">Buscando cotações…</p></div>
-        <div class="panel" id="resumoEleicao"></div>
+    <div class="ios" id="iosHint" hidden>Para instalar no iPhone: toque em <b>Compartilhar</b> e depois em <b>Adicionar à Tela de Início</b>. Toque aqui para fechar.</div>
+    <div class="alert" id="alert" hidden></div>
+    <div class="panel"><h2>Resumo de hoje</h2><p class="today" id="today">Buscando os números do dia…</p></div>
+    <div class="cols">
+      <div>
+        <div class="panel hero" id="hDolar"><div class="lbl">Dólar comercial agora</div><p class="empty" style="color:#9fb3ac">Buscando cotação…</p></div>
+        <div class="tiles" id="hTiles"></div>
+        <div class="panel" id="hAcoes"><h2>Ações hoje</h2><p class="empty">Buscando…</p></div>
+      </div>
+      <div>
+        <div class="panel" id="hEleicao"></div>
+        <div class="panel"><h2>Principais notícias</h2><p class="sub">Toque na manchete para abrir a matéria.</p><div id="destaques"><p class="empty">Buscando manchetes…</p></div>
+          <button class="link" data-go="noticias">Ver todas as notícias ›</button></div>
+        <div class="panel"><h2>Notícias por assunto</h2>
+          <div class="shortcuts">
+            <button class="sc" data-cat="brasil"><svg viewBox="0 0 24 24"><path d="M12 3l9 9-9 9-9-9z"/><circle cx="12" cy="12" r="3"/></svg>Brasil</button>
+            <button class="sc" data-cat="politica"><svg viewBox="0 0 24 24"><path d="M3 21h18M5 21V10M19 21V10M9 21v-7M15 21v-7M2 10l10-6 10 6z"/></svg>Política</button>
+            <button class="sc" data-cat="economia"><svg viewBox="0 0 24 24"><path d="M3 20h18M5 16l4-5 4 3 6-8"/></svg>Economia</button>
+            <button class="sc" data-cat="eleicoes"><svg viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="10" rx="1"/><path d="M9 10V5h6v5M10 14h4"/></svg>Eleições</button>
+            <button class="sc" data-cat="mundo"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg>Mundo</button>
+            <button class="sc" data-cat="intl"><svg viewBox="0 0 24 24"><path d="M4 5h9M8.5 3v2M6 5c0 4 3 7 6 8M11 5c0 4-3 7-7 8M13 21l4-10 4 10M14.5 17h5"/></svg>Exterior traduzido</button>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- NOTÍCIAS -->
   <section class="view" id="v-noticias" hidden>
-    <div class="chips" id="chips" role="group" aria-label="Categoria">
+    <div class="chips stick" id="chips" role="group" aria-label="Assunto">
       <button class="chip" data-c="brasil" aria-pressed="true">Brasil</button>
       <button class="chip" data-c="politica" aria-pressed="false">Política</button>
       <button class="chip" data-c="economia" aria-pressed="false">Economia</button>
       <button class="chip" data-c="eleicoes" aria-pressed="false">Eleições</button>
       <button class="chip" data-c="mundo" aria-pressed="false">Mundo sobre o Brasil</button>
-      <button class="chip" data-c="intl" aria-pressed="false">Imprensa estrangeira (traduzida)</button>
+      <button class="chip" data-c="intl" aria-pressed="false">Exterior (traduzido)</button>
     </div>
-    <div class="panel"><h2 id="newsTitle">Brasil</h2><div id="newsList"><p class="empty">Buscando notícias…</p></div></div>
+    <div class="panel"><h2 id="newsTitle">Brasil</h2><p class="sub" id="newsSub"></p><div id="newsList"><p class="empty">Buscando notícias…</p></div></div>
   </section>
 
   <!-- MERCADO -->
   <section class="view" id="v-mercado" hidden>
-    <div class="grid2">
-      <div class="panel" id="pIbov"><h2>Bolsa · Ibovespa</h2><p class="empty">Buscando…</p></div>
-      <div class="panel" id="pCambio"><h2>Câmbio</h2><p class="empty">Buscando…</p></div>
+    <div class="chips stick" id="jump" role="group" aria-label="Ir para">
+      <button class="chip" data-j="mDolar">Dólar</button>
+      <button class="chip" data-j="mIbov">Bolsa</button>
+      <button class="chip" data-j="mInd">Juros e inflação</button>
+      <button class="chip" data-j="mComb">Combustíveis</button>
+      <button class="chip" data-j="mCambio">Outras moedas</button>
     </div>
-    <div class="grid2">
-      <div class="panel" id="pAcoes"><h2>Principais ações</h2><p class="empty">Buscando…</p></div>
-      <div class="panel" id="pDolar"><h2>Dólar · histórico</h2><p class="empty">Buscando…</p></div>
-    </div>
-    <div class="grid2">
-      <div class="panel" id="pComb"><h2>Combustíveis · média Brasil</h2></div>
-      <div class="panel" id="pJuros"><h2>Juros futuros (DI)</h2></div>
+    <div class="cols">
+      <div>
+        <div class="panel hero" id="mDolar"></div>
+        <div class="panel" id="mCambio"></div>
+        <div class="panel" id="mInd"></div>
+      </div>
+      <div>
+        <div class="panel" id="mIbov"></div>
+        <div class="panel" id="mComb"></div>
+        <div class="panel" id="mJuros"></div>
+      </div>
     </div>
   </section>
 
   <!-- ELEIÇÕES -->
   <section class="view" id="v-eleicoes" hidden>
-    <div class="grid2">
-      <div class="panel" id="pEleicao"></div>
-      <div class="panel"><h2>O que estão falando</h2><div id="eleNews"><p class="empty">Buscando notícias…</p></div></div>
+    <div class="cols">
+      <div><div class="panel" id="pEleicao"></div></div>
+      <div><div class="panel"><h2>O que estão falando</h2><p class="sub">Notícias de hoje sobre Lula e Flávio.</p><div id="eleNews"><p class="empty">Buscando notícias…</p></div></div></div>
     </div>
   </section>
 
-  <p class="src-note">Fontes: Google Notícias, AwesomeAPI (câmbio), brapi (B3), ANP (combustíveis) e TSE. Toque na manchete para abrir a matéria original.</p>
-  <p class="src-note"><button class="btn2" id="btnAjustes">Ajustes</button></p>
+  <footer>
+    <span>Fontes: Google Notícias, AwesomeAPI (câmbio), Banco Central (juros e inflação), brapi (B3), ANP (combustíveis) e TSE.</span>
+    <button class="btn2" id="btnAjustes">Ajustes</button>
+  </footer>
 </main>
 
 <nav class="bottom" aria-label="Seções">
   <button class="tab" data-v="inicio" aria-current="page"><svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>Início</button>
   <button class="tab" data-v="noticias"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="1"/><path d="M7 8h10M7 12h10M7 16h6"/></svg>Notícias</button>
-  <button class="tab" data-v="mercado"><svg viewBox="0 0 24 24"><path d="M3 20h18M5 16l4-5 4 3 6-8"/></svg>Mercado</button>
+  <button class="tab" data-v="mercado"><svg viewBox="0 0 24 24"><path d="M3 20h18M5 16l4-5 4 3 6-8"/></svg>Finanças</button>
   <button class="tab" data-v="eleicoes"><svg viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="10" rx="1"/><path d="M9 10V5h6v5M10 14h4"/></svg>Eleições</button>
 </nav>
 
@@ -227,90 +303,94 @@ input[type=text]{width:100%;font:15px var(--f-data);padding:8px;border:1px solid
   <h2>Ajustes</h2>
   <label for="token">Chave da brapi (opcional)</label>
   <input type="text" id="token" placeholder="cole aqui sua chave gratuita" autocomplete="off">
-  <p class="note">Sem chave, o app mostra ao vivo PETR4, VALE3, ITUB4 e MGLU3. Com uma chave gratuita do site brapi.dev, mostra também Ibovespa, bancos, Eletrobras, WEG e outras.</p>
-  <div class="row"><button class="btn2" id="dlgClose">Fechar</button><button class="btn2 pri" id="dlgSave">Salvar</button></div>
+  <p class="note">Sem chave, o app mostra ao vivo PETR4, VALE3, ITUB4 e MGLU3. Com uma chave gratuita do site brapi.dev, mostra também o Ibovespa ao vivo, bancos, Eletrobras, WEG e outras.</p>
+  <div class="drow"><button class="btn2" id="dlgClose">Fechar</button><button class="btn2 pri" id="dlgSave">Salvar</button></div>
 </dialog>
 
 <script>
 "use strict";
-/* ============ CONFIGURAÇÃO ============ */
+/* ================= CONFIGURAÇÃO ================= */
 const GN = q => `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=pt-BR&gl=BR&ceid=BR:pt-419`;
 const FEEDS = {
-  destaques: "https://news.google.com/rss?hl=pt-BR&gl=BR&ceid=BR:pt-419",
-  brasil:   "https://news.google.com/rss/headlines/section/topic/NATION?hl=pt-BR&gl=BR&ceid=BR:pt-419",
-  politica: GN("política Brasília Congresso when:1d"),
-  economia: "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=pt-BR&gl=BR&ceid=BR:pt-419",
-  eleicoes: GN("Lula Flávio Bolsonaro eleição when:2d"),
-  mundo:    GN("Brasil (BBC OR DW OR RFI OR \"El País\" OR \"France 24\" OR Euronews) when:2d"),
-  intl:     "https://news.google.com/rss/search?q=Brazil%20when:2d&hl=en-US&gl=US&ceid=US:en"
+  destaques:"https://news.google.com/rss?hl=pt-BR&gl=BR&ceid=BR:pt-419",
+  brasil:"https://news.google.com/rss/headlines/section/topic/NATION?hl=pt-BR&gl=BR&ceid=BR:pt-419",
+  politica:GN("política Brasília Congresso when:1d"),
+  economia:"https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=pt-BR&gl=BR&ceid=BR:pt-419",
+  eleicoes:GN("Lula Flávio Bolsonaro eleição when:2d"),
+  mundo:GN("Brasil (BBC OR DW OR RFI OR \"El País\" OR \"France 24\" OR Euronews) when:2d"),
+  intl:"https://news.google.com/rss/search?q=Brazil%20when:2d&hl=en-US&gl=US&ceid=US:en"
 };
-const TITULOS = {brasil:"Brasil",politica:"Política",economia:"Economia",eleicoes:"Eleições",mundo:"O mundo falando do Brasil",intl:"Imprensa estrangeira (traduzida)"};
-const ACOES_FREE = ["PETR4","VALE3","ITUB4","MGLU3"];
-const ACOES_ALL  = ["^BVSP","PETR4","VALE3","ITUB4","BBDC4","BBAS3","ELET3","WEGE3","ABEV3","SUZB3","B3SA3","MGLU3"];
-const NOMES = {PETR4:"Petrobras",VALE3:"Vale",ITUB4:"Itaú",BBDC4:"Bradesco",BBAS3:"Banco do Brasil",ELET3:"Eletrobras",WEGE3:"WEG",ABEV3:"Ambev",SUZB3:"Suzano",B3SA3:"B3",MGLU3:"Magazine Luiza"};
+const TITULOS={brasil:"Brasil",politica:"Política",economia:"Economia",eleicoes:"Eleições",mundo:"O mundo falando do Brasil",intl:"Imprensa estrangeira"};
+const SUBS={brasil:"O que está acontecendo no país agora.",politica:"Governo, Congresso e Justiça.",economia:"Dinheiro, empresas, emprego e preços.",eleicoes:"Andamento da eleição presidencial.",mundo:"Veículos internacionais que publicam em português.",intl:"Jornais de fora falando do Brasil. Títulos traduzidos automaticamente; o original aparece embaixo."};
+const ACOES_FREE=["PETR4","VALE3","ITUB4","MGLU3"];
+const ACOES_ALL=["^BVSP","PETR4","VALE3","ITUB4","BBDC4","BBAS3","ELET3","WEGE3","ABEV3","SUZB3","B3SA3","MGLU3"];
+const NOMES={PETR4:"Petrobras",VALE3:"Vale",ITUB4:"Itaú",BBDC4:"Bradesco",BBAS3:"Banco do Brasil",ELET3:"Eletrobras",WEGE3:"WEG",ABEV3:"Ambev",SUZB3:"Suzano",B3SA3:"B3",MGLU3:"Magazine Luiza"};
+/* Indicadores do Banco Central (código da série no SGS) */
+const IND=[
+  {id:"selic",serie:432,nome:"Selic (juro básico)",un:"% ao ano",d:2,exp:"É a taxa de juros básica do país, definida pelo Banco Central. Quando sobe, financiamento e cartão ficam mais caros e a renda fixa rende mais."},
+  {id:"cdi",serie:4389,nome:"CDI",un:"% ao ano",d:2,exp:"Juro que os bancos cobram entre si. É a referência de rendimento de CDB, LCI, LCA e fundos de renda fixa."},
+  {id:"ipca12",serie:13522,nome:"Inflação em 12 meses (IPCA)",un:"%",d:2,exp:"Quanto os preços subiram no último ano. A meta oficial é 3%, aceitando até 4,5%."},
+  {id:"ipcam",serie:433,nome:"Inflação do último mês (IPCA)",un:"%",d:2,exp:"Quanto os preços subiram no mês mais recente divulgado pelo IBGE."},
+  {id:"igpm",serie:189,nome:"IGP-M do último mês",un:"%",d:2,exp:"Índice usado para reajustar muitos contratos de aluguel."},
+  {id:"poup",serie:195,nome:"Poupança (rendimento)",un:"% no mês",d:4,exp:"Quanto a caderneta de poupança rendeu no período mais recente. Com a Selic acima de 8,5%, rende 0,5% ao mês mais a TR."},
+  {id:"desemp",serie:24369,nome:"Desemprego",un:"%",d:1,exp:"Parte das pessoas que procuram trabalho e não encontram (pesquisa PNAD do IBGE, trimestre móvel)."}
+];
 
-/* ============ UTILITÁRIOS ============ */
-const $ = id => document.getElementById(id);
-const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-const num = (v,d=2) => v==null||isNaN(v) ? "—" : Number(v).toLocaleString("pt-BR",{minimumFractionDigits:d,maximumFractionDigits:d});
-const pct = v => v==null||isNaN(v) ? "" : `<span class="chg ${v>=0?"u":"d"}">${v>=0?"▲ +":"▼ "}${num(v)}%</span>`;
-const safeUrl = u => /^https?:\/\//.test(u||"") ? u : "#";
-const store = {
+/* ================= UTILITÁRIOS ================= */
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const num=(v,d=2)=>v==null||isNaN(v)?"—":Number(v).toLocaleString("pt-BR",{minimumFractionDigits:d,maximumFractionDigits:d});
+const pct=v=>v==null||isNaN(v)?"":`<span class="chg ${v>=0?"u":"d"}">${v>=0?"▲ +":"▼ "}${num(v)}%</span>`;
+const safeUrl=u=>/^https?:\/\//.test(u||"")?u:"#";
+const store={
   get(k,def){try{const v=localStorage.getItem("rb-"+k);return v==null?def:JSON.parse(v)}catch(e){return def}},
   set(k,v){try{localStorage.setItem("rb-"+k,JSON.stringify(v))}catch(e){}}
 };
 function quando(d){
-  if(!d||isNaN(d))return"";
+  if(!d)return"";d=new Date(d);if(isNaN(d))return"";
   const m=Math.round((Date.now()-d)/60000);
   if(m<1)return"agora";if(m<60)return`há ${m} min`;
   const h=Math.round(m/60);if(h<24)return`há ${h} h`;
   return d.toLocaleDateString("pt-BR",{day:"2-digit",month:"2-digit"});
 }
-async function getJSON(url,ms=12000){
+async function req(url,tipo="json",ms=12000){
   const c=new AbortController();const t=setTimeout(()=>c.abort(),ms);
-  try{const r=await fetch(url,{signal:c.signal,cache:"no-store"});if(!r.ok)throw new Error(r.status);return await r.json()}
+  try{const r=await fetch(url,{signal:c.signal,cache:"no-store"});if(!r.ok)throw new Error(r.status);return tipo==="json"?await r.json():await r.text()}
   finally{clearTimeout(t)}
 }
-async function getText(url,ms=12000){
-  const c=new AbortController();const t=setTimeout(()=>c.abort(),ms);
-  try{const r=await fetch(url,{signal:c.signal,cache:"no-store"});if(!r.ok)throw new Error(r.status);return await r.text()}
-  finally{clearTimeout(t)}
+const PROXIES=[u=>"https://api.allorigins.win/raw?url="+encodeURIComponent(u),u=>"https://corsproxy.io/?url="+encodeURIComponent(u)];
+async function reqComProxy(url,tipo="json"){
+  try{return await req(url,tipo)}catch(e){}
+  for(const p of PROXIES){try{return await req(p(url),tipo)}catch(e){}}
+  throw new Error("indisponível");
 }
 
-/* ============ ESTADO ============ */
-const S = {
-  view: "inicio", cat: store.get("cat","brasil"),
-  base: null,          // dados.json (eleição, combustíveis, juros, registro do mercado)
-  moedas: null, hist: null, histDias: 30,
-  acoes: null, ibov: null, acoesAoVivo: false,
-  news: {}, newsOk: {}, shown: {},
-  online: navigator.onLine, ultima: null
+/* ================= ESTADO ================= */
+const S={
+  view:"inicio",cat:store.get("cat","brasil"),base:null,
+  moedas:null,turismo:null,hist:null,histDias:30,
+  acoes:null,ibov:null,acoesAoVivo:false,
+  ind:{},indAoVivo:false,
+  news:{},newsOk:{},shown:{},
+  online:navigator.onLine,ultima:null,falhou:false,
+  conv:{moeda:store.get("convM","USD"),valor:store.get("convV",100)}
 };
 
-/* ============ NOTÍCIAS (Google Notícias RSS) ============ */
+/* ================= NOTÍCIAS ================= */
 function parseRSS(xml){
   const doc=new DOMParser().parseFromString(xml,"text/xml");
-  return [...doc.querySelectorAll("item")].map(it=>({
-    title:it.querySelector("title")?.textContent||"",
-    link:it.querySelector("link")?.textContent||"",
-    pubDate:it.querySelector("pubDate")?.textContent||"",
-    source:it.querySelector("source")?.textContent||""
-  }));
+  return [...doc.querySelectorAll("item")].map(it=>({title:it.querySelector("title")?.textContent||"",link:it.querySelector("link")?.textContent||"",pubDate:it.querySelector("pubDate")?.textContent||"",source:it.querySelector("source")?.textContent||""}));
 }
 function limpa(item){
-  let t=item.title||"",fonte=item.source||"";
-  const i=t.lastIndexOf(" - ");
+  let t=item.title||"",fonte=item.source||"";const i=t.lastIndexOf(" - ");
   if(i>20){if(!fonte)fonte=t.slice(i+3);t=t.slice(0,i)}
-  return {titulo:t.trim(),fonte:fonte.trim(),url:item.link,data:new Date(item.pubDate)};
+  return{titulo:t.trim(),fonte:fonte.trim(),url:item.link,data:+new Date(item.pubDate)};
 }
 async function buscaFeed(rss){
-  // 3 caminhos: rss2json → allorigins → codetabs (se um falhar, tenta o próximo)
-  try{
-    const j=await getJSON("https://api.rss2json.com/v1/api.json?rss_url="+encodeURIComponent(rss));
-    if(j.status==="ok"&&j.items?.length)return j.items.map(x=>limpa({title:x.title,link:x.link,pubDate:x.pubDate?.replace(" ","T")+"Z",source:x.author}));
-  }catch(e){}
+  try{const j=await req("https://api.rss2json.com/v1/api.json?rss_url="+encodeURIComponent(rss));
+    if(j.status==="ok"&&j.items?.length)return j.items.map(x=>limpa({title:x.title,link:x.link,pubDate:(x.pubDate||"").replace(" ","T")+"Z",source:x.author}))}catch(e){}
   for(const p of ["https://api.allorigins.win/raw?url=","https://api.codetabs.com/v1/proxy/?quest="]){
-    try{const x=await getText(p+encodeURIComponent(rss));const it=parseRSS(x);if(it.length)return it.map(limpa)}catch(e){}
+    try{const it=parseRSS(await req(p+encodeURIComponent(rss),"text"));if(it.length)return it.map(limpa)}catch(e){}
   }
   throw new Error("sem notícias");
 }
@@ -318,35 +398,29 @@ async function traduz(lista){
   const cache=store.get("trad",{});let mudou=false;
   await Promise.all(lista.slice(0,15).map(async n=>{
     if(cache[n.titulo]){n.traducao=cache[n.titulo];return}
-    try{
-      const j=await getJSON("https://api.mymemory.translated.net/get?langpair=en|pt-BR&q="+encodeURIComponent(n.titulo.slice(0,450)));
-      const t=j?.responseData?.translatedText;
-      if(t&&!/MYMEMORY WARNING/i.test(t)){n.traducao=t;cache[n.titulo]=t;mudou=true}
-    }catch(e){}
+    try{const j=await req("https://api.mymemory.translated.net/get?langpair=en|pt-BR&q="+encodeURIComponent(n.titulo.slice(0,450)));
+      const t=j?.responseData?.translatedText;if(t&&!/MYMEMORY WARNING/i.test(t)){n.traducao=t;cache[n.titulo]=t;mudou=true}}catch(e){}
   }));
   if(mudou){const ks=Object.keys(cache);if(ks.length>300)ks.slice(0,ks.length-300).forEach(k=>delete cache[k]);store.set("trad",cache)}
 }
 async function carregaNoticias(cat){
   try{
-    let l=await buscaFeed(FEEDS[cat]);
-    l.sort((a,b)=>(b.data||0)-(a.data||0));
+    const l=await buscaFeed(FEEDS[cat]);l.sort((a,b)=>(b.data||0)-(a.data||0));
     if(cat==="intl")await traduz(l);
-    S.news[cat]=l;S.newsOk[cat]=true;store.set("news-"+cat,l.slice(0,40).map(n=>({...n,data:+n.data})));
+    S.news[cat]=l;S.newsOk[cat]=true;store.set("news-"+cat,l.slice(0,40));
   }catch(e){
     const salvo=store.get("news-"+cat,null);
-    if(salvo){S.news[cat]=salvo.map(n=>({...n,data:new Date(n.data)}));S.newsOk[cat]="cache"}
-    else if(S.base){S.news[cat]=S.base.noticias.filter(n=>cat==="destaques"||n.cat===cat||(cat==="intl"&&n.traduzido)).map(n=>({...n,data:null}));S.newsOk[cat]="base"}
+    if(salvo){S.news[cat]=salvo;S.newsOk[cat]="cache"}
+    else if(S.base){S.news[cat]=S.base.noticias.filter(n=>cat==="destaques"||n.cat===cat||(cat==="intl"&&n.traduzido));S.newsOk[cat]="base"}
     else S.newsOk[cat]=false;
   }
 }
 function itemHTML(n,cat){
-  const titulo=n.traducao||n.titulo;
   const trad=cat==="intl"||n.traduzido;
   return `<article class="item">
     <div class="meta">${cat==="destaques"?"":`<span class="cat ${esc(cat)}">${esc(cat==="intl"?"Exterior":(TITULOS[cat]||""))}</span>`}<span>${esc(n.fonte)}</span>${trad?'<span class="tr">traduzido</span>':""}<span>${esc(quando(n.data))}</span></div>
-    <a class="tt" href="${esc(safeUrl(n.url))}" target="_blank" rel="noopener">${esc(titulo)}</a>
-    ${n.traducao?`<p class="orig">Original: ${esc(n.titulo)}</p>`:""}
-    ${n.resumo?`<p class="rs">${esc(n.resumo)}</p>`:""}
+    <a class="tt" href="${esc(safeUrl(n.url))}" target="_blank" rel="noopener">${esc(n.traducao||n.titulo)}</a>
+    ${n.traducao?`<p class="orig">Original: ${esc(n.titulo)}</p>`:""}${n.resumo?`<p class="rs">${esc(n.resumo)}</p>`:""}
   </article>`;
 }
 function listaHTML(cat,max){
@@ -360,83 +434,103 @@ function listaHTML(cat,max){
   if(S.newsOk[cat]==="base")h+='<p class="src-note">Não consegui buscar ao vivo; mostrando o resumo de 26/10.</p>';
   return h;
 }
-document.addEventListener("click",e=>{const b=e.target.closest("[data-more]");if(!b)return;const c=b.dataset.more;S.shown[c]=(S.shown[c]||15)+15;renderNoticias()});
 
-/* ============ COTAÇÕES ============ */
+/* ================= CÂMBIO ================= */
 async function carregaMoedas(){
   try{
-    const j=await getJSON("https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL,GBP-BRL,ARS-BRL,BTC-BRL");
-    S.moedas=["USDBRL","EURBRL","GBPBRL","ARSBRL","BTCBRL"].filter(k=>j[k]).map(k=>({
-      sigla:k.slice(0,3),nome:j[k].name.split("/")[0],valor:+j[k].bid,var:+j[k].pctChange,
-      max:+j[k].high,min:+j[k].low,hora:new Date(+j[k].timestamp*1000)}));
-    store.set("moedas",S.moedas.map(m=>({...m,hora:+m.hora})));S.ultima=new Date();S.falhou=false;return true;
-  }catch(e){S.falhou=true;const s=store.get("moedas",null);if(s&&!S.moedas)S.moedas=s.map(m=>({...m,hora:new Date(m.hora),cache:true}));if(!S.moedas&&S.base?.mercado.moedas)S.moedas=S.base.mercado.moedas.map(m=>({...m,cache:true}));return false}
+    const j=await req("https://economia.awesomeapi.com.br/json/last/USD-BRL,USD-BRLT,EUR-BRL,GBP-BRL,ARS-BRL,BTC-BRL");
+    S.moedas=["USDBRL","EURBRL","GBPBRL","ARSBRL","BTCBRL"].filter(k=>j[k]).map(k=>({sigla:k.slice(0,3),nome:j[k].name.split("/")[0],valor:+j[k].bid,var:+j[k].pctChange,max:+j[k].high,min:+j[k].low,hora:+j[k].timestamp*1000}));
+    S.turismo=j.USDBRLT?{valor:+j.USDBRLT.ask||+j.USDBRLT.bid,var:+j.USDBRLT.pctChange}:null;
+    store.set("moedas",S.moedas);store.set("turismo",S.turismo);S.ultima=Date.now();S.falhou=false;return true;
+  }catch(e){
+    S.falhou=true;
+    if(!S.moedas){const s=store.get("moedas",null);S.moedas=s?s.map(m=>({...m,cache:true})):(S.base?.mercado.moedas||null)?.map(m=>({...m,cache:true}))||null;S.turismo=S.turismo||store.get("turismo",null)}
+    return false;
+  }
 }
 async function carregaHist(){
   try{
-    const j=await getJSON(`https://economia.awesomeapi.com.br/json/daily/USD-BRL/${S.histDias}`);
+    const j=await req(`https://economia.awesomeapi.com.br/json/daily/USD-BRL/${S.histDias}`);
     S.hist=j.map(x=>({t:+x.timestamp*1000,v:+x.bid})).filter(x=>x.v).sort((a,b)=>a.t-b.t);
-  }catch(e){}
-}
-async function carregaAcoes(){
-  const tok=store.get("token","");
-  const lista=tok?ACOES_ALL:ACOES_FREE;
-  try{
-    const q=lista.map(encodeURIComponent).join(",");
-    const j=await getJSON(`https://brapi.dev/api/quote/${q}`+(tok?`?token=${encodeURIComponent(tok)}`:""));
-    const r=(j.results||[]).map(x=>({ticker:x.symbol,nome:NOMES[x.symbol]||x.shortName,preco:x.regularMarketPrice,var:x.regularMarketChangePercent,ant:x.regularMarketPreviousClose,min:x.regularMarketDayLow,max:x.regularMarketDayHigh,hora:x.regularMarketTime}));
-    const ib=r.find(x=>x.ticker==="^BVSP");
-    if(ib)S.ibov={pontos:ib.preco,var:ib.var,anterior:ib.ant,minimo:ib.min,maximo:ib.max,aoVivo:true};
-    S.acoes=r.filter(x=>x.ticker!=="^BVSP"&&x.var!=null);S.acoesAoVivo=true;
-    store.set("acoes",S.acoes);if(S.ibov?.aoVivo)store.set("ibov",S.ibov);
   }catch(e){
-    // sem conexão ou sem chave: usa último dado salvo, depois o registro do dados.json
-    const s=store.get("acoes",null);if(s&&!S.acoes){S.acoes=s;S.acoesAoVivo=false}
+    // plano B: dólar PTAX do Banco Central
+    try{const n=Math.ceil(S.histDias*5/7)+1;
+      const j=await reqComProxy(`https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados/ultimos/${n}?formato=json`);
+      S.hist=j.map(x=>{const[d,m,a]=x.data.split("/");return{t:+new Date(a,m-1,d),v:+x.valor}})}catch(e2){}
   }
+  if(S.hist?.length&&S.moedas?.[0]&&!S.moedas[0].cache){const u=S.moedas.find(m=>m.sigla==="USD");const last=S.hist[S.hist.length-1];if(u&&u.hora>last.t+3600e3)S.hist.push({t:u.hora,v:u.valor})}
+}
+
+/* ================= BOLSA ================= */
+async function carregaAcoes(){
+  const tok=store.get("token","");const lista=tok?ACOES_ALL:ACOES_FREE;
+  try{
+    const j=await req(`https://brapi.dev/api/quote/${lista.map(encodeURIComponent).join(",")}`+(tok?`?token=${encodeURIComponent(tok)}`:""));
+    const r=(j.results||[]).map(x=>({ticker:x.symbol,nome:NOMES[x.symbol]||x.shortName,preco:x.regularMarketPrice,var:x.regularMarketChangePercent,ant:x.regularMarketPreviousClose,min:x.regularMarketDayLow,max:x.regularMarketDayHigh}));
+    const ib=r.find(x=>x.ticker==="^BVSP");
+    if(ib){S.ibov={pontos:ib.preco,var:ib.var,anterior:ib.ant,minimo:ib.min,maximo:ib.max,aoVivo:true};store.set("ibov",S.ibov)}
+    S.acoes=r.filter(x=>x.ticker!=="^BVSP"&&x.var!=null);S.acoesAoVivo=true;store.set("acoes",S.acoes);
+  }catch(e){const s=store.get("acoes",null);if(s&&!S.acoes){S.acoes=s;S.acoesAoVivo=false}}
   if(!S.ibov){const s=store.get("ibov",null);S.ibov=s?{...s,aoVivo:false}:(S.base?{...S.base.mercado.ibov,aoVivo:false}:null)}
   if(!S.acoes&&S.base){S.acoes=S.base.mercado.acoes;S.acoesAoVivo=false}
 }
 
-/* ============ GRÁFICOS ============ */
-function barrasAcoes(ac){
-  if(!ac?.length)return'<p class="empty">Sem dados de ações agora.</p>';
-  const W=340,rh=24,top=4,H=top+ac.length*rh+16;
-  const neg=Math.max(1,...ac.map(a=>-a.var)),pos=Math.max(1,...ac.map(a=>a.var));
-  const util=W-52-90,mid=52+44+util*neg/(neg+pos),sc=Math.min((mid-52-44)/neg,(W-mid-46)/pos);
-  const rows=ac.slice().sort((a,b)=>b.var-a.var).map((a,i)=>{
-    const y=top+i*rh,w=Math.max(Math.abs(a.var)*sc,1),x=a.var>=0?mid:mid-w,lx=a.var>=0?mid+w+4:mid-w-4;
-    return `<text x="2" y="${y+15}" font-size="11" font-weight="700">${esc(a.ticker)}</text>
-    <rect x="${x}" y="${y+4}" width="${w}" height="15" fill="${a.var>=0?"var(--up)":"var(--down)"}"/>
-    <text x="${lx}" y="${y+15}" font-size="11" text-anchor="${a.var>=0?"start":"end"}">${a.var>=0?"+":""}${num(a.var,1)}%</text>`}).join("");
-  return `<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="Variação das ações no dia">
+/* ================= INDICADORES (Banco Central) ================= */
+async function carregaIndicadores(){
+  const salvo=store.get("ind",{});
+  const base=S.base?.indicadores?.itens||{};
+  await Promise.all(IND.map(async i=>{
+    try{
+      const j=await reqComProxy(`https://api.bcb.gov.br/dados/serie/bcdata.sgs.${i.serie}/dados/ultimos/1?formato=json`);
+      const x=j[j.length-1];if(!x)throw 0;
+      S.ind[i.id]={valor:+x.valor,data:x.data,aoVivo:true};
+    }catch(e){S.ind[i.id]=S.ind[i.id]||salvo[i.id]||base[i.id]||null;if(S.ind[i.id])S.ind[i.id]={...S.ind[i.id],aoVivo:false}}
+  }));
+  store.set("ind",S.ind);
+}
+function dataInd(d){
+  if(!d)return"";const p=d.split("/");
+  if(p.length===3){const mes=["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"][+p[1]-1];return p[0]==="01"?`${mes}/${p[2]}`:`${p[0]}/${mes}/${p[2]}`}
+  return d;
+}
+
+/* ================= GRÁFICOS ================= */
+function barras(lista,{rot="ticker",fmt=v=>`${v>=0?"+":""}${num(v,1)}%`,label="Variação"}={}){
+  if(!lista?.length)return'<p class="empty">Sem dados agora.</p>';
+  const W=340,rh=26,top=4,H=top+lista.length*rh+16,lw=84;
+  const neg=Math.max(0.5,...lista.map(a=>-a.var)),pos=Math.max(0.5,...lista.map(a=>a.var));
+  const util=W-lw-92,mid=lw+46+util*neg/(neg+pos),sc=Math.min((mid-lw-46)/neg,(W-mid-46)/pos);
+  const rows=lista.slice().sort((a,b)=>b.var-a.var).map((a,i)=>{
+    const y=top+i*rh,w=Math.max(Math.abs(a.var)*sc,1.5),x=a.var>=0?mid:mid-w,lx=a.var>=0?mid+w+4:mid-w-4;
+    return `<text x="2" y="${y+16}" font-size="11.5" font-weight="700">${esc(a[rot])}</text>
+    <rect x="${x}" y="${y+5}" width="${w}" height="15" rx="2" fill="${a.var>=0?"var(--up)":"var(--down)"}"/>
+    <text x="${lx}" y="${y+16}" font-size="11" text-anchor="${a.var>=0?"start":"end"}">${fmt(a.var)}</text>`}).join("");
+  return `<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="${esc(label)}">
   <line x1="${mid}" y1="0" x2="${mid}" y2="${H-12}" stroke="var(--muted)"/>${rows}
   <text x="${mid}" y="${H-1}" font-size="10" text-anchor="middle" class="mut">0%</text></svg>`;
 }
-function linhaDolar(h){
-  if(!h||h.length<2)return'<p class="empty">Histórico indisponível agora.</p>';
-  const W=340,H=170,pl=44,pr=10,pt=10,pb=24;
-  const vs=h.map(p=>p.v),mn=Math.min(...vs),mx=Math.max(...vs),pad=(mx-mn)*0.08||0.05;
-  const lo=mn-pad,hi=mx+pad,t0=h[0].t,t1=h[h.length-1].t;
+function linha(h,{cor,altura=170,eixo=true}={}){
+  if(!h||h.length<2)return'<p class="note">Histórico indisponível agora.</p>';
+  const W=340,H=altura,pl=eixo?44:4,pr=eixo?10:4,pt=8,pb=eixo?24:6;
+  const vs=h.map(p=>p.v),mn=Math.min(...vs),mx=Math.max(...vs),pad=(mx-mn)*0.1||0.05,lo=mn-pad,hi=mx+pad,t0=h[0].t,t1=h[h.length-1].t;
   const X=t=>pl+(t-t0)/(t1-t0||1)*(W-pl-pr),Y=v=>pt+(hi-v)/(hi-lo)*(H-pt-pb);
   const d=h.map((p,i)=>`${i?"L":"M"}${X(p.t).toFixed(1)},${Y(p.v).toFixed(1)}`).join("");
-  const ticks=[0,1,2,3].map(i=>lo+(hi-lo)*i/3);
-  const fim=h[h.length-1],ini=h[0],sub=fim.v>=ini.v;
+  const sub=h[h.length-1].v>=h[0].v,c=cor||(sub?"var(--down)":"var(--up)");
   const fmtD=t=>new Date(t).toLocaleDateString("pt-BR",{day:"2-digit",month:"2-digit"});
-  return `<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="Dólar nos últimos dias">
-  ${ticks.map(v=>`<line x1="${pl}" x2="${W-pr}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--line)"/><text x="${pl-4}" y="${Y(v)+3}" font-size="10" text-anchor="end" class="mut">${num(v,2)}</text>`).join("")}
-  <path d="${d} L${X(t1)},${H-pb} L${X(t0)},${H-pb}Z" fill="${sub?"var(--down)":"var(--up)"}" opacity=".12"/>
-  <path d="${d}" fill="none" stroke="${sub?"var(--down)":"var(--up)"}" stroke-width="2"/>
-  <circle cx="${X(fim.t)}" cy="${Y(fim.v)}" r="4" fill="${sub?"var(--down)":"var(--up)"}"/>
-  <text x="${pl}" y="${H-6}" font-size="10" class="mut">${fmtD(t0)}</text>
-  <text x="${W-pr}" y="${H-6}" font-size="10" text-anchor="end" class="mut">${fmtD(t1)}</text></svg>
-  <p class="note">No período: de R$ ${num(ini.v,3)} para R$ ${num(fim.v,3)} (${sub?"+":""}${num((fim.v/ini.v-1)*100,1)}%).</p>`;
+  const ticks=eixo?[0,1,2,3].map(i=>lo+(hi-lo)*i/3):[];
+  return `<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="Gráfico do dólar">
+  ${ticks.map(v=>`<line x1="${pl}" x2="${W-pr}" y1="${Y(v)}" y2="${Y(v)}" stroke="currentColor" opacity=".15"/><text x="${pl-4}" y="${Y(v)+3}" font-size="10" text-anchor="end" class="mut">${num(v,2)}</text>`).join("")}
+  <path d="${d} L${X(t1)},${H-pb} L${X(t0)},${H-pb}Z" fill="${c}" opacity=".16"/>
+  <path d="${d}" fill="none" stroke="${c}" stroke-width="2.2" stroke-linejoin="round"/>
+  <circle cx="${X(t1)}" cy="${Y(h[h.length-1].v)}" r="4.5" fill="${c}"/>
+  ${eixo?`<text x="${pl}" y="${H-6}" font-size="10" class="mut">${fmtD(t0)}</text><text x="${W-pr}" y="${H-6}" font-size="10" text-anchor="end" class="mut">${fmtD(t1)}</text>`:""}</svg>`;
 }
 function faixaIbov(ib){
   if(!ib?.anterior||!ib?.minimo)return"";
   const top=Math.max(ib.anterior,ib.maximo||0,ib.pontos),bot=Math.min(ib.minimo,ib.pontos);
   const W=340,lo=bot*0.998,hi=top*1.002,x=v=>14+(v-lo)/(hi-lo)*(W-28);
   return `<svg viewBox="0 0 ${W} 60" width="100%" role="img" aria-label="Faixa do Ibovespa no dia">
-  <rect x="${x(bot)}" y="22" width="${x(top)-x(bot)}" height="8" fill="var(--line)"/>
+  <rect x="${x(bot)}" y="22" width="${x(top)-x(bot)}" height="8" rx="4" fill="var(--line)"/>
   <line x1="${x(ib.anterior)}" y1="16" x2="${x(ib.anterior)}" y2="36" stroke="var(--muted)" stroke-width="2" stroke-dasharray="3 2"/>
   <line x1="${x(ib.pontos)}" y1="14" x2="${x(ib.pontos)}" y2="38" stroke="${ib.var>=0?"var(--up)":"var(--down)"}" stroke-width="4"/>
   <text x="${x(ib.pontos)}" y="10" font-size="10" text-anchor="middle">agora</text>
@@ -444,141 +538,197 @@ function faixaIbov(ib){
   <text x="${x(top)}" y="52" font-size="10" text-anchor="end" class="mut">${top===ib.anterior?"fech. anterior":"máx."} ${num(top/1000,1)} mil</text></svg>`;
 }
 
-/* ============ TELAS ============ */
+/* ================= PEÇAS DE TELA ================= */
+const usd=()=>S.moedas?.find(m=>m.sigla==="USD");
+function dolarHero(completo){
+  const u=usd();
+  if(!u)return`<div class="lbl">Dólar comercial agora</div><p class="empty" style="color:#9fb3ac">Buscando cotação…</p>`;
+  const conv=S.conv,mo=S.moedas.find(m=>m.sigla===conv.moeda)||u;
+  return `<div class="lbl">Dólar comercial ${u.cache?"(último registro)":"agora"}</div>
+  <div class="price"><small>R$</small>${num(u.valor,3)}</div>
+  <div class="row"><span>${pct(u.var)} hoje</span>${u.max?`<span>máx. ${num(u.max,3)} · mín. ${num(u.min,3)}</span>`:""}${S.turismo?`<span>turismo R$ ${num(S.turismo.valor,3)}</span>`:""}<span>${u.hora?esc(quando(u.hora)):""}</span></div>
+  ${completo?`<div class="seg" role="group" aria-label="Período">${[7,30,90].map(d=>`<button data-dias="${d}" aria-pressed="${S.histDias===d}">${d} dias</button>`).join("")}</div>`:""}
+  <div style="color:#c5d3ce">${linha(S.hist,{altura:completo?170:90,eixo:completo})}</div>
+  ${S.hist?.length>1?`<div class="row">Em ${S.histDias} dias: de R$ ${num(S.hist[0].v,3)} para R$ ${num(S.hist[S.hist.length-1].v,3)} (${S.hist[S.hist.length-1].v>=S.hist[0].v?"+":""}${num((S.hist[S.hist.length-1].v/S.hist[0].v-1)*100,1)}%)</div>`:""}
+  <div class="conv">
+    <div><label for="cvA${completo?1:0}">Converter</label><select id="cvM${completo?1:0}" data-cvm aria-label="Moeda">${S.moedas.filter(m=>m.sigla!=="BTC").map(m=>`<option value="${m.sigla}" ${m.sigla===mo.sigla?"selected":""}>${esc(m.nome)}</option>`).join("")}</select>
+      <input id="cvA${completo?1:0}" data-cva inputmode="decimal" value="${esc(String(conv.valor).replace(".",","))}"></div>
+    <div class="eq">=</div>
+    <div><label for="cvB${completo?1:0}">Em reais</label><input id="cvB${completo?1:0}" data-cvb inputmode="decimal" value="${num(conv.valor*mo.valor,2)}"></div>
+  </div>`;
+}
+document.addEventListener("input",e=>{
+  const t=e.target;if(!t.matches("[data-cva],[data-cvb]"))return;
+  const box=t.closest(".conv"),mo=S.moedas.find(m=>m.sigla===S.conv.moeda)||usd();if(!mo)return;
+  const v=parseFloat(t.value.replace(/\./g,"").replace(",","."))||0;
+  if(t.matches("[data-cva]")){S.conv.valor=v;box.querySelector("[data-cvb]").value=num(v*mo.valor,2)}
+  else{S.conv.valor=v/mo.valor;box.querySelector("[data-cva]").value=num(S.conv.valor,2)}
+  store.set("convV",S.conv.valor);
+});
+document.addEventListener("change",e=>{
+  if(!e.target.matches("[data-cvm]"))return;S.conv.moeda=e.target.value;store.set("convM",S.conv.moeda);
+  const box=e.target.closest(".conv"),mo=S.moedas.find(m=>m.sigla===S.conv.moeda);
+  box.querySelector("[data-cvb]").value=num(S.conv.valor*mo.valor,2);
+});
+function duelo(e){return `<div class="duel">${e.candidatos.map(c=>`<div class="cand" style="--c:var(--${esc(c.id)})"><div class="nm">${esc(c.nome)}</div><div class="pc">${num(c.pct)}%</div><div class="st">${esc(c.situacao)}</div></div>`).join("")}</div>`}
+function resumoDia(){
+  const u=usd(),ib=S.ibov,se=S.ind.selic,ip=S.ind.ipca12,partes=[];
+  if(u)partes.push(`o <b>dólar</b> está em <b>R$ ${num(u.valor,2)}</b> (${u.var>=0?"alta":"queda"} de ${num(Math.abs(u.var),1)}% no dia)`);
+  if(ib)partes.push(`a <b>bolsa</b> ${ib.var>=0?"sobe":"cai"} <b>${num(Math.abs(ib.var),1)}%</b>`);
+  if(se)partes.push(`os <b>juros</b> (Selic) estão em <b>${num(se.valor,2)}%</b> ao ano`);
+  if(ip)partes.push(`a <b>inflação</b> em 12 meses é <b>${num(ip.valor,2)}%</b>`);
+  if(!partes.length)return"Buscando os números do dia…";
+  const t=partes.length>1?partes.slice(0,-1).join(", ")+" e "+partes[partes.length-1]:partes[0];
+  return "Hoje "+t+".";
+}
+
+/* ================= TELAS ================= */
 function renderTape(){
-  const t=[];
+  const t=[];const u=usd();
+  if(u)t.push(["DÓLAR","R$ "+num(u.valor,3),u.var]);
   if(S.ibov)t.push(["IBOV",num(S.ibov.pontos,0),S.ibov.var]);
-  (S.moedas||[]).forEach(m=>t.push([m.sigla,m.sigla==="BTC"?"R$ "+num(m.valor,0):"R$ "+num(m.valor,m.sigla==="ARS"?4:3),m.var]));
+  if(S.ind.selic)t.push(["SELIC",num(S.ind.selic.valor,2)+"%",null]);
+  (S.moedas||[]).filter(m=>m.sigla!=="USD").forEach(m=>t.push([m.sigla,"R$ "+(m.sigla==="BTC"?num(m.valor,0):num(m.valor,m.sigla==="ARS"?4:3)),m.var]));
   (S.acoes||[]).slice(0,6).forEach(a=>a.preco!=null&&t.push([a.ticker,"R$ "+num(a.preco),a.var]));
   if(t.length)$("tape").innerHTML=t.map(([a,b,c])=>`<span class="tk"><b>${esc(a)}</b>${esc(b)} ${c==null||isNaN(c)?"":`<span class="${c>=0?"u":"d"}">${c>=0?"+":""}${num(c)}%</span>`}</span>`).join("");
 }
 function renderStatus(){
-  $("dot").className="dot"+(S.online?"":" off");
-  $("status").textContent=S.online
-    ?(S.ultima?`Ao vivo · atualizado ${S.ultima.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})} · câmbio a cada 1 min`:"Conectando…")
-    :"Sem internet · mostrando os últimos dados salvos";
-  if(S.online&&S.falhou&&!S.ultima){$("dot").className="dot off";$("status").textContent="Fontes ao vivo não responderam · mostrando o último registro"}
-}
-function blocoIbov(){
-  const ib=S.ibov;if(!ib)return'<p class="empty">Ibovespa indisponível agora.</p>';
-  return `<div class="big">${num(ib.pontos,0)} <small style="font-size:14px">pts</small></div>
-  <div>${pct(ib.var)} ${ib.aoVivo?'<span class="tag live">ao vivo</span>':`<span class="tag">registro ${esc(ib.hora||"salvo")}</span>`}</div>
-  ${faixaIbov(ib)}${ib.obs&&!ib.aoVivo?`<p class="note">${esc(ib.obs)}</p>`:""}
-  ${!ib.aoVivo?'<p class="note">Para o Ibovespa ao vivo, coloque a chave gratuita da brapi em Ajustes.</p>':""}`;
-}
-function tabMoedas(){
-  if(!S.moedas)return'<p class="empty">Buscando câmbio…</p>';
-  return `<table><thead><tr><th>Moeda</th><th class="n">R$</th><th class="n">Dia</th></tr></thead><tbody>
-  ${S.moedas.map(m=>`<tr><td>${esc(m.nome)}</td><td class="n">${m.sigla==="BTC"?num(m.valor,0):num(m.valor,m.sigla==="ARS"?4:3)}</td><td class="n">${pct(m.var)}</td></tr>`).join("")}
-  </tbody></table>`;
+  const dot=$("dot"),st=$("status");
+  if(!S.online){dot.className="dot off";st.textContent="Sem internet · mostrando os últimos dados salvos";return}
+  if(S.falhou&&!S.ultima){dot.className="dot off";st.textContent="Fontes ao vivo não responderam · mostrando o último registro";return}
+  dot.className="dot";
+  st.textContent=S.ultima?`Ao vivo · atualizado às ${new Date(S.ultima).toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})} · dólar a cada 1 min`:"Conectando…";
 }
 function renderInicio(){
-  $("destaques").innerHTML=listaHTML("destaques",10);
-  const usd=S.moedas?.find(m=>m.sigla==="USD"),eur=S.moedas?.find(m=>m.sigla==="EUR"),gas=S.base?.combustiveis.itens[0],die=S.base?.combustiveis.itens[2];
-  $("resumoMercado").innerHTML=`<h2>Mercado</h2><div class="cards">
-    <div><div class="k">Ibovespa</div><div class="v">${S.ibov?num(S.ibov.pontos,0):"—"}</div>${S.ibov?pct(S.ibov.var):""}</div>
-    <div><div class="k">Dólar</div><div class="v">${usd?"R$ "+num(usd.valor,3):"—"}</div>${usd?pct(usd.var):""}</div>
-    <div><div class="k">Euro</div><div class="v">${eur?"R$ "+num(eur.valor,3):"—"}</div>${eur?pct(eur.var):""}</div>
-    <div><div class="k">Gasolina / Diesel</div><div class="v" style="font-size:16px">${gas?"R$ "+num(gas.valor,2):"—"} / ${die?"R$ "+num(die.valor,2):"—"}</div><span class="note">média ANP</span></div>
-  </div>`;
+  const a=S.base?.alerta;$("alert").hidden=!a;if(a)$("alert").textContent=a;
+  $("today").innerHTML=resumoDia();
+  $("hDolar").innerHTML=dolarHero(false)+`<button class="link" style="color:#4cc9a6" data-go="mercado" data-j="mDolar">Ver gráfico completo ›</button>`;
+  const ib=S.ibov,se=S.ind.selic,ip=S.ind.ipca12,ga=S.base?.combustiveis.itens[0],eu=S.moedas?.find(m=>m.sigla==="EUR");
+  $("hTiles").innerHTML=[
+    ["Bolsa (Ibovespa)",ib?num(ib.pontos,0)+" pts":"—",ib?pct(ib.var):"","mIbov"],
+    ["Euro",eu?"R$ "+num(eu.valor,3):"—",eu?pct(eu.var):"","mCambio"],
+    ["Juros (Selic)",se?num(se.valor,2)+"%":"—",'<span class="x">ao ano</span>',"mInd"],
+    ["Inflação 12 meses",ip?num(ip.valor,2)+"%":"—",'<span class="x">IPCA</span>',"mInd"],
+    ["Gasolina",ga?"R$ "+num(ga.valor,2):"—",'<span class="x">média Brasil</span>',"mComb"],
+    ["Diesel S10",S.base?"R$ "+num(S.base.combustiveis.itens[2].valor,2):"—",'<span class="x">média Brasil</span>',"mComb"]
+  ].map(([k,v,x,j])=>`<button class="tile" data-go="mercado" data-j="${j}"><span class="k">${k}</span><span class="v">${v}</span>${x}</button>`).join("");
+  $("hAcoes").innerHTML=`<h2>Ações hoje</h2><p class="sub">Verde subiu, vermelho caiu. ${S.acoesAoVivo?'<span class="tag live">ao vivo</span>':'<span class="tag">último registro</span>'}</p>${barras(S.acoes,{label:"Variação das ações hoje"})}<button class="link" data-go="mercado" data-j="mIbov">Ver bolsa completa ›</button>`;
   const e=S.base?.eleicoes;
-  $("resumoEleicao").innerHTML=e?`<h2>Eleição presidencial</h2>${duelo(e)}<button class="more" data-go="eleicoes">Ver andamento completo</button>`:"";
-}
-function duelo(e){
-  return `<div class="duel">${e.candidatos.map(c=>`<div class="cand" style="--c:var(--${esc(c.id)})"><div class="nm">${esc(c.nome)}</div><div class="pc">${num(c.pct)}%</div><div class="st">${esc(c.situacao)}</div></div>`).join("")}</div>`;
+  $("hEleicao").innerHTML=e?`<h2>Eleição presidencial</h2><p class="sub">Resultado do 2º turno (25/10).</p>${duelo(e)}<button class="link" data-go="eleicoes">Ver andamento completo ›</button>`:"";
+  $("destaques").innerHTML=listaHTML("destaques",6);
 }
 function renderNoticias(){
-  document.querySelectorAll(".chip").forEach(b=>b.setAttribute("aria-pressed",b.dataset.c===S.cat));
-  $("newsTitle").textContent=TITULOS[S.cat];
+  document.querySelectorAll("#chips .chip").forEach(b=>b.setAttribute("aria-pressed",b.dataset.c===S.cat));
+  $("newsTitle").textContent=TITULOS[S.cat];$("newsSub").textContent=SUBS[S.cat];
   $("newsList").innerHTML=listaHTML(S.cat);
 }
 function renderMercado(){
-  $("pIbov").innerHTML=`<h2>Bolsa · Ibovespa</h2>${blocoIbov()}`;
-  $("pCambio").innerHTML=`<h2>Câmbio</h2>${tabMoedas()}<p class="note">${S.moedas?.[0]?.cache?"Último registro salvo; atualiza sozinho quando a fonte responder.":"Cotação comercial de compra, atualizada a cada minuto."}</p>`;
-  $("pAcoes").innerHTML=`<h2>Principais ações</h2>${S.acoesAoVivo?'<span class="tag live">ao vivo</span>':'<span class="tag">último registro</span>'}${barrasAcoes(S.acoes)}
-    ${S.acoes?.some(a=>a.preco!=null)?`<table><tbody>${S.acoes.filter(a=>a.preco!=null).map(a=>`<tr><td>${esc(a.ticker)} <span class="note">${esc(a.nome||"")}</span></td><td class="n">R$ ${num(a.preco)}</td></tr>`).join("")}</tbody></table>`:""}`;
-  $("pDolar").innerHTML=`<h2>Dólar · histórico</h2><div class="seg" role="group" aria-label="Período">${[7,30,90].map(d=>`<button data-dias="${d}" aria-pressed="${S.histDias===d}">${d} dias</button>`).join("")}</div>${linhaDolar(S.hist)}`;
+  $("mDolar").innerHTML=dolarHero(true);
+  $("mCambio").innerHTML=`<h2>Outras moedas</h2><p class="sub">Quanto custa 1 unidade de cada moeda em reais.</p>${S.moedas?`<table><thead><tr><th>Moeda</th><th class="n">R$</th><th class="n">Hoje</th></tr></thead><tbody>
+    ${S.moedas.map(m=>`<tr><td>${esc(m.nome)}</td><td class="n">${m.sigla==="BTC"?num(m.valor,0):num(m.valor,m.sigla==="ARS"?4:3)}</td><td class="n">${m.var==null||isNaN(m.var)?"—":pct(m.var)}</td></tr>`).join("")}
+    ${S.turismo?`<tr><td>Dólar turismo <span class="note">(para viagem)</span></td><td class="n">${num(S.turismo.valor,3)}</td><td class="n">${pct(S.turismo.var)}</td></tr>`:""}</tbody></table>`:'<p class="empty">Buscando…</p>'}`;
+  const ib=S.ibov;
+  $("mIbov").innerHTML=`<h2>Bolsa · Ibovespa</h2><p class="sub">Média das principais ações da B3, a bolsa brasileira.</p>
+    ${ib?`<div class="big">${num(ib.pontos,0)} <small style="font-size:14px">pts</small></div><div>${pct(ib.var)} ${ib.aoVivo?'<span class="tag live">ao vivo</span>':`<span class="tag">registro ${esc(ib.hora||"salvo")}</span>`}</div>${faixaIbov(ib)}${ib.obs&&!ib.aoVivo?`<p class="note">${esc(ib.obs)}</p>`:""}`:'<p class="empty">Indisponível agora.</p>'}
+    <h3>Principais ações hoje</h3>${barras(S.acoes,{label:"Variação das ações"})}
+    ${S.acoes?.some(a=>a.preco!=null)?`<table><tbody>${S.acoes.filter(a=>a.preco!=null).map(a=>`<tr><td><b>${esc(a.ticker)}</b> <span class="note">${esc(a.nome||"")}</span></td><td class="n">R$ ${num(a.preco)}</td></tr>`).join("")}</tbody></table>`:""}
+    ${!ib?.aoVivo?'<div class="box">Para ver o Ibovespa e mais ações ao vivo, coloque a chave gratuita da brapi em <b>Ajustes</b>, no fim da página.</div>':""}`;
+  const iv=S.base?.indicadores;
+  $("mInd").innerHTML=`<h2>Juros e inflação</h2><p class="sub">Toque em cada item para entender o que é.</p>
+    <div class="ind">${IND.filter(i=>S.ind[i.id]).map(i=>{const v=S.ind[i.id];return `<details><summary><span class="nm">${esc(i.nome)}</span><span class="vl">${num(v.valor,i.d)}${i.un.startsWith("%")?"%":""}</span><span class="dt">${esc(i.un.replace(/^%\s?/,""))}${i.un.length>1?" · ":""}${esc(dataInd(v.data))}${v.aoVivo?"":" · registro salvo"}</span></summary><p>${esc(i.exp)}</p></details>`}).join("")||'<p class="empty">Buscando…</p>'}</div>
+    ${iv?`<div class="box"><b>${esc(iv.copom)}</b>${iv.focus?`<br>Previsão do mercado (${esc(iv.focusData)}): ${iv.focus.map(f=>`${esc(f.nome)} <b>${esc(f.valor)}</b>`).join(" · ")}`:""}</div>`:""}`;
   const c=S.base?.combustiveis;
-  $("pComb").innerHTML=`<h2>Combustíveis · média Brasil</h2>${c?`<div class="cards">${c.itens.map(x=>`<div><div class="k">${esc(x.nome)}</div><div class="v">R$ ${num(x.valor,x.dec??2)}<small style="font-size:12px">/${esc(x.un)}</small></div><span class="note">no ano ${x.varAno>=0?"+":""}${num(x.varAno,1)}%</span></div>`).join("")}</div><p class="note">${esc(c.semana)} <a href="https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/levantamento-de-precos-de-combustiveis-ultimas-semanas-pesquisadas" target="_blank" rel="noopener">Ver pesquisa da ANP ↗</a></p>`:'<p class="empty">Carregando…</p>'}`;
+  $("mComb").innerHTML=`<h2>Combustíveis</h2><p class="sub">Preço médio no Brasil (ANP) e quanto mudou desde janeiro.</p>${c?`
+    <div class="fuel">${c.itens.map(x=>`<div><span class="k">${esc(x.nome)}</span><span class="v">R$ ${num(x.valor,2)}<small>/${esc(x.un)}</small></span></div>`).join("")}</div>
+    <h3>Variação no ano</h3>${barras(c.itens.map(x=>({ticker:x.nome,var:x.varAno})),{label:"Variação dos combustíveis no ano"})}
+    <p class="note">${esc(c.semana)} <a href="https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/levantamento-de-precos-de-combustiveis-ultimas-semanas-pesquisadas" target="_blank" rel="noopener">Pesquisa da ANP ↗</a></p>`:""}`;
   const j=S.base?.mercado.juros;
-  $("pJuros").innerHTML=`<h2>Juros futuros (DI)</h2>${j?`<table><thead><tr><th>Vencimento</th><th class="n">Taxa</th><th class="n">No dia</th></tr></thead><tbody>${j.map(x=>`<tr><td>${esc(x.nome)}</td><td class="n">${num(x.taxa,3)}%</td><td class="n d">+${num(x.var,2)} p.p.</td></tr>`).join("")}</tbody></table><p class="note">Registro de 26/10. Juros futuros em alta significam crédito mais caro à frente.</p>`:""}`;
+  $("mJuros").innerHTML=`<h2>Juros futuros (DI)</h2><p class="sub">Quanto o mercado espera de juros nos próximos anos. Subindo, o crédito tende a ficar mais caro.</p>${j?`<table><thead><tr><th>Vencimento</th><th class="n">Taxa</th><th class="n">No dia</th></tr></thead><tbody>${j.map(x=>`<tr><td>${esc(x.nome)}</td><td class="n">${num(x.taxa,2)}%</td><td class="n d">+${num(x.var,2)}</td></tr>`).join("")}</tbody></table><p class="note">Registro de 26/10, em pontos percentuais.</p>`:""}`;
 }
-document.addEventListener("click",async e=>{
-  const b=e.target.closest("[data-dias]");if(!b)return;S.histDias=+b.dataset.dias;await carregaHist();renderMercado();
-});
 function renderEleicoes(){
   const e=S.base?.eleicoes;
   if(e){
     const bar=(a,b)=>`<div class="rbar"><div style="width:${a}%;background:var(--lula)">Lula ${num(a)}%</div><div style="width:${b}%;background:var(--flavio);justify-content:flex-end">${num(b)}% Flávio</div><span class="mid"></span></div>`;
-    $("pEleicao").innerHTML=`<h2>Lula × Flávio</h2>${duelo(e)}
+    $("pEleicao").innerHTML=`<h2>Lula × Flávio</h2><p class="sub">Percentual dos votos válidos. A linha tracejada marca 50%.</p>${duelo(e)}
     <div class="rlab"><span>2º turno · ${esc(e.segundoTurno.data)}</span><span>${esc(e.segundoTurno.margem)}</span></div>${bar(e.segundoTurno.lula,e.segundoTurno.flavio)}
     <div class="rlab"><span>1º turno · ${esc(e.primeiroTurno.data)}</span><span>${esc(e.primeiroTurno.obs)}</span></div>${bar(e.primeiroTurno.lula,e.primeiroTurno.flavio)}
-    <p class="note">Percentual dos votos válidos. A linha tracejada marca 50%. No 1º turno a soma não dá 100% porque houve outros candidatos.</p>
+    <p class="note">No 1º turno a soma não dá 100% porque houve outros candidatos.</p>
     <h3>Andamento</h3><ol class="tl">${e.linhaTempo.map(x=>`<li class="${x.futuro?"next":""}"><span class="dt">${esc(x.data)}</span><span>${esc(x.texto)}</span></li>`).join("")}</ol>`;
   }
   $("eleNews").innerHTML=listaHTML("eleicoes",20);
 }
 function render(){
   renderTape();renderStatus();
-  const a=S.base?.alerta;$("alert").hidden=!a;if(a)$("alert").textContent=a;
   ({inicio:renderInicio,noticias:renderNoticias,mercado:renderMercado,eleicoes:renderEleicoes})[S.view]();
 }
 
-/* ============ NAVEGAÇÃO ============ */
-function vai(v){
+/* ================= NAVEGAÇÃO ================= */
+const VIEWS=["inicio","noticias","mercado","eleicoes"];
+function vai(v,alvo){
   S.view=v;
-  document.querySelectorAll(".view").forEach(s=>s.hidden=s.id!=="v-"+v);
+  document.querySelectorAll("section.view").forEach(s=>s.hidden=s.id!=="v-"+v);
   document.querySelectorAll(".tab").forEach(t=>{if(t.dataset.v===v)t.setAttribute("aria-current","page");else t.removeAttribute("aria-current")});
-  history.replaceState(null,"","#"+v);window.scrollTo(0,0);
+  if(location.hash.slice(1)!==v)history.replaceState(null,"","#"+v);
   render();precisaNoticias();
+  if(alvo)requestAnimationFrame(()=>$(alvo)?.scrollIntoView({behavior:"smooth",block:"start"}));else window.scrollTo(0,0);
 }
-addEventListener("hashchange",()=>{const h=location.hash.slice(1);if(h!==S.view&&["inicio","noticias","mercado","eleicoes"].includes(h))vai(h)});
-document.querySelector("nav.bottom").addEventListener("click",e=>{const t=e.target.closest(".tab");if(t)vai(t.dataset.v)});
-document.addEventListener("click",e=>{const g=e.target.closest("[data-go]");if(g)vai(g.dataset.go)});
-$("chips").addEventListener("click",e=>{const c=e.target.closest(".chip");if(!c)return;S.cat=c.dataset.c;store.set("cat",S.cat);renderNoticias();precisaNoticias()});
+addEventListener("hashchange",()=>{const h=location.hash.slice(1);if(h!==S.view&&VIEWS.includes(h))vai(h)});
+document.addEventListener("click",async e=>{
+  const t=e.target.closest(".tab");if(t)return vai(t.dataset.v);
+  const g=e.target.closest("[data-go]");if(g)return vai(g.dataset.go,g.dataset.j);
+  const j=e.target.closest("[data-j]");if(j)return $(j.dataset.j)?.scrollIntoView({behavior:"smooth",block:"start"});
+  const sc=e.target.closest("[data-cat]");if(sc){S.cat=sc.dataset.cat;store.set("cat",S.cat);return vai("noticias")}
+  const c=e.target.closest("#chips .chip");if(c){S.cat=c.dataset.c;store.set("cat",S.cat);renderNoticias();return precisaNoticias()}
+  const m=e.target.closest("[data-more]");if(m){S.shown[m.dataset.more]=(S.shown[m.dataset.more]||15)+15;return renderNoticias()}
+  const d=e.target.closest("[data-dias]");if(d){S.histDias=+d.dataset.dias;await carregaHist();return render()}
+});
 function precisaNoticias(){
   const cats=S.view==="inicio"?["destaques"]:S.view==="noticias"?[S.cat]:S.view==="eleicoes"?["eleicoes"]:[];
   cats.filter(c=>!S.news[c]).forEach(c=>carregaNoticias(c).then(render));
 }
 
-/* ============ ATUALIZAÇÃO ============ */
-async function atualizaTudo(forcarNoticias){
+/* ================= ATUALIZAÇÃO ================= */
+function digitando(){const a=document.activeElement;return a&&a.matches&&a.matches("input,select")}
+function renderSeguro(){if(!digitando())render();else{renderTape();renderStatus()}}
+async function atualizaTudo(forcar){
   $("btnRefresh").classList.add("spin");
-  await Promise.all([carregaMoedas(),carregaAcoes(),S.hist?null:carregaHist()]);
-  render();
-  const cats=new Set(["destaques",S.cat,"eleicoes"]);
-  if(forcarNoticias)Object.keys(S.news).forEach(c=>cats.add(c));
-  await Promise.all([...cats].map(c=>carregaNoticias(c)));
-  render();$("btnRefresh").classList.remove("spin");
+  await Promise.all([carregaMoedas(),carregaAcoes(),carregaIndicadores()]);
+  await carregaHist();renderSeguro();
+  const cats=new Set(["destaques",S.cat,"eleicoes"]);if(forcar)Object.keys(S.news).forEach(c=>cats.add(c));
+  await Promise.all([...cats].map(carregaNoticias));
+  renderSeguro();$("btnRefresh").classList.remove("spin");
 }
 $("btnRefresh").addEventListener("click",()=>atualizaTudo(true));
-setInterval(()=>{if(!document.hidden&&S.online)carregaMoedas().then(render)},60000);
-setInterval(()=>{if(!document.hidden&&S.online)carregaAcoes().then(render)},5*60000);
+setInterval(()=>{if(!document.hidden&&S.online)carregaMoedas().then(renderSeguro)},60000);
+setInterval(()=>{if(!document.hidden&&S.online)carregaAcoes().then(renderSeguro)},5*60000);
 setInterval(()=>{if(!document.hidden&&S.online)atualizaTudo(false)},10*60000);
 setInterval(renderStatus,30000);
 document.addEventListener("visibilitychange",()=>{if(!document.hidden&&S.online&&(!S.ultima||Date.now()-S.ultima>60000))atualizaTudo(false)});
 addEventListener("online",()=>{S.online=true;atualizaTudo(false)});
 addEventListener("offline",()=>{S.online=false;renderStatus()});
 
-/* ============ AJUSTES ============ */
+/* ================= AJUSTES ================= */
 $("btnAjustes").addEventListener("click",()=>{$("token").value=store.get("token","");$("dlg").showModal()});
 $("dlgClose").addEventListener("click",()=>$("dlg").close());
 $("dlgSave").addEventListener("click",async()=>{store.set("token",$("token").value.trim());$("dlg").close();S.acoes=null;S.ibov=null;await carregaAcoes();render()});
 
-/* ============ INSTALAÇÃO (PWA) ============ */
-let pedidoInstalar=null;
-addEventListener("beforeinstallprompt",e=>{e.preventDefault();pedidoInstalar=e;$("btnInstall").hidden=false});
-$("btnInstall").addEventListener("click",async()=>{if(!pedidoInstalar)return;pedidoInstalar.prompt();await pedidoInstalar.userChoice.catch(()=>{});pedidoInstalar=null;$("btnInstall").hidden=true});
+/* ================= INSTALAÇÃO ================= */
+let pedido=null;
+addEventListener("beforeinstallprompt",e=>{e.preventDefault();pedido=e;$("btnInstall").hidden=false});
+$("btnInstall").addEventListener("click",async()=>{if(!pedido)return;pedido.prompt();await pedido.userChoice.catch(()=>{});pedido=null;$("btnInstall").hidden=true});
 addEventListener("appinstalled",()=>{$("btnInstall").hidden=true});
-const ehIOS=/iphone|ipad|ipod/i.test(navigator.userAgent),instalado=matchMedia("(display-mode: standalone)").matches||navigator.standalone;
-if(ehIOS&&!instalado&&!store.get("iosOk",false)){$("iosHint").hidden=false;$("iosHint").addEventListener("click",()=>{$("iosHint").hidden=true;store.set("iosOk",true)})}
+if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!(matchMedia("(display-mode: standalone)").matches||navigator.standalone)&&!store.get("iosOk",false)){
+  $("iosHint").hidden=false;$("iosHint").addEventListener("click",()=>{$("iosHint").hidden=true;store.set("iosOk",true)})}
 if("serviceWorker" in navigator)addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));
 
-/* ============ INÍCIO ============ */
+/* ================= INÍCIO ================= */
 (async()=>{
-  try{S.base=await getJSON("dados.json?"+Date.now())}catch(e){try{S.base=await (await fetch("dados.json")).json()}catch(e2){}}
-  const h=location.hash.slice(1);
-  vai(["inicio","noticias","mercado","eleicoes"].includes(h)?h:"inicio");
+  try{S.base=await req("dados.json?"+Date.now())}catch(e){try{S.base=await (await fetch("dados.json")).json()}catch(e2){}}
+  if(S.base&&!Object.keys(S.ind).length){const b=S.base.indicadores?.itens||{};const s=store.get("ind",{});IND.forEach(i=>{const v=s[i.id]||b[i.id];if(v)S.ind[i.id]={...v,aoVivo:false}})}
+  if(!S.moedas){const s=store.get("moedas",null);S.moedas=s?s.map(m=>({...m,cache:true})):S.base?.mercado.moedas?.map(m=>({...m,cache:true}))||null;S.turismo=store.get("turismo",null)}
+  if(!S.ibov)S.ibov=store.get("ibov",null)||(S.base?{...S.base.mercado.ibov,aoVivo:false}:null);
+  if(!S.acoes)S.acoes=store.get("acoes",null)||S.base?.mercado.acoes||null;
+  const h=location.hash.slice(1);vai(VIEWS.includes(h)?h:"inicio");
   atualizaTudo(false);
 })();
 </script>

@@ -254,5 +254,38 @@
       "fonte": "Agência Brasil",
       "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/luciano-zucco-e-eleito-governador-do-rs"
     }
-  ]
+  ],
+  "indicadores": {
+    "fonte": "Banco Central (SGS) e IBGE",
+    "itens": {
+      "selic": {
+        "valor": 13.75,
+        "data": "17/09/2026"
+      },
+      "cdi": {
+        "valor": 13.65,
+        "data": "26/10/2026"
+      },
+      "ipca12": {
+        "valor": 4.58,
+        "data": "09/2026"
+      },
+      "ipcam": {
+        "valor": 0.82,
+        "data": "09/2026"
+      }
+    },
+    "copom": "Próxima decisão da Selic: 4 de novembro de 2026 (após as 18h30).",
+    "focus": [
+      {
+        "nome": "Selic no fim de 2026",
+        "valor": "13,25%"
+      },
+      {
+        "nome": "Inflação (IPCA) de 2026",
+        "valor": "5,22%"
+      }
+    ],
+    "focusData": "Boletim Focus de 13/10/2026"
+  }
 }
