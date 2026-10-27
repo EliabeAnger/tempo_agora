@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-10-27T06:50:00-03:00",
-  "alerta": "Flávio desiste de pedir a anulação da eleição e vai buscar a cassação da chapa de Lula no TSE. Mercado tenta se recompor após a bolsa cair 13,88% e o dólar subir 8,2%.",
+  "atualizadoEm": "2026-10-27T11:45:00-03:00",
+  "alerta": "Dólar recua para cerca de R$ 5,32 e a Bolsa oscila perto da estabilidade após o tombo de segunda. Governo prorroga o subsídio de R$ 2,12 ao diesel; Trump diz que a eleição 'pareceu fraudada' e Alckmin rebate.",
   "eleicoes": {
     "candidatos": [
       {
@@ -13,7 +13,7 @@
         "id": "flavio",
         "nome": "Flávio Bolsonaro (PL)",
         "pct": 48.21,
-        "situacao": "Contesta o resultado, mas desistiu de pedir a anulação; vai pedir no TSE a cassação da chapa Lula-Alckmin."
+        "situacao": "Contesta o resultado e vai pedir no TSE a cassação da chapa Lula-Alckmin. O PL, seu partido, reconheceu a vitória de Lula."
       }
     ],
     "segundoTurno": {
@@ -60,6 +60,18 @@
       {
         "data": "26/10",
         "texto": "Flávio desiste de pedir a anulação e anuncia ações para cassar a chapa Lula-Alckmin por suposto abuso de poder."
+      },
+      {
+        "data": "26/10",
+        "texto": "PL, em nota de Valdemar Costa Neto, reconhece o resultado proclamado pelo TSE, mas cobra esclarecimentos e critica gastos sociais antes da votação."
+      },
+      {
+        "data": "26/10",
+        "texto": "Trump diz que a eleição 'pareceu fraudada', sem apresentar provas; ele também diz que gosta de Lula."
+      },
+      {
+        "data": "27/10",
+        "texto": "Alckmin chama a fala de Trump de 'totalmente equivocada'. STF autoriza a PF a investigar suposta interferência de big techs na eleição."
       },
       {
         "data": "05/01/27",
@@ -123,28 +135,28 @@
     "juros": [
       {
         "nome": "DI jan/2027",
-        "taxa": 13.723,
-        "var": 0.248
+        "taxa": 13.69,
+        "var": -0.033
       },
       {
         "nome": "DI jan/2028",
-        "taxa": 14.905,
-        "var": 2.08
+        "taxa": 14.73,
+        "var": -0.175
       },
       {
         "nome": "DI jan/2031",
-        "taxa": 15.24,
-        "var": 2.665
+        "taxa": 15.185,
+        "var": -0.055
       },
       {
         "nome": "DI jan/2033",
-        "taxa": 15.25,
-        "var": 2.6
+        "taxa": 15.225,
+        "var": -0.025
       },
       {
         "nome": "DI jan/2035",
-        "taxa": 15.195,
-        "var": 2.54
+        "taxa": 15.205,
+        "var": 0.01
       }
     ],
     "moedas": [
@@ -346,13 +358,14 @@
     {
       "id": "bolsa",
       "tema": "Bolsa e dólar",
-      "titulo": "Bolsa tem pior dia desde 2020 e dólar a maior alta desde 1999",
-      "chamada": "O Ibovespa caiu 13,88% e o dólar subiu 8,2% depois da eleição. Entenda o porquê e o que pode acalmar o mercado.",
+      "titulo": "Depois do pior dia desde 2020, Bolsa estabiliza e dólar recua",
+      "chamada": "Na segunda o Ibovespa caiu 13,88% e o dólar subiu mais de 8%. Nesta terça há uma pausa. Entenda o que explica e o que pode acalmar o mercado.",
       "data": "27/10/2026",
       "inicio": [
         "Na segunda (26/10), primeiro pregão depois do 2º turno, o Ibovespa fechou em queda de 13,88%, aos 176.608 pontos, o pior dia desde março de 2020. Na mínima chegou a cair mais de 17%, e a B3 parou o pregão por 30 minutos (circuit breaker).",
         "O dólar fechou a R$ 5,40, alta de 8,21%, a maior em um dia desde janeiro de 1999. Os juros futuros longos subiram cerca de 2,6 pontos, para perto de 15,2% ao ano.",
-        "O Tesouro cancelou leilões de títulos da semana e recomprou papéis para conter os juros. Citi e BCA Research rebaixaram a recomendação para ativos brasileiros."
+        "O Tesouro cancelou leilões de títulos da semana e recomprou papéis para conter os juros. Citi e BCA Research rebaixaram a recomendação para ativos brasileiros.",
+        "Na terça (27/10), o mercado deu uma pausa: perto das 11h o dólar caía cerca de 1,5%, a R$ 5,32, e o Ibovespa oscilava perto da estabilidade, na casa dos 177 mil pontos. O Banco Central fez leilão de swap cambial de até US$ 4 bilhões para dar liquidez ao câmbio."
       ],
       "cadeia": [
         "O mercado apostava na vitória de Flávio e comprou muitas ações",
@@ -379,6 +392,7 @@
         }
       ],
       "saidas": [
+        "O Banco Central ofereceu proteção cambial (swap) de até US$ 4 bilhões nesta terça; o ministro Durigan diz que o governo tem medidas fiscais prontas",
         "Anunciar logo o ministro da Fazenda e a equipe econômica, com metas claras",
         "Medidas concretas de controle de gastos. O ministro Durigan prometeu mudar a lei, ou a Constituição se precisar, para mirar o centro da meta fiscal",
         "O Tesouro já recomprou títulos e cancelou leilões para acalmar os juros",
@@ -391,6 +405,14 @@
         "Em momentos assim, renda fixa pós-fixada (atrelada ao CDI) costuma ser vista como mais defensiva"
       ],
       "fontes": [
+        {
+          "nome": "InfoMoney (ao vivo 27/10)",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-27102026/"
+        },
+        {
+          "nome": "BPMoney (dólar 27/10)",
+          "url": "https://bpmoney.com.br/economia/dolar-hoje-cai-apos-alta-reeleicao-lula/"
+        },
         {
           "nome": "InfoMoney (fechamento 26/10)",
           "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26102026/"
@@ -424,28 +446,33 @@
         "dolar",
         "ibov"
       ],
-      "atualizadoEm": "2026-10-27T06:50:00-03:00",
+      "atualizadoEm": "2026-10-27T11:45:00-03:00",
       "atualizacoes": [
         {
           "hora": "6h",
           "texto": "Fechamento confirmado: Ibovespa -13,88% e dólar a R$ 5,40 (+8,21%); Citi e BCA Research rebaixam ativos do Brasil."
+        },
+        {
+          "hora": "11h",
+          "texto": "Pausa na terça: dólar cai para cerca de R$ 5,32 e Ibovespa oscila perto de 177 mil pontos; BC faz leilão de swap de até US$ 4 bilhões."
         }
       ],
       "referencia": {
-        "dolar": 5.403,
-        "ibov": 176608.23,
+        "dolar": 5.32,
+        "ibov": 177029.5,
         "selic": 13.75
       }
     },
     {
       "id": "eleicao",
       "tema": "Eleições",
-      "titulo": "Flávio desiste da anulação e mira a cassação da chapa de Lula",
-      "chamada": "O pedido de anular a eleição foi deixado de lado. O que cada lado diz e quais são os próximos passos.",
+      "titulo": "PL reconhece a vitória de Lula; Flávio mantém pedido de cassação",
+      "chamada": "O partido aceitou o resultado, mas Flávio segue com ações no TSE. Trump disse que a eleição pareceu fraudada e o governo rebateu. O que cada lado diz.",
       "data": "27/10/2026",
       "inicio": [
         "Lula venceu o 2º turno com 51,79% dos votos válidos, cerca de 4,4 milhões de votos à frente. O TSE confirmou o resultado.",
-        "Na segunda (26/10), aliados e o jurídico de Flávio Bolsonaro disseram que não vão pedir a anulação. Em vídeo, Flávio afirmou que vai pedir a cassação da chapa Lula-Alckmin por suposto abuso de poder político e econômico."
+        "Na segunda (26/10), aliados e o jurídico de Flávio Bolsonaro disseram que não vão pedir a anulação. Em vídeo, Flávio afirmou que vai pedir a cassação da chapa Lula-Alckmin por suposto abuso de poder político e econômico.",
+        "O PL, em nota assinada por Valdemar Costa Neto, reconheceu o resultado proclamado pelo TSE, mas pediu esclarecimentos e chamou de eleitoreira a ampliação de benefícios sociais antes da votação. Trump disse, sem apresentar provas, que a eleição 'pareceu fraudada'; Alckmin respondeu que a fala está totalmente equivocada."
       ],
       "cadeia": [
         "Faltam ônibus e há filas em algumas cidades",
@@ -453,10 +480,11 @@
         "O ministro Zanin, do STF, prorroga a votação até 19h onde as seções ainda estavam abertas",
         "Flávio diz no domingo que vai pedir a anulação",
         "Na segunda, recua e troca a estratégia por ações de cassação no TSE",
+        "O PL reconhece o resultado, mas Flávio mantém a contestação",
         "A oposição passa a se organizar no novo Congresso"
       ],
-      "porque": "A campanha de Flávio argumenta que houve abuso de poder na campanha e que a prorrogação, decidida por um ministro do STF, tratou eleitores de forma desigual. Segundo a imprensa, cerca de 20 ações de cassação já foram apresentadas.",
-      "outraLeitura": "O presidente do TSE, Nunes Marques, disse que a prorrogação não afetou a totalização, e o tribunal classificou como falsa a alegação de que fiscais do PL foram expulsos da sala de totalização. Juristas ouvidos pela imprensa avaliam que pedidos desse tipo têm poucas chances. A campanha de Flávio também tinha pedido mais tempo de votação em cidades de SP, PR e SC.",
+      "porque": "A campanha de Flávio argumenta que houve abuso de poder na campanha, citando quase R$ 500 bilhões em gastos do governo, e que a prorrogação, decidida por um ministro do STF, tratou eleitores de forma desigual. Segundo a imprensa, ele não apresentou provas e cerca de 20 ações de cassação já foram apresentadas.",
+      "outraLeitura": "O presidente do TSE, Nunes Marques, disse que a prorrogação não afetou a totalização, e o tribunal classificou como falsa a alegação de que fiscais do PL foram expulsos da sala de totalização. A própria campanha de Flávio tinha pedido mais tempo em cidades de SP, PR e SC por causa da chuva. O próprio PL reconheceu o resultado, e líderes de vários países, da esquerda à direita, cumprimentaram Lula. Juristas avaliam que pedidos de cassação desse tipo têm poucas chances.",
       "cenarios": [
         {
           "tipo": "base",
@@ -475,6 +503,18 @@
       ],
       "bolso": [],
       "fontes": [
+        {
+          "nome": "Terra (nota do PL)",
+          "url": "https://www.terra.com.br/noticias/eleicoes/pl-reconhece-resultado-da-eleicao-que-reelegeu-lula-apesar-de-flavio-contestar-derrota,b586497e727ee98d227fcef86c40c292ywvhtrkr.html"
+        },
+        {
+          "nome": "O Povo (Trump)",
+          "url": "https://mais.opovo.com.br/jornal/politica/2026/10/27/trump-fala-que-gosta-de-lula-mas-que-eleicao-brasileira-pareceu-fraudada.html"
+        },
+        {
+          "nome": "Fato News",
+          "url": "https://fatonews.com.br/2026/10/27/apos-derrota-flavio-diz-que-pedira-cassacao-da-chapa-de-lula-ao-tse-e-acusa-petista-de-abuso-de-poder-politico-e-economico/"
+        },
         {
           "nome": "Metrópoles",
           "url": "https://www.metropoles.com/brasil/flavio-nao-vai-mais-pedir-anulacao-da-eleicao-dizem-aliados-e-juridico"
@@ -497,16 +537,20 @@
         }
       ],
       "indicadores": [],
-      "atualizadoEm": "2026-10-27T06:50:00-03:00",
+      "atualizadoEm": "2026-10-27T11:45:00-03:00",
       "atualizacoes": [
         {
           "hora": "6h",
           "texto": "Flávio deixa de lado o pedido de anulação e anuncia ações para cassar a chapa Lula-Alckmin; TSE confirma o resultado."
+        },
+        {
+          "hora": "11h",
+          "texto": "PL reconhece o resultado do TSE, mas Flávio mantém o pedido de cassação; Trump diz que a eleição 'pareceu fraudada' e Alckmin rebate."
         }
       ],
       "referencia": {
-        "dolar": 5.403,
-        "ibov": 176608.23,
+        "dolar": 5.32,
+        "ibov": 177029.5,
         "selic": 13.75
       }
     },
@@ -517,8 +561,9 @@
       "chamada": "O mercado espera o nome do ministro da Fazenda. Alckmin aparece como favorito. Por que isso importa.",
       "data": "27/10/2026",
       "inicio": [
-        "Lula foi reeleito e o mandato novo começa em 5 de janeiro de 2027. Ainda não há anúncio oficial da equipe econômica.",
-        "A imprensa aponta o vice Geraldo Alckmin como o nome mais cotado para a Fazenda. Uma ala do PT defende o governador do Piauí, Rafael Fonteles."
+        "Lula foi reeleito e o mandato novo começa em 5 de janeiro de 2027. Segundo o presidente do PT, Edinho Silva, o ministro da Fazenda será anunciado até o fim de 2026 e Lula ainda não começou a montar a equipe.",
+        "A imprensa aponta o vice Geraldo Alckmin como o nome mais cotado para a Fazenda. Uma ala do PT defende o governador do Piauí, Rafael Fonteles.",
+        "O atual ministro, Dario Durigan, disse nesta terça que o governo tem medidas fiscais prontas. Economistas ouvidos pela imprensa listam o que poderia recuperar a confiança: plano fiscal com metas e prazos, revisão do crescimento das despesas obrigatórias e anúncio rápido da equipe."
       ],
       "cadeia": [
         "Mercado reage mal à reeleição",
@@ -545,14 +590,23 @@
       ],
       "saidas": [
         "Anunciar cedo o ministro e a equipe econômica",
-        "Apresentar metas fiscais com números claros",
-        "Negociar com o novo Congresso a agenda de reformas, como a tributária"
+        "Apresentar um plano fiscal com metas, prazos e números verificáveis (sugestão de economistas, como Solange Srour, do UBS)",
+        "Rever o crescimento das despesas obrigatórias e os benefícios tributários, que Edinho estima em cerca de 4% do PIB",
+        "Negociar com o novo Congresso a agenda de reformas"
       ],
       "bolso": [
         "Enquanto a incerteza durar, evite decisões financeiras grandes no impulso",
         "Para dinheiro de curto prazo, aplicações atreladas ao CDI ou à Selic oscilam menos"
       ],
       "fontes": [
+        {
+          "nome": "A Crítica (Edinho)",
+          "url": "https://acritica.net/politica/lula-escolhera-ministro-da-fazenda-ate-o-fim-do-ano-e-mantera-meta-fiscal-diz-edinho/"
+        },
+        {
+          "nome": "Maringá Post (seis medidas)",
+          "url": "https://maringapost.com.br/2026/10/27/governo-tem-seis-medidas-para-recuperar-a-confianca-do-mercado/"
+        },
         {
           "nome": "Mix Vale",
           "url": "https://www.mixvale.com.br/2026/10/26/geraldo-alckmin-desponta-como-favorito-para-assumir-o-ministerio-da-fazenda-no-quarto-mandato-de-lula/"
@@ -574,16 +628,20 @@
         "dolar",
         "selic"
       ],
-      "atualizadoEm": "2026-10-27T06:50:00-03:00",
+      "atualizadoEm": "2026-10-27T11:45:00-03:00",
       "atualizacoes": [
         {
           "hora": "6h",
           "texto": "Nova história: Alckmin aparece como favorito para a Fazenda; não há anúncio oficial."
+        },
+        {
+          "hora": "11h",
+          "texto": "Edinho diz que o ministro sai até o fim do ano e que a meta fiscal será mantida; Durigan afirma ter medidas fiscais prontas."
         }
       ],
       "referencia": {
-        "dolar": 5.403,
-        "ibov": 176608.23,
+        "dolar": 5.32,
+        "ibov": 177029.5,
         "selic": 13.75
       }
     },
@@ -595,7 +653,7 @@
       "data": "27/10/2026",
       "inicio": [
         "A Selic está em 13,75% ao ano, depois de cinco cortes em 2026. A próxima decisão do Banco Central é em 4 de novembro.",
-        "A inflação de 12 meses chegou a 4,58% em setembro, acima do limite da meta (4,5%). Depois da eleição, os juros futuros longos saltaram para perto de 15,2% ao ano."
+        "A inflação de 12 meses chegou a 4,58% em setembro, acima do limite da meta (4,5%). Depois da eleição, os juros futuros longos saltaram para perto de 15,2% ao ano; nesta terça abriram estáveis ou em leve queda (DI jan/28 a 14,73%)."
       ],
       "cadeia": [
         "Inflação acima do teto da meta",
@@ -652,39 +710,43 @@
         "selic",
         "ipca"
       ],
-      "atualizadoEm": "2026-10-27T06:50:00-03:00",
+      "atualizadoEm": "2026-10-27T11:45:00-03:00",
       "atualizacoes": [
         {
           "hora": "6h",
           "texto": "Focus de 26/10 mantém Selic de 13,25% no fim de 2026, mas foi coletado antes da eleição; juros futuros longos sobem para cerca de 15,2%."
+        },
+        {
+          "hora": "11h",
+          "texto": "Juros futuros abrem em leve queda nesta terça (DI jan/28 a 14,73%); Fed decide na quarta (28) e o Copom em 4/11."
         }
       ],
       "referencia": {
-        "dolar": 5.403,
-        "ibov": 176608.23,
+        "dolar": 5.32,
+        "ibov": 177029.5,
         "selic": 13.75
       }
     },
     {
       "id": "diesel",
       "tema": "Combustíveis",
-      "titulo": "Diesel: subsídio venceu e petróleo está em US$ 117",
-      "chamada": "O diesel S10 passou de R$ 7 o litro. O subsídio principal venceu em 26/10. O que pode acontecer agora.",
+      "titulo": "Governo prorroga subsídio do diesel por mais 30 dias",
+      "chamada": "A ajuda de R$ 2,12 por litro, que venceria nesta semana, foi mantida. O petróleo segue acima de US$ 100. O que muda para você.",
       "data": "27/10/2026",
       "inicio": [
         "O diesel S10 custa em média R$ 7,38 o litro no Brasil, alta de 20,5% desde janeiro. A gasolina subiu 5,5% no ano, e o etanol caiu 3,8%.",
-        "O subsídio de R$ 2,12 por litro ao diesel venceu na segunda (26/10); até a última checagem, a renovação não tinha sido anunciada. O petróleo Brent chegou a US$ 117 na sexta (23/10), com a guerra no Oriente Médio."
+        "Nesta terça (27/10), o governo prorrogou por mais 30 dias o subsídio de R$ 2,12 por litro, por portaria da Fazenda. Sem a prorrogação, a ajuda cairia para R$ 1. O governo diz que a medida não aumenta o gasto atual. O petróleo Brent segue acima de US$ 100 com a guerra no Oriente Médio."
       ],
       "cadeia": [
         "Guerra no Oriente Médio leva o Brent a US$ 117 o barril",
         "Diesel da Petrobras fica cerca de R$ 3,50 por litro abaixo do preço de importação",
         "Governo paga até R$ 3,52 por litro (R$ 2,12 a todos e mais R$ 1,40 ao importado)",
-        "A parcela de R$ 2,12 venceu em 26/10 e o dólar disparou",
-        "Se não houver renovação, o diesel tende a subir",
+        "A parcela de R$ 2,12 venceria nesta semana e o dólar disparou",
+        "O governo prorroga a ajuda por 30 dias, o que evita uma alta imediata",
         "Frete mais caro encarece alimentos e produtos"
       ],
       "porque": "O Brasil importa parte do diesel que usa. Quando o petróleo e o dólar sobem, o diesel de fora fica mais caro e pressiona o preço aqui.",
-      "outraLeitura": "O fim do subsídio não vira reajuste automático na bomba: o preço depende da Petrobras, das distribuidoras e dos postos. O Goldman Sachs trabalha com cenário base de Petrobras sem reajuste até dezembro, e o ministro Durigan disse que as ajudas podem continuar em 2027 se o petróleo seguir caro.",
+      "outraLeitura": "A prorrogação não baixa o preço: ela só evita que a ajuda caia. Críticos lembram que subsídio custa dinheiro público num momento de pressão sobre as contas; o governo diz que a renovação mantém o valor atual, sem gasto adicional. O Goldman Sachs trabalha com Petrobras sem reajuste até dezembro.",
       "cenarios": [
         {
           "tipo": "otimista",
@@ -692,15 +754,15 @@
         },
         {
           "tipo": "base",
-          "texto": "Governo renova o subsídio por mais 30 dias, como a regra permite, e a Petrobras segura o preço até dezembro (cenário do Goldman Sachs)."
+          "texto": "Subsídio mantido mês a mês e Petrobras sem reajuste até dezembro (cenário do Goldman Sachs)."
         },
         {
           "tipo": "pessimista",
-          "texto": "Sem renovação e com o dólar a R$ 5,40, a diferença para o preço de importação cresce e analistas veem risco de reajuste após a eleição."
+          "texto": "Se o petróleo e o dólar subirem mais, a diferença para o preço de importação cresce e analistas veem risco de reajuste, mesmo com o subsídio."
         }
       ],
       "saidas": [
-        "Renovação do subsídio de R$ 2,12 por mais 30 dias (a portaria permite)",
+        "Subsídio de R$ 2,12 já prorrogado por 30 dias; pode ser renovado de novo",
         "Queda do petróleo no mercado internacional",
         "Dólar mais baixo",
         "Proposta ao Congresso para manter a ajuda em 2027, se necessário"
@@ -710,6 +772,10 @@
         "Para quem trabalha com frete, negociar reajuste atrelado ao diesel ajuda a proteger a margem"
       ],
       "fontes": [
+        {
+          "nome": "Exame (prorrogação)",
+          "url": "https://exame.com/economia/governo-prorroga-subsidio-do-diesel-por-30-dias-valor-seguem-em-r-212/"
+        },
         {
           "nome": "Minaspetro",
           "url": "https://minaspetro.com.br/subsidio-de-r-212-por-litro-do-diesel-vence-nesta-segunda-feira/"
@@ -731,16 +797,20 @@
         "etanol",
         "dolar"
       ],
-      "atualizadoEm": "2026-10-27T06:50:00-03:00",
+      "atualizadoEm": "2026-10-27T11:45:00-03:00",
       "atualizacoes": [
         {
           "hora": "6h",
           "texto": "Subsídio de R$ 2,12 por litro venceu em 26/10 sem renovação anunciada até agora; Brent chegou a US$ 117."
+        },
+        {
+          "hora": "11h",
+          "texto": "Governo prorroga por 30 dias o subsídio de R$ 2,12 por litro; sem isso a ajuda cairia para R$ 1."
         }
       ],
       "referencia": {
-        "dolar": 5.403,
-        "ibov": 176608.23,
+        "dolar": 5.32,
+        "ibov": 177029.5,
         "selic": 13.75
       }
     }
