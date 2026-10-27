@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-10-27T11:45:00-03:00",
-  "alerta": "Dólar recua para cerca de R$ 5,32 e a Bolsa oscila perto da estabilidade após o tombo de segunda. Governo prorroga o subsídio de R$ 2,12 ao diesel; Trump diz que a eleição 'pareceu fraudada' e Alckmin rebate.",
+  "atualizadoEm": "2026-10-27T17:47:00-03:00",
+  "alerta": "Bolsa fecha em leve queda (-0,51%) e dólar recua para R$ 5,35 após o tombo de segunda. Dino (STF) manda a PF investigar suposto financiamento estrangeiro à campanha de Flávio; mercado espera o nome do ministro da Fazenda.",
   "eleicoes": {
     "candidatos": [
       {
@@ -74,6 +74,10 @@
         "texto": "Alckmin chama a fala de Trump de 'totalmente equivocada'. STF autoriza a PF a investigar suposta interferência de big techs na eleição."
       },
       {
+        "data": "27/10",
+        "texto": "Dino (STF) manda a PF abrir inquérito sobre suposto financiamento estrangeiro à campanha de Flávio, via a rede americana Rockbridge; os citados não tinham se manifestado."
+      },
+      {
         "data": "05/01/27",
         "texto": "Posse do presidente eleito.",
         "futuro": true
@@ -135,8 +139,8 @@
     "juros": [
       {
         "nome": "DI jan/2027",
-        "taxa": 13.69,
-        "var": -0.033
+        "taxa": 13.639,
+        "var": -0.057
       },
       {
         "nome": "DI jan/2028",
@@ -150,8 +154,8 @@
       },
       {
         "nome": "DI jan/2033",
-        "taxa": 15.225,
-        "var": -0.025
+        "taxa": 14.93,
+        "var": -0.32
       },
       {
         "nome": "DI jan/2035",
@@ -176,27 +180,27 @@
     "acoesTs": 1793119372855
   },
   "combustiveis": {
-    "semana": "Média nacional ANP, semana de 27/09 a 03/10/2026. Variação desde o início do ano.",
+    "semana": "Média nacional ANP, semana de 18 a 24/10/2026 (gás de cozinha e GNV: semana de 27/09 a 03/10). Variação desde o início do ano.",
     "itens": [
       {
         "nome": "Gasolina",
-        "valor": 6.582,
+        "valor": 6.49,
         "un": "L",
-        "varAno": 5.5,
+        "varAno": 4.0,
         "dec": 3
       },
       {
         "nome": "Etanol",
-        "valor": 4.464,
+        "valor": 4.11,
         "un": "L",
-        "varAno": -3.8,
+        "varAno": -11.4,
         "dec": 3
       },
       {
         "nome": "Diesel S10",
-        "valor": 7.383,
+        "valor": 7.32,
         "un": "L",
-        "varAno": 20.5,
+        "varAno": 19.5,
         "dec": 3
       },
       {
@@ -358,14 +362,14 @@
     {
       "id": "bolsa",
       "tema": "Bolsa e dólar",
-      "titulo": "Depois do pior dia desde 2020, Bolsa estabiliza e dólar recua",
-      "chamada": "Na segunda o Ibovespa caiu 13,88% e o dólar subiu mais de 8%. Nesta terça há uma pausa. Entenda o que explica e o que pode acalmar o mercado.",
+      "titulo": "Depois do pior dia desde 2020, Bolsa fecha em leve queda e dólar recua",
+      "chamada": "Na segunda o Ibovespa caiu 13,88% e o dólar subiu mais de 8%. Nesta terça houve uma pausa: Bolsa -0,51% e dólar a R$ 5,35. Entenda o que explica e o que pode acalmar o mercado.",
       "data": "27/10/2026",
       "inicio": [
         "Na segunda (26/10), primeiro pregão depois do 2º turno, o Ibovespa fechou em queda de 13,88%, aos 176.608 pontos, o pior dia desde março de 2020. Na mínima chegou a cair mais de 17%, e a B3 parou o pregão por 30 minutos (circuit breaker).",
         "O dólar fechou a R$ 5,40, alta de 8,21%, a maior em um dia desde janeiro de 1999. Os juros futuros longos subiram cerca de 2,6 pontos, para perto de 15,2% ao ano.",
         "O Tesouro cancelou leilões de títulos da semana e recomprou papéis para conter os juros. Citi e BCA Research rebaixaram a recomendação para ativos brasileiros.",
-        "Na terça (27/10), o mercado deu uma pausa: perto das 11h o dólar caía cerca de 1,5%, a R$ 5,32, e o Ibovespa oscilava perto da estabilidade, na casa dos 177 mil pontos. O Banco Central fez leilão de swap cambial de até US$ 4 bilhões para dar liquidez ao câmbio."
+        "Na terça (27/10), o mercado deu uma pausa: o Ibovespa fechou em queda de 0,51%, aos 175.710 pontos, depois de subir até 178.526 de manhã. O dólar caiu 0,97%, para R$ 5,35. O Banco Central ofereceu swap cambial de até US$ 4 bilhões e o Tesouro recomprou R$ 16,8 bilhões em títulos atrelados à inflação."
       ],
       "cadeia": [
         "O mercado apostava na vitória de Flávio e comprou muitas ações",
@@ -405,6 +409,10 @@
         "Em momentos assim, renda fixa pós-fixada (atrelada ao CDI) costuma ser vista como mais defensiva"
       ],
       "fontes": [
+        {
+          "nome": "BPMoney (fechamento 27/10)",
+          "url": "https://bpmoney.com.br/mercado/ibovespa-cai-051-dolar-recua-535-cautela-eleicao/"
+        },
         {
           "nome": "InfoMoney (ao vivo 27/10)",
           "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-27102026/"
@@ -446,7 +454,7 @@
         "dolar",
         "ibov"
       ],
-      "atualizadoEm": "2026-10-27T11:45:00-03:00",
+      "atualizadoEm": "2026-10-27T17:47:00-03:00",
       "atualizacoes": [
         {
           "hora": "6h",
@@ -455,24 +463,29 @@
         {
           "hora": "11h",
           "texto": "Pausa na terça: dólar cai para cerca de R$ 5,32 e Ibovespa oscila perto de 177 mil pontos; BC faz leilão de swap de até US$ 4 bilhões."
+        },
+        {
+          "hora": "17h",
+          "texto": "Fechamento da terça: Ibovespa -0,51% (175.710 pontos) e dólar -0,97% (R$ 5,35); analistas falam em alívio momentâneo, sem mudança de tendência."
         }
       ],
       "referencia": {
-        "dolar": 5.32,
-        "ibov": 177029.5,
+        "dolar": 5.35,
+        "ibov": 175710.05,
         "selic": 13.75
       }
     },
     {
       "id": "eleicao",
       "tema": "Eleições",
-      "titulo": "PL reconhece a vitória de Lula; Flávio mantém pedido de cassação",
-      "chamada": "O partido aceitou o resultado, mas Flávio segue com ações no TSE. Trump disse que a eleição pareceu fraudada e o governo rebateu. O que cada lado diz.",
+      "titulo": "PL reconhece a vitória de Lula; Flávio mantém pedido de cassação e vira alvo de inquérito",
+      "chamada": "O partido aceitou o resultado, mas Flávio segue com ações no TSE. O ministro Flávio Dino mandou a PF investigar suposto dinheiro estrangeiro na campanha dele. O que cada lado diz.",
       "data": "27/10/2026",
       "inicio": [
         "Lula venceu o 2º turno com 51,79% dos votos válidos, cerca de 4,4 milhões de votos à frente. O TSE confirmou o resultado.",
         "Na segunda (26/10), aliados e o jurídico de Flávio Bolsonaro disseram que não vão pedir a anulação. Em vídeo, Flávio afirmou que vai pedir a cassação da chapa Lula-Alckmin por suposto abuso de poder político e econômico.",
-        "O PL, em nota assinada por Valdemar Costa Neto, reconheceu o resultado proclamado pelo TSE, mas pediu esclarecimentos e chamou de eleitoreira a ampliação de benefícios sociais antes da votação. Trump disse, sem apresentar provas, que a eleição 'pareceu fraudada'; Alckmin respondeu que a fala está totalmente equivocada."
+        "O PL, em nota assinada por Valdemar Costa Neto, reconheceu o resultado proclamado pelo TSE, mas pediu esclarecimentos e chamou de eleitoreira a ampliação de benefícios sociais antes da votação. Trump disse, sem apresentar provas, que a eleição 'pareceu fraudada'; Alckmin respondeu que a fala está totalmente equivocada.",
+        "Nesta terça (27/10), o ministro Flávio Dino (STF) mandou a Polícia Federal abrir inquérito sobre suposto financiamento estrangeiro à campanha de Flávio, por meio da rede americana Rockbridge, e sobre possível desequilíbrio entre candidatos nas redes sociais. O pedido partiu do PT; Flávio e os citados não tinham comentado até a publicação."
       ],
       "cadeia": [
         "Faltam ônibus e há filas em algumas cidades",
@@ -484,7 +497,7 @@
         "A oposição passa a se organizar no novo Congresso"
       ],
       "porque": "A campanha de Flávio argumenta que houve abuso de poder na campanha, citando quase R$ 500 bilhões em gastos do governo, e que a prorrogação, decidida por um ministro do STF, tratou eleitores de forma desigual. Segundo a imprensa, ele não apresentou provas e cerca de 20 ações de cassação já foram apresentadas.",
-      "outraLeitura": "O presidente do TSE, Nunes Marques, disse que a prorrogação não afetou a totalização, e o tribunal classificou como falsa a alegação de que fiscais do PL foram expulsos da sala de totalização. A própria campanha de Flávio tinha pedido mais tempo em cidades de SP, PR e SC por causa da chuva. O próprio PL reconheceu o resultado, e líderes de vários países, da esquerda à direita, cumprimentaram Lula. Juristas avaliam que pedidos de cassação desse tipo têm poucas chances.",
+      "outraLeitura": "O presidente do TSE, Nunes Marques, disse que a prorrogação não afetou a totalização, e o tribunal classificou como falsa a alegação de que fiscais do PL foram expulsos da sala de totalização. A própria campanha de Flávio tinha pedido mais tempo em cidades de SP, PR e SC por causa da chuva. O próprio PL reconheceu o resultado, e líderes de vários países, da esquerda à direita, cumprimentaram Lula. Juristas avaliam que pedidos de cassação desse tipo têm poucas chances. Do outro lado, aliados de Flávio e veículos como a Revista Oeste dão destaque a que o inquérito foi aberto a partir de um processo sobre outro assunto (uma ação de mineração de 2024) e a pedido do PT, adversário político; por ora, é só uma investigação, sem conclusão.",
       "cenarios": [
         {
           "tipo": "base",
@@ -497,12 +510,24 @@
       ],
       "saidas": [
         "Julgamento rápido e transparente das ações no TSE",
-        "Divulgação das apurações da Polícia Federal",
+        "Divulgação das apurações da Polícia Federal, inclusive do novo inquérito sobre financiamento estrangeiro",
         "Oposição atuando pelo Congresso, como defendem aliados de Flávio",
         "Posse do presidente eleito em 5 de janeiro de 2027"
       ],
       "bolso": [],
       "fontes": [
+        {
+          "nome": "Gazeta do Povo (inquérito Dino)",
+          "url": "https://www.gazetadopovo.com.br/republica/dino-manda-pf-investigar-suposto-financiamento-estrangeiro-a-campanha-de-flavio/"
+        },
+        {
+          "nome": "Revista Oeste",
+          "url": "https://revistaoeste.com/politica/dino-manda-pf-abrir-inquerito-sobre-suposto-financiamento-estrangeiro-a-campanha-de-flavio/"
+        },
+        {
+          "nome": "Conjur",
+          "url": "https://conjur.com.br/2026-out-27/dino-manda-investigar-interferencia-dos-eua-a-favor-de-flavio-nas-eleicoes/"
+        },
         {
           "nome": "Terra (nota do PL)",
           "url": "https://www.terra.com.br/noticias/eleicoes/pl-reconhece-resultado-da-eleicao-que-reelegeu-lula-apesar-de-flavio-contestar-derrota,b586497e727ee98d227fcef86c40c292ywvhtrkr.html"
@@ -537,7 +562,7 @@
         }
       ],
       "indicadores": [],
-      "atualizadoEm": "2026-10-27T11:45:00-03:00",
+      "atualizadoEm": "2026-10-27T17:47:00-03:00",
       "atualizacoes": [
         {
           "hora": "6h",
@@ -546,11 +571,15 @@
         {
           "hora": "11h",
           "texto": "PL reconhece o resultado do TSE, mas Flávio mantém o pedido de cassação; Trump diz que a eleição 'pareceu fraudada' e Alckmin rebate."
+        },
+        {
+          "hora": "17h",
+          "texto": "Dino (STF) manda a PF investigar suposto financiamento estrangeiro à campanha de Flávio via a rede Rockbridge; os citados ainda não se manifestaram."
         }
       ],
       "referencia": {
-        "dolar": 5.32,
-        "ibov": 177029.5,
+        "dolar": 5.35,
+        "ibov": 175710.05,
         "selic": 13.75
       }
     },
@@ -558,12 +587,12 @@
       "id": "fazenda",
       "tema": "Governo",
       "titulo": "Quem vai cuidar da economia no 4º mandato?",
-      "chamada": "O mercado espera o nome do ministro da Fazenda. Alckmin aparece como favorito. Por que isso importa.",
+      "chamada": "O mercado espera o nome do ministro da Fazenda. Rafael Fonteles ganha força e Alckmin segue como opção. Por que isso importa.",
       "data": "27/10/2026",
       "inicio": [
         "Lula foi reeleito e o mandato novo começa em 5 de janeiro de 2027. Segundo o presidente do PT, Edinho Silva, o ministro da Fazenda será anunciado até o fim de 2026 e Lula ainda não começou a montar a equipe.",
-        "A imprensa aponta o vice Geraldo Alckmin como o nome mais cotado para a Fazenda. Uma ala do PT defende o governador do Piauí, Rafael Fonteles.",
-        "O atual ministro, Dario Durigan, disse nesta terça que o governo tem medidas fiscais prontas. Economistas ouvidos pela imprensa listam o que poderia recuperar a confiança: plano fiscal com metas e prazos, revisão do crescimento das despesas obrigatórias e anúncio rápido da equipe."
+        "A imprensa cita o governador do Piauí, Rafael Fonteles (PT), ex-secretário de Fazenda do estado, e o vice Geraldo Alckmin como os nomes mais fortes. Nesta terça, Fonteles ganhou força: segundo a imprensa, Lula sinalizou a aliados que pode escolhê-lo, mas não há convite nem anúncio oficial.",
+        "O atual ministro, Dario Durigan, disse que Fonteles é um 'excelente nome', que a equipe não foi discutida com Lula e que a decisão virá 'nas próximas semanas, nos próximos meses'. O presidente do BC, Gabriel Galípolo, disse que não é candidato e que fica no BC até o fim do mandato, em 2028. O governo também prepara o envio ao Congresso do 'imposto do pecado', com arrecadação estimada em R$ 41,9 bilhões em 2027."
       ],
       "cadeia": [
         "Mercado reage mal à reeleição",
@@ -600,6 +629,14 @@
       ],
       "fontes": [
         {
+          "nome": "ND Mais (Fonteles)",
+          "url": "https://ndmais.com.br/politica/ministerio-da-fazenda-fonteles-ganha-forca-para-assumir-pasta/"
+        },
+        {
+          "nome": "SBT News (Durigan)",
+          "url": "https://sbtnews.sbt.com.br/noticia/economia/durigan-fonteles-e-um-excelente-nome-para-a-fazenda"
+        },
+        {
           "nome": "A Crítica (Edinho)",
           "url": "https://acritica.net/politica/lula-escolhera-ministro-da-fazenda-ate-o-fim-do-ano-e-mantera-meta-fiscal-diz-edinho/"
         },
@@ -628,7 +665,7 @@
         "dolar",
         "selic"
       ],
-      "atualizadoEm": "2026-10-27T11:45:00-03:00",
+      "atualizadoEm": "2026-10-27T17:47:00-03:00",
       "atualizacoes": [
         {
           "hora": "6h",
@@ -637,11 +674,15 @@
         {
           "hora": "11h",
           "texto": "Edinho diz que o ministro sai até o fim do ano e que a meta fiscal será mantida; Durigan afirma ter medidas fiscais prontas."
+        },
+        {
+          "hora": "17h",
+          "texto": "Fonteles ganha força para a Fazenda e Durigan o elogia; decisão deve levar semanas. Galípolo descarta ir para a Fazenda."
         }
       ],
       "referencia": {
-        "dolar": 5.32,
-        "ibov": 177029.5,
+        "dolar": 5.35,
+        "ibov": 175710.05,
         "selic": 13.75
       }
     },
@@ -653,7 +694,7 @@
       "data": "27/10/2026",
       "inicio": [
         "A Selic está em 13,75% ao ano, depois de cinco cortes em 2026. A próxima decisão do Banco Central é em 4 de novembro.",
-        "A inflação de 12 meses chegou a 4,58% em setembro, acima do limite da meta (4,5%). Depois da eleição, os juros futuros longos saltaram para perto de 15,2% ao ano; nesta terça abriram estáveis ou em leve queda (DI jan/28 a 14,73%)."
+        "A inflação de 12 meses chegou a 4,58% em setembro, acima do limite da meta (4,5%). Depois da eleição, os juros futuros longos saltaram para perto de 15,2% ao ano. Nesta terça recuaram com a queda do dólar e a ação do Tesouro, que cancelou leilões e recomprou títulos: às 15h o DI jan/27 estava em 13,64% e o jan/33 em 14,93%."
       ],
       "cadeia": [
         "Inflação acima do teto da meta",
@@ -690,6 +731,14 @@
       ],
       "fontes": [
         {
+          "nome": "Bom Dia Mercado (giro 15h)",
+          "url": "https://www.bomdiamercado.com.br/mercado-financeiro/giro-dos-mercados/giro-das-15h-dolar-e-juros-futuros-corrigem-exageros-mas-ibovespa-segue-em-baixa-ny-sobe-na-vespera-do-fed/"
+        },
+        {
+          "nome": "InfoMoney (Tesouro e juros)",
+          "url": "https://www.infomoney.com.br/economia/taxas-de-juros-caem-em-linha-com-dolar-e-apos-nova-intervencao-do-tesouro-em-leiloes/"
+        },
+        {
           "nome": "Central do Varejo (Focus 26/10)",
           "url": "https://centraldovarejo.com.br/boletim-focus-mercado-reduz-projecoes-de-ipca-e-pib-e-mantem-selic-de-1325-no-fim-do-ano/"
         },
@@ -710,7 +759,7 @@
         "selic",
         "ipca"
       ],
-      "atualizadoEm": "2026-10-27T11:45:00-03:00",
+      "atualizadoEm": "2026-10-27T17:47:00-03:00",
       "atualizacoes": [
         {
           "hora": "6h",
@@ -719,11 +768,15 @@
         {
           "hora": "11h",
           "texto": "Juros futuros abrem em leve queda nesta terça (DI jan/28 a 14,73%); Fed decide na quarta (28) e o Copom em 4/11."
+        },
+        {
+          "hora": "17h",
+          "texto": "Juros futuros devolvem parte da alta: DI jan/33 cai para cerca de 14,93% à tarde, após o Tesouro cancelar leilões e recomprar títulos."
         }
       ],
       "referencia": {
-        "dolar": 5.32,
-        "ibov": 177029.5,
+        "dolar": 5.35,
+        "ibov": 175710.05,
         "selic": 13.75
       }
     },
@@ -734,7 +787,7 @@
       "chamada": "A ajuda de R$ 2,12 por litro, que venceria nesta semana, foi mantida. O petróleo segue acima de US$ 100. O que muda para você.",
       "data": "27/10/2026",
       "inicio": [
-        "O diesel S10 custa em média R$ 7,38 o litro no Brasil, alta de 20,5% desde janeiro. A gasolina subiu 5,5% no ano, e o etanol caiu 3,8%.",
+        "Pelo levantamento da ANP de 18 a 24/10, o diesel S10 custa em média R$ 7,32 o litro, cerca de 19,5% acima de janeiro. A gasolina caiu para R$ 6,49 e o etanol para R$ 4,11, cerca de 63% do preço da gasolina.",
         "Nesta terça (27/10), o governo prorrogou por mais 30 dias o subsídio de R$ 2,12 por litro, por portaria da Fazenda. Sem a prorrogação, a ajuda cairia para R$ 1. O governo diz que a medida não aumenta o gasto atual. O petróleo Brent segue acima de US$ 100 com a guerra no Oriente Médio."
       ],
       "cadeia": [
@@ -768,10 +821,18 @@
         "Proposta ao Congresso para manter a ajuda em 2027, se necessário"
       ],
       "bolso": [
-        "Carro flex: o etanol compensa quando custa até 70% do preço da gasolina. Faça a conta no posto",
+        "Carro flex: o etanol compensa quando custa até 70% do preço da gasolina. Na média nacional ele está em cerca de 63%, e é mais vantajoso em 11 estados e no DF, mas faça a conta no seu posto",
         "Para quem trabalha com frete, negociar reajuste atrelado ao diesel ajuda a proteger a margem"
       ],
       "fontes": [
+        {
+          "nome": "Safras & Mercado (ANP 18-24/10)",
+          "url": "https://safras.com.br/etanol-segue-mais-competitivo-em-dez-estados-e-no-df"
+        },
+        {
+          "nome": "Economic News Brasil (ANP)",
+          "url": "https://economicnewsbrasil.com.br/2026/10/27/gasolina-hoje-precos-2026/"
+        },
         {
           "nome": "Exame (prorrogação)",
           "url": "https://exame.com/economia/governo-prorroga-subsidio-do-diesel-por-30-dias-valor-seguem-em-r-212/"
@@ -797,7 +858,7 @@
         "etanol",
         "dolar"
       ],
-      "atualizadoEm": "2026-10-27T11:45:00-03:00",
+      "atualizadoEm": "2026-10-27T17:47:00-03:00",
       "atualizacoes": [
         {
           "hora": "6h",
@@ -806,11 +867,15 @@
         {
           "hora": "11h",
           "texto": "Governo prorroga por 30 dias o subsídio de R$ 2,12 por litro; sem isso a ajuda cairia para R$ 1."
+        },
+        {
+          "hora": "17h",
+          "texto": "Novo levantamento da ANP (18 a 24/10): diesel S10 a R$ 7,32, gasolina a R$ 6,49 e etanol a R$ 4,11 em média."
         }
       ],
       "referencia": {
-        "dolar": 5.32,
-        "ibov": 177029.5,
+        "dolar": 5.35,
+        "ibov": 175710.05,
         "selic": 13.75
       }
     }
