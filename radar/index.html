@@ -552,7 +552,8 @@ async function carregaMoedas(){
     store.set("moedas",S.moedas);store.set("turismo",S.turismo);S.ultima=Date.now();S.falhou=false;return true;
   }catch(e){
     S.falhou=true;
-    if(!S.moedas){const s=store.get("moedas",null);S.moedas=s?s.map(m=>({...m,cache:true})):(S.base?.mercado.moedas||null)?.map(m=>({...m,cache:true}))||null;S.turismo=S.turismo||store.get("turismo",null)}
+    const s=store.get("moedas",null),rb=S.base?.robo?.atualizadoEm?+new Date(S.base.robo.atualizadoEm):0,ts=s?.[0]?.hora||0;
+    if(!S.moedas||S.moedas[0]?.cache){S.moedas=(rb>ts&&S.base?.mercado?.moedas?S.base.mercado.moedas.map(m=>({...m,hora:rb})):s)?.map(m=>({...m,cache:true}))||null;S.turismo=S.turismo||store.get("turismo",null)}
     return false;
   }
 }
@@ -576,13 +577,17 @@ async function carregaAcoes(){
     const j=await req(`https://brapi.dev/api/quote/${lista.map(encodeURIComponent).join(",")}`+(tok?`?token=${encodeURIComponent(tok)}`:""));
     const r=(j.results||[]).map(x=>({ticker:x.symbol,nome:NOMES[x.symbol]||x.shortName,preco:x.regularMarketPrice,var:x.regularMarketChangePercent,ant:x.regularMarketPreviousClose,min:x.regularMarketDayLow,max:x.regularMarketDayHigh}));
     const ib=r.find(x=>x.ticker==="^BVSP");
-    if(ib){S.ibov={pontos:ib.preco,var:ib.var,anterior:ib.ant,minimo:ib.min,maximo:ib.max,aoVivo:true};store.set("ibov",S.ibov)}
-    S.acoes=r.filter(x=>x.ticker!=="^BVSP"&&x.var!=null);S.acoesAoVivo=true;store.set("acoes",S.acoes);
+    if(ib){S.ibov={pontos:ib.preco,var:ib.var,anterior:ib.ant,minimo:ib.min,maximo:ib.max,aoVivo:true,ts:Date.now()};store.set("ibov",S.ibov)}
+    S.acoes=r.filter(x=>x.ticker!=="^BVSP"&&x.var!=null);S.acoesAoVivo=true;store.set("acoes",S.acoes);store.set("acoesTs",Date.now());
   }catch(e){const s=store.get("acoes",null);if(s&&!S.acoes){S.acoes=s;S.acoesAoVivo=false}}
-  if(!S.ibov){const s=store.get("ibov",null);S.ibov=s?{...s,aoVivo:false}:(S.base?{...S.base.mercado.ibov,aoVivo:false}:null)}
-  if(!S.acoes&&S.base){S.acoes=S.base.mercado.acoes;S.acoesAoVivo=false}
+  if(!S.ibov?.aoVivo)S.ibov=maisNovo(store.get("ibov",null),S.base?.mercado?.ibov);
+  if(!S.acoesAoVivo){const b=S.base?.mercado;if(b?.acoes&&(b.acoesTs||0)>(store.get("acoesTs",0)))S.acoes=b.acoes;else if(!S.acoes)S.acoes=store.get("acoes",null)||b?.acoes||null}
 }
 
+function maisNovo(a,b){
+  // escolhe o registro mais recente entre o salvo no aparelho (a) e o do robô (b)
+  const ta=a?.ts||0,tb=b?.ts||0;const x=tb>=ta?b:a;return x?{...x,aoVivo:false}:null;
+}
 /* ================= INDICADORES (Banco Central) ================= */
 async function carregaIndicadores(){
   const salvo=store.get("ind",{});
@@ -592,7 +597,7 @@ async function carregaIndicadores(){
       const j=await reqComProxy(`https://api.bcb.gov.br/dados/serie/bcdata.sgs.${i.serie}/dados/ultimos/1?formato=json`);
       const x=j[j.length-1];if(!x)throw 0;
       S.ind[i.id]={valor:+x.valor,data:x.data,aoVivo:true};
-    }catch(e){S.ind[i.id]=S.ind[i.id]||salvo[i.id]||base[i.id]||null;if(S.ind[i.id])S.ind[i.id]={...S.ind[i.id],aoVivo:false}}
+    }catch(e){if(!S.ind[i.id]?.aoVivo){S.ind[i.id]=base[i.id]||salvo[i.id]||null;if(S.ind[i.id])S.ind[i.id]={...S.ind[i.id],aoVivo:false}}}
   }));
   store.set("ind",S.ind);
 }
@@ -747,7 +752,7 @@ function renderMercado(){
     ${S.turismo?`<tr><td>Dólar turismo <span class="note">(para viagem)</span></td><td class="n">${num(S.turismo.valor,3)}</td><td class="n">${pct(S.turismo.var)}</td></tr>`:""}</tbody></table>`:'<p class="empty">Buscando…</p>'}`;
   const ib=S.ibov;
   $("mIbov").innerHTML=`<h2>Bolsa · Ibovespa</h2><p class="sub">Média das principais ações da B3, a bolsa brasileira.</p>
-    ${ib?`<div class="big">${num(ib.pontos,0)} <small style="font-size:14px">pts</small></div><div>${pct(ib.var)} ${ib.aoVivo?'<span class="tag live">ao vivo</span>':`<span class="tag">registro ${esc(ib.hora||"salvo")}</span>`}</div>${faixaIbov(ib)}${ib.obs&&!ib.aoVivo?`<p class="note">${esc(ib.obs)}</p>`:""}`:'<p class="empty">Indisponível agora.</p>'}
+    ${ib?`<div class="big">${num(ib.pontos,0)} <small style="font-size:14px">pts</small></div><div>${pct(ib.var)} ${ib.aoVivo?'<span class="tag live">ao vivo</span>':`<span class="tag">atualizado ${esc(ib.hora||"")}</span>`}</div>${faixaIbov(ib)}${ib.obs&&!ib.aoVivo?`<p class="note">${esc(ib.obs)}</p>`:""}`:'<p class="empty">Indisponível agora.</p>'}
     <h3>Principais ações hoje</h3>${barras(S.acoes,{label:"Variação das ações"})}
     ${S.acoes?.some(a=>a.preco!=null)?`<table><tbody>${S.acoes.filter(a=>a.preco!=null).map(a=>`<tr><td><b>${esc(a.ticker)}</b> <span class="note">${esc(a.nome||"")}</span></td><td class="n">R$ ${num(a.preco)}</td></tr>`).join("")}</tbody></table>`:""}
     ${!ib?.aoVivo?'<div class="box">Para ver o Ibovespa e mais ações ao vivo, coloque a chave gratuita da brapi em <b>Ajustes</b>, no fim da página.</div>':""}`;
@@ -761,7 +766,7 @@ function renderMercado(){
     <h3>Variação no ano</h3>${barras(c.itens.map(x=>({ticker:x.nome,var:x.varAno})),{label:"Variação dos combustíveis no ano"})}
     <p class="note">${esc(c.semana)} <a href="https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/levantamento-de-precos-de-combustiveis-ultimas-semanas-pesquisadas" target="_blank" rel="noopener">Pesquisa da ANP ↗</a></p>`:""}`;
   const j=S.base?.mercado.juros;
-  $("mJuros").innerHTML=`<h2>Juros futuros (DI)</h2><p class="sub">Quanto o mercado espera de juros nos próximos anos. Subindo, o crédito tende a ficar mais caro.</p>${j?`<table><thead><tr><th>Vencimento</th><th class="n">Taxa</th><th class="n">No dia</th></tr></thead><tbody>${j.map(x=>`<tr><td>${esc(x.nome)}</td><td class="n">${num(x.taxa,2)}%</td><td class="n d">+${num(x.var,2)}</td></tr>`).join("")}</tbody></table><p class="note">Registro de 26/10, em pontos percentuais.</p>`:""}`;
+  $("mJuros").innerHTML=`<h2>Juros futuros (DI)</h2><p class="sub">Quanto o mercado espera de juros nos próximos anos. Subindo, o crédito tende a ficar mais caro.</p>${j?`<table><thead><tr><th>Vencimento</th><th class="n">Taxa</th><th class="n">No dia</th></tr></thead><tbody>${j.map(x=>`<tr><td>${esc(x.nome)}</td><td class="n">${num(x.taxa,2)}%</td><td class="n d">+${num(x.var,2)}</td></tr>`).join("")}</tbody></table><p class="note">Variação no dia em pontos percentuais. Atualizado em ${esc(new Date(S.base.atualizadoEm).toLocaleDateString("pt-BR",{day:"2-digit",month:"2-digit"}))}.</p>`:""}`;
 }
 function indicadoresDa(h){
   if(h.indicadores)return h.indicadores;
@@ -952,8 +957,8 @@ if("serviceWorker" in navigator)addEventListener("load",()=>navigator.serviceWor
   try{S.base=await req("dados.json?"+Date.now())}catch(e){try{S.base=await (await fetch("dados.json")).json()}catch(e2){}}
   if(S.base&&!Object.keys(S.ind).length){const b=S.base.indicadores?.itens||{};const s=store.get("ind",{});IND.forEach(i=>{const v=s[i.id]||b[i.id];if(v)S.ind[i.id]={...v,aoVivo:false}})}
   if(!S.moedas){const s=store.get("moedas",null);S.moedas=s?s.map(m=>({...m,cache:true})):S.base?.mercado.moedas?.map(m=>({...m,cache:true}))||null;S.turismo=store.get("turismo",null)}
-  if(!S.ibov)S.ibov=store.get("ibov",null)||(S.base?{...S.base.mercado.ibov,aoVivo:false}:null);
-  if(!S.acoes)S.acoes=store.get("acoes",null)||S.base?.mercado.acoes||null;
+  if(!S.ibov)S.ibov=maisNovo(store.get("ibov",null),S.base?.mercado?.ibov);
+  if(!S.acoes){const b=S.base?.mercado;S.acoes=(b?.acoes&&(b.acoesTs||0)>(store.get("acoesTs",0)))?b.acoes:(store.get("acoes",null)||b?.acoes||null)}
   const h=location.hash.slice(1);vai(VIEWS.includes(h)?h:"inicio");
   atualizaTudo(false);
 })();

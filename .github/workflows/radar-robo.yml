@@ -1,0 +1,54 @@
+name: Radar Brasil - robô dos números
+
+# Roda de hora em hora (minuto 17) e também pelo botão "Run workflow" na aba Actions.
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar-brasil
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Buscar números (Banco Central, câmbio, B3, notícias)
+        env:
+          BRAPI_TOKEN: ${{ secrets.BRAPI_TOKEN }}
+        run: python3 radar/tools/robo.py
+
+      - name: Conferir dados.json
+        run: python3 radar/tools/validar.py
+
+      - name: Publicar se algo mudou
+        run: |
+          if git diff --quiet radar/dados.json; then
+            echo "Nada mudou."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add radar/dados.json
+          git commit -m "Radar Brasil: números atualizados pelo robô ($(TZ=America/Sao_Paulo date '+%d/%m %Hh%M'))"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && break
+            sleep 10
+          done
+          git fetch origin gh-pages
+          if git merge-base --is-ancestor origin/gh-pages HEAD; then
+            git push origin HEAD:gh-pages
+          else
+            echo "::error::gh-pages tem commits que não estão no main; site não foi atualizado."
+            exit 1
+          fi
