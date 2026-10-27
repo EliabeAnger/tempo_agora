@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Radar Brasil</title>
 <meta name="description" content="Dólar ao vivo, bolsa, juros, inflação, combustíveis, notícias do Brasil e eleições.">
-<meta name="theme-color" content="#14201c">
+<meta name="theme-color" content="#0b1d3f">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/icon-192.png">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
@@ -18,18 +18,20 @@
 <style>
 /* Layout: topo escuro com cotações; telas em cartões; barra de navegação embaixo (polegar) */
 :root{
-  --bg:#eef2f0; --surface:#ffffff; --ink:#14201c; --muted:#5b6964; --line:#d9e0dd; --soft:#f5f8f6;
-  --accent:#0b6e57; --accent-soft:#dff0ea; --up:#0f7a3d; --down:#c0352b; --warn:#a86a00;
-  --lula:#c0352b; --flavio:#1f5fa8; --bar:#14201c; --barfg:#e7eeeb; --hero:#14201c; --herofg:#f2f7f5;
+  --bg:#f2f5fb; --surface:#ffffff; --ink:#0e1a33; --muted:#5a6680; --line:#dfe4ee; --soft:#eef2fa;
+  --accent:#1f56d6; --accent-soft:#e7eeff; --gold:#e3a20b; --gold-soft:#fff5dc;
+  --up:#0d8a5f; --down:#d63a3a; --warn:#b7791f;
+  --lula:#d63a3a; --flavio:#1f4fbf; --bar:#0b1d3f; --barfg:#e9eefb; --hero:#0f2654; --herofg:#ffffff;
   --f-display:"Archivo","Arial Narrow",Arial,sans-serif;
   --f-body:"Source Sans 3","Segoe UI",Roboto,sans-serif;
   --f-data:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
   color-scheme:light;
 }
 @media (prefers-color-scheme:dark){:root{
-  --bg:#0c1210; --surface:#161f1c; --ink:#e7eeeb; --muted:#93a29c; --line:#28342f; --soft:#1b2522;
-  --accent:#4cc9a6; --accent-soft:#163029; --up:#4ccb7f; --down:#ff7a6e; --warn:#e5ad45;
-  --lula:#ff7a6e; --flavio:#6fa8f0; --bar:#070b0a; --hero:#1d2b26; color-scheme:dark}}
+  --bg:#070d1a; --surface:#0f1830; --ink:#e8edf8; --muted:#93a0bb; --line:#1f2a45; --soft:#131e38;
+  --accent:#7aa2ff; --accent-soft:#16244a; --gold:#f5c242; --gold-soft:#2a2410;
+  --up:#3ccf8e; --down:#ff6b6b; --warn:#f0b54a;
+  --lula:#ff6b6b; --flavio:#7aa2ff; --bar:#050a16; --hero:#13254d; color-scheme:dark}}
 *{box-sizing:border-box}
 html,body{margin:0}
 body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.5;
@@ -40,21 +42,21 @@ button{font-family:inherit}
 .wrap{max-width:1100px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 
 /* topo */
-.top{position:sticky;top:0;z-index:5;background:var(--bar);color:var(--barfg);padding-top:env(safe-area-inset-top,0px)}
+.top{position:sticky;top:0;z-index:5;background:linear-gradient(135deg,var(--bar),#12306b);color:var(--barfg);padding-top:env(safe-area-inset-top,0px)}
 .top .head{display:flex;align-items:center;justify-content:space-between;gap:10px;padding-block:10px 4px}
 .logo{font-family:var(--f-display);font-stretch:68%;font-weight:900;font-size:28px;line-height:1;text-transform:uppercase;letter-spacing:-.01em}
-.logo span{color:#4cc9a6}
+.logo span{color:#f5c242}
 .head .act{display:flex;gap:8px;align-items:center}
-.btn{font:700 14px var(--f-body);border:1px solid #3c4a45;background:transparent;color:var(--barfg);padding:8px 14px;border-radius:999px;cursor:pointer;min-height:38px}
-.btn.pri{background:#4cc9a6;color:#0a0f0d;border-color:#4cc9a6}
+.btn{font:700 14px var(--f-body);border:1px solid #2c3f6b;background:transparent;color:var(--barfg);padding:8px 14px;border-radius:999px;cursor:pointer;min-height:38px}
+.btn.pri{background:#f5c242;color:#0b1d3f;border-color:#f5c242}
 .btn.spin .ic{display:inline-block;animation:gira 1s linear infinite}
 @keyframes gira{to{transform:rotate(360deg)}}
 .tape{display:flex;gap:20px;overflow-x:auto;padding-block:6px 8px;scrollbar-width:none;font-family:var(--f-data);font-size:13px;white-space:nowrap}
 .tape::-webkit-scrollbar{display:none}
-.tk b{color:#9fb3ac;margin-right:5px}
-.tk .u{color:#5fdc95}.tk .d{color:#ff8a7e}
-.status{font-family:var(--f-data);font-size:11px;color:#9fb3ac;padding-bottom:7px;display:flex;gap:8px;align-items:center}
-.dot{width:8px;height:8px;border-radius:50%;background:#5fdc95;flex:none}
+.tk b{color:#a9b6d6;margin-right:5px}
+.tk .u{color:#5fe0a6}.tk .d{color:#ff8f8f}
+.status{font-family:var(--f-data);font-size:11px;color:#a9b6d6;padding-bottom:7px;display:flex;gap:8px;align-items:center}
+.dot{width:8px;height:8px;border-radius:50%;background:#5fe0a6;flex:none}
 .dot.off{background:#e5ad45}
 :focus-visible{outline:3px solid var(--accent);outline-offset:2px}
 
@@ -82,20 +84,20 @@ h3{font-family:var(--f-display);font-stretch:85%;font-weight:700;font-size:13px;
 .today b{font-family:var(--f-data);font-weight:700}
 
 /* destaque do dólar */
-.hero{background:var(--hero);color:var(--herofg);border:0}
-.hero .lbl{font:700 12px var(--f-data);text-transform:uppercase;letter-spacing:.08em;color:#9fb3ac}
-.hero .price{font-family:var(--f-data);font-weight:700;font-size:clamp(40px,12vw,56px);line-height:1.05;font-variant-numeric:tabular-nums}
-.hero .price small{font-size:.45em;color:#9fb3ac;margin-right:6px}
-.hero .u{color:#5fdc95}.hero .d{color:#ff8a7e}
-.hero .row{display:flex;flex-wrap:wrap;gap:6px 16px;font-family:var(--f-data);font-size:13px;color:#c5d3ce;margin-top:6px}
-.hero svg text{fill:#c5d3ce}
-.hero .seg button{border-color:#3c4a45;color:var(--herofg)}
-.hero .seg button[aria-pressed="true"]{background:#4cc9a6;color:#0a0f0d;border-color:#4cc9a6}
-.conv{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:8px;align-items:end;margin-top:14px;padding-top:12px;border-top:1px solid #33433d}
-.conv label{display:block;font:700 11px var(--f-data);text-transform:uppercase;letter-spacing:.06em;color:#9fb3ac;margin-bottom:4px}
-.conv input,.conv select{width:100%;font:700 18px var(--f-data);padding:9px 10px;border-radius:10px;border:1px solid #3c4a45;background:#0e1513;color:var(--herofg);min-width:0}
+.hero{background:linear-gradient(160deg,var(--hero),#1a3a7a);color:var(--herofg);border:0}
+.hero .lbl{font:700 12px var(--f-data);text-transform:uppercase;letter-spacing:.08em;color:#a9b6d6}
+.hero .price{color:#ffd76a;font-family:var(--f-data);font-weight:700;font-size:clamp(40px,12vw,56px);line-height:1.05;font-variant-numeric:tabular-nums}
+.hero .price small{font-size:.45em;color:#a9b6d6;margin-right:6px}
+.hero .u{color:#5fe0a6}.hero .d{color:#ff8f8f}
+.hero .row{display:flex;flex-wrap:wrap;gap:6px 16px;font-family:var(--f-data);font-size:13px;color:#cfd8ee;margin-top:6px}
+.hero svg text{fill:#cfd8ee}
+.hero .seg button{border-color:#2c3f6b;color:var(--herofg)}
+.hero .seg button[aria-pressed="true"]{background:#f5c242;color:#0b1d3f;border-color:#f5c242}
+.conv{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:8px;align-items:end;margin-top:14px;padding-top:12px;border-top:1px solid #2c3f6b}
+.conv label{display:block;font:700 11px var(--f-data);text-transform:uppercase;letter-spacing:.06em;color:#a9b6d6;margin-bottom:4px}
+.conv input,.conv select{width:100%;font:700 18px var(--f-data);padding:9px 10px;border-radius:10px;border:1px solid #2c3f6b;background:#0a1838;color:var(--herofg);min-width:0}
 .conv select{font-size:13px;padding:6px;margin-bottom:6px}
-.conv .eq{font:700 20px var(--f-data);color:#9fb3ac;padding-bottom:10px}
+.conv .eq{font:700 20px var(--f-data);color:#a9b6d6;padding-bottom:10px}
 
 /* blocos clicáveis */
 .tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
@@ -174,11 +176,53 @@ ol.tl li{display:grid;grid-template-columns:72px 1fr;gap:10px;font-size:15px}
 ol.tl .dt{font-family:var(--f-data);font-size:12px;color:var(--muted);padding-top:3px}
 ol.tl li.next .dt{color:var(--accent);font-weight:700}
 
+/* histórias (Entenda) */
+.stories{display:grid;gap:14px}
+.story{background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden;scroll-margin-top:130px}
+.story>summary{list-style:none;cursor:pointer;padding:16px;display:grid;gap:6px;position:relative}
+.story>summary::-webkit-details-marker{display:none}
+.story>summary::after{content:"Ler a história ›";font:700 14px var(--f-body);color:var(--accent)}
+.story[open]>summary::after{content:"Fechar ˄"}
+.story .tema{font:700 11px var(--f-data);text-transform:uppercase;letter-spacing:.08em;color:var(--accent)}
+.story .tit{font-family:var(--f-display);font-stretch:82%;font-weight:800;font-size:22px;line-height:1.15;text-wrap:balance}
+.story .cham{color:var(--muted);font-size:15px}
+.sbody{padding:0 16px 18px;display:grid;gap:4px}
+.step{display:grid;grid-template-columns:34px minmax(0,1fr);gap:12px;padding-top:14px}
+.step .nro{width:34px;height:34px;border-radius:50%;background:var(--accent);color:#fff;display:grid;place-items:center;font:800 16px var(--f-data)}
+.step h4{margin:4px 0 6px;font-family:var(--f-display);font-stretch:85%;font-weight:800;font-size:17px;text-transform:uppercase;letter-spacing:.03em}
+.step p{margin:0 0 8px}
+.chain{list-style:none;margin:6px 0 10px;padding:0;display:grid;gap:0}
+.chain li{background:var(--soft);border-radius:10px;padding:8px 12px;font-size:15px;font-weight:600;position:relative}
+.chain li+li{margin-top:22px}
+.chain li+li::before{content:"↓";position:absolute;top:-21px;left:18px;font:700 16px var(--f-data);color:var(--accent)}
+.chain li:last-child{background:var(--accent-soft);color:var(--ink)}
+.other{border-left:3px solid var(--gold);background:var(--gold-soft);border-radius:0 10px 10px 0;padding:8px 12px;font-size:14px;margin:4px 0 8px}
+.other b{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--warn)}
+.scen{display:grid;gap:8px;margin:4px 0 10px}
+.scen div{display:grid;grid-template-columns:auto minmax(0,1fr);gap:8px;align-items:start;font-size:15px}
+.pill{font:700 10px var(--f-data);text-transform:uppercase;letter-spacing:.06em;padding:3px 8px;border-radius:999px;color:#fff;margin-top:2px}
+.pill.otimista{background:var(--up)}.pill.base{background:var(--accent)}.pill.pessimista{background:var(--down)}.pill.incerto{background:var(--muted)}
+.ok{list-style:none;margin:4px 0 10px;padding:0;display:grid;gap:6px}
+.ok li{padding-left:26px;position:relative;font-size:15px}
+.ok li::before{content:"✓";position:absolute;left:0;top:0;width:19px;height:19px;border-radius:50%;background:var(--up);color:#fff;font:700 12px/19px var(--f-data);text-align:center}
+.bolso{background:var(--gold-soft);border-radius:12px;padding:10px 12px;margin-top:6px}
+.bolso b{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--warn)}
+.bolso ul{margin:6px 0 0;padding-left:18px;font-size:15px}
+.live{background:var(--accent-soft);border-radius:12px;padding:10px 12px;font-size:15px;margin:2px 0 8px}
+.fontes{font-size:13px;color:var(--muted);padding-top:12px;border-top:1px solid var(--line);margin-top:8px}
+.fontes a{color:var(--accent)}
+.slist{display:grid;gap:0}
+.slist button{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 10px;text-align:left;background:none;border:0;border-bottom:1px solid var(--line);padding:11px 0;color:var(--ink);cursor:pointer}
+.slist button:last-child{border-bottom:0}
+.slist .t{font-weight:700;font-size:16px;line-height:1.25}
+.slist .m{grid-column:1;font:700 11px var(--f-data);text-transform:uppercase;letter-spacing:.06em;color:var(--accent)}
+.slist .a{grid-row:1/3;grid-column:2;align-self:center;color:var(--muted);font-size:22px}
+
 /* navegação inferior */
 nav.bottom{position:fixed;left:0;right:0;bottom:0;z-index:6;background:var(--surface);border-top:1px solid var(--line);
-  display:grid;grid-template-columns:repeat(4,1fr);padding-bottom:env(safe-area-inset-bottom,0px);
+  display:grid;grid-template-columns:repeat(5,1fr);padding-bottom:env(safe-area-inset-bottom,0px);
   padding-left:env(safe-area-inset-left,0px);padding-right:env(safe-area-inset-right,0px)}
-.tab{background:none;border:0;color:var(--muted);font:700 12px var(--f-body);padding:9px 4px 11px;display:grid;justify-items:center;gap:3px;cursor:pointer;position:relative}
+.tab{background:none;border:0;color:var(--muted);font:700 11px var(--f-body);padding:9px 2px 11px;display:grid;justify-items:center;gap:3px;cursor:pointer;position:relative}
 .tab svg{width:24px;height:24px;stroke:currentColor;fill:none;stroke-width:2}
 .tab[aria-current="page"]{color:var(--accent)}
 .tab[aria-current="page"]::before{content:"";position:absolute;top:0;left:30%;right:30%;height:3px;border-radius:0 0 3px 3px;background:var(--accent)}
@@ -220,11 +264,12 @@ footer{font-size:12px;color:var(--muted);padding-top:18px;display:grid;gap:8px;j
     <div class="panel"><h2>Resumo de hoje</h2><p class="today" id="today">Buscando os números do dia…</p></div>
     <div class="cols">
       <div>
-        <div class="panel hero" id="hDolar"><div class="lbl">Dólar comercial agora</div><p class="empty" style="color:#9fb3ac">Buscando cotação…</p></div>
+        <div class="panel hero" id="hDolar"><div class="lbl">Dólar comercial agora</div><p class="empty" style="color:#a9b6d6">Buscando cotação…</p></div>
         <div class="tiles" id="hTiles"></div>
         <div class="panel" id="hAcoes"><h2>Ações hoje</h2><p class="empty">Buscando…</p></div>
       </div>
       <div>
+        <div class="panel" id="hEntenda"></div>
         <div class="panel" id="hEleicao"></div>
         <div class="panel"><h2>Principais notícias</h2><p class="sub">Toque na manchete para abrir a matéria.</p><div id="destaques"><p class="empty">Buscando manchetes…</p></div>
           <button class="link" data-go="noticias">Ver todas as notícias ›</button></div>
@@ -278,6 +323,13 @@ footer{font-size:12px;color:var(--muted);padding-top:18px;display:grid;gap:8px;j
     </div>
   </section>
 
+  <!-- ENTENDA -->
+  <section class="view" id="v-entenda" hidden>
+    <div class="panel intro"><h2>Entenda o momento</h2><p class="sub" style="margin:0">Cada assunto contado em 3 partes: o que aconteceu, por que aconteceu e o que pode vir pela frente, com as saídas possíveis. Toque para abrir.</p></div>
+    <div class="stories" id="stories"><p class="empty">Carregando…</p></div>
+    <p class="note">As previsões são de analistas e veículos citados nas fontes de cada história. Não são recomendação de investimento.</p>
+  </section>
+
   <!-- ELEIÇÕES -->
   <section class="view" id="v-eleicoes" hidden>
     <div class="cols">
@@ -296,6 +348,7 @@ footer{font-size:12px;color:var(--muted);padding-top:18px;display:grid;gap:8px;j
   <button class="tab" data-v="inicio" aria-current="page"><svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>Início</button>
   <button class="tab" data-v="noticias"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="1"/><path d="M7 8h10M7 12h10M7 16h6"/></svg>Notícias</button>
   <button class="tab" data-v="mercado"><svg viewBox="0 0 24 24"><path d="M3 20h18M5 16l4-5 4 3 6-8"/></svg>Finanças</button>
+  <button class="tab" data-v="entenda"><svg viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.8.8 1 1.5 1 2.5h6c0-1 .2-1.7 1-2.5A6 6 0 0 0 12 3z"/></svg>Entenda</button>
   <button class="tab" data-v="eleicoes"><svg viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="10" rx="1"/><path d="M9 10V5h6v5M10 14h4"/></svg>Eleições</button>
 </nav>
 
@@ -542,13 +595,13 @@ function faixaIbov(ib){
 const usd=()=>S.moedas?.find(m=>m.sigla==="USD");
 function dolarHero(completo){
   const u=usd();
-  if(!u)return`<div class="lbl">Dólar comercial agora</div><p class="empty" style="color:#9fb3ac">Buscando cotação…</p>`;
+  if(!u)return`<div class="lbl">Dólar comercial agora</div><p class="empty" style="color:#a9b6d6">Buscando cotação…</p>`;
   const conv=S.conv,mo=S.moedas.find(m=>m.sigla===conv.moeda)||u;
   return `<div class="lbl">Dólar comercial ${u.cache?"(último registro)":"agora"}</div>
   <div class="price"><small>R$</small>${num(u.valor,3)}</div>
   <div class="row"><span>${pct(u.var)} hoje</span>${u.max?`<span>máx. ${num(u.max,3)} · mín. ${num(u.min,3)}</span>`:""}${S.turismo?`<span>turismo R$ ${num(S.turismo.valor,3)}</span>`:""}<span>${u.hora?esc(quando(u.hora)):""}</span></div>
   ${completo?`<div class="seg" role="group" aria-label="Período">${[7,30,90].map(d=>`<button data-dias="${d}" aria-pressed="${S.histDias===d}">${d} dias</button>`).join("")}</div>`:""}
-  <div style="color:#c5d3ce">${linha(S.hist,{altura:completo?170:90,eixo:completo})}</div>
+  <div style="color:#cfd8ee">${linha(S.hist,{altura:completo?170:90,eixo:completo})}</div>
   ${S.hist?.length>1?`<div class="row">Em ${S.histDias} dias: de R$ ${num(S.hist[0].v,3)} para R$ ${num(S.hist[S.hist.length-1].v,3)} (${S.hist[S.hist.length-1].v>=S.hist[0].v?"+":""}${num((S.hist[S.hist.length-1].v/S.hist[0].v-1)*100,1)}%)</div>`:""}
   <div class="conv">
     <div><label for="cvA${completo?1:0}">Converter</label><select id="cvM${completo?1:0}" data-cvm aria-label="Moeda">${S.moedas.filter(m=>m.sigla!=="BTC").map(m=>`<option value="${m.sigla}" ${m.sigla===mo.sigla?"selected":""}>${esc(m.nome)}</option>`).join("")}</select>
@@ -602,7 +655,7 @@ function renderStatus(){
 function renderInicio(){
   const a=S.base?.alerta;$("alert").hidden=!a;if(a)$("alert").textContent=a;
   $("today").innerHTML=resumoDia();
-  $("hDolar").innerHTML=dolarHero(false)+`<button class="link" style="color:#4cc9a6" data-go="mercado" data-j="mDolar">Ver gráfico completo ›</button>`;
+  $("hDolar").innerHTML=dolarHero(false)+`<button class="link" style="color:#f5c242" data-go="mercado" data-j="mDolar">Ver gráfico completo ›</button>`;
   const ib=S.ibov,se=S.ind.selic,ip=S.ind.ipca12,ga=S.base?.combustiveis.itens[0],eu=S.moedas?.find(m=>m.sigla==="EUR");
   $("hTiles").innerHTML=[
     ["Bolsa (Ibovespa)",ib?num(ib.pontos,0)+" pts":"—",ib?pct(ib.var):"","mIbov"],
@@ -616,6 +669,8 @@ function renderInicio(){
   const e=S.base?.eleicoes;
   $("hEleicao").innerHTML=e?`<h2>Eleição presidencial</h2><p class="sub">Resultado do 2º turno (25/10).</p>${duelo(e)}<button class="link" data-go="eleicoes">Ver andamento completo ›</button>`:"";
   $("destaques").innerHTML=listaHTML("destaques",6);
+  const hs=S.base?.historias||[];
+  $("hEntenda").innerHTML=hs.length?`<h2>Entenda o momento</h2><p class="sub">O que aconteceu, por quê e o que pode vir pela frente.</p><div class="slist">${hs.map(h=>`<button data-story="${esc(h.id)}"><span class="m">${esc(h.tema)}</span><span class="t">${esc(h.titulo)}</span><span class="a">›</span></button>`).join("")}</div>`:"";
 }
 function renderNoticias(){
   document.querySelectorAll("#chips .chip").forEach(b=>b.setAttribute("aria-pressed",b.dataset.c===S.cat));
@@ -645,6 +700,34 @@ function renderMercado(){
   const j=S.base?.mercado.juros;
   $("mJuros").innerHTML=`<h2>Juros futuros (DI)</h2><p class="sub">Quanto o mercado espera de juros nos próximos anos. Subindo, o crédito tende a ficar mais caro.</p>${j?`<table><thead><tr><th>Vencimento</th><th class="n">Taxa</th><th class="n">No dia</th></tr></thead><tbody>${j.map(x=>`<tr><td>${esc(x.nome)}</td><td class="n">${num(x.taxa,2)}%</td><td class="n d">+${num(x.var,2)}</td></tr>`).join("")}</tbody></table><p class="note">Registro de 26/10, em pontos percentuais.</p>`:""}`;
 }
+function blocoAoVivo(h){
+  // números do momento, calculados com os dados que o app tem agora
+  const u=usd(),ib=S.ibov,c=S.base?.combustiveis?.itens||[];
+  if(h.id==="bolsa"&&u)return`<div class="live"><b>Agora:</b> dólar a R$ ${num(u.valor,3)} (${u.var>=0?"+":""}${num(u.var,2)}% hoje)${ib?` · Ibovespa ${num(ib.pontos,0)} pts (${ib.var>=0?"+":""}${num(ib.var,2)}%)`:""}</div>`;
+  if(h.id==="juros"&&S.ind.selic)return`<div class="live"><b>Agora:</b> Selic ${num(S.ind.selic.valor,2)}% ao ano${S.ind.ipca12?` · inflação de 12 meses ${num(S.ind.ipca12.valor,2)}%`:""}</div>`;
+  if(h.id==="diesel"){const g=c.find(x=>x.nome==="Gasolina"),e=c.find(x=>x.nome==="Etanol");if(g&&e){const r=e.valor/g.valor*100;return`<div class="live"><b>Conta do etanol (média Brasil):</b> R$ ${num(e.valor,2)} ÷ R$ ${num(g.valor,2)} = ${num(r,0)}%. ${r<=70?"Abaixo de 70%: na média, <b>o etanol compensa</b>.":"Acima de 70%: na média, <b>a gasolina compensa</b>."} Confira no teu posto.</div>`}}
+  return"";
+}
+function historiaHTML(h,aberta){
+  const L=a=>(a||[]).map(esc);
+  return `<details class="story" id="st-${esc(h.id)}" ${aberta?"open":""}><summary><span class="tema">${esc(h.tema)} · ${esc(h.data)}</span><span class="tit">${esc(h.titulo)}</span><span class="cham">${esc(h.chamada)}</span></summary>
+  <div class="sbody">
+    <div class="step"><span class="nro">1</span><div><h4>O que aconteceu</h4>${L(h.inicio).map(p=>`<p>${p}</p>`).join("")}${blocoAoVivo(h)}</div></div>
+    <div class="step"><span class="nro">2</span><div><h4>Por que, e o que isso causa</h4><p>${esc(h.porque)}</p>
+      <ol class="chain" aria-label="Causa e efeito">${L(h.cadeia).map(x=>`<li>${x}</li>`).join("")}</ol>
+      ${h.outraLeitura?`<div class="other"><b>Outra leitura</b>${esc(h.outraLeitura)}</div>`:""}</div></div>
+    <div class="step"><span class="nro">3</span><div><h4>O que pode acontecer</h4>
+      <div class="scen">${(h.cenarios||[]).map(c=>`<div><span class="pill ${esc(c.tipo)}">${esc(c.tipo)}</span><span>${esc(c.texto)}</span></div>`).join("")}</div>
+      <h4>Saídas possíveis</h4><ul class="ok">${L(h.saidas).map(x=>`<li>${x}</li>`).join("")}</ul>
+      ${h.bolso?.length?`<div class="bolso"><b>No seu bolso</b><ul>${L(h.bolso).map(x=>`<li>${x}</li>`).join("")}</ul></div>`:""}</div></div>
+    <div class="fontes">Fontes: ${(h.fontes||[]).map(f=>`<a href="${esc(safeUrl(f.url))}" target="_blank" rel="noopener">${esc(f.nome)}</a>`).join(" · ")}</div>
+  </div></details>`;
+}
+function renderEntenda(){
+  const hs=S.base?.historias||[];
+  $("stories").innerHTML=hs.length?hs.map(h=>historiaHTML(h,h.id===S.abrir)).join(""):'<p class="empty">Nenhuma história no momento.</p>';
+  if(S.abrir){const el=$("st-"+S.abrir);S.abrir=null;if(el)requestAnimationFrame(()=>el.scrollIntoView({behavior:"smooth",block:"start"}))}
+}
 function renderEleicoes(){
   const e=S.base?.eleicoes;
   if(e){
@@ -659,11 +742,11 @@ function renderEleicoes(){
 }
 function render(){
   renderTape();renderStatus();
-  ({inicio:renderInicio,noticias:renderNoticias,mercado:renderMercado,eleicoes:renderEleicoes})[S.view]();
+  ({inicio:renderInicio,noticias:renderNoticias,mercado:renderMercado,entenda:renderEntenda,eleicoes:renderEleicoes})[S.view]();
 }
 
 /* ================= NAVEGAÇÃO ================= */
-const VIEWS=["inicio","noticias","mercado","eleicoes"];
+const VIEWS=["inicio","noticias","mercado","entenda","eleicoes"];
 function vai(v,alvo){
   S.view=v;
   document.querySelectorAll("section.view").forEach(s=>s.hidden=s.id!=="v-"+v);
@@ -677,6 +760,7 @@ document.addEventListener("click",async e=>{
   const t=e.target.closest(".tab");if(t)return vai(t.dataset.v);
   const g=e.target.closest("[data-go]");if(g)return vai(g.dataset.go,g.dataset.j);
   const j=e.target.closest("[data-j]");if(j)return $(j.dataset.j)?.scrollIntoView({behavior:"smooth",block:"start"});
+  const st=e.target.closest("[data-story]");if(st){S.abrir=st.dataset.story;return vai("entenda")}
   const sc=e.target.closest("[data-cat]");if(sc){S.cat=sc.dataset.cat;store.set("cat",S.cat);return vai("noticias")}
   const c=e.target.closest("#chips .chip");if(c){S.cat=c.dataset.c;store.set("cat",S.cat);renderNoticias();return precisaNoticias()}
   const m=e.target.closest("[data-more]");if(m){S.shown[m.dataset.more]=(S.shown[m.dataset.more]||15)+15;return renderNoticias()}
