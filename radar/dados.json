@@ -89,10 +89,10 @@
       "pontos": 175710.05,
       "var": -0.51,
       "anterior": 176608.23,
-      "minimo": 175130.23,
-      "maximo": 178526.08,
-      "hora": "27/10 18h22",
-      "ts": 1793136130745
+      "minimo": 175710.05,
+      "maximo": 175710.05,
+      "hora": "27/10 22h25",
+      "ts": 1793150741283
     },
     "acoes": [
       {
@@ -177,7 +177,7 @@
         "var": null
       }
     ],
-    "acoesTs": 1793136130745
+    "acoesTs": 1793150741283
   },
   "combustiveis": {
     "semana": "Média nacional ANP, semana de 18 a 24/10/2026 (gás de cozinha e GNV: semana de 27/09 a 03/10). Variação desde o início do ano.",
@@ -227,33 +227,33 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Dólar fecha em queda após disparada eleitoral; Bolsa opera em baixa",
-      "fonte": "UOL Economia",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPUUE2LVdYdUVVM0lOU3UxQW5FVzlUM241S0ZSYjgxQWF2MVlMYjdSWFd2QjF5dWZ6S0Zjb3ZIYThNTkp4OXVYZkxoRWVHRUI5WHg5SGQ0eWkwSHJTcXR5c1V4dXN1MGxRTVNGYThRVm5odTFmVGdjZmRiYVBqdGlxN0hpZ3oxTzRBS2N1WFdXSVZHLVN5UjVPakpfQVRfZENhTDMzaFpUblA4eUFtclc2N05valBqbjh4VzhFblQzdHBFNjc2RnV4V203YWxVdw?oc=5"
+      "titulo": "Dólar cai quase 1%, e Ibovespa recua após tombo eleitoral",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcW81N09vSURHdzdyclV3eWxGakV2M0ZZNmtoeFVIYUhfWjZPXzhqRE1hajRTX05wX3A3TEZ5X0lIYXU2QzFBS2JaOXJybngzR2dVaTRMblk4Qm5Ja0dJVWNfTkFJV01PVUtOYVI4MUd2RE04ZFlQNklPR242cU50OFJ4Qm9nTlNjWnR3QWRVUndQNHhTSWNQbTBib1hHYVJ2czdKWHg1TW1YcDk3VXdsOWgxMA?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Apostador de Santana, no Amapá, acerta na Lotofácil e ganha mais de R$ 2 milhões",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQR2xmejFYM1M3Z2tnZ3pQME8yUnZzM05ENzlpQmhfU0xuNnRkYnF5eVpNSFprejFQSTIxX3JRNFdWczJYVE1jSTM3ZmJsZnBJZXlCNVhFXzA0OFlBMTZCdW1yRzF5aGF2dURBTkxEc2hTU3YwVGxHSHM2NUVsSDhQZUJtZjJtYUJmSjZ1cFIzQVFTTC15UV9zSFFOOFRxM3VKSmZ0TjN0VFlxZzJQTXVueTJIa0JtTXVTWE1rcmdVa3Q3dE44SnVBTWhVLUzSAdsBQVVfeXFMTUNHN1c3WDJBNWN6Q0tzQm1XVi12N2RTUWxYSEd0YnZETkYxcl9VV3Z5V2ZXMkdKcjBTcTVNQThfMWc4VU5fYTk5NG1ya2xQdlJORWVDZGhhX2d5aDZxN291bjF1T3d2dkpWSjZ1ZDNkN3Zpalp1dUxMQUhKMFRjM1pDTDR2ektqSC1qVjNCY3FvVEFSTTFFRUxWQWsxX2J4eTZwUE9XaUFoVXA4QXpsRVhvdDRTRHpsTGNUa29WQlJUMElYeUtjX095SmQtOVJfd09QRUh1QU80bFMw?oc=5"
+      "titulo": "Durigan diz que vai propor ajustes fiscais para perseguir centro da meta",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSDJzdHRrYzNqTjVqWFAzOUpNR2tOZWdXQzVaWnRUaXVDNFo3RG5oUTFaUmRfN2hSLUtHRjhnbHpIRDVobTJnUFpreW5UM2FpTEpPV09HVW8yNTJoNzY3SkVqYkVVc0ppTWN2cTR5ampvNl9IN1hPOUQzdXBpUENyTUg0ZG83UFpIZlZ1X0FxaEVfUnU4X0FGOEVJTWU1SjBZaklKSURwY0lmbzgzblZKdmNVMVdEMHJPdkludHI0eXdqaHJVb1o2amlTSQ?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "BC diz não ver risco relevante para estabilidade financeira",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMUV5YlRKaDlCRUpQRS1MWnA0SkgycTZnMlN6MGs5SVJscGU5aGNKNU9ULTEzbFh4Vi0wOWVKZk1xLVJneGx5aUUyVWR2WHVRT3F6SURvcm9ld1FsUjNiWEhMb1Y4NWdMS1VSdXBRa19IMnZKeW5XY2xMQ2RUY2t2T2NrQ0R2TVdJMS02UFRhOXRad203VnB5VlF5OURsNUYzTThZZVV3?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "PF apontou risco de Flávio Bolsonaro fugir do Brasil e suspeita sobre destino de dinheiro de Vorcaro ao pedir a Moraes apreensão de passaporte",
+      "titulo": "Mega-Sena 3076 acumula e prêmio vai a R$ 320 milhões; confira os números sorteados",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPOEJqM1NvN1JwSThualJqV0E0bXVsZHB1MkwxMC1DUkVnTEtHUGpQU2M2QVd3SlkxakJIWjRoSzRseURUdDlpZ2pXZ0s5TDduQWtpa2RidDNLNFhEYk93S0lZY19XVnpybE1ta1REWFhkdnhvbGY3TlVmN1E4T2tpVExWZ0hjN3ZZRVB6cDkwN3JRbUZaTWlrZXlETTBQXzZLVzVGMEgtRFlIQ202a1N5WURCOUxWbUZPUjBRcUNhVTlvNFhCTHhBM2NFVENlOWpFSE1va0Y5RXNmMEx4aXMya0hIbV9LZ2hnZGFtQW9TcmlCRVdOOVhsTXM2Q0c1cWRRRm9YSVMzQ3dLX1c2d2F3aTJKbjJ1eWJIenVKLWxpWTVpLWPSAbICQVVfeXFMTkNzUmZTUmphT2lxUUVNT2htVTd3UGNFbl83cF9yOFdCeHg5SUh4TFhfNlJQeGtaWUhrTWJ5UUMwR21qMDBqUGQ0VFJGV0pDcDd1b2EyU0p0eEptNDlaVHo0UTJIYVlreExRdWtfdFhJNzgtWkxaZ2pXU0k0bFdXQkZLQ1F4Z1pZLTNxeWpFbWtrUUVmdUJNRnl3eDlsTHprZUk5QlFqXzMxR1lwQV9zM2ZiSzhHWVpSTm5JZGZtcUE1akJBZjZhYVJULS1FUlBIQS1aVVJheHllNHdQNHJKTlJpakoyaHJETDRQaEZVdUpJeGs1clpRVnRLbzBhdWlTYkpHZHo2cjdCWkJoblBlcnhwWHNZLWRINWp2alozQ2ZBQ1hHRTlNUmt5YmlQY0NxeTlB?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcmlUQW1zOC1FZnUwVFFNV1VYR3gxSHpnckNvQ2owdDNtRDBkeXR1SUw0UmdfbFdRWXd3QXVxYXdJMktmR0gyUVlWUDVEWTJBSjBITVBQUXNrbWN5Z3BpUDA1OWJ4dVFPc1hiQ2hGRkMtckx6ekd3TlZFajZObzh5V3pJUktfSDcyLXc0RDhsZ2JEaWFwTThwMmFDZWljdGJkQzJYUE54eVppOVlwZE1wN2IxcVA3MkFp0gHHAUFVX3lxTE4zbmJzWmpTZUtLVE5TZW1DVTd3WUFSR0VFN2s2UVdyeXZfTVVBdEpxUURnRXhibDgtX0VTUEJzREZYVHVwWUx0eEkzS1pURjFNYTZfN2d0RmdxWTkxS1dfVEFXY1Q4STZsWG1CMlB6a2RSbUJJVXVKVG5WSUZ0aXo5QXJRTWxLaUd4QWU5aWNnUUF5c1ZZajQ4akJCTlBvbkF3TC02NmIwb3dmYjdtcU02U2FZX2poS0NuUGdmdDdxWWpsVTVZQnc?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Tarcísio reconhece vitória de Lula em publicação nas redes: 'Eleição passou, Brasil continua'",
-      "fonte": "Terra",
-      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPZFlVRzBaUzVyQl82MThoTFZPSmJSN1pHMkhKMk1CNjVGTkF1NDgzb1Z1SGZGU1BNUThwX29zXzcyei1nUlFULVlKUm1WRFMyR0x6YlB1anYtTDZsUlppa1pYR0JYMk12blNSZEJfUU85bnkzUmR3T0k4SEZIdGhOUTFRYTl5X3dPcHdNcUh5WkNVVGxaZnAxVjRpQlI3bWxqWTRLTVhtYl9fdDhKOEJFdTZRT1lub2pyQTRlc1VyM0Q2aDZtS2FFUUtBVkp0c0MyR21QSk1wU21QT3dfMEE0aEN5djhwTkdha3NFdnR0ZlRIOWZCUkNsWkxGYzkxVVM2c2RkTEJGblkyUQ?oc=5"
+      "titulo": "Trump autorizou entrada de Flávio Bolsonaro nos EUA, diz fonte",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYTlEYWJsYmJLUS1sWXNPdHhqbk9WajI1bURyd0NmcW9CV29sQjZhWmdPQzctTEdJMk9lY09vd3ZMUW5tRkthUktBTld2S0d4THFmZXh2bjc0M2dRY29MRHI3SUpXUENQeGpIQzZTQVN2TElHUXpVQnFmX2hEQTN4TnhMSUhzeERnLVl5cU5HQ1NVdVRRN3hjVkptUzlrdEx3MG90UlpoUzc?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Fachin arquiva três investigações do inquérito das Fake News",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVkJFUEl0elhQWl9CalMya0J4QTRCUkdiQXYwdkN2enQ2WVl0REFycWx2VGFXTVV3M1pWWmkyZ0dCUDdYMGYzR01uUG1OWUpIekp6ckJMTE40NmdmRmVTSERJRmw1UDMtclBYTU9rM2YyTGMwb1VkVjBzTTltQnZ6ZFdHeUdzN1J5YlI1aHpKRVZvU1F6YWRLOUx6MTE5MkUxd0wyWlRpczNMLUxrSGZrOGlZMUtoZ205?oc=5"
     },
     {
       "cat": "brasil",
@@ -263,21 +263,27 @@
     },
     {
       "cat": "politica",
-      "titulo": "Para facilitar aprovação, governistas defendem acelerar pautas no Congresso ainda em 2026",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNdXNQMWl0WF9uTFpPQ0hQVWY2RHRLaFhLYlVSbHUzNFVaZWZQN3FiUjlKcU9qVUlfRmFsbjBMUFNpcnpaZTV2dmdzajVIcGRpQ0hSOHlFRlBlYWhxNl9VdmhDQlJoNGtWUEZHam1GZUQtNjcxTmlDOGhTMzBnUXVwSFNvWlVvdFhrRjFFZE9MczhOYU9GQkdyRkstQi1RTlpQUXB2Yjl6WVNUcURhMHRBRlZpd19nZzNTODY2OTlFVGlyeVRxQmx5eTN4dnU5cjkweTU2Q1dFTWdVTmPSAeoBQVVfeXFMTzFjY3NkR045RmtlZjNyU0hzTHdwVVljeXgwWmZFc3IyZ212TFhjMENzdldWZnZBTDhMSzlvNDNWZmg0MWxZVVdHMzRRY0xTSEJnTEFUTmk2Vk5Lamt0cUhYWmVUVVNvZ0JRTGJfdEk1X1BSVWljZGd1dFF1d3c5OG0zX3gwZEF6bVhyTXcxWjN1VFdHRVhscF9YQ0JjcU4tZk1RSElFenlTWktnb013blFWeHFtZEhFUUJHSzFyV2x6eEpPWGl4dGkxVEQzc1dObmk2MWxGV1dDeDVvb2RCeWNZd3pzSTIxYnZB?oc=5"
+      "titulo": "Motta e Alcolumbre intensificam articulação para reeleição no Congresso e contam com apoio de Lula",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPSlVfeXZ2c1A2VFVObTdrdWN2RU1MR3JlQWdsT3p1S2FmZ0RqUHRyMV9hOUJEcDJIV2hZUWQzTDRDRTJOdl91dHIzbnl2WlVvQWl4UkwwbW94djRoZkltSU42NldzTFJJRmFDcVkyV2Zhc0NvZFhlWkRRd09ickIwOFRicGdfM3BMRV81emlTQ0dNajNyLVNmVWtjTkprYndiLTIyT2hSOVlHNldaMG9GVnpHTTZvVC0zLWgtNzhhaXFrZGxWY1NKNUc3MmVfQXpRZUFVQzJIYTJvSzdqTUNaT0RxbW9fckZDYjUtaV9R0gH8AUFVX3lxTE84MDNTOUNjZDRBaVdSWGxQQlRQTjl2aERhMEI4N3FmYURkeEQ4Z2pIRWUyeFBBNWdiNkEtYTN6enVBd1IyLVB5N2kyeWdKeGZNVXBKMlFkbURLeFEzaUZpVU9pU2lnM2JmUjNkZHR4azZBaDBLTDFJOVFnTGZuNnpGdnlCZ3N5YWtTSVM2bUFoM1hIazBmYWFLTVE1UFR6WjB6eUh6dzVtX0NybkNhbDd4YVJoZ2FrUllodDBzOEQ2cE1PZXFPdVV6NnRhMFQxZWh4UGt6YlpJN1UwQzFQWUZYWEpKV0h2ekJabi02VVlnM1ZuSjRBS3YzaEJ3cw?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Prioridade no Congresso são PEC da Segurança, MP das Bets, Orçamento e tarifa, diz Guimarães",
-      "fonte": "Money Times",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQYXhwS0NfbW1BbUVpS2htcGNzOVYwY2tMUDFEMEp1TmcwSTFCbU4yYWUxZnBRSDlCWTN5R2tHaDZ1T0hsVURpVmpWR3JIUXYwTzJ2bzc3ZWlmREhOWmJjSWhBdHFxZjZHRzVGVG5GOWJCVHFqNGFEVVpKT2UtSzJHMmJvTGRHMVptbmVSRzdGVEY3c19UNGp2UlpLekNpZXo2OUp0a1V3Mlk0YTlHdE9fN09VcWZYdGNWck1UZg?oc=5"
+      "titulo": "Governo alerta sobre notícias falsas relacionadas a programas sociais",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbEU0REdXMlVyOHZKYWl3cnE4SXJzVzByOWZtX3kwU3EwMklZOEhlNjZCOHNfeXZESTRxVWQ3SlliNjdJVlhkMDlSaUIteHFiZUxGeEgxSFlNOEdybDdXeFFsUC1rQm16Y3N6Yy1sbDZUUUNyalBQTk9IaEFPUENpcVhEZDVFcGU3Z3dsdDkwNkc1eDBPQ3huLXVTMzVGOHJWNFI0WTV5OVdIS0dvOTRyTFppcnJZYWhUek1FX0YzYTNLTlk?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "União-PP anuncia apoio à reeleição de Alcolumbre no Senado",
-      "fonte": "SBT News",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNX3BJV3hhQWs3d3pEYXRXMXJtMHNVb3ROU1I0T2w0X0ZUZ2QyUHotcG91djdaTUFQZ1hxNVYtdzhFWl9EY3h5eG13cFBtaGh2TV8xeXloSGJIaTFXZ1Jya1M4OFBsX19FM3dDa1RTNl9CeFpKSks0eVhubENmbFFsR1h1Tm1GNmJsQlNpSUNBNlJmR1RFUGdSaUotRHd2NTNzcGtkRUNnNjhfX2NmRjU0?oc=5"
+      "titulo": "Seminário ‘Brasil 2027’ reúne especialistas para debater os desafios do novo ciclo político",
+      "fonte": "CartaCapital",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcV9ITFBnZXFEY3gxMnRxSEpzSThDeWh6cmcyR1VoOHVaZDJJblhpUk5GSnRHS3B1elViT3lDc2dJd1p3Z3hWLTdLcXNPRFVveXVEd25nc3MzV3RDU3ZVQVVLNnpCbGhHX0JCM0dHMUNhWWcySFUxSEpwQ1djLTUyUTBYclNyczE3M3hXOW9mX3JpVHhVcERzU1UxeS1DZjd2aVlkcVc3WV9obGR3WWtadkl0eVRGakx4Z0NkeFhsN05xZGRmekk0NzF3?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "“Ato vergonhoso”, diz Lula sobre fuga de Flávio Bolsonaro",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNc3BjaHljS1Z5SWplcTBIQ01pclE1ZTB5ajJsNjlzZFpiQU5KNW5kZ3dRUUsxaHgtckhDdW43R2c4SDJ1Vm50U3BmYWRjeEVocVZ5djUtcy01Q2Q2MHlEMEpCMlJUWGtkMGZyMVFoOU51M1NRcm9YT05zTE1ZTU5YT2d5czhBbFBpU1dZWHc2anlOUXFPZ2w5N1lHbGNXakNwVUxOZThfdXdneHVkanJwTXNB?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -287,15 +293,9 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "Flávio Bolsonaro venceu eleição presidencial no Rio de Janeiro",
+      "titulo": "Flávio Bolsonaro venceu na região do Rio de Janeiro (RJ)",
       "fonte": "Congresso em Foco",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNDRMWWRuazJvMGFUZVlBUHhTc1F3ZExGY3NqU3lKUG1CcEJoWG1xZHVYMlNsMTg0Q2ZoZnVIbzB0LVFGMnhpZV9mN3hJdmJ5NHVsX2VhY19XY0toV3BkbncxNzFvcTVKS0FhbXA4TldlcWJtUnRwR240TXpaeW1qUXZxSnhJNWZ4RFZGbVhwY0pLcTRFSVZyNEJpSDFMd1Y1YjVCckdTSUx6cnpUbUxpRUJB?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Flávio Bolsonaro fugiu para os EUA, diz Agência Reuters",
-      "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPajE3bG8yc052SnFJN2ZMX1lCMU1CZFBMMVh6Umw4WlFNdEFJYWYyTURkLXVzd1BUQkFHLVpKdnlBUE1xdWs0aHg0bXdVWWxZb09JNUo3YkpoY3VtczM0OUVOYndYUTd4V2xabkxJSW1WYjFZbVZFNHNwR3RmLW5aM0dQY3l0enE2MWtOTTN1ZVkxbHlPWnhiWTBza2xFVDRQWUNKdk1QelM4dmFpMW04WXp3?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQV3FWQVhLbUhWTGhsOGx5ZWd1VlRQZVN5YURsRTg4bHVJcG5RTTdXUDVBY1NER1Z4QUwtVU1zVVNfSWxiYmZPRXN3WU1OQWszdk5iOG5YQ0Q0UUtXbVUxNXRvZEpzRTFBRVVqR3BjVHpQYk00bnlqRXlvS05hT0Zrc2RkWWhuaHMwQzFUa0JjRFM5cXFKMVpqWVMteDYtRXBhRXp2WjNKYw?oc=5"
     }
   ],
   "indicadores": {
@@ -1080,7 +1080,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-10-27T18:22:12-03:00",
+    "atualizadoEm": "2026-10-27T22:25:43-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
