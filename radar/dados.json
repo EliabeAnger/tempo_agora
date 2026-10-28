@@ -118,54 +118,54 @@
   },
   "mercado": {
     "ibov": {
-      "pontos": 170936.97,
-      "var": -2.72,
+      "pontos": 171006.1,
+      "var": -2.68,
       "anterior": 175710.05,
-      "minimo": 170297.16,
+      "minimo": 170162.48,
       "maximo": 175711.22,
-      "hora": "28/10 13h06",
-      "ts": 1793203608283
+      "hora": "28/10 18h08",
+      "ts": 1793221704498
     },
     "acoes": [
       {
         "ticker": "PETR4",
-        "preco": 52.48,
-        "var": -0.59
+        "preco": 52.51,
+        "var": -0.53
       },
       {
         "ticker": "VALE3",
-        "preco": 61.54,
-        "var": -2.32
+        "preco": 61.38,
+        "var": -2.57
       },
       {
         "ticker": "ITUB4",
-        "preco": 39.87,
-        "var": -3.2
+        "preco": 39.78,
+        "var": -3.42
       },
       {
         "ticker": "BBDC4",
-        "preco": 14.89,
-        "var": -5.34
+        "preco": 14.68,
+        "var": -6.68
       },
       {
         "ticker": "BBAS3",
-        "preco": 16.88,
-        "var": -2.88
+        "preco": 16.79,
+        "var": -3.39
       },
       {
         "ticker": "WEGE3",
-        "preco": 47.22,
-        "var": 2.3
+        "preco": 47.2,
+        "var": 2.25
       },
       {
         "ticker": "SUZB3",
-        "preco": 48.22,
-        "var": 1.45
+        "preco": 48.1,
+        "var": 1.2
       },
       {
         "ticker": "B3SA3",
-        "preco": 14.33,
-        "var": -6.95
+        "preco": 14.69,
+        "var": -4.61
       }
     ],
     "juros": [
@@ -209,7 +209,7 @@
         "var": null
       }
     ],
-    "acoesTs": 1793203608283
+    "acoesTs": 1793221704498
   },
   "combustiveis": {
     "semana": "Média nacional ANP, semana de 18 a 24/10/2026 (gás de cozinha e GNV: semana de 27/09 a 03/10). Variação desde o início do ano.",
@@ -259,75 +259,75 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "TCU propõe alíquota de referência de 11,3% para CBS em 2027, que substitui PIS e Cofins na Reforma Tributária",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOR1M5SnhCZTcxM3ctamhaQ3hac3NPV2JfdUJNTXZWNGhhVk13Skw3bGlVdTJnTFRQQUhSOXgzUkJOczdMdFNNUXFfNTh2YkR0bkpfLXJ0VS11QUxjRWtJY0RHWXdNOWFpQVMteGNmWEduOGpqREFubVhYS29LS2NLNE5KT3ZlWERkSnBDWHVnWDQ2a25GOE5KTHhVNUhMMnJGWko5cmZBS0ZzYXNYMWZrbkJiN2dWMW1kRHc1VFpnRDN3cUNoOEo3NHdzMDhNMkY2OTVzR3lNVVZWRlkwaTZVQXBTT2fSAfMBQVVfeXFMT0o0ZFNBS1JqMFdhU0hOUHhfendmLTRsRnZXQ19fYjZqNEhnbEZXLXdSTUxHdUxZbjFIdFIxd1ZXam9fV2pQZlM2cHJGMzV0S0J0emcyYnZTOWp1LTJOOGliUTNiX3FwVkF2VjljLWxfZE5pMVptYk9xdDFBa3FVWURfVTNNemFrQWhRNUUyTmU3V3diaHJMUGhYLWZVZFpTQm9WaXI0aFJUUXZMZkhaa2htbEc4YlZxS0plZ0M1SGpFQ1d1a1NoM2IzN0d6VW9ONEZ4LVhzaVpoWkJlSHVkMnlIdHZzRGxEdWphVnJuN1JRdzFZ?oc=5"
+      "titulo": "TCU propõe alíquota de 11,3% para o futuro imposto sobre consumo do governo federal em 2027; Senado tem que aprovar valor",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPSlpCeUJZb09pd2ZWNU10N2paZ2R5TVQ0NU5MdDVMT0lyX1Q4VVc2UUpFc3lfTGIwRlVzcm82Ylg2MDdkZU43aWU0dHNhdU5qNVFHVU9jNlV2aVVyZFFSWm1iQ013Um4yLV9ad2t3RU51dm5lMEZlbW1sY0gwQk84bTFoSU9vSTJxSUdTUUZQWHZ3ekhEcUxwaC1aVzZtNEU3SGdERVRUV2hjZ0tpZFFpckdNdlg4NjJYMzB2WDVPdjg2a2pNNVB2UVg2R2xhYnI1ei1zeDBhMG1wNVVHbEhBVjNjdXRFQjJTYnhiNjJtSGNDS1B1SG5KN0lZRG4wMURFV0FPQ3Z3dG1DTUpr0gGbAkFVX3lxTE9hWTFJZldHSlVOWnJkQnZvdUM5aTJ2dnZRajE0SHN6TjZtclFsNi1DNC1HXzRjOGZVcktwNFJsQTgxYVo3THJ6UTNBa0U0RnN0aW5nY0VaVkJjU1llNkJUVC1aMEd6UXdIWUQydGNOc0gxcDZTd2s1WGszUVdwM1R5UHlpQ1FQMXFKeFJQRkRUcXU3S3VTcm9DSDZUUFBsbl9GcW5tcEo0eEZHZjl4a3pGS29MUzdZckpMdGN0eWk1Vl9JNkZwTUFUNFdVeDNoNHoxYldhYWtfQ3EyQURCYnNUUHFsOTJMTGhOdVJGSXlYVG9YMllQMVhGdzlfS2puaHlwbTlfMEI0MEFIQ3hjWGNFQ0pVUkFTM0lNalk?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Risco fiscal de Lula 4 divide economistas após queda da Bolsa",
-      "fonte": "UOL Economia",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQeVljc0d3dnV0YXJJUVp1by04MUw2ZXlsY2lHR1pMQWptUGhXSDR2SUVWMXI0dFdCQUtPZ0J2ZHlLMEg2Y1o3TWpCNEVfdlhmaVpUV2RXazIyWGVzTGVNNGpkTl9PT1lzZUlqdVBSYmM1cjdTWkwzY092M1dZRV9HWFhWcDZqVy1qZzVOV3A5dEp6Q1RlaHZGRG9sMF9rcGhLb0JhbUJ3dGRpdjQ3UmhTVjRNS0RuWmU0eUl0YllXR2x0Yms?oc=5"
+      "titulo": "PF indicia Vorcaro, ex-presidente do BRB e mais 13 por fraude bilionária",
+      "fonte": "UOL Notícias",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeDhaMU9vRERWTG1hajdOdTZKR1JmSWRscFJCOWcwTUpSdFNrUkhob211QnVHR3pMRTAzRVBsQVo4T3ZzcHRYblhCQTd6NlVrZkgtbHBRdnl1RW9adWVkcWliTHQ5c2FEcHpsdWQ2d2h0V3VqSHhYaFExSmVMb2U2cjFNRGR6NHpxVkR5RWV5LVRHZW5vQ1JLOHhlTEI5REpnek9lT1BIYkhTRjg3Smw0VlpESFJUZHEtb2JhQ0ZfQkZDd29GdlIzME1n?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Santander Brasil (SANB11) tem lucro recorrente de R$ 2,9 bi no 3T, queda anual de 28%",
+      "titulo": "Estresse continua? Por que Ibovespa cai 3% hoje após terça mais tranquila no mercado",
       "fonte": "InfoMoney",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVWpjX2w0Wjlka3hILUdxTmlnNDBfNTdkVm9ZZDVtQThNX3F3ZlN0Ym1VMFI2bDBPWTRUMUZqVlVHbTZjd1Rsd1hLdUozOVhONWdwS2dfMXdpTC1SSExkMm1JOXNlT3hjbzlDYzg3bTB0N3Joc3F3dDU1R21PM2tFdkhZUHg4bm9MazBWUVZUUk1nak8w0gGaAUFVX3lxTE1rV2RlNU1TY1VlUjFjTzZyRk9CSkx4U2tmYlhwTkQ3R1lELUVXM1FCbG1tMG9NdXkwS2dFNk5UaHotTTZqNWxNNmd6THk5c3BBd25YaVlUbFZhbU45ZW5za25iem5fcVZHU1pUZnF4U29EOEZuWHVMZW1SdGdOX1UyX0RuMGVTbk9YN3NBb0dzZnFOZU1kdjIwWnc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUy1RUmx3NzBPbXVnTnNURGZUVk5aNUpmcnQ2U1VMdEFHTUM5MXNwSGNYYldBaDRmOW5IZkl6NFdlZ19CLTdpTmJOZExSUUVDVlViVXIwV2hDdVVRT1lCM2F2NUFVVld3UGQ3Y0ZfVDhNbkYydzdmbkRIN3VacUdnZmJiTkZZRG5EUEV3bXZWc3IxdC1ZSldOellCM1VKdHg3c2tQdWY1bGk1VV9nU3N4RWxzMjY2R25uNVU0M3Zna3RORFVyWVB6bGtqU1M4c2M3blHSAdcBQVVfeXFMUGtWNURWVXFGcmtncGp5VGlDUXJaaFBoYUQ5bGVRZ2QwYW8xN2NSTXRQOVJfaEdBZ0JGLUZqMDYyeVdXbjI3Z3J4UWxwdHNjV196cTNzX3FIU1VqZ2NDTnNVamQyUkhmalhlSlI4cHZVQVFEMkRQeTVIY0l6ckxsTHJaamdXbHpXcnFBTk5wN3YwdWNHMUVxQlJJaGc4aV9uSVYtMVdvb0oxOG9GYVNQWm5TMmNIZjVLdVI3bXNGdHpyUXhUTHg1djNFZ01pWmtUY3N1bUp2d2s?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Flávio Bolsonaro chega aos Estados Unidos",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOM3ZyVFlPbFdyMHNXUnp0dmg4bGhCcGt5QU56OWZ5VTZicmctcHZQZlhDbWVjWHZxandsYUVaNUk5Y08xc1ZCWTZ1bUJ0V3hkUEZfSWRFLXhLSHFsbnhoS25nbXJ6dGRGY1JnMDBybE1vQnpFQUljcHBXcDdaX2JzOVlBd09pU3NTaG8zN2trMNIBngFBVV95cUxNY3IycThMYjdoZzl5X0R1NlF1M191LU1XNERRNmI1SlFSNzhWZW5Gc1gwRC1NX2pXVjVvdGdPTUdjcFI3aC1DenhDMFpCanMxV0NyZ2dPTDFXOTlvRjh0WUV3UkFORm91cDB2SzYyakR5SkMwNzQ4WWF1SF95WXdjQnR6N2t4bTEydERoQnhBUXc1VEtnbHM2bnc0Snlzdw?oc=5"
+      "titulo": "Flávio Bolsonaro disse que não fugiria do país e provocou Lula em debate por ter filho na Espanha",
+      "fonte": "Folha de S.Paulo",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPV2ZXd0JhN2VlNmxmX2d3Z0ZhbnVVQ05TSDNPbGk1bTBfSkRpcjZqVFBiOUdUenRzcGgwNkVWNHc4YlNvMzBieVNMOWYwZC1iekdFQll0M2t6VFJCRVFGcmFMaWxhSW5IVzNEQkROSUp0VldEaXdfQjNIMGNhU185TEVVUEZmVFpFS3JrNjBicFhFcE9SSGZzQXV2UFoxMTJ6TzV4NlBTZzYzWmtfTmE1VThlWlQ4dGtNRjlYMXFWXzdEWFk1VGlJeGlDMkp3OVpQZDdlWUpuX2xaY0NqRzk2Zw?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "União Progressista declara apoio à reeleição de Davi Alcolumbre",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQblJKVU45TU9tblZUNnBWbFk1ZlNvUlNMbUpvbGdkTkxaQUhPUFFyb3NWdDlFZUFHNTlSdDdrX1VhTjJxSzNUNV9qbFA3djJmRUh5UDhHRkNkMmF3eVFRbkM2YWNfWHRzTm55eFV4YTlhem1GRjVvRVQ1VzVlaFZ4WEZQMVNDV1BSX0VsZDVjZ2lUOWZReVpGR0NnNVdyMmlEMTE5V0t0V2lQSHU0?oc=5"
+      "titulo": "Nos EUA, Flávio Bolsonaro se declara presidente eleito e líder da oposição no Brasil",
+      "fonte": "Gazeta do Povo",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZC1nSDRTdzV3dVdOcVpScFJzRllvYXMzN0cxQnVHU2tseTNheFNrdG83WmdtUE1pbS1kbzR3cTg3UE9TWWN5bVRKdGhkZjRNaEphLUZlTkpRcUxmYUxjdGh0eDVqMnBBOUo1elVwcE1IWlBaUkN4RHJoeGtkZDFVWFZITXR3M09FbUhSUlhCck9CeG4tRkFDVW4xSlM?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Políticos e influenciadores incentivam demissão e boicote a quem votou em Lula; MPT aponta violações",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPbWZ3S3FpdjNNQlFkXzFUUndnS2pNR0JEcXpyeGRJRTNMSzdCYTV2ck1OV0pPMmpaT25HbUUyMWxKc284QUhrRElVRUFlMldZa28wZzRsNG4zbGlRQWdyZ0Y4YU9pR0JESjViS1AtRC1Iek53eTdkTmFZWk9PNmhraDJnTGRpOXZDcHFpMVZmWThTYjVXSFBjV0FfTkE5UGFGU2xxQ01TN2JKTk54YVp4TEVycHBoYVFUQUpHTUVYZzNWUWw1NGxPNWp5RWJ2VElPQnhEbkhZR0FVbjFBVDRSNzFaYkpvc1pRR0oyLW1jYzhKLUJQOGkxeNIBhwJBVV95cUxPR0ZhN1c3MEVkdWxDbUQwUzY2VTN4VDZoMG5PbnduVms2X044WFlKWGpDWTh1MFVCbmh2dDIwcU5JVlloM2dEWGhPd2lPX2FrdGI2NGM4cXhXRnZlbGFzTTRIUVlUclBwREpRdkFCSG9UbjFSOGtxTW1ObGMzRjdic1BmdTkwVDl5cHN1cE1qeXpXTFdvc2M0WEpPQVA5dUpuSXhWS2UtdTVtWlJHMVBVaUxZOTM3akJRaC1wMkhkeU4xNXhfVlo4NFJzdWFKSmFHRklCZUJORTlyZnp6WUR0NHR3UDR1WDNpMm5IOHNlZWJyQllpZ1g5V2doRVlzbXh6VjVfcVRLUQ?oc=5"
+      "titulo": "Teresópolis (RJ) registra boicote a comércios após vitória de Lula",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQmRRbFk1b0RYeGwzT2R4dWdnQUVYZGtLdVlic0hFTHlnZTFDaTlWOVk3ZGZGYzFSUktlWjlCTU1RUGdNdkZmclFyUXJCcWFuZlNTaEI4cFMzRy1GMEhRSzZVYnJzaDVEX0JqMm9TY0dvSkFtNFdreHJSYmRGYnNycmxHN2JYSTVUa3VURHdTd3U4V04wZmVhOXI0UUdXR2Q3Z2gwZw?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Pesquisa da Unicamp analisa expansão dos evangélicos no Congresso e a formação de suas escolhas políticas",
-      "fonte": "portalporque.com.br",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQNTY3VXJ2QVhkS0FhZ29vdEhPZlBkX1Rmd0dyckN4YTFfZF9Jd3NHUnExTTE5RHVfd1l0Sm84RkZUMFkxMzFsWGhwRDF5eXNQd19uQXpzWWVUQ1JFQnloMTRVbW83R2xWQ3R6bW5rLVExRmNqWWo5OFVJTHlmU1V3NEUyS0JILTdaT0tuRUNOZC14R3JlencwUVNxUm83VDdQXy1GUDJBbXBYdXZmVDNVTC1oclVpbW1fQklMYmpyaW1YWHVkRGxRX05PX0JvSWpXUXYyUDlLSTRMczM4M1RhaA?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Lula terá Congresso mais à direita e enfrentará desafios para governar no quarto mandato",
-      "fonte": "Brasil 61",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVl9LWDhKdkJoTVlnNm1BNm1IYXkycUdNdF9xNzVOS0V1TElLRWNVZVljV2NJQW44RVJWWlQyMTRQQWp6S3ZrMnhBcHVLUjR1aHd3cjdaT0s2LWxrMU03VnhseTkwT00yaWhMSHpHMUFwYkxpdkMwYjVBS2MzdTliUWljU1FrNGs2VHd6b01RVlZQYll1NXpINU11RmZMOFBQRmdzd1N6WVpZMTN4T3cyaFotSHBuS2V0b0t5ZlljVTfSAcYBQVVfeXFMT09ER0hZMzdFTHBSRDQwVERVUmMzQmFrb0JPRzlWbU1ZWThRNEFHa3dzVldnX2N3NmVEM3lsS2RITUtFeU1iNllubWR0ZFBBWlRfY0I4WDI5Nmp4ejJSeDgzVUFXVlZUNXFDWV9aTnNXdTk3bGozV2RnNmRqakl4dnZBR001Wmhxdk1SMVJTUTZzVjlRQU9panM2MkU2RHRjOWlFOER4blRhV1VPOVdGUUJodkVNX1cybDlJSWRhR3VWSzRJQVlR?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Saída de Flávio Bolsonaro do Brasil isola PL no Congresso",
-      "fonte": "A Crítica",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQTJ2ZGpuUkEwVDNJY0dhWHI1bmdQcFZfazhNRzRLVEpCS21yekVETHEtcjFUSHBpYmJQTXFzQUpoeV95azB2LVV0NFVtWlRxSEt2T3lHNUhMdmo5b2N3bC1KV0ozNlpTTTJKWUEwblhaeURwNHBTamFQckYxQ2RRRkhxZ3ZXd1laLWo0cE5vQXdaWW54Rnpv?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Da festa desmontada à fuga de Flávio: as últimas 48 horas após a derrota para Lula",
+      "titulo": "Alcolumbre tenta acordo entre Congresso, governo e STF por ‘pacificação’ e avalia aceno a Bolsonaro",
       "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNVUpnZUtGNlRHTlU1eDlncnVJT2FwQzBuY2FITlZpbnBXOXRmd1VmOFRpR2pLQkVBaXc1b1M5R3lqXzVWdnphVlgxd3k4ekpGTUZ1ZFJpUEZGMmlRc3BTenVDU1BiSEVuX2w2WmowRC1CX01ua0gyQTRhZ0dSZUtzbUR0UFZYcnlKempCSm1yeVNYMkNzNWdFSm44aHNTaTU4SUpZcWNmSlpfcDZYZ29COW9JcU1VUWg2LW1tM3VqSllreUNiOEU5a05mT3Y2ODJWTHJORlFYa9IB5gFBVV95cUxQc0oyZFBOLXR0YUY2ZUd0a1dYNTQwcFloekhzSHBybmNPejdPUFp2cjRkeGE3bHlXTzltNEU4ODAzZ0J2RGRZcXZzeVhWSlZPU2NYdXRSamNJb1diQVN0RndVZzNIakVBaXN5UlNzakRDUG9pb2djQ0x6S1NkaW9FNzc1MTZhNEE4UXcyYWdxNThQeU85X1hZUDZ1blpERUxhT2tsNVRyM0F1aE1uU0QydlRtTHFGUEhBdG0tRU13U2UwVER4OE1Xb3lFSDBxdjBvZWFMUDRIQk9PNXdfR0pTNDZhN0otdw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPTjctcFRyajlycGNZcndtNWV3MEdTTXp4cnExcUJfTUxhNGpHMVVqT1hGYzcwOUNtamg0QXk3RXVmRXRXLTdJeFYyc3RsRFJoWlo5ZWlKajNncWt2aExkcFp5ZnRmR29odFlwV1hxX3hQa1NjaHFGRkNCQUhtbVF6cUcyZ0ZjRkFVLWRfN01KZjE0RlpxWUp6ZkVJYnVaYmxwV2I3bDU0SExZTHBrVjMyMjZTT21HZUpyTHNHWnpvMGFBUG14ZDJaN1F6clFzZF9QN1pJVC03RER6VW5TN2REbWZFeGlJTGc0QU040gH6AUFVX3lxTE5vZTJoUmRmdnQ4MG9fb0swdzZFQmo0cHBYZXVSY0VsdElBM3RsQ2VXTUl1RXQwUWtodWpnTHVMZ1FYV2c1ZUc1NHhGUUFYVDRGajRfck42OFB1WElyX1NsRDc4SGhiRlNkUkk5QzNhMV9oeklsMDFsQmd0dE5Fa25vRG1NanVKT3RPdnZINFZBSUkyVTZPdzhGaC1hdjRNOFdpYTZhaklvN1ZWc2hlVlRISDdvc0E3NTEwOUFHS2p0NHFjRHRTQTNZSFFRQnhlNDFRc0IxYU1oZE1tY1VBSXQ2WjBKeGtaSFY1QXBsZE9iNXI1X1J5TDM2eXc?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Governo Lula prioriza Orçamento e PEC da Segurança em agenda no Congresso até o fim do ano",
+      "fonte": "Folha de S.Paulo",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWkxMSGsyOTlxeHRDdll4VVZvYjJIWlhRZVVfM21FdTN4eVhFR2FGZzBHaE10X3JTX3ltc29KVG5IRjk3YXVPQnRJcV9CMG5jR1lUMk44TDJVQXg3a0ExQlBuZmwzakNfbXZyOEdxNXlnOHNraHRyMXRkRmc1U1N5SE1UOW1xZDJaTS0wZUZ5VHlQcHFueGxZTW1COUdpa1dUZi1FWVdQMWFFaUlvVmV5aTRzcm1ZVjRoWkMxMzVsWTJzWTlPRVBhbGlBelNrVVc4ZHhqV1FLNA?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Bancada do PL no Congresso manifesta \"total apoio\" a Flávio Bolsonaro",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQS0ZpZlVwVFc5Y28yMlNscnFoNEtWWklqNEc5UFBveWZfanRrTlh5Z2xDNFJwNXN6RWNETnl1MlJhVWtST0xTOThmbzg5X1dYOHh3MmdPUy1mQV81S0pYazVyeThqNm5DOEZHdEFRU2c3eUpDMkM5bGVPOGlFRGV4UkZySFN1R2NuRUtMYVNZRm5FUWplaUxVVnVTVkVqZFVOaVI2NV9wVDFOQQ?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "Flávio Bolsonaro desembarca na Flórida",
-      "fonte": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0wdGhrX1ZLYjREY1dnNXBhOHdzUUJsOXNrVjNqUFdMUHMwMkhPV045cVJtanB5VDNLbjUtQUdtN004czJRMFo5WGJ1cEROQklqNktfbEhxNkFTNVVBbkE1U3g1ONIBaEFVX3lxTFBxcE9BSmZ4ekVTVUtfOVZteHJVOTlwcURRUW9TNmVyTm9LRkNPWEdVYnJuVURfWnJyejlSWm9Vc0pORFlHdWxZUnM2YlpSVGhlc1YzNk55WWs1Y3JlWnRQd0RQQnp4VG44?oc=5"
+      "titulo": "Flávio Bolsonaro se declara presidente eleito dos Estados Unidos do Brazil",
+      "fonte": "JOTA Info",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZGNDTmNjX3VfV3JhaEt3Q2dVTlM4YzU5Q1cyendCVnJNNmxzb3M4NFIyZmhWWnRFRzlwZjRWckpEd2o2MkVJcGl1VE41bDBHUEFTajR6d05XcXktelhuX3JodmphZzNwRWFBWjFXTW9lMGRRQUtoMVkyQ2tNdjBOczVKNlpjbC1JWEdUMC1vbWhfTUp6RU8taGNLRFpEbnd0N0FWN25hbGdGZkNqcHF0QVlVNFpIWFpSb0Nz?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "Flávio Bolsonaro cruza fronteira argentina e segue para o Equador",
+      "titulo": "PF investiga circunstâncias da fuga de Flávio Bolsonaro do Brasil",
       "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRlBIajNkWmY1VkIxM3JIQU1xTnVfMG5KY3BEYUFkMFRLQTA0VklRMy00MFZIUEFFWHhfekx0NUU5bHBfandPcjVjd21tUXJPUktRTFZWNzhLdUMxS1FCNlFVM3BpeUtHMnZoRUVzVVdIT3lIcDVwYXZ3ZXJWWmVUZ1RIZUt5ZW5XTlVDb2VpU0NYdXJFNEtwQ2NBbmQ3ckU0MnEwZi02aTlqcWFiTjRqc09vQ093WTd0d1FaVG1SMU15bVg4elVZ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNN2FvNFRWa2tjYzdCMmJESGw4UGYtUkotbWRLMzhLOG9hZnJfWDcwU0lYUFBzV0ZXZWd0SV9PSjVEYVNaRmNxd0x5V2JoUTA4OXZTRDZJM2Z2SFMteF9VS1NxMktfelg1aGV3YUpxdzQ1WEkxZ2o4a1A0WnZwV2RUaDRQbmRVVGdjZllSdG9ocUN6OUlfcTY4Y1lqc2c1QVl6ZFNJTTgzVkZ3X3ZxTjFyU0ExWTNualhRX0NvQklOal8?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "Flávio x Lula: corrupção, comparação de governos e segurança marcam debate",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcFFrbENqLWdhOTNBa1M2OTlaSHpoMWtFUFZEZTV4Zlk1WVFMbnlVQXdoMjB0bDVyOG1MZGZGeXo0ei01dHFvNzNscFczemttbE1rSXU2REVqbmhGbGtsT2pmSDJhWnJaaDUwQVZBNUFLV1VlSjE5MnlmcFRUQnBMMzg5MmZBZw?oc=5"
     }
   ],
   "indicadores": {
@@ -1250,7 +1250,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-10-28T13:06:52-03:00",
+    "atualizadoEm": "2026-10-28T18:08:28-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
