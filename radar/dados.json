@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-10-28T06:55:00-03:00",
-  "alerta": "Argentina confirma que Flávio Bolsonaro entrou no país por Foz do Iguaçu na noite de terça e embarcou 40 minutos depois para o Equador; o avião deve seguir para os EUA. Fed decide juros hoje.",
+  "atualizadoEm": "2026-10-28T11:55:00-03:00",
+  "alerta": "Avião com Flávio Bolsonaro e a família pousou em Miami às 10h25. Ibovespa cai cerca de 2% e o Fed decide os juros dos EUA às 15h.",
   "eleicoes": {
     "candidatos": [
       {
@@ -13,7 +13,7 @@
         "id": "flavio",
         "nome": "Flávio Bolsonaro (PL)",
         "pct": 48.21,
-        "situacao": "Contesta o resultado e anunciou ações para cassar a chapa Lula-Alckmin. Deixou o Brasil sem entregar os passaportes; segundo a Argentina, passou por Puerto Iguazú e voou para o Equador."
+        "situacao": "Contesta o resultado e anunciou ações para cassar a chapa Lula-Alckmin. Deixou o Brasil sem entregar os passaportes, passou pela Argentina e pelo Equador e pousou em Miami (EUA) em 28/10."
       }
     ],
     "segundoTurno": {
@@ -86,8 +86,16 @@
         "texto": "Argentina confirma: Flávio entrou por terra por Foz do Iguaçu às 22h50, com a família e documentos válidos, e às 23h30 embarcou num voo para Guayaquil (Equador)."
       },
       {
+        "data": "27/10",
+        "texto": "Lula critica a saída de Flávio e diz que ele deveria provar a inocência no Brasil. Rogério Marinho (PL) diz que a campanha não foi avisada."
+      },
+      {
         "data": "28/10",
         "texto": "Avião pousa em Guayaquil de madrugada e deve seguir para os EUA. Trump diz que aprovou a ida de Flávio; não há confirmação oficial de chegada nem pedido formal de asilo."
+      },
+      {
+        "data": "28/10",
+        "texto": "Avião com Flávio, a mulher e as filhas pousa no aeroporto executivo de Opa-Locka, em Miami, às 10h25. Não há pedido formal de asilo confirmado nem nova decisão de Moraes."
       },
       {
         "data": "05/01/27",
@@ -151,8 +159,8 @@
     "juros": [
       {
         "nome": "DI jan/2027",
-        "taxa": 13.642,
-        "var": -0.054
+        "taxa": 13.648,
+        "var": -0.011
       },
       {
         "nome": "DI jan/2028",
@@ -161,8 +169,8 @@
       },
       {
         "nome": "DI jan/2031",
-        "taxa": 14.85,
-        "var": -0.429
+        "taxa": 14.99,
+        "var": 0.079
       },
       {
         "nome": "DI jan/2033",
@@ -374,29 +382,30 @@
     {
       "id": "eleicao",
       "tema": "Eleições",
-      "titulo": "Flávio deixou o Brasil por Foz do Iguaçu e voou para o Equador, a caminho dos EUA, diz Argentina",
-      "chamada": "O governo argentino confirmou a passagem de Flávio por Puerto Iguazú na noite de terça e o embarque para o Equador. O que se sabe, o que falta confirmar e o que cada lado diz.",
+      "titulo": "Flávio Bolsonaro pousa em Miami depois de sair do Brasil sem entregar os passaportes",
+      "chamada": "O avião com o senador e a família chegou à Flórida às 10h25 desta quarta, após passar pela Argentina e pelo Equador. O que se sabe, o que falta e o que cada lado diz.",
       "data": "28/10/2026",
       "inicio": [
         "Lula venceu o 2º turno com 51,79% dos votos válidos, e o TSE confirmou o resultado. O PL reconheceu a vitória, mas Flávio Bolsonaro anunciou ações para cassar a chapa Lula-Alckmin.",
         "Na segunda (26/10), o ministro Alexandre de Moraes (STF) deu 24 horas para Flávio entregar os passaportes e o proibiu de sair do país, num inquérito sobre suspeita de lavagem de dinheiro e evasão de divisas. Moraes citou uma entrevista em que Eduardo Bolsonaro sugeriu que o irmão deixasse o Brasil se perdesse. Em vídeo, Flávio disse que cumpriria a ordem e chamou a medida de intimidação.",
         "Na terça (27/10), o prazo venceu às 11h sem a entrega. A PF cancelou os passaportes comum e diplomático e vai informar Moraes. O Departamento de Estado dos EUA disse que vai conceder vistos a Flávio e à família, e Trump disse ter aprovado a ida dele, embora tenha dito não saber onde ele estava.",
-        "De noite, a Direção de Migrações da Argentina, que antes negava a entrada, confirmou: Flávio, a mulher e as filhas cruzaram a ponte entre Foz do Iguaçu e Puerto Iguazú às 22h50, com documentos válidos, e às 23h30 embarcaram num voo para Guayaquil, no Equador. O avião pousou lá de madrugada e, segundo sites de monitoramento, deve seguir para os EUA. Não há confirmação oficial de chegada nem de pedido de asilo. Deputados do PT pediram ao STF a prisão preventiva e alerta da Interpol."
+        "De noite, a Direção de Migrações da Argentina confirmou: Flávio, a mulher e as filhas cruzaram a ponte entre Foz do Iguaçu e Puerto Iguazú às 22h50, com documentos válidos, e às 23h30 embarcaram num jatinho fretado para Guayaquil, no Equador. Depois de reabastecer, o avião seguiu para a Flórida.",
+        "Nesta quarta (28/10), às 10h25, o avião pousou no aeroporto executivo de Opa-Locka, em Miami, como mostraram imagens da CNN. Os EUA dizem que estão emitindo vistos para a família; entrar com visto não é o mesmo que receber asilo, e não há pedido formal confirmado. Lula disse que quem sai escondido do país 'deve alguma coisa'. Rogério Marinho, coordenador da campanha do PL, disse que não foi avisado. Moraes ainda não decidiu sobre o pedido de prisão feito por deputados do PT."
       ],
       "cadeia": [
         "Flávio perde o 2º turno e anuncia ações de cassação no TSE",
         "Moraes manda Flávio entregar os passaportes em 24 horas e o proíbe de sair do país",
         "O prazo vence sem entrega e a PF cancela os documentos",
-        "Ele cruza para a Argentina por Foz do Iguaçu e voa para o Equador",
-        "EUA prometem vistos; o destino final deve ser a Flórida, onde está Eduardo",
+        "Ele cruza para a Argentina por Foz do Iguaçu, voa ao Equador e pousa em Miami",
+        "EUA emitem vistos; aliados falam em asilo, sem pedido formal confirmado",
         "PT pede prisão preventiva; aliados falam em perseguição"
       ],
       "porque": "Moraes viu risco de fuga num inquérito em que Flávio é investigado, com o advogado Willer Tomaz, por suspeita de lavagem de dinheiro ligada a empresas de apostas; os dois negam irregularidades. A decisão citou a fala de Eduardo Bolsonaro sugerindo a saída do país. Flávio diz que é perseguição e que nunca planejou sair.",
-      "outraLeitura": "Aliados de Flávio e parlamentares do PL dizem que a ordem de Moraes, dada um dia após a eleição, é perseguição política; o deputado Maurício Marcon pediu a destituição do ministro. Do outro lado, deputados do PT dizem que o descumprimento da ordem mostra risco de fuga e pedem prisão. Segundo a imprensa, até ministros do governo Lula acharam a ordem precipitada e temem que uma prisão transforme Flávio em símbolo de resistência. No PL, há quem cobre de Flávio um vídeo ou nota explicando onde está. Ele não foi condenado por nada; as investigações estão em andamento.",
+      "outraLeitura": "Aliados de Flávio dizem que a ordem de Moraes, dada logo após a eleição, é perseguição política; uma fonte próxima a ele disse à CNN que o senador temia ser preso no Brasil, e o pastor Silas Malafaia defendeu a viagem. Do outro lado, Lula disse que ele deveria ter provado a inocência no país, e deputados do PT veem risco de fuga e pedem prisão. Segundo a imprensa, até ministros do governo acharam a ordem precipitada. No próprio PL houve surpresa: a campanha diz que não foi comunicada. Flávio não foi condenado; as investigações estão em andamento e ele nega irregularidades.",
       "cenarios": [
         {
           "tipo": "base",
-          "texto": "Segundo a imprensa, se a chegada aos EUA for confirmada, Moraes deve decidir sobre os pedidos de prisão e alerta da Interpol nos próximos dias; a Jovem Pan diz que Flávio planeja pedir asilo político."
+          "texto": "Com a chegada confirmada, Moraes deve analisar os pedidos de prisão e de alerta da Interpol nos próximos dias, ouvindo a PGR; a Jovem Pan diz que Flávio planeja pedir asilo político."
         },
         {
           "tipo": "incerto",
@@ -405,12 +414,28 @@
       ],
       "saidas": [
         "Manifestação do próprio Flávio sobre onde está e o que pretende",
-        "Confirmação oficial da chegada aos EUA e de eventual pedido de asilo",
+        "Esclarecimento sobre eventual pedido de asilo e sobre o documento usado na viagem",
         "Decisão do STF sobre os pedidos de prisão, ouvida a defesa",
         "Julgamento das ações de cassação no TSE e posse em 5 de janeiro de 2027"
       ],
       "bolso": [],
       "fontes": [
+        {
+          "nome": "CNN Brasil (pouso em Miami)",
+          "url": "https://www.cnnbrasil.com.br/internacional/aviao-em-que-estaria-flavio-bolsonaro-pousa-em-miami/"
+        },
+        {
+          "nome": "DGABC/Estadão (pouso nos EUA)",
+          "url": "https://www.dgabc.com.br/Noticia/4365489/aviao-com-flavio-bolsonaro-e-familia-pousa-nos-estados-unidos"
+        },
+        {
+          "nome": "A Gazeta (reações)",
+          "url": "https://www.agazeta.com.br/mundo/as-reacoes-do-mundo-politico-a-viagem-de-flavio-bolsonaro-aos-eua-1026"
+        },
+        {
+          "nome": "CNN Brasil (cronologia)",
+          "url": "https://www.cnnbrasil.com.br/politica/do-passaporte-ao-asilo-de-trump-a-cronologia-da-fuga-de-flavio-aos-eua/"
+        },
         {
           "nome": "Observador (Argentina confirma)",
           "url": "https://observador.pt/2026/10/28/argentina-confirma-que-flavio-bolsonaro-abandonou-o-brasil-trump-diz-que-aprovaria-vinda-do-candidato-para-os-eua/"
@@ -457,11 +482,15 @@
         }
       ],
       "indicadores": [],
-      "atualizadoEm": "2026-10-28T06:55:00-03:00",
+      "atualizadoEm": "2026-10-28T11:55:00-03:00",
       "atualizacoes": [
         {
           "hora": "6h",
           "texto": "Argentina confirma que Flávio passou por Puerto Iguazú às 22h50 de terça e voou para o Equador; o avião deve seguir para os EUA."
+        },
+        {
+          "hora": "11h",
+          "texto": "Avião com Flávio e a família pousou em Miami às 10h25; Moraes ainda não decidiu sobre o pedido de prisão."
         }
       ],
       "referencia": {
@@ -473,15 +502,16 @@
     {
       "id": "bolsa",
       "tema": "Bolsa e dólar",
-      "titulo": "Depois do pior dia desde 2020, Bolsa fecha em leve queda e dólar recua",
-      "chamada": "Na segunda o Ibovespa caiu 13,88% e o dólar subiu mais de 8%. Nesta terça houve uma pausa: Bolsa -0,51% e dólar a R$ 5,35. Entenda o que explica e o que pode acalmar o mercado.",
-      "data": "27/10/2026",
+      "titulo": "Bolsa volta a cair forte nesta quarta, puxada pelos bancos, à espera do Fed",
+      "chamada": "Depois do tombo de 13,88% na segunda e da pausa de terça, o Ibovespa cai cerca de 2% perto do meio-dia, para a casa dos 171 mil pontos. Entenda o que explica e o que pode acalmar o mercado.",
+      "data": "28/10/2026",
       "inicio": [
         "Na segunda (26/10), primeiro pregão depois do 2º turno, o Ibovespa fechou em queda de 13,88%, aos 176.608 pontos, o pior dia desde março de 2020. Na mínima chegou a cair mais de 17%, e a B3 parou o pregão por 30 minutos (circuit breaker).",
         "O dólar fechou a R$ 5,40, alta de 8,21%, a maior em um dia desde janeiro de 1999. Os juros futuros longos subiram cerca de 2,6 pontos, para perto de 15,2% ao ano.",
         "O Tesouro cancelou leilões de títulos da semana e recomprou papéis para conter os juros. Citi e BCA Research rebaixaram a recomendação para ativos brasileiros.",
         "Na terça (27/10), o mercado deu uma pausa: o Ibovespa fechou em queda de 0,51%, aos 175.710 pontos, depois de subir até 178.526 de manhã. O dólar caiu 0,97%, para R$ 5,35. O Banco Central ofereceu swap cambial de até US$ 4 bilhões e o Tesouro recomprou R$ 16,8 bilhões em títulos atrelados à inflação.",
-        "Ainda na terça, o ministro Durigan prometeu enviar ao Congresso um pacote de medidas, por projeto de lei complementar, para levar o resultado fiscal ao centro da meta, sem detalhar quais. Os juros futuros fecharam em forte queda, devolvendo parte da alta pós-eleição. Nesta quarta, o mercado acompanha a decisão de juros nos EUA (Fed) e a espera pelo nome do ministro da Fazenda."
+        "Ainda na terça, o ministro Durigan prometeu enviar ao Congresso um projeto de lei complementar para que os bloqueios de gastos mirem o centro da meta fiscal, e não o piso. Os juros futuros fecharam em forte queda, devolvendo parte da alta pós-eleição.",
+        "Nesta quarta (28/10), o Ibovespa abriu estável, mas perto do meio-dia caía cerca de 2%, para perto de 171,7 mil pontos. Bancos pesam: o Santander caiu mais de 4% após o balanço do 3º trimestre, com Bradesco e Itaú também em baixa. Estrangeiros tiraram R$ 2,8 bilhões da B3 na segunda. O dólar oscila perto de R$ 5,35, e o mercado espera a decisão do Fed, às 15h."
       ],
       "cadeia": [
         "O mercado apostava na vitória de Flávio e comprou muitas ações",
@@ -521,6 +551,22 @@
         "Em momentos assim, renda fixa pós-fixada (atrelada ao CDI) costuma ser vista como mais defensiva"
       ],
       "fontes": [
+        {
+          "nome": "BPMoney (bancos 28/10)",
+          "url": "https://bpmoney.com.br/economia/ibovespa-cai-aos-1742-mil-pontos-com-bancos-santander-recua-mais-de-4/"
+        },
+        {
+          "nome": "InfoMoney (ao vivo 28/10)",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-28102026/"
+        },
+        {
+          "nome": "Investing.com (agenda 28/10)",
+          "url": "https://br.investing.com/news/economy-news/alphabet-e-microsoft-reportam-resultados-decisao-do-fed-se-aproxima-2105245"
+        },
+        {
+          "nome": "BPMoney (dólar 28/10)",
+          "url": "https://bpmoney.com.br/economia/dolar-hoje-estabilidade-decisao-juros-fed-28-10/"
+        },
         {
           "nome": "BPMoney (fechamento 27/10)",
           "url": "https://bpmoney.com.br/mercado/ibovespa-cai-051-dolar-recua-535-cautela-eleicao/"
@@ -570,16 +616,20 @@
         "dolar",
         "ibov"
       ],
-      "atualizadoEm": "2026-10-28T06:55:00-03:00",
+      "atualizadoEm": "2026-10-28T11:55:00-03:00",
       "atualizacoes": [
         {
           "hora": "6h",
           "texto": "Fazenda promete pacote por lei complementar para buscar o centro da meta fiscal; hoje o foco é o Fed e o nome do ministro."
+        },
+        {
+          "hora": "11h",
+          "texto": "Ibovespa cai cerca de 2%, para perto de 171,7 mil pontos, com bancos em baixa após o balanço do Santander; dólar perto de R$ 5,35."
         }
       ],
       "referencia": {
         "dolar": 5.35,
-        "ibov": 175710.05,
+        "ibov": 171700,
         "selic": 13.75
       }
     },
@@ -592,7 +642,8 @@
       "inicio": [
         "Lula foi reeleito e o mandato novo começa em 5 de janeiro de 2027. Segundo o presidente do PT, Edinho Silva, o ministro da Fazenda será anunciado até o fim de 2026 e Lula ainda não começou a montar a equipe.",
         "A imprensa cita o governador do Piauí, Rafael Fonteles (PT), ex-secretário de Fazenda do estado, e o vice Geraldo Alckmin como os nomes mais fortes. Nesta terça, Fonteles ganhou força: segundo a imprensa, Lula sinalizou a aliados que pode escolhê-lo, mas não há convite nem anúncio oficial.",
-        "O atual ministro, Dario Durigan, disse que Fonteles é um 'excelente nome', que a equipe não foi discutida com Lula e que a decisão virá 'nas próximas semanas, nos próximos meses'. O presidente do BC, Gabriel Galípolo, disse que não é candidato e que fica no BC até o fim do mandato, em 2028. O governo também prepara o envio ao Congresso do 'imposto do pecado', com arrecadação estimada em R$ 41,9 bilhões em 2027. Na terça, Durigan também prometeu um pacote de medidas, ainda sem detalhes, para levar as contas ao centro da meta."
+        "O atual ministro, Dario Durigan, disse que Fonteles é um 'excelente nome', que a equipe não foi discutida com Lula e que a decisão virá 'nas próximas semanas, nos próximos meses'. O presidente do BC, Gabriel Galípolo, disse que não é candidato e que fica no BC até o fim do mandato, em 2028. O governo também prepara o envio ao Congresso do 'imposto do pecado', com arrecadação estimada em R$ 41,9 bilhões em 2027. Na terça, Durigan também prometeu um projeto de lei complementar para que os bloqueios de gastos mirem o centro da meta fiscal; uma das ideias citadas é ampliar em pelo menos 20% a parte do orçamento que pode ser bloqueada, hoje perto de R$ 150 bilhões.",
+        "O próprio Fonteles disse, ao voltar a Teresina na segunda, que nunca tratou do assunto com Lula e que não cogitava a hipótese; o vice-governador eleito do Piauí disse estar pronto para assumir se houver convite."
       ],
       "cadeia": [
         "Mercado reage mal à reeleição",
@@ -628,6 +679,14 @@
         "Para dinheiro de curto prazo, aplicações atreladas ao CDI ou à Selic oscilam menos"
       ],
       "fontes": [
+        {
+          "nome": "Revista Fórum (Fonteles)",
+          "url": "https://revistaforum.com.br/politica/rafael-fonteles-fazenda-lula/"
+        },
+        {
+          "nome": "Investing.com (proposta fiscal)",
+          "url": "https://br.investing.com/news/economy-news/alphabet-e-microsoft-reportam-resultados-decisao-do-fed-se-aproxima-2105245"
+        },
         {
           "nome": "ND Mais (Fonteles)",
           "url": "https://ndmais.com.br/politica/ministerio-da-fazenda-fonteles-ganha-forca-para-assumir-pasta/"
@@ -669,11 +728,15 @@
         "dolar",
         "selic"
       ],
-      "atualizadoEm": "2026-10-28T06:55:00-03:00",
+      "atualizadoEm": "2026-10-28T11:55:00-03:00",
       "atualizacoes": [
         {
           "hora": "6h",
           "texto": "Durigan promete pacote fiscal por lei complementar; o nome do novo ministro ainda não foi anunciado."
+        },
+        {
+          "hora": "11h",
+          "texto": "Proposta da Fazenda prevê ampliar a parte do orçamento que pode ser bloqueada; Fonteles diz que não tratou do cargo com Lula."
         }
       ],
       "referencia": {
@@ -692,7 +755,7 @@
         "A Selic está em 13,75% ao ano, depois de cinco cortes em 2026. A próxima decisão do Banco Central é em 4 de novembro.",
         "A inflação de 12 meses chegou a 4,58% em setembro, acima do limite da meta (4,5%). Depois da eleição, os juros futuros longos saltaram para perto de 15,2% ao ano. Na terça fecharam em forte queda, com a ação do Tesouro e investidores atraídos pelas taxas altas: o DI jan/27 terminou em 13,64% e o jan/31 em 14,85% (era 15,28%).",
         "À tarde, o presidente do BC, Gabriel Galípolo, disse que o banco não comenta eleição nem Copom e que pretende anunciar ainda em 2026 novas medidas para quem está endividado em crédito caro, como o rotativo do cartão.",
-        "Nesta quarta, o Fed decide os juros dos EUA; a ferramenta FedWatch, da CME, apontava mais de 90% de chance de manutenção na faixa de 3,75% a 4,00%."
+        "Nesta quarta, os juros futuros voltaram a subir cerca de 0,1 ponto do meio da curva em diante: às 9h17 o DI jan/31 estava em 14,99%. O Fed, agora presidido por Kevin Warsh, decide os juros dos EUA às 15h; a ferramenta FedWatch, da CME, aponta 91% de chance de manutenção na faixa de 3,75% a 4,00%, e alguns economistas veem chance de alta em dezembro."
       ],
       "cadeia": [
         "Inflação acima do teto da meta",
@@ -728,6 +791,10 @@
         "Para guardar dinheiro, aplicações atreladas ao CDI ou à Selic rendem bem nesse cenário"
       ],
       "fontes": [
+        {
+          "nome": "DGABC/Estadão (DI 28/10)",
+          "url": "https://www.dgabc.com.br/Noticia/4365461/taxas-futuras-de-juros-avancam-antes-de-decisao-do-fed-nos-eua"
+        },
         {
           "nome": "Bom Dia Mercado (giro 15h)",
           "url": "https://www.bomdiamercado.com.br/mercado-financeiro/giro-dos-mercados/giro-das-15h-dolar-e-juros-futuros-corrigem-exageros-mas-ibovespa-segue-em-baixa-ny-sobe-na-vespera-do-fed/"
@@ -765,11 +832,15 @@
         "selic",
         "ipca"
       ],
-      "atualizadoEm": "2026-10-28T06:55:00-03:00",
+      "atualizadoEm": "2026-10-28T11:55:00-03:00",
       "atualizacoes": [
         {
           "hora": "6h",
           "texto": "DIs fecharam terça em forte queda (jan/31 a 14,85%); hoje o Fed decide os juros dos EUA."
+        },
+        {
+          "hora": "11h",
+          "texto": "DIs sobem cerca de 0,1 ponto antes do Fed; jan/31 a 14,99% no início do dia."
         }
       ],
       "referencia": {
@@ -786,7 +857,7 @@
       "data": "27/10/2026",
       "inicio": [
         "Pelo levantamento da ANP de 18 a 24/10, o diesel S10 custa em média R$ 7,32 o litro, cerca de 19,5% acima de janeiro. A gasolina caiu para R$ 6,49 e o etanol para R$ 4,11, cerca de 63% do preço da gasolina.",
-        "Nesta terça (27/10), o governo prorrogou por mais 30 dias o subsídio de R$ 2,12 por litro, por portaria da Fazenda. Sem a prorrogação, a ajuda cairia para R$ 1. O governo diz que a medida não aumenta o gasto atual. O petróleo Brent segue acima de US$ 100 com a guerra no Oriente Médio."
+        "Nesta terça (27/10), o governo prorrogou por mais 30 dias, até 26 de novembro, o subsídio de R$ 2,12 por litro, por portaria da Fazenda. Sem a prorrogação, a ajuda cairia para R$ 1. O governo diz que a medida não aumenta o gasto atual. O custo pode chegar a R$ 10,5 bilhões por mês. Nesta quarta, o Brent sobe para cerca de US$ 111, com notícia de ataque a uma refinaria na Arábia Saudita."
       ],
       "cadeia": [
         "Guerra no Oriente Médio leva o Brent a US$ 117 o barril",
@@ -824,6 +895,10 @@
       ],
       "fontes": [
         {
+          "nome": "Investing.com (Brent e subsídio)",
+          "url": "https://br.investing.com/news/economy-news/alphabet-e-microsoft-reportam-resultados-decisao-do-fed-se-aproxima-2105245"
+        },
+        {
           "nome": "Safras & Mercado (ANP 18-24/10)",
           "url": "https://safras.com.br/etanol-segue-mais-competitivo-em-dez-estados-e-no-df"
         },
@@ -856,8 +931,13 @@
         "etanol",
         "dolar"
       ],
-      "atualizadoEm": "2026-10-27T17:47:00-03:00",
-      "atualizacoes": [],
+      "atualizadoEm": "2026-10-28T11:55:00-03:00",
+      "atualizacoes": [
+        {
+          "hora": "11h",
+          "texto": "Brent sobe para cerca de US$ 111 com ataque a refinaria saudita; subsídio vale até 26/11."
+        }
+      ],
       "referencia": {
         "dolar": 5.35,
         "ibov": 175710.05,
