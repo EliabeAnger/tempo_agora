@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-10-27T17:47:00-03:00",
-  "alerta": "Bolsa fecha em leve queda (-0,51%) e dólar recua para R$ 5,35 após o tombo de segunda. Dino (STF) manda a PF investigar suposto financiamento estrangeiro à campanha de Flávio; mercado espera o nome do ministro da Fazenda.",
+  "atualizadoEm": "2026-10-27T23:10:00-03:00",
+  "alerta": "Flávio Bolsonaro não entregou os passaportes no prazo; a PF os cancelou e não sabe onde ele está. Fontes ouvidas pela Reuters dizem que ele foi para os EUA, que vão lhe dar visto; Argentina e PF não têm registro de saída.",
   "eleicoes": {
     "candidatos": [
       {
@@ -76,6 +76,10 @@
       {
         "data": "27/10",
         "texto": "Dino (STF) manda a PF abrir inquérito sobre suposto financiamento estrangeiro à campanha de Flávio, via a rede americana Rockbridge; os citados não tinham se manifestado."
+      },
+      {
+        "data": "27/10",
+        "texto": "Flávio não entrega os passaportes no prazo de Moraes; a PF os cancela. EUA dizem que vão dar visto a ele e à família; o paradeiro não foi confirmado oficialmente e deputados do PT pedem a prisão preventiva."
       },
       {
         "data": "05/01/27",
@@ -360,6 +364,88 @@
   },
   "historias": [
     {
+      "id": "eleicao",
+      "tema": "Eleições",
+      "titulo": "Paradeiro de Flávio é incerto após ele não entregar os passaportes; EUA dizem que vão lhe dar visto",
+      "chamada": "Moraes mandou Flávio entregar os passaportes; o prazo venceu, a PF cancelou os documentos e o paradeiro dele é incerto. Fontes dizem que ele foi para os EUA. O que se sabe e o que cada lado diz.",
+      "data": "27/10/2026",
+      "inicio": [
+        "Lula venceu o 2º turno com 51,79% dos votos válidos, e o TSE confirmou o resultado. O PL reconheceu a vitória, mas Flávio Bolsonaro anunciou ações para cassar a chapa Lula-Alckmin.",
+        "Na segunda (26/10), o ministro Alexandre de Moraes (STF) deu 24 horas para Flávio entregar os passaportes e o proibiu de sair do país, num inquérito sobre suspeita de lavagem de dinheiro e evasão de divisas. Moraes citou uma entrevista em que Eduardo Bolsonaro sugeriu que o irmão deixasse o Brasil se perdesse. Em vídeo, Flávio disse que cumpriria a ordem e chamou a medida de intimidação.",
+        "Nesta terça (27/10), o prazo venceu às 11h sem a entrega. A PF cancelou os passaportes comum e diplomático e vai informar Moraes. Fontes ouvidas pela Reuters e aliados dizem que Flávio seguiu para os EUA com a mulher e as filhas, e o Departamento de Estado disse que vai conceder vistos à família.",
+        "Mas nada foi confirmado oficialmente: a PF diz que ele não saiu por nenhum posto regular de fronteira, e a Argentina afirma não ter registro de entrada nem pedido de asilo. Aliados dizem não saber onde ele está, e deputados do PT pediram ao STF a prisão preventiva e alerta da Interpol. Mais cedo, o ministro Flávio Dino mandou a PF investigar suposto financiamento estrangeiro à campanha de Flávio."
+      ],
+      "cadeia": [
+        "Flávio perde o 2º turno e anuncia ações de cassação no TSE",
+        "Eduardo Bolsonaro tinha sugerido que o irmão saísse do país se perdesse",
+        "Moraes manda Flávio entregar os passaportes em 24 horas",
+        "O prazo vence sem entrega e a PF cancela os documentos",
+        "Fontes dizem que ele foi para os EUA; Argentina e PF não têm registro",
+        "PT pede prisão preventiva; governo e aliados de Flávio se dividem sobre a decisão de Moraes"
+      ],
+      "porque": "Moraes viu risco de fuga num inquérito em que Flávio é investigado, com o advogado Willer Tomaz, por suspeita de lavagem de dinheiro ligada a empresas de apostas; os dois negam irregularidades. A decisão citou a fala de Eduardo Bolsonaro sugerindo a saída do país. Flávio diz que é perseguição e que nunca planejou sair.",
+      "outraLeitura": "Aliados de Flávio e parlamentares do PL dizem que a ordem de Moraes, dada um dia após a eleição, é perseguição política; o deputado Maurício Marcon pediu a destituição do ministro. Do outro lado, deputados do PT dizem que o descumprimento da ordem mostra risco de fuga e pedem prisão. Segundo a imprensa, até ministros do governo Lula acharam a ordem precipitada e temem que uma prisão transforme Flávio em símbolo de resistência. No PL, há quem cobre de Flávio um vídeo ou nota explicando onde está. Ele não foi condenado por nada; as investigações estão em andamento.",
+      "cenarios": [
+        {
+          "tipo": "base",
+          "texto": "Segundo a imprensa, a PF ainda rastreia o trajeto; se a ida aos EUA for confirmada, Moraes deve decidir sobre os pedidos de prisão e alerta da Interpol nos próximos dias."
+        },
+        {
+          "tipo": "incerto",
+          "texto": "Analistas citados pela Reuters lembram que Jair Bolsonaro também foi aos EUA após perder em 2022 e voltou meses depois; o caso pode virar atrito diplomático com o governo Trump."
+        }
+      ],
+      "saidas": [
+        "Manifestação do próprio Flávio sobre onde está",
+        "Confirmação oficial da PF sobre a saída ou não do país",
+        "Decisão do STF sobre os pedidos de prisão, ouvida a defesa",
+        "Julgamento das ações de cassação no TSE e posse em 5 de janeiro de 2027"
+      ],
+      "bolso": [],
+      "fontes": [
+        {
+          "nome": "CNN Brasil (o que se sabe)",
+          "url": "https://www.cnnbrasil.com.br/politica/o-que-se-sabe-sobre-a-saida-de-flavio-bolsonaro-do-brasil/"
+        },
+        {
+          "nome": "Reuters via Yahoo",
+          "url": "https://www.yahoo.com/news/world/articles/brazil-wonders-where-earth-flavio-154803613.html"
+        },
+        {
+          "nome": "Diario de Pernambuco (vistos)",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/10/11727798-eua-vao-dar-visto-a-flavio-bolsonaro-que-deixou-o-brasil-sem-entregar-passaportes-ao-stf.html"
+        },
+        {
+          "nome": "O Antagonista (PL reunido)",
+          "url": "https://oantagonista.com.br/brasil/valdemar-reune-cupula-do-pl-na-sede-do-partido-para-discutir-paradeiro-de-flavio/"
+        },
+        {
+          "nome": "ND+ (governo e Moraes)",
+          "url": "https://ndmais.com.br/politica/flavio-bolsonaro-sendor-eua-stf-moraes-lula/"
+        },
+        {
+          "nome": "O Tempo (pedido do PT)",
+          "url": "https://www.otempo.com.br/politica/congresso/2026/10/27/pt-pede-prisao-preventiva-de-flavio-bolsonaro-e-alerta-vermelho-da-interpol"
+        },
+        {
+          "nome": "Gazeta do Povo (inquérito Dino)",
+          "url": "https://www.gazetadopovo.com.br/republica/dino-manda-pf-investigar-suposto-financiamento-estrangeiro-a-campanha-de-flavio/"
+        },
+        {
+          "nome": "Terra (nota do PL)",
+          "url": "https://www.terra.com.br/noticias/eleicoes/pl-reconhece-resultado-da-eleicao-que-reelegeu-lula-apesar-de-flavio-contestar-derrota,b586497e727ee98d227fcef86c40c292ywvhtrkr.html"
+        }
+      ],
+      "indicadores": [],
+      "atualizadoEm": "2026-10-27T23:10:00-03:00",
+      "atualizacoes": [],
+      "referencia": {
+        "dolar": 5.35,
+        "ibov": 175710.05,
+        "selic": 13.75
+      }
+    },
+    {
       "id": "bolsa",
       "tema": "Bolsa e dólar",
       "titulo": "Depois do pior dia desde 2020, Bolsa fecha em leve queda e dólar recua",
@@ -455,128 +541,7 @@
         "ibov"
       ],
       "atualizadoEm": "2026-10-27T17:47:00-03:00",
-      "atualizacoes": [
-        {
-          "hora": "6h",
-          "texto": "Fechamento confirmado: Ibovespa -13,88% e dólar a R$ 5,40 (+8,21%); Citi e BCA Research rebaixam ativos do Brasil."
-        },
-        {
-          "hora": "11h",
-          "texto": "Pausa na terça: dólar cai para cerca de R$ 5,32 e Ibovespa oscila perto de 177 mil pontos; BC faz leilão de swap de até US$ 4 bilhões."
-        },
-        {
-          "hora": "17h",
-          "texto": "Fechamento da terça: Ibovespa -0,51% (175.710 pontos) e dólar -0,97% (R$ 5,35); analistas falam em alívio momentâneo, sem mudança de tendência."
-        }
-      ],
-      "referencia": {
-        "dolar": 5.35,
-        "ibov": 175710.05,
-        "selic": 13.75
-      }
-    },
-    {
-      "id": "eleicao",
-      "tema": "Eleições",
-      "titulo": "PL reconhece a vitória de Lula; Flávio mantém pedido de cassação e vira alvo de inquérito",
-      "chamada": "O partido aceitou o resultado, mas Flávio segue com ações no TSE. O ministro Flávio Dino mandou a PF investigar suposto dinheiro estrangeiro na campanha dele. O que cada lado diz.",
-      "data": "27/10/2026",
-      "inicio": [
-        "Lula venceu o 2º turno com 51,79% dos votos válidos, cerca de 4,4 milhões de votos à frente. O TSE confirmou o resultado.",
-        "Na segunda (26/10), aliados e o jurídico de Flávio Bolsonaro disseram que não vão pedir a anulação. Em vídeo, Flávio afirmou que vai pedir a cassação da chapa Lula-Alckmin por suposto abuso de poder político e econômico.",
-        "O PL, em nota assinada por Valdemar Costa Neto, reconheceu o resultado proclamado pelo TSE, mas pediu esclarecimentos e chamou de eleitoreira a ampliação de benefícios sociais antes da votação. Trump disse, sem apresentar provas, que a eleição 'pareceu fraudada'; Alckmin respondeu que a fala está totalmente equivocada.",
-        "Nesta terça (27/10), o ministro Flávio Dino (STF) mandou a Polícia Federal abrir inquérito sobre suposto financiamento estrangeiro à campanha de Flávio, por meio da rede americana Rockbridge, e sobre possível desequilíbrio entre candidatos nas redes sociais. O pedido partiu do PT; Flávio e os citados não tinham comentado até a publicação."
-      ],
-      "cadeia": [
-        "Faltam ônibus e há filas em algumas cidades",
-        "As duas campanhas pedem mais tempo de votação em alguns lugares",
-        "O ministro Zanin, do STF, prorroga a votação até 19h onde as seções ainda estavam abertas",
-        "Flávio diz no domingo que vai pedir a anulação",
-        "Na segunda, recua e troca a estratégia por ações de cassação no TSE",
-        "O PL reconhece o resultado, mas Flávio mantém a contestação",
-        "A oposição passa a se organizar no novo Congresso"
-      ],
-      "porque": "A campanha de Flávio argumenta que houve abuso de poder na campanha, citando quase R$ 500 bilhões em gastos do governo, e que a prorrogação, decidida por um ministro do STF, tratou eleitores de forma desigual. Segundo a imprensa, ele não apresentou provas e cerca de 20 ações de cassação já foram apresentadas.",
-      "outraLeitura": "O presidente do TSE, Nunes Marques, disse que a prorrogação não afetou a totalização, e o tribunal classificou como falsa a alegação de que fiscais do PL foram expulsos da sala de totalização. A própria campanha de Flávio tinha pedido mais tempo em cidades de SP, PR e SC por causa da chuva. O próprio PL reconheceu o resultado, e líderes de vários países, da esquerda à direita, cumprimentaram Lula. Juristas avaliam que pedidos de cassação desse tipo têm poucas chances. Do outro lado, aliados de Flávio e veículos como a Revista Oeste dão destaque a que o inquérito foi aberto a partir de um processo sobre outro assunto (uma ação de mineração de 2024) e a pedido do PT, adversário político; por ora, é só uma investigação, sem conclusão.",
-      "cenarios": [
-        {
-          "tipo": "base",
-          "texto": "Segundo ministros do TSE ouvidos pela imprensa, as ações não devem avançar, e o calendário segue até a posse."
-        },
-        {
-          "tipo": "incerto",
-          "texto": "As ações de cassação e a apuração da Polícia Federal sobre transporte de eleitores podem levar meses e manter o tema em debate."
-        }
-      ],
-      "saidas": [
-        "Julgamento rápido e transparente das ações no TSE",
-        "Divulgação das apurações da Polícia Federal, inclusive do novo inquérito sobre financiamento estrangeiro",
-        "Oposição atuando pelo Congresso, como defendem aliados de Flávio",
-        "Posse do presidente eleito em 5 de janeiro de 2027"
-      ],
-      "bolso": [],
-      "fontes": [
-        {
-          "nome": "Gazeta do Povo (inquérito Dino)",
-          "url": "https://www.gazetadopovo.com.br/republica/dino-manda-pf-investigar-suposto-financiamento-estrangeiro-a-campanha-de-flavio/"
-        },
-        {
-          "nome": "Revista Oeste",
-          "url": "https://revistaoeste.com/politica/dino-manda-pf-abrir-inquerito-sobre-suposto-financiamento-estrangeiro-a-campanha-de-flavio/"
-        },
-        {
-          "nome": "Conjur",
-          "url": "https://conjur.com.br/2026-out-27/dino-manda-investigar-interferencia-dos-eua-a-favor-de-flavio-nas-eleicoes/"
-        },
-        {
-          "nome": "Terra (nota do PL)",
-          "url": "https://www.terra.com.br/noticias/eleicoes/pl-reconhece-resultado-da-eleicao-que-reelegeu-lula-apesar-de-flavio-contestar-derrota,b586497e727ee98d227fcef86c40c292ywvhtrkr.html"
-        },
-        {
-          "nome": "O Povo (Trump)",
-          "url": "https://mais.opovo.com.br/jornal/politica/2026/10/27/trump-fala-que-gosta-de-lula-mas-que-eleicao-brasileira-pareceu-fraudada.html"
-        },
-        {
-          "nome": "Fato News",
-          "url": "https://fatonews.com.br/2026/10/27/apos-derrota-flavio-diz-que-pedira-cassacao-da-chapa-de-lula-ao-tse-e-acusa-petista-de-abuso-de-poder-politico-e-economico/"
-        },
-        {
-          "nome": "Metrópoles",
-          "url": "https://www.metropoles.com/brasil/flavio-nao-vai-mais-pedir-anulacao-da-eleicao-dizem-aliados-e-juridico"
-        },
-        {
-          "nome": "Gazeta do Povo",
-          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/flavio-bolsonaro-pronunciamento-anulacao-eleicao/"
-        },
-        {
-          "nome": "Fundação Perseu Abramo",
-          "url": "https://fpabramo.org.br/tse-confirma-vitoria-de-lula-flavio-bolsonaro-desiste-de-pedir-anulacao-da-eleicao/"
-        },
-        {
-          "nome": "Imirante",
-          "url": "https://m.imirante.com/noticias/brasil/2026/10/26/ipolitica-tse-descarta-pedido-flavio-bolsonaro-contra-eleicao"
-        },
-        {
-          "nome": "CNN Brasil",
-          "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-diz-que-pedira-anulacao-das-eleicoes/"
-        }
-      ],
-      "indicadores": [],
-      "atualizadoEm": "2026-10-27T17:47:00-03:00",
-      "atualizacoes": [
-        {
-          "hora": "6h",
-          "texto": "Flávio deixa de lado o pedido de anulação e anuncia ações para cassar a chapa Lula-Alckmin; TSE confirma o resultado."
-        },
-        {
-          "hora": "11h",
-          "texto": "PL reconhece o resultado do TSE, mas Flávio mantém o pedido de cassação; Trump diz que a eleição 'pareceu fraudada' e Alckmin rebate."
-        },
-        {
-          "hora": "17h",
-          "texto": "Dino (STF) manda a PF investigar suposto financiamento estrangeiro à campanha de Flávio via a rede Rockbridge; os citados ainda não se manifestaram."
-        }
-      ],
+      "atualizacoes": [],
       "referencia": {
         "dolar": 5.35,
         "ibov": 175710.05,
@@ -666,20 +631,7 @@
         "selic"
       ],
       "atualizadoEm": "2026-10-27T17:47:00-03:00",
-      "atualizacoes": [
-        {
-          "hora": "6h",
-          "texto": "Nova história: Alckmin aparece como favorito para a Fazenda; não há anúncio oficial."
-        },
-        {
-          "hora": "11h",
-          "texto": "Edinho diz que o ministro sai até o fim do ano e que a meta fiscal será mantida; Durigan afirma ter medidas fiscais prontas."
-        },
-        {
-          "hora": "17h",
-          "texto": "Fonteles ganha força para a Fazenda e Durigan o elogia; decisão deve levar semanas. Galípolo descarta ir para a Fazenda."
-        }
-      ],
+      "atualizacoes": [],
       "referencia": {
         "dolar": 5.35,
         "ibov": 175710.05,
@@ -694,7 +646,8 @@
       "data": "27/10/2026",
       "inicio": [
         "A Selic está em 13,75% ao ano, depois de cinco cortes em 2026. A próxima decisão do Banco Central é em 4 de novembro.",
-        "A inflação de 12 meses chegou a 4,58% em setembro, acima do limite da meta (4,5%). Depois da eleição, os juros futuros longos saltaram para perto de 15,2% ao ano. Nesta terça recuaram com a queda do dólar e a ação do Tesouro, que cancelou leilões e recomprou títulos: às 15h o DI jan/27 estava em 13,64% e o jan/33 em 14,93%."
+        "A inflação de 12 meses chegou a 4,58% em setembro, acima do limite da meta (4,5%). Depois da eleição, os juros futuros longos saltaram para perto de 15,2% ao ano. Nesta terça recuaram com a queda do dólar e a ação do Tesouro, que cancelou leilões e recomprou títulos: às 15h o DI jan/27 estava em 13,64% e o jan/33 em 14,93%.",
+        "À tarde, o presidente do BC, Gabriel Galípolo, disse que o banco não comenta eleição nem Copom e que pretende anunciar ainda em 2026 novas medidas para quem está endividado em crédito caro, como o rotativo do cartão."
       ],
       "cadeia": [
         "Inflação acima do teto da meta",
@@ -753,27 +706,18 @@
         {
           "nome": "Seu Dinheiro",
           "url": "https://www.seudinheiro.com/2026/bolsa-dolar/lula-venceu-e-a-festa-da-bolsa-pode-acabar-o-que-esperar-dos-investimentos-agora-miql/"
+        },
+        {
+          "nome": "O Povo (Galípolo)",
+          "url": "https://www.opovo.com.br/noticias/economia/2026/10/27/galipolo-bc-pretende-publicar-medidas-adicionais-relacionadas-ao-credito-ainda-em-2026.html"
         }
       ],
       "indicadores": [
         "selic",
         "ipca"
       ],
-      "atualizadoEm": "2026-10-27T17:47:00-03:00",
-      "atualizacoes": [
-        {
-          "hora": "6h",
-          "texto": "Focus de 26/10 mantém Selic de 13,25% no fim de 2026, mas foi coletado antes da eleição; juros futuros longos sobem para cerca de 15,2%."
-        },
-        {
-          "hora": "11h",
-          "texto": "Juros futuros abrem em leve queda nesta terça (DI jan/28 a 14,73%); Fed decide na quarta (28) e o Copom em 4/11."
-        },
-        {
-          "hora": "17h",
-          "texto": "Juros futuros devolvem parte da alta: DI jan/33 cai para cerca de 14,93% à tarde, após o Tesouro cancelar leilões e recomprar títulos."
-        }
-      ],
+      "atualizadoEm": "2026-10-27T23:10:00-03:00",
+      "atualizacoes": [],
       "referencia": {
         "dolar": 5.35,
         "ibov": 175710.05,
@@ -859,20 +803,7 @@
         "dolar"
       ],
       "atualizadoEm": "2026-10-27T17:47:00-03:00",
-      "atualizacoes": [
-        {
-          "hora": "6h",
-          "texto": "Subsídio de R$ 2,12 por litro venceu em 26/10 sem renovação anunciada até agora; Brent chegou a US$ 117."
-        },
-        {
-          "hora": "11h",
-          "texto": "Governo prorroga por 30 dias o subsídio de R$ 2,12 por litro; sem isso a ajuda cairia para R$ 1."
-        },
-        {
-          "hora": "17h",
-          "texto": "Novo levantamento da ANP (18 a 24/10): diesel S10 a R$ 7,32, gasolina a R$ 6,49 e etanol a R$ 4,11 em média."
-        }
-      ],
+      "atualizacoes": [],
       "referencia": {
         "dolar": 5.35,
         "ibov": 175710.05,

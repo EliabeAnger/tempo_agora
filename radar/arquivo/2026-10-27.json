@@ -1,0 +1,535 @@
+{
+  "data": "2026-10-27",
+  "arquivadoEm": "2026-10-28T02:06:21+00:00",
+  "alerta": "Flávio Bolsonaro não entregou os passaportes no prazo; a PF os cancelou e não sabe onde ele está. Fontes ouvidas pela Reuters dizem que ele foi para os EUA, que vão lhe dar visto; Argentina e PF não têm registro de saída.",
+  "numeros": {
+    "Dólar": "R$ 5,446",
+    "Ibovespa": "175.710 pts (-0,51%)",
+    "Selic": "13,75%",
+    "Inflação 12 meses": "4,58%",
+    "Gasolina": "R$ 6,49",
+    "Diesel S10": "R$ 7,32"
+  },
+  "historias": [
+    {
+      "id": "eleicao",
+      "tema": "Eleições",
+      "titulo": "Paradeiro de Flávio é incerto após ele não entregar os passaportes; EUA dizem que vão lhe dar visto",
+      "chamada": "Moraes mandou Flávio entregar os passaportes; o prazo venceu, a PF cancelou os documentos e o paradeiro dele é incerto. Fontes dizem que ele foi para os EUA. O que se sabe e o que cada lado diz.",
+      "data": "27/10/2026",
+      "inicio": [
+        "Lula venceu o 2º turno com 51,79% dos votos válidos, e o TSE confirmou o resultado. O PL reconheceu a vitória, mas Flávio Bolsonaro anunciou ações para cassar a chapa Lula-Alckmin.",
+        "Na segunda (26/10), o ministro Alexandre de Moraes (STF) deu 24 horas para Flávio entregar os passaportes e o proibiu de sair do país, num inquérito sobre suspeita de lavagem de dinheiro e evasão de divisas. Moraes citou uma entrevista em que Eduardo Bolsonaro sugeriu que o irmão deixasse o Brasil se perdesse. Em vídeo, Flávio disse que cumpriria a ordem e chamou a medida de intimidação.",
+        "Nesta terça (27/10), o prazo venceu às 11h sem a entrega. A PF cancelou os passaportes comum e diplomático e vai informar Moraes. Fontes ouvidas pela Reuters e aliados dizem que Flávio seguiu para os EUA com a mulher e as filhas, e o Departamento de Estado disse que vai conceder vistos à família.",
+        "Mas nada foi confirmado oficialmente: a PF diz que ele não saiu por nenhum posto regular de fronteira, e a Argentina afirma não ter registro de entrada nem pedido de asilo. Aliados dizem não saber onde ele está, e deputados do PT pediram ao STF a prisão preventiva e alerta da Interpol. Mais cedo, o ministro Flávio Dino mandou a PF investigar suposto financiamento estrangeiro à campanha de Flávio."
+      ],
+      "cadeia": [
+        "Flávio perde o 2º turno e anuncia ações de cassação no TSE",
+        "Eduardo Bolsonaro tinha sugerido que o irmão saísse do país se perdesse",
+        "Moraes manda Flávio entregar os passaportes em 24 horas",
+        "O prazo vence sem entrega e a PF cancela os documentos",
+        "Fontes dizem que ele foi para os EUA; Argentina e PF não têm registro",
+        "PT pede prisão preventiva; governo e aliados de Flávio se dividem sobre a decisão de Moraes"
+      ],
+      "porque": "Moraes viu risco de fuga num inquérito em que Flávio é investigado, com o advogado Willer Tomaz, por suspeita de lavagem de dinheiro ligada a empresas de apostas; os dois negam irregularidades. A decisão citou a fala de Eduardo Bolsonaro sugerindo a saída do país. Flávio diz que é perseguição e que nunca planejou sair.",
+      "outraLeitura": "Aliados de Flávio e parlamentares do PL dizem que a ordem de Moraes, dada um dia após a eleição, é perseguição política; o deputado Maurício Marcon pediu a destituição do ministro. Do outro lado, deputados do PT dizem que o descumprimento da ordem mostra risco de fuga e pedem prisão. Segundo a imprensa, até ministros do governo Lula acharam a ordem precipitada e temem que uma prisão transforme Flávio em símbolo de resistência. No PL, há quem cobre de Flávio um vídeo ou nota explicando onde está. Ele não foi condenado por nada; as investigações estão em andamento.",
+      "cenarios": [
+        {
+          "tipo": "base",
+          "texto": "Segundo a imprensa, a PF ainda rastreia o trajeto; se a ida aos EUA for confirmada, Moraes deve decidir sobre os pedidos de prisão e alerta da Interpol nos próximos dias."
+        },
+        {
+          "tipo": "incerto",
+          "texto": "Analistas citados pela Reuters lembram que Jair Bolsonaro também foi aos EUA após perder em 2022 e voltou meses depois; o caso pode virar atrito diplomático com o governo Trump."
+        }
+      ],
+      "saidas": [
+        "Manifestação do próprio Flávio sobre onde está",
+        "Confirmação oficial da PF sobre a saída ou não do país",
+        "Decisão do STF sobre os pedidos de prisão, ouvida a defesa",
+        "Julgamento das ações de cassação no TSE e posse em 5 de janeiro de 2027"
+      ],
+      "bolso": [],
+      "fontes": [
+        {
+          "nome": "CNN Brasil (o que se sabe)",
+          "url": "https://www.cnnbrasil.com.br/politica/o-que-se-sabe-sobre-a-saida-de-flavio-bolsonaro-do-brasil/"
+        },
+        {
+          "nome": "Reuters via Yahoo",
+          "url": "https://www.yahoo.com/news/world/articles/brazil-wonders-where-earth-flavio-154803613.html"
+        },
+        {
+          "nome": "Diario de Pernambuco (vistos)",
+          "url": "https://www.diariodepernambuco.com.br/politica/2026/10/11727798-eua-vao-dar-visto-a-flavio-bolsonaro-que-deixou-o-brasil-sem-entregar-passaportes-ao-stf.html"
+        },
+        {
+          "nome": "O Antagonista (PL reunido)",
+          "url": "https://oantagonista.com.br/brasil/valdemar-reune-cupula-do-pl-na-sede-do-partido-para-discutir-paradeiro-de-flavio/"
+        },
+        {
+          "nome": "ND+ (governo e Moraes)",
+          "url": "https://ndmais.com.br/politica/flavio-bolsonaro-sendor-eua-stf-moraes-lula/"
+        },
+        {
+          "nome": "O Tempo (pedido do PT)",
+          "url": "https://www.otempo.com.br/politica/congresso/2026/10/27/pt-pede-prisao-preventiva-de-flavio-bolsonaro-e-alerta-vermelho-da-interpol"
+        },
+        {
+          "nome": "Gazeta do Povo (inquérito Dino)",
+          "url": "https://www.gazetadopovo.com.br/republica/dino-manda-pf-investigar-suposto-financiamento-estrangeiro-a-campanha-de-flavio/"
+        },
+        {
+          "nome": "Terra (nota do PL)",
+          "url": "https://www.terra.com.br/noticias/eleicoes/pl-reconhece-resultado-da-eleicao-que-reelegeu-lula-apesar-de-flavio-contestar-derrota,b586497e727ee98d227fcef86c40c292ywvhtrkr.html"
+        }
+      ],
+      "indicadores": [],
+      "atualizadoEm": "2026-10-27T23:10:00-03:00",
+      "atualizacoes": [
+        {
+          "hora": "6h",
+          "texto": "Flávio deixa de lado o pedido de anulação e anuncia ações para cassar a chapa Lula-Alckmin; TSE confirma o resultado."
+        },
+        {
+          "hora": "11h",
+          "texto": "PL reconhece o resultado do TSE, mas Flávio mantém o pedido de cassação; Trump diz que a eleição 'pareceu fraudada' e Alckmin rebate."
+        },
+        {
+          "hora": "17h",
+          "texto": "Dino (STF) manda a PF investigar suposto financiamento estrangeiro à campanha de Flávio via a rede Rockbridge; os citados ainda não se manifestaram."
+        },
+        {
+          "hora": "23h",
+          "texto": "Flávio não entrega os passaportes, a PF os cancela e o paradeiro é incerto; EUA dizem que vão dar visto, e o PT pede prisão preventiva."
+        }
+      ],
+      "referencia": {
+        "dolar": 5.35,
+        "ibov": 175710.05,
+        "selic": 13.75
+      }
+    },
+    {
+      "id": "bolsa",
+      "tema": "Bolsa e dólar",
+      "titulo": "Depois do pior dia desde 2020, Bolsa fecha em leve queda e dólar recua",
+      "chamada": "Na segunda o Ibovespa caiu 13,88% e o dólar subiu mais de 8%. Nesta terça houve uma pausa: Bolsa -0,51% e dólar a R$ 5,35. Entenda o que explica e o que pode acalmar o mercado.",
+      "data": "27/10/2026",
+      "inicio": [
+        "Na segunda (26/10), primeiro pregão depois do 2º turno, o Ibovespa fechou em queda de 13,88%, aos 176.608 pontos, o pior dia desde março de 2020. Na mínima chegou a cair mais de 17%, e a B3 parou o pregão por 30 minutos (circuit breaker).",
+        "O dólar fechou a R$ 5,40, alta de 8,21%, a maior em um dia desde janeiro de 1999. Os juros futuros longos subiram cerca de 2,6 pontos, para perto de 15,2% ao ano.",
+        "O Tesouro cancelou leilões de títulos da semana e recomprou papéis para conter os juros. Citi e BCA Research rebaixaram a recomendação para ativos brasileiros.",
+        "Na terça (27/10), o mercado deu uma pausa: o Ibovespa fechou em queda de 0,51%, aos 175.710 pontos, depois de subir até 178.526 de manhã. O dólar caiu 0,97%, para R$ 5,35. O Banco Central ofereceu swap cambial de até US$ 4 bilhões e o Tesouro recomprou R$ 16,8 bilhões em títulos atrelados à inflação."
+      ],
+      "cadeia": [
+        "O mercado apostava na vitória de Flávio e comprou muitas ações",
+        "O resultado veio ao contrário",
+        "Investidores vendem ações e compram dólar para se proteger",
+        "Dólar sobe e juros futuros disparam",
+        "Bancos estrangeiros reduzem a aposta no Brasil",
+        "Crédito fica mais caro e a dívida do governo também"
+      ],
+      "porque": "Para a maioria dos analistas, o medo é o controle dos gastos públicos: sem sinais de ajuste, a dívida cresce e os juros precisam ficar altos por mais tempo. Parte da queda também é o desmonte de apostas feitas antes da eleição.",
+      "outraLeitura": "Outra visão, publicada pela CartaCapital, é que a queda reflete principalmente perdas de quem apostou alto na derrota de Lula. O próprio Citi disse que os preços podem cair além do valor justo justamente porque muita gente estava comprada. As empresas exportadoras, como Suzano e Vale, até subiram com o dólar alto.",
+      "cenarios": [
+        {
+          "tipo": "otimista",
+          "texto": "Dólar volta para R$ 5,20 a R$ 5,30 se o governo der sinais fiscais claros (Avenue, MA7 Capital)."
+        },
+        {
+          "tipo": "base",
+          "texto": "Dólar perto de R$ 5,40 em 2027, inflação mais teimosa e menos cortes de juros (Suno Research)."
+        },
+        {
+          "tipo": "pessimista",
+          "texto": "Dólar de R$ 5,60 a R$ 5,65 no curto prazo (Armor Capital). A BCA Research vê risco maior de calote e de inflação com o real fraco; o BTG espera juro real longo acima de 8% até sair a nova política fiscal."
+        }
+      ],
+      "saidas": [
+        "O Banco Central ofereceu proteção cambial (swap) de até US$ 4 bilhões nesta terça; o ministro Durigan diz que o governo tem medidas fiscais prontas",
+        "Anunciar logo o ministro da Fazenda e a equipe econômica, com metas claras",
+        "Medidas concretas de controle de gastos. O ministro Durigan prometeu mudar a lei, ou a Constituição se precisar, para mirar o centro da meta fiscal",
+        "O Tesouro já recomprou títulos e cancelou leilões para acalmar os juros",
+        "Diálogo com o novo Congresso, que ficou mais à direita",
+        "Preencher as vagas da diretoria do Banco Central"
+      ],
+      "bolso": [
+        "Se precisa de dólar para viagem ou compra, especialistas sugerem comprar aos poucos, não tudo de uma vez",
+        "Evite concentrar todo o dinheiro em um só tipo de investimento",
+        "Em momentos assim, renda fixa pós-fixada (atrelada ao CDI) costuma ser vista como mais defensiva"
+      ],
+      "fontes": [
+        {
+          "nome": "BPMoney (fechamento 27/10)",
+          "url": "https://bpmoney.com.br/mercado/ibovespa-cai-051-dolar-recua-535-cautela-eleicao/"
+        },
+        {
+          "nome": "InfoMoney (ao vivo 27/10)",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-27102026/"
+        },
+        {
+          "nome": "BPMoney (dólar 27/10)",
+          "url": "https://bpmoney.com.br/economia/dolar-hoje-cai-apos-alta-reeleicao-lula/"
+        },
+        {
+          "nome": "InfoMoney (fechamento 26/10)",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26102026/"
+        },
+        {
+          "nome": "ES Brasil",
+          "url": "https://esbrasil.com.br/dolar-e-ibovespa-fechamento-reeleicao-lula/"
+        },
+        {
+          "nome": "InfoMoney (Tesouro)",
+          "url": "https://www.infomoney.com.br/onde-investir/tesouro-amplia-intervencao-e-anuncia-recompra-de-titulos-atrelados-a-inflacao/"
+        },
+        {
+          "nome": "Reuters via Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/citi-bca-downgrade-brazilian-assets-after-lula-comeback-4974254"
+        },
+        {
+          "nome": "Exame",
+          "url": "https://exame.com/invest/mercados/dolar-pode-chegar-a-r-6-com-lula-reeleito-veja-ate-onde-a-moeda-pode-ir/"
+        },
+        {
+          "nome": "Eu Quero Investir",
+          "url": "https://euqueroinvestir.com/renda-fixa/juros-futuros-vitoria-lula"
+        },
+        {
+          "nome": "CartaCapital",
+          "url": "https://www.cartacapital.com.br/economia/mercado-faz-terror-economico-depois-de-apostar-alto-na-derrota-de-lula/"
+        }
+      ],
+      "indicadores": [
+        "dolar",
+        "ibov"
+      ],
+      "atualizadoEm": "2026-10-27T17:47:00-03:00",
+      "atualizacoes": [
+        {
+          "hora": "6h",
+          "texto": "Fechamento confirmado: Ibovespa -13,88% e dólar a R$ 5,40 (+8,21%); Citi e BCA Research rebaixam ativos do Brasil."
+        },
+        {
+          "hora": "11h",
+          "texto": "Pausa na terça: dólar cai para cerca de R$ 5,32 e Ibovespa oscila perto de 177 mil pontos; BC faz leilão de swap de até US$ 4 bilhões."
+        },
+        {
+          "hora": "17h",
+          "texto": "Fechamento da terça: Ibovespa -0,51% (175.710 pontos) e dólar -0,97% (R$ 5,35); analistas falam em alívio momentâneo, sem mudança de tendência."
+        }
+      ],
+      "referencia": {
+        "dolar": 5.35,
+        "ibov": 175710.05,
+        "selic": 13.75
+      }
+    },
+    {
+      "id": "fazenda",
+      "tema": "Governo",
+      "titulo": "Quem vai cuidar da economia no 4º mandato?",
+      "chamada": "O mercado espera o nome do ministro da Fazenda. Rafael Fonteles ganha força e Alckmin segue como opção. Por que isso importa.",
+      "data": "27/10/2026",
+      "inicio": [
+        "Lula foi reeleito e o mandato novo começa em 5 de janeiro de 2027. Segundo o presidente do PT, Edinho Silva, o ministro da Fazenda será anunciado até o fim de 2026 e Lula ainda não começou a montar a equipe.",
+        "A imprensa cita o governador do Piauí, Rafael Fonteles (PT), ex-secretário de Fazenda do estado, e o vice Geraldo Alckmin como os nomes mais fortes. Nesta terça, Fonteles ganhou força: segundo a imprensa, Lula sinalizou a aliados que pode escolhê-lo, mas não há convite nem anúncio oficial.",
+        "O atual ministro, Dario Durigan, disse que Fonteles é um 'excelente nome', que a equipe não foi discutida com Lula e que a decisão virá 'nas próximas semanas, nos próximos meses'. O presidente do BC, Gabriel Galípolo, disse que não é candidato e que fica no BC até o fim do mandato, em 2028. O governo também prepara o envio ao Congresso do 'imposto do pecado', com arrecadação estimada em R$ 41,9 bilhões em 2027."
+      ],
+      "cadeia": [
+        "Mercado reage mal à reeleição",
+        "Investidores querem saber como será o controle de gastos",
+        "O nome do ministro da Fazenda vira o principal sinal",
+        "Um nome visto como fiscalmente cuidadoso pode acalmar dólar e juros",
+        "Uma demora ou um nome mal recebido pode manter a pressão"
+      ],
+      "porque": "O ministro da Fazenda define as metas de gastos e a relação com o Congresso. Por isso, o mercado usa a escolha como pista do rumo das contas públicas.",
+      "outraLeitura": "O presidente do PT, Edinho Silva, diz que o superávit será mantido e que a escolha cabe a alguém da confiança de Lula. Já a EQI calcula que estabilizar a dívida exigiria superávit de 3% a 3,5% do PIB, ajuste que vê como improvável no curto prazo; o economista Felipe Salto (Warren) defende meta de 2% do PIB e corte de benefícios tributários.",
+      "cenarios": [
+        {
+          "tipo": "otimista",
+          "texto": "Equipe crível e disciplina fiscal concreta abrem espaço para juros menores (avaliação do BTG Pactual)."
+        },
+        {
+          "tipo": "base",
+          "texto": "Anúncio da equipe nas próximas semanas, com mercado ainda volátil até o detalhamento das metas."
+        },
+        {
+          "tipo": "pessimista",
+          "texto": "Sem ajuste à vista, juros longos seguem altos por mais tempo (Stephan Kautz, da EQI)."
+        }
+      ],
+      "saidas": [
+        "Anunciar cedo o ministro e a equipe econômica",
+        "Apresentar um plano fiscal com metas, prazos e números verificáveis (sugestão de economistas, como Solange Srour, do UBS)",
+        "Rever o crescimento das despesas obrigatórias e os benefícios tributários, que Edinho estima em cerca de 4% do PIB",
+        "Negociar com o novo Congresso a agenda de reformas"
+      ],
+      "bolso": [
+        "Enquanto a incerteza durar, evite decisões financeiras grandes no impulso",
+        "Para dinheiro de curto prazo, aplicações atreladas ao CDI ou à Selic oscilam menos"
+      ],
+      "fontes": [
+        {
+          "nome": "ND Mais (Fonteles)",
+          "url": "https://ndmais.com.br/politica/ministerio-da-fazenda-fonteles-ganha-forca-para-assumir-pasta/"
+        },
+        {
+          "nome": "SBT News (Durigan)",
+          "url": "https://sbtnews.sbt.com.br/noticia/economia/durigan-fonteles-e-um-excelente-nome-para-a-fazenda"
+        },
+        {
+          "nome": "A Crítica (Edinho)",
+          "url": "https://acritica.net/politica/lula-escolhera-ministro-da-fazenda-ate-o-fim-do-ano-e-mantera-meta-fiscal-diz-edinho/"
+        },
+        {
+          "nome": "Maringá Post (seis medidas)",
+          "url": "https://maringapost.com.br/2026/10/27/governo-tem-seis-medidas-para-recuperar-a-confianca-do-mercado/"
+        },
+        {
+          "nome": "Mix Vale",
+          "url": "https://www.mixvale.com.br/2026/10/26/geraldo-alckmin-desponta-como-favorito-para-assumir-o-ministerio-da-fazenda-no-quarto-mandato-de-lula/"
+        },
+        {
+          "nome": "Band",
+          "url": "https://www.band.com.br/politica/eleicoes/lula-avalia-nomes-para-o-ministerio-da-fazenda-veja-lista-2"
+        },
+        {
+          "nome": "InfoMoney",
+          "url": "https://www.infomoney.com.br/politica/com-lula-reeleito-havera-troca-de-ministros-e-nova-posse-entenda/"
+        },
+        {
+          "nome": "Eu Quero Investir",
+          "url": "https://euqueroinvestir.com/renda-fixa/juros-futuros-vitoria-lula"
+        }
+      ],
+      "indicadores": [
+        "dolar",
+        "selic"
+      ],
+      "atualizadoEm": "2026-10-27T17:47:00-03:00",
+      "atualizacoes": [
+        {
+          "hora": "6h",
+          "texto": "Nova história: Alckmin aparece como favorito para a Fazenda; não há anúncio oficial."
+        },
+        {
+          "hora": "11h",
+          "texto": "Edinho diz que o ministro sai até o fim do ano e que a meta fiscal será mantida; Durigan afirma ter medidas fiscais prontas."
+        },
+        {
+          "hora": "17h",
+          "texto": "Fonteles ganha força para a Fazenda e Durigan o elogia; decisão deve levar semanas. Galípolo descarta ir para a Fazenda."
+        }
+      ],
+      "referencia": {
+        "dolar": 5.35,
+        "ibov": 175710.05,
+        "selic": 13.75
+      }
+    },
+    {
+      "id": "juros",
+      "tema": "Juros",
+      "titulo": "Juros (Selic) altos por mais tempo",
+      "chamada": "A Selic está em 13,75%. Por que ela pode cair mais devagar e o que isso muda na sua vida.",
+      "data": "27/10/2026",
+      "inicio": [
+        "A Selic está em 13,75% ao ano, depois de cinco cortes em 2026. A próxima decisão do Banco Central é em 4 de novembro.",
+        "A inflação de 12 meses chegou a 4,58% em setembro, acima do limite da meta (4,5%). Depois da eleição, os juros futuros longos saltaram para perto de 15,2% ao ano. Nesta terça recuaram com a queda do dólar e a ação do Tesouro, que cancelou leilões e recomprou títulos: às 15h o DI jan/27 estava em 13,64% e o jan/33 em 14,93%.",
+        "À tarde, o presidente do BC, Gabriel Galípolo, disse que o banco não comenta eleição nem Copom e que pretende anunciar ainda em 2026 novas medidas para quem está endividado em crédito caro, como o rotativo do cartão."
+      ],
+      "cadeia": [
+        "Inflação acima do teto da meta",
+        "Dólar alto encarece importados e combustíveis",
+        "Banco Central evita cortar os juros rápido",
+        "Empréstimo, financiamento e cartão continuam caros",
+        "Empresas investem menos e o crescimento desacelera"
+      ],
+      "porque": "O Banco Central usa os juros para segurar os preços. Com inflação acima da meta e dólar subindo, cortar rápido poderia fazer a inflação piorar.",
+      "outraLeitura": "Juros altos têm um lado bom para quem poupa: CDB, Tesouro Selic e outros investimentos de renda fixa rendem mais.",
+      "cenarios": [
+        {
+          "tipo": "otimista",
+          "texto": "Com o dólar estabilizando, o BC segue cortando 0,25 ponto por reunião (cenário do Boletim Focus)."
+        },
+        {
+          "tipo": "base",
+          "texto": "Selic em 13,25% no fim de 2026 e 11,75% no fim de 2027, segundo o Focus de 26/10, mas a pesquisa foi feita antes da eleição."
+        },
+        {
+          "tipo": "pessimista",
+          "texto": "O BTG diz que juro real mais alto, real fraco e expectativas soltas podem frear os cortes; gestoras já falam em Selic perto de 13% em 2027."
+        }
+      ],
+      "saidas": [
+        "Inflação voltar para dentro da meta",
+        "Dólar se acalmar, o que barateia importados",
+        "Um plano fiscal crível, que abre espaço para o BC cortar juros"
+      ],
+      "bolso": [
+        "Evite dívidas caras, como rotativo do cartão e cheque especial",
+        "Se for financiar algo grande, compare o custo total (CET) entre bancos",
+        "Para guardar dinheiro, aplicações atreladas ao CDI ou à Selic rendem bem nesse cenário"
+      ],
+      "fontes": [
+        {
+          "nome": "Bom Dia Mercado (giro 15h)",
+          "url": "https://www.bomdiamercado.com.br/mercado-financeiro/giro-dos-mercados/giro-das-15h-dolar-e-juros-futuros-corrigem-exageros-mas-ibovespa-segue-em-baixa-ny-sobe-na-vespera-do-fed/"
+        },
+        {
+          "nome": "InfoMoney (Tesouro e juros)",
+          "url": "https://www.infomoney.com.br/economia/taxas-de-juros-caem-em-linha-com-dolar-e-apos-nova-intervencao-do-tesouro-em-leiloes/"
+        },
+        {
+          "nome": "Central do Varejo (Focus 26/10)",
+          "url": "https://centraldovarejo.com.br/boletim-focus-mercado-reduz-projecoes-de-ipca-e-pib-e-mantem-selic-de-1325-no-fim-do-ano/"
+        },
+        {
+          "nome": "Eu Quero Investir",
+          "url": "https://euqueroinvestir.com/renda-fixa/juros-futuros-vitoria-lula"
+        },
+        {
+          "nome": "Ouviram (Copom e inflação)",
+          "url": "https://ouviram.com.br/economia/selic-copom-e-inflacao-2026"
+        },
+        {
+          "nome": "Seu Dinheiro",
+          "url": "https://www.seudinheiro.com/2026/bolsa-dolar/lula-venceu-e-a-festa-da-bolsa-pode-acabar-o-que-esperar-dos-investimentos-agora-miql/"
+        },
+        {
+          "nome": "O Povo (Galípolo)",
+          "url": "https://www.opovo.com.br/noticias/economia/2026/10/27/galipolo-bc-pretende-publicar-medidas-adicionais-relacionadas-ao-credito-ainda-em-2026.html"
+        }
+      ],
+      "indicadores": [
+        "selic",
+        "ipca"
+      ],
+      "atualizadoEm": "2026-10-27T23:10:00-03:00",
+      "atualizacoes": [
+        {
+          "hora": "6h",
+          "texto": "Focus de 26/10 mantém Selic de 13,25% no fim de 2026, mas foi coletado antes da eleição; juros futuros longos sobem para cerca de 15,2%."
+        },
+        {
+          "hora": "11h",
+          "texto": "Juros futuros abrem em leve queda nesta terça (DI jan/28 a 14,73%); Fed decide na quarta (28) e o Copom em 4/11."
+        },
+        {
+          "hora": "17h",
+          "texto": "Juros futuros devolvem parte da alta: DI jan/33 cai para cerca de 14,93% à tarde, após o Tesouro cancelar leilões e recomprar títulos."
+        },
+        {
+          "hora": "23h",
+          "texto": "Galípolo diz que o BC não comenta eleição nem Copom e promete novas medidas de crédito para endividados ainda em 2026."
+        }
+      ],
+      "referencia": {
+        "dolar": 5.35,
+        "ibov": 175710.05,
+        "selic": 13.75
+      }
+    },
+    {
+      "id": "diesel",
+      "tema": "Combustíveis",
+      "titulo": "Governo prorroga subsídio do diesel por mais 30 dias",
+      "chamada": "A ajuda de R$ 2,12 por litro, que venceria nesta semana, foi mantida. O petróleo segue acima de US$ 100. O que muda para você.",
+      "data": "27/10/2026",
+      "inicio": [
+        "Pelo levantamento da ANP de 18 a 24/10, o diesel S10 custa em média R$ 7,32 o litro, cerca de 19,5% acima de janeiro. A gasolina caiu para R$ 6,49 e o etanol para R$ 4,11, cerca de 63% do preço da gasolina.",
+        "Nesta terça (27/10), o governo prorrogou por mais 30 dias o subsídio de R$ 2,12 por litro, por portaria da Fazenda. Sem a prorrogação, a ajuda cairia para R$ 1. O governo diz que a medida não aumenta o gasto atual. O petróleo Brent segue acima de US$ 100 com a guerra no Oriente Médio."
+      ],
+      "cadeia": [
+        "Guerra no Oriente Médio leva o Brent a US$ 117 o barril",
+        "Diesel da Petrobras fica cerca de R$ 3,50 por litro abaixo do preço de importação",
+        "Governo paga até R$ 3,52 por litro (R$ 2,12 a todos e mais R$ 1,40 ao importado)",
+        "A parcela de R$ 2,12 venceria nesta semana e o dólar disparou",
+        "O governo prorroga a ajuda por 30 dias, o que evita uma alta imediata",
+        "Frete mais caro encarece alimentos e produtos"
+      ],
+      "porque": "O Brasil importa parte do diesel que usa. Quando o petróleo e o dólar sobem, o diesel de fora fica mais caro e pressiona o preço aqui.",
+      "outraLeitura": "A prorrogação não baixa o preço: ela só evita que a ajuda caia. Críticos lembram que subsídio custa dinheiro público num momento de pressão sobre as contas; o governo diz que a renovação mantém o valor atual, sem gasto adicional. O Goldman Sachs trabalha com Petrobras sem reajuste até dezembro.",
+      "cenarios": [
+        {
+          "tipo": "otimista",
+          "texto": "Um acordo no Oriente Médio derruba o petróleo e alivia o diesel."
+        },
+        {
+          "tipo": "base",
+          "texto": "Subsídio mantido mês a mês e Petrobras sem reajuste até dezembro (cenário do Goldman Sachs)."
+        },
+        {
+          "tipo": "pessimista",
+          "texto": "Se o petróleo e o dólar subirem mais, a diferença para o preço de importação cresce e analistas veem risco de reajuste, mesmo com o subsídio."
+        }
+      ],
+      "saidas": [
+        "Subsídio de R$ 2,12 já prorrogado por 30 dias; pode ser renovado de novo",
+        "Queda do petróleo no mercado internacional",
+        "Dólar mais baixo",
+        "Proposta ao Congresso para manter a ajuda em 2027, se necessário"
+      ],
+      "bolso": [
+        "Carro flex: o etanol compensa quando custa até 70% do preço da gasolina. Na média nacional ele está em cerca de 63%, e é mais vantajoso em 11 estados e no DF, mas faça a conta no seu posto",
+        "Para quem trabalha com frete, negociar reajuste atrelado ao diesel ajuda a proteger a margem"
+      ],
+      "fontes": [
+        {
+          "nome": "Safras & Mercado (ANP 18-24/10)",
+          "url": "https://safras.com.br/etanol-segue-mais-competitivo-em-dez-estados-e-no-df"
+        },
+        {
+          "nome": "Economic News Brasil (ANP)",
+          "url": "https://economicnewsbrasil.com.br/2026/10/27/gasolina-hoje-precos-2026/"
+        },
+        {
+          "nome": "Exame (prorrogação)",
+          "url": "https://exame.com/economia/governo-prorroga-subsidio-do-diesel-por-30-dias-valor-seguem-em-r-212/"
+        },
+        {
+          "nome": "Minaspetro",
+          "url": "https://minaspetro.com.br/subsidio-de-r-212-por-litro-do-diesel-vence-nesta-segunda-feira/"
+        },
+        {
+          "nome": "Mix Vale (Brent)",
+          "url": "https://www.mixvale.com.br/2026/10/26/petroleo-tipo-brent-atinge-us-117-com-guerra-e-forca-governo-a-discutir-subsidios-ao-diesel-para-2027/"
+        },
+        {
+          "nome": "eixos",
+          "url": "https://eixos.com.br/newsletters/comece-seu-dia/diesel-para-de-subir-nas-bombas-mas-a-defasagem-ja-encosta-no-subsidio/"
+        },
+        {
+          "nome": "Combustíveis ANP (balanço 2026)",
+          "url": "https://www.combustiveis-anp.com.br/guia/quanto-subiram-combustiveis-2026-balanco"
+        }
+      ],
+      "indicadores": [
+        "etanol",
+        "dolar"
+      ],
+      "atualizadoEm": "2026-10-27T17:47:00-03:00",
+      "atualizacoes": [
+        {
+          "hora": "6h",
+          "texto": "Subsídio de R$ 2,12 por litro venceu em 26/10 sem renovação anunciada até agora; Brent chegou a US$ 117."
+        },
+        {
+          "hora": "11h",
+          "texto": "Governo prorroga por 30 dias o subsídio de R$ 2,12 por litro; sem isso a ajuda cairia para R$ 1."
+        },
+        {
+          "hora": "17h",
+          "texto": "Novo levantamento da ANP (18 a 24/10): diesel S10 a R$ 7,32, gasolina a R$ 6,49 e etanol a R$ 4,11 em média."
+        }
+      ],
+      "referencia": {
+        "dolar": 5.35,
+        "ibov": 175710.05,
+        "selic": 13.75
+      }
+    }
+  ]
+}
