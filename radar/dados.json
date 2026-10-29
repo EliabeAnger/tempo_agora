@@ -127,8 +127,8 @@
       "anterior": 175710.05,
       "minimo": 171006.1,
       "maximo": 171006.1,
-      "hora": "28/10 22h00",
-      "ts": 1793235628948
+      "hora": "29/10 04h09",
+      "ts": 1793257770369
     },
     "acoes": [
       {
@@ -213,7 +213,7 @@
         "var": null
       }
     ],
-    "acoesTs": 1793235628948
+    "acoesTs": 1793257770369
   },
   "combustiveis": {
     "semana": "Média nacional ANP, semana de 18 a 24/10/2026 (gás de cozinha e GNV: semana de 27/09 a 03/10). Variação desde o início do ano.",
@@ -263,21 +263,21 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Estresse segue? Por que Ibovespa caiu 2,7% hoje após terça mais tranquila no mercado",
-      "fonte": "InfoMoney",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUy1RUmx3NzBPbXVnTnNURGZUVk5aNUpmcnQ2U1VMdEFHTUM5MXNwSGNYYldBaDRmOW5IZkl6NFdlZ19CLTdpTmJOZExSUUVDVlViVXIwV2hDdVVRT1lCM2F2NUFVVld3UGQ3Y0ZfVDhNbkYydzdmbkRIN3VacUdnZmJiTkZZRG5EUEV3bXZWc3IxdC1ZSldOellCM1VKdHg3c2tQdWY1bGk1VV9nU3N4RWxzMjY2R25uNVU0M3Zna3RORFVyWVB6bGtqU1M4c2M3blHSAdcBQVVfeXFMUGtWNURWVXFGcmtncGp5VGlDUXJaaFBoYUQ5bGVRZ2QwYW8xN2NSTXRQOVJfaEdBZ0JGLUZqMDYyeVdXbjI3Z3J4UWxwdHNjV196cTNzX3FIU1VqZ2NDTnNVamQyUkhmalhlSlI4cHZVQVFEMkRQeTVIY0l6ckxsTHJaamdXbHpXcnFBTk5wN3YwdWNHMUVxQlJJaGc4aV9uSVYtMVdvb0oxOG9GYVNQWm5TMmNIZjVLdVI3bXNGdHpyUXhUTHg1djNFZ01pWmtUY3N1bUp2d2s?oc=5"
+      "titulo": "A Bolsa caiu 16% com Lula até agora. Mas o estrago é maior do que parece",
+      "fonte": "Brazil Journal",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPc0JMQThvV3R4WFVoZVRtdmJEcUxNVjlrWHROWVVjZkNZTENrV2VVOXdVUVZqVklCVzM1NTFZa0hGX3JraDlsVk9HZTlxWGIzTG80MnFWTTdqWEdsMVhHSXJSRFBlSXpWTnRrSEM0MVM0b2dwaDJVY0dDbUFmV09UMEkxaW92RVp1eUdPWENIeC1BMTZyb3BOQjlNbGc?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Caso Master: veja os nomes e as condutas dos 15 indiciados no relatório da PF; lista inclui Vorcaro e ex-presidente do BRB",
+      "titulo": "PF indicia Vorcaro, Paulo Henrique Costa e mais 13 por fraude no Master",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRXBsYTYxMUhBUGUzd05sMVE0RjdYODVYdHFsdVN2OVg5aDlRLUI2dGx3c0xQS0pwY2lmMkhQMUczTHdiUjlNNG1IWThWZ0pWV1YxVWVfTURoQjRJVDBoT215bVgwdHpDR05TVTJsbEV3WW9pMEtlVkEzWkp3SWozT043UnlQa1A1X0o5TFlQVTJLbnNUQzM0LV9BYi0xNm9kZ0tBOXRuZXFTLW9rZk9UaTl1Yw?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Mega-Sena 3077: aposta em Mato Grosso leva maior prêmio da história de um concurso regular; confira os números",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNTDJtRUM5QUNiQ0M3MmUwMjZ5M3dEdThlaWZfdmpRek9TZDlrMHFBZnRkNllEcTFQMmJYU3BKbFZxQWRSRExWN283bTREcEp1U0RHX2tzdlp6dURKWGZfSmRvelY1ZDRCWVZ0amdLSktJSlBVdHVjdUgzRjFxREE4UmphM0NsN0VxekVpLU4yeVo4RkJ2N1J2bGtCZFlyQWVMcVpad1pDdlVMcXI2RkVmc2t0MURqTWJuNHNKUnBLOEprUmdNRGVmRFhINUctUFVhbThNbTJWZU52akNuQmxIQWJwZVlPbFlIbnFuclRMZ1EyMmdJOExfcTRjY3RXRkdtcWpqaTBQNWY0RG1VS05TODJYLWXSAaMCQVVfeXFMTkowZUNsTm9VWTRwaW5rZE1zZ2xvc19fMGc1RG5oT19iLVQ0WVBEMTQ1Z29pNE9TRHJ1VDFnajZtM1dGN0tjYmU2S1UwV2hlVlRLeEVZQU9SMmtiQjNMREdqTTEyYW4xOXVMWk9HYW5Ccnh1dl96Mi1qRmdMdllGdl9CS1loeGZ6dDBvZ3NRU1NxSHduRG9QTnMyN2tvQnhZVXBWTzR6TGVZSG1fTDB3ak02aDdlendHUnZMUzJnSnBQbzZZMjFVWUhNZUx6eE84UWdMdkduWU84SHhieWhDQTR4dHpuSndTS2N5TFd5SjM1SUE1dUYxM2pSbUtGOV9VSFRtY2tKd2gyYkxmdXBlLU1PWGY1RjlfQVJHOVAxdVdiU2RJ?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "TCU aprova cálculo da alíquota de referência da CBS em 11,3%",
-      "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQ0ZZYVg3VE5JczRIQzhUbklBNk9McGxhYjVYLXVWcG5yOTRRUnpsUnFjbzM5R2ZhUTJXQ3h0SnFvMWRZSmZtU09GTG1rS1RZZUg0N2RaV0xSZENPSWRROEpzSDliY2p2TDRZaF9fZFN2TDhETjd1UEtOeGVEM3dmM0pjMmcxcUlaTFUycFhaTC1Ib1d3V2s0enliZ3VodEI0dFpucGNGZlpKSU5QV2g2ZHptUjlYRTg?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQQWdXUkhDZjg5dlpyZFRmQ2JGMDR1SFhvLWpMNXVjSC1vQUczQ2MyTWJlM0JUdzY5RHZBX0kwMERjVzlZeWZuLVg0NHNWVjNWQnhzYVpBOUpJaVhDYTc3N2hZX28xWFg3d3FCU3RBVUtjWXNlMzNOMlBlTmZQeWFhYnAzbXY1M1RrSTcxM2RiMW1qQ0xKa0VxTjBCVXU5NXZLWXYwdlRsS0l2S3FWOGVVaEl5MExHNmxMUXlFcnlRbEpDNGgxMFpJZlRsSExNU1gtNkUwN01KeXRQV2xoOEdrd2EwOHZCMUxKUXfSAfgBQVVfeXFMTkE3N19YQlNYMEVjdUdGZENmaFg4RzFXOEhNb0JhTWQ2aDlOSm1RNVhTVGVQSEpPNW5IVXl5RlJQYXpuNlhxbjFaeUtvalNPM0NJaDRMVDRkQWFwaE9RTWpWOGRGNXd6cl83VHd4TFZoQ3ZxSDFMTnNHSDczdUNaaGcxMmphUFhUb3BlUXFNV3pGR04tM0lXc1A3ei1YTFNNNFVESHJyWkFLZ1JVSERLb01tT0RmX0pRblpMLW1veEdWSjNRYkFNSWk3aWZZQ1BjWFlpLWdsekVkcEhCZnhWeURWODhQekdjN0Q0MXpQWXdkajFyVkdyOUI?oc=5"
     },
     {
       "cat": "brasil",
@@ -293,9 +293,15 @@
     },
     {
       "cat": "brasil",
-      "titulo": "TSE arredonda percentual de votos e PSOL/Rede supera cláusula de barreira",
-      "fonte": "Gazeta do Povo",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQYjVZN2lPazFKYmVVSlhQUTN4U2NwSXVqYkcwSU41cjJOb2ZLSXp4VTdEYlpMZ0Nyb21TcU5vdUZ3c2tKU1M4cTVCZ0EtLUg2TnQzZ2gyM1JCRUdzakNwWldMcDA5eWE5WHd0M1lhZC1oaS1oakFWcjlnOEliOEhxaHJTTEh3SUhMS19CVkR4V3lvSVhmNGZyeXI2bVVqYjgwVWZvVENtMDV1UU1aTFh5OXUxZXVlY0NjQUJzMw?oc=5"
+      "titulo": "Deputados argentinos acusam Milei de facilitar fuga de Flávio e pedem reconhecimento da vitória de Lula",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOTnFjdVAyWE9pU1ZGOENkVFJValF4Z2s0LXN1a1ZCT2hyVUtqam9oaGtNLVMwNzlRa3ZtRlc2eVBQQWFWM05sZjR0aGt1dzlOdVFKMXpBcThGQjBJbTh4ZjFlWVBBS0ZreVotbkRIcDEyQ0tYZWNpRlFvQXUwR29MM2RhMk9uODU3YlgzQ2FNeUhnWlJPTlVrS0w1YW5UUDRYaHJvSVRIWXpkeXZRV3dyRkMwVUJPbWFsbEtMcE5tUFlSN2hpMU9KeXMzQm94VzRCY3llRkY0U0w0Y3d0eVlBQXp1OUtKdDBhMEFZ0gH6AUFVX3lxTE5MRVFfU1BJUlNBdjdydGtSX05xVnFUMWI3VkFBWmZOeGc0UGZNMnF0UTN0VTJwTG14aHpDWUtnQTlWVHZGUWhOWUwxbDJSUDIwQm9Ba0RBbXg4OFNoUTlTWWZERE1BZUNSYV8xN2l4djREajF6VjZjc3Jyd0hxdWhKQTBYR2ZqSUxDVjdjMjFBMDd1UktuNEN4RXFGRzNHRkxpWFpoNll1Rmc3YklXLUNjbFNWeGlfNGdiMEVBSDJZWllndlM1VFJHeUkzdnZSa3NUWFVrbmg5bWtFOFYzSV9XbUV4U3NKLVk1b3RmRDRJWF9WQ2Vxa2wxZXc?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "O desafio da relação política com o Congresso",
+      "fonte": "O POVO",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSzFVUlFlVmZpajZyQ3g0Xy1KZ0huTng2UkpqamRiOS1aMmNHcVNLRXViY1FJakNMU3JwOFVsdUxLejBvdXREQ0ZER2RqZUp3cDI1Uko0djJieDE0OUs0RDE0TlVfcXp5cHk2X3E2RnZMdlZhdVZBRFhuTF93X1g3MDFKbFI0RGZJc1pBS3p0Rm5yY0xteVZSQ19YVkp6ZEo3RzNvM2J3?oc=5"
     },
     {
       "cat": "politica",
@@ -308,12 +314,6 @@
       "titulo": "Alcolumbre tenta acordo entre Congresso, governo e STF por ‘pacificação’ e avalia aceno a Bolsonaro",
       "fonte": "O GLOBO",
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPTjctcFRyajlycGNZcndtNWV3MEdTTXp4cnExcUJfTUxhNGpHMVVqT1hGYzcwOUNtamg0QXk3RXVmRXRXLTdJeFYyc3RsRFJoWlo5ZWlKajNncWt2aExkcFp5ZnRmR29odFlwV1hxX3hQa1NjaHFGRkNCQUhtbVF6cUcyZ0ZjRkFVLWRfN01KZjE0RlpxWUp6ZkVJYnVaYmxwV2I3bDU0SExZTHBrVjMyMjZTT21HZUpyTHNHWnpvMGFBUG14ZDJaN1F6clFzZF9QN1pJVC03RER6VW5TN2REbWZFeGlJTGc0QU040gH6AUFVX3lxTE5vZTJoUmRmdnQ4MG9fb0swdzZFQmo0cHBYZXVSY0VsdElBM3RsQ2VXTUl1RXQwUWtodWpnTHVMZ1FYV2c1ZUc1NHhGUUFYVDRGajRfck42OFB1WElyX1NsRDc4SGhiRlNkUkk5QzNhMV9oeklsMDFsQmd0dE5Fa25vRG1NanVKT3RPdnZINFZBSUkyVTZPdzhGaC1hdjRNOFdpYTZhaklvN1ZWc2hlVlRISDdvc0E3NTEwOUFHS2p0NHFjRHRTQTNZSFFRQnhlNDFRc0IxYU1oZE1tY1VBSXQ2WjBKeGtaSFY1QXBsZE9iNXI1X1J5TDM2eXc?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Bancada do PL no Congresso manifesta \"total apoio\" a Flávio Bolsonaro",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQS0ZpZlVwVFc5Y28yMlNscnFoNEtWWklqNEc5UFBveWZfanRrTlh5Z2xDNFJwNXN6RWNETnl1MlJhVWtST0xTOThmbzg5X1dYOHh3MmdPUy1mQV81S0pYazVyeThqNm5DOEZHdEFRU2c3eUpDMkM5bGVPOGlFRGV4UkZySFN1R2NuRUtMYVNZRm5FUWplaUxVVnVTVkVqZFVOaVI2NV9wVDFOQQ?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -1215,7 +1215,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-10-28T22:00:33-03:00",
+    "atualizadoEm": "2026-10-29T04:09:34-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
