@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-10-29T06:50:00-03:00",
-  "alerta": "Flávio Bolsonaro deve dar entrevista em Miami à tarde; PF avalia pedir prisão e bloqueio de bens, sem decisão. Hoje saem IGP-M (8h), Caged (14h30) e o balanço da Vale.",
+  "atualizadoEm": "2026-10-29T11:55:00-03:00",
+  "alerta": "Registro de entrada mostra que Flávio Bolsonaro foi admitido nos EUA por razões humanitárias, por até 1 ano; Valdemar (PL) critica a carta dele. Coletiva em Miami prevista para a tarde; Caged às 14h30.",
   "eleicoes": {
     "candidatos": [
       {
@@ -13,7 +13,7 @@
         "id": "flavio",
         "nome": "Flávio Bolsonaro (PL)",
         "pct": 48.21,
-        "situacao": "Contesta o resultado e pede a cassação da chapa Lula-Alckmin. Saiu do Brasil sem entregar os passaportes e está em Miami (EUA) desde 28/10, onde se declarou \"verdadeiro presidente eleito\". PF diz que ele não é foragido."
+        "situacao": "Contesta o resultado e pede a cassação da chapa Lula-Alckmin. Saiu do Brasil sem entregar os passaportes brasileiros e está em Miami (EUA) desde 28/10, admitido por razões humanitárias por até 1 ano. Diz ser o \"verdadeiro presidente eleito\"; a PF diz que ele não é foragido."
       }
     ],
     "segundoTurno": {
@@ -122,6 +122,18 @@
         "texto": "Aliado de Flávio, o jornalista Paulo Figueiredo diz que ele dará entrevista coletiva em Miami à tarde; horário e local não foram divulgados."
       },
       {
+        "data": "29/10",
+        "texto": "Registro de imigração visto pelo jornal O Globo mostra que Flávio foi admitido nos EUA em 28/10 por razões humanitárias, com permissão de até 1 ano; o visto anunciado pelo Departamento de Estado ainda não aparece."
+      },
+      {
+        "data": "29/10",
+        "texto": "Segundo fonte policial ouvida pela CNN Brasil, Flávio usou passaporte italiano (que a PF não pode cancelar) e não passou por controle da PF na ponte de Foz do Iguaçu."
+      },
+      {
+        "data": "29/10",
+        "texto": "Valdemar Costa Neto visita Jair Bolsonaro, com autorização do STF, e diz que não gostou da carta de Flávio. Trump diz que não vai se envolver; Tarcísio defende respeitar o resultado das urnas."
+      },
+      {
         "data": "05/01/27",
         "texto": "Posse do presidente eleito.",
         "futuro": true
@@ -183,28 +195,28 @@
     "juros": [
       {
         "nome": "DI jan/2027",
-        "taxa": 13.648,
-        "var": -0.011
+        "taxa": 13.62,
+        "var": -0.003
       },
       {
         "nome": "DI jan/2028",
-        "taxa": 14.632,
-        "var": 0.249
+        "taxa": 14.375,
+        "var": 0.025
       },
       {
         "nome": "DI jan/2031",
-        "taxa": 14.97,
-        "var": 0.059
+        "taxa": 15.025,
+        "var": 0.055
       },
       {
         "nome": "DI jan/2033",
-        "taxa": 14.93,
-        "var": -0.32
+        "taxa": 15.095,
+        "var": 0.055
       },
       {
         "nome": "DI jan/2035",
-        "taxa": 15.205,
-        "var": 0.01
+        "taxa": 15.05,
+        "var": 0.07
       }
     ],
     "moedas": [
@@ -408,8 +420,8 @@
     {
       "id": "eleicao",
       "tema": "Eleições",
-      "titulo": "Flávio Bolsonaro deve falar em Miami nesta quinta; PF avalia pedir prisão, sem decisão",
-      "chamada": "Depois de pousar nos EUA e se dizer 'verdadeiro presidente eleito', o senador promete explicar a saída do país. A PF diz que não há mandado contra ele. O que se sabe e o que cada lado diz.",
+      "titulo": "Flávio entrou nos EUA por razões humanitárias; Valdemar critica carta e coletiva é esperada à tarde",
+      "chamada": "Registro mostra autorização de até 1 ano nos EUA. O presidente do PL diz que não gostou da carta em que Flávio se diz presidente eleito. O que se sabe e o que cada lado diz.",
       "data": "29/10/2026",
       "inicio": [
         "Lula venceu o 2º turno com 51,79% dos votos válidos, e o TSE confirmou o resultado. O PL reconheceu a vitória, mas Flávio Bolsonaro anunciou ações para cassar a chapa Lula-Alckmin.",
@@ -420,7 +432,9 @@
         "À tarde, a PF informou que Flávio não é considerado foragido nem é alvo de mandado de prisão: para a corporação, as restrições aos passaportes, sozinhas, não tornam alguém foragido. A PF diz que não há registro oficial da saída dele nos postos de fronteira brasileiros e que apura como ele deixou o país e o descumprimento das ordens. Moraes ainda não decidiu sobre o pedido de prisão feito por deputados do PT.",
         "Perto das 17h, Flávio divulgou uma carta em que se apresenta como 'o verdadeiro presidente eleito do Brasil', fala em fraude e abuso de poder na campanha de Lula, nega ter fugido e diz que vai coordenar a oposição de fora, citando Rogério Marinho. Ele atribuiu à prorrogação do horário de votação, decidida pelo ministro Zanin, mais de 10 milhões de votos; segundo o TSE, só cerca de 34 mil votos foram registrados depois das 17h. O ministro Guilherme Boulos disse que o caso é assunto da Justiça e da PF.",
         "À noite, reportagens disseram que integrantes da cúpula da PGR consideram a ordem de Moraes precipitada e feita sem ouvir o Ministério Público, mas a PGR não se manifestou oficialmente e uma prisão dependeria de nova decisão judicial. Aliados de Flávio anunciaram uma entrevista coletiva em Miami nesta quinta (29/10).",
-        "Nesta quinta (29/10), o jornalista Paulo Figueiredo, aliado de Flávio que vive nos EUA, disse à CNN que o senador está bem, descansando com a família, e que vai dar uma entrevista coletiva em Miami à tarde; horário e local ainda não foram informados. Segundo investigadores ouvidos pela imprensa, a PF avalia pedir a Moraes a prisão preventiva e o bloqueio de bens dele, mas vê efeito prático limitado porque os EUA aceitaram recebê-lo; não há pedido oficial nem decisão."
+        "Nesta quinta (29/10), o jornalista Paulo Figueiredo, aliado de Flávio que vive nos EUA, disse à CNN que o senador está bem, descansando com a família, e que vai dar uma entrevista coletiva em Miami à tarde; horário e local ainda não foram informados. Segundo investigadores ouvidos pela imprensa, a PF avalia pedir a Moraes a prisão preventiva e o bloqueio de bens dele, mas vê efeito prático limitado porque os EUA aceitaram recebê-lo; não há pedido oficial nem decisão.",
+        "No fim da manhã desta quinta, o jornal O Globo mostrou o registro de imigração de Flávio: ele foi admitido nos EUA em 28/10 por razões humanitárias, numa autorização dada no próprio aeroporto e válida até 27/10/2027, que o governo americano pode encerrar. O visto prometido pelo Departamento de Estado ainda não aparece. Segundo fonte policial ouvida pela CNN Brasil, ele usou um passaporte italiano, que a PF não tem como cancelar, e não passou por controle da PF na ponte de Foz do Iguaçu. Trump disse que autorizou a entrada, mas que não vai se envolver.",
+        "No PL, o presidente Valdemar Costa Neto visitou Jair Bolsonaro, que cumpre prisão domiciliar, com autorização do STF, e disse que não gostou da carta em que Flávio se apresenta como presidente eleito; segundo a Folha, a carta teve ao menos quatro versões. O governador Tarcísio de Freitas disse que o caminho é respeitar o resultado das urnas. A coletiva de Flávio em Miami segue prevista para a tarde, sem horário nem local divulgados."
       ],
       "cadeia": [
         "Flávio perde o 2º turno e anuncia ações de cassação no TSE",
@@ -428,14 +442,14 @@
         "O prazo vence sem entrega e a PF cancela os documentos",
         "Ele cruza para a Argentina, voa ao Equador e pousa em Miami",
         "PF diz que ele não é foragido, mas apura a saída",
-        "Nos EUA, Flávio se declara presidente eleito e promete entrevista; PF avalia pedir prisão"
+        "Nos EUA, ele é admitido por razões humanitárias e se declara presidente eleito; o PL critica a carta"
       ],
       "porque": "Moraes viu risco de fuga num inquérito em que Flávio é investigado, com o advogado Willer Tomaz, por suspeita de lavagem de dinheiro ligada a empresas de apostas; os dois negam irregularidades. A decisão citou a fala de Eduardo Bolsonaro sugerindo a saída do país. Flávio diz que é perseguição e que nunca planejou sair.",
-      "outraLeitura": "Flávio e aliados dizem que a ordem de Moraes, dada logo após a eleição, é perseguição política; na carta ele diz que não fugiu, que não há mandado contra ele e que a eleição foi fraudada. O pastor Silas Malafaia defendeu a viagem. Do outro lado, Lula disse que ele deveria ter provado a inocência no país, Boulos afirma que ele saiu para não responder pelos crimes investigados e deputados do PT pedem prisão. O TSE certificou o resultado e diz que a prorrogação do horário não afetou a contagem. Segundo a imprensa, até ministros do governo e integrantes da cúpula da PGR acharam a ordem de Moraes precipitada, e a cúpula do PL, que reconheceu o resultado, diz que não foi avisada da viagem. Flávio não foi condenado; as investigações estão em andamento e ele nega irregularidades.",
+      "outraLeitura": "Flávio e aliados dizem que a ordem de Moraes, dada logo após a eleição, é perseguição política; na carta ele diz que não fugiu, que não há mandado contra ele e que a eleição foi fraudada. O pastor Silas Malafaia defendeu a viagem, e líderes do PL manifestaram apoio pessoal a ele, embora Valdemar tenha criticado a carta. Do outro lado, Lula disse que ele deveria ter provado a inocência no país, Boulos afirma que ele saiu para não responder pelos crimes investigados e deputados do PT pedem prisão. O TSE certificou o resultado e diz que a prorrogação do horário não afetou a contagem. Segundo a imprensa, até ministros do governo e integrantes da cúpula da PGR acharam a ordem de Moraes precipitada, e a cúpula do PL, que reconheceu o resultado, diz que não foi avisada da viagem. Flávio não foi condenado; as investigações estão em andamento e ele nega irregularidades.",
       "cenarios": [
         {
           "tipo": "base",
-          "texto": "Moraes deve analisar nos próximos dias os pedidos de prisão e de alerta da Interpol, ouvindo a PGR; a PF já disse que hoje não há mandado, mas, segundo a imprensa, estuda pedir prisão e bloqueio de bens. A Jovem Pan diz que Flávio planeja pedir asilo político."
+          "texto": "Moraes deve analisar nos próximos dias os pedidos de prisão e de alerta da Interpol, ouvindo a PGR; a PF diz que hoje não há mandado, mas, segundo a imprensa, estuda pedir prisão e bloqueio de bens. Com a autorização humanitária de até 1 ano, Flávio pode ficar nos EUA enquanto o governo americano não a revogar; a Jovem Pan e o Metrópoles dizem que ele deve pedir asilo."
         },
         {
           "tipo": "incerto",
@@ -444,12 +458,29 @@
       ],
       "saidas": [
         "Decisão do STF sobre os pedidos de prisão, ouvida a defesa",
+        "Licença formal no Senado ou volta ao país, já que a perda do mandato só ocorre por excesso de faltas sem justificativa",
         "Esclarecimento sobre eventual pedido de asilo e o documento usado na viagem",
         "Julgamento das ações de cassação no TSE, com as provas de cada lado",
         "Diplomação de Lula pelo TSE até 18 de dezembro e posse em 5 de janeiro de 2027"
       ],
       "bolso": [],
       "fontes": [
+        {
+          "nome": "InfoMoney/O Globo (entrada humanitária)",
+          "url": "https://www.infomoney.com.br/politica/flavio-foi-admitido-nos-eua-por-razoes-humanitarias-mostra-registro-de-entrada/"
+        },
+        {
+          "nome": "Metrópoles (Valdemar: 'não gostei')",
+          "url": "https://www.metropoles.com/brasil/valdemar-visita-bolsonaro-e-critica-carta-de-flavio-nao-gostei"
+        },
+        {
+          "nome": "ND Mais/CNN Brasil (passaporte italiano)",
+          "url": "https://ndmais.com.br/politica/flavio-bolsonaro-usou-passaporte-italiano-argentina/"
+        },
+        {
+          "nome": "Rádio Corredor (Trump e Tarcísio)",
+          "url": "https://radiocorredor.com.br/posts/passarinho-flavio-miami-trump-tarcisio-2910"
+        },
         {
           "nome": "Correio Braziliense (coletiva em Miami)",
           "url": "https://www.correiobraziliense.com.br/politica/2026/10/7529281-flavio-bolsonaro-deve-dar-coletiva-em-miami-nesta-quinta-feira-28.html"
@@ -524,25 +555,29 @@
         }
       ],
       "indicadores": [],
-      "atualizadoEm": "2026-10-29T06:50:00-03:00",
+      "atualizadoEm": "2026-10-29T11:55:00-03:00",
       "atualizacoes": [
         {
           "hora": "6h",
           "texto": "Aliado anuncia entrevista de Flávio em Miami à tarde; segundo a imprensa, a PF estuda pedir prisão e bloqueio de bens, sem decisão."
+        },
+        {
+          "hora": "11h",
+          "texto": "Registro mostra que Flávio entrou nos EUA por razões humanitárias, por até 1 ano, com passaporte italiano; Valdemar critica a carta."
         }
       ],
       "referencia": {
-        "dolar": 5.34,
-        "ibov": 171006.1,
+        "dolar": 5.37,
+        "ibov": 170381.92,
         "selic": 13.75
       }
     },
     {
       "id": "bolsa",
       "tema": "Bolsa e dólar",
-      "titulo": "Ibovespa fecha em queda de 2,68%, no menor nível desde agosto; dólar a R$ 5,34",
-      "chamada": "Depois do tombo de 13,88% na segunda e da pausa de terça, a bolsa voltou a cair forte nesta quarta, puxada por bancos e construtoras. Entenda o que explica e o que pode acalmar o mercado.",
-      "data": "28/10/2026",
+      "titulo": "Ibovespa abre em leve queda, perto de 170 mil pontos; dólar sobe a R$ 5,37",
+      "chamada": "Depois de três pregões seguidos de perdas, a bolsa segue pressionada nesta quinta, com juros futuros em alta e espera pelo nome do ministro da Fazenda. Entenda o que explica e o que pode acalmar o mercado.",
+      "data": "29/10/2026",
       "inicio": [
         "Na segunda (26/10), primeiro pregão depois do 2º turno, o Ibovespa fechou em queda de 13,88%, aos 176.608 pontos, o pior dia desde março de 2020. Na mínima chegou a cair mais de 17%, e a B3 parou o pregão por 30 minutos (circuit breaker).",
         "O dólar fechou a R$ 5,40, alta de 8,21%, a maior em um dia desde janeiro de 1999. Os juros futuros longos subiram cerca de 2,6 pontos, para perto de 15,2% ao ano.",
@@ -552,7 +587,8 @@
         "Nesta quarta (28/10), o Ibovespa abriu estável, mas virou para queda forte: às 13h06 estava em 170.937 pontos (-2,72%) e chegou a cair perto de 3% à tarde. Bancos pesam, com o Santander em baixa após o balanço, e empresas que dependem de crédito, como varejo e construtoras, lideraram as perdas (Magazine Luiza e Cyrela caíam cerca de 9%). Exportadoras como Suzano e WEG subiam. O dólar oscilou perto de R$ 5,35.",
         "Às 15h, o Fed manteve os juros dos EUA entre 3,75% e 4% ao ano, como o mercado esperava. Os analistas apontam que a pressão aqui vem mais de dentro: dúvidas sobre quem será o ministro da Fazenda e sobre o plano de gastos do 4º mandato, com os juros futuros voltando a subir.",
         "No fechamento, o Ibovespa caiu 2,68%, aos 171.006 pontos, terceiro pregão seguido de perdas e o menor nível desde 20 de agosto. Bradesco (-6,7%), BTG Pactual (-6,5%) e Cyrela (-6,5%) estiveram entre as maiores quedas; WEG subiu 2,25%. O dólar terminou em leve baixa, a R$ 5,34. Segundo a B3, estrangeiros tiraram R$ 2,8 bilhões da bolsa na segunda.",
-        "Nesta quinta (29/10), o mercado acompanha o IGP-M de outubro (8h; a expectativa é de alta perto de 1,6%), os dados de crédito do BC (8h30), o Caged de setembro (14h30) e, nos EUA, o PIB do 3º trimestre. A Vale divulga o balanço depois do fechamento. Na decisão de quarta, o Fed manteve os juros por 10 votos a 2, e os dois votos contrários defendiam alta."
+        "Nesta quinta (29/10), o IGP-M de outubro subiu 1,47%, abaixo dos 1,59% esperados (pesquisa Reuters), e acumula 5,24% em 12 meses. O Caged de setembro sai às 14h30, e a Vale divulga o balanço depois do fechamento. Na decisão de quarta, o Fed manteve os juros por 10 votos a 2, e os dois votos contrários defendiam alta.",
+        "O Ibovespa abriu em leve queda e, às 11h25, estava em 170.382 pontos (-0,37%); Bradesco (-2,6%), B3 (-1,8%) e Vale (-1,1%) caíam, e Petrobras subia 0,8%. O dólar subia 0,5%, a R$ 5,37. Os juros futuros longos operavam em alta, perto de 15% ao ano. Lá fora, o resultado da Alphabet decepcionou e pesava nas bolsas americanas."
       ],
       "cadeia": [
         "O mercado apostava na vitória de Flávio e comprou muitas ações",
@@ -592,6 +628,18 @@
         "Em momentos assim, renda fixa pós-fixada (atrelada ao CDI) costuma ser vista como mais defensiva"
       ],
       "fontes": [
+        {
+          "nome": "InfoMoney (ao vivo 29/10)",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-29102026/"
+        },
+        {
+          "nome": "Metrópoles (abertura)",
+          "url": "https://www.metropoles.com/brasil/ibovespa-abertura-quinta"
+        },
+        {
+          "nome": "Antena 1/Reuters (IGP-M)",
+          "url": "https://www.antena1.com.br/noticias/igp-m-desaclera-alta-em-outubro-para-147-e-fica-abaixo-das-expectativas-diz-fgv"
+        },
         {
           "nome": "BM&C (fechamento 28/10)",
           "url": "https://bmcnews.com.br/economia/ibovespa-cai-268-e-dolar-fecha-em-leve-baixa-a-r-534/"
@@ -665,16 +713,20 @@
         "dolar",
         "ibov"
       ],
-      "atualizadoEm": "2026-10-29T06:50:00-03:00",
+      "atualizadoEm": "2026-10-29T11:55:00-03:00",
       "atualizacoes": [
         {
           "hora": "6h",
           "texto": "Agenda do dia: IGP-M às 8h, Caged às 14h30, PIB dos EUA e balanço da Vale após o fechamento."
+        },
+        {
+          "hora": "11h",
+          "texto": "IGP-M de outubro sobe 1,47%, abaixo do esperado; Ibovespa recua 0,37% e dólar sobe a R$ 5,37 no fim da manhã."
         }
       ],
       "referencia": {
-        "dolar": 5.34,
-        "ibov": 171006.1,
+        "dolar": 5.37,
+        "ibov": 170381.92,
         "selic": 13.75
       }
     },
