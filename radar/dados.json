@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-10-29T11:55:00-03:00",
-  "alerta": "Registro de entrada mostra que Flávio Bolsonaro foi admitido nos EUA por razões humanitárias, por até 1 ano; Valdemar (PL) critica a carta dele. Coletiva em Miami prevista para a tarde; Caged às 14h30.",
+  "atualizadoEm": "2026-10-29T17:50:00-03:00",
+  "alerta": "Ibovespa cai pelo 4º pregão seguido e perde os 170 mil pontos; dólar sobe a R$ 5,38. Coletiva de Flávio em Miami não aconteceu até o fim da tarde e, segundo a imprensa, foi cancelada; PL diz que 'não aprova' a carta.",
   "eleicoes": {
     "candidatos": [
       {
@@ -13,7 +13,7 @@
         "id": "flavio",
         "nome": "Flávio Bolsonaro (PL)",
         "pct": 48.21,
-        "situacao": "Contesta o resultado e pede a cassação da chapa Lula-Alckmin. Saiu do Brasil sem entregar os passaportes brasileiros e está em Miami (EUA) desde 28/10, admitido por razões humanitárias por até 1 ano. Diz ser o \"verdadeiro presidente eleito\"; a PF diz que ele não é foragido."
+        "situacao": "Contesta o resultado e pede a cassação da chapa Lula-Alckmin. Saiu do Brasil sem entregar os passaportes brasileiros e está em Miami (EUA) desde 28/10, admitido por razões humanitárias por até 1 ano. Em carta, chegou a se dizer \"verdadeiro presidente eleito\" e depois trocou por \"líder do Brasil\"; a PF diz que ele não é foragido."
       }
     ],
     "segundoTurno": {
@@ -132,6 +132,10 @@
       {
         "data": "29/10",
         "texto": "Valdemar Costa Neto visita Jair Bolsonaro, com autorização do STF, e diz que não gostou da carta de Flávio. Trump diz que não vai se envolver; Tarcísio defende respeitar o resultado das urnas."
+      },
+      {
+        "data": "29/10",
+        "texto": "Coletiva anunciada em Miami não acontece; segundo a imprensa, foi cancelada. Valdemar diz que o PL 'não aprova' a carta e que Bolsonaro não sabia da saída do filho."
       },
       {
         "data": "05/01/27",
@@ -420,8 +424,8 @@
     {
       "id": "eleicao",
       "tema": "Eleições",
-      "titulo": "Flávio entrou nos EUA por razões humanitárias; Valdemar critica carta e coletiva é esperada à tarde",
-      "chamada": "Registro mostra autorização de até 1 ano nos EUA. O presidente do PL diz que não gostou da carta em que Flávio se diz presidente eleito. O que se sabe e o que cada lado diz.",
+      "titulo": "Coletiva de Flávio em Miami não acontece; PL diz que 'não aprova' a carta e Casa Branca mostra incômodo",
+      "chamada": "Flávio foi admitido nos EUA por razões humanitárias, por até 1 ano. A entrevista anunciada para esta quinta não ocorreu, e o PL pressionou pela correção da carta. O que se sabe e o que cada lado diz.",
       "data": "29/10/2026",
       "inicio": [
         "Lula venceu o 2º turno com 51,79% dos votos válidos, e o TSE confirmou o resultado. O PL reconheceu a vitória, mas Flávio Bolsonaro anunciou ações para cassar a chapa Lula-Alckmin.",
@@ -434,7 +438,8 @@
         "À noite, reportagens disseram que integrantes da cúpula da PGR consideram a ordem de Moraes precipitada e feita sem ouvir o Ministério Público, mas a PGR não se manifestou oficialmente e uma prisão dependeria de nova decisão judicial. Aliados de Flávio anunciaram uma entrevista coletiva em Miami nesta quinta (29/10).",
         "Nesta quinta (29/10), o jornalista Paulo Figueiredo, aliado de Flávio que vive nos EUA, disse à CNN que o senador está bem, descansando com a família, e que vai dar uma entrevista coletiva em Miami à tarde; horário e local ainda não foram informados. Segundo investigadores ouvidos pela imprensa, a PF avalia pedir a Moraes a prisão preventiva e o bloqueio de bens dele, mas vê efeito prático limitado porque os EUA aceitaram recebê-lo; não há pedido oficial nem decisão.",
         "No fim da manhã desta quinta, o jornal O Globo mostrou o registro de imigração de Flávio: ele foi admitido nos EUA em 28/10 por razões humanitárias, numa autorização dada no próprio aeroporto e válida até 27/10/2027, que o governo americano pode encerrar. O visto prometido pelo Departamento de Estado ainda não aparece. Segundo fonte policial ouvida pela CNN Brasil, ele usou um passaporte italiano, que a PF não tem como cancelar, e não passou por controle da PF na ponte de Foz do Iguaçu. Trump disse que autorizou a entrada, mas que não vai se envolver.",
-        "No PL, o presidente Valdemar Costa Neto visitou Jair Bolsonaro, que cumpre prisão domiciliar, com autorização do STF, e disse que não gostou da carta em que Flávio se apresenta como presidente eleito; segundo a Folha, a carta teve ao menos quatro versões. O governador Tarcísio de Freitas disse que o caminho é respeitar o resultado das urnas. A coletiva de Flávio em Miami segue prevista para a tarde, sem horário nem local divulgados."
+        "No PL, o presidente Valdemar Costa Neto visitou Jair Bolsonaro, que cumpre prisão domiciliar, com autorização do STF, e disse que não gostou da carta em que Flávio se apresenta como presidente eleito; segundo a Folha, a carta teve ao menos quatro versões. O governador Tarcísio de Freitas disse que o caminho é respeitar o resultado das urnas. A coletiva de Flávio em Miami segue prevista para a tarde, sem horário nem local divulgados.",
+        "No fim da tarde desta quinta, não havia registro de que a coletiva em Miami tenha acontecido; reportagens do SBT News e do Estado de Minas dizem que ela foi cancelada. Segundo o O Globo, citado pelo Brasil 247, a direção do PL pressionou Flávio a corrigir a carta, e Valdemar resumiu: 'compreendemos, mas não aprovamos'. Rogério Marinho chamou a expressão 'presidente eleito' de erro de redação e disse que o PL não tem provas de fraude. Paulo Figueiredo atribuiu a primeira versão a um erro de inteligência artificial, sem mostrar comprovação. Valdemar disse ainda que nem Jair Bolsonaro sabia que o filho sairia do país. Segundo uma colunista do SBT News, um integrante do governo Trump, sem se identificar, disse que os EUA não querem ver Flávio se apresentar como presidente; não houve nota oficial da Casa Branca. Moraes ainda não decidiu sobre os pedidos de prisão."
       ],
       "cadeia": [
         "Flávio perde o 2º turno e anuncia ações de cassação no TSE",
@@ -442,7 +447,7 @@
         "O prazo vence sem entrega e a PF cancela os documentos",
         "Ele cruza para a Argentina, voa ao Equador e pousa em Miami",
         "PF diz que ele não é foragido, mas apura a saída",
-        "Nos EUA, ele é admitido por razões humanitárias e se declara presidente eleito; o PL critica a carta"
+        "Nos EUA, ele é admitido por razões humanitárias e se declara presidente eleito; o PL não aprova a carta e a coletiva não acontece"
       ],
       "porque": "Moraes viu risco de fuga num inquérito em que Flávio é investigado, com o advogado Willer Tomaz, por suspeita de lavagem de dinheiro ligada a empresas de apostas; os dois negam irregularidades. A decisão citou a fala de Eduardo Bolsonaro sugerindo a saída do país. Flávio diz que é perseguição e que nunca planejou sair.",
       "outraLeitura": "Flávio e aliados dizem que a ordem de Moraes, dada logo após a eleição, é perseguição política; na carta ele diz que não fugiu, que não há mandado contra ele e que a eleição foi fraudada. O pastor Silas Malafaia defendeu a viagem, e líderes do PL manifestaram apoio pessoal a ele, embora Valdemar tenha criticado a carta. Do outro lado, Lula disse que ele deveria ter provado a inocência no país, Boulos afirma que ele saiu para não responder pelos crimes investigados e deputados do PT pedem prisão. O TSE certificou o resultado e diz que a prorrogação do horário não afetou a contagem. Segundo a imprensa, até ministros do governo e integrantes da cúpula da PGR acharam a ordem de Moraes precipitada, e a cúpula do PL, que reconheceu o resultado, diz que não foi avisada da viagem. Flávio não foi condenado; as investigações estão em andamento e ele nega irregularidades.",
@@ -465,6 +470,22 @@
       ],
       "bolso": [],
       "fontes": [
+        {
+          "nome": "SBT News (incômodo no governo Trump)",
+          "url": "https://sbtnews.sbt.com.br/noticia/mundo/casa-branca-avisa-flavio-declarar-se-presidente-e-inviavel"
+        },
+        {
+          "nome": "Estado de Minas (coletiva cancelada)",
+          "url": "https://www.em.com.br/politica/2026/10/7530105-o-recado-duro-da-casa-branca-para-flavio-bolsonaro.html"
+        },
+        {
+          "nome": "Brasil 247/O Globo (PL pressionou correção)",
+          "url": "https://www.brasil247.com/brasil/parlamentares-do-pl-pressionaram-flavio-bolsonaro-a-recuar-de-autoproclamacao-como-presidente/"
+        },
+        {
+          "nome": "DCM (Valdemar: Bolsonaro não sabia)",
+          "url": "https://www.diariodocentrodomundo.com.br/bolsonaro-nao-sabia-do-plano-de-fuga-de-flavio-diz-valdemar"
+        },
         {
           "nome": "InfoMoney/O Globo (entrada humanitária)",
           "url": "https://www.infomoney.com.br/politica/flavio-foi-admitido-nos-eua-por-razoes-humanitarias-mostra-registro-de-entrada/"
@@ -555,7 +576,7 @@
         }
       ],
       "indicadores": [],
-      "atualizadoEm": "2026-10-29T11:55:00-03:00",
+      "atualizadoEm": "2026-10-29T17:50:00-03:00",
       "atualizacoes": [
         {
           "hora": "6h",
@@ -564,19 +585,23 @@
         {
           "hora": "11h",
           "texto": "Registro mostra que Flávio entrou nos EUA por razões humanitárias, por até 1 ano, com passaporte italiano; Valdemar critica a carta."
+        },
+        {
+          "hora": "17h",
+          "texto": "Coletiva em Miami não acontece (imprensa diz que foi cancelada); PL diz que 'não aprova' a carta e há relato de incômodo no governo Trump."
         }
       ],
       "referencia": {
-        "dolar": 5.37,
-        "ibov": 170381.92,
+        "dolar": 5.38,
+        "ibov": 169188.45,
         "selic": 13.75
       }
     },
     {
       "id": "bolsa",
       "tema": "Bolsa e dólar",
-      "titulo": "Ibovespa abre em leve queda, perto de 170 mil pontos; dólar sobe a R$ 5,37",
-      "chamada": "Depois de três pregões seguidos de perdas, a bolsa segue pressionada nesta quinta, com juros futuros em alta e espera pelo nome do ministro da Fazenda. Entenda o que explica e o que pode acalmar o mercado.",
+      "titulo": "Ibovespa cai pelo 4º pregão seguido e perde os 170 mil pontos; dólar sobe a R$ 5,38",
+      "chamada": "Temor com as contas públicas, espera pelo ministro da Fazenda e queda das bolsas americanas pesam. Entenda o que explica e o que pode acalmar o mercado.",
       "data": "29/10/2026",
       "inicio": [
         "Na segunda (26/10), primeiro pregão depois do 2º turno, o Ibovespa fechou em queda de 13,88%, aos 176.608 pontos, o pior dia desde março de 2020. Na mínima chegou a cair mais de 17%, e a B3 parou o pregão por 30 minutos (circuit breaker).",
@@ -588,7 +613,8 @@
         "Às 15h, o Fed manteve os juros dos EUA entre 3,75% e 4% ao ano, como o mercado esperava. Os analistas apontam que a pressão aqui vem mais de dentro: dúvidas sobre quem será o ministro da Fazenda e sobre o plano de gastos do 4º mandato, com os juros futuros voltando a subir.",
         "No fechamento, o Ibovespa caiu 2,68%, aos 171.006 pontos, terceiro pregão seguido de perdas e o menor nível desde 20 de agosto. Bradesco (-6,7%), BTG Pactual (-6,5%) e Cyrela (-6,5%) estiveram entre as maiores quedas; WEG subiu 2,25%. O dólar terminou em leve baixa, a R$ 5,34. Segundo a B3, estrangeiros tiraram R$ 2,8 bilhões da bolsa na segunda.",
         "Nesta quinta (29/10), o IGP-M de outubro subiu 1,47%, abaixo dos 1,59% esperados (pesquisa Reuters), e acumula 5,24% em 12 meses. O Caged de setembro sai às 14h30, e a Vale divulga o balanço depois do fechamento. Na decisão de quarta, o Fed manteve os juros por 10 votos a 2, e os dois votos contrários defendiam alta.",
-        "O Ibovespa abriu em leve queda e, às 11h25, estava em 170.382 pontos (-0,37%); Bradesco (-2,6%), B3 (-1,8%) e Vale (-1,1%) caíam, e Petrobras subia 0,8%. O dólar subia 0,5%, a R$ 5,37. Os juros futuros longos operavam em alta, perto de 15% ao ano. Lá fora, o resultado da Alphabet decepcionou e pesava nas bolsas americanas."
+        "O Ibovespa abriu em leve queda e, às 11h25, estava em 170.382 pontos (-0,37%); Bradesco (-2,6%), B3 (-1,8%) e Vale (-1,1%) caíam, e Petrobras subia 0,8%. O dólar subia 0,5%, a R$ 5,37. Os juros futuros longos operavam em alta, perto de 15% ao ano. Lá fora, o resultado da Alphabet decepcionou e pesava nas bolsas americanas.",
+        "À tarde, o Ibovespa acelerou a queda e perdeu os 170 mil pontos pela primeira vez desde meados de agosto. Perto das 17h20, estava em 169.188 pontos (-1,06%), quarto pregão seguido de perdas; na semana, a queda passa de 16%. Bradesco (-3,5%), B3 (-3,3%) e Vale (-2,2%) pesaram, enquanto WEG (+4,4%) e Suzano (+3,4%), exportadoras, subiram. O dólar fechou o dia perto de R$ 5,38 (+0,7%). Nos EUA, o PIB do 3º trimestre cresceu 3,4% e a inflação PCE subiu 0,5% em setembro, o que reforça apostas de juros altos lá. Uma correção: o Caged de setembro não saiu hoje; pelo calendário do Ministério do Trabalho, sai em 4/11. A Vale divulga o balanço depois do fechamento."
       ],
       "cadeia": [
         "O mercado apostava na vitória de Flávio e comprou muitas ações",
@@ -628,6 +654,18 @@
         "Em momentos assim, renda fixa pós-fixada (atrelada ao CDI) costuma ser vista como mais defensiva"
       ],
       "fontes": [
+        {
+          "nome": "Investidor10 (Ibovespa perde os 170 mil)",
+          "url": "https://investidor10.com.br/noticias/ibovespa-entra-no-4-dia-de-baixas-e-perde-os-170-mil-pontos-123591/"
+        },
+        {
+          "nome": "Times Brasil (4º pregão de queda)",
+          "url": "https://timesbrasil.com.br/brasil/ibovespa-cai-pelo-quarto-pregao-seguido-com-temor-fiscal-e-queda-em-wall-street/"
+        },
+        {
+          "nome": "Pensar Cursos (calendário do Caged)",
+          "url": "https://blog.pensarcursos.com.br/caged-de-setembro-divulgacao/"
+        },
         {
           "nome": "InfoMoney (ao vivo 29/10)",
           "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-29102026/"
@@ -713,7 +751,7 @@
         "dolar",
         "ibov"
       ],
-      "atualizadoEm": "2026-10-29T11:55:00-03:00",
+      "atualizadoEm": "2026-10-29T17:50:00-03:00",
       "atualizacoes": [
         {
           "hora": "6h",
@@ -722,11 +760,15 @@
         {
           "hora": "11h",
           "texto": "IGP-M de outubro sobe 1,47%, abaixo do esperado; Ibovespa recua 0,37% e dólar sobe a R$ 5,37 no fim da manhã."
+        },
+        {
+          "hora": "17h",
+          "texto": "Ibovespa perde os 170 mil pontos e cai 1,06% perto das 17h20; dólar sobe a R$ 5,38. Caged de setembro fica para 4/11."
         }
       ],
       "referencia": {
-        "dolar": 5.37,
-        "ibov": 170381.92,
+        "dolar": 5.38,
+        "ibov": 169188.45,
         "selic": 13.75
       }
     },
@@ -801,7 +843,8 @@
         "A imprensa cita o governador do Piauí, Rafael Fonteles (PT), ex-secretário de Fazenda do estado, e o vice Geraldo Alckmin como os nomes mais fortes. Nesta terça, Fonteles ganhou força: segundo a imprensa, Lula sinalizou a aliados que pode escolhê-lo, mas não há convite nem anúncio oficial.",
         "O atual ministro, Dario Durigan, disse que Fonteles é um 'excelente nome', que a equipe não foi discutida com Lula e que a decisão virá 'nas próximas semanas, nos próximos meses'. O presidente do BC, Gabriel Galípolo, disse que não é candidato e que fica no BC até o fim do mandato, em 2028. O governo também prepara o envio ao Congresso do 'imposto do pecado', com arrecadação estimada em R$ 41,9 bilhões em 2027. Na terça, Durigan também prometeu um projeto de lei complementar para que os bloqueios de gastos mirem o centro da meta fiscal; uma das ideias citadas é ampliar em pelo menos 20% a parte do orçamento que pode ser bloqueada, hoje perto de R$ 150 bilhões.",
         "O próprio Fonteles disse, ao voltar a Teresina na segunda, que nunca tratou do assunto com Lula e que não cogitava a hipótese; o vice-governador eleito do Piauí disse estar pronto para assumir se houver convite.",
-        "Segundo a NeoFeed, os nomes mais citados para a Fazenda são Geraldo Alckmin (apontado como favorito), Rafael Fonteles e Fernando Haddad, sem confirmação. Durigan diz que as medidas fiscais serão detalhadas depois que Lula definir a equipe. Jeferson Bittencourt, do ASA e ex-secretário do Tesouro, defende um sinal de ajuste ainda em 2026."
+        "Segundo a NeoFeed, os nomes mais citados para a Fazenda são Geraldo Alckmin (apontado como favorito), Rafael Fonteles e Fernando Haddad, sem confirmação. Durigan diz que as medidas fiscais serão detalhadas depois que Lula definir a equipe. Jeferson Bittencourt, do ASA e ex-secretário do Tesouro, defende um sinal de ajuste ainda em 2026.",
+        "Nesta quinta (29/10), reportagens de bastidor dizem que Lula começou a montar o segundo escalão e que Durigan também é avaliado para ficar no cargo; o nome da Fazenda segue em aberto e não há anúncio oficial. Segundo o Investidor10, o mercado segue tratando a escolha como o principal sinal sobre as contas do 4º mandato."
       ],
       "cadeia": [
         "Mercado reage mal à reeleição",
@@ -837,6 +880,10 @@
         "Para dinheiro de curto prazo, aplicações atreladas ao CDI ou à Selic oscilam menos"
       ],
       "fontes": [
+        {
+          "nome": "TV Sim Brasil (novo ministério)",
+          "url": "https://tvsimbrasil.com.br/brasil/politica/noticia/2026/10/29/lula-articula-novo-ministerio-proximo-governo"
+        },
         {
           "nome": "Leia Sempre Brasil (pacote fiscal)",
           "url": "https://leiasemprebrasil.com.br/2026/10/28/lula-deve-encaminhar-pacote-fiscal-ao-congresso-e-o-nome-de-rodrigo-pacheco-ao-stf/"
@@ -894,11 +941,16 @@
         "dolar",
         "selic"
       ],
-      "atualizadoEm": "2026-10-28T23:00:00-03:00",
-      "atualizacoes": [],
+      "atualizadoEm": "2026-10-29T17:50:00-03:00",
+      "atualizacoes": [
+        {
+          "hora": "17h",
+          "texto": "Bastidores citam Durigan entre os avaliados para continuar na Fazenda; ainda sem anúncio."
+        }
+      ],
       "referencia": {
-        "dolar": 5.34,
-        "ibov": 171006.1,
+        "dolar": 5.38,
+        "ibov": 169188.45,
         "selic": 13.75
       }
     },
