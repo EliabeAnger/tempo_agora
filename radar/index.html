@@ -558,8 +558,8 @@ async function carregaMoedas(){
     store.set("moedas",S.moedas);store.set("turismo",S.turismo);S.ultima=Date.now();S.falhou=false;return true;
   }catch(e){
     S.falhou=true;
-    const s=store.get("moedas",null),rb=S.base?.robo?.atualizadoEm?+new Date(S.base.robo.atualizadoEm):0,ts=s?.[0]?.hora||0;
-    if(!S.moedas||S.moedas[0]?.cache){S.moedas=(rb>ts&&S.base?.mercado?.moedas?S.base.mercado.moedas.map(m=>({...m,hora:rb})):s)?.map(m=>({...m,cache:true}))||null;S.turismo=S.turismo||store.get("turismo",null)}
+    const s=store.get("moedas",null),rb=S.base?.mercado?.moedasTs||0,ts=s?.[0]?.hora||0;
+    if(!S.moedas||S.moedas[0]?.cache){S.moedas=(S.base?.mercado?.moedas&&(!s||rb>ts)?S.base.mercado.moedas.map(m=>({...m,hora:rb||undefined})):s)?.map(m=>({...m,cache:true}))||null;S.turismo=S.turismo||store.get("turismo",null)}
     return false;
   }
 }

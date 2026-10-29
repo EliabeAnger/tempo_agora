@@ -3,7 +3,7 @@
 
 Atualiza em dados.json só o que tem fonte oficial ou de mercado:
   - indicadores.itens  <- Banco Central (SGS): Selic, CDI, IPCA mês/12m, IGP-M, poupança, desemprego
-  - mercado.moedas     <- AwesomeAPI (dólar, euro), conferido com a PTAX do Banco Central
+  - mercado.moedas     <- AwesomeAPI, com Yahoo Finance e PTAX do Banco Central como reservas
   - mercado.ibov/acoes <- Yahoo Finance (B3), com brapi como reserva
   - noticias           <- Google Notícias (RSS), só quando houver notícias novas
 Cada número passa por conferência de faixa. Se uma fonte falhar ou trouxer valor estranho,
@@ -72,24 +72,50 @@ def ptax(log):
         return None
 
 # ---------------- Câmbio ----------------
+# Fontes em ordem: AwesomeAPI -> Yahoo Finance -> PTAX do Banco Central.
+# A AwesomeAPI costuma bloquear (HTTP 429) os servidores do GitHub, por isso as reservas.
+def cambio_awesome():
+    j = baixar("https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL", tentativas=1)
+    return {"USD": (float(j["USDBRL"]["bid"]), float(j["USDBRL"]["pctChange"])),
+            "EUR": (float(j["EURBRL"]["bid"]), float(j["EURBRL"]["pctChange"]))}
+
+def cambio_yahoo():
+    u, e = yahoo("BRL=X"), yahoo("EURBRL=X")
+    return {"USD": (u["preco"], u["var"]), "EUR": (e["preco"], e["var"])}
+
+def cambio_ptax():
+    out = {}
+    for sig, cod in (("USD", 1), ("EUR", 21619)):
+        j = baixar(f"https://api.bcb.gov.br/dados/serie/bcdata.sgs.{cod}/dados/ultimos/2?formato=json")
+        v = float(j[-1]["valor"]); ant = float(j[-2]["valor"]) if len(j) > 1 else v
+        out[sig] = (v, (v / ant - 1) * 100)
+    return out
+
 def cambio(d, log):
     m = d.setdefault("mercado", {})
-    try:
-        j = baixar("https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL")
-        usd, eur = float(j["USDBRL"]["bid"]), float(j["EURBRL"]["bid"])
-        vu, ve = float(j["USDBRL"]["pctChange"]), float(j["EURBRL"]["pctChange"])
-        if not (na_faixa(usd, 3, 10) and na_faixa(eur, 3, 12) and abs(vu) < 15 and abs(ve) < 15):
-            raise ValueError(f"cotação estranha USD {usd} EUR {eur}")
-        p = ptax(log)  # conferência cruzada com o Banco Central
-        if p and abs(usd / p - 1) > 0.08:
-            raise ValueError(f"dólar {usd} muito longe da PTAX {p}")
-        m["moedas"] = [
-            {"sigla": "USD", "nome": "Dólar Americano", "valor": round(usd, 4), "var": round(vu, 2)},
-            {"sigla": "EUR", "nome": "Euro", "valor": round(eur, 4), "var": round(ve, 2)},
-        ]
-        log["ok"].append("câmbio")
-    except Exception as e:
-        log["falhas"].append(f"câmbio: {e}")
+    p = None
+    for nome, f in (("AwesomeAPI", cambio_awesome), ("Yahoo", cambio_yahoo), ("PTAX", cambio_ptax)):
+        try:
+            c = f()
+            (usd, vu), (eur, ve) = c["USD"], c["EUR"]
+            if not (na_faixa(usd, 3, 10) and na_faixa(eur, 3, 12) and abs(vu) < 15 and abs(ve) < 15):
+                raise ValueError(f"cotação estranha USD {usd} EUR {eur}")
+            if nome != "PTAX":
+                p = p or ptax(log)  # conferência cruzada com o Banco Central
+                if p and abs(usd / p - 1) > 0.08:
+                    raise ValueError(f"dólar {usd} muito longe da PTAX {p}")
+            agora_br = agora()
+            m["moedas"] = [
+                {"sigla": "USD", "nome": "Dólar Americano", "valor": round(usd, 4), "var": round(vu, 2)},
+                {"sigla": "EUR", "nome": "Euro", "valor": round(eur, 4), "var": round(ve, 2)},
+            ]
+            m["moedasTs"] = int(agora_br.timestamp() * 1000)
+            m["moedasFonte"] = nome
+            log["ok"].append(f"câmbio ({nome})")
+            return
+        except Exception as e:
+            log["falhas"].append(f"câmbio {nome}: {str(e)[:120]}")
+    log["falhas"].append("câmbio: todas as fontes falharam, mantido o valor anterior")
 
 # ---------------- Bolsa ----------------
 ACOES = ["PETR4", "VALE3", "ITUB4", "BBDC4", "BBAS3", "WEGE3", "SUZB3", "B3SA3"]
@@ -218,7 +244,9 @@ if __name__ == "__main__":
         SIMULADO.update({
             "sgs.432/": sgs("13.75"), "sgs.4389/": sgs("13.65"), "sgs.13522/": sgs("4.58"), "sgs.433/": sgs("0.82"),
             "sgs.189/": sgs("0.41"), "sgs.195/": sgs("0.6731"), "sgs.24369/": sgs("5.6"), "sgs.1/": sgs("5.5007"),
-            "awesomeapi": {"USDBRL": {"bid": "5.4460", "pctChange": "9.06"}, "EURBRL": {"bid": "5.912", "pctChange": "8.7"}},
+            # awesomeapi sem simulação = falha (como o HTTP 429 real); o Yahoo assume
+            "EURBRL%3DX": {"chart": {"result": [{"meta": {"regularMarketPrice": 6.2201, "chartPreviousClose": 6.2302}}]}},
+            "/BRL%3DX": {"chart": {"result": [{"meta": {"regularMarketPrice": 5.3412, "chartPreviousClose": 5.3478}}]}},
             "%5EBVSP": {"chart": {"result": [{"meta": {"regularMarketPrice": 175032.74, "chartPreviousClose": 205088.74, "regularMarketDayLow": 169500, "regularMarketDayHigh": 205000, "regularMarketTime": ts}}]}},
             "PETR4.SA": {"chart": {"result": [{"meta": {"regularMarketPrice": 30.1, "chartPreviousClose": 33.07}}]}},
             "VALE3.SA": {"chart": {"result": [{"meta": {"regularMarketPrice": 64.96, "chartPreviousClose": 62.3}}]}},
