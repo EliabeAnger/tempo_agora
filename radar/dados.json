@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-10-28T23:00:00-03:00",
-  "alerta": "Ibovespa fecha em queda de 2,68%, aos 171 mil pontos, menor nível desde agosto; dólar a R$ 5,34. Flávio Bolsonaro, em Miami, promete entrevista nesta quinta.",
+  "atualizadoEm": "2026-10-29T06:50:00-03:00",
+  "alerta": "Flávio Bolsonaro deve dar entrevista em Miami à tarde; PF avalia pedir prisão e bloqueio de bens, sem decisão. Hoje saem IGP-M (8h), Caged (14h30) e o balanço da Vale.",
   "eleicoes": {
     "candidatos": [
       {
@@ -112,6 +112,14 @@
       {
         "data": "28/10",
         "texto": "Segundo a imprensa, integrantes da cúpula da PGR acham que a ordem de Moraes foi precipitada e sem consulta ao MPF; a PGR não se manifestou oficialmente. Aliados anunciam entrevista de Flávio em Miami na quinta (29/10)."
+      },
+      {
+        "data": "28/10",
+        "texto": "Segundo investigadores ouvidos pela imprensa, a PF avalia pedir a Moraes a prisão preventiva e o bloqueio de bens de Flávio; não há pedido oficial nem decisão."
+      },
+      {
+        "data": "29/10",
+        "texto": "Aliado de Flávio, o jornalista Paulo Figueiredo diz que ele dará entrevista coletiva em Miami à tarde; horário e local não foram divulgados."
       },
       {
         "data": "05/01/27",
@@ -398,9 +406,9 @@
     {
       "id": "eleicao",
       "tema": "Eleições",
-      "titulo": "Em Miami, Flávio Bolsonaro se diz \"verdadeiro presidente eleito\"; PF afirma que ele não é foragido",
-      "chamada": "Depois de pousar nos EUA, o senador divulgou uma carta em que fala em fraude e nega fuga. A PF diz que não há mandado de prisão contra ele. O que se sabe e o que cada lado diz.",
-      "data": "28/10/2026",
+      "titulo": "Flávio Bolsonaro deve falar em Miami nesta quinta; PF avalia pedir prisão, sem decisão",
+      "chamada": "Depois de pousar nos EUA e se dizer 'verdadeiro presidente eleito', o senador promete explicar a saída do país. A PF diz que não há mandado contra ele. O que se sabe e o que cada lado diz.",
+      "data": "29/10/2026",
       "inicio": [
         "Lula venceu o 2º turno com 51,79% dos votos válidos, e o TSE confirmou o resultado. O PL reconheceu a vitória, mas Flávio Bolsonaro anunciou ações para cassar a chapa Lula-Alckmin.",
         "Na segunda (26/10), o ministro Alexandre de Moraes (STF) deu 24 horas para Flávio entregar os passaportes e o proibiu de sair do país, num inquérito sobre suspeita de lavagem de dinheiro e evasão de divisas. Moraes citou uma entrevista em que Eduardo Bolsonaro sugeriu que o irmão deixasse o Brasil se perdesse. Em vídeo, Flávio disse que cumpriria a ordem e chamou a medida de intimidação.",
@@ -409,7 +417,8 @@
         "Nesta quarta (28/10), às 10h25, o avião pousou no aeroporto executivo de Opa-Locka, em Miami. Os EUA dizem que estão emitindo vistos para a família; entrar com visto não é o mesmo que receber asilo, e não há pedido formal confirmado. Lula disse que quem sai escondido do país 'deve alguma coisa'. Rogério Marinho, coordenador da campanha do PL, disse que não foi avisado.",
         "À tarde, a PF informou que Flávio não é considerado foragido nem é alvo de mandado de prisão: para a corporação, as restrições aos passaportes, sozinhas, não tornam alguém foragido. A PF diz que não há registro oficial da saída dele nos postos de fronteira brasileiros e que apura como ele deixou o país e o descumprimento das ordens. Moraes ainda não decidiu sobre o pedido de prisão feito por deputados do PT.",
         "Perto das 17h, Flávio divulgou uma carta em que se apresenta como 'o verdadeiro presidente eleito do Brasil', fala em fraude e abuso de poder na campanha de Lula, nega ter fugido e diz que vai coordenar a oposição de fora, citando Rogério Marinho. Ele atribuiu à prorrogação do horário de votação, decidida pelo ministro Zanin, mais de 10 milhões de votos; segundo o TSE, só cerca de 34 mil votos foram registrados depois das 17h. O ministro Guilherme Boulos disse que o caso é assunto da Justiça e da PF.",
-        "À noite, reportagens disseram que integrantes da cúpula da PGR consideram a ordem de Moraes precipitada e feita sem ouvir o Ministério Público, mas a PGR não se manifestou oficialmente e uma prisão dependeria de nova decisão judicial. Aliados de Flávio anunciaram uma entrevista coletiva em Miami nesta quinta (29/10)."
+        "À noite, reportagens disseram que integrantes da cúpula da PGR consideram a ordem de Moraes precipitada e feita sem ouvir o Ministério Público, mas a PGR não se manifestou oficialmente e uma prisão dependeria de nova decisão judicial. Aliados de Flávio anunciaram uma entrevista coletiva em Miami nesta quinta (29/10).",
+        "Nesta quinta (29/10), o jornalista Paulo Figueiredo, aliado de Flávio que vive nos EUA, disse à CNN que o senador está bem, descansando com a família, e que vai dar uma entrevista coletiva em Miami à tarde; horário e local ainda não foram informados. Segundo investigadores ouvidos pela imprensa, a PF avalia pedir a Moraes a prisão preventiva e o bloqueio de bens dele, mas vê efeito prático limitado porque os EUA aceitaram recebê-lo; não há pedido oficial nem decisão."
       ],
       "cadeia": [
         "Flávio perde o 2º turno e anuncia ações de cassação no TSE",
@@ -417,14 +426,14 @@
         "O prazo vence sem entrega e a PF cancela os documentos",
         "Ele cruza para a Argentina, voa ao Equador e pousa em Miami",
         "PF diz que ele não é foragido, mas apura a saída",
-        "Nos EUA, Flávio se declara presidente eleito e fala em fraude; governo diz que é caso de Justiça"
+        "Nos EUA, Flávio se declara presidente eleito e promete entrevista; PF avalia pedir prisão"
       ],
       "porque": "Moraes viu risco de fuga num inquérito em que Flávio é investigado, com o advogado Willer Tomaz, por suspeita de lavagem de dinheiro ligada a empresas de apostas; os dois negam irregularidades. A decisão citou a fala de Eduardo Bolsonaro sugerindo a saída do país. Flávio diz que é perseguição e que nunca planejou sair.",
       "outraLeitura": "Flávio e aliados dizem que a ordem de Moraes, dada logo após a eleição, é perseguição política; na carta ele diz que não fugiu, que não há mandado contra ele e que a eleição foi fraudada. O pastor Silas Malafaia defendeu a viagem. Do outro lado, Lula disse que ele deveria ter provado a inocência no país, Boulos afirma que ele saiu para não responder pelos crimes investigados e deputados do PT pedem prisão. O TSE certificou o resultado e diz que a prorrogação do horário não afetou a contagem. Segundo a imprensa, até ministros do governo e integrantes da cúpula da PGR acharam a ordem de Moraes precipitada, e a cúpula do PL, que reconheceu o resultado, diz que não foi avisada da viagem. Flávio não foi condenado; as investigações estão em andamento e ele nega irregularidades.",
       "cenarios": [
         {
           "tipo": "base",
-          "texto": "Moraes deve analisar nos próximos dias os pedidos de prisão e de alerta da Interpol, ouvindo a PGR; a PF já disse que hoje não há mandado. A Jovem Pan diz que Flávio planeja pedir asilo político."
+          "texto": "Moraes deve analisar nos próximos dias os pedidos de prisão e de alerta da Interpol, ouvindo a PGR; a PF já disse que hoje não há mandado, mas, segundo a imprensa, estuda pedir prisão e bloqueio de bens. A Jovem Pan diz que Flávio planeja pedir asilo político."
         },
         {
           "tipo": "incerto",
@@ -439,6 +448,14 @@
       ],
       "bolso": [],
       "fontes": [
+        {
+          "nome": "Correio Braziliense (coletiva em Miami)",
+          "url": "https://www.correiobraziliense.com.br/politica/2026/10/7529281-flavio-bolsonaro-deve-dar-coletiva-em-miami-nesta-quinta-feira-28.html"
+        },
+        {
+          "nome": "Diário Carioca (PF avalia prisão e bloqueio)",
+          "url": "https://www.diariocarioca.com/2026/10/28/politica/corrupcao-investigacao/pf-avalia-pedir-prisao-preventiva-e-bloqueio-de-bens-de-flavio-bolsonaro/"
+        },
         {
           "nome": "NC News (críticas na PGR)",
           "url": "https://ncnews.com.br/2026/10/28/moraes-flavio-criticada-integrantes-pgr/"
@@ -505,8 +522,13 @@
         }
       ],
       "indicadores": [],
-      "atualizadoEm": "2026-10-28T23:00:00-03:00",
-      "atualizacoes": [],
+      "atualizadoEm": "2026-10-29T06:50:00-03:00",
+      "atualizacoes": [
+        {
+          "hora": "6h",
+          "texto": "Aliado anuncia entrevista de Flávio em Miami à tarde; segundo a imprensa, a PF estuda pedir prisão e bloqueio de bens, sem decisão."
+        }
+      ],
       "referencia": {
         "dolar": 5.34,
         "ibov": 171006.1,
@@ -527,7 +549,8 @@
         "Ainda na terça, o ministro Durigan prometeu enviar ao Congresso um projeto de lei complementar para que os bloqueios de gastos mirem o centro da meta fiscal, e não o piso. Os juros futuros fecharam em forte queda, devolvendo parte da alta pós-eleição.",
         "Nesta quarta (28/10), o Ibovespa abriu estável, mas virou para queda forte: às 13h06 estava em 170.937 pontos (-2,72%) e chegou a cair perto de 3% à tarde. Bancos pesam, com o Santander em baixa após o balanço, e empresas que dependem de crédito, como varejo e construtoras, lideraram as perdas (Magazine Luiza e Cyrela caíam cerca de 9%). Exportadoras como Suzano e WEG subiam. O dólar oscilou perto de R$ 5,35.",
         "Às 15h, o Fed manteve os juros dos EUA entre 3,75% e 4% ao ano, como o mercado esperava. Os analistas apontam que a pressão aqui vem mais de dentro: dúvidas sobre quem será o ministro da Fazenda e sobre o plano de gastos do 4º mandato, com os juros futuros voltando a subir.",
-        "No fechamento, o Ibovespa caiu 2,68%, aos 171.006 pontos, terceiro pregão seguido de perdas e o menor nível desde 20 de agosto. Bradesco (-6,7%), BTG Pactual (-6,5%) e Cyrela (-6,5%) estiveram entre as maiores quedas; WEG subiu 2,25%. O dólar terminou em leve baixa, a R$ 5,34. Segundo a B3, estrangeiros tiraram R$ 2,8 bilhões da bolsa na segunda."
+        "No fechamento, o Ibovespa caiu 2,68%, aos 171.006 pontos, terceiro pregão seguido de perdas e o menor nível desde 20 de agosto. Bradesco (-6,7%), BTG Pactual (-6,5%) e Cyrela (-6,5%) estiveram entre as maiores quedas; WEG subiu 2,25%. O dólar terminou em leve baixa, a R$ 5,34. Segundo a B3, estrangeiros tiraram R$ 2,8 bilhões da bolsa na segunda.",
+        "Nesta quinta (29/10), o mercado acompanha o IGP-M de outubro (8h; a expectativa é de alta perto de 1,6%), os dados de crédito do BC (8h30), o Caged de setembro (14h30) e, nos EUA, o PIB do 3º trimestre. A Vale divulga o balanço depois do fechamento. Na decisão de quarta, o Fed manteve os juros por 10 votos a 2, e os dois votos contrários defendiam alta."
       ],
       "cadeia": [
         "O mercado apostava na vitória de Flávio e comprou muitas ações",
@@ -630,14 +653,23 @@
         {
           "nome": "Exame",
           "url": "https://exame.com/invest/mercados/dolar-pode-chegar-a-r-6-com-lula-reeleito-veja-ate-onde-a-moeda-pode-ir/"
+        },
+        {
+          "nome": "Rio Times (agenda de 29/10)",
+          "url": "https://www.riotimesonline.com/brazils-financial-morning-call-for-thursday-october-29-2026/"
         }
       ],
       "indicadores": [
         "dolar",
         "ibov"
       ],
-      "atualizadoEm": "2026-10-28T23:00:00-03:00",
-      "atualizacoes": [],
+      "atualizadoEm": "2026-10-29T06:50:00-03:00",
+      "atualizacoes": [
+        {
+          "hora": "6h",
+          "texto": "Agenda do dia: IGP-M às 8h, Caged às 14h30, PIB dos EUA e balanço da Vale após o fechamento."
+        }
+      ],
       "referencia": {
         "dolar": 5.34,
         "ibov": 171006.1,
@@ -932,7 +964,8 @@
       "data": "27/10/2026",
       "inicio": [
         "Pelo levantamento da ANP de 18 a 24/10, o diesel S10 custa em média R$ 7,32 o litro, cerca de 19,5% acima de janeiro. A gasolina caiu para R$ 6,49 e o etanol para R$ 4,11, cerca de 63% do preço da gasolina.",
-        "Nesta terça (27/10), o governo prorrogou por mais 30 dias, até 26 de novembro, o subsídio de R$ 2,12 por litro, por portaria da Fazenda. Sem a prorrogação, a ajuda cairia para R$ 1. O governo diz que a medida não aumenta o gasto atual. O custo pode chegar a R$ 10,5 bilhões por mês. Nesta quarta, o Brent sobe para cerca de US$ 111, com notícia de ataque a uma refinaria na Arábia Saudita."
+        "Nesta terça (27/10), o governo prorrogou por mais 30 dias, até 26 de novembro, o subsídio de R$ 2,12 por litro, por portaria da Fazenda. Sem a prorrogação, a ajuda cairia para R$ 1. O governo diz que a medida não aumenta o gasto atual. O custo pode chegar a R$ 10,5 bilhões por mês. Nesta quarta, o Brent sobe para cerca de US$ 111, com notícia de ataque a uma refinaria na Arábia Saudita.",
+        "Analistas do Itaú BBA, citados pela imprensa nesta quarta, calculam que o diesel da Petrobras está cerca de 20% abaixo do preço internacional e a gasolina cerca de 10%; para zerar a diferença seriam precisos reajustes de cerca de 60% no diesel e 18% na gasolina. Para eles, a empresa pode adiar a correção para 2027, com aumentos graduais. A Abicom, dos importadores, também espera reajustes aos poucos, sem um aumento forte de uma vez."
       ],
       "cadeia": [
         "Guerra no Oriente Médio leva o Brent a US$ 117 o barril",
@@ -951,7 +984,7 @@
         },
         {
           "tipo": "base",
-          "texto": "Subsídio mantido mês a mês e Petrobras sem reajuste até dezembro (cenário do Goldman Sachs)."
+          "texto": "Subsídio mantido mês a mês e Petrobras sem reajuste até dezembro (Goldman Sachs). O Itaú BBA vê correção gradual, que poderia começar com 13% a 25% no diesel e se estender até o início de 2027."
         },
         {
           "tipo": "pessimista",
@@ -1000,14 +1033,27 @@
         {
           "nome": "Combustíveis ANP (balanço 2026)",
           "url": "https://www.combustiveis-anp.com.br/guia/quanto-subiram-combustiveis-2026-balanco"
+        },
+        {
+          "nome": "Brasil em Folhas (Itaú BBA)",
+          "url": "https://brasilemfolhas.com.br/2026/10/petrobras-pode-adiar-reajuste-de-combustiveis-para-2027/"
+        },
+        {
+          "nome": "BiodieselBR/Estadão (Abicom)",
+          "url": "https://www.biodieselbr.com/noticias/regulacao/politica/reeleicao-de-lula-fara-petrobras-reajustar-gradualmente-os-precos-diz-abicom"
         }
       ],
       "indicadores": [
         "etanol",
         "dolar"
       ],
-      "atualizadoEm": "2026-10-28T11:55:00-03:00",
-      "atualizacoes": [],
+      "atualizadoEm": "2026-10-29T06:50:00-03:00",
+      "atualizacoes": [
+        {
+          "hora": "6h",
+          "texto": "Itaú BBA calcula diesel cerca de 20% abaixo do preço internacional e vê reajuste gradual, talvez só concluído em 2027."
+        }
+      ],
       "referencia": {
         "dolar": 5.35,
         "ibov": 175710.05,
