@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-10-28T17:50:00-03:00",
-  "alerta": "Em Miami, Flávio Bolsonaro divulga carta em que se diz \"o verdadeiro presidente eleito\"; PF diz que ele não é foragido. Fed mantém juros e Ibovespa cai perto de 3%.",
+  "atualizadoEm": "2026-10-28T23:00:00-03:00",
+  "alerta": "Ibovespa fecha em queda de 2,68%, aos 171 mil pontos, menor nível desde agosto; dólar a R$ 5,34. Flávio Bolsonaro, em Miami, promete entrevista nesta quinta.",
   "eleicoes": {
     "candidatos": [
       {
@@ -110,6 +110,10 @@
         "texto": "Em carta divulgada nos EUA, Flávio se diz 'o verdadeiro presidente eleito', fala em fraude, nega ter fugido e promete liderar a oposição de fora; o TSE já certificou o resultado."
       },
       {
+        "data": "28/10",
+        "texto": "Segundo a imprensa, integrantes da cúpula da PGR acham que a ordem de Moraes foi precipitada e sem consulta ao MPF; a PGR não se manifestou oficialmente. Aliados anunciam entrevista de Flávio em Miami na quinta (29/10)."
+      },
+      {
         "data": "05/01/27",
         "texto": "Posse do presidente eleito.",
         "futuro": true
@@ -176,13 +180,13 @@
       },
       {
         "nome": "DI jan/2028",
-        "taxa": 14.73,
-        "var": -0.175
+        "taxa": 14.632,
+        "var": 0.249
       },
       {
         "nome": "DI jan/2031",
-        "taxa": 15.11,
-        "var": 0.199
+        "taxa": 14.97,
+        "var": 0.059
       },
       {
         "nome": "DI jan/2033",
@@ -404,7 +408,8 @@
         "De noite, a Direção de Migrações da Argentina confirmou: Flávio, a mulher e as filhas cruzaram a ponte entre Foz do Iguaçu e Puerto Iguazú às 22h50, com documentos válidos, e às 23h30 embarcaram num jatinho fretado para Guayaquil, no Equador. Depois de reabastecer, o avião seguiu para a Flórida.",
         "Nesta quarta (28/10), às 10h25, o avião pousou no aeroporto executivo de Opa-Locka, em Miami. Os EUA dizem que estão emitindo vistos para a família; entrar com visto não é o mesmo que receber asilo, e não há pedido formal confirmado. Lula disse que quem sai escondido do país 'deve alguma coisa'. Rogério Marinho, coordenador da campanha do PL, disse que não foi avisado.",
         "À tarde, a PF informou que Flávio não é considerado foragido nem é alvo de mandado de prisão: para a corporação, as restrições aos passaportes, sozinhas, não tornam alguém foragido. A PF diz que não há registro oficial da saída dele nos postos de fronteira brasileiros e que apura como ele deixou o país e o descumprimento das ordens. Moraes ainda não decidiu sobre o pedido de prisão feito por deputados do PT.",
-        "Perto das 17h, Flávio divulgou uma carta em que se apresenta como 'o verdadeiro presidente eleito do Brasil', fala em fraude e abuso de poder na campanha de Lula, nega ter fugido e diz que vai coordenar a oposição de fora, citando Rogério Marinho. Ele atribuiu à prorrogação do horário de votação, decidida pelo ministro Zanin, mais de 10 milhões de votos; segundo o TSE, só cerca de 34 mil votos foram registrados depois das 17h. O ministro Guilherme Boulos disse que o caso é assunto da Justiça e da PF."
+        "Perto das 17h, Flávio divulgou uma carta em que se apresenta como 'o verdadeiro presidente eleito do Brasil', fala em fraude e abuso de poder na campanha de Lula, nega ter fugido e diz que vai coordenar a oposição de fora, citando Rogério Marinho. Ele atribuiu à prorrogação do horário de votação, decidida pelo ministro Zanin, mais de 10 milhões de votos; segundo o TSE, só cerca de 34 mil votos foram registrados depois das 17h. O ministro Guilherme Boulos disse que o caso é assunto da Justiça e da PF.",
+        "À noite, reportagens disseram que integrantes da cúpula da PGR consideram a ordem de Moraes precipitada e feita sem ouvir o Ministério Público, mas a PGR não se manifestou oficialmente e uma prisão dependeria de nova decisão judicial. Aliados de Flávio anunciaram uma entrevista coletiva em Miami nesta quinta (29/10)."
       ],
       "cadeia": [
         "Flávio perde o 2º turno e anuncia ações de cassação no TSE",
@@ -415,7 +420,7 @@
         "Nos EUA, Flávio se declara presidente eleito e fala em fraude; governo diz que é caso de Justiça"
       ],
       "porque": "Moraes viu risco de fuga num inquérito em que Flávio é investigado, com o advogado Willer Tomaz, por suspeita de lavagem de dinheiro ligada a empresas de apostas; os dois negam irregularidades. A decisão citou a fala de Eduardo Bolsonaro sugerindo a saída do país. Flávio diz que é perseguição e que nunca planejou sair.",
-      "outraLeitura": "Flávio e aliados dizem que a ordem de Moraes, dada logo após a eleição, é perseguição política; na carta ele diz que não fugiu, que não há mandado contra ele e que a eleição foi fraudada. O pastor Silas Malafaia defendeu a viagem. Do outro lado, Lula disse que ele deveria ter provado a inocência no país, Boulos afirma que ele saiu para não responder pelos crimes investigados e deputados do PT pedem prisão. O TSE certificou o resultado e diz que a prorrogação do horário não afetou a contagem. Segundo a imprensa, até ministros do governo acharam a ordem de Moraes precipitada, e a cúpula do PL, que reconheceu o resultado, diz que não foi avisada da viagem. Flávio não foi condenado; as investigações estão em andamento e ele nega irregularidades.",
+      "outraLeitura": "Flávio e aliados dizem que a ordem de Moraes, dada logo após a eleição, é perseguição política; na carta ele diz que não fugiu, que não há mandado contra ele e que a eleição foi fraudada. O pastor Silas Malafaia defendeu a viagem. Do outro lado, Lula disse que ele deveria ter provado a inocência no país, Boulos afirma que ele saiu para não responder pelos crimes investigados e deputados do PT pedem prisão. O TSE certificou o resultado e diz que a prorrogação do horário não afetou a contagem. Segundo a imprensa, até ministros do governo e integrantes da cúpula da PGR acharam a ordem de Moraes precipitada, e a cúpula do PL, que reconheceu o resultado, diz que não foi avisada da viagem. Flávio não foi condenado; as investigações estão em andamento e ele nega irregularidades.",
       "cenarios": [
         {
           "tipo": "base",
@@ -434,6 +439,14 @@
       ],
       "bolso": [],
       "fontes": [
+        {
+          "nome": "NC News (críticas na PGR)",
+          "url": "https://ncnews.com.br/2026/10/28/moraes-flavio-criticada-integrantes-pgr/"
+        },
+        {
+          "nome": "Gazeta do Povo (o que se sabe)",
+          "url": "https://www.gazetadopovo.com.br/republica/o-que-se-sabe-sobre-a-saida-de-flavio-bolsonaro-do-brasil-apos-ordem-de-moraes/"
+        },
         {
           "nome": "SBT News (PF: não é foragido)",
           "url": "https://sbtnews.sbt.com.br/noticia/politica/pf-flavio-nao-e-foragido-nem-alvo-de-mandado-de-prisao"
@@ -492,32 +505,19 @@
         }
       ],
       "indicadores": [],
-      "atualizadoEm": "2026-10-28T17:50:00-03:00",
-      "atualizacoes": [
-        {
-          "hora": "6h",
-          "texto": "Argentina confirma que Flávio passou por Puerto Iguazú às 22h50 de terça e voou para o Equador; o avião deve seguir para os EUA."
-        },
-        {
-          "hora": "11h",
-          "texto": "Avião com Flávio e a família pousou em Miami às 10h25; Moraes ainda não decidiu sobre o pedido de prisão."
-        },
-        {
-          "hora": "17h",
-          "texto": "PF diz que Flávio não é foragido nem alvo de mandado; em carta, ele se declara 'verdadeiro presidente eleito' e fala em fraude."
-        }
-      ],
+      "atualizadoEm": "2026-10-28T23:00:00-03:00",
+      "atualizacoes": [],
       "referencia": {
-        "dolar": 5.35,
-        "ibov": 170936.97,
+        "dolar": 5.34,
+        "ibov": 171006.1,
         "selic": 13.75
       }
     },
     {
       "id": "bolsa",
       "tema": "Bolsa e dólar",
-      "titulo": "Bolsa cai perto de 3% de novo, com bancos e varejo em baixa; Fed mantém juros",
-      "chamada": "Depois do tombo de 13,88% na segunda e da pausa de terça, o Ibovespa voltou a cair forte nesta quarta, para a casa dos 171 mil pontos. Entenda o que explica e o que pode acalmar o mercado.",
+      "titulo": "Ibovespa fecha em queda de 2,68%, no menor nível desde agosto; dólar a R$ 5,34",
+      "chamada": "Depois do tombo de 13,88% na segunda e da pausa de terça, a bolsa voltou a cair forte nesta quarta, puxada por bancos e construtoras. Entenda o que explica e o que pode acalmar o mercado.",
       "data": "28/10/2026",
       "inicio": [
         "Na segunda (26/10), primeiro pregão depois do 2º turno, o Ibovespa fechou em queda de 13,88%, aos 176.608 pontos, o pior dia desde março de 2020. Na mínima chegou a cair mais de 17%, e a B3 parou o pregão por 30 minutos (circuit breaker).",
@@ -526,7 +526,8 @@
         "Na terça (27/10), o mercado deu uma pausa: o Ibovespa fechou em queda de 0,51%, aos 175.710 pontos, depois de subir até 178.526 de manhã. O dólar caiu 0,97%, para R$ 5,35. O Banco Central ofereceu swap cambial de até US$ 4 bilhões e o Tesouro recomprou R$ 16,8 bilhões em títulos atrelados à inflação.",
         "Ainda na terça, o ministro Durigan prometeu enviar ao Congresso um projeto de lei complementar para que os bloqueios de gastos mirem o centro da meta fiscal, e não o piso. Os juros futuros fecharam em forte queda, devolvendo parte da alta pós-eleição.",
         "Nesta quarta (28/10), o Ibovespa abriu estável, mas virou para queda forte: às 13h06 estava em 170.937 pontos (-2,72%) e chegou a cair perto de 3% à tarde. Bancos pesam, com o Santander em baixa após o balanço, e empresas que dependem de crédito, como varejo e construtoras, lideraram as perdas (Magazine Luiza e Cyrela caíam cerca de 9%). Exportadoras como Suzano e WEG subiam. O dólar oscilou perto de R$ 5,35.",
-        "Às 15h, o Fed manteve os juros dos EUA entre 3,75% e 4% ao ano, como o mercado esperava. Os analistas apontam que a pressão aqui vem mais de dentro: dúvidas sobre quem será o ministro da Fazenda e sobre o plano de gastos do 4º mandato, com os juros futuros voltando a subir."
+        "Às 15h, o Fed manteve os juros dos EUA entre 3,75% e 4% ao ano, como o mercado esperava. Os analistas apontam que a pressão aqui vem mais de dentro: dúvidas sobre quem será o ministro da Fazenda e sobre o plano de gastos do 4º mandato, com os juros futuros voltando a subir.",
+        "No fechamento, o Ibovespa caiu 2,68%, aos 171.006 pontos, terceiro pregão seguido de perdas e o menor nível desde 20 de agosto. Bradesco (-6,7%), BTG Pactual (-6,5%) e Cyrela (-6,5%) estiveram entre as maiores quedas; WEG subiu 2,25%. O dólar terminou em leve baixa, a R$ 5,34. Segundo a B3, estrangeiros tiraram R$ 2,8 bilhões da bolsa na segunda."
       ],
       "cadeia": [
         "O mercado apostava na vitória de Flávio e comprou muitas ações",
@@ -566,6 +567,10 @@
         "Em momentos assim, renda fixa pós-fixada (atrelada ao CDI) costuma ser vista como mais defensiva"
       ],
       "fontes": [
+        {
+          "nome": "BM&C (fechamento 28/10)",
+          "url": "https://bmcnews.com.br/economia/ibovespa-cai-268-e-dolar-fecha-em-leve-baixa-a-r-534/"
+        },
         {
           "nome": "TradeMap (destaques 28/10)",
           "url": "https://trademap.com.br/noticias/news-8526206"
@@ -631,24 +636,11 @@
         "dolar",
         "ibov"
       ],
-      "atualizadoEm": "2026-10-28T17:50:00-03:00",
-      "atualizacoes": [
-        {
-          "hora": "6h",
-          "texto": "Fazenda promete pacote por lei complementar para buscar o centro da meta fiscal; hoje o foco é o Fed e o nome do ministro."
-        },
-        {
-          "hora": "11h",
-          "texto": "Ibovespa cai cerca de 2%, para perto de 171,7 mil pontos, com bancos em baixa após o balanço do Santander; dólar perto de R$ 5,35."
-        },
-        {
-          "hora": "17h",
-          "texto": "Ibovespa chega a cair perto de 3%, na casa dos 171 mil pontos, com varejo e construtoras em baixa; Fed mantém juros dos EUA entre 3,75% e 4%."
-        }
-      ],
+      "atualizadoEm": "2026-10-28T23:00:00-03:00",
+      "atualizacoes": [],
       "referencia": {
-        "dolar": 5.35,
-        "ibov": 170936.97,
+        "dolar": 5.34,
+        "ibov": 171006.1,
         "selic": 13.75
       }
     },
@@ -705,12 +697,7 @@
       ],
       "indicadores": [],
       "atualizadoEm": "2026-10-28T17:50:00-03:00",
-      "atualizacoes": [
-        {
-          "hora": "17h",
-          "texto": "Governo divulga balanço de 45 casos e 10 mortes e aciona PF e PGR."
-        }
-      ],
+      "atualizacoes": [],
       "referencia": {
         "dolar": 5.35,
         "ibov": 170936.97,
@@ -765,6 +752,10 @@
       ],
       "fontes": [
         {
+          "nome": "Leia Sempre Brasil (pacote fiscal)",
+          "url": "https://leiasemprebrasil.com.br/2026/10/28/lula-deve-encaminhar-pacote-fiscal-ao-congresso-e-o-nome-de-rodrigo-pacheco-ao-stf/"
+        },
+        {
           "nome": "NeoFeed (Lula 4 e o mercado)",
           "url": "https://neofeed.com.br/poder/lula-4-acena-ao-mercado-mas-so-discursos-bastam-para-ancorar-as-expectativas/"
         },
@@ -817,24 +808,11 @@
         "dolar",
         "selic"
       ],
-      "atualizadoEm": "2026-10-28T17:50:00-03:00",
-      "atualizacoes": [
-        {
-          "hora": "6h",
-          "texto": "Durigan promete pacote fiscal por lei complementar; o nome do novo ministro ainda não foi anunciado."
-        },
-        {
-          "hora": "11h",
-          "texto": "Proposta da Fazenda prevê ampliar a parte do orçamento que pode ser bloqueada; Fonteles diz que não tratou do cargo com Lula."
-        },
-        {
-          "hora": "17h",
-          "texto": "Ainda sem anúncio; imprensa cita Alckmin, Fonteles e Haddad como cotados e economistas cobram sinal fiscal ainda em 2026."
-        }
-      ],
+      "atualizadoEm": "2026-10-28T23:00:00-03:00",
+      "atualizacoes": [],
       "referencia": {
-        "dolar": 5.35,
-        "ibov": 175710.05,
+        "dolar": 5.34,
+        "ibov": 171006.1,
         "selic": 13.75
       }
     },
@@ -848,7 +826,8 @@
         "A Selic está em 13,75% ao ano, depois de cinco cortes em 2026. A próxima decisão do Banco Central é em 4 de novembro.",
         "A inflação de 12 meses chegou a 4,58% em setembro, acima do limite da meta (4,5%). Depois da eleição, os juros futuros longos saltaram para perto de 15,2% ao ano. Na terça fecharam em forte queda, com a ação do Tesouro e investidores atraídos pelas taxas altas: o DI jan/27 terminou em 13,64% e o jan/31 em 14,85% (era 15,28%).",
         "À tarde, o presidente do BC, Gabriel Galípolo, disse que o banco não comenta eleição nem Copom e que pretende anunciar ainda em 2026 novas medidas para quem está endividado em crédito caro, como o rotativo do cartão.",
-        "Nesta quarta, os juros futuros voltaram a subir: o DI jan/31 passou de 14,91% para cerca de 15,11% por volta das 13h, depois de tocar 15,29%. Às 15h, o Fed, agora presidido por Kevin Warsh, manteve os juros dos EUA entre 3,75% e 4% ao ano, como esperado; parte dos economistas ainda vê chance de alta em dezembro por causa da inflação americana."
+        "Nesta quarta, os juros futuros voltaram a subir: o DI jan/31 passou de 14,91% para cerca de 15,11% por volta das 13h, depois de tocar 15,29%. Às 15h, o Fed, agora presidido por Kevin Warsh, manteve os juros dos EUA entre 3,75% e 4% ao ano, como esperado; parte dos economistas ainda vê chance de alta em dezembro por causa da inflação americana.",
+        "No fechamento desta quarta, os juros futuros terminaram sem direção única: o DI jan/28 subiu para 14,63% e o jan/31 para 14,97%, enquanto o jan/29 ficou estável perto de 14,75%. Analistas citam a falta de sinal claro de ajuste fiscal e a possível cobrança de IOF sobre LCI, LCA e debêntures; a queda dos juros americanos de curto prazo aliviou parte da pressão."
       ],
       "cadeia": [
         "Inflação acima do teto da meta",
@@ -884,6 +863,10 @@
         "Para guardar dinheiro, aplicações atreladas ao CDI ou à Selic rendem bem nesse cenário"
       ],
       "fontes": [
+        {
+          "nome": "O Povo/Estadão (DI 28/10)",
+          "url": "https://www.opovo.com.br/noticias/economia/2026/10/28/taxas-de-juros-encerram-sem-direcao-unica-digerindo-fed-e-sinalizacoes-do-governo-lula.html"
+        },
         {
           "nome": "Times Brasil (DI 28/10)",
           "url": "https://timesbrasil.com.br/brasil/ibovespa-cai-mais-de-2-com-incertezas-sobre-lula-4-e-espera-decisao-fed/"
@@ -933,24 +916,11 @@
         "selic",
         "ipca"
       ],
-      "atualizadoEm": "2026-10-28T17:50:00-03:00",
-      "atualizacoes": [
-        {
-          "hora": "6h",
-          "texto": "DIs fecharam terça em forte queda (jan/31 a 14,85%); hoje o Fed decide os juros dos EUA."
-        },
-        {
-          "hora": "11h",
-          "texto": "DIs sobem cerca de 0,1 ponto antes do Fed; jan/31 a 14,99% no início do dia."
-        },
-        {
-          "hora": "17h",
-          "texto": "Fed mantém juros dos EUA entre 3,75% e 4%; aqui o DI jan/31 sobe para cerca de 15,11%, com dúvidas fiscais."
-        }
-      ],
+      "atualizadoEm": "2026-10-28T23:00:00-03:00",
+      "atualizacoes": [],
       "referencia": {
-        "dolar": 5.35,
-        "ibov": 170936.97,
+        "dolar": 5.34,
+        "ibov": 171006.1,
         "selic": 13.75
       }
     },
@@ -1037,12 +1007,7 @@
         "dolar"
       ],
       "atualizadoEm": "2026-10-28T11:55:00-03:00",
-      "atualizacoes": [
-        {
-          "hora": "11h",
-          "texto": "Brent sobe para cerca de US$ 111 com ataque a refinaria saudita; subsídio vale até 26/11."
-        }
-      ],
+      "atualizacoes": [],
       "referencia": {
         "dolar": 5.35,
         "ibov": 175710.05,
