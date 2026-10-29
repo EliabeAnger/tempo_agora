@@ -121,10 +121,10 @@
       "pontos": 171006.1,
       "var": -2.68,
       "anterior": 175710.05,
-      "minimo": 170162.48,
-      "maximo": 175711.22,
-      "hora": "28/10 18h08",
-      "ts": 1793221704498
+      "minimo": 171006.1,
+      "maximo": 171006.1,
+      "hora": "28/10 22h00",
+      "ts": 1793235628948
     },
     "acoes": [
       {
@@ -209,7 +209,7 @@
         "var": null
       }
     ],
-    "acoesTs": 1793221704498
+    "acoesTs": 1793235628948
   },
   "combustiveis": {
     "semana": "Média nacional ANP, semana de 18 a 24/10/2026 (gás de cozinha e GNV: semana de 27/09 a 03/10). Variação desde o início do ano.",
@@ -259,39 +259,45 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "TCU propõe alíquota de 11,3% para o futuro imposto sobre consumo do governo federal em 2027; Senado tem que aprovar valor",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPSlpCeUJZb09pd2ZWNU10N2paZ2R5TVQ0NU5MdDVMT0lyX1Q4VVc2UUpFc3lfTGIwRlVzcm82Ylg2MDdkZU43aWU0dHNhdU5qNVFHVU9jNlV2aVVyZFFSWm1iQ013Um4yLV9ad2t3RU51dm5lMEZlbW1sY0gwQk84bTFoSU9vSTJxSUdTUUZQWHZ3ekhEcUxwaC1aVzZtNEU3SGdERVRUV2hjZ0tpZFFpckdNdlg4NjJYMzB2WDVPdjg2a2pNNVB2UVg2R2xhYnI1ei1zeDBhMG1wNVVHbEhBVjNjdXRFQjJTYnhiNjJtSGNDS1B1SG5KN0lZRG4wMURFV0FPQ3Z3dG1DTUpr0gGbAkFVX3lxTE9hWTFJZldHSlVOWnJkQnZvdUM5aTJ2dnZRajE0SHN6TjZtclFsNi1DNC1HXzRjOGZVcktwNFJsQTgxYVo3THJ6UTNBa0U0RnN0aW5nY0VaVkJjU1llNkJUVC1aMEd6UXdIWUQydGNOc0gxcDZTd2s1WGszUVdwM1R5UHlpQ1FQMXFKeFJQRkRUcXU3S3VTcm9DSDZUUFBsbl9GcW5tcEo0eEZHZjl4a3pGS29MUzdZckpMdGN0eWk1Vl9JNkZwTUFUNFdVeDNoNHoxYldhYWtfQ3EyQURCYnNUUHFsOTJMTGhOdVJGSXlYVG9YMllQMVhGdzlfS2puaHlwbTlfMEI0MEFIQ3hjWGNFQ0pVUkFTM0lNalk?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "PF indicia Vorcaro, ex-presidente do BRB e mais 13 por fraude bilionária",
-      "fonte": "UOL Notícias",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeDhaMU9vRERWTG1hajdOdTZKR1JmSWRscFJCOWcwTUpSdFNrUkhob211QnVHR3pMRTAzRVBsQVo4T3ZzcHRYblhCQTd6NlVrZkgtbHBRdnl1RW9adWVkcWliTHQ5c2FEcHpsdWQ2d2h0V3VqSHhYaFExSmVMb2U2cjFNRGR6NHpxVkR5RWV5LVRHZW5vQ1JLOHhlTEI5REpnek9lT1BIYkhTRjg3Smw0VlpESFJUZHEtb2JhQ0ZfQkZDd29GdlIzME1n?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Estresse continua? Por que Ibovespa cai 3% hoje após terça mais tranquila no mercado",
+      "titulo": "Estresse segue? Por que Ibovespa caiu 2,7% hoje após terça mais tranquila no mercado",
       "fonte": "InfoMoney",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUy1RUmx3NzBPbXVnTnNURGZUVk5aNUpmcnQ2U1VMdEFHTUM5MXNwSGNYYldBaDRmOW5IZkl6NFdlZ19CLTdpTmJOZExSUUVDVlViVXIwV2hDdVVRT1lCM2F2NUFVVld3UGQ3Y0ZfVDhNbkYydzdmbkRIN3VacUdnZmJiTkZZRG5EUEV3bXZWc3IxdC1ZSldOellCM1VKdHg3c2tQdWY1bGk1VV9nU3N4RWxzMjY2R25uNVU0M3Zna3RORFVyWVB6bGtqU1M4c2M3blHSAdcBQVVfeXFMUGtWNURWVXFGcmtncGp5VGlDUXJaaFBoYUQ5bGVRZ2QwYW8xN2NSTXRQOVJfaEdBZ0JGLUZqMDYyeVdXbjI3Z3J4UWxwdHNjV196cTNzX3FIU1VqZ2NDTnNVamQyUkhmalhlSlI4cHZVQVFEMkRQeTVIY0l6ckxsTHJaamdXbHpXcnFBTk5wN3YwdWNHMUVxQlJJaGc4aV9uSVYtMVdvb0oxOG9GYVNQWm5TMmNIZjVLdVI3bXNGdHpyUXhUTHg1djNFZ01pWmtUY3N1bUp2d2s?oc=5"
     },
     {
-      "cat": "brasil",
-      "titulo": "Flávio Bolsonaro disse que não fugiria do país e provocou Lula em debate por ter filho na Espanha",
-      "fonte": "Folha de S.Paulo",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPV2ZXd0JhN2VlNmxmX2d3Z0ZhbnVVQ05TSDNPbGk1bTBfSkRpcjZqVFBiOUdUenRzcGgwNkVWNHc4YlNvMzBieVNMOWYwZC1iekdFQll0M2t6VFJCRVFGcmFMaWxhSW5IVzNEQkROSUp0VldEaXdfQjNIMGNhU185TEVVUEZmVFpFS3JrNjBicFhFcE9SSGZzQXV2UFoxMTJ6TzV4NlBTZzYzWmtfTmE1VThlWlQ4dGtNRjlYMXFWXzdEWFk1VGlJeGlDMkp3OVpQZDdlWUpuX2xaY0NqRzk2Zw?oc=5"
+      "cat": "economia",
+      "titulo": "Caso Master: veja os nomes e as condutas dos 15 indiciados no relatório da PF; lista inclui Vorcaro e ex-presidente do BRB",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNTDJtRUM5QUNiQ0M3MmUwMjZ5M3dEdThlaWZfdmpRek9TZDlrMHFBZnRkNllEcTFQMmJYU3BKbFZxQWRSRExWN283bTREcEp1U0RHX2tzdlp6dURKWGZfSmRvelY1ZDRCWVZ0amdLSktJSlBVdHVjdUgzRjFxREE4UmphM0NsN0VxekVpLU4yeVo4RkJ2N1J2bGtCZFlyQWVMcVpad1pDdlVMcXI2RkVmc2t0MURqTWJuNHNKUnBLOEprUmdNRGVmRFhINUctUFVhbThNbTJWZU52akNuQmxIQWJwZVlPbFlIbnFuclRMZ1EyMmdJOExfcTRjY3RXRkdtcWpqaTBQNWY0RG1VS05TODJYLWXSAaMCQVVfeXFMTkowZUNsTm9VWTRwaW5rZE1zZ2xvc19fMGc1RG5oT19iLVQ0WVBEMTQ1Z29pNE9TRHJ1VDFnajZtM1dGN0tjYmU2S1UwV2hlVlRLeEVZQU9SMmtiQjNMREdqTTEyYW4xOXVMWk9HYW5Ccnh1dl96Mi1qRmdMdllGdl9CS1loeGZ6dDBvZ3NRU1NxSHduRG9QTnMyN2tvQnhZVXBWTzR6TGVZSG1fTDB3ak02aDdlendHUnZMUzJnSnBQbzZZMjFVWUhNZUx6eE84UWdMdkduWU84SHhieWhDQTR4dHpuSndTS2N5TFd5SjM1SUE1dUYxM2pSbUtGOV9VSFRtY2tKd2gyYkxmdXBlLU1PWGY1RjlfQVJHOVAxdVdiU2RJ?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "TCU aprova cálculo da alíquota de referência da CBS em 11,3%",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQ0ZZYVg3VE5JczRIQzhUbklBNk9McGxhYjVYLXVWcG5yOTRRUnpsUnFjbzM5R2ZhUTJXQ3h0SnFvMWRZSmZtU09GTG1rS1RZZUg0N2RaV0xSZENPSWRROEpzSDliY2p2TDRZaF9fZFN2TDhETjd1UEtOeGVEM3dmM0pjMmcxcUlaTFUycFhaTC1Ib1d3V2s0enliZ3VodEI0dFpucGNGZlpKSU5QV2g2ZHptUjlYRTg?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Nos EUA, Flávio Bolsonaro se declara presidente eleito e líder da oposição no Brasil",
+      "titulo": "Marinho diz que 'não há prova' de fraude eleitoral e que carta em que Flávio se autodenomina 'presidente eleito' foi 'erro de confecção'",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPLWNZaGlPampKVjBoS2oxZUI3NURjYUVCQThwRmZPczJoeVk1UTFNVWk4YWhvVXBsdU9GVUIxekx5cHowMVZTbGdlYkdBYl9QYTlWSFBEdFpVckU3a1R3Q2NfVmk3d0YzVHgyVFZtRFR2NkpYal82S21aZjRYYmhhZk9zYlpXRUNIN1ZwNzZBOFhMWjJpcVpKRVFWbTZpcmpuSDhsQmhkRGJjWndENEhmNVlLSXlCTHI5bGpKdmdTSlJkdU1lMXdiQ3UtR3g2UzRRclRETmNFVmhheVZrTmtnX2VqY1hIV2ptRXR5dDMwZTVyQXA5TFNTb1Y0QzFmQmNFY3JpUVYxTDlzYXN6TTM5cnFPSUtmcGNncmVZX0JWazE5ZW9QeWU1TUY2dTdidlB6dEVMWlJB0gHEAkFVX3lxTE1VcVY2NUVWVHFnUXZudmFaelNDYmw2ZEJDMXFTRnJwQmhEU3ZKSWdnRHFNMnMyVXd5N2JkN0ZqbzFqcm5JZlJHV0ZGZm5OWlRUWkk1S1FNNUNGbm9CUWJkNG1pekZZcGdOeUp1QTIyMHVZWW9NdVdCNGpyQUY5eWhIak9lYzNmVVZiLTdmUnhXdXBtNEVmOFZNbGFualNmenNTT0VEMFktOVJUSVdDNGp6OFF3aUQzTGszV1JLU3lsWGctcmV4eGNYU3kyV1ZpZ2VJVFRIODMyNHZaeHRtZV91ck1KZUxyb0dJeTRPQ1ppX3J5TGhVZmxLbllKMEVfbjFHY2ttMkVqVkdaZlp6RUZxUzdfTVA5TEJJaGNHMjJLZUtvVnR2aUZ2MEpaa1pzUlRIUGpqWVlNZFJXSFhObE9yeHJQWg?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Deputados negociam voto distrital em 2034 em reunião com Motta",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdDFDWEo0WFBYTll4MkdVX0trLWFZZHZzU0R4ZlV4RHF3WVVCRDJCWk4ybVhJZFRNYkxQUmFtUTdPckVBME9jcE91VndNSjJzSThvNVRPT0RaTGZzeG0wZ3FqUFRxaGlfV091ZzBmckc1TlhoTGJkNTZSMUIydlY4OUtKQkFaRHlONUtONU9QQzl5MDVla3JZbkxDYWxnb1lKbC12TFZMRU9paTg?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "TSE arredonda percentual de votos e PSOL/Rede supera cláusula de barreira",
       "fonte": "Gazeta do Povo",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZC1nSDRTdzV3dVdOcVpScFJzRllvYXMzN0cxQnVHU2tseTNheFNrdG83WmdtUE1pbS1kbzR3cTg3UE9TWWN5bVRKdGhkZjRNaEphLUZlTkpRcUxmYUxjdGh0eDVqMnBBOUo1elVwcE1IWlBaUkN4RHJoeGtkZDFVWFZITXR3M09FbUhSUlhCck9CeG4tRkFDVW4xSlM?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQYjVZN2lPazFKYmVVSlhQUTN4U2NwSXVqYkcwSU41cjJOb2ZLSXp4VTdEYlpMZ0Nyb21TcU5vdUZ3c2tKU1M4cTVCZ0EtLUg2TnQzZ2gyM1JCRUdzakNwWldMcDA5eWE5WHd0M1lhZC1oaS1oakFWcjlnOEliOEhxaHJTTEh3SUhMS19CVkR4V3lvSVhmNGZyeXI2bVVqYjgwVWZvVENtMDV1UU1aTFh5OXUxZXVlY0NjQUJzMw?oc=5"
     },
     {
-      "cat": "brasil",
-      "titulo": "Teresópolis (RJ) registra boicote a comércios após vitória de Lula",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQmRRbFk1b0RYeGwzT2R4dWdnQUVYZGtLdVlic0hFTHlnZTFDaTlWOVk3ZGZGYzFSUktlWjlCTU1RUGdNdkZmclFyUXJCcWFuZlNTaEI4cFMzRy1GMEhRSzZVYnJzaDVEX0JqMm9TY0dvSkFtNFdreHJSYmRGYnNycmxHN2JYSTVUa3VURHdTd3U4V04wZmVhOXI0UUdXR2Q3Z2gwZw?oc=5"
+      "cat": "politica",
+      "titulo": "Rogério Marinho se opõe à intervenção dos Estados Unidos no Brasil",
+      "fonte": "Congresso em Foco",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdnZGbEN5bl9XcjVUaW8xMG1FUkRHLTZGUUV6SVlTOG04QjI4RnVKQ1dxNjUySTdNUVJ0QU5uUUxueW5OcGo4cmVNSFlqUjJVSHVWVHFEdWdVTXA2Ul9HYVBhSWN1NzFyam5XYWFVZFpObmNZRkJpRWtmWE1vTl9HaWVXTWFkOHcwQmJNNThBM2dPQkpFRnhDWnJJVlVyTk1NaW03YzVsa2l5dlV1d2xGNmR3UmJMNEU?oc=5"
     },
     {
       "cat": "politica",
@@ -301,33 +307,27 @@
     },
     {
       "cat": "politica",
-      "titulo": "Governo Lula prioriza Orçamento e PEC da Segurança em agenda no Congresso até o fim do ano",
-      "fonte": "Folha de S.Paulo",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWkxMSGsyOTlxeHRDdll4VVZvYjJIWlhRZVVfM21FdTN4eVhFR2FGZzBHaE10X3JTX3ltc29KVG5IRjk3YXVPQnRJcV9CMG5jR1lUMk44TDJVQXg3a0ExQlBuZmwzakNfbXZyOEdxNXlnOHNraHRyMXRkRmc1U1N5SE1UOW1xZDJaTS0wZUZ5VHlQcHFueGxZTW1COUdpa1dUZi1FWVdQMWFFaUlvVmV5aTRzcm1ZVjRoWkMxMzVsWTJzWTlPRVBhbGlBelNrVVc4ZHhqV1FLNA?oc=5"
-    },
-    {
-      "cat": "politica",
       "titulo": "Bancada do PL no Congresso manifesta \"total apoio\" a Flávio Bolsonaro",
       "fonte": "CNN Brasil",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQS0ZpZlVwVFc5Y28yMlNscnFoNEtWWklqNEc5UFBveWZfanRrTlh5Z2xDNFJwNXN6RWNETnl1MlJhVWtST0xTOThmbzg5X1dYOHh3MmdPUy1mQV81S0pYazVyeThqNm5DOEZHdEFRU2c3eUpDMkM5bGVPOGlFRGV4UkZySFN1R2NuRUtMYVNZRm5FUWplaUxVVnVTVkVqZFVOaVI2NV9wVDFOQQ?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "Flávio Bolsonaro se declara presidente eleito dos Estados Unidos do Brazil",
+      "titulo": "Sem provas, Flávio Bolsonaro diz que eleições no país foram fraudadas",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPNnlMaWRWamFzVWpRbFozLTZfbTNNUmFSTzlZVnlDS2xDY08xT0haNUZYMW9fdGNIaWlIQ1NtWlRjM0VlZzB0LVMzVlVCZmpqSV94Y25Hd1g5VkJMOWdLcW15V1o1bUdHQU5JV3pBbTZEaU0yRGR3UTMxZUR4b0V5TmtIUTdKZ3J0TlVSUEVDSWVGUFV2VVpDVnBDRmROMURubEh1MEJXdGNNcXNMdG9PT0ZndGtpZXg1VDBCQ29TU0NyejBvREY2SmJqUk1wVjJLaExsUVVmQjFvZnp0ekN3?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "Partido de Flávio Bolsonaro e aliados já reconheceram vitória de Lula",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbGN5RmVpd2hLaFRjc0xJdEtqZVV0TnltazFkVUVPRFVja1oxWm5uSjdIZGpUMDBFTDgtaERwUzRNZVJOVktCSS1feVdiNWFuQjBSdFhLQkcxUll3RkFSYUtiQ3NTXzZJZGwyTnEyNGdEREMyN0NUM0FvTEZwOTRWQkdmSksyUmR5UlFTYlZnaGMxZWlLajNWWEhXbFpQSlk1dHRONDlnZUd3OUl3eEpScm9aVkdWVzNnSl9HZlBuUWNJZ9IB0AFBVV95cUxORTlxd2M1ZVJFWlFscTVEakpUNXlEWmxzQ0ZldGp4cFUxbmJ6Y2pEUE1FeDRtVjBpeHBNWkhlUVJqbVlGZ2NTdkpaQ2VqZVBWWU9hRG9hVnF3WkU0VFlmd3BDSElwWmpTZFVXSWt6SkoxQjc1cVpPVzNDTmZxQ2g3bFBHSnFDdTJrNmxHckxwTTdsODJYNzR3aTdUblJkdWN0LVZ6UVpCOXo1SVJjLTBjb1FMZUxQaGJiSERDei1fQzFoYWp4LTVraUludXlSNGZT?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "Em carta golpista, Flávio Bolsonaro se declara presidente eleito dos Estados Unidos do Brazil",
       "fonte": "JOTA Info",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZGNDTmNjX3VfV3JhaEt3Q2dVTlM4YzU5Q1cyendCVnJNNmxzb3M4NFIyZmhWWnRFRzlwZjRWckpEd2o2MkVJcGl1VE41bDBHUEFTajR6d05XcXktelhuX3JodmphZzNwRWFBWjFXTW9lMGRRQUtoMVkyQ2tNdjBOczVKNlpjbC1JWEdUMC1vbWhfTUp6RU8taGNLRFpEbnd0N0FWN25hbGdGZkNqcHF0QVlVNFpIWFpSb0Nz?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "PF investiga circunstâncias da fuga de Flávio Bolsonaro do Brasil",
-      "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNN2FvNFRWa2tjYzdCMmJESGw4UGYtUkotbWRLMzhLOG9hZnJfWDcwU0lYUFBzV0ZXZWd0SV9PSjVEYVNaRmNxd0x5V2JoUTA4OXZTRDZJM2Z2SFMteF9VS1NxMktfelg1aGV3YUpxdzQ1WEkxZ2o4a1A0WnZwV2RUaDRQbmRVVGdjZllSdG9ocUN6OUlfcTY4Y1lqc2c1QVl6ZFNJTTgzVkZ3X3ZxTjFyU0ExWTNualhRX0NvQklOal8?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Flávio x Lula: corrupção, comparação de governos e segurança marcam debate",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcFFrbENqLWdhOTNBa1M2OTlaSHpoMWtFUFZEZTV4Zlk1WVFMbnlVQXdoMjB0bDVyOG1MZGZGeXo0ei01dHFvNzNscFczemttbE1rSXU2REVqbmhGbGtsT2pmSDJhWnJaaDUwQVZBNUFLV1VlSjE5MnlmcFRUQnBMMzg5MmZBZw?oc=5"
     }
   ],
   "indicadores": {
@@ -1250,7 +1250,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-10-28T18:08:28-03:00",
+    "atualizadoEm": "2026-10-28T22:00:33-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
