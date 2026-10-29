@@ -142,54 +142,54 @@
   },
   "mercado": {
     "ibov": {
-      "pontos": 170381.92,
-      "var": -0.37,
+      "pontos": 169188.45,
+      "var": -1.06,
       "anterior": 171006.1,
-      "minimo": 170255.95,
+      "minimo": 168765.34,
       "maximo": 171402.97,
-      "hora": "29/10 11h25",
-      "ts": 1793283920584
+      "hora": "29/10 17h21",
+      "ts": 1793305264789
     },
     "acoes": [
       {
         "ticker": "PETR4",
-        "preco": 52.93,
-        "var": 0.8
+        "preco": 52.2,
+        "var": -0.59
       },
       {
         "ticker": "VALE3",
-        "preco": 60.7,
-        "var": -1.11
+        "preco": 60.05,
+        "var": -2.17
       },
       {
         "ticker": "ITUB4",
-        "preco": 39.76,
-        "var": -0.05
+        "preco": 39.54,
+        "var": -0.6
       },
       {
         "ticker": "BBDC4",
-        "preco": 14.3,
-        "var": -2.59
+        "preco": 14.16,
+        "var": -3.54
       },
       {
         "ticker": "BBAS3",
-        "preco": 16.73,
-        "var": -0.36
+        "preco": 16.47,
+        "var": -1.91
       },
       {
         "ticker": "WEGE3",
-        "preco": 47.22,
-        "var": 0.04
+        "preco": 49.28,
+        "var": 4.41
       },
       {
         "ticker": "SUZB3",
-        "preco": 48.47,
-        "var": 0.77
+        "preco": 49.72,
+        "var": 3.37
       },
       {
         "ticker": "B3SA3",
-        "preco": 14.43,
-        "var": -1.77
+        "preco": 14.2,
+        "var": -3.34
       }
     ],
     "juros": [
@@ -223,18 +223,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.3736,
-        "var": 0.48
+        "valor": 5.3835,
+        "var": 0.67
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 5.9834,
-        "var": 0.32
+        "valor": 6.0196,
+        "var": 0.93
       }
     ],
-    "acoesTs": 1793283920584,
-    "moedasTs": 1793283920584,
+    "acoesTs": 1793305264789,
+    "moedasTs": 1793305264789,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -285,75 +285,75 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Endividamento das famílias registra recorde em agosto, mostra Banco Central",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOV1RGTXBEQnNTTlQ4eU1JVzBfZUpWSFBRTDNaMG9qMElSa0ZnUEozZjNFcW10MXlhZkhLenMtTjFRcGdEbE90SG5hMm1NZlk2bzI1V1dlX19oXzlRZjhNMUZicFlfN0RfWDhkTW9USGZwM3BnTS13czlmdlVaaWNodVU0RlRERXdCSHAwMFJRMmtRekVMZnlkX01aZDZlbGRoVFRTYXVnTjlhN0VQbUIxWDdoYUJ4dlZUQlJGaDBwVDdla1pSQ0F3ZHNMbEZjdw?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Ibovespa hoje recua com incertezas fiscais no Brasil e inflação americana; dólar sobe a R$ 5,36",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPUzhQcnZGYUl3X2xNTzl0bnBvNkpRTFNVUm1LZkNIRE5XUVd5Tmd6ZkFVZE8xcDN3MDdwNGlxMGk0azJzOGQtMnl3OFBJNXE3QmVXdkpoZW4xbVF4VmYwNm0yQ3FabWpYQm5NRUp4b0ZST3BqNTFTd2k5R1JSMWJBN1lCSmZ1OFdNVnh4enFPdy1TcWtlSmttR1dWNnlETHVBNS0zdDBleWNyVXN0ZXZkTmk5MktiNkV0VThiZGdSR2V4YW1pMHZnbHRRXzdqR0I5SGlCc2ZxVzdaYlR1YmZhRWttdlBDWFdielFaY9IB8gFBVV95cUxOeXFmNWxGc2FzRkxzbVRTaFpfdGtodXZ1dzY0ZTUxYXFldHhKQUJlX1BxNnpERVlrYmltbXo4Zmc3RkRlbHg3emR1eWlVbmRlWWVKQ25xSXFieHJzUTR2b0JUUU0wQ3BJdWVuWHU4ZURoRDlJempTTkV2c243LU1MOFVyaEMxZXZ4STdBTWZqeElpLWZoM1h4VFpHRnBNLXFFVExZZkgtMV9hVWdmaHlUZlQ2bER0YlhnUWRZNnhVc3pRQ1pLbWF1VHNJOGpUNnFGQnFLOVV1TFcwUmxGdm5JaWxQNUVFcXBaZldEOEhvczlzQQ?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Presidente do BCE, Lagarde, renuncia ao cargo a partir de 7 de fevereiro",
-      "fonte": "UOL Economia",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUkZQcjZjQWlvX0o5ZGpQVHZpWEphWHdMcjF5aVZpRVhKa1R1Q3pPSlpmQWtkQm16Y2I4REZOSks5a1Q2RWNtclZ5cWw0Q0FUT05NQWk5OE5zRFJrY0F0YW1FVHNGTUo3S25FQ2kxXzdCVGlmOVhFNENKcnY4MVVNYU1Xd05fWUd0SHZET2d6aTRWMlhreFFTUnZiVVg1RGs5XzdOSlRxRWx2UDAyM0N2UUFDWndCNzF3dVAxaXFyZGYxT0Y4R0gxdjZn?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Ao visitar Bolsonaro, Valdemar critica carta em que Flávio se diz 'líder do Brasil': 'Não gostei'",
+      "titulo": "'PixMEI' de até R$ 5 mil deve ser implementado via app e empreendedor terá de apresentar nota, diz ministro",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQdFV3Vm5IcEZJUHpZQ2ZoSzZ3MFNKOXk5RF9HN2xkYnBRa1ZoTDBIQmRJTkdVSGtPR2JMUks3ZWRaX0ozbUd0Y1VlZ0xKQ29TYnVyRVBpZU04Q1F5eVJ2cmVtbG5meUNqNEJOdjA3OWxBZlQyOTlob3RWZDlwZFZSVUIzaU1BNU95bkF3YWFuczYwUEJmczBKVHRuS0R3a1NpZjhTMzZiOGViQXpuOHJKVGNoeTZQbFNlNWtCMjhkWTJJQjU4bVhGdVc2WkZUd1gtQUluWEhNOHFCSEpySHVQMkwzazFmQ25fZ196X0Jn0gH8AUFVX3lxTE1STTVPTUpEM2xOMDBnX2NxZXFXajAxZGtTWk93UFNzSUdlTC1yV0xqUmc2VE1NM1Iwb2wzcVZvbmF4OGdjOVdKT2ZuVDlFRW9iYVlTbGFpM0k5eklMci1Gb2NfUktITnlEQXlRSXdvR1g1bmhkSmg0OHN0cGFNU0wzZjZXRC12TGp6VzA5MnZKWTBBYXk4ZnFqNGZKanVqak9FeEprS2hJTTNkZ1E1TVFlUEczNUZTNjF1WXFscWNpbS1iV1JzTVdabjJ0NnU5cllVVnA3bHl3MDB3elJrUDduU3YwMVF3bW9mR1c5TUZLbVQzR3NlZUFfWC1SMQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNTDBVX3JrME5yLV9rOGM3V2w3RlFMTjFwQy1CRnBzZG1ucTd3dWJpa2p1NjJMTkN4b2NCYUJyektrTHA2Yy1ITnhDNGtPTERYWEV1d0t6VGhyRmhpZE90U3gzbjJ4eUcwSEJ3czdvYkZrWnVOUzU0N3p6TG5zRnRfMUZIakFwNHJWM2lmU1pId3A0aHBvOEY4dG14WHlWZjliRHZkT2FGY1VmTi1WajhTbk53dkdJM09lT0tJcHFBekpiSDk5elN1c2szLWJjMmNsRG51NVZOelZYWm9ieGhqalhuTC1QS3BBTWJhRnJPUllpRUhkbWV2eklDT21HQnFLVHNlVWZtSmhIcm440gGbAkFVX3lxTE84X3pGazd1T29zZUNyaDVuNVN3OGMzQ0NUU2o5NFVyMHVDcU0xYlhnenBnTnF0ZDhIRGNPUm0tYWZZMmVweGFiOHpKWGJFamV4TFpET2o1QmVsQkJYRVluMHhtWGVrc2ZwU25oNTNvLVJPa1pmZFFSX2FpNG9RcEtGc1RxZnVYR2psWURaYmthVmh1U25rdENRUFFoSE5abkthbnVKWnF2TWd4UUNUa2g2SW5UU2xvbmRyY29fQmgtMkdXRjZyajBocThQSkRUMlFZaWx0a015Uk84MWcyNkFTS2JURkJCRHdWdnhPQU9HNGIwVGpWb0UxejVwR2t0bDZFTWhpZmloUFJpR3RYcVJPdU1QZWE4MDgweUE?oc=5"
     },
     {
-      "cat": "brasil",
-      "titulo": "As propostas do presidente Lula para o seu quarto mandato em 8 áreas",
-      "fonte": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9YajZyVHo5WThiT19hWnZpaWJrTDdSVVZ1YURtaU9tb0wyOXlwQ3F0S0FocW5jdS1lRlNTcnVtS3otel9PM05iZHkzNld6Ry13TnJlZVVjRjhwckJlWGtOWVVRRdIBaEFVX3lxTFBXWnpTSjE5bUJ5NFlNZXZrVmNuMGtKZWF1eDVLSDhDVFJvdkdPejZ0Qm1rMDU4TUJ2UVlPdWJuaUpodklPN2x0S0pobWs1VXRKLTV5WHdUM1hGRTFYSEk2Yk1RclprcUg3?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Flávio pode atingir máximo de faltas no Senado e perder mandato",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMy1yam5kN0VaVXQ1dHVxLTMyZ01taGpkd25peGloNVM0UHRFNlNSQmJXYy1WNlYySTNRUjZnVzJJNjhuQjJpMENlNUQzbkc3TmE4d3RveWI2c29MQmlNS2V2SUtZb0lXUVpJQTN0Q1ppWk5vbmJvZDRlOHlJMGtGdVdKY0FFdzVBbGpJb3I1b284TzlXOVhtX2FUeTdzelVHcnJYSUFfVjVWTUhJ?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "O desafio da relação política com o Congresso",
-      "fonte": "O POVO",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSzFVUlFlVmZpajZyQ3g0Xy1KZ0huTng2UkpqamRiOS1aMmNHcVNLRXViY1FJakNMU3JwOFVsdUxLejBvdXREQ0ZER2RqZUp3cDI1Uko0djJieDE0OUs0RDE0TlVfcXp5cHk2X3E2RnZMdlZhdVZBRFhuTF93X1g3MDFKbFI0RGZJc1pBS3p0Rm5yY0xteVZSQ19YVkp6ZEo3RzNvM2J3?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Quais temas urgentes para o Brasil estão na pauta política após eleição de 2026",
-      "fonte": "Diário do Nordeste",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOQUNJZnpKTHhWckRfOWRzZ1p1ZlQxSzZ1elo0XzNiQUdkWWJvT2VvZzdVYzh2OFVyVXpIYW1odnBzZDlrREowZzQwS0ptZFg2TFNBQ01UZlgzS0ZZbW9NRWxjRS1TZnhYUWFsSFRxVGRoVGNqc2s4TVNWMlQzY2YyZ0Y3ZGhicjFTbkctdzdEQk5ETk83RVlKUEF3MDk3aVNpMXJRQVZ2TlI4U1ZqX3REZ29CY2F0XzNQZUZyWlhZVVQtcV9KUDdfODJWalppZkRCWW5SLXp5ZC1xZFdP?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Rogério Marinho se opõe à intervenção dos Estados Unidos no Brasil",
-      "fonte": "Congresso em Foco",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdnZGbEN5bl9XcjVUaW8xMG1FUkRHLTZGUUV6SVlTOG04QjI4RnVKQ1dxNjUySTdNUVJ0QU5uUUxueW5OcGo4cmVNSFlqUjJVSHVWVHFEdWdVTXA2Ul9HYVBhSWN1NzFyam5XYWFVZFpObmNZRkJpRWtmWE1vTl9HaWVXTWFkOHcwQmJNNThBM2dPQkpFRnhDWnJJVlVyTk1NaW03YzVsa2l5dlV1d2xGNmR3UmJMNEU?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Sem provas, Flávio Bolsonaro diz que eleições no país foram fraudadas",
-      "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPNnlMaWRWamFzVWpRbFozLTZfbTNNUmFSTzlZVnlDS2xDY08xT0haNUZYMW9fdGNIaWlIQ1NtWlRjM0VlZzB0LVMzVlVCZmpqSV94Y25Hd1g5VkJMOWdLcW15V1o1bUdHQU5JV3pBbTZEaU0yRGR3UTMxZUR4b0V5TmtIUTdKZ3J0TlVSUEVDSWVGUFV2VVpDVnBDRmROMURubEh1MEJXdGNNcXNMdG9PT0ZndGtpZXg1VDBCQ29TU0NyejBvREY2SmJqUk1wVjJLaExsUVVmQjFvZnp0ekN3?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Qual o futuro do bolsonarismo após Flávio Bolsonaro ir para os EUA?",
-      "fonte": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAwdDRxOEpjdmxaNS1teWVWNkY5MnhvMDhwYlRZaGo3djJaU2g3dUhETnVVNjN4S0wxbVllNWJVR2NFaUhRZ2wzZTE5YUlZRE8wT0g4SHR1WkVlYXNpMUk5V3MwZ9IBaEFVX3lxTE5hVzM5OFh5UWZ2czY1cWlremxRVzBnd2IwVGd3V001YVNxbHRhdkk3VXFDOElzNGs5R1ctbmJiQThxM3FlNERQTmNUQnM5eHV1TERXWmN6dG1kR1lEbzJKMFVYbG5sVnR0?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Veja votos de Lula e Flávio Bolsonaro nas escolas e faculdades de São Paulo",
+      "cat": "economia",
+      "titulo": "Contas do governo têm superávit de R$ 4,8 bilhões em setembro",
       "fonte": "Folha de S.Paulo",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdjZaU0RCdDc5cXVtYUZ0TzlwRTF0a05yRDlvU0xyNmI3bkV5M2N5UWdDWVNpdlRpcUxVSUp1Tk0yQzRzR21NMFJkXzdsTFpDWnoyem1FSVZoeVVhOURpcnB5MEhIX2lfaXZyQW1Nd3VDdll3aldBZnNoNV9yUXVmZzQ1SThyQk1xMDBNbTVPdWVoc0tZZHpWbzFWY0NUOTlVNjAtZ2k3aE5RTDBCSExTODNWdUNRNUlya2E1cTlSQlBTWXM?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVkdKU2l3Z3pQVi1MN0Y0cVZXT1UtVlpjeUtNRktocVpkTV9IVDJFQVBfY29ZTHdrY1FfNXJVWkRjR1JjSk53czZMeGJPU3JZdERnenZTLXduZUVNd3dJemxHR0tGdmxrN2xMNVlJNE5mSVhwRXJGTkR1UjE5Z2ZLNWpQUWZMa3V0TzhKQzhKaXdjUElqcDJOMGpTUWlKWmFrY0F1S1Y5UkJlUQ?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "De temor fiscal à espera por Vale: os fatores que fazem Ibovespa cair pela 4ª sessão",
+      "fonte": "InfoMoney",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTENSTndIVDFTSEhGeXJILW01cEw0RmxlUXZvOG8xd3JhaVZ4ZEVmcjBwVGh4Qkw2ODg2WHNfaXR0VWZiS05IUHNjSDMzWWQ2LUMzOThoY3QwZzdiTXM0RE1haVZnb2dhemZCWU9lUk9pS0VpQ1U3cTR2aEdCLVFUODNtRi1XMTl5M1V2clJaTkF1WXdpeXdJUWg1RU54UldZNnYxNkxienhnVE1zZ0NNZmZpYkVkaTlJcGfSAb8BQVVfeXFMT3JSRGh1TUxyUk9hdzZVZE9hSEJtU190MDM5d3dEdkphdVo0ZkN3NTAxVmpMRi1FWnRQYS1BSmhxbm9fXzY5TUFfN3FlWXJ0bUdYRWl5WnMzbWl0QXphMVI3ZF9YUGFydDdBSG5lZjVqc2dsMEs2bHhaWkllU2ZFY190alhha1VfdElZck5VVV8yWGNwZW5yTzJWelZLMWZVWW9vdXJKZWNpN0xKMWFSbzZrUml2al9QeUFYZXVPMFE?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Carta de Flávio Bolsonaro foi redigida com ajuda do ChatGPT",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZ0RpOFdrQ0M2WXRUdzdJblBISXMwZU42MGllLWhlTWJ0cWg1UGg5TXItaERJZkRSejZPNFBTZEt5ODEwMVJuVmhNM3Z3cUhhbUdWTlg0c3FUVUtXWG15aTVRUlkzTjdscHVoVHRnTlB6aGpIU3NXSnRPazNqZ3d1N21QQ0NkTkxTWVduU3E1M0FvMGFKb3ZIN19vdmp2amJVMWp1TWplOHJ3c005?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Trump diz que não tomou partido nas eleições no Brasil a pedido de Lula",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPV1NHLU9kbmVGVDBZMTZ6bFA3S294anFTNXlpd290SDR1N0hHQTR5Zm44TFZZQko3NjU2R1FRMENuR1NsaDVxdlcyc2tmTkgxNXVMV2g2X21hamk5Z25CcnB0QzFJX0FxbFB1RDllRzczV2VqVzR3bFFDUlA0TXdESnNJaGhCNzdqME9EY1hIenRvTTg5Z0dfdk9LLXJMeEU1ejc2XzIxVzh5cXBSNmfSAbwBQVVfeXFMTlFIOGdERmNfWkZKdnlQNHM4RVVsckZWbElpRWJwT2pHclNJZS1icThBYXk1dlVJYW9JVnVGWXc3WDhlTmhjUzZZQTJOc0JDcTRzWjAwQzRVWVlrSkpsNG9Hb1I3aDNKcU9SOFZranZQRjdoRlRDZlVnNk9panF4SWVoSXFsTWhnUnJfTWdseGg3Rkx3bGQydDFGaVJqb1ByNEJQQ25mbVFMcll1SXduY1Bid20zcDZhejdleWo?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Governo Lula confirma “lista suja” de empresas acusadas de assédio eleitoral",
+      "fonte": "Gazeta do Povo",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPeDFEOXBkYjZtYXdiN0t6MFFqNVJfSjZNSkhyZDlpMTFwcUx6NFlEMmtiUlZhaWlzLVdnZ1FoNEd4X2s3cGhvaFkyLWdpcF9Cd3kyd2hhOEUtU3UyUGM4bUZDeTVxZUJsRTJIZVAzaG5TSXAxRnFhOXFXS0o4cGdUc2l3MVpYSjJnOENOcVN6ZzEyQWRjT2djbW9LbW1vNGVwRTZvZUVfUmM5cjl0WS13?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Após derrota e fuga de Flávio Bolsonaro, veja quem da família terá cargo após se eleger em 2026",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNXE0cHpsbGtFcGtmNVZkWDg4RnJOa2pKOW5PSjl2WjhpLUFBVFU2V2Uta3lNWG14RF8tczJCTnhOOG81UnBUX2NoTUNXU3QtN2U1RFZhX0dLTjIyM0xHZ3ZZdFBacVV4S0xYOU5wMEMteTBadjgwTk5UcHJkbXYtQ3VuZHFnbThkTlVlRdIBmwFBVV95cUxPOXk3cWs1UHR0Rm0ya2wwc3NMMUxqTEhRMWRzeEpiR1dXTWJORTQ5eWY4QUlOdkV6NDJIOWxaaV9iNWFqR1pBcVAySnVMd1ZZakxKLXhPT0hhRFpNVHgxUE9ONURVRWtmNk9xUzFFdFZXc0QyWnJ6ZkIzVjhpQmNJeld1c1dYdkNzRjJHVWROS2xaNFhpZkQyMWlrNA?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Partidos que apoiaram Flávio iniciam articulação com Lula",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNcHNQcVZjT2RSY3IzTWpzTFZBWFVHSk9aa0d1amhaZ05SaFI3aWtQcHl3RDFuTWR1a09lYzlfX3pmNDA2NkVfdG1mcmdWbFJKMTZqX09keVM0bkRoRHNtOTBpaHNlNE50OUNHRFZNWDJ2empadHZ6QkRMS3I4MlhfRFRSYVhGU3JvU042bWZJdEQ4SWppUnN2dERMNVY?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Integrantes do Programa de Educação Política visitam Congresso Nacional",
+      "fonte": "Sistema OCEPAR",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOa0RFOUJHZTBuazNVUzAxSVdKdzRYWE1BQXQ2TlF2Z1ZPcWcxSFN5UjlhSkM5MDZORzBwbU5EMmI3ejJVVnFYMldlWmY4Q052NkFTcFJBTnpSd3U2ZGR5U1Q1VXYyWnNObTc0emxqUlNkX016VHlKdjhPMHJSV0ZJMjNmOGFrbGdkbVdQSTBBSGs4cU11cnJ3SXowUEkzZmlIMHBjS1M3Y21ZV0NybTM0OFI0WVc0Tlp0YVVrZWhuT0RsTDVzdUpF?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "Fuga e carta golpista ampliam isolamento de Flávio Bolsonaro",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNb1JvOEtDdWFRcnE4NXJRdXctM2JwQXU5Z292dVlUcEdrQzFFanhkN29xZFRrbk04amJlRmQ1MThGQU1HajVOdWtfcElvTUNPVDBxTkdsT0RnaGwzUWUweFhfVERReHlrdkR2OEtmTjhiNHFqcy1BQ184bVZVRnh3SE05YmU0LTd0SVhuTjFzay1hLU9ibmk2bFlzVFo2cF9ORGZ6MjRWNjQyc0x0WjdSZFpqYnJCU0hoekE?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "Wall Street Journal acusa governo Lula de perseguição política a Flávio Bolsonaro",
+      "fonte": "Folha de S.Paulo",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTFBhb2UxWG1ES0JtVUpNdndXdVpveWhjOUhTeEswRW43U2hLZV9DWTE5X2lmNDNvamlpNkFrUTNvVHVlM1ZiSVFVLWlmeVh2UHltQjA0aUd5NUZ0clczN2pNNnpvSHU4RndrRDJyc3JjbTlkNWtGSmhCdDZZNGxjQUVmc3l2Qk82MkxIRjlPREduR0xuaWs0TnFJc25ZV2tvdVdVdXNkOEFzTGF1c25uc3BJQVcxbV9sY3FMRTJUNkpraDRxakZITl9hSQ?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "Lula vira em 3 regiões metropolitanas e cresce mais de 30% em outras 6 do 1º para o 2º turno; Flávio perde votos em 7",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSEVpMEZ0ZWtlcWJJUmFLQm8yWlpBN1cyb2FQeW11TTJUV1VLWXg4dzNGOUxMQnBYZmpSNWstMV9WWlhrY3dIQ0ZGQW9MM0gxcGRPTndlaFU5djk0R0pCVnBKM2EtVWNoRjNhUDZ2dmtndk1sdVdycUVQQmp2OGM4XzV0aWFlTnNKRW5US25pZ3RKS3BvNURKbVBRbU1yQ09jS1MyYzhtY1phYjh2cVlrOUwtd0tBakNuamRVc1FIOUg5QdIB0AFBVV95cUxQZS1DMUxQbnQ1a3BHeHFfR3R4MUxLamh3VUhLRmZsZEJSbzJvRWlWZE9YeVQtdGFwV0ZLb0VnY1U0YmpQSUgxQkM1eVJGWERSRHhlTjZvWTI1M1VqZm5EdllXc0FUUFNSRzNZa1lMZnZPQXN1UE42RXphNkUxb1JJR3RtZ051M2JSNTNvUFNpelp4Vjd0c20wRV9CNlZ4UTJmWjB5TWxnb1VNZHU1R1Z1SFFMclJMZ3FPZDJ6R3oxTkp6aVhWRmczR3FFV2FFalZJ?oc=5"
     }
   ],
   "indicadores": {
@@ -1315,7 +1315,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-10-29T11:25:22-03:00",
+    "atualizadoEm": "2026-10-29T17:21:07-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
