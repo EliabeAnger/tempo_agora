@@ -130,54 +130,54 @@
   },
   "mercado": {
     "ibov": {
-      "pontos": 171006.1,
-      "var": -2.68,
-      "anterior": 175710.05,
-      "minimo": 171006.1,
-      "maximo": 171006.1,
-      "hora": "29/10 04h09",
-      "ts": 1793257770369
+      "pontos": 170381.92,
+      "var": -0.37,
+      "anterior": 171006.1,
+      "minimo": 170255.95,
+      "maximo": 171402.97,
+      "hora": "29/10 11h25",
+      "ts": 1793283920584
     },
     "acoes": [
       {
         "ticker": "PETR4",
-        "preco": 52.51,
-        "var": -0.53
+        "preco": 52.93,
+        "var": 0.8
       },
       {
         "ticker": "VALE3",
-        "preco": 61.38,
-        "var": -2.57
+        "preco": 60.7,
+        "var": -1.11
       },
       {
         "ticker": "ITUB4",
-        "preco": 39.78,
-        "var": -3.42
+        "preco": 39.76,
+        "var": -0.05
       },
       {
         "ticker": "BBDC4",
-        "preco": 14.68,
-        "var": -6.68
+        "preco": 14.3,
+        "var": -2.59
       },
       {
         "ticker": "BBAS3",
-        "preco": 16.79,
-        "var": -3.39
+        "preco": 16.73,
+        "var": -0.36
       },
       {
         "ticker": "WEGE3",
-        "preco": 47.2,
-        "var": 2.25
+        "preco": 47.22,
+        "var": 0.04
       },
       {
         "ticker": "SUZB3",
-        "preco": 48.1,
-        "var": 1.2
+        "preco": 48.47,
+        "var": 0.77
       },
       {
         "ticker": "B3SA3",
-        "preco": 14.69,
-        "var": -4.61
+        "preco": 14.43,
+        "var": -1.77
       }
     ],
     "juros": [
@@ -211,17 +211,19 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.446,
-        "var": 9.06
+        "valor": 5.3736,
+        "var": 0.48
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 5.56,
-        "var": null
+        "valor": 5.9834,
+        "var": 0.32
       }
     ],
-    "acoesTs": 1793257770369
+    "acoesTs": 1793283920584,
+    "moedasTs": 1793283920584,
+    "moedasFonte": "Yahoo"
   },
   "combustiveis": {
     "semana": "Média nacional ANP, semana de 18 a 24/10/2026 (gás de cozinha e GNV: semana de 27/09 a 03/10). Variação desde o início do ano.",
@@ -271,39 +273,39 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "A Bolsa caiu 16% com Lula até agora. Mas o estrago é maior do que parece",
-      "fonte": "Brazil Journal",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPc0JMQThvV3R4WFVoZVRtdmJEcUxNVjlrWHROWVVjZkNZTENrV2VVOXdVUVZqVklCVzM1NTFZa0hGX3JraDlsVk9HZTlxWGIzTG80MnFWTTdqWEdsMVhHSXJSRFBlSXpWTnRrSEM0MVM0b2dwaDJVY0dDbUFmV09UMEkxaW92RVp1eUdPWENIeC1BMTZyb3BOQjlNbGc?oc=5"
+      "titulo": "Endividamento das famílias registra recorde em agosto, mostra Banco Central",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOV1RGTXBEQnNTTlQ4eU1JVzBfZUpWSFBRTDNaMG9qMElSa0ZnUEozZjNFcW10MXlhZkhLenMtTjFRcGdEbE90SG5hMm1NZlk2bzI1V1dlX19oXzlRZjhNMUZicFlfN0RfWDhkTW9USGZwM3BnTS13czlmdlVaaWNodVU0RlRERXdCSHAwMFJRMmtRekVMZnlkX01aZDZlbGRoVFRTYXVnTjlhN0VQbUIxWDdoYUJ4dlZUQlJGaDBwVDdla1pSQ0F3ZHNMbEZjdw?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "PF indicia Vorcaro, Paulo Henrique Costa e mais 13 por fraude no Master",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRXBsYTYxMUhBUGUzd05sMVE0RjdYODVYdHFsdVN2OVg5aDlRLUI2dGx3c0xQS0pwY2lmMkhQMUczTHdiUjlNNG1IWThWZ0pWV1YxVWVfTURoQjRJVDBoT215bVgwdHpDR05TVTJsbEV3WW9pMEtlVkEzWkp3SWozT043UnlQa1A1X0o5TFlQVTJLbnNUQzM0LV9BYi0xNm9kZ0tBOXRuZXFTLW9rZk9UaTl1Yw?oc=5"
+      "titulo": "Ibovespa hoje recua com incertezas fiscais no Brasil e inflação americana; dólar sobe a R$ 5,36",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPUzhQcnZGYUl3X2xNTzl0bnBvNkpRTFNVUm1LZkNIRE5XUVd5Tmd6ZkFVZE8xcDN3MDdwNGlxMGk0azJzOGQtMnl3OFBJNXE3QmVXdkpoZW4xbVF4VmYwNm0yQ3FabWpYQm5NRUp4b0ZST3BqNTFTd2k5R1JSMWJBN1lCSmZ1OFdNVnh4enFPdy1TcWtlSmttR1dWNnlETHVBNS0zdDBleWNyVXN0ZXZkTmk5MktiNkV0VThiZGdSR2V4YW1pMHZnbHRRXzdqR0I5SGlCc2ZxVzdaYlR1YmZhRWttdlBDWFdielFaY9IB8gFBVV95cUxOeXFmNWxGc2FzRkxzbVRTaFpfdGtodXZ1dzY0ZTUxYXFldHhKQUJlX1BxNnpERVlrYmltbXo4Zmc3RkRlbHg3emR1eWlVbmRlWWVKQ25xSXFieHJzUTR2b0JUUU0wQ3BJdWVuWHU4ZURoRDlJempTTkV2c243LU1MOFVyaEMxZXZ4STdBTWZqeElpLWZoM1h4VFpHRnBNLXFFVExZZkgtMV9hVWdmaHlUZlQ2bER0YlhnUWRZNnhVc3pRQ1pLbWF1VHNJOGpUNnFGQnFLOVV1TFcwUmxGdm5JaWxQNUVFcXBaZldEOEhvczlzQQ?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Mega-Sena 3077: aposta em Mato Grosso leva maior prêmio da história de um concurso regular; confira os números",
+      "titulo": "Presidente do BCE, Lagarde, renuncia ao cargo a partir de 7 de fevereiro",
+      "fonte": "UOL Economia",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUkZQcjZjQWlvX0o5ZGpQVHZpWEphWHdMcjF5aVZpRVhKa1R1Q3pPSlpmQWtkQm16Y2I4REZOSks5a1Q2RWNtclZ5cWw0Q0FUT05NQWk5OE5zRFJrY0F0YW1FVHNGTUo3S25FQ2kxXzdCVGlmOVhFNENKcnY4MVVNYU1Xd05fWUd0SHZET2d6aTRWMlhreFFTUnZiVVg1RGs5XzdOSlRxRWx2UDAyM0N2UUFDWndCNzF3dVAxaXFyZGYxT0Y4R0gxdjZn?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Ao visitar Bolsonaro, Valdemar critica carta em que Flávio se diz 'líder do Brasil': 'Não gostei'",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQQWdXUkhDZjg5dlpyZFRmQ2JGMDR1SFhvLWpMNXVjSC1vQUczQ2MyTWJlM0JUdzY5RHZBX0kwMERjVzlZeWZuLVg0NHNWVjNWQnhzYVpBOUpJaVhDYTc3N2hZX28xWFg3d3FCU3RBVUtjWXNlMzNOMlBlTmZQeWFhYnAzbXY1M1RrSTcxM2RiMW1qQ0xKa0VxTjBCVXU5NXZLWXYwdlRsS0l2S3FWOGVVaEl5MExHNmxMUXlFcnlRbEpDNGgxMFpJZlRsSExNU1gtNkUwN01KeXRQV2xoOEdrd2EwOHZCMUxKUXfSAfgBQVVfeXFMTkE3N19YQlNYMEVjdUdGZENmaFg4RzFXOEhNb0JhTWQ2aDlOSm1RNVhTVGVQSEpPNW5IVXl5RlJQYXpuNlhxbjFaeUtvalNPM0NJaDRMVDRkQWFwaE9RTWpWOGRGNXd6cl83VHd4TFZoQ3ZxSDFMTnNHSDczdUNaaGcxMmphUFhUb3BlUXFNV3pGR04tM0lXc1A3ei1YTFNNNFVESHJyWkFLZ1JVSERLb01tT0RmX0pRblpMLW1veEdWSjNRYkFNSWk3aWZZQ1BjWFlpLWdsekVkcEhCZnhWeURWODhQekdjN0Q0MXpQWXdkajFyVkdyOUI?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQdFV3Vm5IcEZJUHpZQ2ZoSzZ3MFNKOXk5RF9HN2xkYnBRa1ZoTDBIQmRJTkdVSGtPR2JMUks3ZWRaX0ozbUd0Y1VlZ0xKQ29TYnVyRVBpZU04Q1F5eVJ2cmVtbG5meUNqNEJOdjA3OWxBZlQyOTlob3RWZDlwZFZSVUIzaU1BNU95bkF3YWFuczYwUEJmczBKVHRuS0R3a1NpZjhTMzZiOGViQXpuOHJKVGNoeTZQbFNlNWtCMjhkWTJJQjU4bVhGdVc2WkZUd1gtQUluWEhNOHFCSEpySHVQMkwzazFmQ25fZ196X0Jn0gH8AUFVX3lxTE1STTVPTUpEM2xOMDBnX2NxZXFXajAxZGtTWk93UFNzSUdlTC1yV0xqUmc2VE1NM1Iwb2wzcVZvbmF4OGdjOVdKT2ZuVDlFRW9iYVlTbGFpM0k5eklMci1Gb2NfUktITnlEQXlRSXdvR1g1bmhkSmg0OHN0cGFNU0wzZjZXRC12TGp6VzA5MnZKWTBBYXk4ZnFqNGZKanVqak9FeEprS2hJTTNkZ1E1TVFlUEczNUZTNjF1WXFscWNpbS1iV1JzTVdabjJ0NnU5cllVVnA3bHl3MDB3elJrUDduU3YwMVF3bW9mR1c5TUZLbVQzR3NlZUFfWC1SMQ?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Marinho diz que 'não há prova' de fraude eleitoral e que carta em que Flávio se autodenomina 'presidente eleito' foi 'erro de confecção'",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPLWNZaGlPampKVjBoS2oxZUI3NURjYUVCQThwRmZPczJoeVk1UTFNVWk4YWhvVXBsdU9GVUIxekx5cHowMVZTbGdlYkdBYl9QYTlWSFBEdFpVckU3a1R3Q2NfVmk3d0YzVHgyVFZtRFR2NkpYal82S21aZjRYYmhhZk9zYlpXRUNIN1ZwNzZBOFhMWjJpcVpKRVFWbTZpcmpuSDhsQmhkRGJjWndENEhmNVlLSXlCTHI5bGpKdmdTSlJkdU1lMXdiQ3UtR3g2UzRRclRETmNFVmhheVZrTmtnX2VqY1hIV2ptRXR5dDMwZTVyQXA5TFNTb1Y0QzFmQmNFY3JpUVYxTDlzYXN6TTM5cnFPSUtmcGNncmVZX0JWazE5ZW9QeWU1TUY2dTdidlB6dEVMWlJB0gHEAkFVX3lxTE1VcVY2NUVWVHFnUXZudmFaelNDYmw2ZEJDMXFTRnJwQmhEU3ZKSWdnRHFNMnMyVXd5N2JkN0ZqbzFqcm5JZlJHV0ZGZm5OWlRUWkk1S1FNNUNGbm9CUWJkNG1pekZZcGdOeUp1QTIyMHVZWW9NdVdCNGpyQUY5eWhIak9lYzNmVVZiLTdmUnhXdXBtNEVmOFZNbGFualNmenNTT0VEMFktOVJUSVdDNGp6OFF3aUQzTGszV1JLU3lsWGctcmV4eGNYU3kyV1ZpZ2VJVFRIODMyNHZaeHRtZV91ck1KZUxyb0dJeTRPQ1ppX3J5TGhVZmxLbllKMEVfbjFHY2ttMkVqVkdaZlp6RUZxUzdfTVA5TEJJaGNHMjJLZUtvVnR2aUZ2MEpaa1pzUlRIUGpqWVlNZFJXSFhObE9yeHJQWg?oc=5"
+      "titulo": "As propostas do presidente Lula para o seu quarto mandato em 8 áreas",
+      "fonte": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9YajZyVHo5WThiT19hWnZpaWJrTDdSVVZ1YURtaU9tb0wyOXlwQ3F0S0FocW5jdS1lRlNTcnVtS3otel9PM05iZHkzNld6Ry13TnJlZVVjRjhwckJlWGtOWVVRRdIBaEFVX3lxTFBXWnpTSjE5bUJ5NFlNZXZrVmNuMGtKZWF1eDVLSDhDVFJvdkdPejZ0Qm1rMDU4TUJ2UVlPdWJuaUpodklPN2x0S0pobWs1VXRKLTV5WHdUM1hGRTFYSEk2Yk1RclprcUg3?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Deputados negociam voto distrital em 2034 em reunião com Motta",
+      "titulo": "Flávio pode atingir máximo de faltas no Senado e perder mandato",
       "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdDFDWEo0WFBYTll4MkdVX0trLWFZZHZzU0R4ZlV4RHF3WVVCRDJCWk4ybVhJZFRNYkxQUmFtUTdPckVBME9jcE91VndNSjJzSThvNVRPT0RaTGZzeG0wZ3FqUFRxaGlfV091ZzBmckc1TlhoTGJkNTZSMUIydlY4OUtKQkFaRHlONUtONU9QQzl5MDVla3JZbkxDYWxnb1lKbC12TFZMRU9paTg?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Deputados argentinos acusam Milei de facilitar fuga de Flávio e pedem reconhecimento da vitória de Lula",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOTnFjdVAyWE9pU1ZGOENkVFJValF4Z2s0LXN1a1ZCT2hyVUtqam9oaGtNLVMwNzlRa3ZtRlc2eVBQQWFWM05sZjR0aGt1dzlOdVFKMXpBcThGQjBJbTh4ZjFlWVBBS0ZreVotbkRIcDEyQ0tYZWNpRlFvQXUwR29MM2RhMk9uODU3YlgzQ2FNeUhnWlJPTlVrS0w1YW5UUDRYaHJvSVRIWXpkeXZRV3dyRkMwVUJPbWFsbEtMcE5tUFlSN2hpMU9KeXMzQm94VzRCY3llRkY0U0w0Y3d0eVlBQXp1OUtKdDBhMEFZ0gH6AUFVX3lxTE5MRVFfU1BJUlNBdjdydGtSX05xVnFUMWI3VkFBWmZOeGc0UGZNMnF0UTN0VTJwTG14aHpDWUtnQTlWVHZGUWhOWUwxbDJSUDIwQm9Ba0RBbXg4OFNoUTlTWWZERE1BZUNSYV8xN2l4djREajF6VjZjc3Jyd0hxdWhKQTBYR2ZqSUxDVjdjMjFBMDd1UktuNEN4RXFGRzNHRkxpWFpoNll1Rmc3YklXLUNjbFNWeGlfNGdiMEVBSDJZWllndlM1VFJHeUkzdnZSa3NUWFVrbmg5bWtFOFYzSV9XbUV4U3NKLVk1b3RmRDRJWF9WQ2Vxa2wxZXc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMy1yam5kN0VaVXQ1dHVxLTMyZ01taGpkd25peGloNVM0UHRFNlNSQmJXYy1WNlYySTNRUjZnVzJJNjhuQjJpMENlNUQzbkc3TmE4d3RveWI2c29MQmlNS2V2SUtZb0lXUVpJQTN0Q1ppWk5vbmJvZDRlOHlJMGtGdVdKY0FFdzVBbGpJb3I1b284TzlXOVhtX2FUeTdzelVHcnJYSUFfVjVWTUhJ?oc=5"
     },
     {
       "cat": "politica",
@@ -313,15 +315,15 @@
     },
     {
       "cat": "politica",
-      "titulo": "Rogério Marinho se opõe à intervenção dos Estados Unidos no Brasil",
-      "fonte": "Congresso em Foco",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdnZGbEN5bl9XcjVUaW8xMG1FUkRHLTZGUUV6SVlTOG04QjI4RnVKQ1dxNjUySTdNUVJ0QU5uUUxueW5OcGo4cmVNSFlqUjJVSHVWVHFEdWdVTXA2Ul9HYVBhSWN1NzFyam5XYWFVZFpObmNZRkJpRWtmWE1vTl9HaWVXTWFkOHcwQmJNNThBM2dPQkpFRnhDWnJJVlVyTk1NaW03YzVsa2l5dlV1d2xGNmR3UmJMNEU?oc=5"
+      "titulo": "Quais temas urgentes para o Brasil estão na pauta política após eleição de 2026",
+      "fonte": "Diário do Nordeste",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOQUNJZnpKTHhWckRfOWRzZ1p1ZlQxSzZ1elo0XzNiQUdkWWJvT2VvZzdVYzh2OFVyVXpIYW1odnBzZDlrREowZzQwS0ptZFg2TFNBQ01UZlgzS0ZZbW9NRWxjRS1TZnhYUWFsSFRxVGRoVGNqc2s4TVNWMlQzY2YyZ0Y3ZGhicjFTbkctdzdEQk5ETk83RVlKUEF3MDk3aVNpMXJRQVZ2TlI4U1ZqX3REZ29CY2F0XzNQZUZyWlhZVVQtcV9KUDdfODJWalppZkRCWW5SLXp5ZC1xZFdP?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Alcolumbre tenta acordo entre Congresso, governo e STF por ‘pacificação’ e avalia aceno a Bolsonaro",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPTjctcFRyajlycGNZcndtNWV3MEdTTXp4cnExcUJfTUxhNGpHMVVqT1hGYzcwOUNtamg0QXk3RXVmRXRXLTdJeFYyc3RsRFJoWlo5ZWlKajNncWt2aExkcFp5ZnRmR29odFlwV1hxX3hQa1NjaHFGRkNCQUhtbVF6cUcyZ0ZjRkFVLWRfN01KZjE0RlpxWUp6ZkVJYnVaYmxwV2I3bDU0SExZTHBrVjMyMjZTT21HZUpyTHNHWnpvMGFBUG14ZDJaN1F6clFzZF9QN1pJVC03RER6VW5TN2REbWZFeGlJTGc0QU040gH6AUFVX3lxTE5vZTJoUmRmdnQ4MG9fb0swdzZFQmo0cHBYZXVSY0VsdElBM3RsQ2VXTUl1RXQwUWtodWpnTHVMZ1FYV2c1ZUc1NHhGUUFYVDRGajRfck42OFB1WElyX1NsRDc4SGhiRlNkUkk5QzNhMV9oeklsMDFsQmd0dE5Fa25vRG1NanVKT3RPdnZINFZBSUkyVTZPdzhGaC1hdjRNOFdpYTZhaklvN1ZWc2hlVlRISDdvc0E3NTEwOUFHS2p0NHFjRHRTQTNZSFFRQnhlNDFRc0IxYU1oZE1tY1VBSXQ2WjBKeGtaSFY1QXBsZE9iNXI1X1J5TDM2eXc?oc=5"
+      "titulo": "Rogério Marinho se opõe à intervenção dos Estados Unidos no Brasil",
+      "fonte": "Congresso em Foco",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdnZGbEN5bl9XcjVUaW8xMG1FUkRHLTZGUUV6SVlTOG04QjI4RnVKQ1dxNjUySTdNUVJ0QU5uUUxueW5OcGo4cmVNSFlqUjJVSHVWVHFEdWdVTXA2Ul9HYVBhSWN1NzFyam5XYWFVZFpObmNZRkJpRWtmWE1vTl9HaWVXTWFkOHcwQmJNNThBM2dPQkpFRnhDWnJJVlVyTk1NaW03YzVsa2l5dlV1d2xGNmR3UmJMNEU?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -331,15 +333,15 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "Partido de Flávio Bolsonaro e aliados já reconheceram vitória de Lula",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbGN5RmVpd2hLaFRjc0xJdEtqZVV0TnltazFkVUVPRFVja1oxWm5uSjdIZGpUMDBFTDgtaERwUzRNZVJOVktCSS1feVdiNWFuQjBSdFhLQkcxUll3RkFSYUtiQ3NTXzZJZGwyTnEyNGdEREMyN0NUM0FvTEZwOTRWQkdmSksyUmR5UlFTYlZnaGMxZWlLajNWWEhXbFpQSlk1dHRONDlnZUd3OUl3eEpScm9aVkdWVzNnSl9HZlBuUWNJZ9IB0AFBVV95cUxORTlxd2M1ZVJFWlFscTVEakpUNXlEWmxzQ0ZldGp4cFUxbmJ6Y2pEUE1FeDRtVjBpeHBNWkhlUVJqbVlGZ2NTdkpaQ2VqZVBWWU9hRG9hVnF3WkU0VFlmd3BDSElwWmpTZFVXSWt6SkoxQjc1cVpPVzNDTmZxQ2g3bFBHSnFDdTJrNmxHckxwTTdsODJYNzR3aTdUblJkdWN0LVZ6UVpCOXo1SVJjLTBjb1FMZUxQaGJiSERDei1fQzFoYWp4LTVraUludXlSNGZT?oc=5"
+      "titulo": "Qual o futuro do bolsonarismo após Flávio Bolsonaro ir para os EUA?",
+      "fonte": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAwdDRxOEpjdmxaNS1teWVWNkY5MnhvMDhwYlRZaGo3djJaU2g3dUhETnVVNjN4S0wxbVllNWJVR2NFaUhRZ2wzZTE5YUlZRE8wT0g4SHR1WkVlYXNpMUk5V3MwZ9IBaEFVX3lxTE5hVzM5OFh5UWZ2czY1cWlremxRVzBnd2IwVGd3V001YVNxbHRhdkk3VXFDOElzNGs5R1ctbmJiQThxM3FlNERQTmNUQnM5eHV1TERXWmN6dG1kR1lEbzJKMFVYbG5sVnR0?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "Em carta golpista, Flávio Bolsonaro se declara presidente eleito dos Estados Unidos do Brazil",
-      "fonte": "JOTA Info",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZGNDTmNjX3VfV3JhaEt3Q2dVTlM4YzU5Q1cyendCVnJNNmxzb3M4NFIyZmhWWnRFRzlwZjRWckpEd2o2MkVJcGl1VE41bDBHUEFTajR6d05XcXktelhuX3JodmphZzNwRWFBWjFXTW9lMGRRQUtoMVkyQ2tNdjBOczVKNlpjbC1JWEdUMC1vbWhfTUp6RU8taGNLRFpEbnd0N0FWN25hbGdGZkNqcHF0QVlVNFpIWFpSb0Nz?oc=5"
+      "titulo": "Veja votos de Lula e Flávio Bolsonaro nas escolas e faculdades de São Paulo",
+      "fonte": "Folha de S.Paulo",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdjZaU0RCdDc5cXVtYUZ0TzlwRTF0a05yRDlvU0xyNmI3bkV5M2N5UWdDWVNpdlRpcUxVSUp1Tk0yQzRzR21NMFJkXzdsTFpDWnoyem1FSVZoeVVhOURpcnB5MEhIX2lfaXZyQW1Nd3VDdll3aldBZnNoNV9yUXVmZzQ1SThyQk1xMDBNbTVPdWVoc0tZZHpWbzFWY0NUOTlVNjAtZ2k3aE5RTDBCSExTODNWdUNRNUlya2E1cTlSQlBTWXM?oc=5"
     }
   ],
   "indicadores": {
@@ -352,7 +354,7 @@
       },
       "cdi": {
         "valor": 13.65,
-        "data": "27/10/2026",
+        "data": "28/10/2026",
         "fonte": "Banco Central"
       },
       "ipca12": {
@@ -366,13 +368,13 @@
         "fonte": "Banco Central"
       },
       "igpm": {
-        "valor": 1.57,
-        "data": "01/09/2026",
+        "valor": 1.47,
+        "data": "01/10/2026",
         "fonte": "Banco Central"
       },
       "poup": {
         "valor": 0.67,
-        "data": "27/10/2026",
+        "data": "28/10/2026",
         "fonte": "Banco Central"
       },
       "desemp": {
@@ -1261,7 +1263,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-10-29T04:09:34-03:00",
+    "atualizadoEm": "2026-10-29T11:25:22-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
@@ -1270,12 +1272,13 @@
       "BC igpm",
       "BC poup",
       "BC desemp",
+      "câmbio (Yahoo)",
       "Ibovespa",
       "8 de 8 ações",
       "12 notícias"
     ],
     "falhas": [
-      "câmbio: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
+      "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
     ]
   }
 }
