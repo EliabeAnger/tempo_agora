@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-10-30T11:50:00-03:00",
-  "alerta": "Ibovespa abre a sexta (30/10) em queda e caminha para o 5º pregão seguido de perdas, perto de 168,5 mil pontos; dólar sobe a R$ 5,43. Desemprego cai a 5,2%, o menor para o período desde 2012. Reuters diz que o governo Trump não pretende apoiar Flávio como líder do Brasil.",
+  "atualizadoEm": "2026-10-30T17:45:00-03:00",
+  "alerta": "Ibovespa fecha a sexta (30/10) em queda de 0,75%, aos 167,9 mil pontos: 5º pregão seguido de perdas e queda perto de 18% na semana, a pior desde 2020. Dólar sobe 1,1%, a R$ 5,44. Flávio segue nos EUA e deve pedir asilo; Moraes ainda não decidiu sobre os pedidos de prisão.",
   "eleicoes": {
     "candidatos": [
       {
@@ -450,7 +450,8 @@
         "No fim da tarde desta quinta, não havia registro de que a coletiva em Miami tenha acontecido; reportagens do SBT News e do Estado de Minas dizem que ela foi cancelada. Segundo o O Globo, citado pelo Brasil 247, a direção do PL pressionou Flávio a corrigir a carta, e Valdemar resumiu: 'compreendemos, mas não aprovamos'. Rogério Marinho chamou a expressão 'presidente eleito' de erro de redação e disse que o PL não tem provas de fraude. Paulo Figueiredo atribuiu a primeira versão a um erro de inteligência artificial, sem mostrar comprovação. Valdemar disse ainda que nem Jair Bolsonaro sabia que o filho sairia do país. Segundo uma colunista do SBT News, um integrante do governo Trump, sem se identificar, disse que os EUA não querem ver Flávio se apresentar como presidente; não houve nota oficial da Casa Branca. Moraes ainda não decidiu sobre os pedidos de prisão.",
         "Até o fim da noite desta quinta, Flávio seguia nos EUA sem ter dado a entrevista anunciada e sem pedido formal de asilo confirmado; Moraes ainda não decidiu sobre os pedidos de prisão e de alerta da Interpol. Em áudio enviado a apoiadores, Lula disse que fará um pronunciamento à nação na próxima semana.",
         "Na manhã desta sexta (30/10), não havia novidade oficial: Flávio segue nos EUA, sem pedido de asilo confirmado, e Moraes ainda não decidiu sobre os pedidos de prisão. Na imprensa, ganha espaço a disputa pela liderança da oposição: segundo a CNN Brasil, aliados da família Bolsonaro e do Centrão veem o governador Tarcísio de Freitas como o nome mais bem posicionado, de olho em 2030; o jornal português DN resumiu que a direita vira as costas a Flávio.",
-        "No fim da manhã desta sexta (30/10), a agência Reuters, citando uma autoridade americana e outra pessoa a par do assunto, sem identificá-las, informou que o governo Trump não tem planos de apoiar Flávio como líder legítimo do Brasil, embora Trump possa mudar de ideia. Segundo a Reuters, o secretário de Estado Marco Rubio recomendou autorizar a entrada da família, e um assessor de Trump ajudou a organizar a viagem; a Casa Branca e o Departamento de Estado não comentaram. Segundo o Metrópoles, Flávio montou uma equipe de advogados que deve alegar perseguição e tenta levar o inquérito de lavagem de dinheiro de Moraes para o ministro André Mendonça; a reportagem diz que ele deve pedir asilo, mas não há pedido confirmado. Um grupo de advogados pediu à PF que apure o uso do brasão da República na carta. Moraes ainda não decidiu sobre os pedidos de prisão."
+        "No fim da manhã desta sexta (30/10), a agência Reuters, citando uma autoridade americana e outra pessoa a par do assunto, sem identificá-las, informou que o governo Trump não tem planos de apoiar Flávio como líder legítimo do Brasil, embora Trump possa mudar de ideia. Segundo a Reuters, o secretário de Estado Marco Rubio recomendou autorizar a entrada da família, e um assessor de Trump ajudou a organizar a viagem; a Casa Branca e o Departamento de Estado não comentaram. Segundo o Metrópoles, Flávio montou uma equipe de advogados que deve alegar perseguição e tenta levar o inquérito de lavagem de dinheiro de Moraes para o ministro André Mendonça; a reportagem diz que ele deve pedir asilo, mas não há pedido confirmado. Um grupo de advogados pediu à PF que apure o uso do brasão da República na carta. Moraes ainda não decidiu sobre os pedidos de prisão.",
+        "Até o fim da tarde desta sexta (30/10), não houve decisão de Moraes sobre os pedidos de prisão nem pedido de asilo confirmado. A agência Lupa checou que um vídeo de militares americanos rindo, que circula nas redes como um suposto 'resgate' de Flávio, não tem relação com o caso. Aliados de Flávio seguem dizendo que as medidas de Moraes são exageradas e que a saída do país foi uma reação a perseguição; o governo e aliados de Lula dizem que ele fugiu para escapar da Justiça."
       ],
       "cadeia": [
         "Flávio perde o 2º turno e anuncia ações de cassação no TSE",
@@ -600,10 +601,18 @@
         {
           "nome": "CNN Brasil (o que se sabe)",
           "url": "https://www.cnnbrasil.com.br/politica/o-que-se-sabe-sobre-a-saida-de-flavio-bolsonaro-do-brasil/"
+        },
+        {
+          "nome": "Lupa (vídeo falso de resgate)",
+          "url": "https://www.agencialupa.org/verificacao/2026/10/30/video-de-militares-dos-eua-gargalhando-nao-mostra-resgate-de-flavio-bolsonaro/"
+        },
+        {
+          "nome": "Imirante (defesa e asilo)",
+          "url": "https://m.imirante.com/noticias/mundo/2026/10/30/ipolitica-flavio-bolsonaro-prepara-defesa-stf-deve-pedir-asilo-politico-eua"
         }
       ],
       "indicadores": [],
-      "atualizadoEm": "2026-10-30T11:50:00-03:00",
+      "atualizadoEm": "2026-10-30T17:45:00-03:00",
       "atualizacoes": [
         {
           "hora": "7h",
@@ -612,19 +621,23 @@
         {
           "hora": "11h",
           "texto": "Reuters diz que o governo Trump não pretende apoiar Flávio como líder do Brasil; defesa dele deve alegar perseguição e tenta tirar o caso de Moraes."
+        },
+        {
+          "hora": "17h",
+          "texto": "Sem decisão de Moraes nem pedido de asilo confirmado até o fim da tarde; Lupa desmente vídeo de suposto 'resgate' de Flávio."
         }
       ],
       "referencia": {
-        "dolar": 5.43,
-        "ibov": 168525.83,
+        "dolar": 5.44,
+        "ibov": 167921.8,
         "selic": 13.75
       }
     },
     {
       "id": "bolsa",
       "tema": "Bolsa e dólar",
-      "titulo": "Ibovespa abre em queda e caminha para o 5º pregão de perdas; dólar sobe a R$ 5,43",
-      "chamada": "Desemprego no menor nível para o período desde 2012 não anima: pesam o temor fiscal, a queda das bolsas americanas e balanços fracos. Entenda o que explica e o que pode acalmar o mercado.",
+      "titulo": "Ibovespa fecha em queda pelo 5º pregão e tem a pior semana desde 2020; dólar vai a R$ 5,44",
+      "chamada": "Nem o desemprego no menor nível para o período desde 2012 segurou a bolsa: pesaram o temor fiscal, a dúvida sobre a equipe econômica e a queda em Nova York. Entenda o que explica e o que pode acalmar o mercado.",
       "data": "30/10/2026",
       "inicio": [
         "Na segunda (26/10), primeiro pregão depois do 2º turno, o Ibovespa fechou em queda de 13,88%, aos 176.608 pontos, o pior dia desde março de 2020. Na mínima chegou a cair mais de 17%, e a B3 parou o pregão por 30 minutos (circuit breaker).",
@@ -640,7 +653,8 @@
         "À tarde, o Ibovespa acelerou a queda e perdeu os 170 mil pontos pela primeira vez desde meados de agosto. No fechamento, ficou em 169.186 pontos (-1,06%), quarto pregão seguido de perdas, depois de oscilar entre 168.765 e 171.403; na semana, a queda passa de 16%. Bradesco (-3,5%), B3 (-3,3%) e Vale (-2,2%) pesaram, enquanto WEG (+4,4%) e Suzano (+3,4%), exportadoras, subiram. O dólar fechou a R$ 5,38, alta de cerca de 0,9%, depois de passar de R$ 5,40 durante o dia. Nos EUA, o Nasdaq caiu 1,38%. Uma correção: o Caged de setembro não saiu hoje; pelo calendário do Ministério do Trabalho, sai em 4/11.",
         "Depois do fechamento, a Vale informou lucro de US$ 1,25 bilhão no 3º trimestre, queda de 54% em um ano e abaixo dos US$ 1,51 bilhão esperados pelo mercado (consenso Bloomberg). A empresa citou o minério mais barato, o real mais forte no trimestre e o combustível de navios mais caro; o Ebitda veio um pouco acima do esperado.",
         "Na manhã desta sexta (30/10), a agenda traz o Indicador de Incerteza da FGV (8h), as estatísticas fiscais de setembro do Banco Central (8h30) e a Pnad Contínua do IBGE (9h), com desemprego esperado perto de 5,2%; a Aneel define a bandeira de energia de novembro. O investidor também reage ao lucro da Vale abaixo do esperado e, segundo o InfoMoney, os futuros da Nasdaq recuavam depois dos balanços de Amazon e Intel.",
-        "Nesta sexta (30/10), o IBGE informou que o desemprego caiu para 5,2% no trimestre até setembro, como os analistas esperavam e o menor para esse período desde 2012; a renda média subiu 3,6% em um ano, para R$ 3.790. Uma correção: as contas públicas de setembro saíram na quinta (29/10), com déficit de R$ 5,5 bilhões e dívida bruta em 82,9% do PIB. O Ibovespa abriu estável, mas recuou cerca de 1%, para perto de 167 mil pontos, por volta das 10h20; às 11h14 estava em 168.526 pontos (-0,39%), rumo ao 5º pregão seguido de queda. Bancos, B3 (-3,8%), varejo e Usiminas (-7%, após lucro abaixo do esperado) caíam; Vale virou para alta e Petrobras subia com o petróleo Brent perto de US$ 117. O dólar subiu a cerca de R$ 5,43. Lá fora, os futuros da Nasdaq caíam cerca de 2% depois dos balanços de Amazon e Intel, e um ataque hacker de cerca de US$ 6,3 bilhões à corretora Binance pesou no humor."
+        "Nesta sexta (30/10), o IBGE informou que o desemprego caiu para 5,2% no trimestre até setembro, como os analistas esperavam e o menor para esse período desde 2012; a renda média subiu 3,6% em um ano, para R$ 3.790. Uma correção: as contas públicas de setembro saíram na quinta (29/10), com déficit de R$ 5,5 bilhões e dívida bruta em 82,9% do PIB. O Ibovespa abriu estável, mas recuou cerca de 1%, para perto de 167 mil pontos, por volta das 10h20; às 11h14 estava em 168.526 pontos (-0,39%), rumo ao 5º pregão seguido de queda. Bancos, B3 (-3,8%), varejo e Usiminas (-7%, após lucro abaixo do esperado) caíam; Vale virou para alta e Petrobras subia com o petróleo Brent perto de US$ 117. O dólar subiu a cerca de R$ 5,43. Lá fora, os futuros da Nasdaq caíam cerca de 2% depois dos balanços de Amazon e Intel, e um ataque hacker de cerca de US$ 6,3 bilhões à corretora Binance pesou no humor.",
+        "No fechamento desta sexta (30/10), o Ibovespa caiu 0,75%, aos 167.922 pontos, depois de oscilar entre 167.008 e 169.185: foi o 5º pregão seguido de perdas. Pelas contas do Radar, a queda na semana fica perto de 18% (de cerca de 205 mil para 168 mil pontos); o Money Times a chama de a pior semana em seis anos. O dólar subiu 1,1%, a R$ 5,44, também pressionado pela formação da Ptax de fim de mês. Bancos e varejistas caíram com a alta dos juros, enquanto Vale e Petrobras subiram. Em Nova York, o Nasdaq recuou 2,86% e o S&P 500, 1,76%. Segundo Nicolas Gass, da GT Capital, o mercado apostava em troca de governo e fez uma forte correção depois da reeleição."
       ],
       "cadeia": [
         "O mercado apostava na vitória de Flávio e comprou muitas ações",
@@ -799,13 +813,21 @@
         {
           "nome": "Money Times (Vale 3T26)",
           "url": "https://www.moneytimes.com.br/lucro-liquido-da-vale-vale3-cai-54-no-3t26-para-us-125-bilhao-abaixo-das-expectativas-do-mercado-bdap/"
+        },
+        {
+          "nome": "BPMoney (fechamento 30/10)",
+          "url": "https://bpmoney.com.br/mercado/ibovespa-cai-075-e-fecha-aos-1679-mil-pontos-dolar-sobe/"
+        },
+        {
+          "nome": "Money Times (pior semana em seis anos)",
+          "url": "https://www.moneytimes.com.br/ibovespa-30-10-26-lils/"
         }
       ],
       "indicadores": [
         "dolar",
         "ibov"
       ],
-      "atualizadoEm": "2026-10-30T11:50:00-03:00",
+      "atualizadoEm": "2026-10-30T17:45:00-03:00",
       "atualizacoes": [
         {
           "hora": "7h",
@@ -814,11 +836,15 @@
         {
           "hora": "11h",
           "texto": "Desemprego cai a 5,2%, mas Ibovespa abre em queda pelo 5º pregão e dólar sobe a R$ 5,43, com Nasdaq em baixa e temor fiscal."
+        },
+        {
+          "hora": "17h",
+          "texto": "Ibovespa fecha em queda de 0,75%, aos 167.922 pontos (5º pregão de perdas, pior semana desde 2020); dólar sobe 1,1%, a R$ 5,44."
         }
       ],
       "referencia": {
-        "dolar": 5.43,
-        "ibov": 168525.83,
+        "dolar": 5.44,
+        "ibov": 167921.8,
         "selic": 13.75
       }
     },
@@ -896,7 +922,8 @@
         "Segundo a NeoFeed, os nomes mais citados para a Fazenda são Geraldo Alckmin (apontado como favorito), Rafael Fonteles e Fernando Haddad, sem confirmação. Durigan diz que as medidas fiscais serão detalhadas depois que Lula definir a equipe. Jeferson Bittencourt, do ASA e ex-secretário do Tesouro, defende um sinal de ajuste ainda em 2026.",
         "Nesta quinta (29/10), reportagens de bastidor dizem que Lula começou a montar o segundo escalão e que Durigan também é avaliado para ficar no cargo; o nome da Fazenda segue em aberto e não há anúncio oficial. Segundo o Investidor10, o mercado segue tratando a escolha como o principal sinal sobre as contas do 4º mandato.",
         "No fim da tarde desta quinta, a Rádio CBN informou, citando fontes, que Lula deve viajar ao Piauí entre terça (3/11) e quarta (4/11) para convidar pessoalmente Rafael Fonteles para a Fazenda; segundo a mesma reportagem, aliados aconselham o governador a assumir primeiro o novo mandato no estado. Fonteles publicou no X que nunca tratou de cargos com Lula nem com ninguém e negou ter combinado a visita. Não há confirmação oficial do Planalto. Em áudio a apoiadores, Lula disse que fará um pronunciamento à nação na próxima semana. Galípolo negou ter sido sondado.",
-        "Nesta sexta (30/10), ainda não há anúncio oficial. Segundo o InfoMoney, o PT diz que o 4º mandato terá como prioridades a reforma do Judiciário, a reforma política e eleitoral e a regulação das grandes plataformas digitais; o mercado segue esperando sinais concretos sobre as contas públicas a partir de 2027."
+        "Nesta sexta (30/10), ainda não há anúncio oficial. Segundo o InfoMoney, o PT diz que o 4º mandato terá como prioridades a reforma do Judiciário, a reforma política e eleitoral e a regulação das grandes plataformas digitais; o mercado segue esperando sinais concretos sobre as contas públicas a partir de 2027.",
+        "No fim desta sexta (30/10), a BBC News Brasil informou, a partir de apurações próprias ainda não confirmadas, que Rafael Fonteles deve assumir a Fazenda e que, nesse caso, o atual ministro Dario Durigan pode deixar o cargo; Haddad, segundo a reportagem, quer voltar à vida acadêmica. Para a Casa Civil, Camilo Santana é cogitado, mas a ministra Miriam Belchior é bem avaliada por Lula. Segundo a BBC, as negociações devem começar logo depois do feriado de Finados (2/11). O Planalto não anunciou nenhum nome."
       ],
       "cadeia": [
         "Mercado reage mal à reeleição",
@@ -1003,22 +1030,30 @@
         {
           "nome": "Brasil 247 (Fonteles nega)",
           "url": "https://www.brasil247.com/brasil/fonteles-nega-convite-para-a-fazenda-e-viagem-de-lula-ao-piaui/"
+        },
+        {
+          "nome": "BBC News Brasil via O Povo (nomes cotados)",
+          "url": "https://www.opovo.com.br/agencia/bbc/2026/10/30/quem-chega-quem-fica-e-quem-sai-quais-sao-os-nomes-cotados-para-o-governo-lula-4.html"
         }
       ],
       "indicadores": [
         "dolar",
         "selic"
       ],
-      "atualizadoEm": "2026-10-30T06:55:00-03:00",
+      "atualizadoEm": "2026-10-30T17:45:00-03:00",
       "atualizacoes": [
         {
           "hora": "7h",
           "texto": "Sem anúncio oficial da Fazenda; PT lista reformas do Judiciário e política e regulação das plataformas como prioridades."
+        },
+        {
+          "hora": "17h",
+          "texto": "BBC Brasil diz que Fonteles deve assumir a Fazenda e que as conversas sobre ministérios começam depois de Finados; ainda não há anúncio oficial."
         }
       ],
       "referencia": {
-        "dolar": 5.36,
-        "ibov": 169186.42,
+        "dolar": 5.44,
+        "ibov": 167921.8,
         "selic": 13.75
       }
     },
@@ -1035,7 +1070,8 @@
         "Nesta quarta, os juros futuros voltaram a subir: o DI jan/31 passou de 14,91% para cerca de 15,11% por volta das 13h, depois de tocar 15,29%. Às 15h, o Fed, agora presidido por Kevin Warsh, manteve os juros dos EUA entre 3,75% e 4% ao ano, como esperado; parte dos economistas ainda vê chance de alta em dezembro por causa da inflação americana.",
         "No fechamento desta quarta, os juros futuros terminaram sem direção única: o DI jan/28 subiu para 14,63% e o jan/31 para 14,97%, enquanto o jan/29 ficou estável perto de 14,75%. Analistas citam a falta de sinal claro de ajuste fiscal e a possível cobrança de IOF sobre LCI, LCA e debêntures; a queda dos juros americanos de curto prazo aliviou parte da pressão.",
         "Nesta quinta (29/10), os juros futuros marcaram máximas em todos os vencimentos durante o dia, com a falta de nomes para a equipe econômica, mas viraram e fecharam em leve queda depois da notícia sobre o possível convite a Fonteles: o DI jan/28 terminou em 14,33% (de 14,41%) e o jan/31 em 15,05% (de 15,07%).",
-        "Na abertura desta sexta (30/10), os juros futuros subiram em toda a curva: às 9h18, o DI jan/28 estava em 14,41% (+0,08 ponto) e o jan/31 em 15,23% (+0,18). Segundo o Banco Central, a dívida bruta chegou a 82,9% do PIB em setembro, o maior nível desde 2021, pressionada pelos juros altos; o setor público teve déficit de R$ 5,5 bilhões no mês. O desemprego de 5,2%, o menor para o período desde 2012, mostra um mercado de trabalho ainda aquecido, um dos fatores que o BC acompanha antes do Copom de 4/11."
+        "Na abertura desta sexta (30/10), os juros futuros subiram em toda a curva: às 9h18, o DI jan/28 estava em 14,41% (+0,08 ponto) e o jan/31 em 15,23% (+0,18). Segundo o Banco Central, a dívida bruta chegou a 82,9% do PIB em setembro, o maior nível desde 2021, pressionada pelos juros altos; o setor público teve déficit de R$ 5,5 bilhões no mês. O desemprego de 5,2%, o menor para o período desde 2012, mostra um mercado de trabalho ainda aquecido, um dos fatores que o BC acompanha antes do Copom de 4/11.",
+        "No fim da tarde desta sexta (30/10), os juros futuros longos seguiram em alta, acompanhando o dólar: segundo o BPMoney, o DI jan/31 passou de 15,20% ao ano, refletindo a preocupação com as contas públicas. As taxas curtas ficaram estáveis depois do dado de desemprego, que veio em linha com o esperado."
       ],
       "cadeia": [
         "Inflação acima do teto da meta",
@@ -1130,22 +1166,30 @@
         {
           "nome": "DGABC/Estadão (DI 29/10)",
           "url": "https://www.dgabc.com.br/Noticia/4365867/taxas-de-juros-fecham-em-leve-queda-com-possivel-nomeacao-para-fazenda-no-radar"
+        },
+        {
+          "nome": "DGABC/Estadão (DI 30/10)",
+          "url": "https://www.dgabc.com.br/Noticia/4365945/taxas-longas-de-juros-sobem-com-dolar-e-curta-fica-estavel-apos-dado-de-emprego"
         }
       ],
       "indicadores": [
         "selic",
         "ipca"
       ],
-      "atualizadoEm": "2026-10-30T11:50:00-03:00",
+      "atualizadoEm": "2026-10-30T17:45:00-03:00",
       "atualizacoes": [
         {
           "hora": "11h",
           "texto": "Juros futuros abrem em alta em toda a curva; dívida bruta chega a 82,9% do PIB e desemprego cai a 5,2%."
+        },
+        {
+          "hora": "17h",
+          "texto": "Juros longos fecham a semana em alta, com o DI jan/31 acima de 15,20%; taxas curtas estáveis."
         }
       ],
       "referencia": {
-        "dolar": 5.43,
-        "ibov": 168525.83,
+        "dolar": 5.44,
+        "ibov": 167921.8,
         "selic": 13.75
       }
     },
