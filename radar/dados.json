@@ -154,54 +154,54 @@
   },
   "mercado": {
     "ibov": {
-      "pontos": 168525.83,
-      "var": -0.39,
+      "pontos": 167664.83,
+      "var": -0.9,
       "anterior": 169186.42,
       "minimo": 167007.56,
       "maximo": 169184.6,
-      "hora": "30/10 11h14",
-      "ts": 1793369665723
+      "hora": "30/10 16h28",
+      "ts": 1793388486759
     },
     "acoes": [
       {
         "ticker": "PETR4",
-        "preco": 53.55,
-        "var": 2.59
+        "preco": 52.71,
+        "var": 0.98
       },
       {
         "ticker": "VALE3",
-        "preco": 62.06,
-        "var": 3.35
+        "preco": 61.79,
+        "var": 2.9
       },
       {
         "ticker": "ITUB4",
-        "preco": 39.01,
-        "var": -1.34
+        "preco": 38.88,
+        "var": -1.67
       },
       {
         "ticker": "BBDC4",
-        "preco": 13.9,
-        "var": -1.84
+        "preco": 13.95,
+        "var": -1.48
       },
       {
         "ticker": "BBAS3",
-        "preco": 16.27,
-        "var": -1.15
+        "preco": 16.51,
+        "var": 0.3
       },
       {
         "ticker": "WEGE3",
-        "preco": 49.13,
-        "var": -0.3
+        "preco": 48.63,
+        "var": -1.32
       },
       {
         "ticker": "SUZB3",
-        "preco": 49.97,
-        "var": 0.5
+        "preco": 49.89,
+        "var": 0.34
       },
       {
         "ticker": "B3SA3",
-        "preco": 13.69,
-        "var": -3.59
+        "preco": 13.4,
+        "var": -5.63
       }
     ],
     "juros": [
@@ -235,18 +235,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.4279,
-        "var": 0.8
+        "valor": 5.4559,
+        "var": 1.32
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.0447,
-        "var": 0.46
+        "valor": 6.0896,
+        "var": 1.2
       }
     ],
-    "acoesTs": 1793369665723,
-    "moedasTs": 1793369665723,
+    "acoesTs": 1793388486759,
+    "moedasTs": 1793388486759,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -297,57 +297,57 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Hackers roubam US$ 6,3 bilhões da Binance, maior corretora de criptomoedas do mundo",
+      "titulo": "Após ataque hacker bilionário, Binance diz que investimentos de brasileiros estão seguros",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQR1YxU1Ntc2ZucVlFcDRZSXJla3JYdmFyWDMtVnAtWk9SY20tYTR1NDdsWXZabXB5d3hEc1FIQXA4XzBNZHVPMm9EdFVNVUNKTXoyNmRVa3l4X0c4U3NsTHFhUnN6bmxBdGFnSUt4THR2Nkc0ZHI4M1VBdTJNN0k3SHpITENHamhlZ3hWMFAwcmxIRjRodV9jdjVyNUlEZ2dtWFphSTY5bWkzcGZYX1N2ZnNVVGlWVllyNDdsTklOUW5uMFBhYmJwcFJDWk0yZmxOZUZCdkFlMk90VVRMMy1GblZpNVlCejjSAfYBQVVfeXFMTXNLMjNwLWRCeHI5eFFpSGtSUTN6LU5SNkFGVU5lV1VKVHlHVU1wemNHanFkS2FwekxDa0taT2dVNl91bzR5TVVnSVd6YjRuQW90YjQ5by1Qak94aXV4MmZRd05sOTZrWFI4OWtrTzBjRTJkVzJfb2NvQzVPdnMyZ2RoWWZrQ2I1eGFxbkF1TnVrRmFLZmpMME4xV1FhU3lKVkJ4S2ptT0ZocnZSYnRLZUJyVURHdUVkR3N0RHFFMmc5UjhQOXVEbVV1LXFPcjQtdjMyZWNHOFF0ODNRSVdMZU14Rlk4Q1k2ZlJ6STVkZTY1X3Z0R2pB?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPUWxiUHY1SWVvdFBKcTNQZmxPajc4dEtqdk43OXV4WmplLVhQRlJkT2VJUU84N0EyT1JnSzZsekd6bnlaY3hSSWt2cUpWVUcxc1hPd19BakdMYVcxQ3Q5OG5PWW9NWjFtSmZaTWJnS0pocnFFRTdPNFNpdk56UU1ISjczQ0k4bXg4a0hvblBUM0hKRzladElZemtkVE01Mm5RVWNGOGZIaXdJU29MN3RMLVN3aVZ3bDVIWkFmajFuTnVTUGR5LWcxVkV4SVk5S184UU94VFBJYXo2c0swNG5pRk8zZm1WQXhVWFdPV0RrVDlJZ9IBgAJBVV95cUxOajNSOWJaa0JYRzBDTFo3ZXhmam5pcE1lMzljTEJnQ18xbFd1MlRlQVJmUEtEZ2NrbmxWUGtNWWtndFJKZXR2c09WSmNVU3RmdjNnRFo5YUtRU1lyT1FWRExDbGFKYURYRl9oTjdJZ0NsX2M4OHg0b0owUWNVbDVXaVdBaVJwcUVkUkM3TUpIaUJ5Sl9IQl9VS1FzbXcyZ3dfXzZDVHp4TUY2SFc3Mm84QWMxWWNjTU1JdkVrSmN5X1dMaE9laXRiYnlMU1E4czMzRGtjYUtpS2JiTXJhNlRDZ19ZU3VvQktjT28yS0hQT09NZV83SG9hWVpuSzF3QUE4?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Desemprego cai para 5,2% no 3º tri, menor taxa da história para o período",
-      "fonte": "UOL Economia",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWmJlcW9kYW5qUXBrZ2daclRlb3FvVHRJY0JJakREN2RTRUw2eVVkRUxsdGxrSmdXcEJXSjFWbmY1bGtjbFE2YW9RTzNTUm1IU1AzNS1SZUEtUTJVUmN6d2ZjYi1BUzZibHpnN0s4STFKd0M4WlN5YU5BWGhWVEU3aW5ySUh1UUI2T05aTUln?oc=5"
+      "titulo": "Desemprego cai para 5,2% no Brasil e registra menor nível em 14 anos, diz IBGE",
+      "fonte": "Jovem Pan",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPa0VtTDNpTmJidk9jWG13MTZ5N1ZXckJnTnZBZEowXzNGb0hGTVhycmNkTjhUN1dmYjVra19tdXYyWDdDUmN1dHAtOWhhR2tHLThqMFYzMVF3T04zdVk4RTdmdHRxVEFIeV8tRTdGWVc3UWRoUEpIRFBkazlaaUVjMHJucHlyYkQyQjU1NlREU09hN0FoR2ZQWEJwSVdvY0M1LVQ3TlRRemZfT1J5VEE?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Escala 5x2: como pequenos negócios podem reorganizar equipes",
-      "fonte": "Portal Contabeis",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaE83SnpDemlQZGI2MkVoaUM2MFdGM2lGTWt5VmlzMU12NEJqTEVNelRwVEt3alZaUEctX0dWMHd0NjhRdzA1Q2NSWVlybjRyYVZlSnN1Y3VjdXpWRnIyYWdRY1UxWUFmY09vODBmS1FCMk01VGUtSllWMmtyVzhvdTdvVjk2aDh4OXBzREkzMllRenlzNEh3OWJuZVFSRzMwWWVDc2swYw?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Voo da fuga de Flávio foi pago por intermediário a partir dos EUA",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbHVMYkxCOEEtV19FZXpOZmdtRHVVVHEzLVZYSF9KYnFTUEgyZVpNSUZocEh6YjF0TnNVU19yZ2ZDZ1dtaWVDb2MzeFFLS19uYnZBRmg4WGNDOW4zQjRGQXViRnZLRE9qbEV6RS1sRlNEczR0MUoxY1dDRUNLcGNMWHJIWDBsakRIaDFyV09qbWMzSTU1ZEhtQUgtemdzVHJvRVNIWGJOZFd5dlVVVmo3MlBnMW4?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Da chefia de gabinete à Casa Civil: Lula vai mudar tudo na ‘cozinha’ do Planalto para quarto mandato",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPakE3MFpOR0RrT0JxcjZHdTRmTnNVb3UyYV9XNTlEalNwM0Q5Y1dReUZialNXaDhBdVBtMVpVeHBla3hjcG5NQWxwcWVlaHd5R1ZMSTJYRG91a0p0N0xXT3YwNnpuWXMzWnVuYWJkX19tekF3TG9GY1pmcjNCckkySmFlc3lHUTBLUDJ2emNlazEtYUZVMHNtRE04SHdlc3pVTGJ2bzBySHM1TUFQX2VmTVY2TWZZamRZdkhxRkNjZmc0SDh6MUFwWGd6cXJYbFE?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "PT vê atos de Flávio como 'novo degrau da reação autoritária' de 'derrotados' e diz que posição de Trump 'exige atenção'",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPOFRHRDhKeHIxSmZrWnQyNlV4LXBXU3lBd1g5TTRnSGhzc0s0NXdKYnlLTWJOckdxRmF3Y3BJVEtwNE1yUFoxMzJpZjhJUlU0TlBNdVR6ZldvNXZCVGdkMTlBRzB4OVk0cF9LV2JzWEJnZkZtX01kWjlhSmFUZERrR0lsNU1hcDFuNDhiTjdYcTVMVUJBakUwUUtEbHg4S21nQXVVOVJLMFNXUHlVYzZxak5kQ2lkeW5tM0NuYzAwNGNUdzBQc3J0WnFnM0cwYWItYlFsa1hmOUM3ZVVZZ0lXRnIzaGZaQ2VtZ0dEVTlBb0pCNkd5YmtsdGZ4UlJveUMwQnVV0gGSAkFVX3lxTE1XWUdUblZSWVB2cVZjN3Zfc01QaTBWMWxXWUltd0J6ZHlwRVJNUHZJMXU1VjJyZ3gwR19Ydkh1Q2RaczhzbS1FcmJxeUlYWW1vQlVvb3JBS0piSWN3bm9RWldJTEEtWXdhanpkSkIzWFJoeTk4cGk2amtma09oaUx0M1RJWnVrR2laM01hY1hJcWlpOFFSZHNzVVRpZ0ZURko3bk8yUEhaODlNQVJiNFhuVlZRbGhxR3dtWGUtX1I0dGQyLWxBOC1ydGNMQnphTjVjSHBaOV9Oak11LVJMdWxyWFY4MTctMEhia3ctZjFNZWtIcEszU3ZqTmEyUDh1YmJmTjhIYjBDcFF5OG84ZXotMnc?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Após reeleição, PT mira jovens para se renovar e preparar o pós-Lula",
-      "fonte": "Congresso em Foco",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOWxRcHhwMTl6b2N4OWViMWhhNHZVb0lMMTNfNkZxSENTQVUwYkRDS2pOQlhYd2Itb00wQlp4MGUyMkkteEJCLVVMRUozREt5UjRuX2NuZXZlMW1haUFrSGIzMGtpNFBMdTBFeE1oZXJ4eC1wZUtMNU5hRDRpN1VHYUR3T3IzOVVvT2g1Slh0bnZTZ1lPcldfUF9jS0ZyZW1OeHJ3ODIyNnhfdnFlV3JhbzE3by1HcDlzck5FNUFn?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Trump mantém críticas às eleições, porém anuncia que conversará com Lula",
-      "fonte": "Correio Braziliense",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOb01YRE9aMHlYZ3hLSnRxYm5YOTcydGh6TW1iUmhtM2lIZnJaLVpVbE1pSzlScGJmQTdYWV9fMWxpaUtzOTM2anNrMnlQZXBpUUgtM3ctZWQ4THQ0VllIQmNhcmdCSGx1clhCQXEzc3VKVlJRZFRUZElzWmhZNndEM2xLRmcwMDRuRHk1b2x0LXRUYU1mMW5yQmZ1Y2hNak1xQVlTdFJZc1NLbEVPbjl0NTlvM2JXRlowVFE?oc=5"
-    },
-    {
-      "cat": "politica",
       "titulo": "Maior desafio de Lula 4 será aprovar reformas no Congresso, diz Moody’s",
       "fonte": "CNN Brasil",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNaGhKYUhuRENldXdPQkFJU3dSeTZ5UGRvT1lBTDBtVWNtbFBtemdxeXNNY2VaWDE4aW5DSEw2WUo3LXA3RDM2YmNSZUlhUmZUbHZSMzZUenJNdXItMjFPZVI3SFFsLTFNSGhfSmt1a3RzeTM0U29BOXplTW5Wdk96aWxNS1Jlc19kSzBkZXhYbXBHRlZ0RWx5TFVVWVFwMUV0cFNVeEJGdnB5c1RzSzg0WldQb0JxMC1Ka0EwZFU1bm5zTXJ3VWhN?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Em carta, deputados dos EUA questionam papel de Trump na fuga de Flávio Bolsonaro e emissão de visto",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQanBsZDhqVUV3OTl1VjZwTVR4ZzltM1VWQUJrQm0teEhUZElCWE9ONDVxY0lfMGVBSDRUMU1Zb05GX056TjRaVkRJY0VLVjBQRlNTalFEdGh3aVU4eS1YWVVkRmptRUZRaUtIUVhHVjd4b3ZBRUlkXzNMcFdPRGRQa2tEODM2ZXltcjR0RElqRU44MTlkajRUTTBTc0kydTI2bUs0RDBpWlJhaW9vVkNWbFZKZWlyWkJUS2ZZbUxzV1ZxWnZwVEdR0gHWAUFVX3lxTFBYUU1ZMnpYZVZwR21TanBscU5jb3JRYUtvbkVMdVZTc0JEbWVPZHkzR2tRVzZ2dVllY1VYeWtLZEV2S1lxWUZzSDZ5Y0Q3OTVqM1FoTzA5Rl9xQ19wc25wbGgxYlNuSkhYMkctY3JBQ2Rwd0FfYkRnR19FSFdUUGhQWUZvMDNLMUg0bkgxcUw3RXRDYk5vczFXei1WMWppS3dyTDhYNlFOdXVZUnJZZG5Jd25acnlzN3ZkbG1XM0NlRGllM3hYUHBXaDFULXdMUzRTSW1LNWc?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "PT propõe prisão e multas contra perseguição política no trabalho",
+      "fonte": "Partido dos Trabalhadores",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPa01RM2NDa1JJUDBoUGxwYWMtVXdCcV9NM2JHazlrTzg4TVJBcE1oV0VobnhuV2pvMnlFMWs5Vk50UWF2SWhqRGhpbVRCelNpTjFOZ09NNkdfbnBWRmJHbi1fUTdsU1AzaDlKNWRVdlVRWEhpZktsd2dzMm5xZE5JeTV0VDFhYkJ6UndFTtIBlAFBVV95cUxQaFYwN0JZNDRKb3VuTTU2aVp3X0xxYkdmZmRqXzVwLXRjazNOT0VudWtMLXVQaEkzVWtQdnhOdC1ZVGxEb2xPNXBFR1NGWGdKSnE3MTgyMHREZ29iMERwaVVLUV9WSVpnV3VneXQzTWRoR0hNenBLZ2NyeENKdW04ajZvLVZJUF9GM2xFQTBBbi16a2JV?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Dono de Porsche que matou motorista de aplicativo é condenado a 17 anos de prisão",
+      "fonte": "Jovem Pan",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNX0VZVFlkX0RhOFBLczI4VmFzeHFpR0NUdElfalMyWlVCT2V0R1dHRG9kakZSdHlxMm5MRHpmMzEzenlzakVJRmhrdG8zRm1SWDROQndiSXNneXR2S2xMcmE4MEZMeF9YdktQTm0zaVNUbTF0WWhjdld1QV9MSk1RdkR3dTQ5ekZ3N1pNQ25hMDJrMzA5RzRYRU5OX0pQRkF0cHZaTGczUkRHRjJxYkpxNElKaw?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "A defesa dos servidores públicos exigirá ainda mais articulação",
+      "fonte": "Anajustra",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQS1RKYUQ1SmRMR0JadjB5WnRiWTMteS1qd3dJelpKZGhTQ08zUmlVbEVnR0JrcUdEbW4wT0pxRFlkUTBLZmN5ZTE4N21GUERJQ3JaZnlWZ3IxSkFYY2NNcU5PQkVfb2pYYWZXNkdSNkVNQUpzLXYyWUw1ZEtSOHBhMTE0cGhWQXZ6eXFvNzdGejV6dEdscjUzbVE1NWUwX3lwWjNlQmZvV3hrakk0SHpBM3ZaOTBBYkVSYWF6c0dmcG1Xdw?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Lula vai procurar centrão e condiciona indicações para ministérios a votos no Congresso",
+      "fonte": "Folha de S.Paulo",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRi1UWmlSclFyc0JpMU1VcHdNNVMwa0dLQXFQOGd5NWliVkhxbDZIQ0Z0VUt3XzF3MzFEYWUwcHdSNkhIQThVOTFfN1dtczNjb25FdWc0RTFvZkp0eXhna3lueERJSC1QVUROejlfX0VqNjNiSEozNjQ5Z09iRTFLTWFjMk1UU05LRkczTHZaNmVFMjMxUlpJcnNENF9yV2l2MVVmM09mQWpaRnNicDFWSmVacGRBSlZIbVI3c2FZdVdrZUdhNy1CS2JrM0Z1Ni14czZn?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Representação feminina: O avanço civilizatório das eleições de 2026",
+      "fonte": "Congresso em Foco",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdVUwenpvelpIeFFEU3QtSHhMRlpGbFExZUpRQXhLRkZaNzY3NnMyQVgyRWJLYlVfdTNNWTMwemlIZWdjSTQ4d1lleU1nRzJBUlRvUHZBY0JSXy1IdUVZcXJ5T1h2UWZ4QXUtNlNSZ0ZmOEw2TWtsMTZ4bDlGZVhWblRFeXh4WTNVMlhCYnNDaE9HNnZhWEU3a0l0WE1kNzNkNnZuWGVtS2I4RWNSX04wVUNyUTZLdw?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -357,15 +357,15 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "Como aliados reagem ao golpismo de Flávio Bolsonaro",
-      "fonte": "Nexo Jornal",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbEJ1VDVDcEpYSjhHVzNtLXh5RkNCUkxSemVyRUg3LXNSRGNJOVZGZEtfMWlmWUdEVk9wa3I3Z2VTd3EzMEV5ODNtbkNXdmJpUk1iTktRT2VhNkFLdkpqR3JqcE45dGdVZlh5WU8zLXp3MUpyeFRPUjB5Y25vUzJ5ajNteHRrcE1xTDhESlcwZHh2dVJUVmUtdUdjaWZ5WmlUN1Q4TDBIZjNYUHQtdDZpZ0Jn?oc=5"
+      "titulo": "'Ele achou que já estava eleito': os erros da campanha de Flávio Bolsonaro no segundo turno apontados por analistas",
+      "fonte": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5ZQ1YyWlNaaFRONUprRWp2eGZOXzhIS2RTT1BGdTV0ZVIxYTYtak42TEFabFpXR2FXUGpOeENtdE1KV0dGUmN3RnptLU9HSWNHajhibzVubjdOcWJaQ3VoVTFIVdIBaEFVX3lxTFBGUFJVZmJWSHNKRHIwVUtpdXhtZXBwNGRRa1J2RU1VdVJxcThmY3dZQW1vV2RZRkRHTHVZRVdIeHdzSjZfSTNJTkxfb2xGaE00c2M1T2dabjFvVHE5QnotUmFEdXA1ZFMx?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "A Embaixada dos Estados Unidos em Brasília informou em relatório recebido por órgãos dos EUA, como Departamento de Estado, que a vitória do presidente Luiz Inácio Lula da Silva (PT) nas eleições de domingo (25) foi \"definitiva\" e \"surpreendente\". O doc",
-      "fonte": "Instagram",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5sck1iZWRvVlY0d24ydkhoZTdVdW5BRGlGQjNjQjFUMDg4ZGxvVWxHeUdTZFI2QUI2aVd5S0FlQ004RlFMcl9wNFB4SjY0bkhWSEE?oc=5"
+      "titulo": "Como aliados reagem ao golpismo de Flávio Bolsonaro",
+      "fonte": "Nexo Jornal",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbEJ1VDVDcEpYSjhHVzNtLXh5RkNCUkxSemVyRUg3LXNSRGNJOVZGZEtfMWlmWUdEVk9wa3I3Z2VTd3EzMEV5ODNtbkNXdmJpUk1iTktRT2VhNkFLdkpqR3JqcE45dGdVZlh5WU8zLXp3MUpyeFRPUjB5Y25vUzJ5ajNteHRrcE1xTDhESlcwZHh2dVJUVmUtdUdjaWZ5WmlUN1Q4TDBIZjNYUHQtdDZpZ0Jn?oc=5"
     }
   ],
   "indicadores": {
@@ -402,8 +402,8 @@
         "fonte": "Banco Central"
       },
       "desemp": {
-        "valor": 5.3,
-        "data": "01/08/2026",
+        "valor": 5.2,
+        "data": "01/09/2026",
         "fonte": "Banco Central"
       }
     },
@@ -1459,7 +1459,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-10-30T11:14:28-03:00",
+    "atualizadoEm": "2026-10-30T16:28:08-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
