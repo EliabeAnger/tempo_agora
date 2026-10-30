@@ -154,13 +154,13 @@
   },
   "mercado": {
     "ibov": {
-      "pontos": 167664.83,
-      "var": -0.9,
+      "pontos": 167921.8,
+      "var": -0.75,
       "anterior": 169186.42,
       "minimo": 167007.56,
       "maximo": 169184.6,
-      "hora": "30/10 16h28",
-      "ts": 1793388486759
+      "hora": "30/10 20h51",
+      "ts": 1793404277858
     },
     "acoes": [
       {
@@ -170,38 +170,38 @@
       },
       {
         "ticker": "VALE3",
-        "preco": 61.79,
-        "var": 2.9
+        "preco": 62.02,
+        "var": 3.28
       },
       {
         "ticker": "ITUB4",
-        "preco": 38.88,
-        "var": -1.67
+        "preco": 38.69,
+        "var": -2.15
       },
       {
         "ticker": "BBDC4",
-        "preco": 13.95,
-        "var": -1.48
+        "preco": 13.86,
+        "var": -2.12
       },
       {
         "ticker": "BBAS3",
-        "preco": 16.51,
-        "var": 0.3
+        "preco": 16.47,
+        "var": 0.06
       },
       {
         "ticker": "WEGE3",
-        "preco": 48.63,
-        "var": -1.32
+        "preco": 48.36,
+        "var": -1.87
       },
       {
         "ticker": "SUZB3",
-        "preco": 49.89,
-        "var": 0.34
+        "preco": 50.14,
+        "var": 0.84
       },
       {
         "ticker": "B3SA3",
-        "preco": 13.4,
-        "var": -5.63
+        "preco": 13.43,
+        "var": -5.42
       }
     ],
     "juros": [
@@ -235,18 +235,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.4559,
-        "var": 1.32
+        "valor": 5.4397,
+        "var": 1.02
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.0896,
-        "var": 1.2
+        "valor": 6.0679,
+        "var": 0.84
       }
     ],
-    "acoesTs": 1793388486759,
-    "moedasTs": 1793388486759,
+    "acoesTs": 1793404277858,
+    "moedasTs": 1793404277858,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -297,39 +297,39 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Após ataque hacker bilionário, Binance diz que investimentos de brasileiros estão seguros",
+      "titulo": "Trump diz que EUA investigam se ataque contra a Binance foi feito por hackers da Coreia do Norte",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPUWxiUHY1SWVvdFBKcTNQZmxPajc4dEtqdk43OXV4WmplLVhQRlJkT2VJUU84N0EyT1JnSzZsekd6bnlaY3hSSWt2cUpWVUcxc1hPd19BakdMYVcxQ3Q5OG5PWW9NWjFtSmZaTWJnS0pocnFFRTdPNFNpdk56UU1ISjczQ0k4bXg4a0hvblBUM0hKRzladElZemtkVE01Mm5RVWNGOGZIaXdJU29MN3RMLVN3aVZ3bDVIWkFmajFuTnVTUGR5LWcxVkV4SVk5S184UU94VFBJYXo2c0swNG5pRk8zZm1WQXhVWFdPV0RrVDlJZ9IBgAJBVV95cUxOajNSOWJaa0JYRzBDTFo3ZXhmam5pcE1lMzljTEJnQ18xbFd1MlRlQVJmUEtEZ2NrbmxWUGtNWWtndFJKZXR2c09WSmNVU3RmdjNnRFo5YUtRU1lyT1FWRExDbGFKYURYRl9oTjdJZ0NsX2M4OHg0b0owUWNVbDVXaVdBaVJwcUVkUkM3TUpIaUJ5Sl9IQl9VS1FzbXcyZ3dfXzZDVHp4TUY2SFc3Mm84QWMxWWNjTU1JdkVrSmN5X1dMaE9laXRiYnlMU1E4czMzRGtjYUtpS2JiTXJhNlRDZ19ZU3VvQktjT28yS0hQT09NZV83SG9hWVpuSzF3QUE4?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOWXpVSnZRclRQZ2lJaHVSSUdRa3MycjBpeXZkc1ItYS1IRlZjNzZGVXZ6SFd4c2s5NmU2R1VwdjNqYzZSSzBRc19tcjEtZlFib0Nkck5aMEVSQ3VzblNyWHRSSkJ0TE9IbEhzbU1tdFVpb1BRMmw3TzRDZG54ckxoTU9CeE40RkFMbTRfaldfUzc5NW9VckJKczF1SW9lZDYwaWxjNDFnU1FNZ01hdmtYVWxtVGRKekNMTTVFZ2hHOTM4R09KWDU0em5sVUl2amcyRU9ZaU5URGxCQTRkVUVjVE5MZElUVTI5QmI1R2lKazRMVEVoTXdLVVlTU3DSAYsCQVVfeXFMUEl5TjJDbVJLRDI0cGtMR21naEZLb0paUmxnTWNsMU52cmp5U0k3NjNCS3dIRmg3ckpVaUVDQWdmT3E3S3dzbXRsbTJJUmFHbUowMjZCYnB5VzFYM3RRejl1dTc4SFpOWExBcV9MYW9Jcm5nLURKVHU1QklQMHBMOGV3Nk1FdDZBT2lLWjJJYnRfTDJ2bnpuQWtzUE1VVlpvLWZvTHRRT1AxaHYyakhNMmVzdXdhdDItejJfamhVdDlHdGJRWG5jSEd6ZnZCSWxGdmlITXhSLUxpLWhTcjY3OFZfNzV1T2NtS3UxcEpWczllMWFGQUZ6UTU5bmxrRTVvWlMzTm8ybXY3TFNV?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Desemprego cai para 5,2% no Brasil e registra menor nível em 14 anos, diz IBGE",
-      "fonte": "Jovem Pan",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPa0VtTDNpTmJidk9jWG13MTZ5N1ZXckJnTnZBZEowXzNGb0hGTVhycmNkTjhUN1dmYjVra19tdXYyWDdDUmN1dHAtOWhhR2tHLThqMFYzMVF3T04zdVk4RTdmdHRxVEFIeV8tRTdGWVc3UWRoUEpIRFBkazlaaUVjMHJucHlyYkQyQjU1NlREU09hN0FoR2ZQWEJwSVdvY0M1LVQ3TlRRemZfT1J5VEE?oc=5"
+      "titulo": "Conta de luz: Aneel mantém bandeira tarifária verde em novembro",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPM29QWHlmT0FWTWVaZF91ZjdSM3ZZOXpITm1aWDd4Z0EtV3VFMXZpUkluWjNqQXRTNkNoYU42NktRLWFNTGpvNEZwRnFqdHQ0c1hjQTh2M0t4MllXNmhLWlFjQlhBNUliVkRldFBEWlBoSjU5cFpqaWhTWmplZVJnUXFsU2V3UzFCLWtIZG9fY25ycVJNREdoS2JsUXVVcjV5bHlwbHNvVTRHR0NyWnhRd20zUk1XSHFfdDhrb0FMb9IBzgFBVV95cUxNT2FSa19HR3RhN1ZRSFBWSzhDWUE5TkMxM3NLUDhnUDVnZzhsa0hGV18ybmN5OTVCcVFlQXlYTzFmdEdXT1lYdjY2cG5NaHd0c2p3VUwwNW1IUTdYV0JkaUdBbEM0WWQwbFRNaE5Hc29CYmlwSk1kakZwTUQyclpTSXhPM3VZVWdrWUFqeFBjQWFPYUhKY3Fsd0o1U3lSMkxjUDhJNDRfRkRNMkRJaXNtX2dfenBubHJ3ZVFyb245YVdobE5Dbk9jY3ZSUjNkdw?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Maior desafio de Lula 4 será aprovar reformas no Congresso, diz Moody’s",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNaGhKYUhuRENldXdPQkFJU3dSeTZ5UGRvT1lBTDBtVWNtbFBtemdxeXNNY2VaWDE4aW5DSEw2WUo3LXA3RDM2YmNSZUlhUmZUbHZSMzZUenJNdXItMjFPZVI3SFFsLTFNSGhfSmt1a3RzeTM0U29BOXplTW5Wdk96aWxNS1Jlc19kSzBkZXhYbXBHRlZ0RWx5TFVVWVFwMUV0cFNVeEJGdnB5c1RzSzg0WldQb0JxMC1Ka0EwZFU1bm5zTXJ3VWhN?oc=5"
+      "titulo": "Ibovespa tem pior mês desde junho de 2022; dólar sobe 5,22% em outubro",
+      "fonte": "UOL Economia",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUWNzcnRWU1o2bEdxeWZxeFhHMjd3c3NOaGxJWUpxUzRudU14RDZ2WjgyRjJmWUF4azJTUEJ5a19JTE1BS2xHR2s0Z1JlY3cycHVUZmtkYlJReVRQSUhOejJNNEVGbE9LbTd2TmZwT1FDWEpLUlNPQW1GbmticlJkX01tUWdFeUZPR1lnalhpTHVkV0hsNkV1aUpvYlJtMGFSYXo4QzhReGZ6STNzbUNOSVA4dG9WV05ES2hfM2FrN0ZmdDNWU1JRU3B5NUczdVBFd1E?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Em carta, deputados dos EUA questionam papel de Trump na fuga de Flávio Bolsonaro e emissão de visto",
+      "titulo": "Itamaraty convoca diplomata argentina, mas evita transformar fuga de Flávio Bolsonaro em crise com Milei",
+      "fonte": "CartaCapital",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPQ2RVbDFwa2M5NUcxSVNfNHpVVmpiaXJibl9XckhxUVNmR0tlMGxDTlBzTUwxT1BjbDViMGNzbXFxMGwxUW9FZThaRUJHUndaYW52OEN5TzZLYnJFbkR2NUQyVnBJNjJQZ0k4OEVRSml2S1dkc2Q5TVhEd2VSZE83U1YyeHJFZmVaLUlZbkozUWx2WVFwR2xDc3F2T3diSTQxLVJud0pWcUp6RUZXM0NrOFJldTZTbjlIcFFwZ09xNmhXRmNudVBrVUZlM1hiamxQV080dXNJeG1sbjhNVkE?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Nikolas Ferreira critica projeto do PT sobre discriminação política",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNlo1VFFnTG9UZFUwb3hPa3BQWmczcVBZejhqRkx5MkhzOUN3dEM1QS1hX0dlRWd1Z3NydnBSNDlwRFZTbFg5Vlg3RWo2QzBkYkl4TllNcXRwQWxlODJtVF9zQW5lTFlWUXFHU3JIdnBwRzJmQ3FqZWdoYTVmODV3OEo3aW16MktPQ1N5VFNkNjQ4d2ljLXVsZmM3cld6TFZUaE1DMDJtOXFrREhmUERSaUFR?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Mauro Vieira e Marco Rubio se encontram no G20 e acertam reunião em novembro",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQanBsZDhqVUV3OTl1VjZwTVR4ZzltM1VWQUJrQm0teEhUZElCWE9ONDVxY0lfMGVBSDRUMU1Zb05GX056TjRaVkRJY0VLVjBQRlNTalFEdGh3aVU4eS1YWVVkRmptRUZRaUtIUVhHVjd4b3ZBRUlkXzNMcFdPRGRQa2tEODM2ZXltcjR0RElqRU44MTlkajRUTTBTc0kydTI2bUs0RDBpWlJhaW9vVkNWbFZKZWlyWkJUS2ZZbUxzV1ZxWnZwVEdR0gHWAUFVX3lxTFBYUU1ZMnpYZVZwR21TanBscU5jb3JRYUtvbkVMdVZTc0JEbWVPZHkzR2tRVzZ2dVllY1VYeWtLZEV2S1lxWUZzSDZ5Y0Q3OTVqM1FoTzA5Rl9xQ19wc25wbGgxYlNuSkhYMkctY3JBQ2Rwd0FfYkRnR19FSFdUUGhQWUZvMDNLMUg0bkgxcUw3RXRDYk5vczFXei1WMWppS3dyTDhYNlFOdXVZUnJZZG5Jd25acnlzN3ZkbG1XM0NlRGllM3hYUHBXaDFULXdMUzRTSW1LNWc?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "PT propõe prisão e multas contra perseguição política no trabalho",
-      "fonte": "Partido dos Trabalhadores",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPa01RM2NDa1JJUDBoUGxwYWMtVXdCcV9NM2JHazlrTzg4TVJBcE1oV0VobnhuV2pvMnlFMWs5Vk50UWF2SWhqRGhpbVRCelNpTjFOZ09NNkdfbnBWRmJHbi1fUTdsU1AzaDlKNWRVdlVRWEhpZktsd2dzMm5xZE5JeTV0VDFhYkJ6UndFTtIBlAFBVV95cUxQaFYwN0JZNDRKb3VuTTU2aVp3X0xxYkdmZmRqXzVwLXRjazNOT0VudWtMLXVQaEkzVWtQdnhOdC1ZVGxEb2xPNXBFR1NGWGdKSnE3MTgyMHREZ29iMERwaVVLUV9WSVpnV3VneXQzTWRoR0hNenBLZ2NyeENKdW04ajZvLVZJUF9GM2xFQTBBbi16a2JV?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Dono de Porsche que matou motorista de aplicativo é condenado a 17 anos de prisão",
-      "fonte": "Jovem Pan",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNX0VZVFlkX0RhOFBLczI4VmFzeHFpR0NUdElfalMyWlVCT2V0R1dHRG9kakZSdHlxMm5MRHpmMzEzenlzakVJRmhrdG8zRm1SWDROQndiSXNneXR2S2xMcmE4MEZMeF9YdktQTm0zaVNUbTF0WWhjdld1QV9MSk1RdkR3dTQ5ekZ3N1pNQ25hMDJrMzA5RzRYRU5OX0pQRkF0cHZaTGczUkRHRjJxYkpxNElKaw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVUNDR1NYUU0tTFEyMGV6WDFSQWloTlE4S3ZkR0tVaTBTRl9ZbUJjLU8xUWZuQllrSFQxbXlQMGpEZms1NnV0d3pDTDNXTllWVkFrYVhyWXVkOUtRX21VM0dIVUI4NlZpcWJKWkgxdzN2aVRCT21PQUgxNXhaSm5vYkJ4MVp0NWJhZkxsZFYtbzgzWE5nVDVpRXgzZ19nSFlXLUVHN01FUHlTUDByM2VTQnNPZ0RSeTBHSHFXWENPSVYwUVpuMndobzExb9IB2gFBVV95cUxOcEFfek4wYnROT0RFdlhLU2RUUWhzMzQtaTJ2em5hVmtCbXBDVnZHcmpWUzg2VGxkbDRFMzhpemtlUWFDd1cyUnBCUHVTNXdzbG83Q3RWX3UzZ2RwTG9NT0N3eVJWZDFMN2puSnJUSFNqOThobjF0VkJaZHc5RHVOTXNlZVdGRXhqMkxCN2lSWU0yWDFxVkdFeDUwM0swRlhLZzd6T0JlMjl0WFo1c25nOGp0LTBkQ1VJWDlGWWxwTVRQTGlfYk1FRXUtVk56SlNkQkNIRU15V25sZw?oc=5"
     },
     {
       "cat": "politica",
@@ -339,9 +339,9 @@
     },
     {
       "cat": "politica",
-      "titulo": "Lula vai procurar centrão e condiciona indicações para ministérios a votos no Congresso",
-      "fonte": "Folha de S.Paulo",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRi1UWmlSclFyc0JpMU1VcHdNNVMwa0dLQXFQOGd5NWliVkhxbDZIQ0Z0VUt3XzF3MzFEYWUwcHdSNkhIQThVOTFfN1dtczNjb25FdWc0RTFvZkp0eXhna3lueERJSC1QVUROejlfX0VqNjNiSEozNjQ5Z09iRTFLTWFjMk1UU05LRkczTHZaNmVFMjMxUlpJcnNENF9yV2l2MVVmM09mQWpaRnNicDFWSmVacGRBSlZIbVI3c2FZdVdrZUdhNy1CS2JrM0Z1Ni14czZn?oc=5"
+      "titulo": "Novo governo dependerá ainda mais do Centrão",
+      "fonte": "FecomercioSP",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNUpVWmtqdEZsSHRObmN6VzZ5S293bU43WTE4dFJVSjN5dGNIaFMyMTFYYm1ycVVmNmJIbjhScWQ5RDlJdjVOSldtXzQxWE9oeTl2MktPRHdveDFGWHA4V1VNLWtMdFpzaGpGU1ZFejdSQW5XZGYzWFhldWNiaDdvVktFbF8?oc=5"
     },
     {
       "cat": "politica",
@@ -351,21 +351,21 @@
     },
     {
       "cat": "eleicoes",
+      "titulo": "Nem fraude, nem milagre: a aritmética da virada de Lula",
+      "fonte": "JOTA Info",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOVBhZkZ2SmM2ME52X0ZkLW9DOURpT3FaLWhWS0FNenpjdFNQb3lLTkhzTHg3a2c5bjR6cVRVcWEyZEtzSHFDa1NiWUJzd3paSElCMnJCdkFPOENEdDQ4SUVTTzNOY1Y5a3hlbTgxLVozeWRDOGNRazBCQkJWUGY2UnNLVkUySUhPUFNZQVg1OV8ySmJMZTN6T1A4SHZ6Qm8?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "Batalha judicial no TSE entre Lula e Flávio Bolsonaro continua mesmo após eleição",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMHVlLTIzWVUya1ZSdzFyd0R4MS03TUxiMGJVdGctMldKVXhhcjJMcWpUTEVTRXBxS3lQOExwdFY0aDNOeUdLNENNR0ZTb3lnY0RiVDV2SmxsY3B2V0xKWV9teFNBRXNsbEdFR1BWS0tSR0ZrOWJVSk5VSzNsTnF5VUxLVl94XzBaalRBNXdTUDlNRTNJUmgyM2ZFZTZ3NGRGblFacXducDFPUWNSVXpRWEFWU1hwMnVuejNxbGRn?oc=5"
+    },
+    {
+      "cat": "eleicoes",
       "titulo": "Painel do TSE mostra reconhecimento global à vitória de Lula e isolamento do golpismo de Flávio Bolsonaro",
       "fonte": "CartaCapital",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQcVpnTk95bkh0cnF3NnJmM09hb2NQemNGS3R1REZ3SEtua25lUjVlZUVIOUt6ZEk1dm9hck51eThrU2gtck5HMVJRV0ZEdkpOZTVyQlZmS2M2aERCa1Q0Q2U1ajdpZ0xqVTBndG5BX21jNldHd1FIV3g1VnNYTGRUSkJYeTR5d0c5U0V1UzZJLXMyemxRM0FwMU5TMG1BazFIQmdSUl90d1lNb2hXNTU1Y3BSWmZ4QWNWdUhCWEJJd254eUxPTHB6T1hGOGx6QlgzSVFqNU5XM1I2ZnNqWFh6UQ?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "'Ele achou que já estava eleito': os erros da campanha de Flávio Bolsonaro no segundo turno apontados por analistas",
-      "fonte": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5ZQ1YyWlNaaFRONUprRWp2eGZOXzhIS2RTT1BGdTV0ZVIxYTYtak42TEFabFpXR2FXUGpOeENtdE1KV0dGUmN3RnptLU9HSWNHajhibzVubjdOcWJaQ3VoVTFIVdIBaEFVX3lxTFBGUFJVZmJWSHNKRHIwVUtpdXhtZXBwNGRRa1J2RU1VdVJxcThmY3dZQW1vV2RZRkRHTHVZRVdIeHdzSjZfSTNJTkxfb2xGaE00c2M1T2dabjFvVHE5QnotUmFEdXA1ZFMx?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Como aliados reagem ao golpismo de Flávio Bolsonaro",
-      "fonte": "Nexo Jornal",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbEJ1VDVDcEpYSjhHVzNtLXh5RkNCUkxSemVyRUg3LXNSRGNJOVZGZEtfMWlmWUdEVk9wa3I3Z2VTd3EzMEV5ODNtbkNXdmJpUk1iTktRT2VhNkFLdkpqR3JqcE45dGdVZlh5WU8zLXp3MUpyeFRPUjB5Y25vUzJ5ajNteHRrcE1xTDhESlcwZHh2dVJUVmUtdUdjaWZ5WmlUN1Q4TDBIZjNYUHQtdDZpZ0Jn?oc=5"
     }
   ],
   "indicadores": {
@@ -1503,7 +1503,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-10-30T16:28:08-03:00",
+    "atualizadoEm": "2026-10-30T20:51:21-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
