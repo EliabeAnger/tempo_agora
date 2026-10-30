@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-10-29T23:10:00-03:00",
-  "alerta": "Ibovespa fecha em queda de 1,06%, aos 169.186 pontos (4º pregão seguido), e dólar sobe a R$ 5,38. Segundo a CBN, Lula deve ir ao Piauí na próxima semana convidar Rafael Fonteles para a Fazenda; Fonteles nega ter tratado do assunto.",
+  "atualizadoEm": "2026-10-30T06:55:00-03:00",
+  "alerta": "Nesta sexta (30/10), o mercado espera o desemprego (Pnad, 9h) e as contas públicas do BC (8h30), depois de 4 quedas seguidas do Ibovespa. Flávio segue nos EUA, e Moraes ainda não decidiu sobre os pedidos de prisão.",
   "eleicoes": {
     "candidatos": [
       {
@@ -444,7 +444,8 @@
         "No fim da manhã desta quinta, o jornal O Globo mostrou o registro de imigração de Flávio: ele foi admitido nos EUA em 28/10 por razões humanitárias, numa autorização dada no próprio aeroporto e válida até 27/10/2027, que o governo americano pode encerrar. O visto prometido pelo Departamento de Estado ainda não aparece. Segundo fonte policial ouvida pela CNN Brasil, ele usou um passaporte italiano, que a PF não tem como cancelar, e não passou por controle da PF na ponte de Foz do Iguaçu. Trump disse que autorizou a entrada, mas que não vai se envolver.",
         "No PL, o presidente Valdemar Costa Neto visitou Jair Bolsonaro, que cumpre prisão domiciliar, com autorização do STF, e disse que não gostou da carta em que Flávio se apresenta como presidente eleito; segundo a Folha, a carta teve ao menos quatro versões. O governador Tarcísio de Freitas disse que o caminho é respeitar o resultado das urnas. A coletiva de Flávio em Miami segue prevista para a tarde, sem horário nem local divulgados.",
         "No fim da tarde desta quinta, não havia registro de que a coletiva em Miami tenha acontecido; reportagens do SBT News e do Estado de Minas dizem que ela foi cancelada. Segundo o O Globo, citado pelo Brasil 247, a direção do PL pressionou Flávio a corrigir a carta, e Valdemar resumiu: 'compreendemos, mas não aprovamos'. Rogério Marinho chamou a expressão 'presidente eleito' de erro de redação e disse que o PL não tem provas de fraude. Paulo Figueiredo atribuiu a primeira versão a um erro de inteligência artificial, sem mostrar comprovação. Valdemar disse ainda que nem Jair Bolsonaro sabia que o filho sairia do país. Segundo uma colunista do SBT News, um integrante do governo Trump, sem se identificar, disse que os EUA não querem ver Flávio se apresentar como presidente; não houve nota oficial da Casa Branca. Moraes ainda não decidiu sobre os pedidos de prisão.",
-        "Até o fim da noite desta quinta, Flávio seguia nos EUA sem ter dado a entrevista anunciada e sem pedido formal de asilo confirmado; Moraes ainda não decidiu sobre os pedidos de prisão e de alerta da Interpol. Em áudio enviado a apoiadores, Lula disse que fará um pronunciamento à nação na próxima semana."
+        "Até o fim da noite desta quinta, Flávio seguia nos EUA sem ter dado a entrevista anunciada e sem pedido formal de asilo confirmado; Moraes ainda não decidiu sobre os pedidos de prisão e de alerta da Interpol. Em áudio enviado a apoiadores, Lula disse que fará um pronunciamento à nação na próxima semana.",
+        "Na manhã desta sexta (30/10), não havia novidade oficial: Flávio segue nos EUA, sem pedido de asilo confirmado, e Moraes ainda não decidiu sobre os pedidos de prisão. Na imprensa, ganha espaço a disputa pela liderança da oposição: segundo a CNN Brasil, aliados da família Bolsonaro e do Centrão veem o governador Tarcísio de Freitas como o nome mais bem posicionado, de olho em 2030; o jornal português DN resumiu que a direita vira as costas a Flávio."
       ],
       "cadeia": [
         "Flávio perde o 2º turno e anuncia ações de cassação no TSE",
@@ -475,6 +476,14 @@
       ],
       "bolso": [],
       "fontes": [
+        {
+          "nome": "Itatiaia/CNN Brasil (liderança da direita)",
+          "url": "https://www.itatiaia.com.br/politica/fuga-de-flavio-bolsonaro-abre-disputa-por-lideranca-da-direita-no-brasil/"
+        },
+        {
+          "nome": "DN (capa de 30/10)",
+          "url": "https://www.dn.pt/edicao-diaria/leia-aqui-o-dn-desta-sexta-feira-30-de-outubro"
+        },
         {
           "nome": "SBT News (incômodo no governo Trump)",
           "url": "https://sbtnews.sbt.com.br/noticia/mundo/casa-branca-avisa-flavio-declarar-se-presidente-e-inviavel"
@@ -581,10 +590,15 @@
         }
       ],
       "indicadores": [],
-      "atualizadoEm": "2026-10-29T23:10:00-03:00",
-      "atualizacoes": [],
+      "atualizadoEm": "2026-10-30T06:55:00-03:00",
+      "atualizacoes": [
+        {
+          "hora": "7h",
+          "texto": "Sem decisão de Moraes até a manhã de sexta; na direita, cresce a discussão sobre quem lidera a oposição, com Tarcísio citado."
+        }
+      ],
       "referencia": {
-        "dolar": 5.38,
+        "dolar": 5.36,
         "ibov": 169186.42,
         "selic": 13.75
       }
@@ -607,7 +621,8 @@
         "Nesta quinta (29/10), o IGP-M de outubro subiu 1,47%, abaixo dos 1,59% esperados (pesquisa Reuters), e acumula 5,24% em 12 meses. O Caged de setembro sai às 14h30, e a Vale divulga o balanço depois do fechamento. Na decisão de quarta, o Fed manteve os juros por 10 votos a 2, e os dois votos contrários defendiam alta.",
         "O Ibovespa abriu em leve queda e, às 11h25, estava em 170.382 pontos (-0,37%); Bradesco (-2,6%), B3 (-1,8%) e Vale (-1,1%) caíam, e Petrobras subia 0,8%. O dólar subia 0,5%, a R$ 5,37. Os juros futuros longos operavam em alta, perto de 15% ao ano. Lá fora, o resultado da Alphabet decepcionou e pesava nas bolsas americanas.",
         "À tarde, o Ibovespa acelerou a queda e perdeu os 170 mil pontos pela primeira vez desde meados de agosto. No fechamento, ficou em 169.186 pontos (-1,06%), quarto pregão seguido de perdas, depois de oscilar entre 168.765 e 171.403; na semana, a queda passa de 16%. Bradesco (-3,5%), B3 (-3,3%) e Vale (-2,2%) pesaram, enquanto WEG (+4,4%) e Suzano (+3,4%), exportadoras, subiram. O dólar fechou a R$ 5,38, alta de cerca de 0,9%, depois de passar de R$ 5,40 durante o dia. Nos EUA, o Nasdaq caiu 1,38%. Uma correção: o Caged de setembro não saiu hoje; pelo calendário do Ministério do Trabalho, sai em 4/11.",
-        "Depois do fechamento, a Vale informou lucro de US$ 1,25 bilhão no 3º trimestre, queda de 54% em um ano e abaixo dos US$ 1,51 bilhão esperados pelo mercado (consenso Bloomberg). A empresa citou o minério mais barato, o real mais forte no trimestre e o combustível de navios mais caro; o Ebitda veio um pouco acima do esperado."
+        "Depois do fechamento, a Vale informou lucro de US$ 1,25 bilhão no 3º trimestre, queda de 54% em um ano e abaixo dos US$ 1,51 bilhão esperados pelo mercado (consenso Bloomberg). A empresa citou o minério mais barato, o real mais forte no trimestre e o combustível de navios mais caro; o Ebitda veio um pouco acima do esperado.",
+        "Na manhã desta sexta (30/10), a agenda traz o Indicador de Incerteza da FGV (8h), as estatísticas fiscais de setembro do Banco Central (8h30) e a Pnad Contínua do IBGE (9h), com desemprego esperado perto de 5,2%; a Aneel define a bandeira de energia de novembro. O investidor também reage ao lucro da Vale abaixo do esperado e, segundo o InfoMoney, os futuros da Nasdaq recuavam depois dos balanços de Amazon e Intel."
       ],
       "cadeia": [
         "O mercado apostava na vitória de Flávio e comprou muitas ações",
@@ -647,6 +662,10 @@
         "Em momentos assim, renda fixa pós-fixada (atrelada ao CDI) costuma ser vista como mais defensiva"
       ],
       "fontes": [
+        {
+          "nome": "InfoMoney (agenda de 30/10)",
+          "url": "https://www.infomoney.com.br/mercados/desemprego-brasil-pib-europa-balanco-vale-agenda-30102026/"
+        },
         {
           "nome": "Investidor10 (Ibovespa perde os 170 mil)",
           "url": "https://investidor10.com.br/noticias/ibovespa-entra-no-4-dia-de-baixas-e-perde-os-170-mil-pontos-123591/"
@@ -752,10 +771,15 @@
         "dolar",
         "ibov"
       ],
-      "atualizadoEm": "2026-10-29T23:10:00-03:00",
-      "atualizacoes": [],
+      "atualizadoEm": "2026-10-30T06:55:00-03:00",
+      "atualizacoes": [
+        {
+          "hora": "7h",
+          "texto": "Mercado abre a sexta de olho na Pnad (9h), nas contas públicas do BC e na reação ao lucro menor da Vale."
+        }
+      ],
       "referencia": {
-        "dolar": 5.38,
+        "dolar": 5.36,
         "ibov": 169186.42,
         "selic": 13.75
       }
@@ -833,7 +857,8 @@
         "O próprio Fonteles disse, ao voltar a Teresina na segunda, que nunca tratou do assunto com Lula e que não cogitava a hipótese; o vice-governador eleito do Piauí disse estar pronto para assumir se houver convite.",
         "Segundo a NeoFeed, os nomes mais citados para a Fazenda são Geraldo Alckmin (apontado como favorito), Rafael Fonteles e Fernando Haddad, sem confirmação. Durigan diz que as medidas fiscais serão detalhadas depois que Lula definir a equipe. Jeferson Bittencourt, do ASA e ex-secretário do Tesouro, defende um sinal de ajuste ainda em 2026.",
         "Nesta quinta (29/10), reportagens de bastidor dizem que Lula começou a montar o segundo escalão e que Durigan também é avaliado para ficar no cargo; o nome da Fazenda segue em aberto e não há anúncio oficial. Segundo o Investidor10, o mercado segue tratando a escolha como o principal sinal sobre as contas do 4º mandato.",
-        "No fim da tarde desta quinta, a Rádio CBN informou, citando fontes, que Lula deve viajar ao Piauí entre terça (3/11) e quarta (4/11) para convidar pessoalmente Rafael Fonteles para a Fazenda; segundo a mesma reportagem, aliados aconselham o governador a assumir primeiro o novo mandato no estado. Fonteles publicou no X que nunca tratou de cargos com Lula nem com ninguém e negou ter combinado a visita. Não há confirmação oficial do Planalto. Em áudio a apoiadores, Lula disse que fará um pronunciamento à nação na próxima semana. Galípolo negou ter sido sondado."
+        "No fim da tarde desta quinta, a Rádio CBN informou, citando fontes, que Lula deve viajar ao Piauí entre terça (3/11) e quarta (4/11) para convidar pessoalmente Rafael Fonteles para a Fazenda; segundo a mesma reportagem, aliados aconselham o governador a assumir primeiro o novo mandato no estado. Fonteles publicou no X que nunca tratou de cargos com Lula nem com ninguém e negou ter combinado a visita. Não há confirmação oficial do Planalto. Em áudio a apoiadores, Lula disse que fará um pronunciamento à nação na próxima semana. Galípolo negou ter sido sondado.",
+        "Nesta sexta (30/10), ainda não há anúncio oficial. Segundo o InfoMoney, o PT diz que o 4º mandato terá como prioridades a reforma do Judiciário, a reforma política e eleitoral e a regulação das grandes plataformas digitais; o mercado segue esperando sinais concretos sobre as contas públicas a partir de 2027."
       ],
       "cadeia": [
         "Mercado reage mal à reeleição",
@@ -869,6 +894,14 @@
         "Para dinheiro de curto prazo, aplicações atreladas ao CDI ou à Selic oscilam menos"
       ],
       "fontes": [
+        {
+          "nome": "Money Times/Estadão (convite e pronunciamento)",
+          "url": "https://www.moneytimes.com.br/em-audio-enviado-ao-exercito-do-lula-presidente-diz-que-fara-pronunciamento-em-breve-gaep/"
+        },
+        {
+          "nome": "InfoMoney (prioridades do PT)",
+          "url": "https://www.infomoney.com.br/mercados/desemprego-brasil-pib-europa-balanco-vale-agenda-30102026/"
+        },
         {
           "nome": "TV Sim Brasil (novo ministério)",
           "url": "https://tvsimbrasil.com.br/brasil/politica/noticia/2026/10/29/lula-articula-novo-ministerio-proximo-governo"
@@ -938,10 +971,15 @@
         "dolar",
         "selic"
       ],
-      "atualizadoEm": "2026-10-29T23:10:00-03:00",
-      "atualizacoes": [],
+      "atualizadoEm": "2026-10-30T06:55:00-03:00",
+      "atualizacoes": [
+        {
+          "hora": "7h",
+          "texto": "Sem anúncio oficial da Fazenda; PT lista reformas do Judiciário e política e regulação das plataformas como prioridades."
+        }
+      ],
       "referencia": {
-        "dolar": 5.38,
+        "dolar": 5.36,
         "ibov": 169186.42,
         "selic": 13.75
       }
