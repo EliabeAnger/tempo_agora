@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-10-30T06:55:00-03:00",
-  "alerta": "Nesta sexta (30/10), o mercado espera o desemprego (Pnad, 9h) e as contas públicas do BC (8h30), depois de 4 quedas seguidas do Ibovespa. Flávio segue nos EUA, e Moraes ainda não decidiu sobre os pedidos de prisão.",
+  "atualizadoEm": "2026-10-30T11:50:00-03:00",
+  "alerta": "Ibovespa abre a sexta (30/10) em queda e caminha para o 5º pregão seguido de perdas, perto de 168,5 mil pontos; dólar sobe a R$ 5,43. Desemprego cai a 5,2%, o menor para o período desde 2012. Reuters diz que o governo Trump não pretende apoiar Flávio como líder do Brasil.",
   "eleicoes": {
     "candidatos": [
       {
@@ -142,6 +142,10 @@
         "texto": "Em áudio a apoiadores, Lula diz que fará um pronunciamento à nação na próxima semana. Moraes ainda não decidiu sobre os pedidos de prisão de Flávio, que segue nos EUA."
       },
       {
+        "data": "30/10",
+        "texto": "Reuters, citando fontes anônimas, diz que o governo Trump não pretende apoiar Flávio como líder do Brasil, mas pode mudar de posição. Segundo o Metrópoles, a defesa dele vai alegar perseguição e tenta tirar de Moraes o inquérito de lavagem de dinheiro."
+      },
+      {
         "data": "05/01/27",
         "texto": "Posse do presidente eleito.",
         "futuro": true
@@ -203,28 +207,28 @@
     "juros": [
       {
         "nome": "DI jan/2027",
-        "taxa": 13.62,
-        "var": -0.003
+        "taxa": 13.642,
+        "var": 0.003
       },
       {
         "nome": "DI jan/2028",
-        "taxa": 14.325,
-        "var": -0.083
+        "taxa": 14.405,
+        "var": 0.08
       },
       {
         "nome": "DI jan/2031",
-        "taxa": 15.05,
-        "var": -0.022
+        "taxa": 15.23,
+        "var": 0.18
       },
       {
         "nome": "DI jan/2033",
-        "taxa": 15.095,
-        "var": 0.055
+        "taxa": 15.32,
+        "var": 0.185
       },
       {
         "nome": "DI jan/2035",
-        "taxa": 15.05,
-        "var": 0.07
+        "taxa": 15.29,
+        "var": 0.175
       }
     ],
     "moedas": [
@@ -428,9 +432,9 @@
     {
       "id": "eleicao",
       "tema": "Eleições",
-      "titulo": "Coletiva de Flávio em Miami não acontece; PL diz que 'não aprova' a carta e Casa Branca mostra incômodo",
-      "chamada": "Flávio foi admitido nos EUA por razões humanitárias, por até 1 ano. A entrevista anunciada para esta quinta não ocorreu, e o PL pressionou pela correção da carta. O que se sabe e o que cada lado diz.",
-      "data": "29/10/2026",
+      "titulo": "Reuters: governo Trump não pretende apoiar Flávio como líder do Brasil; defesa dele deve alegar perseguição",
+      "chamada": "Flávio segue em Miami, admitido por razões humanitárias por até 1 ano, e monta equipe de advogados. Moraes ainda não decidiu sobre os pedidos de prisão. O que se sabe e o que cada lado diz.",
+      "data": "30/10/2026",
       "inicio": [
         "Lula venceu o 2º turno com 51,79% dos votos válidos, e o TSE confirmou o resultado. O PL reconheceu a vitória, mas Flávio Bolsonaro anunciou ações para cassar a chapa Lula-Alckmin.",
         "Na segunda (26/10), o ministro Alexandre de Moraes (STF) deu 24 horas para Flávio entregar os passaportes e o proibiu de sair do país, num inquérito sobre suspeita de lavagem de dinheiro e evasão de divisas. Moraes citou uma entrevista em que Eduardo Bolsonaro sugeriu que o irmão deixasse o Brasil se perdesse. Em vídeo, Flávio disse que cumpriria a ordem e chamou a medida de intimidação.",
@@ -445,7 +449,8 @@
         "No PL, o presidente Valdemar Costa Neto visitou Jair Bolsonaro, que cumpre prisão domiciliar, com autorização do STF, e disse que não gostou da carta em que Flávio se apresenta como presidente eleito; segundo a Folha, a carta teve ao menos quatro versões. O governador Tarcísio de Freitas disse que o caminho é respeitar o resultado das urnas. A coletiva de Flávio em Miami segue prevista para a tarde, sem horário nem local divulgados.",
         "No fim da tarde desta quinta, não havia registro de que a coletiva em Miami tenha acontecido; reportagens do SBT News e do Estado de Minas dizem que ela foi cancelada. Segundo o O Globo, citado pelo Brasil 247, a direção do PL pressionou Flávio a corrigir a carta, e Valdemar resumiu: 'compreendemos, mas não aprovamos'. Rogério Marinho chamou a expressão 'presidente eleito' de erro de redação e disse que o PL não tem provas de fraude. Paulo Figueiredo atribuiu a primeira versão a um erro de inteligência artificial, sem mostrar comprovação. Valdemar disse ainda que nem Jair Bolsonaro sabia que o filho sairia do país. Segundo uma colunista do SBT News, um integrante do governo Trump, sem se identificar, disse que os EUA não querem ver Flávio se apresentar como presidente; não houve nota oficial da Casa Branca. Moraes ainda não decidiu sobre os pedidos de prisão.",
         "Até o fim da noite desta quinta, Flávio seguia nos EUA sem ter dado a entrevista anunciada e sem pedido formal de asilo confirmado; Moraes ainda não decidiu sobre os pedidos de prisão e de alerta da Interpol. Em áudio enviado a apoiadores, Lula disse que fará um pronunciamento à nação na próxima semana.",
-        "Na manhã desta sexta (30/10), não havia novidade oficial: Flávio segue nos EUA, sem pedido de asilo confirmado, e Moraes ainda não decidiu sobre os pedidos de prisão. Na imprensa, ganha espaço a disputa pela liderança da oposição: segundo a CNN Brasil, aliados da família Bolsonaro e do Centrão veem o governador Tarcísio de Freitas como o nome mais bem posicionado, de olho em 2030; o jornal português DN resumiu que a direita vira as costas a Flávio."
+        "Na manhã desta sexta (30/10), não havia novidade oficial: Flávio segue nos EUA, sem pedido de asilo confirmado, e Moraes ainda não decidiu sobre os pedidos de prisão. Na imprensa, ganha espaço a disputa pela liderança da oposição: segundo a CNN Brasil, aliados da família Bolsonaro e do Centrão veem o governador Tarcísio de Freitas como o nome mais bem posicionado, de olho em 2030; o jornal português DN resumiu que a direita vira as costas a Flávio.",
+        "No fim da manhã desta sexta (30/10), a agência Reuters, citando uma autoridade americana e outra pessoa a par do assunto, sem identificá-las, informou que o governo Trump não tem planos de apoiar Flávio como líder legítimo do Brasil, embora Trump possa mudar de ideia. Segundo a Reuters, o secretário de Estado Marco Rubio recomendou autorizar a entrada da família, e um assessor de Trump ajudou a organizar a viagem; a Casa Branca e o Departamento de Estado não comentaram. Segundo o Metrópoles, Flávio montou uma equipe de advogados que deve alegar perseguição e tenta levar o inquérito de lavagem de dinheiro de Moraes para o ministro André Mendonça; a reportagem diz que ele deve pedir asilo, mas não há pedido confirmado. Um grupo de advogados pediu à PF que apure o uso do brasão da República na carta. Moraes ainda não decidiu sobre os pedidos de prisão."
       ],
       "cadeia": [
         "Flávio perde o 2º turno e anuncia ações de cassação no TSE",
@@ -453,7 +458,7 @@
         "O prazo vence sem entrega e a PF cancela os documentos",
         "Ele cruza para a Argentina, voa ao Equador e pousa em Miami",
         "PF diz que ele não é foragido, mas apura a saída",
-        "Nos EUA, ele é admitido por razões humanitárias e se declara presidente eleito; o PL não aprova a carta e a coletiva não acontece"
+        "Nos EUA, ele é admitido por razões humanitárias e se declara presidente eleito; o PL não aprova a carta e, segundo a Reuters, o governo Trump não pretende apoiá-lo como líder"
       ],
       "porque": "Moraes viu risco de fuga num inquérito em que Flávio é investigado, com o advogado Willer Tomaz, por suspeita de lavagem de dinheiro ligada a empresas de apostas; os dois negam irregularidades. A decisão citou a fala de Eduardo Bolsonaro sugerindo a saída do país. Flávio diz que é perseguição e que nunca planejou sair.",
       "outraLeitura": "Flávio e aliados dizem que a ordem de Moraes, dada logo após a eleição, é perseguição política; na carta ele diz que não fugiu, que não há mandado contra ele e que a eleição foi fraudada. O pastor Silas Malafaia defendeu a viagem, e líderes do PL manifestaram apoio pessoal a ele, embora Valdemar tenha criticado a carta. Do outro lado, Lula disse que ele deveria ter provado a inocência no país, Boulos afirma que ele saiu para não responder pelos crimes investigados e deputados do PT pedem prisão. O TSE certificou o resultado e diz que a prorrogação do horário não afetou a contagem. Segundo a imprensa, até ministros do governo e integrantes da cúpula da PGR acharam a ordem de Moraes precipitada, e a cúpula do PL, que reconheceu o resultado, diz que não foi avisada da viagem. Flávio não foi condenado; as investigações estão em andamento e ele nega irregularidades.",
@@ -476,6 +481,14 @@
       ],
       "bolso": [],
       "fontes": [
+        {
+          "nome": "JM Online/Reuters (governo Trump)",
+          "url": "https://jmonline.com.br/politica/governo-trump-n-o-deve-apoiar-flavio-bolsonaro-como-lider-do-brasil-diz-reuters-1.679590"
+        },
+        {
+          "nome": "Metrópoles (defesa de Flávio)",
+          "url": "https://www.metropoles.com/brasil/flavio-monta-defesa-para-processos-no-brasil-e-deve-alegar-perseguicao"
+        },
         {
           "nome": "Itatiaia/CNN Brasil (liderança da direita)",
           "url": "https://www.itatiaia.com.br/politica/fuga-de-flavio-bolsonaro-abre-disputa-por-lideranca-da-direita-no-brasil/"
@@ -590,25 +603,29 @@
         }
       ],
       "indicadores": [],
-      "atualizadoEm": "2026-10-30T06:55:00-03:00",
+      "atualizadoEm": "2026-10-30T11:50:00-03:00",
       "atualizacoes": [
         {
           "hora": "7h",
           "texto": "Sem decisão de Moraes até a manhã de sexta; na direita, cresce a discussão sobre quem lidera a oposição, com Tarcísio citado."
+        },
+        {
+          "hora": "11h",
+          "texto": "Reuters diz que o governo Trump não pretende apoiar Flávio como líder do Brasil; defesa dele deve alegar perseguição e tenta tirar o caso de Moraes."
         }
       ],
       "referencia": {
-        "dolar": 5.36,
-        "ibov": 169186.42,
+        "dolar": 5.43,
+        "ibov": 168525.83,
         "selic": 13.75
       }
     },
     {
       "id": "bolsa",
       "tema": "Bolsa e dólar",
-      "titulo": "Ibovespa fecha em queda pelo 4º pregão seguido, abaixo dos 170 mil pontos; dólar sobe a R$ 5,38",
-      "chamada": "Temor com as contas públicas, espera pelo ministro da Fazenda e queda das bolsas americanas pesam. Entenda o que explica e o que pode acalmar o mercado.",
-      "data": "29/10/2026",
+      "titulo": "Ibovespa abre em queda e caminha para o 5º pregão de perdas; dólar sobe a R$ 5,43",
+      "chamada": "Desemprego no menor nível para o período desde 2012 não anima: pesam o temor fiscal, a queda das bolsas americanas e balanços fracos. Entenda o que explica e o que pode acalmar o mercado.",
+      "data": "30/10/2026",
       "inicio": [
         "Na segunda (26/10), primeiro pregão depois do 2º turno, o Ibovespa fechou em queda de 13,88%, aos 176.608 pontos, o pior dia desde março de 2020. Na mínima chegou a cair mais de 17%, e a B3 parou o pregão por 30 minutos (circuit breaker).",
         "O dólar fechou a R$ 5,40, alta de 8,21%, a maior em um dia desde janeiro de 1999. Os juros futuros longos subiram cerca de 2,6 pontos, para perto de 15,2% ao ano.",
@@ -622,7 +639,8 @@
         "O Ibovespa abriu em leve queda e, às 11h25, estava em 170.382 pontos (-0,37%); Bradesco (-2,6%), B3 (-1,8%) e Vale (-1,1%) caíam, e Petrobras subia 0,8%. O dólar subia 0,5%, a R$ 5,37. Os juros futuros longos operavam em alta, perto de 15% ao ano. Lá fora, o resultado da Alphabet decepcionou e pesava nas bolsas americanas.",
         "À tarde, o Ibovespa acelerou a queda e perdeu os 170 mil pontos pela primeira vez desde meados de agosto. No fechamento, ficou em 169.186 pontos (-1,06%), quarto pregão seguido de perdas, depois de oscilar entre 168.765 e 171.403; na semana, a queda passa de 16%. Bradesco (-3,5%), B3 (-3,3%) e Vale (-2,2%) pesaram, enquanto WEG (+4,4%) e Suzano (+3,4%), exportadoras, subiram. O dólar fechou a R$ 5,38, alta de cerca de 0,9%, depois de passar de R$ 5,40 durante o dia. Nos EUA, o Nasdaq caiu 1,38%. Uma correção: o Caged de setembro não saiu hoje; pelo calendário do Ministério do Trabalho, sai em 4/11.",
         "Depois do fechamento, a Vale informou lucro de US$ 1,25 bilhão no 3º trimestre, queda de 54% em um ano e abaixo dos US$ 1,51 bilhão esperados pelo mercado (consenso Bloomberg). A empresa citou o minério mais barato, o real mais forte no trimestre e o combustível de navios mais caro; o Ebitda veio um pouco acima do esperado.",
-        "Na manhã desta sexta (30/10), a agenda traz o Indicador de Incerteza da FGV (8h), as estatísticas fiscais de setembro do Banco Central (8h30) e a Pnad Contínua do IBGE (9h), com desemprego esperado perto de 5,2%; a Aneel define a bandeira de energia de novembro. O investidor também reage ao lucro da Vale abaixo do esperado e, segundo o InfoMoney, os futuros da Nasdaq recuavam depois dos balanços de Amazon e Intel."
+        "Na manhã desta sexta (30/10), a agenda traz o Indicador de Incerteza da FGV (8h), as estatísticas fiscais de setembro do Banco Central (8h30) e a Pnad Contínua do IBGE (9h), com desemprego esperado perto de 5,2%; a Aneel define a bandeira de energia de novembro. O investidor também reage ao lucro da Vale abaixo do esperado e, segundo o InfoMoney, os futuros da Nasdaq recuavam depois dos balanços de Amazon e Intel.",
+        "Nesta sexta (30/10), o IBGE informou que o desemprego caiu para 5,2% no trimestre até setembro, como os analistas esperavam e o menor para esse período desde 2012; a renda média subiu 3,6% em um ano, para R$ 3.790. Uma correção: as contas públicas de setembro saíram na quinta (29/10), com déficit de R$ 5,5 bilhões e dívida bruta em 82,9% do PIB. O Ibovespa abriu estável, mas recuou cerca de 1%, para perto de 167 mil pontos, por volta das 10h20; às 11h14 estava em 168.526 pontos (-0,39%), rumo ao 5º pregão seguido de queda. Bancos, B3 (-3,8%), varejo e Usiminas (-7%, após lucro abaixo do esperado) caíam; Vale virou para alta e Petrobras subia com o petróleo Brent perto de US$ 117. O dólar subiu a cerca de R$ 5,43. Lá fora, os futuros da Nasdaq caíam cerca de 2% depois dos balanços de Amazon e Intel, e um ataque hacker de cerca de US$ 6,3 bilhões à corretora Binance pesou no humor."
       ],
       "cadeia": [
         "O mercado apostava na vitória de Flávio e comprou muitas ações",
@@ -662,6 +680,22 @@
         "Em momentos assim, renda fixa pós-fixada (atrelada ao CDI) costuma ser vista como mais defensiva"
       ],
       "fontes": [
+        {
+          "nome": "Metrópoles (contas públicas de setembro)",
+          "url": "https://www.metropoles.com/brasil/contas-publicas-tem-deficit-de-r-55-bilhoes-em-setembro"
+        },
+        {
+          "nome": "O Povo/Estadão (desemprego 5,2%)",
+          "url": "https://www.opovo.com.br/noticias/economia/2026/10/30/taxa-de-desemprego-no-brasil-cai-para-52-no-trimestre-ate-setembro-mostra-ibge.html"
+        },
+        {
+          "nome": "InfoMoney (ao vivo 30/10)",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-30102026/"
+        },
+        {
+          "nome": "BPMoney (Ibovespa 30/10)",
+          "url": "https://bpmoney.com.br/economia/ibovespa-cai-aos-167-mil-pontos-com-bancos-e-varejo-vale-vira-para-alta/"
+        },
         {
           "nome": "InfoMoney (agenda de 30/10)",
           "url": "https://www.infomoney.com.br/mercados/desemprego-brasil-pib-europa-balanco-vale-agenda-30102026/"
@@ -771,16 +805,20 @@
         "dolar",
         "ibov"
       ],
-      "atualizadoEm": "2026-10-30T06:55:00-03:00",
+      "atualizadoEm": "2026-10-30T11:50:00-03:00",
       "atualizacoes": [
         {
           "hora": "7h",
           "texto": "Mercado abre a sexta de olho na Pnad (9h), nas contas públicas do BC e na reação ao lucro menor da Vale."
+        },
+        {
+          "hora": "11h",
+          "texto": "Desemprego cai a 5,2%, mas Ibovespa abre em queda pelo 5º pregão e dólar sobe a R$ 5,43, com Nasdaq em baixa e temor fiscal."
         }
       ],
       "referencia": {
-        "dolar": 5.36,
-        "ibov": 169186.42,
+        "dolar": 5.43,
+        "ibov": 168525.83,
         "selic": 13.75
       }
     },
@@ -989,14 +1027,15 @@
       "tema": "Juros",
       "titulo": "Juros (Selic) altos por mais tempo",
       "chamada": "A Selic está em 13,75%. Por que ela pode cair mais devagar e o que isso muda na sua vida.",
-      "data": "27/10/2026",
+      "data": "30/10/2026",
       "inicio": [
         "A Selic está em 13,75% ao ano, depois de cinco cortes em 2026. A próxima decisão do Banco Central é em 4 de novembro.",
         "A inflação de 12 meses chegou a 4,58% em setembro, acima do limite da meta (4,5%). Depois da eleição, os juros futuros longos saltaram para perto de 15,2% ao ano. Na terça fecharam em forte queda, com a ação do Tesouro e investidores atraídos pelas taxas altas: o DI jan/27 terminou em 13,64% e o jan/31 em 14,85% (era 15,28%).",
         "À tarde, o presidente do BC, Gabriel Galípolo, disse que o banco não comenta eleição nem Copom e que pretende anunciar ainda em 2026 novas medidas para quem está endividado em crédito caro, como o rotativo do cartão.",
         "Nesta quarta, os juros futuros voltaram a subir: o DI jan/31 passou de 14,91% para cerca de 15,11% por volta das 13h, depois de tocar 15,29%. Às 15h, o Fed, agora presidido por Kevin Warsh, manteve os juros dos EUA entre 3,75% e 4% ao ano, como esperado; parte dos economistas ainda vê chance de alta em dezembro por causa da inflação americana.",
         "No fechamento desta quarta, os juros futuros terminaram sem direção única: o DI jan/28 subiu para 14,63% e o jan/31 para 14,97%, enquanto o jan/29 ficou estável perto de 14,75%. Analistas citam a falta de sinal claro de ajuste fiscal e a possível cobrança de IOF sobre LCI, LCA e debêntures; a queda dos juros americanos de curto prazo aliviou parte da pressão.",
-        "Nesta quinta (29/10), os juros futuros marcaram máximas em todos os vencimentos durante o dia, com a falta de nomes para a equipe econômica, mas viraram e fecharam em leve queda depois da notícia sobre o possível convite a Fonteles: o DI jan/28 terminou em 14,33% (de 14,41%) e o jan/31 em 15,05% (de 15,07%)."
+        "Nesta quinta (29/10), os juros futuros marcaram máximas em todos os vencimentos durante o dia, com a falta de nomes para a equipe econômica, mas viraram e fecharam em leve queda depois da notícia sobre o possível convite a Fonteles: o DI jan/28 terminou em 14,33% (de 14,41%) e o jan/31 em 15,05% (de 15,07%).",
+        "Na abertura desta sexta (30/10), os juros futuros subiram em toda a curva: às 9h18, o DI jan/28 estava em 14,41% (+0,08 ponto) e o jan/31 em 15,23% (+0,18). Segundo o Banco Central, a dívida bruta chegou a 82,9% do PIB em setembro, o maior nível desde 2021, pressionada pelos juros altos; o setor público teve déficit de R$ 5,5 bilhões no mês. O desemprego de 5,2%, o menor para o período desde 2012, mostra um mercado de trabalho ainda aquecido, um dos fatores que o BC acompanha antes do Copom de 4/11."
       ],
       "cadeia": [
         "Inflação acima do teto da meta",
@@ -1032,6 +1071,14 @@
         "Para guardar dinheiro, aplicações atreladas ao CDI ou à Selic rendem bem nesse cenário"
       ],
       "fontes": [
+        {
+          "nome": "O Povo (dívida 82,9% do PIB)",
+          "url": "https://www.opovo.com.br/noticias/economia/2026/10/29/divida-publica-fica-em-829-do-pib-e-deficit-soma-rs-55-bilhoes.html"
+        },
+        {
+          "nome": "InfoMoney (DI na abertura 30/10)",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-30102026/"
+        },
         {
           "nome": "O Povo/Estadão (DI 28/10)",
           "url": "https://www.opovo.com.br/noticias/economia/2026/10/28/taxas-de-juros-encerram-sem-direcao-unica-digerindo-fed-e-sinalizacoes-do-governo-lula.html"
@@ -1089,11 +1136,16 @@
         "selic",
         "ipca"
       ],
-      "atualizadoEm": "2026-10-29T23:10:00-03:00",
-      "atualizacoes": [],
+      "atualizadoEm": "2026-10-30T11:50:00-03:00",
+      "atualizacoes": [
+        {
+          "hora": "11h",
+          "texto": "Juros futuros abrem em alta em toda a curva; dívida bruta chega a 82,9% do PIB e desemprego cai a 5,2%."
+        }
+      ],
       "referencia": {
-        "dolar": 5.38,
-        "ibov": 169186.42,
+        "dolar": 5.43,
+        "ibov": 168525.83,
         "selic": 13.75
       }
     },
@@ -1102,11 +1154,12 @@
       "tema": "Combustíveis",
       "titulo": "Governo prorroga subsídio do diesel por mais 30 dias",
       "chamada": "A ajuda de R$ 2,12 por litro, que venceria nesta semana, foi mantida. O petróleo segue acima de US$ 100. O que muda para você.",
-      "data": "27/10/2026",
+      "data": "30/10/2026",
       "inicio": [
         "Pelo levantamento da ANP de 18 a 24/10, o diesel S10 custa em média R$ 7,32 o litro, cerca de 19,5% acima de janeiro. A gasolina caiu para R$ 6,49 e o etanol para R$ 4,11, cerca de 63% do preço da gasolina.",
         "Nesta terça (27/10), o governo prorrogou por mais 30 dias, até 26 de novembro, o subsídio de R$ 2,12 por litro, por portaria da Fazenda. Sem a prorrogação, a ajuda cairia para R$ 1. O governo diz que a medida não aumenta o gasto atual. O custo pode chegar a R$ 10,5 bilhões por mês. Nesta quarta, o Brent sobe para cerca de US$ 111, com notícia de ataque a uma refinaria na Arábia Saudita.",
-        "Analistas do Itaú BBA, citados pela imprensa nesta quarta, calculam que o diesel da Petrobras está cerca de 20% abaixo do preço internacional e a gasolina cerca de 10%; para zerar a diferença seriam precisos reajustes de cerca de 60% no diesel e 18% na gasolina. Para eles, a empresa pode adiar a correção para 2027, com aumentos graduais. A Abicom, dos importadores, também espera reajustes aos poucos, sem um aumento forte de uma vez."
+        "Analistas do Itaú BBA, citados pela imprensa nesta quarta, calculam que o diesel da Petrobras está cerca de 20% abaixo do preço internacional e a gasolina cerca de 10%; para zerar a diferença seriam precisos reajustes de cerca de 60% no diesel e 18% na gasolina. Para eles, a empresa pode adiar a correção para 2027, com aumentos graduais. A Abicom, dos importadores, também espera reajustes aos poucos, sem um aumento forte de uma vez.",
+        "Nesta sexta (30/10), o Brent subia cerca de 2,5%, para perto de US$ 117,7, depois de novos ataques a instalações e navios no Golfo. Respondendo à CVM sobre uma reportagem do Brazil Journal de que o conselho teria pressionado por reajustes, a Petrobras confirmou que o conselho discutiu em 26/10 a estratégia de preços do diesel e da gasolina, mas disse que não houve decisão e que mantém a política atual, que leva em conta o subsídio do governo."
       ],
       "cadeia": [
         "Guerra no Oriente Médio leva o Brent a US$ 117 o barril",
@@ -1143,6 +1196,10 @@
         "Para quem trabalha com frete, negociar reajuste atrelado ao diesel ajuda a proteger a margem"
       ],
       "fontes": [
+        {
+          "nome": "InfoMoney (Petrobras e a CVM)",
+          "url": "https://www.infomoney.com.br/mercados/petrobras-confirma-discussao-sobre-precos-dos-combustiveis-mas-descarta-decisao/"
+        },
         {
           "nome": "Investing.com (Brent e subsídio)",
           "url": "https://br.investing.com/news/economy-news/alphabet-e-microsoft-reportam-resultados-decisao-do-fed-se-aproxima-2105245"
@@ -1188,11 +1245,16 @@
         "etanol",
         "dolar"
       ],
-      "atualizadoEm": "2026-10-29T06:50:00-03:00",
-      "atualizacoes": [],
+      "atualizadoEm": "2026-10-30T11:50:00-03:00",
+      "atualizacoes": [
+        {
+          "hora": "11h",
+          "texto": "Petrobras confirma que o conselho discutiu preços, mas diz que não decidiu reajuste; Brent sobe para perto de US$ 117."
+        }
+      ],
       "referencia": {
-        "dolar": 5.35,
-        "ibov": 175710.05,
+        "dolar": 5.43,
+        "ibov": 168525.83,
         "selic": 13.75
       }
     }
