@@ -150,54 +150,54 @@
   },
   "mercado": {
     "ibov": {
-      "pontos": 169186.42,
-      "var": -1.06,
-      "anterior": 171006.1,
-      "minimo": 169186.42,
-      "maximo": 169186.42,
-      "hora": "30/10 04h11",
-      "ts": 1793344318065
+      "pontos": 168525.83,
+      "var": -0.39,
+      "anterior": 169186.42,
+      "minimo": 167007.56,
+      "maximo": 169184.6,
+      "hora": "30/10 11h14",
+      "ts": 1793369665723
     },
     "acoes": [
       {
         "ticker": "PETR4",
-        "preco": 52.2,
-        "var": -0.59
+        "preco": 53.55,
+        "var": 2.59
       },
       {
         "ticker": "VALE3",
-        "preco": 60.05,
-        "var": -2.17
+        "preco": 62.06,
+        "var": 3.35
       },
       {
         "ticker": "ITUB4",
-        "preco": 39.54,
-        "var": -0.6
+        "preco": 39.01,
+        "var": -1.34
       },
       {
         "ticker": "BBDC4",
-        "preco": 14.16,
-        "var": -3.54
+        "preco": 13.9,
+        "var": -1.84
       },
       {
         "ticker": "BBAS3",
-        "preco": 16.46,
-        "var": -1.97
+        "preco": 16.27,
+        "var": -1.15
       },
       {
         "ticker": "WEGE3",
-        "preco": 49.28,
-        "var": 4.41
+        "preco": 49.13,
+        "var": -0.3
       },
       {
         "ticker": "SUZB3",
-        "preco": 49.72,
-        "var": 3.37
+        "preco": 49.97,
+        "var": 0.5
       },
       {
         "ticker": "B3SA3",
-        "preco": 14.2,
-        "var": -3.34
+        "preco": 13.69,
+        "var": -3.59
       }
     ],
     "juros": [
@@ -231,18 +231,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.3598,
-        "var": -0.47
+        "valor": 5.4279,
+        "var": 0.8
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.0056,
-        "var": -0.19
+        "valor": 6.0447,
+        "var": 0.46
       }
     ],
-    "acoesTs": 1793344318065,
-    "moedasTs": 1793344318065,
+    "acoesTs": 1793369665723,
+    "moedasTs": 1793369665723,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -293,63 +293,63 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Mega-Sena 3078 acumula e prêmio vai a R$ 6 milhões; confira os números sorteados",
+      "titulo": "Hackers roubam US$ 6,3 bilhões da Binance, maior corretora de criptomoedas do mundo",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSFd0X05YZ0NyZk5VUUpxM3dFTElaM1NPcVdyNkpIMUdTdFZmOHJCYW1GakhrTFRfNjNkaDdHT3VHb09OUUJRTzJNT01mdk5fb05HTEVJbHB3Y1E1WThYR2FCNzdQQjVUa0o1eElRTmtJLWRBVVhNZ0ZiV0djRkVPUzdJaWpMNGpiTVYyX29JbDJEd05CbmxvM3hzWGVrM2FqanAwc0twWGUtZ3cyVUg4ZTVxLVZMQnVo0gHHAUFVX3lxTE1ORnh2Qmh4dndtb0pTWTBZcHhBUHlzWnE3TVprQXRSdFh5alpFSjlYOVRfSFZ3a24wQlZLek0tLTB0UHRnTjdjRk5hMDhaNWFaYjJITlAwNnNBV2J2ZENabXg4bm5nYkJybGNKUExFR0M3ZjRFQ3BNVTlqWEZaMHZnbmIzSGpUaTZ5Um5QZEtUWTc5eDB5ZThfYmtFZVN2NTdRaFRUb2VfYUV4aDRrSlp0VG5YRF9sWE1yd2FXQXpzNkZFMVdFSzg?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQR1YxU1Ntc2ZucVlFcDRZSXJla3JYdmFyWDMtVnAtWk9SY20tYTR1NDdsWXZabXB5d3hEc1FIQXA4XzBNZHVPMm9EdFVNVUNKTXoyNmRVa3l4X0c4U3NsTHFhUnN6bmxBdGFnSUt4THR2Nkc0ZHI4M1VBdTJNN0k3SHpITENHamhlZ3hWMFAwcmxIRjRodV9jdjVyNUlEZ2dtWFphSTY5bWkzcGZYX1N2ZnNVVGlWVllyNDdsTklOUW5uMFBhYmJwcFJDWk0yZmxOZUZCdkFlMk90VVRMMy1GblZpNVlCejjSAfYBQVVfeXFMTXNLMjNwLWRCeHI5eFFpSGtSUTN6LU5SNkFGVU5lV1VKVHlHVU1wemNHanFkS2FwekxDa0taT2dVNl91bzR5TVVnSVd6YjRuQW90YjQ5by1Qak94aXV4MmZRd05sOTZrWFI4OWtrTzBjRTJkVzJfb2NvQzVPdnMyZ2RoWWZrQ2I1eGFxbkF1TnVrRmFLZmpMME4xV1FhU3lKVkJ4S2ptT0ZocnZSYnRLZUJyVURHdUVkR3N0RHFFMmc5UjhQOXVEbVV1LXFPcjQtdjMyZWNHOFF0ODNRSVdMZU14Rlk4Q1k2ZlJ6STVkZTY1X3Z0R2pB?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Petrobras confirma 3ª descoberta de petróleo na Foz do Amazonas",
+      "titulo": "Desemprego cai para 5,2% no 3º tri, menor taxa da história para o período",
       "fonte": "UOL Economia",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONENpWHVyY01hbHI0NXZndTBPMmNmbDZWNlZpSmFHeXR1V3pvRVRuamRwd19jQW1hQm5HLUI0WmNwS0daWHFmRXctTTM3UGlRbHZwTDJIRllPYXpRV3JtZGhfM2twdDBHME9oOGliRnZWTFZiZktyNGwxcTcyV3NzLWphekRTREFlNmJIcVQyZ2tBcXZoY2VRVkVmZ1ozR21wTHM0OHI3aUctZVhqSjFkaUNPY21FRlZIV2lYTU5UdXM?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWmJlcW9kYW5qUXBrZ2daclRlb3FvVHRJY0JJakREN2RTRUw2eVVkRUxsdGxrSmdXcEJXSjFWbmY1bGtjbFE2YW9RTzNTUm1IU1AzNS1SZUEtUTJVUmN6d2ZjYi1BUzZibHpnN0s4STFKd0M4WlN5YU5BWGhWVEU3aW5ySUh1UUI2T05aTUln?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Ex-presidente do BRB diz à PF que negócio com Master foi ordenado por Ibaneis em jantar com Vorcaro",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOdjU3VHBWYnJVdHFKVTZ6b3dvTmlIWlJDOFRJbElBUlBRV3Rtd3dJNzI2TzQ3LWlCMkh3bk13U3MxTWpDQmVYRWhDbW03SlZsNURIM19mOWxSby1lLUFzU1pEN3QzdzhMUERwYWlQMllkUjlmZ1lscDBhd0hqSFFFN1cyelFrVkZBRF81V0R1bHpXc0xObDhnT19TUnhnTnpSVUwtdUxEUDNNRnpmeWQ3dUdwbnk3Wm5vWXBUU0VfTDRzMHhudnh1UnN3YXBlSG92R2fSAdcBQVVfeXFMTkRlYjBkVFdtVVN0cHZyaTB0QS1sWWd2SjZGbDVnQzl1R21vdGxvNDFsUUJMeE5BY2ZzbGlKSml2WmxKUjVsNlFzRGJxU01scmR3QlVRVEEzbTRyUzYydEtKZXVCNHZRbEVSdm04bFgtQmREa2hsLVBabWJDcmRmTjdMV040REItWk1LWHAtLUVaN00yVm4wTVZtY1h5UmstTTM2SXIzVURiS1hER1VkNGw3NElBUXBaX1l2VmRRRklTSXlwcXFFUy1uYjBRaWp3Y2N4cUEtT0k?oc=5"
+      "titulo": "Escala 5x2: como pequenos negócios podem reorganizar equipes",
+      "fonte": "Portal Contabeis",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaE83SnpDemlQZGI2MkVoaUM2MFdGM2lGTWt5VmlzMU12NEJqTEVNelRwVEt3alZaUEctX0dWMHd0NjhRdzA1Q2NSWVlybjRyYVZlSnN1Y3VjdXpWRnIyYWdRY1UxWUFmY09vODBmS1FCMk01VGUtSllWMmtyVzhvdTdvVjk2aDh4OXBzREkzMllRenlzNEh3OWJuZVFSRzMwWWVDc2swYw?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Carta de Flávio Bolsonaro foi redigida com ajuda do ChatGPT",
+      "titulo": "Voo da fuga de Flávio foi pago por intermediário a partir dos EUA",
       "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZ0RpOFdrQ0M2WXRUdzdJblBISXMwZU42MGllLWhlTWJ0cWg1UGg5TXItaERJZkRSejZPNFBTZEt5ODEwMVJuVmhNM3Z3cUhhbUdWTlg0c3FUVUtXWG15aTVRUlkzTjdscHVoVHRnTlB6aGpIU3NXSnRPazNqZ3d1N21QQ0NkTkxTWVduU3E1M0FvMGFKb3ZIN19vdmp2amJVMWp1TWplOHJ3c005?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbHVMYkxCOEEtV19FZXpOZmdtRHVVVHEzLVZYSF9KYnFTUEgyZVpNSUZocEh6YjF0TnNVU19yZ2ZDZ1dtaWVDb2MzeFFLS19uYnZBRmg4WGNDOW4zQjRGQXViRnZLRE9qbEV6RS1sRlNEczR0MUoxY1dDRUNLcGNMWHJIWDBsakRIaDFyV09qbWMzSTU1ZEhtQUgtemdzVHJvRVNIWGJOZFd5dlVVVmo3MlBnMW4?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Jato que levou Flávio Bolsonaro aos EUA teria sido conseguido por funcionário da Casa Branca, diz jornal",
-      "fonte": "Extra online",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNZ3NTM05IWUdwUTBPWlN5YVpBN2xuRkpRZkVnelBEWk56QjkwanR1MEozSFVNQUl5OFlmYkNGVkMtQzJ2QTNpTDJ6b0lCbk9SX1hkMS1jZlU5c2J3dC1DemFuYU9WZS1uaS1nbTBDdS1VMUIxT0ljUkZTSHplLU1fc1B0emhJNkwyMWFYbFVaUzFyNFNjZERlZkpJai1DMU4wa21CenNwQmxfQXNDRzFnQ3lkRUdfOHA0aUVHLUhQN0UzSHBaSzY4SktaOF9zeGFkdjdIQXFVZm5QX2JRNlFLODE0bWlFYmNadGpkWXVxZ9IB_gFBVV95cUxQM21yM3MxXzlSV0poU3RFbUxsamZJVk1oYUpiTndaTzNpWUhNYzFUMUlTNHpIVWJOZjRJajhqU3VBY2g5RHBKN2FtdzFTS1VxVFBtV0t0U3JzVkRDNUJiTDcxS0JpUUhjcWh6T0NSSm5jSktwTWhvemUwY0hVWU96ZHJLaGZGbW9xT2xaV2dUMVFtYjYyS3BVMF9Mc3ltbUVENVhLS3d6N09GdGZpTmJ1X0FCT214X3RER0lmczRLRkdqUHdXd3FDaDV5OFI1MURXTGxCVjN5NlpWQWZfckVheWM4b3VwVm9aRUF3eVFhY2R0b2VFUEJscTlGUzA5QQ?oc=5"
+      "titulo": "Da chefia de gabinete à Casa Civil: Lula vai mudar tudo na ‘cozinha’ do Planalto para quarto mandato",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPakE3MFpOR0RrT0JxcjZHdTRmTnNVb3UyYV9XNTlEalNwM0Q5Y1dReUZialNXaDhBdVBtMVpVeHBla3hjcG5NQWxwcWVlaHd5R1ZMSTJYRG91a0p0N0xXT3YwNnpuWXMzWnVuYWJkX19tekF3TG9GY1pmcjNCckkySmFlc3lHUTBLUDJ2emNlazEtYUZVMHNtRE04SHdlc3pVTGJ2bzBySHM1TUFQX2VmTVY2TWZZamRZdkhxRkNjZmc0SDh6MUFwWGd6cXJYbFE?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Boulos rejeita cortes sociais e diz que ‘tesouraço foi derrotado nas urnas’",
-      "fonte": "R7",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPLVB1eWlGT1VFN01MNnhmNW53R3NLUTh1dUxybWZjTFRhMzcyLWVDVGxkYTZTbnplZmxvaEFhZnNfTW15VWFZZzI5QXBKSk1CSExLalY5TXZXZDRySkRTeDV5MzFTLVk5TXVzWWFtak1wMVBBRG5BbkxNNzFITTMzQ19MeElzUmtqOUd2ck1SdHBfZEZqQzZka25WM0F2bXFyVmpVWjdmQzljZk9ZM0hXUHRONWpDMXM?oc=5"
+      "titulo": "PT vê atos de Flávio como 'novo degrau da reação autoritária' de 'derrotados' e diz que posição de Trump 'exige atenção'",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPOFRHRDhKeHIxSmZrWnQyNlV4LXBXU3lBd1g5TTRnSGhzc0s0NXdKYnlLTWJOckdxRmF3Y3BJVEtwNE1yUFoxMzJpZjhJUlU0TlBNdVR6ZldvNXZCVGdkMTlBRzB4OVk0cF9LV2JzWEJnZkZtX01kWjlhSmFUZERrR0lsNU1hcDFuNDhiTjdYcTVMVUJBakUwUUtEbHg4S21nQXVVOVJLMFNXUHlVYzZxak5kQ2lkeW5tM0NuYzAwNGNUdzBQc3J0WnFnM0cwYWItYlFsa1hmOUM3ZVVZZ0lXRnIzaGZaQ2VtZ0dEVTlBb0pCNkd5YmtsdGZ4UlJveUMwQnVV0gGSAkFVX3lxTE1XWUdUblZSWVB2cVZjN3Zfc01QaTBWMWxXWUltd0J6ZHlwRVJNUHZJMXU1VjJyZ3gwR19Ydkh1Q2RaczhzbS1FcmJxeUlYWW1vQlVvb3JBS0piSWN3bm9RWldJTEEtWXdhanpkSkIzWFJoeTk4cGk2amtma09oaUx0M1RJWnVrR2laM01hY1hJcWlpOFFSZHNzVVRpZ0ZURko3bk8yUEhaODlNQVJiNFhuVlZRbGhxR3dtWGUtX1I0dGQyLWxBOC1ydGNMQnphTjVjSHBaOV9Oak11LVJMdWxyWFY4MTctMEhia3ctZjFNZWtIcEszU3ZqTmEyUDh1YmJmTjhIYjBDcFF5OG84ZXotMnc?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Após derrota e fuga de Flávio Bolsonaro, veja quem da família terá cargo após se eleger em 2026",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNXE0cHpsbGtFcGtmNVZkWDg4RnJOa2pKOW5PSjl2WjhpLUFBVFU2V2Uta3lNWG14RF8tczJCTnhOOG81UnBUX2NoTUNXU3QtN2U1RFZhX0dLTjIyM0xHZ3ZZdFBacVV4S0xYOU5wMEMteTBadjgwTk5UcHJkbXYtQ3VuZHFnbThkTlVlRdIBmwFBVV95cUxPOXk3cWs1UHR0Rm0ya2wwc3NMMUxqTEhRMWRzeEpiR1dXTWJORTQ5eWY4QUlOdkV6NDJIOWxaaV9iNWFqR1pBcVAySnVMd1ZZakxKLXhPT0hhRFpNVHgxUE9ONURVRWtmNk9xUzFFdFZXc0QyWnJ6ZkIzVjhpQmNJeld1c1dYdkNzRjJHVWROS2xaNFhpZkQyMWlrNA?oc=5"
+      "titulo": "Após reeleição, PT mira jovens para se renovar e preparar o pós-Lula",
+      "fonte": "Congresso em Foco",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOWxRcHhwMTl6b2N4OWViMWhhNHZVb0lMMTNfNkZxSENTQVUwYkRDS2pOQlhYd2Itb00wQlp4MGUyMkkteEJCLVVMRUozREt5UjRuX2NuZXZlMW1haUFrSGIzMGtpNFBMdTBFeE1oZXJ4eC1wZUtMNU5hRDRpN1VHYUR3T3IzOVVvT2g1Slh0bnZTZ1lPcldfUF9jS0ZyZW1OeHJ3ODIyNnhfdnFlV3JhbzE3by1HcDlzck5FNUFn?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Michelle ganha protagonismo na direita e chega ao Senado com alianças",
-      "fonte": "Gazeta do Povo",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObXo2Z21QVkhySzhZb1hBS3hoZzlOc0dpaUZNYXBZZzBfekpPTWFBWFlkNVJQOXJUUmVCSDFrQk51dnFWMUJaQW0tVV90dDBtSWxSTnJGQ2JsdnQwcGUzVVcyY09RNF9Jck9wYjBlMTZURzczbTFQUk5nTEV2b0JhRE45dmRVTGY0VEtEdWV3Y1NfdzF1dTNUd3VUZ21iR3pOZnJnWlZpSzc3TzU4?oc=5"
+      "titulo": "Trump mantém críticas às eleições, porém anuncia que conversará com Lula",
+      "fonte": "Correio Braziliense",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOb01YRE9aMHlYZ3hLSnRxYm5YOTcydGh6TW1iUmhtM2lIZnJaLVpVbE1pSzlScGJmQTdYWV9fMWxpaUtzOTM2anNrMnlQZXBpUUgtM3ctZWQ4THQ0VllIQmNhcmdCSGx1clhCQXEzc3VKVlJRZFRUZElzWmhZNndEM2xLRmcwMDRuRHk1b2x0LXRUYU1mMW5yQmZ1Y2hNak1xQVlTdFJZc1NLbEVPbjl0NTlvM2JXRlowVFE?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "PL teme que fuga e carta de Flávio atrapalhem atuação da sigla no Congresso",
-      "fonte": "UOL Notícias",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMWJXb1RCak9nc2hvcWcwOVVwRHJWZnJNZjliNExZMGFLdVNvVXRPSnphRFhrU0NmRE1NMUpKQjQtUlhBem8yRE01eHUyVEdGU212QkZ1THg5V1RFWmg5WnlNM3dUcjJ0Ymh5VDE1Zl9oa0I3NFJkZ25jMTBidy1aZTd5dmJtd0NOZTBYRGNnV3RYMGpCS2xuV1lHMjdZYndZX1p2U0ZkY0xFODJadXhvN3M4QkhVQ0l3TG9qSFk2d05YZXFIcGhZZlREbzVrTXBUVWNkOGlPaWFXT1VGalE?oc=5"
+      "titulo": "Maior desafio de Lula 4 será aprovar reformas no Congresso, diz Moody’s",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNaGhKYUhuRENldXdPQkFJU3dSeTZ5UGRvT1lBTDBtVWNtbFBtemdxeXNNY2VaWDE4aW5DSEw2WUo3LXA3RDM2YmNSZUlhUmZUbHZSMzZUenJNdXItMjFPZVI3SFFsLTFNSGhfSmt1a3RzeTM0U29BOXplTW5Wdk96aWxNS1Jlc19kSzBkZXhYbXBHRlZ0RWx5TFVVWVFwMUV0cFNVeEJGdnB5c1RzSzg0WldQb0JxMC1Ka0EwZFU1bm5zTXJ3VWhN?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "'Ele achou que já estava eleito': os erros da campanha de Flávio Bolsonaro no segundo turno apontados por analistas",
-      "fonte": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5ZQ1YyWlNaaFRONUprRWp2eGZOXzhIS2RTT1BGdTV0ZVIxYTYtak42TEFabFpXR2FXUGpOeENtdE1KV0dGUmN3RnptLU9HSWNHajhibzVubjdOcWJaQ3VoVTFIVdIBaEFVX3lxTFBGUFJVZmJWSHNKRHIwVUtpdXhtZXBwNGRRa1J2RU1VdVJxcThmY3dZQW1vV2RZRkRHTHVZRVdIeHdzSjZfSTNJTkxfb2xGaE00c2M1T2dabjFvVHE5QnotUmFEdXA1ZFMx?oc=5"
+      "titulo": "Painel do TSE mostra reconhecimento global à vitória de Lula e isolamento do golpismo de Flávio Bolsonaro",
+      "fonte": "CartaCapital",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQcVpnTk95bkh0cnF3NnJmM09hb2NQemNGS3R1REZ3SEtua25lUjVlZUVIOUt6ZEk1dm9hck51eThrU2gtck5HMVJRV0ZEdkpOZTVyQlZmS2M2aERCa1Q0Q2U1ajdpZ0xqVTBndG5BX21jNldHd1FIV3g1VnNYTGRUSkJYeTR5d0c5U0V1UzZJLXMyemxRM0FwMU5TMG1BazFIQmdSUl90d1lNb2hXNTU1Y3BSWmZ4QWNWdUhCWEJJd254eUxPTHB6T1hGOGx6QlgzSVFqNU5XM1I2ZnNqWFh6UQ?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -359,9 +359,9 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "Lula vira em 3 regiões metropolitanas e cresce mais de 30% em outras 6 do 1º para o 2º turno; Flávio perde votos em 7",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSEVpMEZ0ZWtlcWJJUmFLQm8yWlpBN1cyb2FQeW11TTJUV1VLWXg4dzNGOUxMQnBYZmpSNWstMV9WWlhrY3dIQ0ZGQW9MM0gxcGRPTndlaFU5djk0R0pCVnBKM2EtVWNoRjNhUDZ2dmtndk1sdVdycUVQQmp2OGM4XzV0aWFlTnNKRW5US25pZ3RKS3BvNURKbVBRbU1yQ09jS1MyYzhtY1phYjh2cVlrOUwtd0tBakNuamRVc1FIOUg5QdIB0AFBVV95cUxQZS1DMUxQbnQ1a3BHeHFfR3R4MUxLamh3VUhLRmZsZEJSbzJvRWlWZE9YeVQtdGFwV0ZLb0VnY1U0YmpQSUgxQkM1eVJGWERSRHhlTjZvWTI1M1VqZm5EdllXc0FUUFNSRzNZa1lMZnZPQXN1UE42RXphNkUxb1JJR3RtZ051M2JSNTNvUFNpelp4Vjd0c20wRV9CNlZ4UTJmWjB5TWxnb1VNZHU1R1Z1SFFMclJMZ3FPZDJ6R3oxTkp6aVhWRmczR3FFV2FFalZJ?oc=5"
+      "titulo": "A Embaixada dos Estados Unidos em Brasília informou em relatório recebido por órgãos dos EUA, como Departamento de Estado, que a vitória do presidente Luiz Inácio Lula da Silva (PT) nas eleições de domingo (25) foi \"definitiva\" e \"surpreendente\". O doc",
+      "fonte": "Instagram",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5sck1iZWRvVlY0d24ydkhoZTdVdW5BRGlGQjNjQjFUMDg4ZGxvVWxHeUdTZFI2QUI2aVd5S0FlQ004RlFMcl9wNFB4SjY0bkhWSEE?oc=5"
     }
   ],
   "indicadores": {
@@ -374,7 +374,7 @@
       },
       "cdi": {
         "valor": 13.65,
-        "data": "28/10/2026",
+        "data": "29/10/2026",
         "fonte": "Banco Central"
       },
       "ipca12": {
@@ -1397,7 +1397,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-10-30T04:12:00-03:00",
+    "atualizadoEm": "2026-10-30T11:14:28-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
