@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-10-30T17:45:00-03:00",
-  "alerta": "Ibovespa fecha a sexta (30/10) em queda de 0,75%, aos 167,9 mil pontos: 5º pregão seguido de perdas e queda perto de 18% na semana, a pior desde 2020. Dólar sobe 1,1%, a R$ 5,44. Flávio segue nos EUA e deve pedir asilo; Moraes ainda não decidiu sobre os pedidos de prisão.",
+  "atualizadoEm": "2026-10-30T23:05:00-03:00",
+  "alerta": "Em live do exterior, Flávio Bolsonaro volta a questionar a eleição sem apresentar provas e fala em 'novas eleições' antes de 2030; Moraes ainda não decidiu sobre os pedidos de prisão. Ibovespa fechou a semana com a pior queda desde 2020 e o dólar a R$ 5,44.",
   "eleicoes": {
     "candidatos": [
       {
@@ -146,6 +146,10 @@
         "texto": "Reuters, citando fontes anônimas, diz que o governo Trump não pretende apoiar Flávio como líder do Brasil, mas pode mudar de posição. Segundo o Metrópoles, a defesa dele vai alegar perseguição e tenta tirar de Moraes o inquérito de lavagem de dinheiro."
       },
       {
+        "data": "30/10",
+        "texto": "À noite, em live no Instagram, Flávio diz que saiu 'pelo' Brasil, questiona o resultado sem apresentar provas, fala em novas eleições antes de 2030 e apoia Rogério Marinho para presidir o Senado. Segundo o TSE, 107 países já reconheceram a vitória de Lula."
+      },
+      {
         "data": "05/01/27",
         "texto": "Posse do presidente eleito.",
         "futuro": true
@@ -212,13 +216,13 @@
       },
       {
         "nome": "DI jan/2028",
-        "taxa": 14.405,
-        "var": 0.08
+        "taxa": 14.485,
+        "var": 0.117
       },
       {
         "nome": "DI jan/2031",
-        "taxa": 15.23,
-        "var": 0.18
+        "taxa": 15.21,
+        "var": 0.055
       },
       {
         "nome": "DI jan/2033",
@@ -432,8 +436,8 @@
     {
       "id": "eleicao",
       "tema": "Eleições",
-      "titulo": "Reuters: governo Trump não pretende apoiar Flávio como líder do Brasil; defesa dele deve alegar perseguição",
-      "chamada": "Flávio segue em Miami, admitido por razões humanitárias por até 1 ano, e monta equipe de advogados. Moraes ainda não decidiu sobre os pedidos de prisão. O que se sabe e o que cada lado diz.",
+      "titulo": "Em live dos EUA, Flávio questiona a eleição sem provas e fala em 'novas eleições' antes de 2030",
+      "chamada": "Na primeira fala pública desde a carta, Flávio diz que saiu do país por causa de perseguição e pede oposição forte no Senado. Moraes ainda não decidiu sobre os pedidos de prisão; 107 países já reconheceram Lula. O que se sabe e o que cada lado diz.",
       "data": "30/10/2026",
       "inicio": [
         "Lula venceu o 2º turno com 51,79% dos votos válidos, e o TSE confirmou o resultado. O PL reconheceu a vitória, mas Flávio Bolsonaro anunciou ações para cassar a chapa Lula-Alckmin.",
@@ -451,7 +455,8 @@
         "Até o fim da noite desta quinta, Flávio seguia nos EUA sem ter dado a entrevista anunciada e sem pedido formal de asilo confirmado; Moraes ainda não decidiu sobre os pedidos de prisão e de alerta da Interpol. Em áudio enviado a apoiadores, Lula disse que fará um pronunciamento à nação na próxima semana.",
         "Na manhã desta sexta (30/10), não havia novidade oficial: Flávio segue nos EUA, sem pedido de asilo confirmado, e Moraes ainda não decidiu sobre os pedidos de prisão. Na imprensa, ganha espaço a disputa pela liderança da oposição: segundo a CNN Brasil, aliados da família Bolsonaro e do Centrão veem o governador Tarcísio de Freitas como o nome mais bem posicionado, de olho em 2030; o jornal português DN resumiu que a direita vira as costas a Flávio.",
         "No fim da manhã desta sexta (30/10), a agência Reuters, citando uma autoridade americana e outra pessoa a par do assunto, sem identificá-las, informou que o governo Trump não tem planos de apoiar Flávio como líder legítimo do Brasil, embora Trump possa mudar de ideia. Segundo a Reuters, o secretário de Estado Marco Rubio recomendou autorizar a entrada da família, e um assessor de Trump ajudou a organizar a viagem; a Casa Branca e o Departamento de Estado não comentaram. Segundo o Metrópoles, Flávio montou uma equipe de advogados que deve alegar perseguição e tenta levar o inquérito de lavagem de dinheiro de Moraes para o ministro André Mendonça; a reportagem diz que ele deve pedir asilo, mas não há pedido confirmado. Um grupo de advogados pediu à PF que apure o uso do brasão da República na carta. Moraes ainda não decidiu sobre os pedidos de prisão.",
-        "Até o fim da tarde desta sexta (30/10), não houve decisão de Moraes sobre os pedidos de prisão nem pedido de asilo confirmado. A agência Lupa checou que um vídeo de militares americanos rindo, que circula nas redes como um suposto 'resgate' de Flávio, não tem relação com o caso. Aliados de Flávio seguem dizendo que as medidas de Moraes são exageradas e que a saída do país foi uma reação a perseguição; o governo e aliados de Lula dizem que ele fugiu para escapar da Justiça."
+        "Até o fim da tarde desta sexta (30/10), não houve decisão de Moraes sobre os pedidos de prisão nem pedido de asilo confirmado. A agência Lupa checou que um vídeo de militares americanos rindo, que circula nas redes como um suposto 'resgate' de Flávio, não tem relação com o caso. Aliados de Flávio seguem dizendo que as medidas de Moraes são exageradas e que a saída do país foi uma reação a perseguição; o governo e aliados de Lula dizem que ele fugiu para escapar da Justiça.",
+        "Na noite desta sexta (30/10), em live no Instagram, Flávio fez a primeira fala pública desde a carta. Disse que saiu 'pelo' Brasil, e não 'do' Brasil, para ter mais liberdade, que via a ordem de Moraes como início de perseguição e que não contou o plano a ninguém fora da família. Questionou o resultado e a Justiça Eleitoral sem apresentar provas, disse ter perdido para 'o sistema', falou em 'novas eleições' antes de 2030 sem dizer como e não descartou disputar de novo. Pediu que a oposição se concentre no Senado e apoiou Rogério Marinho para presidir a Casa. Segundo o painel do TSE, 107 países e 11 organismos internacionais já reconheceram a vitória de Lula; EUA e Argentina não se manifestaram oficialmente, e Trump criticou a eleição sem apresentar provas. Moraes ainda não decidiu sobre os pedidos de prisão."
       ],
       "cadeia": [
         "Flávio perde o 2º turno e anuncia ações de cassação no TSE",
@@ -459,10 +464,10 @@
         "O prazo vence sem entrega e a PF cancela os documentos",
         "Ele cruza para a Argentina, voa ao Equador e pousa em Miami",
         "PF diz que ele não é foragido, mas apura a saída",
-        "Nos EUA, ele é admitido por razões humanitárias e se declara presidente eleito; o PL não aprova a carta e, segundo a Reuters, o governo Trump não pretende apoiá-lo como líder"
+        "Nos EUA, ele é admitido por razões humanitárias, se declara presidente eleito e, em live, fala em novas eleições; o PL não aprova a carta e, segundo a Reuters, o governo Trump não pretende apoiá-lo como líder"
       ],
       "porque": "Moraes viu risco de fuga num inquérito em que Flávio é investigado, com o advogado Willer Tomaz, por suspeita de lavagem de dinheiro ligada a empresas de apostas; os dois negam irregularidades. A decisão citou a fala de Eduardo Bolsonaro sugerindo a saída do país. Flávio diz que é perseguição e que nunca planejou sair.",
-      "outraLeitura": "Flávio e aliados dizem que a ordem de Moraes, dada logo após a eleição, é perseguição política; na carta ele diz que não fugiu, que não há mandado contra ele e que a eleição foi fraudada. O pastor Silas Malafaia defendeu a viagem, e líderes do PL manifestaram apoio pessoal a ele, embora Valdemar tenha criticado a carta. Do outro lado, Lula disse que ele deveria ter provado a inocência no país, Boulos afirma que ele saiu para não responder pelos crimes investigados e deputados do PT pedem prisão. O TSE certificou o resultado e diz que a prorrogação do horário não afetou a contagem. Segundo a imprensa, até ministros do governo e integrantes da cúpula da PGR acharam a ordem de Moraes precipitada, e a cúpula do PL, que reconheceu o resultado, diz que não foi avisada da viagem. Flávio não foi condenado; as investigações estão em andamento e ele nega irregularidades.",
+      "outraLeitura": "Flávio e aliados dizem que a ordem de Moraes, dada logo após a eleição, é perseguição política; na carta ele diz que não fugiu, que não há mandado contra ele e que a eleição foi fraudada. O pastor Silas Malafaia defendeu a viagem, e líderes do PL manifestaram apoio pessoal a ele, embora Valdemar tenha criticado a carta. Do outro lado, Lula disse que ele deveria ter provado a inocência no país, Boulos afirma que ele saiu para não responder pelos crimes investigados e deputados do PT pedem prisão. O TSE certificou o resultado e diz que a prorrogação do horário não afetou a contagem. Segundo a imprensa, até ministros do governo e integrantes da cúpula da PGR acharam a ordem de Moraes precipitada, e a cúpula do PL, que reconheceu o resultado, diz que não foi avisada da viagem. Flávio não foi condenado; as investigações estão em andamento e ele nega irregularidades. Na live, Flávio repetiu que é alvo de perseguição e que a disputa foi desigual; o TSE e os mais de 100 países que reconheceram o resultado tratam a eleição como encerrada, e a Constituição não prevê nova eleição presidencial antes do fim do mandato, salvo se os cargos de presidente e vice ficarem vagos.",
       "cenarios": [
         {
           "tipo": "base",
@@ -482,6 +487,14 @@
       ],
       "bolso": [],
       "fontes": [
+        {
+          "nome": "Correio Braziliense (live de Flávio)",
+          "url": "https://www.correiobraziliense.com.br/politica/2026/10/7531305-flavio-fala-em-novas-eleicoes-antes-de-2030-em-primeiro-video-apos-fuga-aos-eua.html"
+        },
+        {
+          "nome": "Estado de Minas/Estadão (107 países)",
+          "url": "https://www.em.com.br/politica/2026/10/7531256-mais-de-100-paises-reconheceram-reeleicao-de-lula.html"
+        },
         {
           "nome": "JM Online/Reuters (governo Trump)",
           "url": "https://jmonline.com.br/politica/governo-trump-n-o-deve-apoiar-flavio-bolsonaro-como-lider-do-brasil-diz-reuters-1.679590"
@@ -612,21 +625,8 @@
         }
       ],
       "indicadores": [],
-      "atualizadoEm": "2026-10-30T17:45:00-03:00",
-      "atualizacoes": [
-        {
-          "hora": "7h",
-          "texto": "Sem decisão de Moraes até a manhã de sexta; na direita, cresce a discussão sobre quem lidera a oposição, com Tarcísio citado."
-        },
-        {
-          "hora": "11h",
-          "texto": "Reuters diz que o governo Trump não pretende apoiar Flávio como líder do Brasil; defesa dele deve alegar perseguição e tenta tirar o caso de Moraes."
-        },
-        {
-          "hora": "17h",
-          "texto": "Sem decisão de Moraes nem pedido de asilo confirmado até o fim da tarde; Lupa desmente vídeo de suposto 'resgate' de Flávio."
-        }
-      ],
+      "atualizadoEm": "2026-10-30T23:05:00-03:00",
+      "atualizacoes": [],
       "referencia": {
         "dolar": 5.44,
         "ibov": 167921.8,
@@ -828,20 +828,7 @@
         "ibov"
       ],
       "atualizadoEm": "2026-10-30T17:45:00-03:00",
-      "atualizacoes": [
-        {
-          "hora": "7h",
-          "texto": "Mercado abre a sexta de olho na Pnad (9h), nas contas públicas do BC e na reação ao lucro menor da Vale."
-        },
-        {
-          "hora": "11h",
-          "texto": "Desemprego cai a 5,2%, mas Ibovespa abre em queda pelo 5º pregão e dólar sobe a R$ 5,43, com Nasdaq em baixa e temor fiscal."
-        },
-        {
-          "hora": "17h",
-          "texto": "Ibovespa fecha em queda de 0,75%, aos 167.922 pontos (5º pregão de perdas, pior semana desde 2020); dólar sobe 1,1%, a R$ 5,44."
-        }
-      ],
+      "atualizacoes": [],
       "referencia": {
         "dolar": 5.44,
         "ibov": 167921.8,
@@ -1041,16 +1028,7 @@
         "selic"
       ],
       "atualizadoEm": "2026-10-30T17:45:00-03:00",
-      "atualizacoes": [
-        {
-          "hora": "7h",
-          "texto": "Sem anúncio oficial da Fazenda; PT lista reformas do Judiciário e política e regulação das plataformas como prioridades."
-        },
-        {
-          "hora": "17h",
-          "texto": "BBC Brasil diz que Fonteles deve assumir a Fazenda e que as conversas sobre ministérios começam depois de Finados; ainda não há anúncio oficial."
-        }
-      ],
+      "atualizacoes": [],
       "referencia": {
         "dolar": 5.44,
         "ibov": 167921.8,
@@ -1071,7 +1049,8 @@
         "No fechamento desta quarta, os juros futuros terminaram sem direção única: o DI jan/28 subiu para 14,63% e o jan/31 para 14,97%, enquanto o jan/29 ficou estável perto de 14,75%. Analistas citam a falta de sinal claro de ajuste fiscal e a possível cobrança de IOF sobre LCI, LCA e debêntures; a queda dos juros americanos de curto prazo aliviou parte da pressão.",
         "Nesta quinta (29/10), os juros futuros marcaram máximas em todos os vencimentos durante o dia, com a falta de nomes para a equipe econômica, mas viraram e fecharam em leve queda depois da notícia sobre o possível convite a Fonteles: o DI jan/28 terminou em 14,33% (de 14,41%) e o jan/31 em 15,05% (de 15,07%).",
         "Na abertura desta sexta (30/10), os juros futuros subiram em toda a curva: às 9h18, o DI jan/28 estava em 14,41% (+0,08 ponto) e o jan/31 em 15,23% (+0,18). Segundo o Banco Central, a dívida bruta chegou a 82,9% do PIB em setembro, o maior nível desde 2021, pressionada pelos juros altos; o setor público teve déficit de R$ 5,5 bilhões no mês. O desemprego de 5,2%, o menor para o período desde 2012, mostra um mercado de trabalho ainda aquecido, um dos fatores que o BC acompanha antes do Copom de 4/11.",
-        "No fim da tarde desta sexta (30/10), os juros futuros longos seguiram em alta, acompanhando o dólar: segundo o BPMoney, o DI jan/31 passou de 15,20% ao ano, refletindo a preocupação com as contas públicas. As taxas curtas ficaram estáveis depois do dado de desemprego, que veio em linha com o esperado."
+        "No fim da tarde desta sexta (30/10), os juros futuros longos seguiram em alta, acompanhando o dólar: segundo o BPMoney, o DI jan/31 passou de 15,20% ao ano, refletindo a preocupação com as contas públicas. As taxas curtas ficaram estáveis depois do dado de desemprego, que veio em linha com o esperado.",
+        "No fechamento desta sexta (30/10), segundo o Estadão, o DI jan/28 terminou em 14,49% (ajuste anterior de 14,37%) e o jan/31 em 15,21% (de 15,16%). Analistas citam o risco fiscal, à espera dos nomes da equipe econômica, e a maioria das apostas passou a ver a Selic mantida em 13,75% no Copom de 4/11. Segundo Stephan Kautz, da EQI, promessas de campanha podem somar de R$ 60 bilhões a R$ 80 bilhões aos gastos de 2027."
       ],
       "cadeia": [
         "Inflação acima do teto da meta",
@@ -1107,6 +1086,10 @@
         "Para guardar dinheiro, aplicações atreladas ao CDI ou à Selic rendem bem nesse cenário"
       ],
       "fontes": [
+        {
+          "nome": "O Povo/Estadão (DI no fechamento 30/10)",
+          "url": "https://www.opovo.com.br/noticias/economia/2026/10/30/taxas-de-juros-sobem-com-maior-risco-fiscal-e-cenario-de-manutencao-da-selic.html"
+        },
         {
           "nome": "O Povo (dívida 82,9% do PIB)",
           "url": "https://www.opovo.com.br/noticias/economia/2026/10/29/divida-publica-fica-em-829-do-pib-e-deficit-soma-rs-55-bilhoes.html"
@@ -1176,17 +1159,8 @@
         "selic",
         "ipca"
       ],
-      "atualizadoEm": "2026-10-30T17:45:00-03:00",
-      "atualizacoes": [
-        {
-          "hora": "11h",
-          "texto": "Juros futuros abrem em alta em toda a curva; dívida bruta chega a 82,9% do PIB e desemprego cai a 5,2%."
-        },
-        {
-          "hora": "17h",
-          "texto": "Juros longos fecham a semana em alta, com o DI jan/31 acima de 15,20%; taxas curtas estáveis."
-        }
-      ],
+      "atualizadoEm": "2026-10-30T23:05:00-03:00",
+      "atualizacoes": [],
       "referencia": {
         "dolar": 5.44,
         "ibov": 167921.8,
@@ -1290,12 +1264,7 @@
         "dolar"
       ],
       "atualizadoEm": "2026-10-30T11:50:00-03:00",
-      "atualizacoes": [
-        {
-          "hora": "11h",
-          "texto": "Petrobras confirma que o conselho discutiu preços, mas diz que não decidiu reajuste; Brent sobe para perto de US$ 117."
-        }
-      ],
+      "atualizacoes": [],
       "referencia": {
         "dolar": 5.43,
         "ibov": 168525.83,
