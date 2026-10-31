@@ -167,8 +167,8 @@
       "anterior": 169186.42,
       "minimo": 167007.56,
       "maximo": 169184.6,
-      "hora": "31/10 14h46",
-      "ts": 1793468793598
+      "hora": "31/10 18h39",
+      "ts": 1793482768909
     },
     "acoes": [
       {
@@ -253,8 +253,8 @@
         "var": 0.82
       }
     ],
-    "acoesTs": 1793468793598,
-    "moedasTs": 1793468793598,
+    "acoesTs": 1793482768909,
+    "moedasTs": 1793482768909,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,9 +305,15 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Covid, subprime e 11 de Setembro: pós-eleição de Lula se junta a quedas históricas",
-      "fonte": "InfoMoney",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORlllbWFFb0pyNW1kLTQxQVFrbGdGU3lKcUtPQ0RfUkFNRll4WTBDY2UzRk0wMlVMX210YkRGb21kakZOamJtTE83SXZVdnVJOGxIVjVUOEttN1EwX2RwRENLbTVseVh0LWtaYm5MdDhMeWZiWTg0WnZGLXd6dFpPQWRnZm92d2tQR2ZsNFpDMlZqaFRCc0pyZk1Sd3JnUkJFOGVoRdIBqgFBVV95cUxOSUlvbWtlbFFYVVZJQWw4Z0FBTC1yZlRzLTJQQXFPOUVvRmZKWlFLVlFNa1gzaXNwVFlBbTBSSnFPNzl0VWZWZUphNDM3d0Q4Y3hQTVdFTUJMbTd5c05UdWdqOW9OMk5RaGNqWWZBeHRaYmpmREo5Y3N2b2l5czdvaFU1djJGVS15NS1udS1ydVpHeE1BOEJ6RjFkZTJKREJka05IenpzYnJuQQ?oc=5"
+      "titulo": "The Economist: Mercado reage mal à vitória inesperada de Lula — e há razões para isso",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdGJONmhXaUE2NEJfNUpkWGZqQ081WDNrUWpSdVl6eVJJMzFsaGIzdHNjU0ZjMGozRlhsRGVVWXJCOEw3M2Zhb2hXRmdVUGIyWmM1V1hscUxoalpoN3MyMEl1NFljODhqcUxDbkZ0OXlZSXdDVUEyTl9GVVdWRkFaLUJfNENUU3NuczdZZWl0UUhwS1paSzloQm5CVmp0OUlDYmF6WFRBdUdhNFpyZ2FPZmJPYjFYeGRmUFVz0gHAAUFVX3lxTE5idUhMRVFCWDFENGlSRzhmckxTMXBxcmJkUXZoUlU5bHBxcTBEcUZXLURKUVlfWnJkUGp3Ym9VR1MzSDZlZGFkWVJmUnBlemFvMHFMTmFLVi10c2tIOHV3ZkJNaTZ6U0hSUDBPMjV1Q1RQeGFYeFRqSS1jbS1fRDVpTlhJZFBNeUQxZGphbWNEeW5CcG1DQVB3YkZuTWdiMGVFZkRucTJzVlhxeG81cjhEbjVpNGdZYW5HU2F1RTYwLQ?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Chilli Beans entra para lista de empresas que recorreram à recuperação em 2026; veja os casos",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPeE1BTHJZUE5tRVNMX2gyZ0Ntekp6cE95VHVUb3lGLTBXNTZBMlFPMTAtX2ktdk8wQTVRN19fa0toajBsYV9zMVFESzFaaWtyVGxBeWxRM1RZb3hrMEY4Q05vRTNqLUxPclJCQVYzU2t0UkxrWFpOSWx5SjREZGhmUnltZVRyanpWLUluV3dkaXFMRXhWSjhveEtBTGR4UnhLdmt0ZzNFdWh6REJMMU5MOXdfWV84bFFDaHI2YXB1WmRSVUdCaDd5c0l3cjVRYkVjLVpZMFpQNWdaM25FLUg3bi1VZldLOHBHNUItZ9IB-wFBVV95cUxOWnpjRDB5TVRuZ3NCNm9BNGhueEpuNDdoTFBDWDliWUFlcnl0a1J3TEFoTlB4M21HY2o2T1lsSDg2Qkc5cXhyQzF4bnpESWtUR3cxRldMODVySmltWXFWazBPTHlpS2Q0WjVWWkJNZW5FSFZoZXptVnhqTVUyU2RNby1udEJVN2FaXzNMSDVsM0lRTGhUdG5QLVA1UlRkeWw4RDlQZEF3RGxhcGZQUFVNZnlrYU4wZTVxOXN3OVAyUi1TT3k4N2RsRmszc1VRYU9iUmw3dVNhbkVSMEhSSFJYWUdlUWZTbEpyMC1jb0xWYlZrVkx1aHFVeVRtMA?oc=5"
     },
     {
       "cat": "economia",
@@ -316,28 +322,22 @@
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9SQ2xFWWc4ZGpMM3VRWXlmdE1SVkVaUHREN01SaE9mMV9GRERTMWh5dXlROXEwZlpzUzRfamt4X2p5b3lGczBRQ2VUWm80NXpFdFlTSUNNQVFwQ2ttaTkwa214SXh2Sl9xRHpOSlFVWjFSMC1JeDFDWGVlQV8?oc=5"
     },
     {
-      "cat": "economia",
-      "titulo": "Vorcaro tinha pleno conhecimento e comandava operações de consignado no Master",
-      "fonte": "ICL Notícias",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1WOVNOQ2dQSEtiQ01fblpiOW5mM0l3RzhCSG9meDdoQ3pvamQ2NVhsUGR3OHhTYmF2dlhyYjNCc1NMZ1M2bW83UTJUbFpGU0piN1ZQa0VrSlVPeThTM1VicEFPSDZPSFJYQ1M3a0l0VQ?oc=5"
+      "cat": "brasil",
+      "titulo": "Governo dos EUA 'não se envolveu diretamente' na saída de Flávio Bolsonaro do Brasil, diz Marco Rubio",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQZWtvaDBqeDJEQVRLbmt1cURmbWJRTDNRcnBUQjZPMGxMck51RGpaY010MFc4RWNvbi1Pc3lyOUVpVENYbkpRTXhneVRfSUd5c3ZmeE1mUXY0d0VoNDQ3cjhZTXpCRWFKN0NmUVdoQXNVeVY1UzRmVDkxczFaWmE3ZmpwMGY1OEhFcVNySy1aa0FJcjRuTkZTRnBWZzNfM2JMcVJFUnRiYUw1RlpoY3JhVWE5dmZ5ZTlQZkY1R0FYYVlGQ0txX1lqbGFYdHJkdUJTRDg1YXhfNS0xSzDSAeoBQVVfeXFMTmVfVHB5ak9SajRFbTlGRU9VbnFUMmR2aG5COTR3MlVsNkJUWkxwZ0VfMW1XSDFvTXpJNTE4Z3c3d05Uekdyak01VFAtcFVaV3JOTUl4LTdhV1dMNkwzUE56UE9XbTRWTXk4ajlpemRiZUxvT2ZrVGgtT3FGcFB2VUxvN2cyenV5UmljczYwZUU4Ym9VeldFVzhCMEg4RHdvamVIVk91UVFWZXN1OGRhWUVJRExxaHp1bDJDb3dVcnRxWk53QmZpVFJJbkZRWkdlWjhWdTdsbm9zZnJuYldJYVVDdG10eG9FQk5R?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Carros camuflados, vários jatos, ajuda dos EUA: jornal argentino detalha fuga de Flávio Bolsonaro",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZXI3dHFPc3hwT0JiRGFvV3FMODNqZXVCOEdLcHhWUjJLVWRVTmJfLVJVMVF2czVzcmtKSDl3X3pLUUhRMHhnZE5YZnZraHZKXy1kN3RUS0hRYjFWb1MwQXhjX3ZVankyMUFCekJoSHp3Zlh6clVfek8xR3lLc001OXM2Tks?oc=5"
+      "titulo": "Primeira semana de novembro terá formação de frente fria no Sul do Brasil",
+      "fonte": "Climatempo",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTDhOZVBWN0NSMHRKcExLWGI4Z09PV3pCbFVCSDVzV19ta21DdlpmMXM3TEhDODhFR2pqWjJ6V1RqWklUQndMYzVVaXNDeFhTdl94ZW01NFRPaGxaejRuV3diOW9Xejhlb1FnWWZOekZIZWJROHI3MXo0YmZRMnhncXk3bjNCa1F4UGVqUjNraENhbFhselJkSjhJSklfeUJuajNZbGs2TWFxQ3djWXQ5SkpsTE4tZG1PYlVRYTV3?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Nikolas Ferreira critica projeto do PT sobre discriminação política",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNlo1VFFnTG9UZFUwb3hPa3BQWmczcVBZejhqRkx5MkhzOUN3dEM1QS1hX0dlRWd1Z3NydnBSNDlwRFZTbFg5Vlg3RWo2QzBkYkl4TllNcXRwQWxlODJtVF9zQW5lTFlWUXFHU3JIdnBwRzJmQ3FqZWdoYTVmODV3OEo3aW16MktPQ1N5VFNkNjQ4d2ljLXVsZmM3cld6TFZUaE1DMDJtOXFrREhmUERSaUFR?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Reeleito, Lula fica \"off\" e vai estender o feriadão para descansar",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ00xczkteEdHZ0t6UjhweUJsSmNOcVNpbWRzZ1djZGlLWnhiTlg5RjNMNS1SR0M5RDVhbm9iZy1EZzhMaWUyN05IYk5VQWw0T0o1YmV3MXRhNE1Xa3VSaHdYZEM1QWN3UzMydE4tZlpzTXRVdEk3UTNBZ1FKeWFSWFFoVlBmYnhjOGYyQ2xmc3kzVnB2M3RnVU9KWkpPeTkxUU5ESzBSTEZXdw?oc=5"
+      "titulo": "MTE recebe 4,3 mil denúncias de assédio eleitoral no trabalho em três dias",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORllNUDd1RUNtMWRacUZKS0VIelJ6RnFZVnVnQ0VVMjFoWGt3M2ZwaW91NWp6dkdjUWVYSndOU2VSa25kMHRvUXh5aXRxc081M2gyeEV0QUdwQ3lHOS12emJ6VEdqb0lsRTYzSkJkOHBPajBqM2VOWEg1V1dDYVg4dXRzV2xBR05icTZwNGtjc2s4eDdRREJzakV0TUMtZ1dIT1J1U1l1UG5mbVdLZUtJWUpNVzRmV1lIRG8w0gHKAUFVX3lxTE54b012MVVxLTRPMkVSTVlsbjBKd1IyWXBtTDJNVGdCa21DTWw4UjZNeUZ3RDlReGRzb2RtWk44azlkQ19HQ2RHbGZlZ0NKcHAwOURQaHUzUWM4LXNpdkdQbW53SS1ZMXRTXzE5bi1lRHAzTnJ2MTdTRmlRWVRQakdjckliRjAyMGhuWUVwZmNGMFo1d2tUdWlzU09DRm1nRGdGc0UxbUdadE4zTzRZY3J0NUE5eVFUZHJpYk5hTE1iaW9idW9pSHBSMWc?oc=5"
     },
     {
       "cat": "politica",
@@ -347,21 +347,15 @@
     },
     {
       "cat": "politica",
-      "titulo": "Avanço da oposição leva centrão a se aliar a Lula, diz cientista política",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcmEyQlBiUmZIdk5GSTdOc2VCNEFZejNKVHJiSkpUYUZROEI4THRWX1J5TzhrSk53Y1Ywdk9hY2NfVGtyaWg4b25VOFZqb0FkSDdGT0hoTVBtUDI0X2VJUDdvV0gzYUV0SFkwYTJLbjJDU3V4dGdxTUlyZFNKanFkM2xvUzZrUVJYUVlwSjJR?oc=5"
-    },
-    {
-      "cat": "politica",
       "titulo": "O que pode acontecer com Flávio Bolsonaro nos EUA se democratas derrotarem Trump no Congresso?",
       "fonte": "G1",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQR25wb1JwUW9BcUg1MXNuc1RUX3pxVFRBcV9uWnZtRVZmYUdLNFJQWEJsRVBncUpFRUh3MjNjOV9HY1hRMEFtLTVHNnZfMlRBUXFqRkZianBTZzNBRXJWUk1Zc0V3UHRQY2lZNC05Q3VCQXJoMW1fVjd1MVhpM2xmRVBkdTJWUFZyRWZXS0luSVR5c2lHaVNrUWdrRGpqVUp0WmJqd2hfUUhTTl9TQUhSczF5ckNNQ3JZd1BhX2F2dFlGNHNJTU0xeDc1ZnZkUjl4SXF4YlBfa003MWZMRHfSAewBQVVfeXFMUDhFOVVISHVFWWhrNzQ5Y2dzZURONUQ1bEFVd0dkN1dRbVdqUlk0YkdCaV9RRTBGRTY4cU9NaG9XdDhtbUNWSVI1MFhza0U5N3lQbWNXdmV5eF9xYkVpaWprdjZMYnp3R05GUVRIZ2ZoMmRjRTA5YTRLcnQxU1lpb3RhbGNzQUlfOVRGTW9KOWF4R082RWtBTFpjU3U1dnJPUjFlNkRzRmxWU0dzSVFJLW1PYi0xZG83NUlOYWpLMGFTWVBIeUV1al95SHhqS3hvSHctbDl0cXNtc1BmT0JHRmwxOGZMNnk1SVQ3UHI?oc=5"
     },
     {
-      "cat": "eleicoes",
-      "titulo": "Flávio Bolsonaro projeta crise de Lula e nova eleição antes de 2030",
-      "fonte": "Gazeta do Povo",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVG4xM1ByVGY5TkV1dEZudk1ZWG1FbDFPbmlSVG1kZUp3WHNhVUJEa1FzVm9zTFhkYTA2SkV6ZXdDdEk5bFFwSUVRdmowcDZTVThZaGxpWkVfaUl1RjN4QzJfSEtMSzQxRXpON0Ztdkt0ekoxTzRHcGVQU3RqbDJtWnVMQUh5YW1NUkM5YWRhUDhPbjdwbXBSUXZhWURBZFF6VXNzVVByTWlmRE9hQnd6X1RjZw?oc=5"
+      "cat": "politica",
+      "titulo": "Avanço da oposição leva centrão a se aliar a Lula, diz cientista política",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcmEyQlBiUmZIdk5GSTdOc2VCNEFZejNKVHJiSkpUYUZROEI4THRWX1J5TzhrSk53Y1Ywdk9hY2NfVGtyaWg4b25VOFZqb0FkSDdGT0hoTVBtUDI0X2VJUDdvV0gzYUV0SFkwYTJLbjJDU3V4dGdxTUlyZFNKanFkM2xvUzZrUVJYUVlwSjJR?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -371,9 +365,15 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "Vieira encontra Rubio nos EUA após vitória de Lula e fuga de Flávio",
-      "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVU5rbGRrV2JlNXM1S2p3cVB2SmFsU3NZOXgtdHc4eUkwUW1aLUc1Vlo2QkRLeDZuWnBTZXptcFdSQVphRDE4bGZaS2dGT3g3N04wbUxYRUxLZWh6VGNCakVrc19IT3hUSklhMWQ5NXRDcGh3aVYtZnZ0Q2xqUTlLdTdoNC1yYTF2MXg4dmw2azlIVGZCTzRwRkg4Rm5UN1VZX1pMeU1Gczh0V3NUUnN6Yjk5b0hDaHZmWnQtMnRSMVpxZmc?oc=5"
+      "titulo": "Reunião de emergência, script abandonado e medo de ser preso: os bastidores da noite em que Flávio Bolsonaro foi derrotado",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPVjVNTHN6S0Y3WXlWVmJsNGt2N1NZSkcxTC00aWg0ek44WWd1WXJtck03YXRWUXd2WXZjQlVKb29WQk9DVmtRa1hVYk1rWWhMUzFKWWlDd3ZEalpvOGk2ZDVMbVlNRDhGREpTVXdJOHBLSFktUXZod1RMMHRpWFlLaE55ZjdySHlQa21sbC1jWWJxZWxEdzFOWnAwYUU2NkVRUklZZ2JOMlVXOWw0dkZRdmpYcVRRM2Y4N0V2U3dld04xV09LXzBYU3lFVFFHSTA1WWFNSnNCamhDWk5GUDg2T2pKWjdGQWN2NWFDZFlmVEdHQmE4SjRhM2ZkLUN5SzltNzV0WEI3bGsxQUUyR0VZ0gGeAkFVX3lxTE5WTnJFUTNkMW9YcmNHTVEzZDZIMXlMcTRhb2IwWnFId1BLd09LVzE5cmdRTGtxQUhoR3JBRzF3bDdsajAwNml4RVRVYmtsUlZMY1hiLUUtZmVrdDV5c2Zpcks3bFRQdm9JS3VpRmJORWFzTENqbFV3N3RYZEdvbl9tOU9xSFBaaGUwWkZTR1F5YWpMS1JmaDBUSmVrcXFHZkd5ZXVQemtQX0ZyUEFGTmlGMzctNmM1WGpfMDJlMlBkN0g5XzczQXUxUmwtakM4Mi1qRWZCcHlMM2U2OUViVjFobXFVVW1yWVJCd25jZmFERFlDUXM4MjBOZ2xDd3hTaU5xNVZDZlVJcjFETVNyMnhyUnUxVDNaUGNEQjgxanc?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "Por que Flávio prevê queda antecipada de Lula e admite disputar Presidência antes de 2030",
+      "fonte": "Gazeta do Povo",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVzlnN0pEeVZ3RXhBM2FKcmJjTDJKT09EOGZsc0ZBdGxMVVRaZEFpSTFwOWNwZXJNZXEyemdROWNsd3NJY3RDbWpSQW41OHVNaXlIUEpiYkJBNWRBbHlPV2lRTVVna3V5V3AxUXdUVklYamNaVy1ja1FzM2NiNURQU2xab1RmZ2VHVV9BWUI3YlRub2xZLVU4T20ycGFacEd5d01lZkFhaTl0dWFqbzRRc3pGOEQ4RmVWVnM5bFJrXzFEY1pvRjBxWlVTVWw?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-10-31T14:46:36-03:00",
+    "atualizadoEm": "2026-10-31T18:39:32-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
