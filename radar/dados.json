@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-10-30T23:05:00-03:00",
-  "alerta": "Em live do exterior, Flávio Bolsonaro volta a questionar a eleição sem apresentar provas e fala em 'novas eleições' antes de 2030; Moraes ainda não decidiu sobre os pedidos de prisão. Ibovespa fechou a semana com a pior queda desde 2020 e o dólar a R$ 5,44.",
+  "atualizadoEm": "2026-10-31T06:40:00-03:00",
+  "alerta": "Levantamento do O Globo: 3 em cada 4 eleitos do PL não compartilharam a carta em que Flávio se dizia presidente eleito; Moraes ainda não decidiu sobre os pedidos de prisão. Bolsa fechada na segunda (2/11, Finados); Copom decide a Selic na quarta (4/11).",
   "eleicoes": {
     "candidatos": [
       {
@@ -150,6 +150,10 @@
         "texto": "À noite, em live no Instagram, Flávio diz que saiu 'pelo' Brasil, questiona o resultado sem apresentar provas, fala em novas eleições antes de 2030 e apoia Rogério Marinho para presidir o Senado. Segundo o TSE, 107 países já reconheceram a vitória de Lula."
       },
       {
+        "data": "31/10",
+        "texto": "Levantamento do O Globo: 117 de 155 eleitos do PL (75%) não compartilharam a carta de Flávio. NYT diz, sem confirmação oficial, que o jato da viagem teria sido arranjado por integrante do governo Trump."
+      },
+      {
         "data": "05/01/27",
         "texto": "Posse do presidente eleito.",
         "futuro": true
@@ -254,7 +258,7 @@
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
-    "semana": "Média nacional ANP, semana de 18 a 24/10/2026 (gás de cozinha e GNV: semana de 27/09 a 03/10). Variação desde o início do ano.",
+    "semana": "Média nacional ANP, semana de 18 a 24/10/2026 (gás de cozinha e GNV: semana de 27/09 a 03/10). Variação desde o início do ano. Próximo levantamento da ANP adiado para 3/11.",
     "itens": [
       {
         "nome": "Gasolina",
@@ -437,7 +441,7 @@
       "id": "eleicao",
       "tema": "Eleições",
       "titulo": "Em live dos EUA, Flávio questiona a eleição sem provas e fala em 'novas eleições' antes de 2030",
-      "chamada": "Na primeira fala pública desde a carta, Flávio diz que saiu do país por causa de perseguição e pede oposição forte no Senado. Moraes ainda não decidiu sobre os pedidos de prisão; 107 países já reconheceram Lula. O que se sabe e o que cada lado diz.",
+      "chamada": "Na live, Flávio disse ter saído por perseguição e falou em 'novas eleições' antes de 2030. Levantamento do O Globo mostra que 75% dos eleitos do PL não compartilharam a carta dele. Moraes ainda não decidiu sobre os pedidos de prisão. O que se sabe e o que cada lado diz.",
       "data": "30/10/2026",
       "inicio": [
         "Lula venceu o 2º turno com 51,79% dos votos válidos, e o TSE confirmou o resultado. O PL reconheceu a vitória, mas Flávio Bolsonaro anunciou ações para cassar a chapa Lula-Alckmin.",
@@ -456,7 +460,8 @@
         "Na manhã desta sexta (30/10), não havia novidade oficial: Flávio segue nos EUA, sem pedido de asilo confirmado, e Moraes ainda não decidiu sobre os pedidos de prisão. Na imprensa, ganha espaço a disputa pela liderança da oposição: segundo a CNN Brasil, aliados da família Bolsonaro e do Centrão veem o governador Tarcísio de Freitas como o nome mais bem posicionado, de olho em 2030; o jornal português DN resumiu que a direita vira as costas a Flávio.",
         "No fim da manhã desta sexta (30/10), a agência Reuters, citando uma autoridade americana e outra pessoa a par do assunto, sem identificá-las, informou que o governo Trump não tem planos de apoiar Flávio como líder legítimo do Brasil, embora Trump possa mudar de ideia. Segundo a Reuters, o secretário de Estado Marco Rubio recomendou autorizar a entrada da família, e um assessor de Trump ajudou a organizar a viagem; a Casa Branca e o Departamento de Estado não comentaram. Segundo o Metrópoles, Flávio montou uma equipe de advogados que deve alegar perseguição e tenta levar o inquérito de lavagem de dinheiro de Moraes para o ministro André Mendonça; a reportagem diz que ele deve pedir asilo, mas não há pedido confirmado. Um grupo de advogados pediu à PF que apure o uso do brasão da República na carta. Moraes ainda não decidiu sobre os pedidos de prisão.",
         "Até o fim da tarde desta sexta (30/10), não houve decisão de Moraes sobre os pedidos de prisão nem pedido de asilo confirmado. A agência Lupa checou que um vídeo de militares americanos rindo, que circula nas redes como um suposto 'resgate' de Flávio, não tem relação com o caso. Aliados de Flávio seguem dizendo que as medidas de Moraes são exageradas e que a saída do país foi uma reação a perseguição; o governo e aliados de Lula dizem que ele fugiu para escapar da Justiça.",
-        "Na noite desta sexta (30/10), em live no Instagram, Flávio fez a primeira fala pública desde a carta. Disse que saiu 'pelo' Brasil, e não 'do' Brasil, para ter mais liberdade, que via a ordem de Moraes como início de perseguição e que não contou o plano a ninguém fora da família. Questionou o resultado e a Justiça Eleitoral sem apresentar provas, disse ter perdido para 'o sistema', falou em 'novas eleições' antes de 2030 sem dizer como e não descartou disputar de novo. Pediu que a oposição se concentre no Senado e apoiou Rogério Marinho para presidir a Casa. Segundo o painel do TSE, 107 países e 11 organismos internacionais já reconheceram a vitória de Lula; EUA e Argentina não se manifestaram oficialmente, e Trump criticou a eleição sem apresentar provas. Moraes ainda não decidiu sobre os pedidos de prisão."
+        "Na noite desta sexta (30/10), em live no Instagram, Flávio fez a primeira fala pública desde a carta. Disse que saiu 'pelo' Brasil, e não 'do' Brasil, para ter mais liberdade, que via a ordem de Moraes como início de perseguição e que não contou o plano a ninguém fora da família. Questionou o resultado e a Justiça Eleitoral sem apresentar provas, disse ter perdido para 'o sistema', falou em 'novas eleições' antes de 2030 sem dizer como e não descartou disputar de novo. Pediu que a oposição se concentre no Senado e apoiou Rogério Marinho para presidir a Casa. Segundo o painel do TSE, 107 países e 11 organismos internacionais já reconheceram a vitória de Lula; EUA e Argentina não se manifestaram oficialmente, e Trump criticou a eleição sem apresentar provas. Moraes ainda não decidiu sobre os pedidos de prisão.",
+        "Neste sábado (31/10), um levantamento do jornal O Globo nas redes de 155 eleitos do PL (121 deputados federais, 28 senadores e 6 governadores) mostrou que 117 deles, cerca de 75%, não compartilharam nem defenderam a carta de Flávio; 38 a apoiaram. Pelo mesmo levantamento, 86% não reconheceram publicamente a vitória de Lula, grupo que inclui quem contestou e quem ficou em silêncio. O New York Times publicou, sem confirmação oficial, que o jatinho usado na viagem teria sido arranjado por um integrante do governo Trump; a Casa Branca e a família não comentaram. Segundo a imprensa, Flávio planeja ir a Washington na próxima semana."
       ],
       "cadeia": [
         "Flávio perde o 2º turno e anuncia ações de cassação no TSE",
@@ -487,6 +492,22 @@
       ],
       "bolso": [],
       "fontes": [
+        {
+          "nome": "Brasil 247/O Globo (eleitos do PL e a carta)",
+          "url": "https://www.brasil247.com/brasil/flavio-bolsonaro-fica-isolado-apos-75-dos-eleitos-do-pl-ignorarem-carta-golpista/"
+        },
+        {
+          "nome": "24 Notícias/New York Times (jato da viagem)",
+          "url": "https://24noticias.sapo.pt/atualidade/artigos/flavio-bolsonaro-tera-viajado-para-os-eua-num-jato-disponibilizado-pela-casa-branca"
+        },
+        {
+          "nome": "Campo Grande News (live de Flávio)",
+          "url": "https://www.campograndenews.com.br/politica/flavio-diz-que-fugiu-do-brasil-para-nao-virar-moeda-de-troca-do-sistema"
+        },
+        {
+          "nome": "ABC News (imprensa internacional)",
+          "url": "https://www.abc.net.au/news/2026-10-31/flavio-bolsonaro-says-he-left-brazil-because-of-persecution/107331760"
+        },
         {
           "nome": "Correio Braziliense (live de Flávio)",
           "url": "https://www.correiobraziliense.com.br/politica/2026/10/7531305-flavio-fala-em-novas-eleicoes-antes-de-2030-em-primeiro-video-apos-fuga-aos-eua.html"
@@ -625,8 +646,13 @@
         }
       ],
       "indicadores": [],
-      "atualizadoEm": "2026-10-30T23:05:00-03:00",
-      "atualizacoes": [],
+      "atualizadoEm": "2026-10-31T06:40:00-03:00",
+      "atualizacoes": [
+        {
+          "hora": "6h",
+          "texto": "O Globo: 75% dos eleitos do PL não compartilharam a carta de Flávio; NYT diz, sem confirmação oficial, que o jato da viagem teria sido arranjado por integrante do governo Trump."
+        }
+      ],
       "referencia": {
         "dolar": 5.44,
         "ibov": 167921.8,
@@ -654,7 +680,8 @@
         "Depois do fechamento, a Vale informou lucro de US$ 1,25 bilhão no 3º trimestre, queda de 54% em um ano e abaixo dos US$ 1,51 bilhão esperados pelo mercado (consenso Bloomberg). A empresa citou o minério mais barato, o real mais forte no trimestre e o combustível de navios mais caro; o Ebitda veio um pouco acima do esperado.",
         "Na manhã desta sexta (30/10), a agenda traz o Indicador de Incerteza da FGV (8h), as estatísticas fiscais de setembro do Banco Central (8h30) e a Pnad Contínua do IBGE (9h), com desemprego esperado perto de 5,2%; a Aneel define a bandeira de energia de novembro. O investidor também reage ao lucro da Vale abaixo do esperado e, segundo o InfoMoney, os futuros da Nasdaq recuavam depois dos balanços de Amazon e Intel.",
         "Nesta sexta (30/10), o IBGE informou que o desemprego caiu para 5,2% no trimestre até setembro, como os analistas esperavam e o menor para esse período desde 2012; a renda média subiu 3,6% em um ano, para R$ 3.790. Uma correção: as contas públicas de setembro saíram na quinta (29/10), com déficit de R$ 5,5 bilhões e dívida bruta em 82,9% do PIB. O Ibovespa abriu estável, mas recuou cerca de 1%, para perto de 167 mil pontos, por volta das 10h20; às 11h14 estava em 168.526 pontos (-0,39%), rumo ao 5º pregão seguido de queda. Bancos, B3 (-3,8%), varejo e Usiminas (-7%, após lucro abaixo do esperado) caíam; Vale virou para alta e Petrobras subia com o petróleo Brent perto de US$ 117. O dólar subiu a cerca de R$ 5,43. Lá fora, os futuros da Nasdaq caíam cerca de 2% depois dos balanços de Amazon e Intel, e um ataque hacker de cerca de US$ 6,3 bilhões à corretora Binance pesou no humor.",
-        "No fechamento desta sexta (30/10), o Ibovespa caiu 0,75%, aos 167.922 pontos, depois de oscilar entre 167.008 e 169.185: foi o 5º pregão seguido de perdas. Pelas contas do Radar, a queda na semana fica perto de 18% (de cerca de 205 mil para 168 mil pontos); o Money Times a chama de a pior semana em seis anos. O dólar subiu 1,1%, a R$ 5,44, também pressionado pela formação da Ptax de fim de mês. Bancos e varejistas caíram com a alta dos juros, enquanto Vale e Petrobras subiram. Em Nova York, o Nasdaq recuou 2,86% e o S&P 500, 1,76%. Segundo Nicolas Gass, da GT Capital, o mercado apostava em troca de governo e fez uma forte correção depois da reeleição."
+        "No fechamento desta sexta (30/10), o Ibovespa caiu 0,75%, aos 167.922 pontos, depois de oscilar entre 167.008 e 169.185: foi o 5º pregão seguido de perdas. Pelas contas do Radar, a queda na semana fica perto de 18% (de cerca de 205 mil para 168 mil pontos); o Money Times a chama de a pior semana em seis anos. O dólar subiu 1,1%, a R$ 5,44, também pressionado pela formação da Ptax de fim de mês. Bancos e varejistas caíram com a alta dos juros, enquanto Vale e Petrobras subiram. Em Nova York, o Nasdaq recuou 2,86% e o S&P 500, 1,76%. Segundo Nicolas Gass, da GT Capital, o mercado apostava em troca de governo e fez uma forte correção depois da reeleição.",
+        "No balanço do mês, segundo a Gazeta Mercantil, o Ibovespa caiu 9,88% em outubro, o pior mês desde junho de 2022, e ainda acumula alta de cerca de 4,2% em 2026. O dólar subiu cerca de 5,2% no mês e teve a maior alta semanal desde outubro de 2008. Segundo dados da B3 citados pelo jornal, estrangeiros tiraram cerca de R$ 7,6 bilhões da bolsa nos três pregões após o 2º turno. A B3 fecha na segunda (2/11), feriado de Finados, e reabre na terça (3/11)."
       ],
       "cadeia": [
         "O mercado apostava na vitória de Flávio e comprou muitas ações",
@@ -694,6 +721,14 @@
         "Em momentos assim, renda fixa pós-fixada (atrelada ao CDI) costuma ser vista como mais defensiva"
       ],
       "fontes": [
+        {
+          "nome": "Gazeta Mercantil (balanço de outubro)",
+          "url": "https://gazetamercantil.com/ibovespa-outubro-2026-queda-dolar-alta"
+        },
+        {
+          "nome": "DGABC (fechamento de 30/10)",
+          "url": "https://www.dgabc.com.br/Noticia/4366080/fechamento-do-mercado-financeiro"
+        },
         {
           "nome": "Metrópoles (contas públicas de setembro)",
           "url": "https://www.metropoles.com/brasil/contas-publicas-tem-deficit-de-r-55-bilhoes-em-setembro"
@@ -827,8 +862,13 @@
         "dolar",
         "ibov"
       ],
-      "atualizadoEm": "2026-10-30T17:45:00-03:00",
-      "atualizacoes": [],
+      "atualizadoEm": "2026-10-31T06:40:00-03:00",
+      "atualizacoes": [
+        {
+          "hora": "6h",
+          "texto": "Balanço de outubro: Ibovespa -9,88%, pior mês desde junho de 2022; dólar +5,2% no mês. Bolsa fechada na segunda (Finados)."
+        }
+      ],
       "referencia": {
         "dolar": 5.44,
         "ibov": 167921.8,
@@ -1050,7 +1090,8 @@
         "Nesta quinta (29/10), os juros futuros marcaram máximas em todos os vencimentos durante o dia, com a falta de nomes para a equipe econômica, mas viraram e fecharam em leve queda depois da notícia sobre o possível convite a Fonteles: o DI jan/28 terminou em 14,33% (de 14,41%) e o jan/31 em 15,05% (de 15,07%).",
         "Na abertura desta sexta (30/10), os juros futuros subiram em toda a curva: às 9h18, o DI jan/28 estava em 14,41% (+0,08 ponto) e o jan/31 em 15,23% (+0,18). Segundo o Banco Central, a dívida bruta chegou a 82,9% do PIB em setembro, o maior nível desde 2021, pressionada pelos juros altos; o setor público teve déficit de R$ 5,5 bilhões no mês. O desemprego de 5,2%, o menor para o período desde 2012, mostra um mercado de trabalho ainda aquecido, um dos fatores que o BC acompanha antes do Copom de 4/11.",
         "No fim da tarde desta sexta (30/10), os juros futuros longos seguiram em alta, acompanhando o dólar: segundo o BPMoney, o DI jan/31 passou de 15,20% ao ano, refletindo a preocupação com as contas públicas. As taxas curtas ficaram estáveis depois do dado de desemprego, que veio em linha com o esperado.",
-        "No fechamento desta sexta (30/10), segundo o Estadão, o DI jan/28 terminou em 14,49% (ajuste anterior de 14,37%) e o jan/31 em 15,21% (de 15,16%). Analistas citam o risco fiscal, à espera dos nomes da equipe econômica, e a maioria das apostas passou a ver a Selic mantida em 13,75% no Copom de 4/11. Segundo Stephan Kautz, da EQI, promessas de campanha podem somar de R$ 60 bilhões a R$ 80 bilhões aos gastos de 2027."
+        "No fechamento desta sexta (30/10), segundo o Estadão, o DI jan/28 terminou em 14,49% (ajuste anterior de 14,37%) e o jan/31 em 15,21% (de 15,16%). Analistas citam o risco fiscal, à espera dos nomes da equipe econômica, e a maioria das apostas passou a ver a Selic mantida em 13,75% no Copom de 4/11. Segundo Stephan Kautz, da EQI, promessas de campanha podem somar de R$ 60 bilhões a R$ 80 bilhões aos gastos de 2027.",
+        "Para o Copom de quarta (4/11), o Itaú, segundo a Gazeta Mercantil, espera uma pausa nos cortes, com a Selic mantida em 13,75%. Na semana, as opções de Copom da B3 já apontavam a manutenção como cenário mais provável, com cerca de 63% de chance. O próximo Boletim Focus deve trazer as primeiras projeções coletadas depois do 2º turno."
       ],
       "cadeia": [
         "Inflação acima do teto da meta",
@@ -1086,6 +1127,14 @@
         "Para guardar dinheiro, aplicações atreladas ao CDI ou à Selic rendem bem nesse cenário"
       ],
       "fontes": [
+        {
+          "nome": "Gazeta Mercantil (Itaú vê pausa)",
+          "url": "https://gazetamercantil.com/ibovespa-outubro-2026-queda-dolar-alta"
+        },
+        {
+          "nome": "Bora Investir/B3 (opções de Copom)",
+          "url": "https://borainvestir.b3.com.br/noticias/a-uma-semana-do-copom-opcoes-da-b3-indicam-631-de-chance-de-manutencao-da-selic/"
+        },
         {
           "nome": "O Povo/Estadão (DI no fechamento 30/10)",
           "url": "https://www.opovo.com.br/noticias/economia/2026/10/30/taxas-de-juros-sobem-com-maior-risco-fiscal-e-cenario-de-manutencao-da-selic.html"
@@ -1159,8 +1208,13 @@
         "selic",
         "ipca"
       ],
-      "atualizadoEm": "2026-10-30T23:05:00-03:00",
-      "atualizacoes": [],
+      "atualizadoEm": "2026-10-31T06:40:00-03:00",
+      "atualizacoes": [
+        {
+          "hora": "6h",
+          "texto": "Itaú espera pausa nos cortes da Selic no Copom de 4/11; opções da B3 apontavam cerca de 63% de chance de manutenção."
+        }
+      ],
       "referencia": {
         "dolar": 5.44,
         "ibov": 167921.8,
@@ -1177,7 +1231,8 @@
         "Pelo levantamento da ANP de 18 a 24/10, o diesel S10 custa em média R$ 7,32 o litro, cerca de 19,5% acima de janeiro. A gasolina caiu para R$ 6,49 e o etanol para R$ 4,11, cerca de 63% do preço da gasolina.",
         "Nesta terça (27/10), o governo prorrogou por mais 30 dias, até 26 de novembro, o subsídio de R$ 2,12 por litro, por portaria da Fazenda. Sem a prorrogação, a ajuda cairia para R$ 1. O governo diz que a medida não aumenta o gasto atual. O custo pode chegar a R$ 10,5 bilhões por mês. Nesta quarta, o Brent sobe para cerca de US$ 111, com notícia de ataque a uma refinaria na Arábia Saudita.",
         "Analistas do Itaú BBA, citados pela imprensa nesta quarta, calculam que o diesel da Petrobras está cerca de 20% abaixo do preço internacional e a gasolina cerca de 10%; para zerar a diferença seriam precisos reajustes de cerca de 60% no diesel e 18% na gasolina. Para eles, a empresa pode adiar a correção para 2027, com aumentos graduais. A Abicom, dos importadores, também espera reajustes aos poucos, sem um aumento forte de uma vez.",
-        "Nesta sexta (30/10), o Brent subia cerca de 2,5%, para perto de US$ 117,7, depois de novos ataques a instalações e navios no Golfo. Respondendo à CVM sobre uma reportagem do Brazil Journal de que o conselho teria pressionado por reajustes, a Petrobras confirmou que o conselho discutiu em 26/10 a estratégia de preços do diesel e da gasolina, mas disse que não houve decisão e que mantém a política atual, que leva em conta o subsídio do governo."
+        "Nesta sexta (30/10), o Brent subia cerca de 2,5%, para perto de US$ 117,7, depois de novos ataques a instalações e navios no Golfo. Respondendo à CVM sobre uma reportagem do Brazil Journal de que o conselho teria pressionado por reajustes, a Petrobras confirmou que o conselho discutiu em 26/10 a estratégia de preços do diesel e da gasolina, mas disse que não houve decisão e que mantém a política atual, que leva em conta o subsídio do governo.",
+        "A ANP adiou para terça (3/11) a divulgação do levantamento semanal de preços, por causa do feriado; até lá, valem os números da semana de 18 a 24/10."
       ],
       "cadeia": [
         "Guerra no Oriente Médio leva o Brent a US$ 117 o barril",
@@ -1257,14 +1312,23 @@
         {
           "nome": "BiodieselBR/Estadão (Abicom)",
           "url": "https://www.biodieselbr.com/noticias/regulacao/politica/reeleicao-de-lula-fara-petrobras-reajustar-gradualmente-os-precos-diz-abicom"
+        },
+        {
+          "nome": "Game Over Drive (ANP adia levantamento)",
+          "url": "https://gameoverdrive.com.br/preco-gasolina-hoje-finados-diesel/"
         }
       ],
       "indicadores": [
         "etanol",
         "dolar"
       ],
-      "atualizadoEm": "2026-10-30T11:50:00-03:00",
-      "atualizacoes": [],
+      "atualizadoEm": "2026-10-31T06:40:00-03:00",
+      "atualizacoes": [
+        {
+          "hora": "6h",
+          "texto": "ANP adia o novo levantamento de preços para terça (3/11), por causa do feriado de Finados."
+        }
+      ],
       "referencia": {
         "dolar": 5.43,
         "ibov": 168525.83,
