@@ -163,8 +163,8 @@
       "anterior": 169186.42,
       "minimo": 167007.56,
       "maximo": 169184.6,
-      "hora": "30/10 20h51",
-      "ts": 1793404277858
+      "hora": "31/10 02h49",
+      "ts": 1793425750516
     },
     "acoes": [
       {
@@ -249,8 +249,8 @@
         "var": 0.84
       }
     ],
-    "acoesTs": 1793404277858,
-    "moedasTs": 1793404277858,
+    "acoesTs": 1793425750516,
+    "moedasTs": 1793425750516,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -301,15 +301,9 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Trump diz que EUA investigam se ataque contra a Binance foi feito por hackers da Coreia do Norte",
+      "titulo": "Hackers invadem a maior corretora de criptomoedas do mundo e roubam mais de US$ 6 bilhões em 20 minutos",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOWXpVSnZRclRQZ2lJaHVSSUdRa3MycjBpeXZkc1ItYS1IRlZjNzZGVXZ6SFd4c2s5NmU2R1VwdjNqYzZSSzBRc19tcjEtZlFib0Nkck5aMEVSQ3VzblNyWHRSSkJ0TE9IbEhzbU1tdFVpb1BRMmw3TzRDZG54ckxoTU9CeE40RkFMbTRfaldfUzc5NW9VckJKczF1SW9lZDYwaWxjNDFnU1FNZ01hdmtYVWxtVGRKekNMTTVFZ2hHOTM4R09KWDU0em5sVUl2amcyRU9ZaU5URGxCQTRkVUVjVE5MZElUVTI5QmI1R2lKazRMVEVoTXdLVVlTU3DSAYsCQVVfeXFMUEl5TjJDbVJLRDI0cGtMR21naEZLb0paUmxnTWNsMU52cmp5U0k3NjNCS3dIRmg3ckpVaUVDQWdmT3E3S3dzbXRsbTJJUmFHbUowMjZCYnB5VzFYM3RRejl1dTc4SFpOWExBcV9MYW9Jcm5nLURKVHU1QklQMHBMOGV3Nk1FdDZBT2lLWjJJYnRfTDJ2bnpuQWtzUE1VVlpvLWZvTHRRT1AxaHYyakhNMmVzdXdhdDItejJfamhVdDlHdGJRWG5jSEd6ZnZCSWxGdmlITXhSLUxpLWhTcjY3OFZfNzV1T2NtS3UxcEpWczllMWFGQUZ6UTU5bmxrRTVvWlMzTm8ybXY3TFNV?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Conta de luz: Aneel mantém bandeira tarifária verde em novembro",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPM29QWHlmT0FWTWVaZF91ZjdSM3ZZOXpITm1aWDd4Z0EtV3VFMXZpUkluWjNqQXRTNkNoYU42NktRLWFNTGpvNEZwRnFqdHQ0c1hjQTh2M0t4MllXNmhLWlFjQlhBNUliVkRldFBEWlBoSjU5cFpqaWhTWmplZVJnUXFsU2V3UzFCLWtIZG9fY25ycVJNREdoS2JsUXVVcjV5bHlwbHNvVTRHR0NyWnhRd20zUk1XSHFfdDhrb0FMb9IBzgFBVV95cUxNT2FSa19HR3RhN1ZRSFBWSzhDWUE5TkMxM3NLUDhnUDVnZzhsa0hGV18ybmN5OTVCcVFlQXlYTzFmdEdXT1lYdjY2cG5NaHd0c2p3VUwwNW1IUTdYV0JkaUdBbEM0WWQwbFRNaE5Hc29CYmlwSk1kakZwTUQyclpTSXhPM3VZVWdrWUFqeFBjQWFPYUhKY3Fsd0o1U3lSMkxjUDhJNDRfRkRNMkRJaXNtX2dfenBubHJ3ZVFyb245YVdobE5Dbk9jY3ZSUjNkdw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPalRFb283d2swdUQ4T2NBdlloYnFQZUl0dUJuaXJQaFQyaV9Lc0h3VXp0S1J3UGlNNXF2Ym1nakRfVkxZck5BM2x2d2Vla1lsa291eno2bFM0bkdXQ2VDbWRrT2FLdDAyY24tYUYxZV9oYlZ0d2o3MnZtLTJEYWg1djE5LUJudVZqU0RhdWMtLXZGb3BOTUJOOFRPeEhsRlhULUpYMG1tdmQ2Q1lkNllvWWFabVB6N0xpY1J1N21uUmZPZXpYOEFIWnFuU2dXMko5RVowNzd4V2tTTDZkeDl3cE1wOWtyTzNEOG4xU2hjamZjVng4Rkpz0gGGAkFVX3lxTE5IVnNTeDRoU2Jvcjk3c2Z3RXZmN2pqbjRFMFBBRktwSTRBWFBIeUJrZlZlYlhFSFNGdGxHblZFdDY2MDRINm1wYzBRSmpIVHBEekNlSEFLNHVaN1g4NW85cjlIeW9fcDduUFc2VmpWOWxMQjNUS3lSWXpBOWVxZ28yS1hmSXZyUEZYTGk1dlVpZFl3WWxTNS1ZWkFMS3JZUTkxU0FBQ0l4YTdBNkVfZ2JSMTE1UngxSXdUZ2lZczVwSUhsV3lWMTg2bHg5MXJBWW8zT2VETHAzcjVKWmxCUERfc293QmZRVDhXZUZqZ3FNUGJTNE1ENHl1R1RFUU5mMmk1am1iUHc?oc=5"
     },
     {
       "cat": "economia",
@@ -318,22 +312,34 @@
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUWNzcnRWU1o2bEdxeWZxeFhHMjd3c3NOaGxJWUpxUzRudU14RDZ2WjgyRjJmWUF4azJTUEJ5a19JTE1BS2xHR2s0Z1JlY3cycHVUZmtkYlJReVRQSUhOejJNNEVGbE9LbTd2TmZwT1FDWEpLUlNPQW1GbmticlJkX01tUWdFeUZPR1lnalhpTHVkV0hsNkV1aUpvYlJtMGFSYXo4QzhReGZ6STNzbUNOSVA4dG9WV05ES2hfM2FrN0ZmdDNWU1JRU3B5NUczdVBFd1E?oc=5"
     },
     {
-      "cat": "brasil",
-      "titulo": "Itamaraty convoca diplomata argentina, mas evita transformar fuga de Flávio Bolsonaro em crise com Milei",
-      "fonte": "CartaCapital",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPQ2RVbDFwa2M5NUcxSVNfNHpVVmpiaXJibl9XckhxUVNmR0tlMGxDTlBzTUwxT1BjbDViMGNzbXFxMGwxUW9FZThaRUJHUndaYW52OEN5TzZLYnJFbkR2NUQyVnBJNjJQZ0k4OEVRSml2S1dkc2Q5TVhEd2VSZE83U1YyeHJFZmVaLUlZbkozUWx2WVFwR2xDc3F2T3diSTQxLVJud0pWcUp6RUZXM0NrOFJldTZTbjlIcFFwZ09xNmhXRmNudVBrVUZlM1hiamxQV080dXNJeG1sbjhNVkE?oc=5"
+      "cat": "economia",
+      "titulo": "Aneel mantém bandeira tarifária verde em novembro",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbV9ueS1pMWw5SEdrTWRzQW9FTVJuN0JJZ1AySHhwRkRwMHBsQTlYT0hqSkFLN09Md1BISmRUZ1owNV81YjdqWnNoWndiWTcxQVdkeFdSMWRLR0ZGaS01Nkl5SU1yZHhPcE5YMk1KcXYxaFV1WFVJXzFfNl9oYVA1MlN4TEdNcHdqMzlYLXUzYlBTcXE2dzZ2SENrdUZyYzV0OVpKNlQ4U3UzRWM?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Nikolas Ferreira critica projeto do PT sobre discriminação política",
+      "titulo": "Dos EUA, Flávio sugere disputar nova eleição presidencial antes de 2030",
       "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNlo1VFFnTG9UZFUwb3hPa3BQWmczcVBZejhqRkx5MkhzOUN3dEM1QS1hX0dlRWd1Z3NydnBSNDlwRFZTbFg5Vlg3RWo2QzBkYkl4TllNcXRwQWxlODJtVF9zQW5lTFlWUXFHU3JIdnBwRzJmQ3FqZWdoYTVmODV3OEo3aW16MktPQ1N5VFNkNjQ4d2ljLXVsZmM3cld6TFZUaE1DMDJtOXFrREhmUERSaUFR?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMWxMS00xazYyS04wUDVBUG9Ed3FqMklaZWg2SGZkeHVnQW9sQTF4ZDczU1hoSERsTGpRM2lac2FqRVk3eHo4UmxSRm40U3owQnB4TF9jVmhyZmhjMkM1TjN3MHZHbWd1ZWI2a1FZTlhKLWJuczFRN1FncGlCcVpDNVZfNTFkTFlnRGpBMng4MkktMWRndkxteE9uUnY0LThmU1gtOVJCZk1DXzhyN2FFQkJZeFo0RHhOTURn?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Mauro Vieira e Marco Rubio se encontram no G20 e acertam reunião em novembro",
+      "titulo": "Humorista relata ameaças após publicação de Nikolas Ferreira",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONW1IdlFIb1UzMW9qV0lJYUh1ZE41SmxwUHhMb3FYajdhWXZkNXNmZlhJT2F1b2pmVThseDZNdnM0M25rSnZMSHZMSEJMb3dZdVFsMzRyZVdjeDEzSDBUTmdSS2FfMjd3VFM4bzdSb0Rqbk9sLWQ5X0t2WDBVeFRpN1duOVJVSkF6c3k0QU5EaGFVQTZxY19nZ01EUHl4S0Z4VlJKSVVZS1ltb0s5YVE?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Fernando Sastre volta à prisão em Potim após ser condenado a 17 anos por morte de motorista de aplicativo",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVUNDR1NYUU0tTFEyMGV6WDFSQWloTlE4S3ZkR0tVaTBTRl9ZbUJjLU8xUWZuQllrSFQxbXlQMGpEZms1NnV0d3pDTDNXTllWVkFrYVhyWXVkOUtRX21VM0dIVUI4NlZpcWJKWkgxdzN2aVRCT21PQUgxNXhaSm5vYkJ4MVp0NWJhZkxsZFYtbzgzWE5nVDVpRXgzZ19nSFlXLUVHN01FUHlTUDByM2VTQnNPZ0RSeTBHSHFXWENPSVYwUVpuMndobzExb9IB2gFBVV95cUxOcEFfek4wYnROT0RFdlhLU2RUUWhzMzQtaTJ2em5hVmtCbXBDVnZHcmpWUzg2VGxkbDRFMzhpemtlUWFDd1cyUnBCUHVTNXdzbG83Q3RWX3UzZ2RwTG9NT0N3eVJWZDFMN2puSnJUSFNqOThobjF0VkJaZHc5RHVOTXNlZVdGRXhqMkxCN2lSWU0yWDFxVkdFeDUwM0swRlhLZzd6T0JlMjl0WFo1c25nOGp0LTBkQ1VJWDlGWWxwTVRQTGlfYk1FRXUtVk56SlNkQkNIRU15V25sZw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNSjdlb3RuQ051Y1UwOEVYeGFqNUZoOUs0UFVUczVfOUdyUXA2U1VmMW1xT1o2OEV3dWg1UnBZVFJxZWhrZW1tb3RnLTVWZlJWdnhYNkJGb1RMalA4MGQzM0ZGWV9VYjFoQzkwbm8tbnRCbldOQnNxMWtEWVF4TFA5UGNaek83ZW1KSjh5cEhlVHJtX1ViN29PRDluZnVieEtGelRxYW9pNGllTzY4eVJUbElSckFnME16VXFVZ0pMUWkyUEJtZVRySXJlTzdBYkJpOHlzRjZCVHVzRTJIVDV2VmxwNHRBU2pJSnN3QVAzckI2WlhxclUzZldkdlhjdEhZN21mRDdZd0XSAZcCQVVfeXFMTnA1clhGTTJldlBvaUNNNmM3ZThmSktHRjM2UDg0SzJ5Z1M2V2VFaVhCOS1aX1NaMkRQbXhqc0c3TE5HNkl1SHhtT1ZKVy1ZX1B3emdjcG5VMGlFTUF3MUdlUG5lUkpMY3hkU2pISE5Xbno2QUFZLWhUQlpUbUd5VWVnMk1TYk52X0NFVGROX1o4aG9MNi1yRzk0N09fa1RZZEE3b1BVLXQxeGlkdnVxT2tRRnBpeG9Vc0l2cEFZNkk1TmpiWnFBd0hlNHdmcFNfOTFqUUhEZXVzT3hjaUVMb3JzVEJuWHdpZGU3ZDJuTzhGUE9iOTZVeVU2VEdDZFl0MXBkMGozVW5nOVA0Y043dUc0cC1jellB?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Alagoas no Congresso: mantemos o tamanho, mas perdemos poder",
+      "fonte": "Gazeta de Alagoas",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQV2RGbWZia2stS3VLRDJvNHBFT1h4VGc1X2VaNFl6TkRqZUc5THFTOWFRYlkzVGR5ZTNNVVJRb0tiTmNtbERDc0dSTHVjRVZEdi0xNm83REx6SWlzbXdUOG1qMzh0cE9CUVkydHlxekktV2pRQ3NGWGJ6cWx2c1ZXaGNPUGRmTEp6Q0JsSm5lQTFrTFA5WWdWcDFrbUVrQzBfMjI1SmdFVDNpMk5IdmfSAbYBQVVfeXFMUGRkSFdyZzNsc0ZLN0lHMi1QSjFnSEdBbXZfTHNOX3JsTlA1MGdqZEozd1FqUDdIQ0E2dWliRXF5bGdxM0tRMUZHdkxYTzRlSTcxRFdHTy04UzRiNHFqZkh6OEFhc290eWdQLVZ4N3VhT2JNTFdjTW9kdU1ZUlVURzlhdENHc3dRaUVvSVlhbDIxT0NhRVNEMnRfUnU5aGtqdExtTEZoVnlrRFNzNUxRZXBibzhBdkE?oc=5"
     },
     {
       "cat": "politica",
@@ -343,33 +349,27 @@
     },
     {
       "cat": "politica",
-      "titulo": "Novo governo dependerá ainda mais do Centrão",
-      "fonte": "FecomercioSP",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNUpVWmtqdEZsSHRObmN6VzZ5S293bU43WTE4dFJVSjN5dGNIaFMyMTFYYm1ycVVmNmJIbjhScWQ5RDlJdjVOSldtXzQxWE9oeTl2MktPRHdveDFGWHA4V1VNLWtMdFpzaGpGU1ZFejdSQW5XZGYzWFhldWNiaDdvVktFbF8?oc=5"
+      "titulo": "Reforma eleitoral: Voto distrital foi adotado por 71 anos no Brasil",
+      "fonte": "Congresso em Foco",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSnFJeGQ3XzYzei01Q1FiMmlvc3lrazhlM1hJd1c3UWdNOEs2V1NmZ3JMNFJRSnk5ZjVHM3J1c2Z5NTZFQ21qOW1la1o5RHVNNE1Gb0hnTjBBdms1VWlJNWI2ZWdMYy1EWFVEcFpyR0psUWpNX2ZUaWlpaENYS2tPbUVLdVJEQjluYTdzc1hWR18zR01aRl9PWC1tdDVRNTVyRVNqX0JBTkluWkxfc3k4STZRTHptc3M?oc=5"
     },
     {
-      "cat": "politica",
-      "titulo": "Representação feminina: O avanço civilizatório das eleições de 2026",
-      "fonte": "Congresso em Foco",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdVUwenpvelpIeFFEU3QtSHhMRlpGbFExZUpRQXhLRkZaNzY3NnMyQVgyRWJLYlVfdTNNWTMwemlIZWdjSTQ4d1lleU1nRzJBUlRvUHZBY0JSXy1IdUVZcXJ5T1h2UWZ4QXUtNlNSZ0ZmOEw2TWtsMTZ4bDlGZVhWblRFeXh4WTNVMlhCYnNDaE9HNnZhWEU3a0l0WE1kNzNkNnZuWGVtS2I4RWNSX04wVUNyUTZLdw?oc=5"
+      "cat": "eleicoes",
+      "titulo": "Flávio e Lula encerram hoje disputa acirrada que dividiu as redes, as ruas e o país",
+      "fonte": "VEJA",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOGtUdXprY1lVQVJrb3ZKU1cyOS1wYmgxb2hnRWQ4RWxBTS1nNmlNQWY1SlVBWjBMbXhwcXFmcGVWQmF1WWJ0TTBXUzBPcjhsVm1fNHg3bndzbmFhZlZlT3Z6VFdxSHZMTzh3TUpBTmFNSlNDRFlOeTZzTEZXanl2RGFMV2M2S2xOX2hxbU1nTjBkbEU0MDExX3RtOW1PSUNmT0pPNVJmcTRPWW5NaV9DSS1uZUIxVk41ZFE?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "Flávio Bolsonaro projeta crise de Lula e nova eleição antes de 2030",
+      "fonte": "Gazeta do Povo",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVG4xM1ByVGY5TkV1dEZudk1ZWG1FbDFPbmlSVG1kZUp3WHNhVUJEa1FzVm9zTFhkYTA2SkV6ZXdDdEk5bFFwSUVRdmowcDZTVThZaGxpWkVfaUl1RjN4QzJfSEtMSzQxRXpON0Ztdkt0ekoxTzRHcGVQU3RqbDJtWnVMQUh5YW1NUkM5YWRhUDhPbjdwbXBSUXZhWURBZFF6VXNzVVByTWlmRE9hQnd6X1RjZw?oc=5"
     },
     {
       "cat": "eleicoes",
       "titulo": "Nem fraude, nem milagre: a aritmética da virada de Lula",
       "fonte": "JOTA Info",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOVBhZkZ2SmM2ME52X0ZkLW9DOURpT3FaLWhWS0FNenpjdFNQb3lLTkhzTHg3a2c5bjR6cVRVcWEyZEtzSHFDa1NiWUJzd3paSElCMnJCdkFPOENEdDQ4SUVTTzNOY1Y5a3hlbTgxLVozeWRDOGNRazBCQkJWUGY2UnNLVkUySUhPUFNZQVg1OV8ySmJMZTN6T1A4SHZ6Qm8?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Batalha judicial no TSE entre Lula e Flávio Bolsonaro continua mesmo após eleição",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMHVlLTIzWVUya1ZSdzFyd0R4MS03TUxiMGJVdGctMldKVXhhcjJMcWpUTEVTRXBxS3lQOExwdFY0aDNOeUdLNENNR0ZTb3lnY0RiVDV2SmxsY3B2V0xKWV9teFNBRXNsbEdFR1BWS0tSR0ZrOWJVSk5VSzNsTnF5VUxLVl94XzBaalRBNXdTUDlNRTNJUmgyM2ZFZTZ3NGRGblFacXducDFPUWNSVXpRWEFWU1hwMnVuejNxbGRn?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Painel do TSE mostra reconhecimento global à vitória de Lula e isolamento do golpismo de Flávio Bolsonaro",
-      "fonte": "CartaCapital",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQcVpnTk95bkh0cnF3NnJmM09hb2NQemNGS3R1REZ3SEtua25lUjVlZUVIOUt6ZEk1dm9hck51eThrU2gtck5HMVJRV0ZEdkpOZTVyQlZmS2M2aERCa1Q0Q2U1ajdpZ0xqVTBndG5BX21jNldHd1FIV3g1VnNYTGRUSkJYeTR5d0c5U0V1UzZJLXMyemxRM0FwMU5TMG1BazFIQmdSUl90d1lNb2hXNTU1Y3BSWmZ4QWNWdUhCWEJJd254eUxPTHB6T1hGOGx6QlgzSVFqNU5XM1I2ZnNqWFh6UQ?oc=5"
     }
   ],
   "indicadores": {
@@ -1472,7 +1472,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-10-30T20:51:21-03:00",
+    "atualizadoEm": "2026-10-31T02:49:14-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
