@@ -167,8 +167,8 @@
       "anterior": 169186.42,
       "minimo": 167007.56,
       "maximo": 169184.6,
-      "hora": "31/10 09h38",
-      "ts": 1793450315298
+      "hora": "31/10 14h46",
+      "ts": 1793468793598
     },
     "acoes": [
       {
@@ -253,8 +253,8 @@
         "var": 0.82
       }
     ],
-    "acoesTs": 1793450315298,
-    "moedasTs": 1793450315298,
+    "acoesTs": 1793468793598,
+    "moedasTs": 1793468793598,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,39 +305,45 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Mercado reavalia riscos fiscais após queda de 18% do Ibovespa",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSUVMYmlUeE1aenowYkFFQlR0N1Nlb3hjYmFBNnBtQUlKTTVxSzRkUXFaWUpEME9RUE54eGlITE5za1NHZl9QZDJ4TG5FWU1aRnZnYWx6NEVfZXltNmJ5Z1JaTTlwcmxPenpMYzhXcHNkeWpJN1d5bEQwTXRkTW00d3lDTVJPZEtpdlhkenpNd3hIMlNmMHdmMzRDYUxnOXItR09MOVJGX19yQjVVWG5ONjloTQ?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Hackers invadem a maior corretora de criptomoedas do mundo e roubam mais de US$ 6 bilhões em 20 minutos",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPalRFb283d2swdUQ4T2NBdlloYnFQZUl0dUJuaXJQaFQyaV9Lc0h3VXp0S1J3UGlNNXF2Ym1nakRfVkxZck5BM2x2d2Vla1lsa291eno2bFM0bkdXQ2VDbWRrT2FLdDAyY24tYUYxZV9oYlZ0d2o3MnZtLTJEYWg1djE5LUJudVZqU0RhdWMtLXZGb3BOTUJOOFRPeEhsRlhULUpYMG1tdmQ2Q1lkNllvWWFabVB6N0xpY1J1N21uUmZPZXpYOEFIWnFuU2dXMko5RVowNzd4V2tTTDZkeDl3cE1wOWtyTzNEOG4xU2hjamZjVng4Rkpz0gGGAkFVX3lxTE5IVnNTeDRoU2Jvcjk3c2Z3RXZmN2pqbjRFMFBBRktwSTRBWFBIeUJrZlZlYlhFSFNGdGxHblZFdDY2MDRINm1wYzBRSmpIVHBEekNlSEFLNHVaN1g4NW85cjlIeW9fcDduUFc2VmpWOWxMQjNUS3lSWXpBOWVxZ28yS1hmSXZyUEZYTGk1dlVpZFl3WWxTNS1ZWkFMS3JZUTkxU0FBQ0l4YTdBNkVfZ2JSMTE1UngxSXdUZ2lZczVwSUhsV3lWMTg2bHg5MXJBWW8zT2VETHAzcjVKWmxCUERfc293QmZRVDhXZUZqZ3FNUGJTNE1ENHl1R1RFUU5mMmk1am1iUHc?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Mega-Sena hoje, concurso 3079: Confira o resultado sorteado nesta sexta-feira (30)",
+      "titulo": "Covid, subprime e 11 de Setembro: pós-eleição de Lula se junta a quedas históricas",
       "fonte": "InfoMoney",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQU0ZmWVBGSjR5Y21kcVN0MG1tcUprcGNYTldvV3RjTmU0LTlPOXFyZ1ZtSEZQZ3VzeEgzZURGSUdmdUNBdmQtdTRfMWl5Y0J3dWZLWkZNaVo1dUZ6SDZ2NXowQWxtMTBiVlY3VkFFWFpoVFJETWdqX1BvNE5vWkJ1NzZKUWVnWmlRbkdPZ0VXczJJd18tTFR0dkQxMmlMdHBBWHRyZVlfSW5qN2Rvb2VnT0xydXNGWknSAbwBQVVfeXFMT2psdUcyazR1cUxfMk5tSm1pMDBveEdPRFhnYmViOTNYQlRid2NaUFJ6ckRFRkZXWHd6V0o1QWtqbWozcnRFekxnRlMzLWxhT0hTdkVmWXZCak9uTGVCNmNhN05YN3JsMThmLWZ5Q0tBYS1KMm85WnAwaFhxYzhMYWlBVEhfNTlKajBrZms0YTJwUHpNcmFrb2NMbHZvTFVHZWlqZXZjUWIyUVZrY2U0Z25ycmxRTGFlMGFncEU?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORlllbWFFb0pyNW1kLTQxQVFrbGdGU3lKcUtPQ0RfUkFNRll4WTBDY2UzRk0wMlVMX210YkRGb21kakZOamJtTE83SXZVdnVJOGxIVjVUOEttN1EwX2RwRENLbTVseVh0LWtaYm5MdDhMeWZiWTg0WnZGLXd6dFpPQWRnZm92d2tQR2ZsNFpDMlZqaFRCc0pyZk1Sd3JnUkJFOGVoRdIBqgFBVV95cUxOSUlvbWtlbFFYVVZJQWw4Z0FBTC1yZlRzLTJQQXFPOUVvRmZKWlFLVlFNa1gzaXNwVFlBbTBSSnFPNzl0VWZWZUphNDM3d0Q4Y3hQTVdFTUJMbTd5c05UdWdqOW9OMk5RaGNqWWZBeHRaYmpmREo5Y3N2b2l5czdvaFU1djJGVS15NS1udS1ydVpHeE1BOEJ6RjFkZTJKREJka05IenpzYnJuQQ?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Mega-Sena 3080: sorteio deste domingo (1°) pode pagar R$ 42 milhões",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9SQ2xFWWc4ZGpMM3VRWXlmdE1SVkVaUHREN01SaE9mMV9GRERTMWh5dXlROXEwZlpzUzRfamt4X2p5b3lGczBRQ2VUWm80NXpFdFlTSUNNQVFwQ2ttaTkwa214SXh2Sl9xRHpOSlFVWjFSMC1JeDFDWGVlQV8?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Vorcaro tinha pleno conhecimento e comandava operações de consignado no Master",
+      "fonte": "ICL Notícias",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1WOVNOQ2dQSEtiQ01fblpiOW5mM0l3RzhCSG9meDdoQ3pvamQ2NVhsUGR3OHhTYmF2dlhyYjNCc1NMZ1M2bW83UTJUbFpGU0piN1ZQa0VrSlVPeThTM1VicEFPSDZPSFJYQ1M3a0l0VQ?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Assista ao 1º vídeo de Flávio Bolsonaro nos EUA",
+      "titulo": "Carros camuflados, vários jatos, ajuda dos EUA: jornal argentino detalha fuga de Flávio Bolsonaro",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZXI3dHFPc3hwT0JiRGFvV3FMODNqZXVCOEdLcHhWUjJLVWRVTmJfLVJVMVF2czVzcmtKSDl3X3pLUUhRMHhnZE5YZnZraHZKXy1kN3RUS0hRYjFWb1MwQXhjX3ZVankyMUFCekJoSHp3Zlh6clVfek8xR3lLc001OXM2Tks?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Nikolas Ferreira critica projeto do PT sobre discriminação política",
       "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUlYwV1hMQ2hSa2xna0lLX3dGRXE5VHdjMnJhWk1PWkpLc3NHSlZfLVFTcDd1QmptcTExcHlxUGtOUkkxSGVGVlBMcGpfcjljX285bjk5ZTBmSUlaOUNjUDB3dHdfV0dneTdNeEt3aW4xUmFJRGlfeklHeGt2eXQ4aXJMZXBIZFlIeEdPMzhfTHJ1SXExSGN1SHR6WFk?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNlo1VFFnTG9UZFUwb3hPa3BQWmczcVBZejhqRkx5MkhzOUN3dEM1QS1hX0dlRWd1Z3NydnBSNDlwRFZTbFg5Vlg3RWo2QzBkYkl4TllNcXRwQWxlODJtVF9zQW5lTFlWUXFHU3JIdnBwRzJmQ3FqZWdoYTVmODV3OEo3aW16MktPQ1N5VFNkNjQ4d2ljLXVsZmM3cld6TFZUaE1DMDJtOXFrREhmUERSaUFR?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Humorista relata ameaças após publicação de Nikolas Ferreira",
+      "titulo": "Reeleito, Lula fica \"off\" e vai estender o feriadão para descansar",
       "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONW1IdlFIb1UzMW9qV0lJYUh1ZE41SmxwUHhMb3FYajdhWXZkNXNmZlhJT2F1b2pmVThseDZNdnM0M25rSnZMSHZMSEJMb3dZdVFsMzRyZVdjeDEzSDBUTmdSS2FfMjd3VFM4bzdSb0Rqbk9sLWQ5X0t2WDBVeFRpN1duOVJVSkF6c3k0QU5EaGFVQTZxY19nZ01EUHl4S0Z4VlJKSVVZS1ltb0s5YVE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ00xczkteEdHZ0t6UjhweUJsSmNOcVNpbWRzZ1djZGlLWnhiTlg5RjNMNS1SR0M5RDVhbm9iZy1EZzhMaWUyN05IYk5VQWw0T0o1YmV3MXRhNE1Xa3VSaHdYZEM1QWN3UzMydE4tZlpzTXRVdEk3UTNBZ1FKeWFSWFFoVlBmYnhjOGYyQ2xmc3kzVnB2M3RnVU9KWkpPeTkxUU5ESzBSTEZXdw?oc=5"
     },
     {
-      "cat": "brasil",
-      "titulo": "Justiça manda Meta excluir posts sobre demissão por voto político",
+      "cat": "politica",
+      "titulo": "Alcolumbre marca votação da PEC da Segurança Pública para terça-feira",
       "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMm50a0xVU1RRQUxEclU1QXAtV3drSW1SYWNpRnFkUW95T2JMVE5ObHUybEo5bFpxQUx4MzdoSXpkME1MN2xHa3J6V0ZXR2IyeUMxQkJlNGtRNWUxX2FhMTFDcDJROWx5UVBpbkpCdW1hWm10NVpFX3lZRUdQeFJqcXdzd09jbVRkZjNkUkotTzRVWEFBZUg0RWFyT0tzVW03dXNXWUlRWnE3WkRCVXNVR1pLYVhYWmtSVFRtTmowdw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTkd1ZXh4bXludUdsQVJqd3IwWHQ0Z0Z6R2ZVYkxTQ0sxWFNUaktxeFFvdGN5UE1fM2xNb1RvdGE2RHZxaVR3YnhqVDNfV2dTcE5ETXhoY05qY1lxcTVxdjlVSElIMVJYU2cyam80d3BxX1AtbTFRWHkwUWNtd0l4Z1lPeGR5Y192RWRubGtyV3pYcVE2eEhFeE5QSG9WanVlYnNUWUVPdDNhWEFxakhkSGpaRS1oM1lmZ21lOFZ5ZHVGTFJaVXc?oc=5"
     },
     {
       "cat": "politica",
@@ -347,15 +353,9 @@
     },
     {
       "cat": "politica",
-      "titulo": "Em live, Flávio fala em usar Congresso como ‘trincheira’ e diz que saiu do país ‘pelo Brasil’",
-      "fonte": "Jovem Pan",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeWFfWW5qOWQxVFRTUVlySmdRRzhRa0Yzc2pEY2ljbXBDQkw4RlRfTnhRZFREOVlvd1BPeksyWTJkZGRCZ2psZG9sbDlXc0tiMHVUdUVsTzFtMlVXeDhFWEFxdWVwMWxKTmxCMW9jRXNBa25oTUpBWTRvbFMyaHh0b0YwaEkwU2xlcHkxeGVCNTBvWFlqaWpRWFdTQ095SndsNWs0cHBDbWc2OWowU1BILXBENi1LUGZNSm9rSnNURQ?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Alagoas no Congresso: mantemos o tamanho, mas perdemos poder",
-      "fonte": "Gazeta de Alagoas",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZGRIV3JnM2xzRks3SUcyLVBKMWdIR0Ftdl9Mc05fcmxOUDUwZ2pkSjN3UWpQN0hDQTZ1aWJFcXlsZ3EzS1ExRkd2TFhPNGVJNzFEV0dPLThTNGI0cWpmSHo4QWFzb3R5Z1AtVng3dWFPYk1MV2NNb2R1TVlSVVRHOWF0Q0dzd1FpRW9JWWFsMjFPQ2FFU0QydF9SdTloa2p0TG1MRmhWeWtEU3M1TFFlcGJvOEF2QdIBtgFBVV95cUxQZGRIV3JnM2xzRks3SUcyLVBKMWdIR0Ftdl9Mc05fcmxOUDUwZ2pkSjN3UWpQN0hDQTZ1aWJFcXlsZ3EzS1ExRkd2TFhPNGVJNzFEV0dPLThTNGI0cWpmSHo4QWFzb3R5Z1AtVng3dWFPYk1MV2NNb2R1TVlSVVRHOWF0Q0dzd1FpRW9JWWFsMjFPQ2FFU0QydF9SdTloa2p0TG1MRmhWeWtEU3M1TFFlcGJvOEF2QQ?oc=5"
+      "titulo": "O que pode acontecer com Flávio Bolsonaro nos EUA se democratas derrotarem Trump no Congresso?",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQR25wb1JwUW9BcUg1MXNuc1RUX3pxVFRBcV9uWnZtRVZmYUdLNFJQWEJsRVBncUpFRUh3MjNjOV9HY1hRMEFtLTVHNnZfMlRBUXFqRkZianBTZzNBRXJWUk1Zc0V3UHRQY2lZNC05Q3VCQXJoMW1fVjd1MVhpM2xmRVBkdTJWUFZyRWZXS0luSVR5c2lHaVNrUWdrRGpqVUp0WmJqd2hfUUhTTl9TQUhSczF5ckNNQ3JZd1BhX2F2dFlGNHNJTU0xeDc1ZnZkUjl4SXF4YlBfa003MWZMRHfSAewBQVVfeXFMUDhFOVVISHVFWWhrNzQ5Y2dzZURONUQ1bEFVd0dkN1dRbVdqUlk0YkdCaV9RRTBGRTY4cU9NaG9XdDhtbUNWSVI1MFhza0U5N3lQbWNXdmV5eF9xYkVpaWprdjZMYnp3R05GUVRIZ2ZoMmRjRTA5YTRLcnQxU1lpb3RhbGNzQUlfOVRGTW9KOWF4R082RWtBTFpjU3U1dnJPUjFlNkRzRmxWU0dzSVFJLW1PYi0xZG83NUlOYWpLMGFTWVBIeUV1al95SHhqS3hvSHctbDl0cXNtc1BmT0JHRmwxOGZMNnk1SVQ3UHI?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -365,15 +365,15 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "O ‘terceiro turno’ entre Lula e Flávio Bolsonaro no TSE",
-      "fonte": "VEJA",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTThrTWpYMUNmQTRyeGtLMUNUWDFZZlYwMGN6MTl5bkVSV0pVSVVrV0xlYTRIS1RndFUzQ0lNZ2VKUDZzWU85MExZN29uZ201enVMQnh1SHFRRWVuTXZXNnZBZ3BNbXkwaGZFTnFHbktJeTNUVHdfc3AzNnVfSnhNMGVsd2NkajlaVU51RTR6YU1kdnc?oc=5"
+      "titulo": "Flávio Bolsonaro Afirma Que Poderia Disputar a Presidência \"Antes de 2030\"",
+      "fonte": "Forbes Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ZSjdZVTdZTk9pMENEUEN2bVJrVV92S3Q2Rzgwc056ZnIyWU4zUTZiek02d055amNFYUFUc2ltclViVVFyWTV5TTRscWVmNHNjRjI4MHRGTWFkYjFVSVdSLVpmcHN2NEVKemY0WHd4TzNWdkRkS0hMQXlR?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "Nem fraude, nem milagre: a aritmética da virada de Lula",
-      "fonte": "JOTA Info",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOVBhZkZ2SmM2ME52X0ZkLW9DOURpT3FaLWhWS0FNenpjdFNQb3lLTkhzTHg3a2c5bjR6cVRVcWEyZEtzSHFDa1NiWUJzd3paSElCMnJCdkFPOENEdDQ4SUVTTzNOY1Y5a3hlbTgxLVozeWRDOGNRazBCQkJWUGY2UnNLVkUySUhPUFNZQVg1OV8ySmJMZTN6T1A4SHZ6Qm8?oc=5"
+      "titulo": "Vieira encontra Rubio nos EUA após vitória de Lula e fuga de Flávio",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVU5rbGRrV2JlNXM1S2p3cVB2SmFsU3NZOXgtdHc4eUkwUW1aLUc1Vlo2QkRLeDZuWnBTZXptcFdSQVphRDE4bGZaS2dGT3g3N04wbUxYRUxLZWh6VGNCakVrc19IT3hUSklhMWQ5NXRDcGh3aVYtZnZ0Q2xqUTlLdTdoNC1yYTF2MXg4dmw2azlIVGZCTzRwRkg4Rm5UN1VZX1pMeU1Gczh0V3NUUnN6Yjk5b0hDaHZmWnQtMnRSMVpxZmc?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-10-31T09:38:37-03:00",
+    "atualizadoEm": "2026-10-31T14:46:36-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
