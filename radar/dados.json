@@ -167,8 +167,8 @@
       "anterior": 169186.42,
       "minimo": 167007.56,
       "maximo": 169184.6,
-      "hora": "31/10 02h49",
-      "ts": 1793425750516
+      "hora": "31/10 09h38",
+      "ts": 1793450315298
     },
     "acoes": [
       {
@@ -249,12 +249,12 @@
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.0679,
-        "var": 0.84
+        "valor": 6.0668,
+        "var": 0.82
       }
     ],
-    "acoesTs": 1793425750516,
-    "moedasTs": 1793425750516,
+    "acoesTs": 1793450315298,
+    "moedasTs": 1793450315298,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,27 +305,27 @@
   "noticias": [
     {
       "cat": "economia",
+      "titulo": "Mercado reavalia riscos fiscais após queda de 18% do Ibovespa",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSUVMYmlUeE1aenowYkFFQlR0N1Nlb3hjYmFBNnBtQUlKTTVxSzRkUXFaWUpEME9RUE54eGlITE5za1NHZl9QZDJ4TG5FWU1aRnZnYWx6NEVfZXltNmJ5Z1JaTTlwcmxPenpMYzhXcHNkeWpJN1d5bEQwTXRkTW00d3lDTVJPZEtpdlhkenpNd3hIMlNmMHdmMzRDYUxnOXItR09MOVJGX19yQjVVWG5ONjloTQ?oc=5"
+    },
+    {
+      "cat": "economia",
       "titulo": "Hackers invadem a maior corretora de criptomoedas do mundo e roubam mais de US$ 6 bilhões em 20 minutos",
       "fonte": "G1",
       "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPalRFb283d2swdUQ4T2NBdlloYnFQZUl0dUJuaXJQaFQyaV9Lc0h3VXp0S1J3UGlNNXF2Ym1nakRfVkxZck5BM2x2d2Vla1lsa291eno2bFM0bkdXQ2VDbWRrT2FLdDAyY24tYUYxZV9oYlZ0d2o3MnZtLTJEYWg1djE5LUJudVZqU0RhdWMtLXZGb3BOTUJOOFRPeEhsRlhULUpYMG1tdmQ2Q1lkNllvWWFabVB6N0xpY1J1N21uUmZPZXpYOEFIWnFuU2dXMko5RVowNzd4V2tTTDZkeDl3cE1wOWtyTzNEOG4xU2hjamZjVng4Rkpz0gGGAkFVX3lxTE5IVnNTeDRoU2Jvcjk3c2Z3RXZmN2pqbjRFMFBBRktwSTRBWFBIeUJrZlZlYlhFSFNGdGxHblZFdDY2MDRINm1wYzBRSmpIVHBEekNlSEFLNHVaN1g4NW85cjlIeW9fcDduUFc2VmpWOWxMQjNUS3lSWXpBOWVxZ28yS1hmSXZyUEZYTGk1dlVpZFl3WWxTNS1ZWkFMS3JZUTkxU0FBQ0l4YTdBNkVfZ2JSMTE1UngxSXdUZ2lZczVwSUhsV3lWMTg2bHg5MXJBWW8zT2VETHAzcjVKWmxCUERfc293QmZRVDhXZUZqZ3FNUGJTNE1ENHl1R1RFUU5mMmk1am1iUHc?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Ibovespa tem pior mês desde junho de 2022; dólar sobe 5,22% em outubro",
-      "fonte": "UOL Economia",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUWNzcnRWU1o2bEdxeWZxeFhHMjd3c3NOaGxJWUpxUzRudU14RDZ2WjgyRjJmWUF4azJTUEJ5a19JTE1BS2xHR2s0Z1JlY3cycHVUZmtkYlJReVRQSUhOejJNNEVGbE9LbTd2TmZwT1FDWEpLUlNPQW1GbmticlJkX01tUWdFeUZPR1lnalhpTHVkV0hsNkV1aUpvYlJtMGFSYXo4QzhReGZ6STNzbUNOSVA4dG9WV05ES2hfM2FrN0ZmdDNWU1JRU3B5NUczdVBFd1E?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Aneel mantém bandeira tarifária verde em novembro",
-      "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbV9ueS1pMWw5SEdrTWRzQW9FTVJuN0JJZ1AySHhwRkRwMHBsQTlYT0hqSkFLN09Md1BISmRUZ1owNV81YjdqWnNoWndiWTcxQVdkeFdSMWRLR0ZGaS01Nkl5SU1yZHhPcE5YMk1KcXYxaFV1WFVJXzFfNl9oYVA1MlN4TEdNcHdqMzlYLXUzYlBTcXE2dzZ2SENrdUZyYzV0OVpKNlQ4U3UzRWM?oc=5"
+      "titulo": "Mega-Sena hoje, concurso 3079: Confira o resultado sorteado nesta sexta-feira (30)",
+      "fonte": "InfoMoney",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQU0ZmWVBGSjR5Y21kcVN0MG1tcUprcGNYTldvV3RjTmU0LTlPOXFyZ1ZtSEZQZ3VzeEgzZURGSUdmdUNBdmQtdTRfMWl5Y0J3dWZLWkZNaVo1dUZ6SDZ2NXowQWxtMTBiVlY3VkFFWFpoVFJETWdqX1BvNE5vWkJ1NzZKUWVnWmlRbkdPZ0VXczJJd18tTFR0dkQxMmlMdHBBWHRyZVlfSW5qN2Rvb2VnT0xydXNGWknSAbwBQVVfeXFMT2psdUcyazR1cUxfMk5tSm1pMDBveEdPRFhnYmViOTNYQlRid2NaUFJ6ckRFRkZXWHd6V0o1QWtqbWozcnRFekxnRlMzLWxhT0hTdkVmWXZCak9uTGVCNmNhN05YN3JsMThmLWZ5Q0tBYS1KMm85WnAwaFhxYzhMYWlBVEhfNTlKajBrZms0YTJwUHpNcmFrb2NMbHZvTFVHZWlqZXZjUWIyUVZrY2U0Z25ycmxRTGFlMGFncEU?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Dos EUA, Flávio sugere disputar nova eleição presidencial antes de 2030",
+      "titulo": "Assista ao 1º vídeo de Flávio Bolsonaro nos EUA",
       "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMWxMS00xazYyS04wUDVBUG9Ed3FqMklaZWg2SGZkeHVnQW9sQTF4ZDczU1hoSERsTGpRM2lac2FqRVk3eHo4UmxSRm40U3owQnB4TF9jVmhyZmhjMkM1TjN3MHZHbWd1ZWI2a1FZTlhKLWJuczFRN1FncGlCcVpDNVZfNTFkTFlnRGpBMng4MkktMWRndkxteE9uUnY0LThmU1gtOVJCZk1DXzhyN2FFQkJZeFo0RHhOTURn?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUlYwV1hMQ2hSa2xna0lLX3dGRXE5VHdjMnJhWk1PWkpLc3NHSlZfLVFTcDd1QmptcTExcHlxUGtOUkkxSGVGVlBMcGpfcjljX285bjk5ZTBmSUlaOUNjUDB3dHdfV0dneTdNeEt3aW4xUmFJRGlfeklHeGt2eXQ4aXJMZXBIZFlIeEdPMzhfTHJ1SXExSGN1SHR6WFk?oc=5"
     },
     {
       "cat": "brasil",
@@ -335,39 +335,39 @@
     },
     {
       "cat": "brasil",
-      "titulo": "Fernando Sastre volta à prisão em Potim após ser condenado a 17 anos por morte de motorista de aplicativo",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNSjdlb3RuQ051Y1UwOEVYeGFqNUZoOUs0UFVUczVfOUdyUXA2U1VmMW1xT1o2OEV3dWg1UnBZVFJxZWhrZW1tb3RnLTVWZlJWdnhYNkJGb1RMalA4MGQzM0ZGWV9VYjFoQzkwbm8tbnRCbldOQnNxMWtEWVF4TFA5UGNaek83ZW1KSjh5cEhlVHJtX1ViN29PRDluZnVieEtGelRxYW9pNGllTzY4eVJUbElSckFnME16VXFVZ0pMUWkyUEJtZVRySXJlTzdBYkJpOHlzRjZCVHVzRTJIVDV2VmxwNHRBU2pJSnN3QVAzckI2WlhxclUzZldkdlhjdEhZN21mRDdZd0XSAZcCQVVfeXFMTnA1clhGTTJldlBvaUNNNmM3ZThmSktHRjM2UDg0SzJ5Z1M2V2VFaVhCOS1aX1NaMkRQbXhqc0c3TE5HNkl1SHhtT1ZKVy1ZX1B3emdjcG5VMGlFTUF3MUdlUG5lUkpMY3hkU2pISE5Xbno2QUFZLWhUQlpUbUd5VWVnMk1TYk52X0NFVGROX1o4aG9MNi1yRzk0N09fa1RZZEE3b1BVLXQxeGlkdnVxT2tRRnBpeG9Vc0l2cEFZNkk1TmpiWnFBd0hlNHdmcFNfOTFqUUhEZXVzT3hjaUVMb3JzVEJuWHdpZGU3ZDJuTzhGUE9iOTZVeVU2VEdDZFl0MXBkMGozVW5nOVA0Y043dUc0cC1jellB?oc=5"
+      "titulo": "Justiça manda Meta excluir posts sobre demissão por voto político",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMm50a0xVU1RRQUxEclU1QXAtV3drSW1SYWNpRnFkUW95T2JMVE5ObHUybEo5bFpxQUx4MzdoSXpkME1MN2xHa3J6V0ZXR2IyeUMxQkJlNGtRNWUxX2FhMTFDcDJROWx5UVBpbkpCdW1hWm10NVpFX3lZRUdQeFJqcXdzd09jbVRkZjNkUkotTzRVWEFBZUg0RWFyT0tzVW03dXNXWUlRWnE3WkRCVXNVR1pLYVhYWmtSVFRtTmowdw?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Avanço da oposição leva centrão a se aliar a Lula, diz cientista política",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcmEyQlBiUmZIdk5GSTdOc2VCNEFZejNKVHJiSkpUYUZROEI4THRWX1J5TzhrSk53Y1Ywdk9hY2NfVGtyaWg4b25VOFZqb0FkSDdGT0hoTVBtUDI0X2VJUDdvV0gzYUV0SFkwYTJLbjJDU3V4dGdxTUlyZFNKanFkM2xvUzZrUVJYUVlwSjJR?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Em live, Flávio fala em usar Congresso como ‘trincheira’ e diz que saiu do país ‘pelo Brasil’",
+      "fonte": "Jovem Pan",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeWFfWW5qOWQxVFRTUVlySmdRRzhRa0Yzc2pEY2ljbXBDQkw4RlRfTnhRZFREOVlvd1BPeksyWTJkZGRCZ2psZG9sbDlXc0tiMHVUdUVsTzFtMlVXeDhFWEFxdWVwMWxKTmxCMW9jRXNBa25oTUpBWTRvbFMyaHh0b0YwaEkwU2xlcHkxeGVCNTBvWFlqaWpRWFdTQ095SndsNWs0cHBDbWc2OWowU1BILXBENi1LUGZNSm9rSnNURQ?oc=5"
     },
     {
       "cat": "politica",
       "titulo": "Alagoas no Congresso: mantemos o tamanho, mas perdemos poder",
       "fonte": "Gazeta de Alagoas",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQV2RGbWZia2stS3VLRDJvNHBFT1h4VGc1X2VaNFl6TkRqZUc5THFTOWFRYlkzVGR5ZTNNVVJRb0tiTmNtbERDc0dSTHVjRVZEdi0xNm83REx6SWlzbXdUOG1qMzh0cE9CUVkydHlxekktV2pRQ3NGWGJ6cWx2c1ZXaGNPUGRmTEp6Q0JsSm5lQTFrTFA5WWdWcDFrbUVrQzBfMjI1SmdFVDNpMk5IdmfSAbYBQVVfeXFMUGRkSFdyZzNsc0ZLN0lHMi1QSjFnSEdBbXZfTHNOX3JsTlA1MGdqZEozd1FqUDdIQ0E2dWliRXF5bGdxM0tRMUZHdkxYTzRlSTcxRFdHTy04UzRiNHFqZkh6OEFhc290eWdQLVZ4N3VhT2JNTFdjTW9kdU1ZUlVURzlhdENHc3dRaUVvSVlhbDIxT0NhRVNEMnRfUnU5aGtqdExtTEZoVnlrRFNzNUxRZXBibzhBdkE?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "A defesa dos servidores públicos exigirá ainda mais articulação",
-      "fonte": "Anajustra",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQS1RKYUQ1SmRMR0JadjB5WnRiWTMteS1qd3dJelpKZGhTQ08zUmlVbEVnR0JrcUdEbW4wT0pxRFlkUTBLZmN5ZTE4N21GUERJQ3JaZnlWZ3IxSkFYY2NNcU5PQkVfb2pYYWZXNkdSNkVNQUpzLXYyWUw1ZEtSOHBhMTE0cGhWQXZ6eXFvNzdGejV6dEdscjUzbVE1NWUwX3lwWjNlQmZvV3hrakk0SHpBM3ZaOTBBYkVSYWF6c0dmcG1Xdw?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Reforma eleitoral: Voto distrital foi adotado por 71 anos no Brasil",
-      "fonte": "Congresso em Foco",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSnFJeGQ3XzYzei01Q1FiMmlvc3lrazhlM1hJd1c3UWdNOEs2V1NmZ3JMNFJRSnk5ZjVHM3J1c2Z5NTZFQ21qOW1la1o5RHVNNE1Gb0hnTjBBdms1VWlJNWI2ZWdMYy1EWFVEcFpyR0psUWpNX2ZUaWlpaENYS2tPbUVLdVJEQjluYTdzc1hWR18zR01aRl9PWC1tdDVRNTVyRVNqX0JBTkluWkxfc3k4STZRTHptc3M?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Flávio e Lula encerram hoje disputa acirrada que dividiu as redes, as ruas e o país",
-      "fonte": "VEJA",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOGtUdXprY1lVQVJrb3ZKU1cyOS1wYmgxb2hnRWQ4RWxBTS1nNmlNQWY1SlVBWjBMbXhwcXFmcGVWQmF1WWJ0TTBXUzBPcjhsVm1fNHg3bndzbmFhZlZlT3Z6VFdxSHZMTzh3TUpBTmFNSlNDRFlOeTZzTEZXanl2RGFMV2M2S2xOX2hxbU1nTjBkbEU0MDExX3RtOW1PSUNmT0pPNVJmcTRPWW5NaV9DSS1uZUIxVk41ZFE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZGRIV3JnM2xzRks3SUcyLVBKMWdIR0Ftdl9Mc05fcmxOUDUwZ2pkSjN3UWpQN0hDQTZ1aWJFcXlsZ3EzS1ExRkd2TFhPNGVJNzFEV0dPLThTNGI0cWpmSHo4QWFzb3R5Z1AtVng3dWFPYk1MV2NNb2R1TVlSVVRHOWF0Q0dzd1FpRW9JWWFsMjFPQ2FFU0QydF9SdTloa2p0TG1MRmhWeWtEU3M1TFFlcGJvOEF2QdIBtgFBVV95cUxQZGRIV3JnM2xzRks3SUcyLVBKMWdIR0Ftdl9Mc05fcmxOUDUwZ2pkSjN3UWpQN0hDQTZ1aWJFcXlsZ3EzS1ExRkd2TFhPNGVJNzFEV0dPLThTNGI0cWpmSHo4QWFzb3R5Z1AtVng3dWFPYk1MV2NNb2R1TVlSVVRHOWF0Q0dzd1FpRW9JWWFsMjFPQ2FFU0QydF9SdTloa2p0TG1MRmhWeWtEU3M1TFFlcGJvOEF2QQ?oc=5"
     },
     {
       "cat": "eleicoes",
       "titulo": "Flávio Bolsonaro projeta crise de Lula e nova eleição antes de 2030",
       "fonte": "Gazeta do Povo",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVG4xM1ByVGY5TkV1dEZudk1ZWG1FbDFPbmlSVG1kZUp3WHNhVUJEa1FzVm9zTFhkYTA2SkV6ZXdDdEk5bFFwSUVRdmowcDZTVThZaGxpWkVfaUl1RjN4QzJfSEtMSzQxRXpON0Ztdkt0ekoxTzRHcGVQU3RqbDJtWnVMQUh5YW1NUkM5YWRhUDhPbjdwbXBSUXZhWURBZFF6VXNzVVByTWlmRE9hQnd6X1RjZw?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "O ‘terceiro turno’ entre Lula e Flávio Bolsonaro no TSE",
+      "fonte": "VEJA",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTThrTWpYMUNmQTRyeGtLMUNUWDFZZlYwMGN6MTl5bkVSV0pVSVVrV0xlYTRIS1RndFUzQ0lNZ2VKUDZzWU85MExZN29uZ201enVMQnh1SHFRRWVuTXZXNnZBZ3BNbXkwaGZFTnFHbktJeTNUVHdfc3AzNnVfSnhNMGVsd2NkajlaVU51RTR6YU1kdnc?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-10-31T02:49:14-03:00",
+    "atualizadoEm": "2026-10-31T09:38:37-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
