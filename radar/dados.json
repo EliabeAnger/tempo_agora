@@ -167,8 +167,8 @@
       "anterior": 169186.42,
       "minimo": 167007.56,
       "maximo": 169184.6,
-      "hora": "31/10 18h39",
-      "ts": 1793482768909
+      "hora": "31/10 22h14",
+      "ts": 1793495691811
     },
     "acoes": [
       {
@@ -253,8 +253,8 @@
         "var": 0.82
       }
     ],
-    "acoesTs": 1793482768909,
-    "moedasTs": 1793482768909,
+    "acoesTs": 1793495691811,
+    "moedasTs": 1793495691811,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -307,25 +307,31 @@
       "cat": "economia",
       "titulo": "The Economist: Mercado reage mal à vitória inesperada de Lula — e há razões para isso",
       "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdGJONmhXaUE2NEJfNUpkWGZqQ081WDNrUWpSdVl6eVJJMzFsaGIzdHNjU0ZjMGozRlhsRGVVWXJCOEw3M2Zhb2hXRmdVUGIyWmM1V1hscUxoalpoN3MyMEl1NFljODhqcUxDbkZ0OXlZSXdDVUEyTl9GVVdWRkFaLUJfNENUU3NuczdZZWl0UUhwS1paSzloQm5CVmp0OUlDYmF6WFRBdUdhNFpyZ2FPZmJPYjFYeGRmUFVz0gHAAUFVX3lxTE5idUhMRVFCWDFENGlSRzhmckxTMXBxcmJkUXZoUlU5bHBxcTBEcUZXLURKUVlfWnJkUGp3Ym9VR1MzSDZlZGFkWVJmUnBlemFvMHFMTmFLVi10c2tIOHV3ZkJNaTZ6U0hSUDBPMjV1Q1RQeGFYeFRqSS1jbS1fRDVpTlhJZFBNeUQxZGphbWNEeW5CcG1DQVB3YkZuTWdiMGVFZkRucTJzVlhxeG81cjhEbjVpNGdZYW5HU2F1RTYwLQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdGJONmhXaUE2NEJfNUpkWGZqQ081WDNrUWpSdVl6eVJJMzFsaGIzdHNjU0ZjMGozRlhsRGVVWXJCOEw3M2Zhb2hXRmdVUGIyWmM1V1hscUxoalpoN3MyMEl1NFljODhqcUxDbkZ0OXlZSXdDVUEyTl9GVVdWRkFaLUJfNENUU3NuczdZZWl0UUhwS1paSzloQm5CVmp0OUlDYmF6WFRBdUdhNFpyZ2FPZmJPYjFYeGRmUFVz?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Chilli Beans entra para lista de empresas que recorreram à recuperação em 2026; veja os casos",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPeE1BTHJZUE5tRVNMX2gyZ0Ntekp6cE95VHVUb3lGLTBXNTZBMlFPMTAtX2ktdk8wQTVRN19fa0toajBsYV9zMVFESzFaaWtyVGxBeWxRM1RZb3hrMEY4Q05vRTNqLUxPclJCQVYzU2t0UkxrWFpOSWx5SjREZGhmUnltZVRyanpWLUluV3dkaXFMRXhWSjhveEtBTGR4UnhLdmt0ZzNFdWh6REJMMU5MOXdfWV84bFFDaHI2YXB1WmRSVUdCaDd5c0l3cjVRYkVjLVpZMFpQNWdaM25FLUg3bi1VZldLOHBHNUItZ9IB-wFBVV95cUxOWnpjRDB5TVRuZ3NCNm9BNGhueEpuNDdoTFBDWDliWUFlcnl0a1J3TEFoTlB4M21HY2o2T1lsSDg2Qkc5cXhyQzF4bnpESWtUR3cxRldMODVySmltWXFWazBPTHlpS2Q0WjVWWkJNZW5FSFZoZXptVnhqTVUyU2RNby1udEJVN2FaXzNMSDVsM0lRTGhUdG5QLVA1UlRkeWw4RDlQZEF3RGxhcGZQUFVNZnlrYU4wZTVxOXN3OVAyUi1TT3k4N2RsRmszc1VRYU9iUmw3dVNhbkVSMEhSSFJYWUdlUWZTbEpyMC1jb0xWYlZrVkx1aHFVeVRtMA?oc=5"
+      "titulo": "Chilli Beans pede recuperação extrajudicial para renegociar R$ 340 milhões em dívidas",
+      "fonte": "InfoMoney",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOblM1Tk5PTGFxaU9IVjFaT0ZZUHE1RUZPX3U0YWpFdGtpVDdyMlJ0dUtUcXMzS3hVVUVIMUV5VHJkbmYwSXBJRjBEYzd1UXBSd2tuLWRHazl3bUdaczZtTkZuRGc2Z05Ia2NtNDRwM3hKQ2g5R1RfRGplcFlnTV9ERVNfVGVKRVdiMkRqY3ZoZmZMNlI1UExaVWM4Q2l0WkJ0MFVNc0lMRTYxd2tJWTVrYkFLb09GWDF0NmpEcFM5Y3fSAcYBQVVfeXFMUC15eXk2RkdxYlRaV3pEZkZWRkhnTkhVN3hOdEJnb2ZZRDR6UElNWktrVGZoU05tcDg5bU1kRzlsQ2xTWkYtY2JMV1gxeWk5M2trZWgxUTRzZlpLRERtdjUxQlNOUnNnc1FlTS1WeW1KeVNCVTc1QmNmTFNRdEJoc2RJOUxKM0RySHlEQVlJOTlfQmhUWVhXblZGSG1ud3FyZHlwS1I5Z1pCT2R0eHRna1JCbFo2RFJ6Q1NEbXlsandNR0VZS2xn?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Mega-Sena 3080: sorteio deste domingo (1°) pode pagar R$ 42 milhões",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9SQ2xFWWc4ZGpMM3VRWXlmdE1SVkVaUHREN01SaE9mMV9GRERTMWh5dXlROXEwZlpzUzRfamt4X2p5b3lGczBRQ2VUWm80NXpFdFlTSUNNQVFwQ2ttaTkwa214SXh2Sl9xRHpOSlFVWjFSMC1JeDFDWGVlQV8?oc=5"
+      "titulo": "Indiciamentos do Master não envolvem políticos e novos pedidos vão poupar ministros do STF",
+      "fonte": "Gazeta do Povo",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeTNqOEE2dV8xVDRXTzg0REQ2QU9OcUxCb3F2Y3RUdklMQ3hKVUZ0aXFxQXpWVGs1Y2UzOUFOVjhoQXlzYkwwbEpOdm0tSnNMYWpXUkxGM2NBNWVwZHBtNHBNMlB0ZXRmRkVZaVNGV0o0NXkxWXpkSDN3UTI5ZzhxWjVlTkRDdHBTMk9Pd2dhQWNfcFBFbldjeTFyUXdGOFllTEFwUjM2dnl6dG13TlVuQlU1bXdNVG1oVHU1WEQ5eTZ6aFgtaV9rUnpBeU1RZw?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Governo dos EUA 'não se envolveu diretamente' na saída de Flávio Bolsonaro do Brasil, diz Marco Rubio",
+      "titulo": "Ação popular pede suspensão de salário do senador Flávio Bolsonaro",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVGZTRVROMUlNY3lTR2pkd3dHZnpUVWV0LWUtMjNkZ1YwYTJCajQtZm42dFB0ckZ0eUp0RXQ0U3FIS2M2bXNEQ3FXUjNVX3BrM05WX3Rock5qQVA0Z2Z0Z0U5dUdMZUIxdXRqY3RDaW9weHdsMk96b09iUVMtdDR3ZG1HNmhLbkZWUFZCVFZpendPd1ItZGFjMEV0NkMwM05XX2VSSlQyUmg2dl9QTWc?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "MTE recebe 4,3 mil denúncias de assédio eleitoral no trabalho em três dias",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQZWtvaDBqeDJEQVRLbmt1cURmbWJRTDNRcnBUQjZPMGxMck51RGpaY010MFc4RWNvbi1Pc3lyOUVpVENYbkpRTXhneVRfSUd5c3ZmeE1mUXY0d0VoNDQ3cjhZTXpCRWFKN0NmUVdoQXNVeVY1UzRmVDkxczFaWmE3ZmpwMGY1OEhFcVNySy1aa0FJcjRuTkZTRnBWZzNfM2JMcVJFUnRiYUw1RlpoY3JhVWE5dmZ5ZTlQZkY1R0FYYVlGQ0txX1lqbGFYdHJkdUJTRDg1YXhfNS0xSzDSAeoBQVVfeXFMTmVfVHB5ak9SajRFbTlGRU9VbnFUMmR2aG5COTR3MlVsNkJUWkxwZ0VfMW1XSDFvTXpJNTE4Z3c3d05Uekdyak01VFAtcFVaV3JOTUl4LTdhV1dMNkwzUE56UE9XbTRWTXk4ajlpemRiZUxvT2ZrVGgtT3FGcFB2VUxvN2cyenV5UmljczYwZUU4Ym9VeldFVzhCMEg4RHdvamVIVk91UVFWZXN1OGRhWUVJRExxaHp1bDJDb3dVcnRxWk53QmZpVFJJbkZRWkdlWjhWdTdsbm9zZnJuYldJYVVDdG10eG9FQk5R?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORllNUDd1RUNtMWRacUZKS0VIelJ6RnFZVnVnQ0VVMjFoWGt3M2ZwaW91NWp6dkdjUWVYSndOU2VSa25kMHRvUXh5aXRxc081M2gyeEV0QUdwQ3lHOS12emJ6VEdqb0lsRTYzSkJkOHBPajBqM2VOWEg1V1dDYVg4dXRzV2xBR05icTZwNGtjc2s4eDdRREJzakV0TUMtZ1dIT1J1U1l1UG5mbVdLZUtJWUpNVzRmV1lIRG8w0gHKAUFVX3lxTE54b012MVVxLTRPMkVSTVlsbjBKd1IyWXBtTDJNVGdCa21DTWw4UjZNeUZ3RDlReGRzb2RtWk44azlkQ19HQ2RHbGZlZ0NKcHAwOURQaHUzUWM4LXNpdkdQbW53SS1ZMXRTXzE5bi1lRHAzTnJ2MTdTRmlRWVRQakdjckliRjAyMGhuWUVwZmNGMFo1d2tUdWlzU09DRm1nRGdGc0UxbUdadE4zTzRZY3J0NUE5eVFUZHJpYk5hTE1iaW9idW9pSHBSMWc?oc=5"
     },
     {
       "cat": "brasil",
@@ -334,10 +340,10 @@
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTDhOZVBWN0NSMHRKcExLWGI4Z09PV3pCbFVCSDVzV19ta21DdlpmMXM3TEhDODhFR2pqWjJ6V1RqWklUQndMYzVVaXNDeFhTdl94ZW01NFRPaGxaejRuV3diOW9Xejhlb1FnWWZOekZIZWJROHI3MXo0YmZRMnhncXk3bjNCa1F4UGVqUjNraENhbFhselJkSjhJSklfeUJuajNZbGs2TWFxQ3djWXQ5SkpsTE4tZG1PYlVRYTV3?oc=5"
     },
     {
-      "cat": "brasil",
-      "titulo": "MTE recebe 4,3 mil denúncias de assédio eleitoral no trabalho em três dias",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORllNUDd1RUNtMWRacUZKS0VIelJ6RnFZVnVnQ0VVMjFoWGt3M2ZwaW91NWp6dkdjUWVYSndOU2VSa25kMHRvUXh5aXRxc081M2gyeEV0QUdwQ3lHOS12emJ6VEdqb0lsRTYzSkJkOHBPajBqM2VOWEg1V1dDYVg4dXRzV2xBR05icTZwNGtjc2s4eDdRREJzakV0TUMtZ1dIT1J1U1l1UG5mbVdLZUtJWUpNVzRmV1lIRG8w0gHKAUFVX3lxTE54b012MVVxLTRPMkVSTVlsbjBKd1IyWXBtTDJNVGdCa21DTWw4UjZNeUZ3RDlReGRzb2RtWk44azlkQ19HQ2RHbGZlZ0NKcHAwOURQaHUzUWM4LXNpdkdQbW53SS1ZMXRTXzE5bi1lRHAzTnJ2MTdTRmlRWVRQakdjckliRjAyMGhuWUVwZmNGMFo1d2tUdWlzU09DRm1nRGdGc0UxbUdadE4zTzRZY3J0NUE5eVFUZHJpYk5hTE1iaW9idW9pSHBSMWc?oc=5"
+      "cat": "politica",
+      "titulo": "Reeleição de Lula baixa a bola do PL de Bolsonaro no Congresso",
+      "fonte": "VEJA",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMjN5VWt2dXBvR1plbmkxVEJLaE1yMERZdV9GNUhHRE13dGt6NlVhcXozWVo0Z3dNS0hvdmZlSmxSM21vSFhjX0pOLTZTWGFwZjhiUl8zSmVaM2Q2UkxqRGhMcWRLdU9uVlFOVVJzdFhWZUpMNzNJSEhEYkJjSzRDYkktM1hHck9DZlBzME0tY1htX3l5Ykswc2x2cm9pcnM?oc=5"
     },
     {
       "cat": "politica",
@@ -347,15 +353,9 @@
     },
     {
       "cat": "politica",
-      "titulo": "O que pode acontecer com Flávio Bolsonaro nos EUA se democratas derrotarem Trump no Congresso?",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQR25wb1JwUW9BcUg1MXNuc1RUX3pxVFRBcV9uWnZtRVZmYUdLNFJQWEJsRVBncUpFRUh3MjNjOV9HY1hRMEFtLTVHNnZfMlRBUXFqRkZianBTZzNBRXJWUk1Zc0V3UHRQY2lZNC05Q3VCQXJoMW1fVjd1MVhpM2xmRVBkdTJWUFZyRWZXS0luSVR5c2lHaVNrUWdrRGpqVUp0WmJqd2hfUUhTTl9TQUhSczF5ckNNQ3JZd1BhX2F2dFlGNHNJTU0xeDc1ZnZkUjl4SXF4YlBfa003MWZMRHfSAewBQVVfeXFMUDhFOVVISHVFWWhrNzQ5Y2dzZURONUQ1bEFVd0dkN1dRbVdqUlk0YkdCaV9RRTBGRTY4cU9NaG9XdDhtbUNWSVI1MFhza0U5N3lQbWNXdmV5eF9xYkVpaWprdjZMYnp3R05GUVRIZ2ZoMmRjRTA5YTRLcnQxU1lpb3RhbGNzQUlfOVRGTW9KOWF4R082RWtBTFpjU3U1dnJPUjFlNkRzRmxWU0dzSVFJLW1PYi0xZG83NUlOYWpLMGFTWVBIeUV1al95SHhqS3hvSHctbDl0cXNtc1BmT0JHRmwxOGZMNnk1SVQ3UHI?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Avanço da oposição leva centrão a se aliar a Lula, diz cientista política",
+      "titulo": "Lula reúne aliados e mapeia novo governo em primeira semana pós-eleições",
       "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcmEyQlBiUmZIdk5GSTdOc2VCNEFZejNKVHJiSkpUYUZROEI4THRWX1J5TzhrSk53Y1Ywdk9hY2NfVGtyaWg4b25VOFZqb0FkSDdGT0hoTVBtUDI0X2VJUDdvV0gzYUV0SFkwYTJLbjJDU3V4dGdxTUlyZFNKanFkM2xvUzZrUVJYUVlwSjJR?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMVdEbG5vME5WWms5QmI3aHIzM0V0UGJmbDY4QjR0VkY5azFQRjRUUXRlSVpaSDlieTN4clRjTHVrMmNoeENjRkhYNlhXdmlUdmJ3X1I4WE9md1FBdEFpbnJsaG9uWTRNNlk3N3R6WEhOc2dzRThpQTNGbWVKQXd6ZE05bm9TbHltX2tYUEJyZTE4MGx5d1FFdHVJSWQ4dDEwQTVWTUxOejk1ZlVURVZtNg?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -371,9 +371,9 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "Por que Flávio prevê queda antecipada de Lula e admite disputar Presidência antes de 2030",
+      "titulo": "Flávio Bolsonaro projeta crise de Lula e nova eleição antes de 2030",
       "fonte": "Gazeta do Povo",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVzlnN0pEeVZ3RXhBM2FKcmJjTDJKT09EOGZsc0ZBdGxMVVRaZEFpSTFwOWNwZXJNZXEyemdROWNsd3NJY3RDbWpSQW41OHVNaXlIUEpiYkJBNWRBbHlPV2lRTVVna3V5V3AxUXdUVklYamNaVy1ja1FzM2NiNURQU2xab1RmZ2VHVV9BWUI3YlRub2xZLVU4T20ycGFacEd5d01lZkFhaTl0dWFqbzRRc3pGOEQ4RmVWVnM5bFJrXzFEY1pvRjBxWlVTVWw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVG4xM1ByVGY5TkV1dEZudk1ZWG1FbDFPbmlSVG1kZUp3WHNhVUJEa1FzVm9zTFhkYTA2SkV6ZXdDdEk5bFFwSUVRdmowcDZTVThZaGxpWkVfaUl1RjN4QzJfSEtMSzQxRXpON0Ztdkt0ekoxTzRHcGVQU3RqbDJtWnVMQUh5YW1NUkM5YWRhUDhPbjdwbXBSUXZhWURBZFF6VXNzVVByTWlmRE9hQnd6X1RjZw?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-10-31T18:39:32-03:00",
+    "atualizadoEm": "2026-10-31T22:14:53-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
