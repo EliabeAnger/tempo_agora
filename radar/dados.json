@@ -167,8 +167,8 @@
       "anterior": 169186.0,
       "minimo": 167007.56,
       "maximo": 169184.6,
-      "hora": "01/11 16h45",
-      "ts": 1793562349113
+      "hora": "01/11 20h39",
+      "ts": 1793576390080
     },
     "acoes": [
       {
@@ -249,12 +249,12 @@
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.0668,
-        "var": 0.82
+        "valor": 6.0129,
+        "var": -0.07
       }
     ],
-    "acoesTs": 1793562349113,
-    "moedasTs": 1793562349113,
+    "acoesTs": 1793576390080,
+    "moedasTs": 1793576390080,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,39 +305,39 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Binance retoma saques de bitcoin e ether após roubo de US$ 6,3 bilhões",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbDhsVjZfS3lxY2tGNnowOHdZUFc4QVdZcHZtV3dON25yNjB6N1NKMVpIRFRNN0dpd0xhWW1uYzA5NE83VDVPX3RiUGpZLVp4Q0xQNHFIWnQ0SkNLcC1HV2NWaHJLMjBWTlpVVFJtUmxCZS1YU01KR1BEWW9XdndCQ1lnWHBZMUJvRU5WMkY1M0pPQUZodV9TOExhUTJfSWY0dkItMWJTWDBaUdIBuAFBVV95cUxOVFk5UWNnZjhvUXJveVp3a0x5aDNxSUZNSi0taDNMTHdXUExVM0pnTDVseko1NWFmSXk3WE40eVZZek5RLUo0Mm16dEttMk9vcFpSaVQ1YjFWczV2MXBxNGpzcWxLZ3ExOV93UXVpekR3LU5jdmZCc1pTUEd5cl82N25uUUdwMVBmM0tacXFsY3ZpS0NhZVpCaFU1bnVTanpaVzJ6VnYyUmgtOU82Z1JUYklNXy1rTVZh?oc=5"
+      "titulo": "Recebimento de vales-alimentação e refeição mudam a partir do dia 7",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSlQ1eHhDZ0Zva1l0ZXpBOE1RTTdZTktBemhDSE9hN0dac0ZwMnhQWDNCX2J1Rjd5d2hLUDFBbWJPeVYzRm5SU0NxODQtQm9icG16MVhlcjJYZ0kySEZUZFRTMFc4Y0c1cGt4cjB3Uy0zQU9jTExzYnVYb1pNWlZRR096aVlfU2RYY2xqWHh5VVlZZkdWNmJycG12bDBUWGlYLU9aVlpmd2ZQc2ZmTmR5YlZDSXp5M2pLX2hMRw?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Petrobras aumenta preço do querosene de aviação em novembro",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMVYzUXVYYmtiWFV6b0gwUmgzdGttZkZCdjI2cURvZURiOGp2VFFFS3ZjVnB2algxMWVvSTN0MGIyQXhidzRFNHZMU05EaEFJbWhUSDdhS2tMaEo3M2dPaEpsb1lIMTUzRGNGaW5GQTBxU1pycWw3b2NmZzFpc0lKY1VHVmFoT2FMTDVaWV9nX2xfdWpteHfSAaQBQVVfeXFMUDREMkxIUWFyQW9uTHJ1TmUxczYzaUZrdUc4V2ZYUjdCVTR6bkNVOFJXS09lNDFZOVM3Rl9wWjE2ZXRDYUZQUTRiMHhDdnNHd0pQZWR6S0k5U2FESkJtcFFrSl9heHFTLWQ1VS1KT1dJMFlfcUFKU3FwVm9FbEpicVZQb1R2MU9IbGktUDVYZ1ZzQVRRYnZzTzJkSm93WFdiRjIzQmY?oc=5"
+      "titulo": "Binance registra saídas líquidas de US$ 3,64 bi após retomada de saques",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPakRzeldfaklrWUtTd3JCd1ZtOHlvNk03WWFSYWdGRmdDdTRIZzFFTml4QV8xVTAtaGZiZko0a1VCZHB2MnN6U1AwQ19Wa0d1NkJrbXMxSVp5Ung4QVFnOUdVQ0lHYlZreTdoRnlpMXhDNG5fNEZnUHd0NzVCZUU3ODVBc3drTHZrdWs0eV9hWDhLa3Z5WEFMdDJTU1B2anE2MXNUUXNnWDJqVWhzcWlRODRlZjh3dDFVWVF5MzVzWlJabWZiR3N3?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Vale-refeição terá novas regras a partir deste domingo",
-      "fonte": "SBT News",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZ2pDY0h3Sk9ILXJWVlJyRFlNbWxlUkVtbXJRMGVsNGp2akowdDZMaUVVdURoX2pNN0lpSE10eGpQRmptTkltSmFHY1FoblI0RFBLNnJGQ2wyZlhpbUI3VjZ1NmJPQjZJS3J5WDFBOWNMWF9TRUFucTctMU0zSW9mUnhldUxXajlUVGFEeFNGUjNwYkQ2aWlSeHhSU0c5N0E?oc=5"
+      "titulo": "Estrangeiro ‘segura’ mercado de juros e locais temem debandada",
+      "fonte": "Valor Econômico",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeDlpa2RoeFZNcWdjTXJIcUlGbmRicThpRFF3eEZfVkZZSEYweU95SzliMENQMG5sU0I0WjU1RHFMOFYtZkxqSWRMYTJ5dWs0emppRC11YWcwZk5jY05vNG5BaWc1SmVVdlZSeEFBSjRYUHViU29FUk8xaHFlM2xCVjBRaHc2OVBwNW9FV0ZuOERiaFR0Y1p2TU5zUERJOVJtcWljaTdqbDZYSWRpZWhRNW5EZ3dxYWt6d1lZNy1n0gHMAUFVX3lxTE80eGd3bFowaFJQeE9KNmJYX0JDb21tUXhFRGxtejBHRXkwZzB6aTJnSzdSeXJVUnVpakNuNEdMdGpEYU9MUHFFQVEyM19CeV8xZ3NnSzV0NVd2NmR0WVF1djByREVkV094X2tiZjJTMUFMd09Xd2wwU3RZaGlldWxOX09wbUNyMG1FRUNGX1hPZ2toWmoyYzljNzRtSGwtU0JpRzd1bXQ0V0xqRmxmdHZRTE9FaEd1cmt1WExyWXVPazZYYWJ2cDlETTJBMA?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Ministérios do Lula 4: Fonteles, Camilo Santana, João Campos, Gakiya e outros cotados; veja quem são",
+      "titulo": "Agentes dos EUA 'tomaram o controle' de parte de aeroporto na Argentina para viabilizar fuga de Flávio, diz jornal",
       "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOQnBrT2ZzRkNVcG5ObXNETVktRkZoa3AtLW5Bb0l3Y212bWs1eWxBUlRhV0drVkVhaWtIeTl6eEpNZ3BEYVVvbF9Ta3hrNUkyMkZLMTB6cTRrNUZfZlNsd2hYRnhpckpNMEFBMUxZdnE0N19nUG5DaWFKRU5tNWZKeFRSYTltTDRIVE9yelM2X0xsTjQ5cHByYWFraWxKWF9DMS0wYXVXel91cGxXOGM5NldaUmgxSmJvN3hPUHFPcmg2Zy1hWGFrenppTm5GOE42RHR2Q1hSRGUzNnYtSGhYcFlyVUJmT0FoUVHSAfgBQVVfeXFMT1hTVzBTM2R2NXRjWDJSemxMTGllTkFUU2lTOTlnbzY4a2NZRXZkR054QlZGdFZwZlhaZ0lXT3FwcGcxOVFrNE4ySlJoU09jREpfaDd2UE1RMVhfeVRoLTE5Z1poWU9KVE5MTTc3VkF6TXNZRFZmVWVNeGsxTmc1Vm5BZ1hnNDBJX2JLenlpZkFQb2VYSVc0RmVVVnpUTEo3R1BCaWdabEtFUzZ6S18yRXU1Q1pKSWdmT2U5aWRiZF9XcU9tZlVYdTlheGZZM3pkczRpaE1KaVRzTG5FVWJLVkhSNlVNSV9sWEQwdnpWMTQ5c3RNbHpNem0?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOMEFkMEFoVkhveV9iYk4tZ2NXc1dWd0tTVzdUZzJHU1JsZl84T200NklGRjNoeERnRnZNckg4OTRUVUR2aElmeXNkc2R0YTd1MFJQRkxXVEVIT1NrRGFJcEdFLThpSjJadVdpclJYcTRNTWFuemNfLTJOa3pEaEZRZ2h1NlEwYlRqVGhtdDJseFJhSVBOdHgxQnJOZFVSZERzTlNZVWlXT09uTHVuTVdPVzB5Vm5OeU9oeHM2SS1pMS14MmFEclJfZDVCc3VONUZ2RVgwVnZWWUhuZWN6bzZmQl9MTEFNc19mSHU4dkcyRjlHZmZpWnBuODRkZU02QdIBjAJBVV95cUxNNVdMNHFhVmlEUXk5ZlM4UkQzSHlGbVFYUWh3OUdaZHNjNXBycmtwOW9oQVFidVItbC1wMHYwWEYyQUFXQ2FhR1hUQWxZT1hnaW5EaWRDcFN2SzRYbkpYaEdGRU1RMk43YnoxZVBiZTlBWXFvSEh2Vy14bzNEaUE5blhZSGo0dWdYZkNrVXJsR09tMVI1Y081UEJ6TDJQVDhKRl9yeGQ4OWpTRWZVaThjVWdjMTl1dkVsSTJ5T0l1T00yVzFaWmkyVTc1Ylc1NkVfUXRkQ1ViRXpyMnJiMzNVbTV6LUNVZWxBRGRhVWhPMnJnb2RfQkZ6eFM0LWRNLVlHNUljMFBNVkpZMzF3?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Distrital misto trava \"puxadores\", mas mantém desequilíbrio entre UFs",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdUEtVF9HYVlUczdvYzFLNWhlT3dDazdZOWY0ZlFXdWJ1cmZnVUZwUGxKcG8xYlhoNnVxa3VNRU1fUXdscEpBV0JLOHE4VzBGc1VPUVJhYzFFaDFXcTltV0Y4bXpFTWZmMFEtOWxzMnVwNEY5LVI1bUNLN3h3RHlyQVdweU5QdVNYanpOenJUS0ZvbzFJLXdSNVlZeHRCWXlNVUtObjZmUUVUVFRBazNJTQ?oc=5"
+      "titulo": "Fuvest 2027: cursinho aponta erro em questão de matemática",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOGI1cElPaXg3Z3ZEVTFBanFTb2lmb003Z1hsRElIUV8wUktDV1lQV19MUzRycVRPM3FhLXhuWUJxdGlPZURyUmlJZDFhelJRdUlIVjJVanp3dFhRRkRRMWhhUU5XNVBsbzcwcFRGd1BUdWVTbU9hLTk3NjB3MVdNUDB1QTlGSjMtZVRGQl9HQVdnVjdNNkU0RVpUS3BQTXd2a0FBNkZ6SUNKZGl2OVVpa1hkYXl6MlZQUC1jVGc1UXRpNEHSAdIBQVVfeXFMTjNOSGw4LUtNU1Jjcl9DTXlUVzlyakdleXBRUGVzMm1lUThJM1pXYVJSUnNYWVFHd1huYVFYUWlUT3dQNEhNSW9wWk1RRjZnM25icko4SGw3bFhtV01Mem5FdXVyME5aeGN3YVUyT3JDa2NISlROMmZLWm9JRk51cFhnVFRubzNnX3JhblVJbDIySmVscllhVEhvUGlHaXdZY1dQQVdPYVNYenZ0NTZOeVFBSERmcUdUcm1ENVNKc1QzMkx5ZDc2UXFqS1I4dWp2OVF3?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Carros camuflados, vários jatos, ajuda dos EUA: jornal argentino detalha fuga de Flávio Bolsonaro",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZXI3dHFPc3hwT0JiRGFvV3FMODNqZXVCOEdLcHhWUjJLVWRVTmJfLVJVMVF2czVzcmtKSDl3X3pLUUhRMHhnZE5YZnZraHZKXy1kN3RUS0hRYjFWb1MwQXhjX3ZVankyMUFCekJoSHp3Zlh6clVfek8xR3lLc001OXM2Tks?oc=5"
+      "titulo": "Com Janones e Campos, Lula prepara reforma na Esplanada; veja os cotados",
+      "fonte": "Jovem Pan",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYk1UdDA4THBGZThJaHZQODM2emNJejdTYnVmZHkxY2o0d0dpMGlGZFZ4NjRsejJhci1wd2NZaF9XSTJtTksxT0dQdGRKbzJJVjZFUDItcGF0ZTJpM0d2VmYyRU1OWVJFOS1mZ194YjhPYzFvd0padVpOTG8xMGNhcWF2UDVTVXpzX1hUVi1jVEZOVk8wdm1xMll0SXgxS0JaMWQweWtkbw?oc=5"
     },
     {
       "cat": "politica",
@@ -347,15 +347,15 @@
     },
     {
       "cat": "politica",
-      "titulo": "Congresso analisa inelegibilidade por violência contra mulher há 11 anos",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcjd3SXVST2FqcXByVG5VYWFvc0xRV0hMY3hoVG5CM2xiQWlTUnBKaTViU01iUEw5NElmNHNwR3VhUHNyZTJ1OEtKZ1hIME1HSkNBdWU5VDNpZEdmZGRSeEdLd2RlcnRtU3NEN1RiaXhPRnEyam1oMWRQOEROb0g1TDlFbUdEZkdoRE5GX2liQjJ3ZW1hTlgxQUNpVlJaZGNUOWE0bmFNcFg0TWhrc0RHag?oc=5"
+      "titulo": "Disputa pelo controle do Congresso pode limitar poder de Trump e repercutir nas relações com o Brasil",
+      "fonte": "Tribuna do Sertão",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQbXE0TktydTRWeXpiUjF4Q1hnOHhhQ3cwYVJQdEwzYkJyYm5tQ1BzRzN1Rm9KWExfN1YyMHd5SmtlZm5ZNEQzYkRxUHNGNzlQQ3c1dk01TlBLODBsYUEzdGhUMklPMmp2SDVnTlk1a2EzdGtkLTVxRTVFTDhjSUVkOEt4cE4xbFZ0MW84aU5HdkhoZXA2ZEdsUlBKZlNfWEYzeWEwMldYRDY4NGNEOER0VU0tSThRY2NIWXZMWDhQMlFESkNTdjVrdXpjYmZiQ21ZWnh2Mk5ZMEtXdUFKWVJDX29WeFpmWnN6WkJKM0FqRTJSNVNCanFV?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Midterms de terça podem travar tarifas de Trump contra o Brasil",
-      "fonte": "TV Sim Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTDhTem04eC1RRm5QN19nVi1fdTM1TlozbkRSaWhhdFFhZlpFOU1PeGdIVGdESFZxQmxlVV9kRjIzeE80ZWFmOE9yR2tST3RrTlJ1dXh2djVRVWY3NjZqMkJ2UHRsdk5JbXgzMFlKS0p6MlRENDFJWXRBNGpoRGlKYy1YS2Q4bmlMN2I3Y3g2Q3VGM0RET2NWZ3lvaDhIQksxTThXeFZ4cHctOHFvN1ZSMGNwRFotdTN5?oc=5"
+      "titulo": "Desaprovação a Trump cresce antes da eleição e preocupa republicanos",
+      "fonte": "Jornal do Brasil",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWnc1TjhMT3c1XzRSaDludFljdVlqVEVwUVFIaWFPa0tCOG1KX0xEVEx2VWJiTVNjOVhad2lPVlpFWFlXZU9DMjJtSUNuZFlZNERpSTQ4QUR1eHFFRHdtRjZSLUNlZmFfUHoyQk1GUVA5WEJsazM4NzRUVW05ampCdUpHb2wxTW5FMTA0bXRyZUhMdHRNakVBbXlPN18zMTVhMFBGdldDU3U5Y1Q2dTA2UDJMOURCR0NicVpDalZkTdIBvwFBVV95cUxNWnc1TjhMT3c1XzRSaDludFljdVlqVEVwUVFIaWFPa0tCOG1KX0xEVEx2VWJiTVNjOVhad2lPVlpFWFlXZU9DMjJtSUNuZFlZNERpSTQ4QUR1eHFFRHdtRjZSLUNlZmFfUHoyQk1GUVA5WEJsazM4NzRUVW05ampCdUpHb2wxTW5FMTA0bXRyZUhMdHRNakVBbXlPN18zMTVhMFBGdldDU3U5Y1Q2dTA2UDJMOURCR0NicVpDalZkTQ?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -367,7 +367,7 @@
       "cat": "eleicoes",
       "titulo": "Batalha judicial no TSE entre Lula e Flávio Bolsonaro continua mesmo após eleição",
       "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdEFIX19QUFBOS1gzcjNQSnliS1BTLXJVT2xHbmNOTFlxZ2g4YVA4TUM0RmVEVVVpOEZTZ2pjbGsyYTFjRVlNaXM1Q0l5VDFfN1pPdWFmZ3l1amoxX05YeEJLbjc1QzNYMEJ2VGxaRjVPSC00Tk9HWU8wLUFQRUhpalotazE5TnhGMHVnRVp0SkxtSVB5TmdCRWljaDhYbGRYWHVrVFRqYlBHcnV6TDBaRDl5d1A1OWpGQkE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdEFIX19QUFBOS1gzcjNQSnliS1BTLXJVT2xHbmNOTFlxZ2g4YVA4TUM0RmVEVVVpOEZTZ2pjbGsyYTFjRVlNaXM1Q0l5VDFfN1pPdWFmZ3l1amoxX05YeEJLbjc1QzNYMEJ2VGxaRjVPSC00Tk9HWU8wLUFQRUhpalotazE5TnhGMHVnRVp0SkxtSVB5TmdCRWljaDhYbGRYWHVrVFRqYlBHcnV6TDBaRDl5d1A1OWpGQkHSAb8BQVVfeXFMTlF3MThSRmJVLXo4T2hnTEdDa19RX0UtS1R5aEgzV19vMWVHQW5fa3ROalZNWWVGb0tUVDAtQ1YzTm1mRGNhLU9zTzN4WjhIV3l5WE1oYkRIcFJTdXdRYUs2QlZoZ184aHF2QURzZVFhSjktSlRYc2loLU9zdGFrTktubGg0WDc4OG1GdG5jZXZDTjk4RzFFTmJxaVlfc19fTkpXVXFjdGl2OFRzMnhQNlpmcFNhWGRiMHEzNklLZFk?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-01T16:45:50-03:00",
+    "atualizadoEm": "2026-11-01T20:39:52-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
