@@ -167,8 +167,8 @@
       "anterior": 169186.42,
       "minimo": 167007.56,
       "maximo": 169184.6,
-      "hora": "31/10 22h14",
-      "ts": 1793495691811
+      "hora": "01/11 04h38",
+      "ts": 1793518717746
     },
     "acoes": [
       {
@@ -253,8 +253,8 @@
         "var": 0.82
       }
     ],
-    "acoesTs": 1793495691811,
-    "moedasTs": 1793495691811,
+    "acoesTs": 1793518717746,
+    "moedasTs": 1793518717746,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -307,13 +307,7 @@
       "cat": "economia",
       "titulo": "The Economist: Mercado reage mal à vitória inesperada de Lula — e há razões para isso",
       "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdGJONmhXaUE2NEJfNUpkWGZqQ081WDNrUWpSdVl6eVJJMzFsaGIzdHNjU0ZjMGozRlhsRGVVWXJCOEw3M2Zhb2hXRmdVUGIyWmM1V1hscUxoalpoN3MyMEl1NFljODhqcUxDbkZ0OXlZSXdDVUEyTl9GVVdWRkFaLUJfNENUU3NuczdZZWl0UUhwS1paSzloQm5CVmp0OUlDYmF6WFRBdUdhNFpyZ2FPZmJPYjFYeGRmUFVz?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Chilli Beans pede recuperação extrajudicial para renegociar R$ 340 milhões em dívidas",
-      "fonte": "InfoMoney",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOblM1Tk5PTGFxaU9IVjFaT0ZZUHE1RUZPX3U0YWpFdGtpVDdyMlJ0dUtUcXMzS3hVVUVIMUV5VHJkbmYwSXBJRjBEYzd1UXBSd2tuLWRHazl3bUdaczZtTkZuRGc2Z05Ia2NtNDRwM3hKQ2g5R1RfRGplcFlnTV9ERVNfVGVKRVdiMkRqY3ZoZmZMNlI1UExaVWM4Q2l0WkJ0MFVNc0lMRTYxd2tJWTVrYkFLb09GWDF0NmpEcFM5Y3fSAcYBQVVfeXFMUC15eXk2RkdxYlRaV3pEZkZWRkhnTkhVN3hOdEJnb2ZZRDR6UElNWktrVGZoU05tcDg5bU1kRzlsQ2xTWkYtY2JMV1gxeWk5M2trZWgxUTRzZlpLRERtdjUxQlNOUnNnc1FlTS1WeW1KeVNCVTc1QmNmTFNRdEJoc2RJOUxKM0RySHlEQVlJOTlfQmhUWVhXblZGSG1ud3FyZHlwS1I5Z1pCT2R0eHRna1JCbFo2RFJ6Q1NEbXlsandNR0VZS2xn?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdGJONmhXaUE2NEJfNUpkWGZqQ081WDNrUWpSdVl6eVJJMzFsaGIzdHNjU0ZjMGozRlhsRGVVWXJCOEw3M2Zhb2hXRmdVUGIyWmM1V1hscUxoalpoN3MyMEl1NFljODhqcUxDbkZ0OXlZSXdDVUEyTl9GVVdWRkFaLUJfNENUU3NuczdZZWl0UUhwS1paSzloQm5CVmp0OUlDYmF6WFRBdUdhNFpyZ2FPZmJPYjFYeGRmUFVz0gHAAUFVX3lxTE5idUhMRVFCWDFENGlSRzhmckxTMXBxcmJkUXZoUlU5bHBxcTBEcUZXLURKUVlfWnJkUGp3Ym9VR1MzSDZlZGFkWVJmUnBlemFvMHFMTmFLVi10c2tIOHV3ZkJNaTZ6U0hSUDBPMjV1Q1RQeGFYeFRqSS1jbS1fRDVpTlhJZFBNeUQxZGphbWNEeW5CcG1DQVB3YkZuTWdiMGVFZkRucTJzVlhxeG81cjhEbjVpNGdZYW5HU2F1RTYwLQ?oc=5"
     },
     {
       "cat": "economia",
@@ -322,16 +316,22 @@
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeTNqOEE2dV8xVDRXTzg0REQ2QU9OcUxCb3F2Y3RUdklMQ3hKVUZ0aXFxQXpWVGs1Y2UzOUFOVjhoQXlzYkwwbEpOdm0tSnNMYWpXUkxGM2NBNWVwZHBtNHBNMlB0ZXRmRkVZaVNGV0o0NXkxWXpkSDN3UTI5ZzhxWjVlTkRDdHBTMk9Pd2dhQWNfcFBFbldjeTFyUXdGOFllTEFwUjM2dnl6dG13TlVuQlU1bXdNVG1oVHU1WEQ5eTZ6aFgtaV9rUnpBeU1RZw?oc=5"
     },
     {
-      "cat": "brasil",
-      "titulo": "Ação popular pede suspensão de salário do senador Flávio Bolsonaro",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVGZTRVROMUlNY3lTR2pkd3dHZnpUVWV0LWUtMjNkZ1YwYTJCajQtZm42dFB0ckZ0eUp0RXQ0U3FIS2M2bXNEQ3FXUjNVX3BrM05WX3Rock5qQVA0Z2Z0Z0U5dUdMZUIxdXRqY3RDaW9weHdsMk96b09iUVMtdDR3ZG1HNmhLbkZWUFZCVFZpendPd1ItZGFjMEV0NkMwM05XX2VSSlQyUmg2dl9QTWc?oc=5"
+      "cat": "economia",
+      "titulo": "FBI acusa Coreia do Norte por ataque à Binance, considerado maior roubo de criptomoedas da história",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOeFNFY0pfVk00cERDUVBJel9CN2ZnN2dhUEdCdjNpLW5UeksyRmFsZHI0MFRkZ2RLSkw4d21FYnp2MVBZRjgwd2ZLZ3RmU1E1NDJnSEU4YUZ0OTdianVJY2dkU1ozOEZiTFVlNXNOREdGbmpZNUdLREVKbUNTdms0cEVVSWFRZVp3TENNUlUyRDlsd0tzOHU3VDRHc0JUMURyWFpVNVc5WEZTLXl6RlRhQThEdmdkaDgxcXJnOE9wMDYyYmpLVkU1WWV5THR0R1lJZm80aXBtSmg5YVRyZ1ctRFpzZ1RMWHFXMWQtMTB3NURPaHRVNjVuZzUzY0tSLXfSAY4CQVVfeXFMT0U1Z1RMaUJoc3M3MHk4UlM0YnhXNzRTMVJSTUxEX2l1dzBXS05rTENhd3p1RTBOWF8zOUp1ekRTUmhPQ21HYjR4ZllfYzRJNHVhVVg2NFJMOXdCTG5jZnZCQzE4U2tHTGtQbnJ1SnkwRldiZ183SkF5LURBNkM2WFc5dTFNZ2NYUXllOXFKbFB1emFfblFLTlJzemFBYVhFcTRiZVpoQUdLREtuN3hoQkJLdkZDZWpKUzg4MDROSlZETkFUWkhwLWRlM1NDZV9ZZUI0X1NxZGZrZGFYR2I5dTdveHg4b3JCRWJrWVhJS25jSXItT1RnUzRKaHI5NldIMGRkYm9xV3lzbkZyTmF3?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "MTE recebe 4,3 mil denúncias de assédio eleitoral no trabalho em três dias",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORllNUDd1RUNtMWRacUZKS0VIelJ6RnFZVnVnQ0VVMjFoWGt3M2ZwaW91NWp6dkdjUWVYSndOU2VSa25kMHRvUXh5aXRxc081M2gyeEV0QUdwQ3lHOS12emJ6VEdqb0lsRTYzSkJkOHBPajBqM2VOWEg1V1dDYVg4dXRzV2xBR05icTZwNGtjc2s4eDdRREJzakV0TUMtZ1dIT1J1U1l1UG5mbVdLZUtJWUpNVzRmV1lIRG8w0gHKAUFVX3lxTE54b012MVVxLTRPMkVSTVlsbjBKd1IyWXBtTDJNVGdCa21DTWw4UjZNeUZ3RDlReGRzb2RtWk44azlkQ19HQ2RHbGZlZ0NKcHAwOURQaHUzUWM4LXNpdkdQbW53SS1ZMXRTXzE5bi1lRHAzTnJ2MTdTRmlRWVRQakdjckliRjAyMGhuWUVwZmNGMFo1d2tUdWlzU09DRm1nRGdGc0UxbUdadE4zTzRZY3J0NUE5eVFUZHJpYk5hTE1iaW9idW9pSHBSMWc?oc=5"
+      "titulo": "Flávio pode ficar nos EUA o tempo que quiser, diz Trump",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPak5fOTQtbi1yZ2c4UmtaR2xEdGRfZ1hZV1NZS1Y5MV8wVWdHY3dkY2NJUzAwdkZKak4zbE1DOHZYYmZBYmpMeFRhdHNySXJXRmxJX2lrVmJvd1g4Zk5qMFdyRUtnNjFmR09RcXBPVnhoUXhYdF9yR3AxX0FrV2hUa3pFY2tqLWxvT2xhYnBuVlltMEQ4OHJ5eDI1aWNpUnEtTmk3NFFR?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Ministério do Trabalho recebe mais de 4,3 mil denúncias de assédio eleitoral em apenas três dias",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPb05fRXlTS2ZYMmtjOGhXSWhWOGZSTVBnZG1McWpLaWZIbkRUckxPWlZwSngzYjdEUVdwT3ZqUTJSQkhSMzZTTlVobjMwd21pTmxZano2RzN3azB6V3JoWjlMdURHdG5KTHFua0JwelNiUGVvSVZOT0JXVDhIbk44OVVhNFB3RVNaNmNYTDZLcUNxdVRKMVNUS1FQVTJrUkJzN3RGY3Rjd2lHLUVZY2hDb19HY1JQSEExM0RwdmsyNE5jMHNTTk1Sa1hkNURYUUk5QkhfUy1fV0dMd0tpRjhEWV9NVzJYNzVtaFHSAfgBQVVfeXFMTXhOUkRaZ0tjVDBXcWF6VTJSU0ZKMzR0SHhOc0pITnVDaF9NbUpGZjBReU9BU285QndJc18waXgtZWFvT0pLcU8weThsSnhob0hlVEo2Mi1XcThfdkxHQndpSDZaR0ozLWkxMHBGSmVkdU92Y1BIWmd2TENZSHVWNW0tSzk2RXZOajlvN0JKVF9CbThXS0xMLTRma2diZEhOQy12ZUZWcGNoYUVmREJBdXZONTVoMm5KNjgzMk5SSDMwOG5UUHk1cUpjQjRDNzhLWkhLR1pZWnNDSGJPMVBuX0N0d3lGQ2QweUdVcG1PdkNkNzFncm1TUFk?oc=5"
     },
     {
       "cat": "brasil",
@@ -341,9 +341,9 @@
     },
     {
       "cat": "politica",
-      "titulo": "Reeleição de Lula baixa a bola do PL de Bolsonaro no Congresso",
-      "fonte": "VEJA",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMjN5VWt2dXBvR1plbmkxVEJLaE1yMERZdV9GNUhHRE13dGt6NlVhcXozWVo0Z3dNS0hvdmZlSmxSM21vSFhjX0pOLTZTWGFwZjhiUl8zSmVaM2Q2UkxqRGhMcWRLdU9uVlFOVVJzdFhWZUpMNzNJSEhEYkJjSzRDYkktM1hHck9DZlBzME0tY1htX3l5Ykswc2x2cm9pcnM?oc=5"
+      "titulo": "Congresso analisa inelegibilidade por violência contra mulher há 11 anos",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcjd3SXVST2FqcXByVG5VYWFvc0xRV0hMY3hoVG5CM2xiQWlTUnBKaTViU01iUEw5NElmNHNwR3VhUHNyZTJ1OEtKZ1hIME1HSkNBdWU5VDNpZEdmZGRSeEdLd2RlcnRtU3NEN1RiaXhPRnEyam1oMWRQOEROb0g1TDlFbUdEZkdoRE5GX2liQjJ3ZW1hTlgxQUNpVlJaZGNUOWE0bmFNcFg0TWhrc0RHag?oc=5"
     },
     {
       "cat": "politica",
@@ -353,27 +353,27 @@
     },
     {
       "cat": "politica",
-      "titulo": "Lula reúne aliados e mapeia novo governo em primeira semana pós-eleições",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMVdEbG5vME5WWms5QmI3aHIzM0V0UGJmbDY4QjR0VkY5azFQRjRUUXRlSVpaSDlieTN4clRjTHVrMmNoeENjRkhYNlhXdmlUdmJ3X1I4WE9md1FBdEFpbnJsaG9uWTRNNlk3N3R6WEhOc2dzRThpQTNGbWVKQXd6ZE05bm9TbHltX2tYUEJyZTE4MGx5d1FFdHVJSWQ4dDEwQTVWTUxOejk1ZlVURVZtNg?oc=5"
+      "titulo": "Reeleição de Lula baixa a bola do PL de Bolsonaro no Congresso",
+      "fonte": "VEJA",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMjN5VWt2dXBvR1plbmkxVEJLaE1yMERZdV9GNUhHRE13dGt6NlVhcXozWVo0Z3dNS0hvdmZlSmxSM21vSFhjX0pOLTZTWGFwZjhiUl8zSmVaM2Q2UkxqRGhMcWRLdU9uVlFOVVJzdFhWZUpMNzNJSEhEYkJjSzRDYkktM1hHck9DZlBzME0tY1htX3l5Ykswc2x2cm9pcnM?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "Estudantes fazem ato em 9 estados contra Flávio Bolsonaro e de apoio à reeleição de Lula",
+      "fonte": "Folha de S.Paulo",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWDdYUlRDZG5tRlowcXBSQ2dvUTFUMUJXVGNQWjJZdDZod1Y4cVFvNEZoRXAwMVpGVXNobmRRS0pLTV8xb29seWJlRnVMU0FPYXQ3ZHB2QnNNN3RhdzRkUVBzc0lsV2s2Z1A2cVhnX2xNcTdDLVNMLXpiaTFLX0N3UDVPWkN5TTFHMHIycVdubVZFal9XU1JIeGFlb25ZSFY1WHF0SWp6bFAySXdoVGgzVzdJQ0w2WDdxb3RodTBuRFlmY0JzWnZnRTJYQTE3M0pvYUFtcw?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "FLÁVIO NOS EUA | O secretário de Estado Marco Rubio afirmou, na tarde deste sábado (31) que os Estados Unidos não facilitaram a fuga do senador Flávio Bolsonaro, que desembarcou em Miami na quarta-feira. \"Não facilitamos nada. Ouvimos que ele ch",
+      "fonte": "Instagram",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBJR3NDMmppbV9fUXQyejI3bE1mUVFlTUQyOGlrR2d1djhZNFhtUXNMaE8tRDBiSWEyMXYzRWVQRlJhdlVjbmNqbzZzNmo5ZXgxVHc?oc=5"
     },
     {
       "cat": "eleicoes",
       "titulo": "Flávio Bolsonaro Afirma Que Poderia Disputar a Presidência \"Antes de 2030\"",
       "fonte": "Forbes Brasil",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ZSjdZVTdZTk9pMENEUEN2bVJrVV92S3Q2Rzgwc056ZnIyWU4zUTZiek02d055amNFYUFUc2ltclViVVFyWTV5TTRscWVmNHNjRjI4MHRGTWFkYjFVSVdSLVpmcHN2NEVKemY0WHd4TzNWdkRkS0hMQXlR?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Reunião de emergência, script abandonado e medo de ser preso: os bastidores da noite em que Flávio Bolsonaro foi derrotado",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPVjVNTHN6S0Y3WXlWVmJsNGt2N1NZSkcxTC00aWg0ek44WWd1WXJtck03YXRWUXd2WXZjQlVKb29WQk9DVmtRa1hVYk1rWWhMUzFKWWlDd3ZEalpvOGk2ZDVMbVlNRDhGREpTVXdJOHBLSFktUXZod1RMMHRpWFlLaE55ZjdySHlQa21sbC1jWWJxZWxEdzFOWnAwYUU2NkVRUklZZ2JOMlVXOWw0dkZRdmpYcVRRM2Y4N0V2U3dld04xV09LXzBYU3lFVFFHSTA1WWFNSnNCamhDWk5GUDg2T2pKWjdGQWN2NWFDZFlmVEdHQmE4SjRhM2ZkLUN5SzltNzV0WEI3bGsxQUUyR0VZ0gGeAkFVX3lxTE5WTnJFUTNkMW9YcmNHTVEzZDZIMXlMcTRhb2IwWnFId1BLd09LVzE5cmdRTGtxQUhoR3JBRzF3bDdsajAwNml4RVRVYmtsUlZMY1hiLUUtZmVrdDV5c2Zpcks3bFRQdm9JS3VpRmJORWFzTENqbFV3N3RYZEdvbl9tOU9xSFBaaGUwWkZTR1F5YWpMS1JmaDBUSmVrcXFHZkd5ZXVQemtQX0ZyUEFGTmlGMzctNmM1WGpfMDJlMlBkN0g5XzczQXUxUmwtakM4Mi1qRWZCcHlMM2U2OUViVjFobXFVVW1yWVJCd25jZmFERFlDUXM4MjBOZ2xDd3hTaU5xNVZDZlVJcjFETVNyMnhyUnUxVDNaUGNEQjgxanc?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Flávio Bolsonaro projeta crise de Lula e nova eleição antes de 2030",
-      "fonte": "Gazeta do Povo",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVG4xM1ByVGY5TkV1dEZudk1ZWG1FbDFPbmlSVG1kZUp3WHNhVUJEa1FzVm9zTFhkYTA2SkV6ZXdDdEk5bFFwSUVRdmowcDZTVThZaGxpWkVfaUl1RjN4QzJfSEtMSzQxRXpON0Ztdkt0ekoxTzRHcGVQU3RqbDJtWnVMQUh5YW1NUkM5YWRhUDhPbjdwbXBSUXZhWURBZFF6VXNzVVByTWlmRE9hQnd6X1RjZw?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-10-31T22:14:53-03:00",
+    "atualizadoEm": "2026-11-01T04:38:41-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
