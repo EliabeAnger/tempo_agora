@@ -167,8 +167,8 @@
       "anterior": 169186.0,
       "minimo": 167007.56,
       "maximo": 169184.6,
-      "hora": "01/11 20h39",
-      "ts": 1793576390080
+      "hora": "02/11 03h13",
+      "ts": 1793600017663
     },
     "acoes": [
       {
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.3817,
-        "var": -0.06
+        "valor": 5.4389,
+        "var": -0.01
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.0129,
-        "var": -0.07
+        "valor": 6.0771,
+        "var": 0.17
       }
     ],
-    "acoesTs": 1793576390080,
-    "moedasTs": 1793576390080,
+    "acoesTs": 1793600017663,
+    "moedasTs": 1793600017663,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,39 +305,39 @@
   "noticias": [
     {
       "cat": "economia",
+      "titulo": "Binance retoma saques de clientes após maior ataque hacker já registrado",
+      "fonte": "InfoMoney",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWXJnOXFIS0FnbUdkZDNLRHRhRWJOaVllWlpMZFhheEV0QmZkT25iLWRqWlpWR21FMEZDZ3pnSEszWUQybTlNS0NVSGZscWVpVVMwd1VreXVrbllqcVRfRWhFNmNTQkJnV1lnbk4tZnFEd3NWanRGSnNjV0lWM3ZpX0V4UTNDRkw5bVZYN1kxREZsYVd1MDd2ZzBiMi1uYU1JN2Z4akE2Q2ZDTzN6bWk0OW1ESy1QRjVBMGgydVRaZUzSAcYBQVVfeXFMTmdpdlltRU1FSlJjMUM3UWVncHdKcVQ2QjVxZFpsX21ZV0szcTZBZGhQM0JPRVM2VEh1SmhqeVJpbGFRendyQlU3SjFCSWZaUWNyVHpwYVZxZXpBT29haXBnZ1dKYXQyZ1U5S1VabDllN2I3TG9PYlFsdlpPSFpBeTFqekJjUHduQXdhSFpkQjNRVlVKQjhoMGM4cmtiMUdxS1B5NEhXRjJQU3JnV1NOdHpiNE1nSndvSjIyZ05ycS1sUTYzV1BR?oc=5"
+    },
+    {
+      "cat": "economia",
       "titulo": "Recebimento de vales-alimentação e refeição mudam a partir do dia 7",
-      "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSlQ1eHhDZ0Zva1l0ZXpBOE1RTTdZTktBemhDSE9hN0dac0ZwMnhQWDNCX2J1Rjd5d2hLUDFBbWJPeVYzRm5SU0NxODQtQm9icG16MVhlcjJYZ0kySEZUZFRTMFc4Y0c1cGt4cjB3Uy0zQU9jTExzYnVYb1pNWlZRR096aVlfU2RYY2xqWHh5VVlZZkdWNmJycG12bDBUWGlYLU9aVlpmd2ZQc2ZmTmR5YlZDSXp5M2pLX2hMRw?oc=5"
+      "fonte": "ICL Notícias",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZDUtUFhyWERDcHZLLVlqUFh2MGxYdTFIQ19EQkhiZElRaVc0dURiYjBjd2RDUEFsUU5majlpYkM0ekVhSG9XeDRTTFFOZkhia0ZZOEJNdndrbzJ5SWR6c2t0eTVvUjY3Nl95QkxoOU9RbUtlcVlUaWpoczhDcEpUcg?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Binance registra saídas líquidas de US$ 3,64 bi após retomada de saques",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPakRzeldfaklrWUtTd3JCd1ZtOHlvNk03WWFSYWdGRmdDdTRIZzFFTml4QV8xVTAtaGZiZko0a1VCZHB2MnN6U1AwQ19Wa0d1NkJrbXMxSVp5Ung4QVFnOUdVQ0lHYlZreTdoRnlpMXhDNG5fNEZnUHd0NzVCZUU3ODVBc3drTHZrdWs0eV9hWDhLa3Z5WEFMdDJTU1B2anE2MXNUUXNnWDJqVWhzcWlRODRlZjh3dDFVWVF5MzVzWlJabWZiR3N3?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Estrangeiro ‘segura’ mercado de juros e locais temem debandada",
-      "fonte": "Valor Econômico",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeDlpa2RoeFZNcWdjTXJIcUlGbmRicThpRFF3eEZfVkZZSEYweU95SzliMENQMG5sU0I0WjU1RHFMOFYtZkxqSWRMYTJ5dWs0emppRC11YWcwZk5jY05vNG5BaWc1SmVVdlZSeEFBSjRYUHViU29FUk8xaHFlM2xCVjBRaHc2OVBwNW9FV0ZuOERiaFR0Y1p2TU5zUERJOVJtcWljaTdqbDZYSWRpZWhRNW5EZ3dxYWt6d1lZNy1n0gHMAUFVX3lxTE80eGd3bFowaFJQeE9KNmJYX0JDb21tUXhFRGxtejBHRXkwZzB6aTJnSzdSeXJVUnVpakNuNEdMdGpEYU9MUHFFQVEyM19CeV8xZ3NnSzV0NVd2NmR0WVF1djByREVkV094X2tiZjJTMUFMd09Xd2wwU3RZaGlldWxOX09wbUNyMG1FRUNGX1hPZ2toWmoyYzljNzRtSGwtU0JpRzd1bXQ0V0xqRmxmdHZRTE9FaEd1cmt1WExyWXVPazZYYWJ2cDlETTJBMA?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Agentes dos EUA 'tomaram o controle' de parte de aeroporto na Argentina para viabilizar fuga de Flávio, diz jornal",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOMEFkMEFoVkhveV9iYk4tZ2NXc1dWd0tTVzdUZzJHU1JsZl84T200NklGRjNoeERnRnZNckg4OTRUVUR2aElmeXNkc2R0YTd1MFJQRkxXVEVIT1NrRGFJcEdFLThpSjJadVdpclJYcTRNTWFuemNfLTJOa3pEaEZRZ2h1NlEwYlRqVGhtdDJseFJhSVBOdHgxQnJOZFVSZERzTlNZVWlXT09uTHVuTVdPVzB5Vm5OeU9oeHM2SS1pMS14MmFEclJfZDVCc3VONUZ2RVgwVnZWWUhuZWN6bzZmQl9MTEFNc19mSHU4dkcyRjlHZmZpWnBuODRkZU02QdIBjAJBVV95cUxNNVdMNHFhVmlEUXk5ZlM4UkQzSHlGbVFYUWh3OUdaZHNjNXBycmtwOW9oQVFidVItbC1wMHYwWEYyQUFXQ2FhR1hUQWxZT1hnaW5EaWRDcFN2SzRYbkpYaEdGRU1RMk43YnoxZVBiZTlBWXFvSEh2Vy14bzNEaUE5blhZSGo0dWdYZkNrVXJsR09tMVI1Y081UEJ6TDJQVDhKRl9yeGQ4OWpTRWZVaThjVWdjMTl1dkVsSTJ5T0l1T00yVzFaWmkyVTc1Ylc1NkVfUXRkQ1ViRXpyMnJiMzNVbTV6LUNVZWxBRGRhVWhPMnJnb2RfQkZ6eFM0LWRNLVlHNUljMFBNVkpZMzF3?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Fuvest 2027: cursinho aponta erro em questão de matemática",
+      "titulo": "Mega-Sena: aposta feita no Recife ganha prêmio de mais de R$ 38 mil na quina",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOGI1cElPaXg3Z3ZEVTFBanFTb2lmb003Z1hsRElIUV8wUktDV1lQV19MUzRycVRPM3FhLXhuWUJxdGlPZURyUmlJZDFhelJRdUlIVjJVanp3dFhRRkRRMWhhUU5XNVBsbzcwcFRGd1BUdWVTbU9hLTk3NjB3MVdNUDB1QTlGSjMtZVRGQl9HQVdnVjdNNkU0RVpUS3BQTXd2a0FBNkZ6SUNKZGl2OVVpa1hkYXl6MlZQUC1jVGc1UXRpNEHSAdIBQVVfeXFMTjNOSGw4LUtNU1Jjcl9DTXlUVzlyakdleXBRUGVzMm1lUThJM1pXYVJSUnNYWVFHd1huYVFYUWlUT3dQNEhNSW9wWk1RRjZnM25icko4SGw3bFhtV01Mem5FdXVyME5aeGN3YVUyT3JDa2NISlROMmZLWm9JRk51cFhnVFRubzNnX3JhblVJbDIySmVscllhVEhvUGlHaXdZY1dQQVdPYVNYenZ0NTZOeVFBSERmcUdUcm1ENVNKc1QzMkx5ZDc2UXFqS1I4dWp2OVF3?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWWt2YllnT3F0S0NleG5OeTNFRHdWVmNWMnFtVHZodkc4VTVxMTk2TDIxNnVzRi1CMTBLdXY5aUhGaHdqQ1pxS2RrbEFlRmFYR3M4R3RrVGVfcURYMTZOR01VRmZjS3Fjc1lVQzg3RVhvWWw3NExSaW5hVmFLODVkVWNEZjZnVExqQlNFd19jSER4cDJOdk1hSFFKdlRqb1pvelVaOW9WbU16SldFcV84WUpVXzRrY2Y1NTZVN2tlNHQtcExXclRRblVTWEkzTU3SAd4BQVVfeXFMT09Cbm1ZTzJ5WVdQVTFQdldSM1ZQTW9RTjhDRmpjeWxkc1lQQVZYRzc3QVFCZ1p3Wjk1a25xbDRJUlN1T041Z1VhWHN4bWhHa3hEdlFBQnlhWDNialY2U0VTWUNxOXlLdldMaC1kT0V2dWZ1VFRULU15X3dqaUxRdXpvSXJzcWgxa1Ffb21uQVNzMXJJSGotTC01c1NfNThRUkkwb1FyUks4VW9ZeEdRMk5sYWxsdVM4MTZ6Rjl2T0RfS2QtU1AydzRPcHktdW02Z0k5YlI3QjlnRVRnelRR?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Com Janones e Campos, Lula prepara reforma na Esplanada; veja os cotados",
-      "fonte": "Jovem Pan",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYk1UdDA4THBGZThJaHZQODM2emNJejdTYnVmZHkxY2o0d0dpMGlGZFZ4NjRsejJhci1wd2NZaF9XSTJtTksxT0dQdGRKbzJJVjZFUDItcGF0ZTJpM0d2VmYyRU1OWVJFOS1mZ194YjhPYzFvd0padVpOTG8xMGNhcWF2UDVTVXpzX1hUVi1jVEZOVk8wdm1xMll0SXgxS0JaMWQweWtkbw?oc=5"
+      "titulo": "Três entradas na Argentina em 40 minutos: os bastidores da fuga de Flávio Bolsonaro do Brasil",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVXRDQ3dxNWhuOGVlb1BMVk9NdjV0cGRycXlZclJobktHME1rbkpkVTFfME1LVGdsVVF5alFpQ3NvY0hmNklWeTFRZ0lPUzVrWldBaUNoS2huRTRvLTctUVBXbTVHZE1vMGJQS2JVQ0hPWVd5MWxfZF9fdTZIbjhyNXc3cVRNYmF2SWF3X2dIUTlaVVU2ZkZFcTlnTnRFTmdGTW9XeUJ5WEdSd9IBuAFBVV95cUxPbGVnbDJwSnBQU1BSVDh0ZGZnRkc0eUJwLVBTeEplUFVJd1FzV2l1WnBBMVR4dkEtUElpZTVjbml5dEV4OUpsWTRwa1FzRUkxZVJFQ1NjcG1aenZscnJWQ0lwWEJqZnhJNlQxR0pGM3ZFTEFmNndtd1dYWGo1Tk5wUi1EckktSXRILUNRNHJaTnpXNmEzbjllSmZXZW5sVVd5aWtvenMyeFBzeHEwOHFxTDBBQk9ObTR1?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Fuvest será realizada neste domingo e estreia novo formato; veja o que mudou",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZ3RJcmRNQWc2RVo2V0JnT2pwWUZQSkFJS0NucVFwcDZRTkJPcEowN3JtYzk1azZPakFmNXBrLUQyVmVMb0JtNUdfSUhvazdBd2gwV3BlWlE5aVlxaVNnQ29tZm9wc2NnWDBCcWpoNjNHZy1EWjNHajJ6QXdRTUJrZG9yN2pPY05iaGF5VWFpZjF4UGNTSG5zcGhlb2tZWjJQTnlvai1ON2RydDBFdGhNYzB3?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Derrota de Flávio abre caminho para Tarcísio disputar a Presidência em 2030",
+      "fonte": "Terra",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNSE1hc29BMEVkTlZpY1pXTFV5dnR0VkM3ZGNZWWtfTndxUDlxcTQwQzB3a0pJb0JVU2Q2clpIazlxWEdiZlFPWF8zdElIcW8ycjRLM29lblR1MHhBN2prS25pamRyTmh3dVNxT2hfT2lBelNjaVM0SnFHSldMemdWY01tUFRHWXJEVGhfZDg0SDB1VXhjSHI5LWtFdEY4bG1RbzhpUWJMZ3V2djNzZERnX19Ea0lLX2ZER1duUkQ3dWZLZHBzWHFhZVUwazFkWUNuYkE4Ym1ObWp5N3F2REFQU041RVJkUnBzRXZkMmpxUm5PSHlfaE1z?oc=5"
     },
     {
       "cat": "politica",
@@ -353,15 +353,9 @@
     },
     {
       "cat": "politica",
-      "titulo": "Desaprovação a Trump cresce antes da eleição e preocupa republicanos",
-      "fonte": "Jornal do Brasil",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWnc1TjhMT3c1XzRSaDludFljdVlqVEVwUVFIaWFPa0tCOG1KX0xEVEx2VWJiTVNjOVhad2lPVlpFWFlXZU9DMjJtSUNuZFlZNERpSTQ4QUR1eHFFRHdtRjZSLUNlZmFfUHoyQk1GUVA5WEJsazM4NzRUVW05ampCdUpHb2wxTW5FMTA0bXRyZUhMdHRNakVBbXlPN18zMTVhMFBGdldDU3U5Y1Q2dTA2UDJMOURCR0NicVpDalZkTdIBvwFBVV95cUxNWnc1TjhMT3c1XzRSaDludFljdVlqVEVwUVFIaWFPa0tCOG1KX0xEVEx2VWJiTVNjOVhad2lPVlpFWFlXZU9DMjJtSUNuZFlZNERpSTQ4QUR1eHFFRHdtRjZSLUNlZmFfUHoyQk1GUVA5WEJsazM4NzRUVW05ampCdUpHb2wxTW5FMTA0bXRyZUhMdHRNakVBbXlPN18zMTVhMFBGdldDU3U5Y1Q2dTA2UDJMOURCR0NicVpDalZkTQ?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "OPINIÃO | Resultado da disputa presidencial ressalta dois pontos interessantes. Neste ano tivemos uma eleição de negativas. No dia 4, não à continuidade do governo Lula; no dia 25, não à entrega do poder ao bolsonarismo. E este segundo não, que result",
-      "fonte": "Instagram",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBuMk1sM0hiSEZScFhUOG1JaFRXMGJseVR1YnJ4QnR6dEVjQVdaWF94c3p1MEMwWEdlbTlybXhDeDM4ekdHbmoySy1qbzJsQ0lHRHc?oc=5"
+      "titulo": "Midterms 2026: Trump não está nas urnas, mas por que essa eleição é crucial para ele?",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNeEVVOFc2QVBUZkV1ZFNSdW5Ja2cwbUUtSjN1THpvNUh6Z09zVHowb25ERU5zS2x5bk91VmVjVGNHVkllSnlnYWpoeWJpaEhfSUxFc3ZldXQ5VHFvZ2c3Q05vTHJtb1kzaHljalVWREZobzk4MkIxRzNZVXpSOFNlUTBoZG44WVNBUVhweHdDSmFWeGRldm9pVkVTdDRYbDRvWkhWai0xdVZlemZWUFRiMHRYUEE0b19MVXF1TE11UlRkb1pnbTVka0NFM3ZHV0nSAd4BQVVfeXFMUE5Cc09ZNzI2ZlRhY2tiNjEzYnlQR01Rd0VnMm1GQlpKU0ZTTnlDZWhINEV1TTFKaHVfRk1yQWVuLTlDWklaV0VoV0FGbjhISlhHRGFKYVFvWnl1OWl1Z3pDckVKVHhyWGRHcTlOR0Z4aUhlQ0Znckt5dFlLQmV2elNuTm02N1ZyYnFzRTZqbzRoR2JPYVF0d2ZuenFFc1lkd0xBUFpNQ1lNMFAxMlBCcFRhT0k5QkVBUE83QlZQY0tYT2NKUWxUWG1wN2RBNG5lQmRxTzFUSGlGN3pGNzdn?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -374,6 +368,12 @@
       "titulo": "'Lulazo' é aula para derrotar Milei em 2027, diz oposição na Argentina",
       "fonte": "Folha de S.Paulo",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYmhTUFRQeHJGZ0VXeG51a3FaNUh2M18xdC1qeEV1V0tkWl9KamhNVmVxdXlzV3JPaTl3dC02WllRa3JzLVBoSkpyR2M0d1ZtcXVFZVNVSEc2Zi11dmRqRFF2UXZpVEdhNnk1UVpuRVlPM1JRU2FXZmZmeU04eUswZ0lCRGNUVVdPNUtFU1RnR2tkSENaaUhjenpndldBNG9ra0JTbXFEZFhWSXhKbzdrZWJaZ2dsSGpC?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "O #Fantástico deste domingo (1º) trará uma reportagem especial sobre a fuga do senador Flávio Bolsonaro (PL) do país, após perder a eleição presidencial por 4,4 milhões de votos. Antes mesmo da matéria ir ao ar, ele se pronunciou nas redes sociais e deu",
+      "fonte": "Instagram",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0zYWVTWkd1anROeF9NTUFUbzNXYUJKNy0tX3liamRRRGlkNmRGM2dkTXBBNjkxU1lMbm1PQXlCUjlMeXV4aC1mQlJVd0c5OV8zS0E?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-01T20:39:52-03:00",
+    "atualizadoEm": "2026-11-02T03:13:41-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
