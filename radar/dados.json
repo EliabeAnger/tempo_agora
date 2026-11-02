@@ -167,8 +167,8 @@
       "anterior": 169186.0,
       "minimo": 167007.56,
       "maximo": 169184.6,
-      "hora": "02/11 13h09",
-      "ts": 1793635772127
+      "hora": "02/11 20h35",
+      "ts": 1793662531784
     },
     "acoes": [
       {
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.4369,
-        "var": -0.05
+        "valor": 5.4366,
+        "var": -0.06
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.0862,
-        "var": 0.32
+        "valor": 6.0819,
+        "var": 0.25
       }
     ],
-    "acoesTs": 1793635772127,
-    "moedasTs": 1793635772127,
+    "acoesTs": 1793662531784,
+    "moedasTs": 1793662531784,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,21 +305,33 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Mercado chega à semana do Copom com expectativa por fim do corte de juros",
+      "titulo": "Parte do PT defende teto de juros proposto por André Lara Resende",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcmpDWjhDZlR3ZVZJc0NZa0c4YVowMmowa0k2WnNGQmk3dFAzNzlXTGxreElWX0JIblZWTkhJWWw3d0xaN1N6QkhUTUJsejhBdDBIYkFwRjA0MFNDTFhCTERBalFTdXBnR1VENjM3Ynowa3A0c0Q4MG1KQUw5eXVwWU11QzlvR1JXd2tsTlhrS0RIdXJOVm9zR2h6eENDb21VX1liMTBZTHVQQmdBckE?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Petróleo cai mais de 7% enquanto Irã sinaliza abertura para negociações de paz",
+      "fonte": "InfoMoney",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTlgtLU9ERW9uQ1kzTUVGdkFiTFhsVU1TaVpFU29IcHAtYTVucUNVRXJsVVdnUUlSaHk1d3Rqa09SR2I0cFc0SUtJckdsZTlWTXZNMmpCNGlxbUNPeEdpQllUVHY2U2diN0pzTmZFS1pjYXFsUjRHQVl1eXhaRFVRR0YwTC1Ld1VISGJmQUFKNm0tczZNcVlxekNZNm0yT0RadVFGbFZscUjSAa4BQVVfeXFMTmJWTEhFd2hGN0N5VlZwSUtzVG5LODlRSE9ZU1FERlhLeDh1S1BfMS1ESm1sZkdpS3U2NnZ2RUstN19IbEJ3b2V0NWZRT3NSU3lEMGx5M1RpalpjWFprMmE4RENZbmZ6bnN1Tlgtc0V3NVY0MHllaGZBNmpVWDBmdFQ0dFdFR29UejBCaXBueF9na3NRMUtFMElfbG5GWUlXckdHVnlsUENhX0M4MDZB?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Aliados de Lula fazem ofensiva contra pressão do mercado financeiro às vésperas do Copom",
+      "fonte": "ICL Notícias",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTEhjaE5sd3FYa3U0VkhETEFhWDFiaGhVYkVZbWxmaFFpV3FxRjVXajF2UlRzTlRjREZBNVhSSDVwclBTSmNsT3lTNDN0bWNPc3FudWQ0NHhxVzk5WFd6alpGMzJRQzByT21RYXFBUVVOM0ZzcGtkWkl5SkVnMUI3UlNZbU5MdjNRWmJVYlFyaGVZM1ZmXzY5dlJxT0ZwMjR3MjRwODNpbWxSYXM3VW43ZjN0dndxc3BWZ0d2TjZ3QjZZOG8?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Caso Master: Vorcaro aciona a Comissão Interamericana de Direitos Humanos e alega violações em prisão preventiva",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPdHhiR1JLZkFkM184YTIzQThxV3lTNzI3aEtMNG01Y0Fnb0gzSElwRzFZMTFrMXhWMkpNV3BvWkZmc19BUmZJcTBfX2Jsem5STllhbms2WXFEUy01Ri1nZkVLalB6dV9acTN2a3ZsdGhXMEdJVGJrVTBqOUdoSXlmWkJTZm5NQWNaSU1pM0Z3NU90Nkk4a3g5bDdkdEp2ZXFEQlRsOFNRdHRoejhBZXpTcFN4d1c2Y1pUSEN6dVEyVjJXMVpYZGh3aUhjNE1nU0FWblVFSjkyaFJlX0U3b0V5b1VtM21ZUmo3dFlsMzJZWUI3WXpDc0htdHNOQURQdVXSAY4CQVVfeXFMUFN4N01fTS1KRnRjQjhQaGdjaUx0THZhRzhpVTktSEloNmVzaUUxc01VYVh2azYwWmhzNmxxaUk0aWZUemJ2dElKOFVyRDN1X3JlX0Z3OThFelhJWEdQVVhja3NQc2M2ajZ5UGFQNWRYZTFVUVltYzR0bTJCY0N3RWd0aXUwclN1T3VTM0ZNOGNnWkp4YmNpcGR3OTM3Sl9fcndrYWJDUUNiMXlVbTAtRTNiYTdXT2IxNUM4a2tkTFFnUkFtcUxyc2QzV1l0c2xpZnUyalA2WDBYNU5zWHlNV296eUNHYkJ0N09sSUxNUWxNLTlSMWZXTlB5U0tQeXNZNGs4THBYS3lLam9KcTlR?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Duas pessoas morrem após queda de asa-delta em praia do Rio de Janeiro",
       "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYVJsajR2QVc3dUVYTTE4MnU0Y3F0d1pOdEVRSmdESmEzZ2pseU14YVZHbkFTZXhzWVpkRkgzTXJhUUJpdHBsTE5DWWtDM1JYUE9nQW12dUZGa25HVm1yNDlfMkI5RU1jb0phVTdXOXE3N2plbTdSMW9IVHVwcldqTW11NFl2WlBuUE54WTBVRG56RzJqNUJ6SkFSWHNpbWpjU2tDcHFTcnh5UVpCZE9YUmhrR3pBRGNaTFJMQ0dHTnZjMWV1N3BtREgxUmQ?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Dólar e renda fixa lideram investimentos em outubro; Bolsa foi o pior",
-      "fonte": "UOL Economia",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbGkzYWV0OUJhR3dFTmF2dW9wMkRJZnBWU3l2MS05Z1pRY3h5aHV0eV9rVEl4bkhuNnVOWGJMbUhaLWNrZDhVUG1GMndfQV9BSzNieHpVTEpraUNfTzc3M2Q2VzVuWmZ2Q2FXSUZ6bWxfZnN2Z2lacWNQTXhvdnk3dkVua0NIcm53LUF6aTNfZw?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Inadimplência bate recorde e atinge 84,2 milhões de pessoas, mostra Serasa",
-      "fonte": "UOL Economia",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNcU5YQUE0RzVSVWlsMVl3V1QyWDBPQ3doUU1JazUtUHVsNjFwVG9raGxGT2xsQTVhNHFtQXRwOGM5WG1EZVVWeVpHenNMZ3dPMnlSSVN3VzhlWjRPM0h3aTFfVmZuSE9DUGtKbGt2TnNWVVVkTWU5YkZnMEhfc3lCV3J0UHdJMTlDWGtUQV9GaG81dEt3Q3h1YU5fLU9mUmo1QXNoTlctR3poSE0tNldPdWE5V1M1YmUtR3FteFZaS0xkV283SjEzd3pn?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbjJaNGE3Vi1FR0dVdUlBdW9GZjZMeVBSa0M3b2Z6T1dUcEt3WkoxbzN3Ti05bl8zN1VuMFhUMmhUbXU1UlVDdXJRdVBXc2UyNUFzSnY4OXRoSUdXQi1Mc1puM0hOM3Z0QS1GWUhsRkZHRGVnR3ZHSGVlVElBQjlIVk9Fd3dkekdLbGVrSk9iVGtwaVNDWVNfeFdOcGpDbTc3R0RfalJtcWdNbTA0WExLMkFocUFVRzJ1SE4zbg?oc=5"
     },
     {
       "cat": "brasil",
@@ -328,52 +340,40 @@
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxObVRSUFZQb2x6MWx2V2RweEpSem5qWVJDR2RlN1VrZ3cyMGwwcjFqYmcwUVBxeUh0ZkRjZWJJZF96R0xqejRjNjg5V0MtZ2xBUTc1M3BOLVlOTDdCaEhQa2YwMmFsTlk5NTNiV3pLU2ZPdzhQT1hucjU0UERXUzduT2lxWjBybXJGbDRRYUNCMXBDZTE1ckZOUjRZNkV1YWp6bW5mdUNicmU0eGlmM0c4U2dFNGlMUGhuMGRTU0pnR1pKQmhGUlN3NzlrMDFRdTRiTm1QYUVRUW1KTms3LUxyQ3JqQdIB8gFBVV95cUxQS0s1VmlOdC15V3hEaEZNZW9nckxLTFVCV2tsRVBTekh2X2hnazhkU0NVWC1GMER4ODNSUDRGaHZGWE1RUmtxbEdyenNjN0NiaUNVcV83MXhOcHJiV01JNlJkdGZrT2t5aFdmUk5YdUN2Z29vcTVtZUpuRmtQeU9VUjJXUUhBR2JvYU5GVmRqU3JIRFBCZ1N4dWdBSmZQXzZXWkE0QmlEYm5zajRvODhsSU8wVEEwWFR2SGpiWUlxdEtvd2Y0a253VWgtU3A4TncwTENJa2VObVNnRms5cjdLYXpvUXBwN3pQTWwwWmYydkJsdw?oc=5"
     },
     {
-      "cat": "brasil",
-      "titulo": "Chef Julio Ritta rebate Nikolas e defende ação social em vídeo",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQWFISGFmVzQ3ZVc0WWduQ2liRUctY292QTVZMVBLbkFOYXFIb1kxNHV6NVZxX1RQaXhFMzFoZXJ5NGRWdl9RX0syYmZQa01XV1Qxc0RTVzQ5SGQyc2FhckpCZUpxRXlOYjN0UG5lRjd3dWxuODdjc3VQRy1kX1BybVF5R2hDcXpjNmtvR08wTmVmSnRESjdILW1kZmZTN0lGN2xfTmFCWDJmeUxCbFgzYg?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Flávio Bolsonaro vai a culto evangélico com mulher e Eduardo em primeira aparição pública após fuga para os EUA; veja vídeo",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxONUc3WWEwLV8yS0tsWHZyWktzWGQ5REtvdXp2ZGZoLWJHRy1UOFdQbXhKWXpsU1VjaHdlTkxRX2lQellXTElvWlRwajZ5ZmxnZ3lWY052ZTByTWZPMC1HQ0JrZklOTE1fa1Y2NzFyMnh0NzkzMkFhTnJUNExxUWZYYkJ0dXhZNTJONUxVc3F0a05nTXJUTWtrTFlzWUJFejRHbFNFX2RvTVkxUGpESWhUQzJHTW1EUmRPWFozeEFLbGdWV3RobWN0VDJRZV93YUd0czlGRFFQSzZnbmVWaUNKbW9FVnljM3Jwb25KdUd2Y1V4QUZrczVxTzhaY245ZlXSAY4CQVVfeXFMUFhocUdEUTlacWJRMXB5bU9ScFh6NTVkSEN2ampzRjkwT04yejg0bFdEa2ltaU1OVS1JLU1qUF95dnVSQUIweUM4RnFaSnZHcUtiMmpTR3JXc1p5aTVwU2tpZ0xGclNweURsX2tpbkhwZHViWVZMenU1OW51U0g4dUdOZlA2UzBjU0hjc3Q2NW9CT1dqaXh0ckJpdWhfRHkyM1dleURlR0dSN2FrQmFDTnBZNDhHVVVFbU1SaW9udGJ0UjNUbEJkdC1SemNXYlNoT1I2alBUektuSUhCZy1aOTFsQkIyT0ZOeGJlYzNrYzNSMjlFTXFqLWF2T1lNODZqWWhsZi1JMVF2T3BNZUx3?oc=5"
+      "cat": "politica",
+      "titulo": "Eleitores dos Estados Unidos escolhem novo Congresso amanhã",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOaTJHQWU1RU4tQTZmVVdaQk9fVlJ2V01zSzFJMmZiT0tBSVFTU2pUQzZDSEhPbXdzNzhKRHRoeTlnWEJfOGFoRU1ycUFuZktqMFllMHZzRVFsZHVwYU9icnFDbTEtU1lkaUdHdklKSl9DLXBPXzBfMUVkbnFta1BtLWpyQkVGSGtvX2hOWEpJWFhuTGNsNGYwU0lvQ2NVSkxkWDlHRFUtLTVIU1A0WUFFMVpLS1YtSDZnb0FyRFZSVzI3WlBLYmVKZW90M21WSmJyekw3blg1WVl3QQ?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "PEC da Segurança e Orçamento: O que Congresso deve discutir ainda neste ano",
-      "fonte": "UOL Notícias",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdTdLVW5Od0JiNk1UMWFRZXNSTG5jVUZlNkV4LWNQc3VoV2dsRHRsV0IwSHZLazVsRnl4ZVd2ZXpiY2ZWQ3Q4V1J5bm1idDRKT3IwRUhsdkRYbXpXRTNfd2g4MGFIOFNWNkh1UXg2LTR5NUo0cTBhLXVlSGxkd2NETUxKSmFFbWZ0U3N2LXFneGd3T2VaUHZJQmpiSzd1RVFEM2hlYnZaeTFVcjZnT2duVDhaUGM1dkU3RFE?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Governo Lula retoma articulação com o Congresso após eleições",
+      "titulo": "STF pode reduzir prisão de Bolsonaro a 2 anos e 4 meses",
       "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRjlEdzQwcGcweWZpSTJXdmZNRERWM0laRDJPck5ETUotbmZQNktDU0ZNSDdVajZBLWtodXpTX0hTbzlOS3paRGlXSm9sT2FjU1BZa0dsNHlPRmtHM1F5bERnd1FaekxnMU9YNFJZM1c2cE5iQmZTVXhPdVo5cWF1UEY1QV9FOWZqSklMbDUxYnpYYUpvaHBVeFNLR3V6S2dvRHc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdnBodXVXZ1Z2UThicjNaNUNsbTBudUt6SXJYQjZuUzB6SEZoM2dNTmdOVFRKaWstRnBMOXVVUDgyYTE4TkNZNkhJZXE4SGNwSWtkUmh1RlZIU1VveHFTU0NieFJ1c3hJTnpORHJmbllUb21jR1VWMkloSklpemY2cEFjcmd6WF9WQU1Id3RueGlZNXZrQXc0MUpR?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Quem são as mulheres que atuarão no Congresso no ano que vem",
-      "fonte": "DW.com",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPazFhcmV2RjZJbl9PXzZIcDZnblc5UENINUlmV25xbjNCNzVmdU9hcGZWVmp6elprVnhjUTd0S3ZaODhMYnBLVGhLbXROU1BqSE5PU2ZQYmVlZF8wdk1hQjYyQm5HTVpBdDZWZ2VxSWY1VVcyWVE0bjV1bEVtT0lmREtjSWF0QV9lWXBiUU9Kcm5Ub0VFaFVmNE4xN0ZiMUo4Rm9YRnhHQjIwd9IBqgFBVV95cUxPazFhcmV2RjZJbl9PXzZIcDZnblc5UENINUlmV25xbjNCNzVmdU9hcGZWVmp6elprVnhjUTd0S3ZaODhMYnBLVGhLbXROU1BqSE5PU2ZQYmVlZF8wdk1hQjYyQm5HTVpBdDZWZ2VxSWY1VVcyWVE0bjV1bEVtT0lmREtjSWF0QV9lWXBiUU9Kcm5Ub0VFaFVmNE4xN0ZiMUo4Rm9YRnhHQjIwdw?oc=5"
+      "titulo": "Além de Flávio Bolsonaro, 6 senadores derrotados deixarão Congresso com ações e inquéritos no STF",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNi01MnUwazRPTDV6ZXNiVF83V052ai05X3ByeXVXU3FQb0ZNcDliNW9lTUN3c3cxb3BGaUZQQk1LVjlUSkY0M2VnY3FnUUZBeFJ4TUhqRl9LYmlIOXl2QVNZeW1Rb2FMREdOYzdWZjVJMFktbDR2NmVSMFJkMWM3aVFnS2Z2R3lZSzRsdFV1b2xLT3pZSlpUbHZxcHROWEJlazAxSU5qemZNNTZEU3Q0eVdCalZWWEc1X1g5TGpIR0xBUTZiRG0yaXViZEswZ9IB0wFBVV95cUxOVG1MNkxZcEYycVhlQkJjUUJkM0NiM3ROMU9hM2ZhZUx1THhGQmo5ZGYxUnprM0V5dTF1RkpUM0Jld29ja0FvenFHc3ZFRmplai0xaWdnUWZjNWxsNl9ZNGhIRXlDbEFzeHFiWG5vb2FsNFB6V0pJTzdNd1FQd1dib0JJQmNYVU92TlBrNlNSSDlaNXkyc0VJY3R2RHFMVV9KOWtRbVZfdmxFZzQ3UENtNnlKM0h0MVlERHRoTUNCZm5wQUpvd1dKWWpvbl82MnNJLTkw?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "O único lugar do país onde Lula e Flávio Bolsonaro empataram no 2º turno",
+      "fonte": "VEJA",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOT3VBaUlFUGlORUVIZ1dtU3VzTHZmdUN5Z09KRVJTVElLckRkd19WRUxOYkVxcG04VzJIRWlLMms5Z1V5RGI1OFM0dFBiYjBvZW5DUkdQNHBMbHZUMDZsTC1iY18tOVJxbms2c0wxdDZDNGdRT2NFRjVLNWFUUmhDaDZ2UnktZXVvcnJuNDJRSGNOVUhrYjI1Q08xd3pSRmMtaDZGT2NwTTdGUWw1?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "Ex-agente do governo israelense ajudou Flávio Bolsonaro a fugir para os EUA, indica investigação",
+      "fonte": "Folha de S.Paulo",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPb2d1VlpvV0xHYmhiSHRQMlFaMjZjRDVjNkZldXQ1aXBiSFVjNDNwUEYzRTl1TXIzRjNVa1ZqN1RkQnJSai1EOXliYjlxQ3A4eFBNQVhkMjFMOFpOX21iZGt5RVJ3a3padm41WkRrVHpBTjJDVWxZR2FNVkhkUDBfeTZ3Rll5c2RyLUk0U3FqNWdrRXdHbE9jaWM3YjA4RGFjYjFscG0yTjk3bVBmVERFRlY3YXI2ekRvOWZGY2pWWElMTGs3NlNFeTlLNnJ3alBETHhsaml3?oc=5"
     },
     {
       "cat": "eleicoes",
       "titulo": "OPINIÃO | Resultado da disputa presidencial ressalta dois pontos interessantes. Neste ano tivemos uma eleição de negativas. No dia 4, não à continuidade do governo Lula; no dia 25, não à entrega do poder ao bolsonarismo. E este segundo não, que result",
       "fonte": "Instagram",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBuMk1sM0hiSEZScFhUOG1JaFRXMGJseVR1YnJ4QnR6dEVjQVdaWF94c3p1MEMwWEdlbTlybXhDeDM4ekdHbmoySy1qbzJsQ0lHRHc?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Como eleições nos EUA devem selar destino de Trump e futuro da relação com o Brasil em 4º mandato de Lula",
-      "fonte": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE01UTlvOHYwYmNnakNabkpPa3c0NVRsQU54UXdoR1V5YnJMTktMbEQ2d1dJUi1mN19CZVNaajJ3bDk2SDlZbGgzc0k4TnBzeWZyRV9nOWFWSENjRE1rQzliOVdVONIBaEFVX3lxTE5Td0lhWkRpRFJfQ25wTnVGMG1CS2hYWVFOaGRvOGRERFB4ME1rWUVHaU5jTEZKX3o0YTVXWTcxSnFmV09JLTBSRFl5VHRXYUlvVUhNek9pbzZiUEFBT09qVVRXdzYycFNh?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Batalha judicial no TSE entre Lula e Flávio Bolsonaro continua mesmo após eleição",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdEFIX19QUFBOS1gzcjNQSnliS1BTLXJVT2xHbmNOTFlxZ2g4YVA4TUM0RmVEVVVpOEZTZ2pjbGsyYTFjRVlNaXM1Q0l5VDFfN1pPdWFmZ3l1amoxX05YeEJLbjc1QzNYMEJ2VGxaRjVPSC00Tk9HWU8wLUFQRUhpalotazE5TnhGMHVnRVp0SkxtSVB5TmdCRWljaDhYbGRYWHVrVFRqYlBHcnV6TDBaRDl5d1A1OWpGQkHSAb8BQVVfeXFMTlF3MThSRmJVLXo4T2hnTEdDa19RX0UtS1R5aEgzV19vMWVHQW5fa3ROalZNWWVGb0tUVDAtQ1YzTm1mRGNhLU9zTzN4WjhIV3l5WE1oYkRIcFJTdXdRYUs2QlZoZ184aHF2QURzZVFhSjktSlRYc2loLU9zdGFrTktubGg0WDc4OG1GdG5jZXZDTjk4RzFFTmJxaVlfc19fTkpXVXFjdGl2OFRzMnhQNlpmcFNhWGRiMHEzNklLZFk?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-02T13:09:35-03:00",
+    "atualizadoEm": "2026-11-02T20:35:34-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
