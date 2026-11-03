@@ -162,34 +162,34 @@
   },
   "mercado": {
     "ibov": {
-      "pontos": 164985.34,
-      "var": -1.75,
+      "pontos": 165416.5,
+      "var": -1.49,
       "anterior": 167921.8,
       "minimo": 164446.53,
       "maximo": 168005.45,
-      "hora": "03/11 12h13",
-      "ts": 1793718791048
+      "hora": "03/11 18h03",
+      "ts": 1793739835718
     },
     "acoes": [
       {
         "ticker": "PETR4",
-        "preco": 50.46,
-        "var": -4.27
+        "preco": 50.62,
+        "var": -3.97
       },
       {
         "ticker": "VALE3",
-        "preco": 61.13,
-        "var": -1.44
+        "preco": 60.32,
+        "var": -2.74
       },
       {
         "ticker": "ITUB4",
-        "preco": 38.38,
-        "var": -0.76
+        "preco": 38.39,
+        "var": -0.74
       },
       {
         "ticker": "BBDC4",
-        "preco": 13.56,
-        "var": -2.16
+        "preco": 13.51,
+        "var": -2.53
       },
       {
         "ticker": "BBAS3",
@@ -198,18 +198,18 @@
       },
       {
         "ticker": "WEGE3",
-        "preco": 48.27,
-        "var": -0.19
+        "preco": 49.41,
+        "var": 2.17
       },
       {
         "ticker": "SUZB3",
-        "preco": 50.98,
-        "var": 1.68
+        "preco": 51.18,
+        "var": 2.07
       },
       {
         "ticker": "B3SA3",
-        "preco": 13.34,
-        "var": -0.67
+        "preco": 13.49,
+        "var": 0.45
       }
     ],
     "juros": [
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.489,
-        "var": 0.96
+        "valor": 5.4962,
+        "var": 1.1
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.1441,
-        "var": 1.0
+        "valor": 6.1517,
+        "var": 1.12
       }
     ],
-    "acoesTs": 1793718791048,
-    "moedasTs": 1793718791048,
+    "acoesTs": 1793739835718,
+    "moedasTs": 1793739835718,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,39 +305,45 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Corte de 0,25 ponto ou manutenção da Selic? Mercado se divide sobre projeção para decisão do Copom",
+      "titulo": "Durigan diz que governo discute ‘ajuste gradual’ e critica ‘deficiências’ em ideia de Lara Resende",
       "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZk5LSDlEUndtVjZLZDlLVVlvSE95ZlBLdklRWW03dGNDRVk2NTJfTlgzMXp3cVpVeDZ2NEdmSGlVaEV3SVdHcE41Q1ZCWW11VVRrSEpkcnQ3NjFRQ3lEcWRXQmRKakY4NnkwR1FQaTNoaTFKM3NrRENLd1ZFUXNsak1kU0ZhWDVlNHfSAY8BQVVfeXFMUDZrV2t4Vk9EYlRDWF9vaWtoOWVvc0E0R1pTSmFaSnFJWGhWWkJ4V25CRkZobmVZaTZtanMxY1d0N0FuUmh2dkc0cmxPak1ndHRoX1hOWGlBanExSWJJaFcwQlp5NENRWXEwNFVVeTZEaHFXRWV4cTlsUWJsWlhUeTVhenBNNUZYMG1IQnBPVWM?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTTRFeHlDTmtfbkRIWlk4UUk5T2V5QmZjMG0xODRFZ1VTQXZZMmJzb0J6ZlhKSFNBU1dZZUlHc3RYRExwMjNOdm54SE5CODFjTnNpMEZHM2xtd0lVSlZtSmF3YnpNdDFvRE53cTd1cVMzek9Od0tTTEp6SzQ2RGoxelNqb3pfaUlwVnFnZHpUdDRmRmg3eWc?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Focus: Mercado eleva expectativa e vê juros em 13,50% em 2026",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOX1VXRGx4RHBzVW5pZlhEUldtZGEwelJ1NVZnaUlUdWZ5OGpUMTR6YVhIQzZ4SXRfbkdHM0VLQWtfSkJKSWZwdW9DMlNMQTYyZE9ORTNvZkgwOFNSNDFZWUdPLXF1aEVCWVhSSFBRdlJQcE96dlBwTy1mMDdFYWFDY1FFLXVKVTlZZjdUOTY5YnA3YXktRGlmM1ZoTlBfcWdPNWNJcHlBT0Y5TjR1TUJpVmkycFBlSVlG?oc=5"
+      "titulo": "XP vê pausa no corte de juros até o fim de 2027, com cenário negativo para a inflação",
+      "fonte": "InfoMoney",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPR3I5cGtrUTQxdHlZTnJrNEdKZ1Z5dTBHem5iNWRDZDRCS0NJM1M5cGxCTnVKQU9kU05YUnpJMWc3TkNJODV5MlhUSjRVQjQ5dExKbFBnMDBEeVFJRlFQS3MwSThfZUU3cDNaaUR0NEVJejYtczlmaWRLR1RKb29fN3JSONIBiAFBVV95cUxOMDZYcXI3ZHZWVTJBSm11TVN2d282eDBmZ0VhV0RKdVFpVmFZOFNQdlRYV1VITkwzeDFCU1NmdGlMWGdLZ2E3MWRIWFZVQUxubjlnSENhUV9mVldfVmxxYjB3Yk8tbXkzcExEZnBsaFg0Zlc1VVVLMmxPZ0JHSmVqZ0oxLVJUQ2tB?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Cenário cheio de incertezas marca ‘virada de chave’ da reforma tributária",
-      "fonte": "Valor Econômico",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRlRTTHpUbjdoRWdPUEFCcV9sMGRtMGtCYkhtaGppSU4yMzBPdnRqcXRNaHRoVWpDbWU0eWNnS1dIS3pWZlktSERocmdDMHpmQl9UZnUxLVllMFBzb2kwMGFqLXRSa1VOZ0hXOXVTbGVRTXlxZlRVa29GOGN0RUhnNExkM0RGV3ppNnlwcmJ5Vkk1azZOMW8tdFRZTkpBNmh0TzFQU0VPMGNpNjFkc2QxVU9EZVEtbjhGSVUzMEFvdW96dmRfRXfSAdQBQVVfeXFMT1RRV2ROTldjT1o3VExVTXJvenUyQVIwdTdGNVVsR1RJT05TMWcxZTJPbVp4MEhGYmhNU2xYbV9CczU3U0syMmFRZ2NHSW1QUVpKbVRDbmxMMlU0Vjk2LVloZ2FYTnN4MU5YUUNTNFZvTThPUnJmWlpwakFWa1VSbWVxRUx2b3E5X29wcmxmSFZQclI0eFdkYVU0dkczN2taMW9mU2VfcjJBOENWSmc2QXhFNk9WWjJLSDJ5dlpwSDM2NUZ3dnhVVUxaeWpQTTlwdGtUVkk?oc=5"
+      "titulo": "Mega da Virada 2026 abre apostas com prêmio estimado em R$ 1 bilhão",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQnZXQjRZUE9pS1F2cE5XNzh0M1FNN1VMUV9LMzRRVmJJelZsZFVpZndCWVByLUFkLTlaTnlla3hOWlR6QTQ2YzhxWXBRVHhQNE9JQmtVandCNUlzY2l1MXA0Ni1vMmRXa0RyaVFWV0haVVpnYjNNMmZDWGxSSUwxclBSMUJOR1RfYU8wTVNqMFF0dUphQ0drRzRma2lEUjNEbDZ6U0FjSG1CRDE4a3dIWmpIUHY2R0pDT3RIMGhR0gHMAUFVX3lxTE4yV2puX0VMUjNhazBkbHBQNjN4XzltV3RfY3BZVGZwa2kxcE11V1YtSjhhNHU5VjhWOXM3NTBCQXZZM1Bwc3o0N3oyaU9xZ1JCU2huOFlkTExtVWF2dFQwVTdHNjMwaE8yWWxMYUFNQW51SGVRdUwzVWMzRGNPNEdzQUIxTUFhajIwemRHdm1fWE9SR3JtVzByLWFBTElrWGtyblVqU3ZSSnN1VTEybHZpbFlaWjY0aGh6ZGFqYjJmcjRLekJ3Z2RJbGdlMQ?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Planalto aposta na aprovação da PEC da Segurança, mas redução da maioridade penal sobe no telhado",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOem1aLUlxb0JNTDZndDdDNVdrRVpFMlF3eFpsclBGbUczZXh1d3FJWmdudG15WUJaUnZ3cVRBQlhJb0RZeWM3bFlnazlFZU02RnZtWDlTSEZ1Z1hHOXhia2ZFTHYzTjRZMUxscW1BX1REeHFER3FEMC03VHBJRV9fdmFMV2V2bVptcEROVWtuYXUwamRzRlNSY1F3UjFCdmUyNndSTnZQNVk0QlhMc2R5aDdENHNHVHRGVFlIdjNSVWZGdVFtV01TeXdseVUwZkFsWWI0Q0hR?oc=5"
+      "titulo": "Janja entrega relatório a Fux sobre mercado de bets",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTy11dHdSV0R6a0piMjkybjIyNkR3TVRvbTUtcnBOd2NxR0xBQnpSWGU2aWgzZklweXJrWE1WeXRSOTVaS2tOdDltMTdRVW9ZMS1FVmJ1cDFlV1dPc3htcVFuei1EbGNvZWNyeDM1RElLaTJZMkg3WmZPcXVTVEE1b2ZEWnZiMGxveWYwTnNEM2dZbVgwb0tlSU5n?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "AO VIVO: STF debate proibição das bets em audiência pública",
-      "fonte": "Migalhas",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOY25GNnVxckxKZGhJYTVubTQwUjNQeXpUUm5xb1Voel9IcFpvcmcxTWVYZUhnYmxIbDdWTHJCbGEyb3RaRHBkd1ZhWHQ5N1FKNGExRFF4T1Y2YnlmR2dGd3VMQ3h3bHhXV2MtU0IyZnE0ZXVOb3hFLUZwcVMtVG9UVjFTX1haWXJkTjVVSDN5VXBNTWk4V19STDdKTzRCZDVWUjNV?oc=5"
+      "titulo": "Ministro da articulação política diz que governo vai atuar para evitar maioridade penal na PEC da Segurança",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNOWZWTUNjYWxxOVluc0lENkprZTh6LTQ4SFBvWmdKelRxQ2pRVHYzZVRwMnJmMmtZeTFJN1RsZXVNZ0FDTHhsVGFldk9HNU54em1LUkUzN18yMzVqNmJnd1FzYjlXRVFJTzRrNVBtTzZXLThNUkJ6UEF3bFNMMlNVMVRyTmhZdEtpaEFSSUJ0ZGMyU2NRUzg4aFliRjFBb3hqbDAtN3llczVxVXo0Z25OZ1hmdzFHS1VZb3gyM2U4Q1dwT0lOY2VvVFExQXhXWXJVMzBSZTduVEwydGltRndIR1pVbXE1Vnp3SnRxUVNwN2Z4OXFFb3J4dkh30gGIAkFVX3lxTE1NbnNtMEZfN0o0Z2E4TjkzbHhJdjA4Zm52dXp5Q2lrMU5vV0VWdUxpaFJHQ3ZvLWRaZFNnd0VfR1MxWFVzVjdjMm93QUx0Q3g0WnFBcUE5TGZHRDdFdkhkTFk5ZWRWMmRGNGNPYzBqaDM3dVBOQ0NIRTllSm01elRDUFJDOElaZEpkMW5TLUxMSHExZFJiVEJKWlVlc3E4ckgzRm41S2RwV19Cczc0TFFoZ01tNmp6Ym02NEwybjNxcHdzdy1ENVh5ajhkSmFXcmNNakNPdGc5UWs5aVhTME5ZVnQ3R3RpSEYtMzZhaFEtMklfZTlSU3dqZThBRy1Ea01tTllRV2lJRw?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Artur Rodrigues: Nova falha no Smart Sampa permite acesso a 17 mil câmeras conveniadas",
-      "fonte": "UOL Notícias",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYzJ2eUxKb1BxLXhPNktCUE9LUElpa1E0ektSbHhWc3ViVy1hdFg2TVpHNWJqWXlPZHhqd3ZkQk13cjg1RnNGbGRNZUNSaEUzeFowYmxFejBHSkJJbW9oWVc4Vlc3Z05BVFVlMzZnT3RkVl9KVUVuVjA1ZFBMYTh0aEpUQTczeW53T2JjS19VbzJKQlZROW42d3EwTnNJbkdrM0ZtLUhDbEpMc0lDdXo4dXp0QXlXcmNxbjNObU50SmQwQnp4TFJETXNXemFCcFNPWlE?oc=5"
+      "titulo": "PT deve abandonar projetos pessoais, diz Edinho Silva",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQU1BfbkE1ZktwU2dIX29FNl96NllkaHItSzByN1FncWRnb3pnLWRKcWhuYjhwdjI4aThSX0NZcE5OMTRLY3lEb003dmFYdmx2R19TS0xNTndxYUlCUnptZWU4QW5lNWlsYi0zOHFwYWd5QWZNSG1JMklVSURaNnQ5X1hGcnRhMXRaMWkzbDBkTkFzazJCa1ByNnUxaHZFQUJ1endSZnhLX1cxQQ?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Eleição nos EUA pode aliviar pressão de Trump sobre o Brasil",
+      "fonte": "DW.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTWprbkpEendSVFhXc0JEcC1wVTFVeS1GT2dlQ25QdmpobF9GclFsTjJSc3BCdWlzZUQwNWl4X01QTnYtRVNScDdYeXROUnRyMGVlZWd2NTJSVFRLVGVtWm42bkhSZHhVZUlTV0JQamF3Z3JkVVBxYUpyTXdNaUpzcUpfeTVNUXA1ZmUxNF96RHVxdnBFR2IwVm83ZXhNNFdlVHpPMXMtcTBNRjFSWTFzR9IBsAFBVV95cUxPTWprbkpEendSVFhXc0JEcC1wVTFVeS1GT2dlQ25QdmpobF9GclFsTjJSc3BCdWlzZUQwNWl4X01QTnYtRVNScDdYeXROUnRyMGVlZWd2NTJSVFRLVGVtWm42bkhSZHhVZUlTV0JQamF3Z3JkVVBxYUpyTXdNaUpzcUpfeTVNUXA1ZmUxNF96RHVxdnBFR2IwVm83ZXhNNFdlVHpPMXMtcTBNRjFSWTFzRw?oc=5"
     },
     {
       "cat": "politica",
@@ -347,15 +353,15 @@
     },
     {
       "cat": "politica",
-      "titulo": "Lula condiciona criação do Ministério da Segurança à aprovação da PEC no Congresso, e orçamento da pasta ainda é dúvida",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQZS1CZVdvQmk5Wml1YXZNTmotbEV1aUNFUUVDMTZ3MUgyM05QTnVLeXRlS2dtTFNGRmRrV1JCMmVIRl95VVBYakpYT2FQMXhQRjBieXNuanNzMnJQNU5RcGREbXRqUnFUV0ZEQ0d0SlZfTDFMbE1yVlhsVjlGbGdhdml0eldER2JoOE1GV2pnRXlNam1wZ21lNldNTmZUcFZZbGpfQ21sQkE3ZkxzYlNtMVdwNTVKV2Q3bnQ2WE8tQks0VV9vM3BIMk1xMm91QVlZaC1jWG5OdGRHVy0xb0pXUWRKTkRuTHcyRnlQTFd4alBobGJadkZuWTIxRF9TZDZlNEs4d2QxRWLSAZcCQVVfeXFMT2RvV0dLWk5fSTJJRGFTY2VwZzlxVEtMZXJyVWRKQy16SWlYZFUwVmM3bUU1TldublZUaVFzeTJiNVJNN3FXQ2tGMi02dE9fMHBOdHFOUTB6Skd1Snpxd1lJN2NpNnN2Y3pXRWMtR2JtZjV2dGZIaHg3MjlxUklhQTZQUElrYU9DNGZaTFFwbDB3VGw3elJzY004MXk3SnZmR1IxZ2c5VGh6WG9iWFlGcEVMSmFTQXFRQmhIX3BFaHJ2MkVxTWhLWHEyVlBWTjZSbVhsczBROUtxa0hHOHFGcTA4TkNjbW54M2g3UVIySVVzWkNNczNrbll1MEN0eFdsczJQUXpkdnJleUdrcjNQUkh4b0lZaHRB?oc=5"
+      "titulo": "Jair Farias é eleito deputado federal com a segunda maior votação do Tocantins e recebe votos em 138",
+      "fonte": "Assembleia Legislativa do Estado do Tocantins",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUEhVS3c0RXg0eG92UnVIU0hkX3g4N1ZiX1BPeUwyZllUaDhsR3hwRmJzdjZfVEhJTS1fODBYQnhRMUZyMjBtV1V3YTg4NFJDRFFxcGQ5UGxGeDN0a0VLaUNvdHViM084TU42SjR4WWVSWUpxdVZMMnk2ZTFMdmoteTVoY3A4RkxWZHkzZzZNODdId0RlV2FlM1VpNnBnZUxxa2hUU3dwUXJNbGlwOXQwOWltdEdSNkFlY1Z6WkRlU0ZpT0FEZkx3VEphVmt4SUY0?oc=5"
     },
     {
-      "cat": "politica",
-      "titulo": "Eleitores dos Estados Unidos escolhem novo Congresso amanhã",
-      "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOaTJHQWU1RU4tQTZmVVdaQk9fVlJ2V01zSzFJMmZiT0tBSVFTU2pUQzZDSEhPbXdzNzhKRHRoeTlnWEJfOGFoRU1ycUFuZktqMFllMHZzRVFsZHVwYU9icnFDbTEtU1lkaUdHdklKSl9DLXBPXzBfMUVkbnFta1BtLWpyQkVGSGtvX2hOWEpJWFhuTGNsNGYwU0lvQ2NVSkxkWDlHRFUtLTVIU1A0WUFFMVpLS1YtSDZnb0FyRFZSVzI3WlBLYmVKZW90M21WSmJyekw3blg1WVl3QQ?oc=5"
+      "cat": "eleicoes",
+      "titulo": "Pós-eleição: deputados discutem fuga de Flávio Bolsonaro, ação contra chapa de Lula e ataques a indígenas",
+      "fonte": "Assembleia Legislativa do Estado de Pernambuco",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOS1JycmFNYWxiT1YzOVY2ZmNQNER2Q2pPREloTWpLZWhldEJCZHFaWHVBRnNra2J6ZXF4bWRSeVpwNHJWZWVnYXFkS25PMWNYQXRvZThsb0tBLXFKODE5aEwwQm82aTRmODMtaWpGSHFmeHhlaVltUEhWOXNCOVM5ck1uUEFPR1RMbmJuc1FhbjdxQXJDUkhveUJQZkpIeUlTZmFmV3JYanNYNjQ3MG9qY2FBcGt3UFJYYXdBWVNEOXlmM1doeTFsY1RPc0Z4SlYxYm1FYTVYZzdDUQ?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -365,15 +371,9 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "O único lugar do país onde Lula e Flávio Bolsonaro empataram no 2º turno",
-      "fonte": "VEJA",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOT3VBaUlFUGlORUVIZ1dtU3VzTHZmdUN5Z09KRVJTVElLckRkd19WRUxOYkVxcG04VzJIRWlLMms5Z1V5RGI1OFM0dFBiYjBvZW5DUkdQNHBMbHZUMDZsTC1iY18tOVJxbms2c0wxdDZDNGdRT2NFRjVLNWFUUmhDaDZ2UnktZXVvcnJuNDJRSGNOVUhrYjI1Q08xd3pSRmMtaDZGT2NwTTdGUWw1?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "TSE chega a 20 ações para investigar abusos na eleição presidencial",
-      "fonte": "Consultor Jurídico",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMUNEM1BjYnp3UlBsR1V0b05mbW9PbmRvSWFvWmxtcmZfdTFzc2JER0ZLeHJ0dmZoUlllNDA0bDdkSWc0Y0txeTVncHZmQlNjbkJEcWdkcTNManZiV2pYNlluVURncmk3b1NjUnR6M1c4ckJjaXF5QXdpVjB2LWNUdHhXQmxTd0lsSDJNRkFNdXFsdnBYS1dyR2dYdERFTGptT1JCag?oc=5"
+      "titulo": "Com aval de Lula, presidente do PT atua para expulsar grupo apelidado de 'centrão' do partido",
+      "fonte": "Folha de S.Paulo",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQeFl5eE91VHlhUWhQVTNrdVFSUWVjQjVkcm9MdjNvOXA3eVhJcGtmMzcxTUdreXlJZVNZb1ViT1IwR3U3a0owSVFtZ3M1V05VWXhVc0Y4MDVtemxwSmliNU16OW9CNV9WRE80RDJoS3lPbUdVOER3TzlwcFZHQzFZTC1KUE1aM2wwMmZKY1M4VFVNd3c0TENhNTBKTjlNQlZYUjhfalYtZXNlaE1GMjJ4WHN3elpqLWxKSUZSTVVGdEVybW9Gd2IyNkJZdWVtMl8yT0JDU3diYw?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-03T12:13:15-03:00",
+    "atualizadoEm": "2026-11-03T18:03:59-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
