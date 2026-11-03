@@ -165,10 +165,10 @@
       "pontos": 167921.8,
       "var": -0.75,
       "anterior": 169186.0,
-      "minimo": 167007.56,
-      "maximo": 169184.6,
-      "hora": "02/11 20h35",
-      "ts": 1793662531784
+      "minimo": 167921.8,
+      "maximo": 167921.8,
+      "hora": "03/11 03h53",
+      "ts": 1793688782679
     },
     "acoes": [
       {
@@ -244,17 +244,17 @@
         "sigla": "USD",
         "nome": "Dólar Americano",
         "valor": 5.4366,
-        "var": -0.06
+        "var": 0.0
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.0819,
-        "var": 0.25
+        "valor": 6.0815,
+        "var": -0.03
       }
     ],
-    "acoesTs": 1793662531784,
-    "moedasTs": 1793662531784,
+    "acoesTs": 1793688782679,
+    "moedasTs": 1793688782679,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,9 +305,15 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Parte do PT defende teto de juros proposto por André Lara Resende",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcmpDWjhDZlR3ZVZJc0NZa0c4YVowMmowa0k2WnNGQmk3dFAzNzlXTGxreElWX0JIblZWTkhJWWw3d0xaN1N6QkhUTUJsejhBdDBIYkFwRjA0MFNDTFhCTERBalFTdXBnR1VENjM3Ynowa3A0c0Q4MG1KQUw5eXVwWU11QzlvR1JXd2tsTlhrS0RIdXJOVm9zR2h6eENDb21VX1liMTBZTHVQQmdBckE?oc=5"
+      "titulo": "Economista ligado a Lula vê quadro fiscal menos dramático no Brasil e elogia proposta de Lara Resende",
+      "fonte": "Folha de S.Paulo",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQWTc4aThmR2tMSjdXVXVwN0pVTm9oeHRiTmh2VHF6Y1JZaUdlN2F6Y0VaY0J0VUF1alNjSVJMLU9vQzhNSC1xY21oRlhmUFBaT3RHTmQ5Z0J1VFVaejI0bTd1U2xnV1A5NE9oLV9iMFFhLUVtd3JqekJfYUVYcUpGN0l6N0xxZzZYWUhZMGhKYXBDcHNZeFdQanlfYVNQWktnU1NWcGs1S2VYYWhXcElOdEJPTG96ZHotcVFuam9QVHhYZ2RzazNRR2pBQlBZcWFvQXZMSER2VERSTlRIY1lTbnpKOFBEejhs?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Mercado Bitcoin bloqueia US$ 11,2 milhões de US$ 49 milhões envolvidos em ataque hacker",
+      "fonte": "Valor Econômico",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOVTRGQzk3NTl1ZGpLbURUSFdTWlFLcWNjRUVWYl9EcW9TcEtNeWtPbmlJYTJkUWJPS2Vzd1B1a0hzLXZpaTltVmM0VnA3ZjNtM2xPZlVFcVcyMUstN1FVelRpSGh2Y0hnM0M5X3hHRFNrb1ZVRXJRdEZVX043RXJfV09LLTMzUFJXbjlYOWpVa3h6a05kSUNpZzFRUE5fcEphV2Z2dFNpcXo3cjJ5THZwSlhjbTE4THFqR2xLWTdrM2trYTFvdzhyYTR3SWUxckI2a3hYTjVmTFJVTlhBbkU1Z3NSWGo5SmZqREtR0gH6AUFVX3lxTE41OU5yNG94Vm9ySU5vTkhkSUlPNGxIdjhpSmEyMmFwS1FjUE9uXzRGeWpGaHFxMWlfOWJBMzNjeEwtUktHUmpFVWpSREhXRWRMZ2JuU0pMcVZUVThab1NaUFgyVkNRblhkN3Q2M0tEWEdwUXVOZDh4RVlLOF9uMG91V2lYZE04MUh1ZFVrUlNsS2VoZzNQQmtWYTNWNC13c0V4bmdVUUJaRVM5ZEJXYmJERUcwTEtuTGxWYlFwNDZTdXpsMWNFaFNMWWNtb2pyOTB4M0lxbWwwZFZUcjZ5WW44ZzUtUW5NWUpRd3FBT0gxb1dnS3FRNzZYR2c?oc=5"
     },
     {
       "cat": "economia",
@@ -316,28 +322,28 @@
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTlgtLU9ERW9uQ1kzTUVGdkFiTFhsVU1TaVpFU29IcHAtYTVucUNVRXJsVVdnUUlSaHk1d3Rqa09SR2I0cFc0SUtJckdsZTlWTXZNMmpCNGlxbUNPeEdpQllUVHY2U2diN0pzTmZFS1pjYXFsUjRHQVl1eXhaRFVRR0YwTC1Ld1VISGJmQUFKNm0tczZNcVlxekNZNm0yT0RadVFGbFZscUjSAa4BQVVfeXFMTmJWTEhFd2hGN0N5VlZwSUtzVG5LODlRSE9ZU1FERlhLeDh1S1BfMS1ESm1sZkdpS3U2NnZ2RUstN19IbEJ3b2V0NWZRT3NSU3lEMGx5M1RpalpjWFprMmE4RENZbmZ6bnN1Tlgtc0V3NVY0MHllaGZBNmpVWDBmdFQ0dFdFR29UejBCaXBueF9na3NRMUtFMElfbG5GWUlXckdHVnlsUENhX0M4MDZB?oc=5"
     },
     {
-      "cat": "economia",
-      "titulo": "Aliados de Lula fazem ofensiva contra pressão do mercado financeiro às vésperas do Copom",
-      "fonte": "ICL Notícias",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTEhjaE5sd3FYa3U0VkhETEFhWDFiaGhVYkVZbWxmaFFpV3FxRjVXajF2UlRzTlRjREZBNVhSSDVwclBTSmNsT3lTNDN0bWNPc3FudWQ0NHhxVzk5WFd6alpGMzJRQzByT21RYXFBUVVOM0ZzcGtkWkl5SkVnMUI3UlNZbU5MdjNRWmJVYlFyaGVZM1ZmXzY5dlJxT0ZwMjR3MjRwODNpbWxSYXM3VW43ZjN0dndxc3BWZ0d2TjZ3QjZZOG8?oc=5"
+      "cat": "brasil",
+      "titulo": "Vorcaro aciona Comissão Interamericana de Direitos Humanos contra prisão",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWFhuZ1dsa0RkVG0tTl9GWDFQNF9tc0psMzk2a25icGN0Ulpyc2NGUWhiU216QzM2dnNXSFN0ODJyVVFJNjk1R3NaTUcteUNGY2o1em53SWhZbXZGMDdNVEUyUmJxUGYwZ3FIaG5RbVd5VkRGU1VWMTlZUHhia09GdDJsRjRKbmV0ZFFNQ2wtcVFWdWtFMWtSVGxnUnJVUHVfRTdZX09McHZmX1NoblFRSFVpMFNZdw?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Caso Master: Vorcaro aciona a Comissão Interamericana de Direitos Humanos e alega violações em prisão preventiva",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPdHhiR1JLZkFkM184YTIzQThxV3lTNzI3aEtMNG01Y0Fnb0gzSElwRzFZMTFrMXhWMkpNV3BvWkZmc19BUmZJcTBfX2Jsem5STllhbms2WXFEUy01Ri1nZkVLalB6dV9acTN2a3ZsdGhXMEdJVGJrVTBqOUdoSXlmWkJTZm5NQWNaSU1pM0Z3NU90Nkk4a3g5bDdkdEp2ZXFEQlRsOFNRdHRoejhBZXpTcFN4d1c2Y1pUSEN6dVEyVjJXMVpYZGh3aUhjNE1nU0FWblVFSjkyaFJlX0U3b0V5b1VtM21ZUmo3dFlsMzJZWUI3WXpDc0htdHNOQURQdVXSAY4CQVVfeXFMUFN4N01fTS1KRnRjQjhQaGdjaUx0THZhRzhpVTktSEloNmVzaUUxc01VYVh2azYwWmhzNmxxaUk0aWZUemJ2dElKOFVyRDN1X3JlX0Z3OThFelhJWEdQVVhja3NQc2M2ajZ5UGFQNWRYZTFVUVltYzR0bTJCY0N3RWd0aXUwclN1T3VTM0ZNOGNnWkp4YmNpcGR3OTM3Sl9fcndrYWJDUUNiMXlVbTAtRTNiYTdXT2IxNUM4a2tkTFFnUkFtcUxyc2QzV1l0c2xpZnUyalA2WDBYNU5zWHlNV296eUNHYkJ0N09sSUxNUWxNLTlSMWZXTlB5U0tQeXNZNGs4THBYS3lLam9KcTlR?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Duas pessoas morrem após queda de asa-delta em praia do Rio de Janeiro",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbjJaNGE3Vi1FR0dVdUlBdW9GZjZMeVBSa0M3b2Z6T1dUcEt3WkoxbzN3Ti05bl8zN1VuMFhUMmhUbXU1UlVDdXJRdVBXc2UyNUFzSnY4OXRoSUdXQi1Mc1puM0hOM3Z0QS1GWUhsRkZHRGVnR3ZHSGVlVElBQjlIVk9Fd3dkekdLbGVrSk9iVGtwaVNDWVNfeFdOcGpDbTc3R0RfalJtcWdNbTA0WExLMkFocUFVRzJ1SE4zbg?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Fuvest anula questão de matemática após identificar erro em coordenada geográfica",
+      "titulo": "Câmeras instaladas em asa-delta que caiu em São Conrado gravaram voo; polícia vai analisar",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxObVRSUFZQb2x6MWx2V2RweEpSem5qWVJDR2RlN1VrZ3cyMGwwcjFqYmcwUVBxeUh0ZkRjZWJJZF96R0xqejRjNjg5V0MtZ2xBUTc1M3BOLVlOTDdCaEhQa2YwMmFsTlk5NTNiV3pLU2ZPdzhQT1hucjU0UERXUzduT2lxWjBybXJGbDRRYUNCMXBDZTE1ckZOUjRZNkV1YWp6bW5mdUNicmU0eGlmM0c4U2dFNGlMUGhuMGRTU0pnR1pKQmhGUlN3NzlrMDFRdTRiTm1QYUVRUW1KTms3LUxyQ3JqQdIB8gFBVV95cUxQS0s1VmlOdC15V3hEaEZNZW9nckxLTFVCV2tsRVBTekh2X2hnazhkU0NVWC1GMER4ODNSUDRGaHZGWE1RUmtxbEdyenNjN0NiaUNVcV83MXhOcHJiV01JNlJkdGZrT2t5aFdmUk5YdUN2Z29vcTVtZUpuRmtQeU9VUjJXUUhBR2JvYU5GVmRqU3JIRFBCZ1N4dWdBSmZQXzZXWkE0QmlEYm5zajRvODhsSU8wVEEwWFR2SGpiWUlxdEtvd2Y0a253VWgtU3A4TncwTENJa2VObVNnRms5cjdLYXpvUXBwN3pQTWwwWmYydkJsdw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOZXRxbi05czdhODl3bGdPOUdHZWxhRDdOQkpBN0laQnNDUFBtcF82T0ltcEhTbFZQWHVSM3oxT0x6eDd3a3BJLVBFWXBtSG14TVFXcGQxZHVBVF9tWTNQMG9pWlVlZkZqTjZ1NGVhSXV5Q0puQjRmVzhRR1V6SWNzdU5VUDBsUklHaEloSFZZd3ltdlpkMUEtX3RfZlR1UVpkZFNaV3NVY3VseDcyMlowRHFaUFQ5Zm1ENGgyWVJuSzlTMkVRN1pYVGxFcUwzVEhaRnNHZTJMaEszcDFtU3gybkFIOGJNVGZj0gH3AUFVX3lxTFAtUXlELVA4NUMxREtGbHpNWC1Oc2x6Z3oydXliQ21xN3otME90Z0hiY0FJVDhTZGFUOWtnNHhqc2d4UkJkdnNlZEowOEFVd0RONWtrU0tSSktOOHQ5cXBISXZEYlN2ZDFGTnZfdzhGMlBkU0doT215SUdSb0xLQXVZT21TYjd5Z1hWZ1JKX2ZjeWM5TkVWNlVZNzh3ZFpnU2lhWHdESnJ2U2xZcko5aUUyak9Lc1hrVU1vRE43cmQxWkZfVkM1SDU2TTV3Z29XNERNaVVTdzlNTTVZRVRGeVZZZFVDc0h4MFlFT1lqOGp3dV92T090WTQ?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Flávio Bolsonaro recorre contra apreensão de passaportes; defesa pede que Moraes seja declarado impedido em investigação",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQT1YxUU9mR1FHeXV5QmFBUWlGVVA5ZkhNRUowWng0bzc2NVBCdVlRUU42WTN4eXZDU2tzV2pIb21kVzlYYkVHSGtueUxSUGJiUW1GZWRPQ0ZvX1NKaTBFcVltdVgwQXQ3TF8teW0xRWs1QzcwOTBSWVp3el9MS0JVbGZHdWhweGV4Z3IyZllHbm1jQU5GbG1WNHFLWVFzMjNVbHdOVHJCdFRFc29aX1p0RHRieEpNYkR2VTZid0xheHJZbi02SnFTT3FmbEpReVd2ZlE1Z05yRWJXYjVVSm5LcXNQVW1tSllFZjBGd2JLUjJkeVJueS00MWo1MjMteTNrai1DNDNhYlBVbzBnNHfSAZwCQVVfeXFMTW54NHB6MDRWMTI4Wk1EWXlyQ3lBNXdNRmV6aUFHbnV1LURDaTdHd25tSG0zRnAtS19TWWxGY1ViRTI4RXJXLVJJX2VTUjByYTlaR1BDcWVmMUdsUnpWdWdXbVZ4RGdnblU2UXVzTVRkYzZxakpjRzgzb0lqNWtSTUdTalE2M0stRXFnMzJmbE9mbEI5YVFmX1J5QzVPbXVSa0lwUUUyWEZwM196N2daSWNYc2dmQVhRTGRlLTNNRkdLQ19nT3hfRVlzd0c4R0pKRGpQR0dnSmF2akpNeTJuRW83czQ4TU9PejJGazNOUkpYbE1NYngtSlRxZVBHM2VjMDk0RGhuV0FYSVM3VTI3dmZHUWNrbnAtVlZZRkU?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Lula condiciona criação do Ministério da Segurança à aprovação da PEC no Congresso, e orçamento da pasta ainda é dúvida",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQZS1CZVdvQmk5Wml1YXZNTmotbEV1aUNFUUVDMTZ3MUgyM05QTnVLeXRlS2dtTFNGRmRrV1JCMmVIRl95VVBYakpYT2FQMXhQRjBieXNuanNzMnJQNU5RcGREbXRqUnFUV0ZEQ0d0SlZfTDFMbE1yVlhsVjlGbGdhdml0eldER2JoOE1GV2pnRXlNam1wZ21lNldNTmZUcFZZbGpfQ21sQkE3ZkxzYlNtMVdwNTVKV2Q3bnQ2WE8tQks0VV9vM3BIMk1xMm91QVlZaC1jWG5OdGRHVy0xb0pXUWRKTkRuTHcyRnlQTFd4alBobGJadkZuWTIxRF9TZDZlNEs4d2QxRWLSAZcCQVVfeXFMT2RvV0dLWk5fSTJJRGFTY2VwZzlxVEtMZXJyVWRKQy16SWlYZFUwVmM3bUU1TldublZUaVFzeTJiNVJNN3FXQ2tGMi02dE9fMHBOdHFOUTB6Skd1Snpxd1lJN2NpNnN2Y3pXRWMtR2JtZjV2dGZIaHg3MjlxUklhQTZQUElrYU9DNGZaTFFwbDB3VGw3elJzY004MXk3SnZmR1IxZ2c5VGh6WG9iWFlGcEVMSmFTQXFRQmhIX3BFaHJ2MkVxTWhLWHEyVlBWTjZSbVhsczBROUtxa0hHOHFGcTA4TkNjbW54M2g3UVIySVVzWkNNczNrbll1MEN0eFdsczJQUXpkdnJleUdrcjNQUkh4b0lZaHRB?oc=5"
     },
     {
       "cat": "politica",
@@ -352,10 +358,10 @@
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdnBodXVXZ1Z2UThicjNaNUNsbTBudUt6SXJYQjZuUzB6SEZoM2dNTmdOVFRKaWstRnBMOXVVUDgyYTE4TkNZNkhJZXE4SGNwSWtkUmh1RlZIU1VveHFTU0NieFJ1c3hJTnpORHJmbllUb21jR1VWMkloSklpemY2cEFjcmd6WF9WQU1Id3RueGlZNXZrQXc0MUpR?oc=5"
     },
     {
-      "cat": "politica",
-      "titulo": "Além de Flávio Bolsonaro, 6 senadores derrotados deixarão Congresso com ações e inquéritos no STF",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNi01MnUwazRPTDV6ZXNiVF83V052ai05X3ByeXVXU3FQb0ZNcDliNW9lTUN3c3cxb3BGaUZQQk1LVjlUSkY0M2VnY3FnUUZBeFJ4TUhqRl9LYmlIOXl2QVNZeW1Rb2FMREdOYzdWZjVJMFktbDR2NmVSMFJkMWM3aVFnS2Z2R3lZSzRsdFV1b2xLT3pZSlpUbHZxcHROWEJlazAxSU5qemZNNTZEU3Q0eVdCalZWWEc1X1g5TGpIR0xBUTZiRG0yaXViZEswZ9IB0wFBVV95cUxOVG1MNkxZcEYycVhlQkJjUUJkM0NiM3ROMU9hM2ZhZUx1THhGQmo5ZGYxUnprM0V5dTF1RkpUM0Jld29ja0FvenFHc3ZFRmplai0xaWdnUWZjNWxsNl9ZNGhIRXlDbEFzeHFiWG5vb2FsNFB6V0pJTzdNd1FQd1dib0JJQmNYVU92TlBrNlNSSDlaNXkyc0VJY3R2RHFMVV9KOWtRbVZfdmxFZzQ3UENtNnlKM0h0MVlERHRoTUNCZm5wQUpvd1dKWWpvbl82MnNJLTkw?oc=5"
+      "cat": "eleicoes",
+      "titulo": "Democratas podem agir contra Flávio Bolsonaro nos EUA? Entenda o que está em jogo nas eleições desta terça",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQcWl3Q0xZWUE2M2ZDV18zSGNlRDl5RUh3bi1yT1lUZFhpMklfdkpPclh2anRaUDVlQkx4YXRNU082bEdJXzlvbmdmOC1xMFh5UFRKM2V3WUxldW1nbGR1Zm5xaWRRdEE3M0FWa1VSNDJ1YlBaMnF3d0RGYUdTaEFEUnk3RUsxZElYWVdwMlB2cDVqMWt6clZLVFZBTXBkaVZCaDJzdEtvcHdlSHctOGlsS0pZQS1tbURBcWF4MWVNZ3l3OXlwQXpldWxyZS1HQnF4Yk54LS1NZkNfeG1hTGtlcEdQa055UkJtS1A2ZWtB0gH8AUFVX3lxTE94cEV6YVZTUlZYcWR4YWEySUh1RzZoMmROclA0S2oteDBpaU9MWDFVZFlBUUFuMnlKS1loLWNxQjlWZnNNZEk2RjdyX1c4TGNXMDhSZGdhNlZiRU5LOVNhWlhhRnpuNGxTRFpVd2t6eWk4R1dSSkp1bEh3WXNOaHBDTGs2N1hUS215eExNMG1nNUVuTnZpR1VsU3BFaGk1R0xweWoyQU9ycXZEYmtKdVlFV2cycXE4VnJYdThrLUdud0RhanhBd0Y3dGZMdHZyVEFGWVFzbDVWQnpfdS1nWGEwT1h2UjdxWVVlNlY2R1RFOWhaWndxd085Mi1Mcg?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -365,15 +371,9 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "Ex-agente do governo israelense ajudou Flávio Bolsonaro a fugir para os EUA, indica investigação",
+      "titulo": "Esposa acompanha Flávio nos EUA após ser peça-chave para vender moderação nas eleições",
       "fonte": "Folha de S.Paulo",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPb2d1VlpvV0xHYmhiSHRQMlFaMjZjRDVjNkZldXQ1aXBiSFVjNDNwUEYzRTl1TXIzRjNVa1ZqN1RkQnJSai1EOXliYjlxQ3A4eFBNQVhkMjFMOFpOX21iZGt5RVJ3a3padm41WkRrVHpBTjJDVWxZR2FNVkhkUDBfeTZ3Rll5c2RyLUk0U3FqNWdrRXdHbE9jaWM3YjA4RGFjYjFscG0yTjk3bVBmVERFRlY3YXI2ekRvOWZGY2pWWElMTGs3NlNFeTlLNnJ3alBETHhsaml3?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "OPINIÃO | Resultado da disputa presidencial ressalta dois pontos interessantes. Neste ano tivemos uma eleição de negativas. No dia 4, não à continuidade do governo Lula; no dia 25, não à entrega do poder ao bolsonarismo. E este segundo não, que result",
-      "fonte": "Instagram",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBuMk1sM0hiSEZScFhUOG1JaFRXMGJseVR1YnJ4QnR6dEVjQVdaWF94c3p1MEMwWEdlbTlybXhDeDM4ekdHbmoySy1qbzJsQ0lHRHc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQMWJrTnZsa29heTJVSjZseGJzMWZ4MUlXY2o2STc1RkRnWWhYLUh3V0JnU3N1UndLcjFOYU91Qkhpc2VuQnFEVlZBWmFQSVpBZGx4amIyejVrSHFCcDVnRUlNckQ1NWNRS2xzNGI5Vzh6ZjVRdjVlWktqYS1FNFlGVkVTUnpTaGZXdzYxenF2QWV5N3hwSGVEaTA4SXE2NjdsOXN6d0tNLXFuQ09RYjlWaFFUWEtQX0lvbDZqNk9UQUFsUmIxbXhGQ3J3UDEtOEpvX0E?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-02T20:35:34-03:00",
+    "atualizadoEm": "2026-11-03T03:53:04-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
