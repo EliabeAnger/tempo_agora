@@ -162,54 +162,54 @@
   },
   "mercado": {
     "ibov": {
-      "pontos": 167921.8,
-      "var": -0.75,
-      "anterior": 169186.0,
-      "minimo": 167921.8,
-      "maximo": 167921.8,
-      "hora": "03/11 03h53",
-      "ts": 1793688782679
+      "pontos": 164985.34,
+      "var": -1.75,
+      "anterior": 167921.8,
+      "minimo": 164446.53,
+      "maximo": 168005.45,
+      "hora": "03/11 12h13",
+      "ts": 1793718791048
     },
     "acoes": [
       {
         "ticker": "PETR4",
-        "preco": 52.71,
-        "var": 0.98
+        "preco": 50.46,
+        "var": -4.27
       },
       {
         "ticker": "VALE3",
-        "preco": 62.02,
-        "var": 3.28
+        "preco": 61.13,
+        "var": -1.44
       },
       {
         "ticker": "ITUB4",
-        "preco": 38.69,
-        "var": -2.15
+        "preco": 38.38,
+        "var": -0.76
       },
       {
         "ticker": "BBDC4",
-        "preco": 13.86,
-        "var": -2.12
+        "preco": 13.56,
+        "var": -2.16
       },
       {
         "ticker": "BBAS3",
-        "preco": 16.47,
-        "var": 0.06
+        "preco": 16.16,
+        "var": -1.88
       },
       {
         "ticker": "WEGE3",
-        "preco": 48.36,
-        "var": -1.87
+        "preco": 48.27,
+        "var": -0.19
       },
       {
         "ticker": "SUZB3",
-        "preco": 50.14,
-        "var": 0.84
+        "preco": 50.98,
+        "var": 1.68
       },
       {
         "ticker": "B3SA3",
-        "preco": 13.43,
-        "var": -5.42
+        "preco": 13.34,
+        "var": -0.67
       }
     ],
     "juros": [
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.4366,
-        "var": 0.0
+        "valor": 5.489,
+        "var": 0.96
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.0815,
-        "var": -0.03
+        "valor": 6.1441,
+        "var": 1.0
       }
     ],
-    "acoesTs": 1793688782679,
-    "moedasTs": 1793688782679,
+    "acoesTs": 1793718791048,
+    "moedasTs": 1793718791048,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,39 +305,45 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Economista ligado a Lula vê quadro fiscal menos dramático no Brasil e elogia proposta de Lara Resende",
-      "fonte": "Folha de S.Paulo",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQWTc4aThmR2tMSjdXVXVwN0pVTm9oeHRiTmh2VHF6Y1JZaUdlN2F6Y0VaY0J0VUF1alNjSVJMLU9vQzhNSC1xY21oRlhmUFBaT3RHTmQ5Z0J1VFVaejI0bTd1U2xnV1A5NE9oLV9iMFFhLUVtd3JqekJfYUVYcUpGN0l6N0xxZzZYWUhZMGhKYXBDcHNZeFdQanlfYVNQWktnU1NWcGs1S2VYYWhXcElOdEJPTG96ZHotcVFuam9QVHhYZ2RzazNRR2pBQlBZcWFvQXZMSER2VERSTlRIY1lTbnpKOFBEejhs?oc=5"
+      "titulo": "Corte de 0,25 ponto ou manutenção da Selic? Mercado se divide sobre projeção para decisão do Copom",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZk5LSDlEUndtVjZLZDlLVVlvSE95ZlBLdklRWW03dGNDRVk2NTJfTlgzMXp3cVpVeDZ2NEdmSGlVaEV3SVdHcE41Q1ZCWW11VVRrSEpkcnQ3NjFRQ3lEcWRXQmRKakY4NnkwR1FQaTNoaTFKM3NrRENLd1ZFUXNsak1kU0ZhWDVlNHfSAY8BQVVfeXFMUDZrV2t4Vk9EYlRDWF9vaWtoOWVvc0E0R1pTSmFaSnFJWGhWWkJ4V25CRkZobmVZaTZtanMxY1d0N0FuUmh2dkc0cmxPak1ndHRoX1hOWGlBanExSWJJaFcwQlp5NENRWXEwNFVVeTZEaHFXRWV4cTlsUWJsWlhUeTVhenBNNUZYMG1IQnBPVWM?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Mercado Bitcoin bloqueia US$ 11,2 milhões de US$ 49 milhões envolvidos em ataque hacker",
+      "titulo": "Focus: Mercado eleva expectativa e vê juros em 13,50% em 2026",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOX1VXRGx4RHBzVW5pZlhEUldtZGEwelJ1NVZnaUlUdWZ5OGpUMTR6YVhIQzZ4SXRfbkdHM0VLQWtfSkJKSWZwdW9DMlNMQTYyZE9ORTNvZkgwOFNSNDFZWUdPLXF1aEVCWVhSSFBRdlJQcE96dlBwTy1mMDdFYWFDY1FFLXVKVTlZZjdUOTY5YnA3YXktRGlmM1ZoTlBfcWdPNWNJcHlBT0Y5TjR1TUJpVmkycFBlSVlG?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Cenário cheio de incertezas marca ‘virada de chave’ da reforma tributária",
       "fonte": "Valor Econômico",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOVTRGQzk3NTl1ZGpLbURUSFdTWlFLcWNjRUVWYl9EcW9TcEtNeWtPbmlJYTJkUWJPS2Vzd1B1a0hzLXZpaTltVmM0VnA3ZjNtM2xPZlVFcVcyMUstN1FVelRpSGh2Y0hnM0M5X3hHRFNrb1ZVRXJRdEZVX043RXJfV09LLTMzUFJXbjlYOWpVa3h6a05kSUNpZzFRUE5fcEphV2Z2dFNpcXo3cjJ5THZwSlhjbTE4THFqR2xLWTdrM2trYTFvdzhyYTR3SWUxckI2a3hYTjVmTFJVTlhBbkU1Z3NSWGo5SmZqREtR0gH6AUFVX3lxTE41OU5yNG94Vm9ySU5vTkhkSUlPNGxIdjhpSmEyMmFwS1FjUE9uXzRGeWpGaHFxMWlfOWJBMzNjeEwtUktHUmpFVWpSREhXRWRMZ2JuU0pMcVZUVThab1NaUFgyVkNRblhkN3Q2M0tEWEdwUXVOZDh4RVlLOF9uMG91V2lYZE04MUh1ZFVrUlNsS2VoZzNQQmtWYTNWNC13c0V4bmdVUUJaRVM5ZEJXYmJERUcwTEtuTGxWYlFwNDZTdXpsMWNFaFNMWWNtb2pyOTB4M0lxbWwwZFZUcjZ5WW44ZzUtUW5NWUpRd3FBT0gxb1dnS3FRNzZYR2c?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Petróleo cai mais de 7% enquanto Irã sinaliza abertura para negociações de paz",
-      "fonte": "InfoMoney",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTlgtLU9ERW9uQ1kzTUVGdkFiTFhsVU1TaVpFU29IcHAtYTVucUNVRXJsVVdnUUlSaHk1d3Rqa09SR2I0cFc0SUtJckdsZTlWTXZNMmpCNGlxbUNPeEdpQllUVHY2U2diN0pzTmZFS1pjYXFsUjRHQVl1eXhaRFVRR0YwTC1Ld1VISGJmQUFKNm0tczZNcVlxekNZNm0yT0RadVFGbFZscUjSAa4BQVVfeXFMTmJWTEhFd2hGN0N5VlZwSUtzVG5LODlRSE9ZU1FERlhLeDh1S1BfMS1ESm1sZkdpS3U2NnZ2RUstN19IbEJ3b2V0NWZRT3NSU3lEMGx5M1RpalpjWFprMmE4RENZbmZ6bnN1Tlgtc0V3NVY0MHllaGZBNmpVWDBmdFQ0dFdFR29UejBCaXBueF9na3NRMUtFMElfbG5GWUlXckdHVnlsUENhX0M4MDZB?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRlRTTHpUbjdoRWdPUEFCcV9sMGRtMGtCYkhtaGppSU4yMzBPdnRqcXRNaHRoVWpDbWU0eWNnS1dIS3pWZlktSERocmdDMHpmQl9UZnUxLVllMFBzb2kwMGFqLXRSa1VOZ0hXOXVTbGVRTXlxZlRVa29GOGN0RUhnNExkM0RGV3ppNnlwcmJ5Vkk1azZOMW8tdFRZTkpBNmh0TzFQU0VPMGNpNjFkc2QxVU9EZVEtbjhGSVUzMEFvdW96dmRfRXfSAdQBQVVfeXFMT1RRV2ROTldjT1o3VExVTXJvenUyQVIwdTdGNVVsR1RJT05TMWcxZTJPbVp4MEhGYmhNU2xYbV9CczU3U0syMmFRZ2NHSW1QUVpKbVRDbmxMMlU0Vjk2LVloZ2FYTnN4MU5YUUNTNFZvTThPUnJmWlpwakFWa1VSbWVxRUx2b3E5X29wcmxmSFZQclI0eFdkYVU0dkczN2taMW9mU2VfcjJBOENWSmc2QXhFNk9WWjJLSDJ5dlpwSDM2NUZ3dnhVVUxaeWpQTTlwdGtUVkk?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Vorcaro aciona Comissão Interamericana de Direitos Humanos contra prisão",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWFhuZ1dsa0RkVG0tTl9GWDFQNF9tc0psMzk2a25icGN0Ulpyc2NGUWhiU216QzM2dnNXSFN0ODJyVVFJNjk1R3NaTUcteUNGY2o1em53SWhZbXZGMDdNVEUyUmJxUGYwZ3FIaG5RbVd5VkRGU1VWMTlZUHhia09GdDJsRjRKbmV0ZFFNQ2wtcVFWdWtFMWtSVGxnUnJVUHVfRTdZX09McHZmX1NoblFRSFVpMFNZdw?oc=5"
+      "titulo": "Planalto aposta na aprovação da PEC da Segurança, mas redução da maioridade penal sobe no telhado",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOem1aLUlxb0JNTDZndDdDNVdrRVpFMlF3eFpsclBGbUczZXh1d3FJWmdudG15WUJaUnZ3cVRBQlhJb0RZeWM3bFlnazlFZU02RnZtWDlTSEZ1Z1hHOXhia2ZFTHYzTjRZMUxscW1BX1REeHFER3FEMC03VHBJRV9fdmFMV2V2bVptcEROVWtuYXUwamRzRlNSY1F3UjFCdmUyNndSTnZQNVk0QlhMc2R5aDdENHNHVHRGVFlIdjNSVWZGdVFtV01TeXdseVUwZkFsWWI0Q0hR?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Câmeras instaladas em asa-delta que caiu em São Conrado gravaram voo; polícia vai analisar",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOZXRxbi05czdhODl3bGdPOUdHZWxhRDdOQkpBN0laQnNDUFBtcF82T0ltcEhTbFZQWHVSM3oxT0x6eDd3a3BJLVBFWXBtSG14TVFXcGQxZHVBVF9tWTNQMG9pWlVlZkZqTjZ1NGVhSXV5Q0puQjRmVzhRR1V6SWNzdU5VUDBsUklHaEloSFZZd3ltdlpkMUEtX3RfZlR1UVpkZFNaV3NVY3VseDcyMlowRHFaUFQ5Zm1ENGgyWVJuSzlTMkVRN1pYVGxFcUwzVEhaRnNHZTJMaEszcDFtU3gybkFIOGJNVGZj0gH3AUFVX3lxTFAtUXlELVA4NUMxREtGbHpNWC1Oc2x6Z3oydXliQ21xN3otME90Z0hiY0FJVDhTZGFUOWtnNHhqc2d4UkJkdnNlZEowOEFVd0RONWtrU0tSSktOOHQ5cXBISXZEYlN2ZDFGTnZfdzhGMlBkU0doT215SUdSb0xLQXVZT21TYjd5Z1hWZ1JKX2ZjeWM5TkVWNlVZNzh3ZFpnU2lhWHdESnJ2U2xZcko5aUUyak9Lc1hrVU1vRE43cmQxWkZfVkM1SDU2TTV3Z29XNERNaVVTdzlNTTVZRVRGeVZZZFVDc0h4MFlFT1lqOGp3dV92T090WTQ?oc=5"
+      "titulo": "AO VIVO: STF debate proibição das bets em audiência pública",
+      "fonte": "Migalhas",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOY25GNnVxckxKZGhJYTVubTQwUjNQeXpUUm5xb1Voel9IcFpvcmcxTWVYZUhnYmxIbDdWTHJCbGEyb3RaRHBkd1ZhWHQ5N1FKNGExRFF4T1Y2YnlmR2dGd3VMQ3h3bHhXV2MtU0IyZnE0ZXVOb3hFLUZwcVMtVG9UVjFTX1haWXJkTjVVSDN5VXBNTWk4V19STDdKTzRCZDVWUjNV?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Flávio Bolsonaro recorre contra apreensão de passaportes; defesa pede que Moraes seja declarado impedido em investigação",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQT1YxUU9mR1FHeXV5QmFBUWlGVVA5ZkhNRUowWng0bzc2NVBCdVlRUU42WTN4eXZDU2tzV2pIb21kVzlYYkVHSGtueUxSUGJiUW1GZWRPQ0ZvX1NKaTBFcVltdVgwQXQ3TF8teW0xRWs1QzcwOTBSWVp3el9MS0JVbGZHdWhweGV4Z3IyZllHbm1jQU5GbG1WNHFLWVFzMjNVbHdOVHJCdFRFc29aX1p0RHRieEpNYkR2VTZid0xheHJZbi02SnFTT3FmbEpReVd2ZlE1Z05yRWJXYjVVSm5LcXNQVW1tSllFZjBGd2JLUjJkeVJueS00MWo1MjMteTNrai1DNDNhYlBVbzBnNHfSAZwCQVVfeXFMTW54NHB6MDRWMTI4Wk1EWXlyQ3lBNXdNRmV6aUFHbnV1LURDaTdHd25tSG0zRnAtS19TWWxGY1ViRTI4RXJXLVJJX2VTUjByYTlaR1BDcWVmMUdsUnpWdWdXbVZ4RGdnblU2UXVzTVRkYzZxakpjRzgzb0lqNWtSTUdTalE2M0stRXFnMzJmbE9mbEI5YVFmX1J5QzVPbXVSa0lwUUUyWEZwM196N2daSWNYc2dmQVhRTGRlLTNNRkdLQ19nT3hfRVlzd0c4R0pKRGpQR0dnSmF2akpNeTJuRW83czQ4TU9PejJGazNOUkpYbE1NYngtSlRxZVBHM2VjMDk0RGhuV0FYSVM3VTI3dmZHUWNrbnAtVlZZRkU?oc=5"
+      "titulo": "Artur Rodrigues: Nova falha no Smart Sampa permite acesso a 17 mil câmeras conveniadas",
+      "fonte": "UOL Notícias",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYzJ2eUxKb1BxLXhPNktCUE9LUElpa1E0ektSbHhWc3ViVy1hdFg2TVpHNWJqWXlPZHhqd3ZkQk13cjg1RnNGbGRNZUNSaEUzeFowYmxFejBHSkJJbW9oWVc4Vlc3Z05BVFVlMzZnT3RkVl9KVUVuVjA1ZFBMYTh0aEpUQTczeW53T2JjS19VbzJKQlZROW42d3EwTnNJbkdrM0ZtLUhDbEpMc0lDdXo4dXp0QXlXcmNxbjNObU50SmQwQnp4TFJETXNXemFCcFNPWlE?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "PF apreendeu envelope com Vorcaro escrito “Congresso” durante operação",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQejdST1VDeGkwXzY0NHVFQzFZTDE2MHRHaWlnSUdVYTRfbHFoaWlTZ3lDZXRCNVh5QXhJZ3I2SEFreGJmblhHSXloY05XX3VTdzl5UEZkVEF3X2RBcHQ3M1RmX0hkRkVuRXpRaEdWLXNONnlISmQ1ajFNakxWWlpxM1N2Q2dmbFVEQ2VFV0RFX3NKR2xXVEhmMDlhUEYxMU9Jak5XczMtT0U4Ujg?oc=5"
     },
     {
       "cat": "politica",
@@ -352,16 +358,10 @@
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOaTJHQWU1RU4tQTZmVVdaQk9fVlJ2V01zSzFJMmZiT0tBSVFTU2pUQzZDSEhPbXdzNzhKRHRoeTlnWEJfOGFoRU1ycUFuZktqMFllMHZzRVFsZHVwYU9icnFDbTEtU1lkaUdHdklKSl9DLXBPXzBfMUVkbnFta1BtLWpyQkVGSGtvX2hOWEpJWFhuTGNsNGYwU0lvQ2NVSkxkWDlHRFUtLTVIU1A0WUFFMVpLS1YtSDZnb0FyRFZSVzI3WlBLYmVKZW90M21WSmJyekw3blg1WVl3QQ?oc=5"
     },
     {
-      "cat": "politica",
-      "titulo": "STF pode reduzir prisão de Bolsonaro a 2 anos e 4 meses",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdnBodXVXZ1Z2UThicjNaNUNsbTBudUt6SXJYQjZuUzB6SEZoM2dNTmdOVFRKaWstRnBMOXVVUDgyYTE4TkNZNkhJZXE4SGNwSWtkUmh1RlZIU1VveHFTU0NieFJ1c3hJTnpORHJmbllUb21jR1VWMkloSklpemY2cEFjcmd6WF9WQU1Id3RueGlZNXZrQXc0MUpR?oc=5"
-    },
-    {
       "cat": "eleicoes",
-      "titulo": "Democratas podem agir contra Flávio Bolsonaro nos EUA? Entenda o que está em jogo nas eleições desta terça",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQcWl3Q0xZWUE2M2ZDV18zSGNlRDl5RUh3bi1yT1lUZFhpMklfdkpPclh2anRaUDVlQkx4YXRNU082bEdJXzlvbmdmOC1xMFh5UFRKM2V3WUxldW1nbGR1Zm5xaWRRdEE3M0FWa1VSNDJ1YlBaMnF3d0RGYUdTaEFEUnk3RUsxZElYWVdwMlB2cDVqMWt6clZLVFZBTXBkaVZCaDJzdEtvcHdlSHctOGlsS0pZQS1tbURBcWF4MWVNZ3l3OXlwQXpldWxyZS1HQnF4Yk54LS1NZkNfeG1hTGtlcEdQa055UkJtS1A2ZWtB0gH8AUFVX3lxTE94cEV6YVZTUlZYcWR4YWEySUh1RzZoMmROclA0S2oteDBpaU9MWDFVZFlBUUFuMnlKS1loLWNxQjlWZnNNZEk2RjdyX1c4TGNXMDhSZGdhNlZiRU5LOVNhWlhhRnpuNGxTRFpVd2t6eWk4R1dSSkp1bEh3WXNOaHBDTGs2N1hUS215eExNMG1nNUVuTnZpR1VsU3BFaGk1R0xweWoyQU9ycXZEYmtKdVlFV2cycXE4VnJYdThrLUdud0RhanhBd0Y3dGZMdHZyVEFGWVFzbDVWQnpfdS1nWGEwT1h2UjdxWVVlNlY2R1RFOWhaWndxd085Mi1Mcg?oc=5"
+      "titulo": "Governo Lula espera eleições de meio de mandato para recalibrar relação com Trump",
+      "fonte": "JOTA Info",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYkkzcm1jN3lYaW9QbThtY3lUakxtazA2REVlbi1fdkRMYkJ0TnMxeDFreDYzZTVOOEtoZGd4eUZQTFNjNXhDTnFPLTl3UGxfeXQ4RkFDM25rMmk1ZHk4djZCTm52TjdjWUdZenc3V3dmR1FsakV4Q3A2ZWFFRmF1S05hRU54SmctRXAzaGpQNVpoeW5zME1TcHNBaVBLR1F0RzRRVm9zODhoQ3lvWG9DQWF4Zw?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -371,9 +371,9 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "Esposa acompanha Flávio nos EUA após ser peça-chave para vender moderação nas eleições",
-      "fonte": "Folha de S.Paulo",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQMWJrTnZsa29heTJVSjZseGJzMWZ4MUlXY2o2STc1RkRnWWhYLUh3V0JnU3N1UndLcjFOYU91Qkhpc2VuQnFEVlZBWmFQSVpBZGx4amIyejVrSHFCcDVnRUlNckQ1NWNRS2xzNGI5Vzh6ZjVRdjVlWktqYS1FNFlGVkVTUnpTaGZXdzYxenF2QWV5N3hwSGVEaTA4SXE2NjdsOXN6d0tNLXFuQ09RYjlWaFFUWEtQX0lvbDZqNk9UQUFsUmIxbXhGQ3J3UDEtOEpvX0E?oc=5"
+      "titulo": "TSE chega a 20 ações para investigar abusos na eleição presidencial",
+      "fonte": "Consultor Jurídico",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMUNEM1BjYnp3UlBsR1V0b05mbW9PbmRvSWFvWmxtcmZfdTFzc2JER0ZLeHJ0dmZoUlllNDA0bDdkSWc0Y0txeTVncHZmQlNjbkJEcWdkcTNManZiV2pYNlluVURncmk3b1NjUnR6M1c4ckJjaXF5QXdpVjB2LWNUdHhXQmxTd0lsSDJNRkFNdXFsdnBYS1dyR2dYdERFTGptT1JCag?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-03T03:53:04-03:00",
+    "atualizadoEm": "2026-11-03T12:13:15-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
