@@ -162,44 +162,44 @@
   },
   "mercado": {
     "ibov": {
-      "pontos": 167833.69,
-      "var": 1.39,
+      "pontos": 167563.47,
+      "var": 1.23,
       "anterior": 165528.92,
       "minimo": 165541.38,
       "maximo": 167986.38,
-      "hora": "04/11 15h00",
-      "ts": 1793815214541
+      "hora": "04/11 20h43",
+      "ts": 1793835799554
     },
     "acoes": [
       {
         "ticker": "PETR4",
-        "preco": 47.63,
-        "var": -6.07
+        "preco": 47.12,
+        "var": -7.08
       },
       {
         "ticker": "VALE3",
-        "preco": 62.75,
-        "var": 4.15
+        "preco": 62.35,
+        "var": 3.49
       },
       {
         "ticker": "ITUB4",
-        "preco": 39.73,
-        "var": 3.22
+        "preco": 39.71,
+        "var": 3.17
       },
       {
         "ticker": "BBDC4",
-        "preco": 14.07,
-        "var": 3.73
+        "preco": 14.06,
+        "var": 3.65
       },
       {
         "ticker": "BBAS3",
-        "preco": 16.54,
-        "var": 2.16
+        "preco": 16.49,
+        "var": 1.85
       },
       {
         "ticker": "WEGE3",
-        "preco": 50.3,
-        "var": 2.3
+        "preco": 50.05,
+        "var": 1.79
       },
       {
         "ticker": "SUZB3",
@@ -208,8 +208,8 @@
       },
       {
         "ticker": "B3SA3",
-        "preco": 14.29,
-        "var": 5.0
+        "preco": 14.3,
+        "var": 5.07
       }
     ],
     "juros": [
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.4621,
-        "var": -0.48
+        "valor": 5.4551,
+        "var": -0.6
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.1364,
-        "var": -0.18
+        "valor": 6.1351,
+        "var": -0.2
       }
     ],
-    "acoesTs": 1793815214541,
-    "moedasTs": 1793815214541,
+    "acoesTs": 1793835799554,
+    "moedasTs": 1793835799554,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,39 +305,39 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Mercado espera que Copom interrompa cortes na Selic e reconheça piora do cenário econômico",
-      "fonte": "Valor Econômico",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOd1dURTM1RC1VVUppdnVNeGdfRXFnY0pGbEtVRnRBUFJiXzJHQ0R3S0wwRDRta0JJbS1URHlmX3hJS3B2aGgxd0dENTlZVklBSlRGM0dvd201YnpBZ2hEbnRzcmlrWDBsR1dMWU45eEh4Z1hWNlZ1TnBOc3VDMExWTmtqZ2FZMm93cVFBckwtdDRqbzlWellYMldjOHNKbE5MVHcwYXd5MXRVQnN1b2c0Szhvd0Vyd0p5SFRDd2xCS0NXOU9Nd1QtZnZlM1BGZWZwLS1td3JtUC0wUTU2THfSAewBQVVfeXFMUFJLQ1NDbk11VDRYUDJ0eFJvYldUV2JJWjJVcjltNWR6c01RU3dGYTI2VHc2cndnRm9oM1FMYTJ1b2dmdVVNel9Nc0dWTUFmOFRwVjNYVE1RM1hYRHZHdzF6d0FvT1RDVWJoRVVFdzZVclpob3ZRMXBsbjdfRU9hbXliQjBsWGZFWlBoUHQwamg4SzJhSUFjU1JCZk96VUR2YWVkWllEUDFxYlVUVGR6VV96ekpvV045NkRPRkxaSXhZM0FsQzRWdFhnWkVrVGFBclQtVEdCeE9NdE8zMkdpNWl5LU1pSjBVZGxVVlc?oc=5"
+      "titulo": "Brasil amplia distância e segue com o maior juro real do mundo após Copom manter Selic; veja ranking",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTmZmQWFCeHVxd0ljWmF6XzJ4cUdaZWZ3blZzTGVKdVV4UnJKR05MeWxLbXliY1FNSTItdEhzWW9PTXlGMGIwUTd4Y3ZBN0JlTURIdzdSZzhPdWVuVXkyQk03MVg5dDlWWGJUXzJFUjF0UXBWN0RLV1pYZE8zZ2VULVdzZk5DT0l10gGXAUFVX3lxTE55X0NMclp6YTM4NzBKYzZiSkgxRUUwQjRSdHZIS2hSQVltRTdkRncwRnVqTHVhQU1LZ0RWZFZwcURQQ2dqMWNITkRlSHpqR1EwekN2cWJyYV90NTdGTjRaU0xtNVBnWDhzdW4xcEZoc0podng1VklwbEItY0hpcFBJRU4tWE8tbWtlcklRQml4MmMwcnJUOUE?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Crise bancária leva manifestantes às ruas do Paraguai",
+      "titulo": "Elon Musk ironiza derrota dos republicanos nas \"midterms\"",
       "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMnBJaW16T0hmX2E4bWhjWXE0a01SR0FuWUZuY2NxSEFUSV9Eai14b0NuTmdkRGZ2NUtuOFAybVBMU1dKMnZsbldLaHk5bm9sODBZanoyX01LUnNhcWU0MVJLY3hobjJJUjJZM3FOaG5aUWh0RGpsMnUta2pCeXBIZFhZRTFwT3NCd3dIZUkzbC15V21Sck9KQkZEYlItV0dVa3NQSg?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT090dXd5TWRmT3FoSG9TcENuUXVpdHllUjNrSWJ3U3hCX2prWkJXSm5rcmFpU01pWHh3YVhRb0pSN0ktZnFGZ0hPSWF2N2RPRDF4dFBaMUQ5TE03TzE2NGU1Y3NiS0s3RFR3dVNJaFhKbk9CZFJTbmUzNlFWUFctY2JwMXA5aFJxQmlGc1phWTVDVmZCcjRQU1NZeUdVUTBpblBpLUI1MA?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Mariana Barbosa: Presidente do Santander diz confiar na independência do BC sob Lula 4",
-      "fonte": "UOL Economia",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZkVpVEZPM3hxeHZNR0JYcTJlcDNucWd4NXZzNW1sWkVLaEp6Uk5NOHNfdGg0ZDhvZnotSlRBdW9IajZWUFc0RE1rYVJNcnlyT0k4TU1wRU1OQXQ2eFNOZDlYMkg4bEJnUHFlSnlCUkFXZUdTRENHWVA3eG93TU1Id3ViZWN5UFNldThZYTREVHV2SkMwWDdGTE80UEFyM0FIRmlBMXgyWmtUVkF0YnB1dFlrSjE2a2MwUzIxWjhVaVFXSnJhTjVZSGNjdVpZVjc2d1E?oc=5"
+      "titulo": "Crise bancária no Paraguai derruba chefe do BC e gera protestos contra Peña; entenda",
+      "fonte": "ICL Notícias",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAxMGZKVlZ1aWQwMFlrN1lFQjY0OE9YUXdaTmdKbmpwZTR5dTZMcGo0cUkxemFodXJVZjQ2TnktaE1xR0dsN05vcXZfdlJHMFVHak1acVpXQk40Z3VjMHN0VDVzS1VuT180N21oc3UzTW8yMWlBRkY4Q2p3TQ?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Governo de SC suspende aulas por 2 dias na rede estadual após alerta para eventos climáticos extremos",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaFlJdlJHUEpPQVdyV2FmZ2RBbjA2RjlFUTQ0OHhzQ29GSmdfZUh0ZWozbnJYYTZaNkRuWnVIWFRjYjhhS3RCNkQzYWdhckQ4c0xpM25aaGNBR3EydlJyWFJIUU1hajNYc3g2MHNRVDVuNWJYNWI2TldKTTZGbmxpaE9zVXYyaHZneXdhOXBEZzUzazRaS3ZrejR1V3ZtU0F2a19uTklqUTVJQzI0Zll1aHBabndqZXZIaWxqUG1vdEbSAc8BQVVfeXFMTTl1aE15ZmtDMGFNckNvSFNQN0NJMm5RdEhNd2JWX0VFaG5ReWdMZGxiMHpvVUVLdjlKZU16V3hkaGNkY3hVNEV4WmZldzNTMGtTMHZOV1MtWkJMdi12NnhsWC03QmJQZk81bk9LZGdnc0JMaXBBX0c4SHl0WlM5ZVp5U1Z0VmZOUEtqU0RPbUxSV25KYnBCYVJwMGtOQ2x5YkJkRkdXTGlJR3NCZXFYNF9zX0ExQmxGSzBiSE1DUFVZT29OUjlCT2lOaW5rQktn?oc=5"
+      "titulo": "Após pedido de Lula, Alcolumbre barra votação imediata de PEC da Maioridade",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTkdibmlBb2x4b0JoZUVjRWMwbVpoeElNRk01TzZXQ1l2RnloZUlzV3hHOUVadDEwd2huS2o4enlscndMYWZlTm00X0htZzFOQmE2VUpJVy1MVHl6cnNtR2hQLU1WbVVMeXF3YUkxN09leldCWnNQY2diTDZpVGxPcWE4QUp6QWgySG1vWV9RbVBDZlNJeVFjQ2hlbDZkS1NBeEptMmRqcTJxTllYWlHSAbMBQVVfeXFMT2xxN0FzU3BDZXNZWDVQODZwNDVUdW85RjdzUVM4V3dtRUp3blNFdkNzdXc1R2s0Sm5wLTFxZ244MjNQV2xjSmJkMEJ2bFN2emdQZ1BlZGF4UGRyY0l5aXBCNW5UNzV6dFA3NFduSjI5Q0hFV1hNMnF3enJ5cnhlYzl4RFhQN1lpTFpOTWVZUjhpTlU4cDR2MEN3U3pJZk1BWmhDVlJTamYzV0Qxc2FtNzEyWFE?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Eleições nos EUA: sete brasileiros são eleitos deputados estaduais",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdXdjQ2RXcmJaQWJaSzF0Tnp0NHFMOTFURmRmaHVYS3MxeV9tLVFvbWkxWXFLUjNBMDBZVTdwVGhfQ240eWx4aGdPNm9qLUVsR0I1SVZJR3lSSk1Ka3hEZTUxQnBnZE9KZF9CZmVKLWJFdjMwWWl5ZTk3STY4cUt5XzUxS1R5MWVwRE51R2lyQUlxaHQzUVVqeUtScjlJOWhjRkRsOU5DcDJXbkNXTzBsb2NZa2VCX0FO0gHHAUFVX3lxTE4zNlMyTVJRWXNwaEZfaWNxLXpDa0pOMDFQdTlhbURMVWtTajRpZzZKSnpxZ0d2MkdxZ0FwT1RQQXNvMWgyN2hORy1fRlRiM08xOUt2MENSeUtQNzJmRTE0cDJlMHVvX1BmWVFnMXJDU0IyY2stN0ExUDFlenNNUGVaZU9zMGVWZ0lCVXh4Tm9nQU9KUUkxUzJpaGItRDVMSWRCMEpSejFFNE02RWYyOFpoSFVZdVpqcWR6aFBfT0YzekdYcTNFdEU?oc=5"
+      "titulo": "PL lança Rogério Marinho à presidência do Senado",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQb2NwRGpRQ05XaWZwaWRDdzdSZkthUUpfcE1YMmpJYmw3T2g4Z3RIc3RrTWRsLVZGMWM3Y2NwdUJVY18tMjZZV0hCTDVsQ0FBemtQNThUTzg0TzZ6UzVUd3pvSkJnTjE4dHJEWUJiUmx3bjNnUUhRWWxaeXdWVVNxQ1Z6enlxQkQ0dFpMVGxzdldxRGhyazVqZUx2dVJsejlSZzNESk1ZbU9DaHIzMDNRUFQ4MA?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "PL lança candidatura ao Senado de Rogério Marinho, que defende votar anistia a condenados por tentativa de golpe",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNXFSQzBlUXVIQVZUQ2hhR1RoYzJpZlFhNW0zZWx6c0lQZ3lNcW41T0VjR05zV21xRW1Wa2cyRlQySS15aFNSbU15S1pzYXo3THJacExTXzhqaFpLY0ZMMEU0N19qS2dCdXpSVzlHdmludGJQcG92YzNtZEF3S2xrcHdCeFFnbzVrZWZsNmFhOWZSb25DRUQ3RFNiLXJtRDVfSkZZVnRHUnRZbllT0gG7AUFVX3lxTE1Pek1aNXVKcWxYQmdya3FzT3VPd2ZvUzZHWGk1cWxtQTAyZmZQZzE4M1dIeHVvZ1c5dER1ZWVUUUVPaDNCNW5DZXJLZnBTRzB3WjhUZU1pUmpCR1VsVTQtalBIT3NJRHhrOE1QMTJHd3QwcHh0R2EtcldlZHUtSXVtSHdwNEIzVkwwSjQ2UXNsZ1Q1cFp6RHExc3dfRlM1Yndxdm9WYTE5ZTVpQmFjOUw3eElTWTgyTnVNazg?oc=5"
+      "titulo": "Sistema Guandu volta a operar com 100% da capacidade; reparo na Praça Seca mantém 51 bairros da Zona Norte do Rio sem água",
+      "fonte": "Extra online",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNUkR2RjYxTklKSXF6RVdLMkVfVVNNYmV4eXd2S0VzZHBodlAtVXhvdUtLay11WGdfd3JUcFlWOEt5b1Jndk1QazMzLWoyMjk0cWdzdlkyTWdIMVJoTzBHRVRZaUFKV3E5YzE3RDUtZjgyRDJTM0RwLXdycVNUQUxmUVFJa2JjS2NDbVljTDBBVW5EdFhtUjdNM3ctQU5uS1RUekxqT0laTkhnVTZUa1VHQUxMSjN2SU51SnlwTlA4NExzTVRaTF9ycTJndUhDLXdfUTktTk5XY2RoZFZnMTh6bVFsVExkUy1UelByZkFSbnJrUEpkaTh3cGxkZktfNEFTZ3JMRXg2SWvSAZcCQVVfeXFMT3BRTU5LUVl5YlJaYTBhX0ttTGJ3dVZtYzFSU0d2UlRLNVEzZFZ2Rmd2MkhPNzZReVRoNmgxQ3VraUtzTC04Zm9GSHI2Y1JHX0FlTldSdjBYeDJoTVd5VXhEaTFhUFJpb2JCYjlUdk9zbHR4aVJMcDJ5Uk1VaUdqd2V4eUQybnlaa1NhZ1BjUlI2NFJOLWRRU2RaSnpBSGc2OWQwNG11V1pSSWNXWlFYVzlheUtYN0tFQ0w0R1ZkaFI1OEFISDNwVmNIcmlIOXh5OTNxamJXdTFXb3JaUU1sZ1hubkszSzYtektUblBiTlFqTWhQY3VHbXNRMENYWi00YUVjUlB4TWZKdWtrc1BwWnJoNjNNZjNz?oc=5"
     },
     {
       "cat": "politica",
@@ -347,15 +347,15 @@
     },
     {
       "cat": "politica",
-      "titulo": "Lula tenta aproveitar força no Congresso para avançar com cinco pautas até o fim do ano; saiba quais",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOTV85d3cwUWxNVkhscWpmRE5GQUl1OWE2Zy1hZWdWMnRUXzdBQXdWQ3U0UTJEaGx5VzRKOXZKNjlpMkZMdmFHbUprb2NfbUJRSl9HcUhUS0d1T2VrSjFUQklUaTNua0h3bUsxYWVXUUZMVEtPWmFLcTNMLVVRUGt6WTZjaTFwWnlQVXdNQjVmbVBtVXg3RGpIc3p4YS1xdW5SUGFDWm1UNEFUZ2RZeXJrbHJ1YXJCNmZCSElSWGF4Z1VWNE9UYmVNSnFla3lfN2c2WTdDMHZ0WlVkRG5rWTFES0RqaDZmdVIteW9vdkhwMNIB_gFBVV95cUxOTF8yNWdYSEZyNllFY0pTeEVtSDhkNnJWWlNvMVVadHo2MjN1UWRtZTNGTkQzUE00bElmbmQtSTFDU1d1YXd3Y1dHaXBPSGs5N2NfZV9YcEx2dUFWVFRCdE1wS3cwaTdqcWdaXy1FanFJVkZaaUlYdDQ3R09jdlkwNkxSNXV5V3BRYzcxSGhXY016QTNUWm9WdDRRYWhoZmlmOWVoZkU2cE5EZ3ZVSkE0ZUo2UnA0d3RDdDBtWG1VWWtJeWY3X25yck42VnRuN0lCV0g4dVNHczhHQklPTHlFdDZIdGxpLTNlbFpoeURsOEo3amlTTzBIS1otVkc1QQ?oc=5"
+      "titulo": "Como fica a situação de Flávio após derrota de Trump no Congresso? Entenda",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcFF1TWxLdDhJX1otakVnMk1nWFluRkhjYko4d085azEzNEZhTjZNZW0wUVp5M0RHQlIyNkhmWnRNdGRWWExxNXhGTDNZU1kxRHYtREdjU2Exd2kwWGgzOWxZTXdkS3dQeVFRbWk1Y005Q3RscUphWmR2VVVOSEJ6a09WaW1TMUh4ekVjX2w0UmtMNFFhWGlfTTdhMkQ1Q0E5eTNiN2J3TDZQbmVXdU5SMXVB?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Comando do Congresso e ministro da Fazenda definirão novo governo",
-      "fonte": "Correio Braziliense",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOT3M2QWVIUThFRzVxT2dxUFFnZ2RTdV9SMDJRWTVtRTBoM1lJN0RFZXBJMTJKbnlOYUtmRmhUamlRWi1XOWNud2NBdkh5Uzh0SFMtWGtEUHlFQndQeDFTWEZ6cTBaUUVtNml0c3doeEtlQkdvSFUtTUZxWnRVQ3ZJOC1oVG1hZkhidWkzcnNIZjU3XzZCc0NxMW1YUmNHMjR1VlEwZU9kc1N5b1pwSzNfc3N3?oc=5"
+      "titulo": "Derrota de Trump no Congresso pode abrir espaço para Brasil negociar tarifas",
+      "fonte": "InfoMoney",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUjZjV0huNFYyMUI0NDlrc3F2RlBkMnk0S2JDd21aeDBWVnRuY0JKczA1ZUZIbi05RnRVZE1vbWxSTDRZcUdPSXY5NXRfbkJfb3RIX01yT0hEdFNDUXBIbUhUaGZWeHlJYlJzblhIdk0tZ2NDeE1NaE01NFNwSEFKaDljYU9zVUh4Qzh5bU5aeFFSWGRZZ3B4bm9uZ0dHSnlNaHZmVWwxbkVQcC1mZ2FZYjNkN3Ntd9IBuwFBVV95cUxNeWVSaUZ3VGc3TXQ5aVNLTkFIRTRLUkZOc0RXN0RReHZHVV9vWFpNd1ZISG5TOEdVNU5fY09VV0tlTllYVzRNY0xPcXRxRVVOa2xyWENlVEFHelFldFFicElLSmdVY0IwLUI3RnhWcHNLNW8tYTZoWUdZd09JYUZ5R09qQXNxZ1ByM3Y0STZqVUhYb3ZPdE9zSkgxQWhYSDFiNVdOM3JhVzNtR1ZOUThZUno3UHRXRS1CeUxZ?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -365,7 +365,7 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "Flávio recebe R$ 924 mi em doações após 2º turno; e Lula, R$ 532 mi",
+      "titulo": "Flávio recebe R$ 924 mil em doações após 2º turno; e Lula, R$ 532 mil",
       "fonte": "UOL Notícias",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdWZTRHJERDdXd3Rpd1V6c1VxOWNtaXl5bkhmLU80WEtfakZZa3lLVzZRV0Z3bDRUTTdRSHVGZ052emNEUjVoQUtNeDFaZmotTzBGV0VSQTJ2Z20yMjJiNDdyWHBCV2k3Q2FjOUNRWFVGUTBMUXMwOTJ6b3pXNmFhTjBGTEFUemxjQWo0Mkl5TTVPNlBFSHphcFVURzg4czA?oc=5"
     },
@@ -381,7 +381,7 @@
     "itens": {
       "selic": {
         "valor": 13.75,
-        "data": "04/11/2026",
+        "data": "09/12/2026",
         "fonte": "Banco Central"
       },
       "cdi": {
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-04T15:00:16-03:00",
+    "atualizadoEm": "2026-11-04T20:43:22-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
