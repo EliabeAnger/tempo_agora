@@ -165,10 +165,10 @@
       "pontos": 165528.92,
       "var": -1.42,
       "anterior": 167921.8,
-      "minimo": 164446.53,
-      "maximo": 168005.45,
-      "hora": "03/11 22h25",
-      "ts": 1793755536764
+      "minimo": 165528.92,
+      "maximo": 165528.92,
+      "hora": "04/11 06h20",
+      "ts": 1793784058164
     },
     "acoes": [
       {
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.4882,
-        "var": -0.0
+        "valor": 5.4883,
+        "var": 0.0
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.1591,
-        "var": 0.19
+        "valor": 6.1675,
+        "var": 0.32
       }
     ],
-    "acoesTs": 1793755536764,
-    "moedasTs": 1793755536764,
+    "acoesTs": 1793784058164,
+    "moedasTs": 1793784058164,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,39 +305,39 @@
   "noticias": [
     {
       "cat": "economia",
+      "titulo": "Mega da Virada 2026: sorteio acontece no dia 1º de janeiro novamente; apostas estão abertas",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONjIwTFNGZDl0QUtIUkw3WFkwMnBocm5XeXZReV9PTzdOWHNtYkRQNUMtbFo4a19HVC1yRjhodFpwRENnQ042bGRXTmJLci1mOUlwQmk4U0FtR0x2S0VsdlA4Z3J4V0g4TW9QVmVNamlkT2pTUHdNRjNiLWVrVW1qLWdCUGN4U3hlaWR2VjlldFk5Ukd2dFhVZndGVTFIVGo4UDd5VjBhUVlvaUVORnJGX2Jn0gHAAUFVX3lxTE9TS2Fzcmp4c0J3Q29uZkZYdjFKU1VtX1lOdmxyc0dvWEEwWEtsaXZwY1R3dlpBd3QzZHBjVDhOd3FhZ0hQQmgtWjJtb3BEa0xYZFREd1MyRGZtTUtyeHFYVzk1RTlpSWpGLWdfVE5rMXY2QWFfZzV5dGI1bDdGS2Itd1dOZEppRDFfZS1UQ1Vid3dsckxLdnFUd2FZVGMzSmM4NWxQcFJ3ZDFOYWhLSlR5SHFIWThlMTNoZjdTZk91bA?oc=5"
+    },
+    {
+      "cat": "economia",
       "titulo": "Economista dos EUA cita preocupação com proposta de Lara Resende",
       "fonte": "Poder360",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaVFVZ0FDTHB2Z3FaQ2x4WEcxZDZIMzZLemRfa25Ea1RSQW4xWWZsb3dMd1ZYZWpmUV9PTXNxeVlQcXBjdXMtcTRDRkZWcThidGIwbkxqVkJwd3NmVUxtWUNqaVAzUHREVlVkMDdhRjFpVFI2LUx3ekRac3NLa1VDWXRTZFZySXlvQVdrRnpCcW9jTG8taEJTLVI3QWVoQXNyMnVTRVJ4N2M4bjFs?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Itaú lucra R$ 12,6 bilhões, com alta de 1,7% no trimestre e 6,2% em 12 meses",
-      "fonte": "Valor Econômico",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOSmlaWlo5Wmw2bHRRVDFQVHVidVpQLS0yVkNnUURHbjBWNUEtX0NWNjNZOTdJaDUyQVR1YmJ2bi1remEwMWpEUFZtYkNJN1Y5dTFtbnhHSnAwdThOOWlJTnBSLVdHS1QwTEhFa2tMUTJmUDNINmItRUIwZUl4N0ZTeG9rZE9oN2RTZ1VaWEVhaHdiVE50WWFtMzRpWHZjZWIzTkR2bXk3YXZ0VFBXUWE2Q1hFbFgzMmd5ejg5ZFRtRTA4YnYtWkd5dTVuUFAzck45V25OcndJQkPSAecBQVVfeXFMUDE3YnBMZkh3TnlGZkVMbElya285cmJyQXhOTEFnSm16a242NUFLMXJlajdiel9fSzVTOUowRmIxSzdPVzJWWFJ6bzJwRTlvNFpMOWdOdjY1Y3UxUWpZTy1DT0UtQ0hKam1yZTFYRGMyaTlVY0N6SVRrMFBZblRYUlh6YlhZblRIUmZaUV84NWsyam52QmE1UkFNalR3ZjJxWk5XOWtaajMtblplVGM1RDMtUXVqZFUwNE96LUlzUlVhOVZFZlk2dEQ2dWtUbEN6UmtyRkNieHRfVWlUUF9sNkUwd2pfcjcw?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Dólar hoje sobe a R$ 5,48 com preocupações sobre agenda econômica do governo Lula",
+      "titulo": "Midterms nos EUA: como resultado pode impactar mercado no Brasil?",
       "fonte": "InfoMoney",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNlhaM2JfR29wUWNCWVo1aV9mVG1ib0NuWE5yNjNWU1ViV2x1YkJMVFFKRHMzZWMwTjh1Vkc4bXdrLTFZRzVtOVo1dl9WdDk1a1Nza09FYzBpamxOYWU5dGhlUG0zX05lUVhNcEtnTW1GSUNKUDFHZFVyc2VhdHVhUmFPUDM1MUV2QkFhZnJPa3JiX3ZTQ1hzdlpLWC3SAaIBQVVfeXFMTU05UXZLOVQ2emtTOGJDM1pMclNkTEFObUpWckpWbW5yZ2RzMjJpRkRHcHJNZTZnUlNWOEpjNl93aGdzYjFlcWl5V2Q3eFVZS2dLaFFXSU9nRUVIb1dqbjNtdTNYcmxHdEFwbFJyXzVaMVRkQndGUVRPejl3dnBjckp3c2RibkxFQVQtcHc1YXowMVlUMUhXQkYzaUpLUVBwZ3dB?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSjM2clFtejM5SFBzMlJHTjBuaHpJTFhqZlRNNGlJNzExakhwdFJOcGx6QnphSjFmbUpVV3FaWXpvMnpkZ0o1RWlud3A4anVCMHhpMGdScDBtaGNPem96bUR1Q1MwQ1BQRjV2N3F3TGFySFhjaERYNEoxcERmeEgxYlRGN2tUSnZocEcycjdDMnpNcENRQ0JJSkRmRzEzdzJ2c1JpZNIBqgFBVV95cUxObFFxMUNRUFVmS3JyYnNpcHlRbmwzU2h1aVlTV3BZRlBuX1pWaW0tZkd4RGRveEZmamV4ZkRSVENVX0FhU2x0SFByZm5va1V3Z0JBNG5hNXM0UFR5el9WeS1oQUtPSUs1VXNBbWJhUWxJOEtIZWVEWnJsQU5wUmRqWWpEck9DWDhGYXJjdTNGY3lHbEQzaXhZTHJxM2dLZGhvS1pySTJGUkc2dw?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Senado aprova PEC da Segurança Pública e texto vai a promulgação",
+      "titulo": "Lula celebra aprovação da PEC da Segurança e reforça que criará ministério",
+      "fonte": "CartaCapital",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYVFoNV9rVG5nRC1Rc05iZ3pjYzZRUHVGSGx3VmRTdDZnY3pHWVdJNEl3Y0VGQ3JKTXpVMnZVdzVmcklsbXBqeE1ZS182bURaSFFSYkRYTm00NUdnWjNsMzR1TFY2N0hUZFQ0UkgxckI0ZHgyVGk0TzROc1pFS3I1U3hELVJCMm1hTV94QUY4bHAxekdGS0R6LWdUdWVWdGtjWnNFUzFTY2FHLXdneTgyN2ZIQVVyN1E?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Aposta de Alcolumbre em pacificação com anistia a Bolsonaro enfrenta resistência no PT e no STF",
+      "fonte": "Gazeta do Povo",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPT0xERGlINDdLR0h4bUkyeUVjUlZxY1JQMjFZcUNwRE9waW9yTFBKMUNZNlpmcFhCbHh4Z3FETzNtX090RFF5cnB6QmFXMEkyZDEtZFdwZVIwZ0NhbWFQQWZ6bXIwdTlQaEtwT1RESms5SFRFbEFTOUpybkxIenVJMlBLTjI4UW43U3ZHQ2JiZWJ4U0xfRjg1UWNyOGxLM0d0QnZHMEJzdW1EMi0xSTdFWkYwNjBsdWhIZEdkNjF1YXlDbEdTSDh5UVkwQWU1b216ZkwyTA?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Saiba o que disseram ministros de Lula em audiência sobre bets no STF",
       "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMTE5YzZ3amswM3BiSEhVYXh0dG5yV3FHcVVYUERBZnpKc0Q0anVvWmlGWWprM2xsNkNyeENwOUR3cnJ5UFo2bUR1WFlZWWNiMW9Gdmd3NzZwcElzOWd3dHdUVjd6aDFIbWdNcUtNc0VUYmhqdGxvTTgzNWNicG5JemRmbE9WX0ZDaUxjR3cxTFNyT2o3bW94YzIwblpnTV9sMURGRWQ0VFA4RmczNkE?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Após dez horas de debate, STF encerra audiência sobre bets",
-      "fonte": "Migalhas",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdlJGbk4xODdRUFZ0blFLOFg1aWZoWTNBR1l0WEVkUk9uQXc4RlM0ZDVLOVZQRVF3VVZHQUNwcFVrX29tQ09SYzJTY1pUVlpKUS1Wb05RUG1WdThlaDZLdDk3ak5QWmRfSjYtNDY0am9xZDRKNTYweGdrS01qazJVQjMyNHdPY2xIeGZ3NjFzbm5vT2xrWVBGMGY2Z05YdnN4THc?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Quem é Edinho para expulsar alguém do PT, diz Quaquá",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNb3otdlFEdWsySkgwMXplY0ozQTNmYnl1cjJhblM1NGozdU9Yam1aSGNPR29tQU1QSktvZnNlemxaX2Q2WXpIQTdsRV9WendyanZub3h4eGJNNWp0V1dZZ0Nzd3lFczJiT2hZUlc3X1VfSm9XdnRTVGxJbWZwZ3Nac0tpc1R0Z0duOUpWRGRHa0pZTmRXR2plbkR2M1hBT3ZzVEJTdlVFUVE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOb3dYZXJMQnZxaWYzaWI2d2NWM2dEWlJSQk12dzgzMUVBR0s4RzRCZm9BVUFtN3REVHlaNERiNDk3SzItelA3b0NyNTg5d09TZXJqNnl6OGtoS3l6cFo4ZWt2dzJaLXdianlhRXdReTdua05FY28wTHpUMFd6eTk2TERSTzdGT2FvSVQ2b2hscnNrYTJGa293NlBHc0h5OUhTUkRWZ1owYVZXSHhqcjBvbEx3?oc=5"
     },
     {
       "cat": "politica",
@@ -347,15 +347,15 @@
     },
     {
       "cat": "politica",
-      "titulo": "Análise: Lula vence primeiro teste no Congresso após eleição",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQmUxbnp5VmFzVDllRFZMZll0eXRINWVZUEwzcTJrUmp4RmJOc0Zyc0JyeVJVbnRpOG02SGxoQnZOT3hueXJpQm55czNfVjZVSWJ4TWUtSkFDa3c5N3FLcmVPMVVLRmJNaG1hOEV6UlFLS2hKSE1NZTdLdlR5b3JuUVk3RmYzTzRYeF9sZmViMlVYYW9IUTRMd25ISEdDRHh0VkNJQkdGeTZycC0zWUlMTEJmaUozNUlrajJV?oc=5"
+      "titulo": "Lula tenta aproveitar força no Congresso para avançar com cinco pautas até o fim do ano; saiba quais",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOTV85d3cwUWxNVkhscWpmRE5GQUl1OWE2Zy1hZWdWMnRUXzdBQXdWQ3U0UTJEaGx5VzRKOXZKNjlpMkZMdmFHbUprb2NfbUJRSl9HcUhUS0d1T2VrSjFUQklUaTNua0h3bUsxYWVXUUZMVEtPWmFLcTNMLVVRUGt6WTZjaTFwWnlQVXdNQjVmbVBtVXg3RGpIc3p4YS1xdW5SUGFDWm1UNEFUZ2RZeXJrbHJ1YXJCNmZCSElSWGF4Z1VWNE9UYmVNSnFla3lfN2c2WTdDMHZ0WlVkRG5rWTFES0RqaDZmdVIteW9vdkhwMNIB_gFBVV95cUxOTF8yNWdYSEZyNllFY0pTeEVtSDhkNnJWWlNvMVVadHo2MjN1UWRtZTNGTkQzUE00bElmbmQtSTFDU1d1YXd3Y1dHaXBPSGs5N2NfZV9YcEx2dUFWVFRCdE1wS3cwaTdqcWdaXy1FanFJVkZaaUlYdDQ3R09jdlkwNkxSNXV5V3BRYzcxSGhXY016QTNUWm9WdDRRYWhoZmlmOWVoZkU2cE5EZ3ZVSkE0ZUo2UnA0d3RDdDBtWG1VWWtJeWY3X25yck42VnRuN0lCV0g4dVNHczhHQklPTHlFdDZIdGxpLTNlbFpoeURsOEo3amlTTzBIS1otVkc1QQ?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Eleição nos EUA pode aliviar pressão de Trump sobre o Brasil",
-      "fonte": "DW.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTWprbkpEendSVFhXc0JEcC1wVTFVeS1GT2dlQ25QdmpobF9GclFsTjJSc3BCdWlzZUQwNWl4X01QTnYtRVNScDdYeXROUnRyMGVlZWd2NTJSVFRLVGVtWm42bkhSZHhVZUlTV0JQamF3Z3JkVVBxYUpyTXdNaUpzcUpfeTVNUXA1ZmUxNF96RHVxdnBFR2IwVm83ZXhNNFdlVHpPMXMtcTBNRjFSWTFzR9IBsAFBVV95cUxPTWprbkpEendSVFhXc0JEcC1wVTFVeS1GT2dlQ25QdmpobF9GclFsTjJSc3BCdWlzZUQwNWl4X01QTnYtRVNScDdYeXROUnRyMGVlZWd2NTJSVFRLVGVtWm42bkhSZHhVZUlTV0JQamF3Z3JkVVBxYUpyTXdNaUpzcUpfeTVNUXA1ZmUxNF96RHVxdnBFR2IwVm83ZXhNNFdlVHpPMXMtcTBNRjFSWTFzRw?oc=5"
+      "titulo": "Análise: Lula vence primeiro teste no Congresso após eleição",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQmUxbnp5VmFzVDllRFZMZll0eXRINWVZUEwzcTJrUmp4RmJOc0Zyc0JyeVJVbnRpOG02SGxoQnZOT3hueXJpQm55czNfVjZVSWJ4TWUtSkFDa3c5N3FLcmVPMVVLRmJNaG1hOEV6UlFLS2hKSE1NZTdLdlR5b3JuUVk3RmYzTzRYeF9sZmViMlVYYW9IUTRMd25ISEdDRHh0VkNJQkdGeTZycC0zWUlMTEJmaUozNUlrajJV?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -365,15 +365,15 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "Pós-eleição: deputados discutem fuga de Flávio Bolsonaro, ação contra chapa de Lula e ataques a indígenas",
-      "fonte": "Assembleia Legislativa do Estado de Pernambuco",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOS1JycmFNYWxiT1YzOVY2ZmNQNER2Q2pPREloTWpLZWhldEJCZHFaWHVBRnNra2J6ZXF4bWRSeVpwNHJWZWVnYXFkS25PMWNYQXRvZThsb0tBLXFKODE5aEwwQm82aTRmODMtaWpGSHFmeHhlaVltUEhWOXNCOVM5ck1uUEFPR1RMbmJuc1FhbjdxQXJDUkhveUJQZkpIeUlTZmFmV3JYanNYNjQ3MG9qY2FBcGt3UFJYYXdBWVNEOXlmM1doeTFsY1RPc0Z4SlYxYm1FYTVYZzdDUQ?oc=5"
+      "titulo": "Real Time Big Data: Flávio supera Lula e lidera cenários de 1º turno no RJ",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbUtLck5qUkdNWEpxMmJ5ZkVjeTcxaWZEb3BSQ203VWhsN2dXV093YS13cVhwbmYtS2tFY0UzQUJoRGVwSEVjcnpIbFk2c3VGdFZjbzhhMnhENGM3NGJjdUNzalA1RnV1eWFmM00tMXBwT096c3U5cHQySm9XMDE3WERJV1lxTmlkSFZvOGQzRkZ1RU9kU2xNcHRUbHdab09LUFU5bVpkQ1RfaldFaDVXUXp3?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "Nos EUA, Flávio Bolsonaro vota a favor de PEC do governo Lula sobre segurança pública",
-      "fonte": "CartaCapital",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQTZIUzNuVEpVbjI5WTJaUFBmbEJULXpQWVRNR3VOWENJVkQxRmtwMWxjSGV5SXdWS0h4R3dkMkR1TllMc3ZaOEdnS3RPenUwdjQ2YVJ3SFVOT3pzUDZ4R21QSktaRHA3QmViRThINGl4eUVuRjU5QkI0QkE2ai0yeG9lWGxJU1I5TDZuaUhobGtkUzFfVmV5RTMzQ1ZhNjJnaEFjSHZDSFo3SEZsQ3AyUFNfMFIyREMxVTVDWFJlWVRjdGlG?oc=5"
+      "titulo": "Pós-eleição: deputados discutem fuga de Flávio Bolsonaro, ação contra chapa de Lula e ataques a indígenas",
+      "fonte": "Assembleia Legislativa do Estado de Pernambuco",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQUVFRSHU4V3BSYmFyc3RRQmdzYUJQbXNqVUs0el8zOWxQZUpJTzJGVHg4cVZCQURrQ2lCS1JHcS1SZHI1dnBHaU4yXzhmcmJ4bzA1NDA2RE04MzVuRHNqWl9MYVNpMTJSQXE3Ni02dzFMMTJYd1ZaOGNNbm01d3k3Z2pnSTdUUDlyLXI0UERzNEFHVnVxaHpBbENSZ0JIQTZfUnl5VGtZRVVwejJ6R1IxUmc3WEd4XzFqejQtZVF3UzBkaFlmakM1dFc4VmJJM0Yxd3VHWDU3a2oxeTQ?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-03T22:25:39-03:00",
+    "atualizadoEm": "2026-11-04T06:21:00-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
