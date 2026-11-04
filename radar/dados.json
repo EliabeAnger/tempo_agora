@@ -162,44 +162,44 @@
   },
   "mercado": {
     "ibov": {
-      "pontos": 165416.5,
-      "var": -1.49,
+      "pontos": 165528.92,
+      "var": -1.42,
       "anterior": 167921.8,
       "minimo": 164446.53,
       "maximo": 168005.45,
-      "hora": "03/11 18h03",
-      "ts": 1793739835718
+      "hora": "03/11 22h25",
+      "ts": 1793755536764
     },
     "acoes": [
       {
         "ticker": "PETR4",
-        "preco": 50.62,
-        "var": -3.97
+        "preco": 50.71,
+        "var": -3.79
       },
       {
         "ticker": "VALE3",
-        "preco": 60.32,
-        "var": -2.74
+        "preco": 60.25,
+        "var": -2.85
       },
       {
         "ticker": "ITUB4",
-        "preco": 38.39,
-        "var": -0.74
+        "preco": 38.49,
+        "var": -0.48
       },
       {
         "ticker": "BBDC4",
-        "preco": 13.51,
-        "var": -2.53
+        "preco": 13.58,
+        "var": -2.02
       },
       {
         "ticker": "BBAS3",
-        "preco": 16.16,
-        "var": -1.88
+        "preco": 16.19,
+        "var": -1.7
       },
       {
         "ticker": "WEGE3",
-        "preco": 49.41,
-        "var": 2.17
+        "preco": 49.17,
+        "var": 1.67
       },
       {
         "ticker": "SUZB3",
@@ -208,8 +208,8 @@
       },
       {
         "ticker": "B3SA3",
-        "preco": 13.49,
-        "var": 0.45
+        "preco": 13.61,
+        "var": 1.34
       }
     ],
     "juros": [
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.4962,
-        "var": 1.1
+        "valor": 5.4882,
+        "var": -0.0
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.1517,
-        "var": 1.12
+        "valor": 6.1591,
+        "var": 0.19
       }
     ],
-    "acoesTs": 1793739835718,
-    "moedasTs": 1793739835718,
+    "acoesTs": 1793755536764,
+    "moedasTs": 1793755536764,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,39 +305,51 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Durigan diz que governo discute ‘ajuste gradual’ e critica ‘deficiências’ em ideia de Lara Resende",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTTRFeHlDTmtfbkRIWlk4UUk5T2V5QmZjMG0xODRFZ1VTQXZZMmJzb0J6ZlhKSFNBU1dZZUlHc3RYRExwMjNOdm54SE5CODFjTnNpMEZHM2xtd0lVSlZtSmF3YnpNdDFvRE53cTd1cVMzek9Od0tTTEp6SzQ2RGoxelNqb3pfaUlwVnFnZHpUdDRmRmg3eWc?oc=5"
+      "titulo": "Economista dos EUA cita preocupação com proposta de Lara Resende",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaVFVZ0FDTHB2Z3FaQ2x4WEcxZDZIMzZLemRfa25Ea1RSQW4xWWZsb3dMd1ZYZWpmUV9PTXNxeVlQcXBjdXMtcTRDRkZWcThidGIwbkxqVkJwd3NmVUxtWUNqaVAzUHREVlVkMDdhRjFpVFI2LUx3ekRac3NLa1VDWXRTZFZySXlvQVdrRnpCcW9jTG8taEJTLVI3QWVoQXNyMnVTRVJ4N2M4bjFs?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "XP vê pausa no corte de juros até o fim de 2027, com cenário negativo para a inflação",
+      "titulo": "Itaú lucra R$ 12,6 bilhões, com alta de 1,7% no trimestre e 6,2% em 12 meses",
+      "fonte": "Valor Econômico",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOSmlaWlo5Wmw2bHRRVDFQVHVidVpQLS0yVkNnUURHbjBWNUEtX0NWNjNZOTdJaDUyQVR1YmJ2bi1remEwMWpEUFZtYkNJN1Y5dTFtbnhHSnAwdThOOWlJTnBSLVdHS1QwTEhFa2tMUTJmUDNINmItRUIwZUl4N0ZTeG9rZE9oN2RTZ1VaWEVhaHdiVE50WWFtMzRpWHZjZWIzTkR2bXk3YXZ0VFBXUWE2Q1hFbFgzMmd5ejg5ZFRtRTA4YnYtWkd5dTVuUFAzck45V25OcndJQkPSAecBQVVfeXFMUDE3YnBMZkh3TnlGZkVMbElya285cmJyQXhOTEFnSm16a242NUFLMXJlajdiel9fSzVTOUowRmIxSzdPVzJWWFJ6bzJwRTlvNFpMOWdOdjY1Y3UxUWpZTy1DT0UtQ0hKam1yZTFYRGMyaTlVY0N6SVRrMFBZblRYUlh6YlhZblRIUmZaUV84NWsyam52QmE1UkFNalR3ZjJxWk5XOWtaajMtblplVGM1RDMtUXVqZFUwNE96LUlzUlVhOVZFZlk2dEQ2dWtUbEN6UmtyRkNieHRfVWlUUF9sNkUwd2pfcjcw?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Dólar hoje sobe a R$ 5,48 com preocupações sobre agenda econômica do governo Lula",
       "fonte": "InfoMoney",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPR3I5cGtrUTQxdHlZTnJrNEdKZ1Z5dTBHem5iNWRDZDRCS0NJM1M5cGxCTnVKQU9kU05YUnpJMWc3TkNJODV5MlhUSjRVQjQ5dExKbFBnMDBEeVFJRlFQS3MwSThfZUU3cDNaaUR0NEVJejYtczlmaWRLR1RKb29fN3JSONIBiAFBVV95cUxOMDZYcXI3ZHZWVTJBSm11TVN2d282eDBmZ0VhV0RKdVFpVmFZOFNQdlRYV1VITkwzeDFCU1NmdGlMWGdLZ2E3MWRIWFZVQUxubjlnSENhUV9mVldfVmxxYjB3Yk8tbXkzcExEZnBsaFg0Zlc1VVVLMmxPZ0JHSmVqZ0oxLVJUQ2tB?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Mega da Virada 2026 abre apostas com prêmio estimado em R$ 1 bilhão",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQnZXQjRZUE9pS1F2cE5XNzh0M1FNN1VMUV9LMzRRVmJJelZsZFVpZndCWVByLUFkLTlaTnlla3hOWlR6QTQ2YzhxWXBRVHhQNE9JQmtVandCNUlzY2l1MXA0Ni1vMmRXa0RyaVFWV0haVVpnYjNNMmZDWGxSSUwxclBSMUJOR1RfYU8wTVNqMFF0dUphQ0drRzRma2lEUjNEbDZ6U0FjSG1CRDE4a3dIWmpIUHY2R0pDT3RIMGhR0gHMAUFVX3lxTE4yV2puX0VMUjNhazBkbHBQNjN4XzltV3RfY3BZVGZwa2kxcE11V1YtSjhhNHU5VjhWOXM3NTBCQXZZM1Bwc3o0N3oyaU9xZ1JCU2huOFlkTExtVWF2dFQwVTdHNjMwaE8yWWxMYUFNQW51SGVRdUwzVWMzRGNPNEdzQUIxTUFhajIwemRHdm1fWE9SR3JtVzByLWFBTElrWGtyblVqU3ZSSnN1VTEybHZpbFlaWjY0aGh6ZGFqYjJmcjRLekJ3Z2RJbGdlMQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNlhaM2JfR29wUWNCWVo1aV9mVG1ib0NuWE5yNjNWU1ViV2x1YkJMVFFKRHMzZWMwTjh1Vkc4bXdrLTFZRzVtOVo1dl9WdDk1a1Nza09FYzBpamxOYWU5dGhlUG0zX05lUVhNcEtnTW1GSUNKUDFHZFVyc2VhdHVhUmFPUDM1MUV2QkFhZnJPa3JiX3ZTQ1hzdlpLWC3SAaIBQVVfeXFMTU05UXZLOVQ2emtTOGJDM1pMclNkTEFObUpWckpWbW5yZ2RzMjJpRkRHcHJNZTZnUlNWOEpjNl93aGdzYjFlcWl5V2Q3eFVZS2dLaFFXSU9nRUVIb1dqbjNtdTNYcmxHdEFwbFJyXzVaMVRkQndGUVRPejl3dnBjckp3c2RibkxFQVQtcHc1YXowMVlUMUhXQkYzaUpLUVBwZ3dB?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Janja entrega relatório a Fux sobre mercado de bets",
+      "titulo": "Senado aprova PEC da Segurança Pública e texto vai a promulgação",
       "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTy11dHdSV0R6a0piMjkybjIyNkR3TVRvbTUtcnBOd2NxR0xBQnpSWGU2aWgzZklweXJrWE1WeXRSOTVaS2tOdDltMTdRVW9ZMS1FVmJ1cDFlV1dPc3htcVFuei1EbGNvZWNyeDM1RElLaTJZMkg3WmZPcXVTVEE1b2ZEWnZiMGxveWYwTnNEM2dZbVgwb0tlSU5n?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMTE5YzZ3amswM3BiSEhVYXh0dG5yV3FHcVVYUERBZnpKc0Q0anVvWmlGWWprM2xsNkNyeENwOUR3cnJ5UFo2bUR1WFlZWWNiMW9Gdmd3NzZwcElzOWd3dHdUVjd6aDFIbWdNcUtNc0VUYmhqdGxvTTgzNWNicG5JemRmbE9WX0ZDaUxjR3cxTFNyT2o3bW94YzIwblpnTV9sMURGRWQ0VFA4RmczNkE?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Ministro da articulação política diz que governo vai atuar para evitar maioridade penal na PEC da Segurança",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNOWZWTUNjYWxxOVluc0lENkprZTh6LTQ4SFBvWmdKelRxQ2pRVHYzZVRwMnJmMmtZeTFJN1RsZXVNZ0FDTHhsVGFldk9HNU54em1LUkUzN18yMzVqNmJnd1FzYjlXRVFJTzRrNVBtTzZXLThNUkJ6UEF3bFNMMlNVMVRyTmhZdEtpaEFSSUJ0ZGMyU2NRUzg4aFliRjFBb3hqbDAtN3llczVxVXo0Z25OZ1hmdzFHS1VZb3gyM2U4Q1dwT0lOY2VvVFExQXhXWXJVMzBSZTduVEwydGltRndIR1pVbXE1Vnp3SnRxUVNwN2Z4OXFFb3J4dkh30gGIAkFVX3lxTE1NbnNtMEZfN0o0Z2E4TjkzbHhJdjA4Zm52dXp5Q2lrMU5vV0VWdUxpaFJHQ3ZvLWRaZFNnd0VfR1MxWFVzVjdjMm93QUx0Q3g0WnFBcUE5TGZHRDdFdkhkTFk5ZWRWMmRGNGNPYzBqaDM3dVBOQ0NIRTllSm01elRDUFJDOElaZEpkMW5TLUxMSHExZFJiVEJKWlVlc3E4ckgzRm41S2RwV19Cczc0TFFoZ01tNmp6Ym02NEwybjNxcHdzdy1ENVh5ajhkSmFXcmNNakNPdGc5UWs5aVhTME5ZVnQ3R3RpSEYtMzZhaFEtMklfZTlSU3dqZThBRy1Ea01tTllRV2lJRw?oc=5"
+      "titulo": "Após dez horas de debate, STF encerra audiência sobre bets",
+      "fonte": "Migalhas",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdlJGbk4xODdRUFZ0blFLOFg1aWZoWTNBR1l0WEVkUk9uQXc4RlM0ZDVLOVZQRVF3VVZHQUNwcFVrX29tQ09SYzJTY1pUVlpKUS1Wb05RUG1WdThlaDZLdDk3ak5QWmRfSjYtNDY0am9xZDRKNTYweGdrS01qazJVQjMyNHdPY2xIeGZ3NjFzbm5vT2xrWVBGMGY2Z05YdnN4THc?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "PT deve abandonar projetos pessoais, diz Edinho Silva",
+      "titulo": "Quem é Edinho para expulsar alguém do PT, diz Quaquá",
       "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQU1BfbkE1ZktwU2dIX29FNl96NllkaHItSzByN1FncWRnb3pnLWRKcWhuYjhwdjI4aThSX0NZcE5OMTRLY3lEb003dmFYdmx2R19TS0xNTndxYUlCUnptZWU4QW5lNWlsYi0zOHFwYWd5QWZNSG1JMklVSURaNnQ5X1hGcnRhMXRaMWkzbDBkTkFzazJCa1ByNnUxaHZFQUJ1endSZnhLX1cxQQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNb3otdlFEdWsySkgwMXplY0ozQTNmYnl1cjJhblM1NGozdU9Yam1aSGNPR29tQU1QSktvZnNlemxaX2Q2WXpIQTdsRV9WendyanZub3h4eGJNNWp0V1dZZ0Nzd3lFczJiT2hZUlc3X1VfSm9XdnRTVGxJbWZwZ3Nac0tpc1R0Z0duOUpWRGRHa0pZTmRXR2plbkR2M1hBT3ZzVEJTdlVFUVE?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Governabilidade de Lula exigirá negociação e acordos além da Esplanada",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbzBTVHNHVHlGeW1yNjNpVExBWFpqaTlPSk1YSno1QmdGVk5KNW54MmpUUk9NX1FGN0NRZGhUMWs5d2RYVF9nbXl2blJtNkltYUNFS2NPb3JCSHdKQWhjeFFRMk5iRXhjaGtmYzVUSEx2enZtbXVCZjFHTjQ2RHJSekI5VFdDakdBYzZ3ZHlGclBQeHFIS2VCVEI0REdDSnpBc01YUHJ5N0xZUFVTUG5ObmdwQnhhdlFvdHBoZ1NGYTN1Sjd4ZnZJ?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Análise: Lula vence primeiro teste no Congresso após eleição",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQmUxbnp5VmFzVDllRFZMZll0eXRINWVZUEwzcTJrUmp4RmJOc0Zyc0JyeVJVbnRpOG02SGxoQnZOT3hueXJpQm55czNfVjZVSWJ4TWUtSkFDa3c5N3FLcmVPMVVLRmJNaG1hOEV6UlFLS2hKSE1NZTdLdlR5b3JuUVk3RmYzTzRYeF9sZmViMlVYYW9IUTRMd25ISEdDRHh0VkNJQkdGeTZycC0zWUlMTEJmaUozNUlrajJV?oc=5"
     },
     {
       "cat": "politica",
@@ -346,16 +358,10 @@
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTWprbkpEendSVFhXc0JEcC1wVTFVeS1GT2dlQ25QdmpobF9GclFsTjJSc3BCdWlzZUQwNWl4X01QTnYtRVNScDdYeXROUnRyMGVlZWd2NTJSVFRLVGVtWm42bkhSZHhVZUlTV0JQamF3Z3JkVVBxYUpyTXdNaUpzcUpfeTVNUXA1ZmUxNF96RHVxdnBFR2IwVm83ZXhNNFdlVHpPMXMtcTBNRjFSWTFzR9IBsAFBVV95cUxPTWprbkpEendSVFhXc0JEcC1wVTFVeS1GT2dlQ25QdmpobF9GclFsTjJSc3BCdWlzZUQwNWl4X01QTnYtRVNScDdYeXROUnRyMGVlZWd2NTJSVFRLVGVtWm42bkhSZHhVZUlTV0JQamF3Z3JkVVBxYUpyTXdNaUpzcUpfeTVNUXA1ZmUxNF96RHVxdnBFR2IwVm83ZXhNNFdlVHpPMXMtcTBNRjFSWTFzRw?oc=5"
     },
     {
-      "cat": "politica",
-      "titulo": "PF apreendeu envelope com Vorcaro escrito “Congresso” durante operação",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQejdST1VDeGkwXzY0NHVFQzFZTDE2MHRHaWlnSUdVYTRfbHFoaWlTZ3lDZXRCNVh5QXhJZ3I2SEFreGJmblhHSXloY05XX3VTdzl5UEZkVEF3X2RBcHQ3M1RmX0hkRkVuRXpRaEdWLXNONnlISmQ1ajFNakxWWlpxM1N2Q2dmbFVEQ2VFV0RFX3NKR2xXVEhmMDlhUEYxMU9Jak5XczMtT0U4Ujg?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Jair Farias é eleito deputado federal com a segunda maior votação do Tocantins e recebe votos em 138",
-      "fonte": "Assembleia Legislativa do Estado do Tocantins",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUEhVS3c0RXg0eG92UnVIU0hkX3g4N1ZiX1BPeUwyZllUaDhsR3hwRmJzdjZfVEhJTS1fODBYQnhRMUZyMjBtV1V3YTg4NFJDRFFxcGQ5UGxGeDN0a0VLaUNvdHViM084TU42SjR4WWVSWUpxdVZMMnk2ZTFMdmoteTVoY3A4RkxWZHkzZzZNODdId0RlV2FlM1VpNnBnZUxxa2hUU3dwUXJNbGlwOXQwOWltdEdSNkFlY1Z6WkRlU0ZpT0FEZkx3VEphVmt4SUY0?oc=5"
+      "cat": "eleicoes",
+      "titulo": "A vitória de Lula explicada matematicamente",
+      "fonte": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE13eTNleWU2aXBydG9qbFBVTXdJbjFPQm1mckE4RXRxRHhoa1RycjFHdDFYVkpOMzBod2MtQU9MSjZJVGtxbFNZYlg2aGRLWU8tYmFUT1k2VHpiZy16N09uT3VfMNIBaEFVX3lxTFAycms1dGt2d0ZoUVVoaXV0eTYtdjYzUEpwZmRTcVh2Y0FBTjlWajlNdmJkd2NOaE5IZWhtRHl4RUpCbTE0NzdqcU03VGdTT0xEbXJCQzhRbkxsZmtlcUkwa0hXaU1rMXAy?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -365,15 +371,9 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "Governo Lula espera eleições de meio de mandato para recalibrar relação com Trump",
-      "fonte": "JOTA Info",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYkkzcm1jN3lYaW9QbThtY3lUakxtazA2REVlbi1fdkRMYkJ0TnMxeDFreDYzZTVOOEtoZGd4eUZQTFNjNXhDTnFPLTl3UGxfeXQ4RkFDM25rMmk1ZHk4djZCTm52TjdjWUdZenc3V3dmR1FsakV4Q3A2ZWFFRmF1S05hRU54SmctRXAzaGpQNVpoeW5zME1TcHNBaVBLR1F0RzRRVm9zODhoQ3lvWG9DQWF4Zw?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Com aval de Lula, presidente do PT atua para expulsar grupo apelidado de 'centrão' do partido",
-      "fonte": "Folha de S.Paulo",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQeFl5eE91VHlhUWhQVTNrdVFSUWVjQjVkcm9MdjNvOXA3eVhJcGtmMzcxTUdreXlJZVNZb1ViT1IwR3U3a0owSVFtZ3M1V05VWXhVc0Y4MDVtemxwSmliNU16OW9CNV9WRE80RDJoS3lPbUdVOER3TzlwcFZHQzFZTC1KUE1aM2wwMmZKY1M4VFVNd3c0TENhNTBKTjlNQlZYUjhfalYtZXNlaE1GMjJ4WHN3elpqLWxKSUZSTVVGdEVybW9Gd2IyNkJZdWVtMl8yT0JDU3diYw?oc=5"
+      "titulo": "Nos EUA, Flávio Bolsonaro vota a favor de PEC do governo Lula sobre segurança pública",
+      "fonte": "CartaCapital",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQTZIUzNuVEpVbjI5WTJaUFBmbEJULXpQWVRNR3VOWENJVkQxRmtwMWxjSGV5SXdWS0h4R3dkMkR1TllMc3ZaOEdnS3RPenUwdjQ2YVJ3SFVOT3pzUDZ4R21QSktaRHA3QmViRThINGl4eUVuRjU5QkI0QkE2ai0yeG9lWGxJU1I5TDZuaUhobGtkUzFfVmV5RTMzQ1ZhNjJnaEFjSHZDSFo3SEZsQ3AyUFNfMFIyREMxVTVDWFJlWVRjdGlG?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-03T18:03:59-03:00",
+    "atualizadoEm": "2026-11-03T22:25:39-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
