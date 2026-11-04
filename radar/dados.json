@@ -162,54 +162,54 @@
   },
   "mercado": {
     "ibov": {
-      "pontos": 165528.92,
-      "var": -1.42,
-      "anterior": 167921.8,
-      "minimo": 165528.92,
-      "maximo": 165528.92,
-      "hora": "04/11 06h20",
-      "ts": 1793784058164
+      "pontos": 167833.69,
+      "var": 1.39,
+      "anterior": 165528.92,
+      "minimo": 165541.38,
+      "maximo": 167986.38,
+      "hora": "04/11 15h00",
+      "ts": 1793815214541
     },
     "acoes": [
       {
         "ticker": "PETR4",
-        "preco": 50.71,
-        "var": -3.79
+        "preco": 47.63,
+        "var": -6.07
       },
       {
         "ticker": "VALE3",
-        "preco": 60.25,
-        "var": -2.85
+        "preco": 62.75,
+        "var": 4.15
       },
       {
         "ticker": "ITUB4",
-        "preco": 38.49,
-        "var": -0.48
+        "preco": 39.73,
+        "var": 3.22
       },
       {
         "ticker": "BBDC4",
-        "preco": 13.58,
-        "var": -2.02
+        "preco": 14.07,
+        "var": 3.73
       },
       {
         "ticker": "BBAS3",
-        "preco": 16.19,
-        "var": -1.7
+        "preco": 16.54,
+        "var": 2.16
       },
       {
         "ticker": "WEGE3",
-        "preco": 49.17,
-        "var": 1.67
+        "preco": 50.3,
+        "var": 2.3
       },
       {
         "ticker": "SUZB3",
-        "preco": 51.18,
-        "var": 2.07
+        "preco": 52.35,
+        "var": 2.29
       },
       {
         "ticker": "B3SA3",
-        "preco": 13.61,
-        "var": 1.34
+        "preco": 14.29,
+        "var": 5.0
       }
     ],
     "juros": [
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.4883,
-        "var": 0.0
+        "valor": 5.4621,
+        "var": -0.48
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.1675,
-        "var": 0.32
+        "valor": 6.1364,
+        "var": -0.18
       }
     ],
-    "acoesTs": 1793784058164,
-    "moedasTs": 1793784058164,
+    "acoesTs": 1793815214541,
+    "moedasTs": 1793815214541,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,45 +305,45 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Mega da Virada 2026: sorteio acontece no dia 1º de janeiro novamente; apostas estão abertas",
+      "titulo": "Mercado espera que Copom interrompa cortes na Selic e reconheça piora do cenário econômico",
+      "fonte": "Valor Econômico",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOd1dURTM1RC1VVUppdnVNeGdfRXFnY0pGbEtVRnRBUFJiXzJHQ0R3S0wwRDRta0JJbS1URHlmX3hJS3B2aGgxd0dENTlZVklBSlRGM0dvd201YnpBZ2hEbnRzcmlrWDBsR1dMWU45eEh4Z1hWNlZ1TnBOc3VDMExWTmtqZ2FZMm93cVFBckwtdDRqbzlWellYMldjOHNKbE5MVHcwYXd5MXRVQnN1b2c0Szhvd0Vyd0p5SFRDd2xCS0NXOU9Nd1QtZnZlM1BGZWZwLS1td3JtUC0wUTU2THfSAewBQVVfeXFMUFJLQ1NDbk11VDRYUDJ0eFJvYldUV2JJWjJVcjltNWR6c01RU3dGYTI2VHc2cndnRm9oM1FMYTJ1b2dmdVVNel9Nc0dWTUFmOFRwVjNYVE1RM1hYRHZHdzF6d0FvT1RDVWJoRVVFdzZVclpob3ZRMXBsbjdfRU9hbXliQjBsWGZFWlBoUHQwamg4SzJhSUFjU1JCZk96VUR2YWVkWllEUDFxYlVUVGR6VV96ekpvV045NkRPRkxaSXhZM0FsQzRWdFhnWkVrVGFBclQtVEdCeE9NdE8zMkdpNWl5LU1pSjBVZGxVVlc?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Crise bancária leva manifestantes às ruas do Paraguai",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMnBJaW16T0hmX2E4bWhjWXE0a01SR0FuWUZuY2NxSEFUSV9Eai14b0NuTmdkRGZ2NUtuOFAybVBMU1dKMnZsbldLaHk5bm9sODBZanoyX01LUnNhcWU0MVJLY3hobjJJUjJZM3FOaG5aUWh0RGpsMnUta2pCeXBIZFhZRTFwT3NCd3dIZUkzbC15V21Sck9KQkZEYlItV0dVa3NQSg?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Mariana Barbosa: Presidente do Santander diz confiar na independência do BC sob Lula 4",
+      "fonte": "UOL Economia",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZkVpVEZPM3hxeHZNR0JYcTJlcDNucWd4NXZzNW1sWkVLaEp6Uk5NOHNfdGg0ZDhvZnotSlRBdW9IajZWUFc0RE1rYVJNcnlyT0k4TU1wRU1OQXQ2eFNOZDlYMkg4bEJnUHFlSnlCUkFXZUdTRENHWVA3eG93TU1Id3ViZWN5UFNldThZYTREVHV2SkMwWDdGTE80UEFyM0FIRmlBMXgyWmtUVkF0YnB1dFlrSjE2a2MwUzIxWjhVaVFXSnJhTjVZSGNjdVpZVjc2d1E?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Governo de SC suspende aulas por 2 dias na rede estadual após alerta para eventos climáticos extremos",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONjIwTFNGZDl0QUtIUkw3WFkwMnBocm5XeXZReV9PTzdOWHNtYkRQNUMtbFo4a19HVC1yRjhodFpwRENnQ042bGRXTmJLci1mOUlwQmk4U0FtR0x2S0VsdlA4Z3J4V0g4TW9QVmVNamlkT2pTUHdNRjNiLWVrVW1qLWdCUGN4U3hlaWR2VjlldFk5Ukd2dFhVZndGVTFIVGo4UDd5VjBhUVlvaUVORnJGX2Jn0gHAAUFVX3lxTE9TS2Fzcmp4c0J3Q29uZkZYdjFKU1VtX1lOdmxyc0dvWEEwWEtsaXZwY1R3dlpBd3QzZHBjVDhOd3FhZ0hQQmgtWjJtb3BEa0xYZFREd1MyRGZtTUtyeHFYVzk1RTlpSWpGLWdfVE5rMXY2QWFfZzV5dGI1bDdGS2Itd1dOZEppRDFfZS1UQ1Vid3dsckxLdnFUd2FZVGMzSmM4NWxQcFJ3ZDFOYWhLSlR5SHFIWThlMTNoZjdTZk91bA?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Economista dos EUA cita preocupação com proposta de Lara Resende",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaVFVZ0FDTHB2Z3FaQ2x4WEcxZDZIMzZLemRfa25Ea1RSQW4xWWZsb3dMd1ZYZWpmUV9PTXNxeVlQcXBjdXMtcTRDRkZWcThidGIwbkxqVkJwd3NmVUxtWUNqaVAzUHREVlVkMDdhRjFpVFI2LUx3ekRac3NLa1VDWXRTZFZySXlvQVdrRnpCcW9jTG8taEJTLVI3QWVoQXNyMnVTRVJ4N2M4bjFs?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Midterms nos EUA: como resultado pode impactar mercado no Brasil?",
-      "fonte": "InfoMoney",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSjM2clFtejM5SFBzMlJHTjBuaHpJTFhqZlRNNGlJNzExakhwdFJOcGx6QnphSjFmbUpVV3FaWXpvMnpkZ0o1RWlud3A4anVCMHhpMGdScDBtaGNPem96bUR1Q1MwQ1BQRjV2N3F3TGFySFhjaERYNEoxcERmeEgxYlRGN2tUSnZocEcycjdDMnpNcENRQ0JJSkRmRzEzdzJ2c1JpZNIBqgFBVV95cUxObFFxMUNRUFVmS3JyYnNpcHlRbmwzU2h1aVlTV3BZRlBuX1pWaW0tZkd4RGRveEZmamV4ZkRSVENVX0FhU2x0SFByZm5va1V3Z0JBNG5hNXM0UFR5el9WeS1oQUtPSUs1VXNBbWJhUWxJOEtIZWVEWnJsQU5wUmRqWWpEck9DWDhGYXJjdTNGY3lHbEQzaXhZTHJxM2dLZGhvS1pySTJGUkc2dw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaFlJdlJHUEpPQVdyV2FmZ2RBbjA2RjlFUTQ0OHhzQ29GSmdfZUh0ZWozbnJYYTZaNkRuWnVIWFRjYjhhS3RCNkQzYWdhckQ4c0xpM25aaGNBR3EydlJyWFJIUU1hajNYc3g2MHNRVDVuNWJYNWI2TldKTTZGbmxpaE9zVXYyaHZneXdhOXBEZzUzazRaS3ZrejR1V3ZtU0F2a19uTklqUTVJQzI0Zll1aHBabndqZXZIaWxqUG1vdEbSAc8BQVVfeXFMTTl1aE15ZmtDMGFNckNvSFNQN0NJMm5RdEhNd2JWX0VFaG5ReWdMZGxiMHpvVUVLdjlKZU16V3hkaGNkY3hVNEV4WmZldzNTMGtTMHZOV1MtWkJMdi12NnhsWC03QmJQZk81bk9LZGdnc0JMaXBBX0c4SHl0WlM5ZVp5U1Z0VmZOUEtqU0RPbUxSV25KYnBCYVJwMGtOQ2x5YkJkRkdXTGlJR3NCZXFYNF9zX0ExQmxGSzBiSE1DUFVZT29OUjlCT2lOaW5rQktn?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Lula celebra aprovação da PEC da Segurança e reforça que criará ministério",
-      "fonte": "CartaCapital",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYVFoNV9rVG5nRC1Rc05iZ3pjYzZRUHVGSGx3VmRTdDZnY3pHWVdJNEl3Y0VGQ3JKTXpVMnZVdzVmcklsbXBqeE1ZS182bURaSFFSYkRYTm00NUdnWjNsMzR1TFY2N0hUZFQ0UkgxckI0ZHgyVGk0TzROc1pFS3I1U3hELVJCMm1hTV94QUY4bHAxekdGS0R6LWdUdWVWdGtjWnNFUzFTY2FHLXdneTgyN2ZIQVVyN1E?oc=5"
+      "titulo": "Eleições nos EUA: sete brasileiros são eleitos deputados estaduais",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdXdjQ2RXcmJaQWJaSzF0Tnp0NHFMOTFURmRmaHVYS3MxeV9tLVFvbWkxWXFLUjNBMDBZVTdwVGhfQ240eWx4aGdPNm9qLUVsR0I1SVZJR3lSSk1Ka3hEZTUxQnBnZE9KZF9CZmVKLWJFdjMwWWl5ZTk3STY4cUt5XzUxS1R5MWVwRE51R2lyQUlxaHQzUVVqeUtScjlJOWhjRkRsOU5DcDJXbkNXTzBsb2NZa2VCX0FO0gHHAUFVX3lxTE4zNlMyTVJRWXNwaEZfaWNxLXpDa0pOMDFQdTlhbURMVWtTajRpZzZKSnpxZ0d2MkdxZ0FwT1RQQXNvMWgyN2hORy1fRlRiM08xOUt2MENSeUtQNzJmRTE0cDJlMHVvX1BmWVFnMXJDU0IyY2stN0ExUDFlenNNUGVaZU9zMGVWZ0lCVXh4Tm9nQU9KUUkxUzJpaGItRDVMSWRCMEpSejFFNE02RWYyOFpoSFVZdVpqcWR6aFBfT0YzekdYcTNFdEU?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Aposta de Alcolumbre em pacificação com anistia a Bolsonaro enfrenta resistência no PT e no STF",
-      "fonte": "Gazeta do Povo",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPT0xERGlINDdLR0h4bUkyeUVjUlZxY1JQMjFZcUNwRE9waW9yTFBKMUNZNlpmcFhCbHh4Z3FETzNtX090RFF5cnB6QmFXMEkyZDEtZFdwZVIwZ0NhbWFQQWZ6bXIwdTlQaEtwT1RESms5SFRFbEFTOUpybkxIenVJMlBLTjI4UW43U3ZHQ2JiZWJ4U0xfRjg1UWNyOGxLM0d0QnZHMEJzdW1EMi0xSTdFWkYwNjBsdWhIZEdkNjF1YXlDbEdTSDh5UVkwQWU1b216ZkwyTA?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Saiba o que disseram ministros de Lula em audiência sobre bets no STF",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOb3dYZXJMQnZxaWYzaWI2d2NWM2dEWlJSQk12dzgzMUVBR0s4RzRCZm9BVUFtN3REVHlaNERiNDk3SzItelA3b0NyNTg5d09TZXJqNnl6OGtoS3l6cFo4ZWt2dzJaLXdianlhRXdReTdua05FY28wTHpUMFd6eTk2TERSTzdGT2FvSVQ2b2hscnNrYTJGa293NlBHc0h5OUhTUkRWZ1owYVZXSHhqcjBvbEx3?oc=5"
+      "titulo": "PL lança candidatura ao Senado de Rogério Marinho, que defende votar anistia a condenados por tentativa de golpe",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNXFSQzBlUXVIQVZUQ2hhR1RoYzJpZlFhNW0zZWx6c0lQZ3lNcW41T0VjR05zV21xRW1Wa2cyRlQySS15aFNSbU15S1pzYXo3THJacExTXzhqaFpLY0ZMMEU0N19qS2dCdXpSVzlHdmludGJQcG92YzNtZEF3S2xrcHdCeFFnbzVrZWZsNmFhOWZSb25DRUQ3RFNiLXJtRDVfSkZZVnRHUnRZbllT0gG7AUFVX3lxTE1Pek1aNXVKcWxYQmdya3FzT3VPd2ZvUzZHWGk1cWxtQTAyZmZQZzE4M1dIeHVvZ1c5dER1ZWVUUUVPaDNCNW5DZXJLZnBTRzB3WjhUZU1pUmpCR1VsVTQtalBIT3NJRHhrOE1QMTJHd3QwcHh0R2EtcldlZHUtSXVtSHdwNEIzVkwwSjQ2UXNsZ1Q1cFp6RHExc3dfRlM1Yndxdm9WYTE5ZTVpQmFjOUw3eElTWTgyTnVNazg?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Governabilidade de Lula exigirá negociação e acordos além da Esplanada",
+      "titulo": "Derrota de Trump pode frear política de intervenções na América Latina",
       "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbzBTVHNHVHlGeW1yNjNpVExBWFpqaTlPSk1YSno1QmdGVk5KNW54MmpUUk9NX1FGN0NRZGhUMWs5d2RYVF9nbXl2blJtNkltYUNFS2NPb3JCSHdKQWhjeFFRMk5iRXhjaGtmYzVUSEx2enZtbXVCZjFHTjQ2RHJSekI5VFdDakdBYzZ3ZHlGclBQeHFIS2VCVEI0REdDSnpBc01YUHJ5N0xZUFVTUG5ObmdwQnhhdlFvdHBoZ1NGYTN1Sjd4ZnZJ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPLTlDZVpSMjE1SUZHTDFTUEpTQ3BHTmVnUUh5TE9TUXJzNHI4bjZ1cE1kTzFRZ1BNWWRsN2ZkNG8yb2JzWkp6R1g4VTdnQzZKY1JLZURTMGhUd1JNVHlCRWFGbWMwUmRzVDAyYmpVWTUwX2xFSllnd2VRN0M5NHFsbFU3UnZJVUxjQnRaLU9jTWNBRVFmQW50WHhzSHJZclp4SEl2czVwNGFIODV2SlZ6MndlcTBzbURqMFgtdXY3YS1RcXQxRDhwX3pfSUZ5UQ?oc=5"
     },
     {
       "cat": "politica",
@@ -353,27 +353,27 @@
     },
     {
       "cat": "politica",
-      "titulo": "Análise: Lula vence primeiro teste no Congresso após eleição",
+      "titulo": "Comando do Congresso e ministro da Fazenda definirão novo governo",
+      "fonte": "Correio Braziliense",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOT3M2QWVIUThFRzVxT2dxUFFnZ2RTdV9SMDJRWTVtRTBoM1lJN0RFZXBJMTJKbnlOYUtmRmhUamlRWi1XOWNud2NBdkh5Uzh0SFMtWGtEUHlFQndQeDFTWEZ6cTBaUUVtNml0c3doeEtlQkdvSFUtTUZxWnRVQ3ZJOC1oVG1hZkhidWkzcnNIZjU3XzZCc0NxMW1YUmNHMjR1VlEwZU9kc1N5b1pwSzNfc3N3?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "Datafolha: 48% dizem não votar em Lula; 46% em Flávio",
       "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQmUxbnp5VmFzVDllRFZMZll0eXRINWVZUEwzcTJrUmp4RmJOc0Zyc0JyeVJVbnRpOG02SGxoQnZOT3hueXJpQm55czNfVjZVSWJ4TWUtSkFDa3c5N3FLcmVPMVVLRmJNaG1hOEV6UlFLS2hKSE1NZTdLdlR5b3JuUVk3RmYzTzRYeF9sZmViMlVYYW9IUTRMd25ISEdDRHh0VkNJQkdGeTZycC0zWUlMTEJmaUozNUlrajJV?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMHlYQzRmNUNGMDFadWlTQjl5dFhwUjBRck1IYXJ6OTgxWldhdmhkcUs4WmE5QnpoeWFuZm9La0dsUnNfWEd6dFd4OEM1aGJLMEFBZ3dBQjJRUzF4MklXR2Q4NFREaDI4OHVSWGQzVkhRUGJrRlpQRFpmRDlmTTVydEVDSU1uQ1BmcV9lRG1Rem83Zw?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "Flávio recebe R$ 924 mi em doações após 2º turno; e Lula, R$ 532 mi",
+      "fonte": "UOL Notícias",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdWZTRHJERDdXd3Rpd1V6c1VxOWNtaXl5bkhmLU80WEtfakZZa3lLVzZRV0Z3bDRUTTdRSHVGZ052emNEUjVoQUtNeDFaZmotTzBGV0VSQTJ2Z20yMjJiNDdyWHBCV2k3Q2FjOUNRWFVGUTBMUXMwOTJ6b3pXNmFhTjBGTEFUemxjQWo0Mkl5TTVPNlBFSHphcFVURzg4czA?oc=5"
     },
     {
       "cat": "eleicoes",
       "titulo": "A vitória de Lula explicada matematicamente",
       "fonte": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE13eTNleWU2aXBydG9qbFBVTXdJbjFPQm1mckE4RXRxRHhoa1RycjFHdDFYVkpOMzBod2MtQU9MSjZJVGtxbFNZYlg2aGRLWU8tYmFUT1k2VHpiZy16N09uT3VfMNIBaEFVX3lxTFAycms1dGt2d0ZoUVVoaXV0eTYtdjYzUEpwZmRTcVh2Y0FBTjlWajlNdmJkd2NOaE5IZWhtRHl4RUpCbTE0NzdqcU03VGdTT0xEbXJCQzhRbkxsZmtlcUkwa0hXaU1rMXAy?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Real Time Big Data: Flávio supera Lula e lidera cenários de 1º turno no RJ",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbUtLck5qUkdNWEpxMmJ5ZkVjeTcxaWZEb3BSQ203VWhsN2dXV093YS13cVhwbmYtS2tFY0UzQUJoRGVwSEVjcnpIbFk2c3VGdFZjbzhhMnhENGM3NGJjdUNzalA1RnV1eWFmM00tMXBwT096c3U5cHQySm9XMDE3WERJV1lxTmlkSFZvOGQzRkZ1RU9kU2xNcHRUbHdab09LUFU5bVpkQ1RfaldFaDVXUXp3?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Pós-eleição: deputados discutem fuga de Flávio Bolsonaro, ação contra chapa de Lula e ataques a indígenas",
-      "fonte": "Assembleia Legislativa do Estado de Pernambuco",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQUVFRSHU4V3BSYmFyc3RRQmdzYUJQbXNqVUs0el8zOWxQZUpJTzJGVHg4cVZCQURrQ2lCS1JHcS1SZHI1dnBHaU4yXzhmcmJ4bzA1NDA2RE04MzVuRHNqWl9MYVNpMTJSQXE3Ni02dzFMMTJYd1ZaOGNNbm01d3k3Z2pnSTdUUDlyLXI0UERzNEFHVnVxaHpBbENSZ0JIQTZfUnl5VGtZRVVwejJ6R1IxUmc3WEd4XzFqejQtZVF3UzBkaFlmakM1dFc4VmJJM0Yxd3VHWDU3a2oxeTQ?oc=5"
     }
   ],
   "indicadores": {
@@ -386,7 +386,7 @@
       },
       "cdi": {
         "valor": 13.65,
-        "data": "30/10/2026",
+        "data": "03/11/2026",
         "fonte": "Banco Central"
       },
       "ipca12": {
@@ -405,8 +405,8 @@
         "fonte": "Banco Central"
       },
       "poup": {
-        "valor": 0.67,
-        "data": "28/10/2026",
+        "valor": 0.6703,
+        "data": "03/11/2026",
         "fonte": "Banco Central"
       },
       "desemp": {
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-04T06:21:00-03:00",
+    "atualizadoEm": "2026-11-04T15:00:16-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
