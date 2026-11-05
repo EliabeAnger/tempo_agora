@@ -165,10 +165,10 @@
       "pontos": 167563.47,
       "var": 1.23,
       "anterior": 165528.92,
-      "minimo": 165541.38,
-      "maximo": 167986.38,
-      "hora": "04/11 20h43",
-      "ts": 1793835799554
+      "minimo": 167563.47,
+      "maximo": 167563.47,
+      "hora": "05/11 03h52",
+      "ts": 1793861579375
     },
     "acoes": [
       {
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.4551,
-        "var": -0.6
+        "valor": 5.4597,
+        "var": 0.03
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.1351,
-        "var": -0.2
+        "valor": 6.1488,
+        "var": 0.32
       }
     ],
-    "acoesTs": 1793835799554,
-    "moedasTs": 1793835799554,
+    "acoesTs": 1793861579375,
+    "moedasTs": 1793861579375,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -311,15 +311,15 @@
     },
     {
       "cat": "economia",
-      "titulo": "Elon Musk ironiza derrota dos republicanos nas \"midterms\"",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT090dXd5TWRmT3FoSG9TcENuUXVpdHllUjNrSWJ3U3hCX2prWkJXSm5rcmFpU01pWHh3YVhRb0pSN0ktZnFGZ0hPSWF2N2RPRDF4dFBaMUQ5TE03TzE2NGU1Y3NiS0s3RFR3dVNJaFhKbk9CZFJTbmUzNlFWUFctY2JwMXA5aFJxQmlGc1phWTVDVmZCcjRQU1NZeUdVUTBpblBpLUI1MA?oc=5"
+      "titulo": "Por que Ibovespa subiu 1,2% com vitória de democratas nos EUA – e apesar de Petrobras",
+      "fonte": "InfoMoney",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORTRFMTVYcExJYXlaY1l1N2Z0V3NncktIbnBBS21NdnVzT2tnRmJRaE5Kc1lZb3BBOXF0YWZrM0hNLW95S3BINXF2NlFQWWJ0Z3BqTEswVjBVUEFROHg1NldCeTBlN3AzbkZ3ZkxsRkZ4b1BQelMzc3VtbWxjTXFfYWo3ajdLQnJBazgtam5WWXdaT3NRTUQ2Z204eHlnU0pwQ2U4eFVobVBDbFVWYTViUdIBtgFBVV95cUxQS0RhMC1oVWo5OW5lUG85dmhiZXVKQkQtT3U1RUtsRjlxOEk2cHNfV2hCRmxaZkdwOFhjTTAwNFUtZktvM1M0M0ktTjVaekxFQm5Calo4dHptN2hWSkp3SFBjY0ltUUhvYlJEZThGb0l4QlRtdzdRZ3FvLU9xSE5vdmdITXVSMG43R2tUckJFNHU3RjhkYlNaX1U1NXpVeXFJb2p2cUtQZjFoYnZOOUp0UXFOYnpGQQ?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Crise bancária no Paraguai derruba chefe do BC e gera protestos contra Peña; entenda",
-      "fonte": "ICL Notícias",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAxMGZKVlZ1aWQwMFlrN1lFQjY0OE9YUXdaTmdKbmpwZTR5dTZMcGo0cUkxemFodXJVZjQ2TnktaE1xR0dsN05vcXZfdlJHMFVHak1acVpXQk40Z3VjMHN0VDVzS1VuT180N21oc3UzTW8yMWlBRkY4Q2p3TQ?oc=5"
+      "titulo": "Elon Musk ironiza derrota dos republicanos nas \"midterms\"",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT090dXd5TWRmT3FoSG9TcENuUXVpdHllUjNrSWJ3U3hCX2prWkJXSm5rcmFpU01pWHh3YVhRb0pSN0ktZnFGZ0hPSWF2N2RPRDF4dFBaMUQ5TE03TzE2NGU1Y3NiS0s3RFR3dVNJaFhKbk9CZFJTbmUzNlFWUFctY2JwMXA5aFJxQmlGc1phWTVDVmZCcjRQU1NZeUdVUTBpblBpLUI1MA?oc=5"
     },
     {
       "cat": "brasil",
@@ -329,15 +329,21 @@
     },
     {
       "cat": "brasil",
+      "titulo": "El Niño atinge a intensidade \"muito forte\" e pode seguir nessa categoria até janeiro",
+      "fonte": "O POVO",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWVA1LXRZdV9KVkh2Q3N5Rmc4eWEwVXl2V0pzUlpoLWp1cE5DWmktclJJQ1Q1cnVIUElrRnc1d19mN2FjdWQ0STRHckRzWXZkYkN0S2NzY29TYm1YZVFjYTl0Z0E3VnJHb0JZclJZREVUZGF1cFBQU1F0eUdRWGhzSERiSWV1Wm5qWG4wdkxXSi1PSU9Nb0oyeGxrandHUQ?oc=5"
+    },
+    {
+      "cat": "brasil",
       "titulo": "PL lança Rogério Marinho à presidência do Senado",
       "fonte": "Poder360",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQb2NwRGpRQ05XaWZwaWRDdzdSZkthUUpfcE1YMmpJYmw3T2g4Z3RIc3RrTWRsLVZGMWM3Y2NwdUJVY18tMjZZV0hCTDVsQ0FBemtQNThUTzg0TzZ6UzVUd3pvSkJnTjE4dHJEWUJiUmx3bjNnUUhRWWxaeXdWVVNxQ1Z6enlxQkQ0dFpMVGxzdldxRGhyazVqZUx2dVJsejlSZzNESk1ZbU9DaHIzMDNRUFQ4MA?oc=5"
     },
     {
-      "cat": "brasil",
-      "titulo": "Sistema Guandu volta a operar com 100% da capacidade; reparo na Praça Seca mantém 51 bairros da Zona Norte do Rio sem água",
-      "fonte": "Extra online",
-      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNUkR2RjYxTklKSXF6RVdLMkVfVVNNYmV4eXd2S0VzZHBodlAtVXhvdUtLay11WGdfd3JUcFlWOEt5b1Jndk1QazMzLWoyMjk0cWdzdlkyTWdIMVJoTzBHRVRZaUFKV3E5YzE3RDUtZjgyRDJTM0RwLXdycVNUQUxmUVFJa2JjS2NDbVljTDBBVW5EdFhtUjdNM3ctQU5uS1RUekxqT0laTkhnVTZUa1VHQUxMSjN2SU51SnlwTlA4NExzTVRaTF9ycTJndUhDLXdfUTktTk5XY2RoZFZnMTh6bVFsVExkUy1UelByZkFSbnJrUEpkaTh3cGxkZktfNEFTZ3JMRXg2SWvSAZcCQVVfeXFMT3BRTU5LUVl5YlJaYTBhX0ttTGJ3dVZtYzFSU0d2UlRLNVEzZFZ2Rmd2MkhPNzZReVRoNmgxQ3VraUtzTC04Zm9GSHI2Y1JHX0FlTldSdjBYeDJoTVd5VXhEaTFhUFJpb2JCYjlUdk9zbHR4aVJMcDJ5Uk1VaUdqd2V4eUQybnlaa1NhZ1BjUlI2NFJOLWRRU2RaSnpBSGc2OWQwNG11V1pSSWNXWlFYVzlheUtYN0tFQ0w0R1ZkaFI1OEFISDNwVmNIcmlIOXh5OTNxamJXdTFXb3JaUU1sZ1hubkszSzYtektUblBiTlFqTWhQY3VHbXNRMENYWi00YUVjUlB4TWZKdWtrc1BwWnJoNjNNZjNz?oc=5"
+      "cat": "politica",
+      "titulo": "Trump perde o Congresso: o que muda para o Brasil e para os conflitos no mundo?",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMTBCbFBJZ0k4MDd5cU4yUVQ2cElCUUt3b2lrUVZHWWZOUzZCcTljRE9mUDAzbzVsWXV3NElpTlU4aXNSWVpTYWZ4eGtLb1VLZ25VSmdVSWRZRWozbzJ2ZF94LXpjSURIdlVIOENVTGtkVldJVDk1UWVsZlkxcEtTYkdzV21hTjVrTlpFaXFjMmtfSWI4S0RnQ3NibzhQeHNxOFFSaXVGTUhLeDZJNl9FQWhUNC1aRjh4bEFlSHJIZXNYdHZ3N2pGcNIB1wFBVV95cUxPbThjS1pLYmNpczhyMk9pZkdSMDQzMmdKQ2NaZmY2STJTVWJMRkFFTVdRTXNJU3c5NVE3N19HeWt2OEh6blh0bjVmUTROMTRFUGxMeUNBR3ViSlJLM1ZLVDlodDJ4Y0VKTjVFWldSY09ERk9mNHRwWEc2Z2xvcUJFenluUm5QRHZNSWZ6Q1NWTlZISFBkTzFxaG5jV2FEdWpEa0J6eTMycHpUWE1FYVVUeTRFNFlyLTdKNXU5Vk04ZTNwVFphaDN3VkJ1NEVqUVM5dzhYQ2JKWQ?oc=5"
     },
     {
       "cat": "politica",
@@ -347,27 +353,21 @@
     },
     {
       "cat": "politica",
-      "titulo": "Como fica a situação de Flávio após derrota de Trump no Congresso? Entenda",
+      "titulo": "Governo envia MP do \"Imposto do Pecado\" ao Congresso Nacional",
       "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcFF1TWxLdDhJX1otakVnMk1nWFluRkhjYko4d085azEzNEZhTjZNZW0wUVp5M0RHQlIyNkhmWnRNdGRWWExxNXhGTDNZU1kxRHYtREdjU2Exd2kwWGgzOWxZTXdkS3dQeVFRbWk1Y005Q3RscUphWmR2VVVOSEJ6a09WaW1TMUh4ekVjX2w0UmtMNFFhWGlfTTdhMkQ1Q0E5eTNiN2J3TDZQbmVXdU5SMXVB?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaGpkWmFGdVg1c1VRcm1JM255NHdpMGJaX1lBdl96R3VQazlBVld5VzJJSUgxc1RjQ1BDQ3l1NG1oYmFDZnVjQV9Pdk5vM2toUGY3MkhoMjdqeTNwdU82WHdoTTlyT2Q2aFFwV3hJOEF2X2pDOS1PX2lfQVR4TXprTUdIZVd3WWYzZ2lVXzd4cnNkbmpyZEpUbk5CUXQwaVk?oc=5"
     },
     {
-      "cat": "politica",
-      "titulo": "Derrota de Trump no Congresso pode abrir espaço para Brasil negociar tarifas",
-      "fonte": "InfoMoney",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUjZjV0huNFYyMUI0NDlrc3F2RlBkMnk0S2JDd21aeDBWVnRuY0JKczA1ZUZIbi05RnRVZE1vbWxSTDRZcUdPSXY5NXRfbkJfb3RIX01yT0hEdFNDUXBIbUhUaGZWeHlJYlJzblhIdk0tZ2NDeE1NaE01NFNwSEFKaDljYU9zVUh4Qzh5bU5aeFFSWGRZZ3B4bm9uZ0dHSnlNaHZmVWwxbkVQcC1mZ2FZYjNkN3Ntd9IBuwFBVV95cUxNeWVSaUZ3VGc3TXQ5aVNLTkFIRTRLUkZOc0RXN0RReHZHVV9vWFpNd1ZISG5TOEdVNU5fY09VV0tlTllYVzRNY0xPcXRxRVVOa2xyWENlVEFHelFldFFicElLSmdVY0IwLUI3RnhWcHNLNW8tYTZoWUdZd09JYUZ5R09qQXNxZ1ByM3Y0STZqVUhYb3ZPdE9zSkgxQWhYSDFiNVdOM3JhVzNtR1ZOUThZUno3UHRXRS1CeUxZ?oc=5"
+      "cat": "eleicoes",
+      "titulo": "O que mais irrita e preocupa Lula após vencer a eleição contra Flávio Bolsonaro",
+      "fonte": "VEJA",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeDdLZ1FCQV9kcC1NNGVhMV9sQnBrNUpON3JQVjhvV253NW8yVU8yS3I4UXp6SFhRTGxJaktMTWFiejRVd0k5b1V0RkNnRnZrMm1RQkJJSTlJRGUxY0NwR3N5MUZQVF9Ma1FoMWc5R2JZZk5BTTF2MG9TNVZyZjNGTUdjdnVIUGFhN3VhY0Q5N3BwMkxCcDFyRzY4SmZMaTduMzU3QVlESUZTMmFPWkhTM2c1LUNjQQ?oc=5"
     },
     {
       "cat": "eleicoes",
       "titulo": "Datafolha: 48% dizem não votar em Lula; 46% em Flávio",
       "fonte": "CNN Brasil",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMHlYQzRmNUNGMDFadWlTQjl5dFhwUjBRck1IYXJ6OTgxWldhdmhkcUs4WmE5QnpoeWFuZm9La0dsUnNfWEd6dFd4OEM1aGJLMEFBZ3dBQjJRUzF4MklXR2Q4NFREaDI4OHVSWGQzVkhRUGJrRlpQRFpmRDlmTTVydEVDSU1uQ1BmcV9lRG1Rem83Zw?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Flávio recebe R$ 924 mil em doações após 2º turno; e Lula, R$ 532 mil",
-      "fonte": "UOL Notícias",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdWZTRHJERDdXd3Rpd1V6c1VxOWNtaXl5bkhmLU80WEtfakZZa3lLVzZRV0Z3bDRUTTdRSHVGZ052emNEUjVoQUtNeDFaZmotTzBGV0VSQTJ2Z20yMjJiNDdyWHBCV2k3Q2FjOUNRWFVGUTBMUXMwOTJ6b3pXNmFhTjBGTEFUemxjQWo0Mkl5TTVPNlBFSHphcFVURzg4czA?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-04T20:43:22-03:00",
+    "atualizadoEm": "2026-11-05T03:53:00-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
