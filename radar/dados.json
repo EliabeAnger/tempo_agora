@@ -165,10 +165,10 @@
       "pontos": 166191.45,
       "var": -0.82,
       "anterior": 167563.47,
-      "minimo": 166189.73,
-      "maximo": 168994.33,
-      "hora": "05/11 19h02",
-      "ts": 1793916135668
+      "minimo": 166191.45,
+      "maximo": 166191.45,
+      "hora": "05/11 23h30",
+      "ts": 1793932219898
     },
     "acoes": [
       {
@@ -244,17 +244,17 @@
         "sigla": "USD",
         "nome": "Dólar Americano",
         "valor": 5.487,
-        "var": 0.53
+        "var": -0.3
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.161,
-        "var": 0.52
+        "valor": 6.1694,
+        "var": -0.06
       }
     ],
-    "acoesTs": 1793916135668,
-    "moedasTs": 1793916135668,
+    "acoesTs": 1793932219898,
+    "moedasTs": 1793932219898,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,6 +305,12 @@
   "noticias": [
     {
       "cat": "economia",
+      "titulo": "Lula defende responsabilidade fiscal e diz que economia precisa estar 'arrumada' para atrair investimentos",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNVU50RWRkTU9TTXJ4Z1VXZVlqWUcxWlB5eXNPRUlxeWJoM3N6M2JsNUM2eVJ4azcxcnkyYkd3SnhTUzBOa1hVSWVwbkFWUXlrMGRxVWJncWJKb29mN25LZkFvVVlKMXAxLTBXWGZCQkFYSEQ0Ynk5dWVrYUFLYWd1NmlpdzVualQ5eFY3NDVyb0p4b0N4V1BHd2daV0JVQmVWUm1MN0tiMFhFRHBQR2poMDF1UGRjY2IwTzFpREd4V2c3TThTUm4tbjZoMkdGREctTHFuekg1ajNacWFMX2Z0MlhzQW9xV2tIWDNpWmVhUGlDaTI3VkHSAYQCQVVfeXFMUHNYb1JsN05vU3BGaDJnb01NaUhfTEh1cjlLS0tpN1piMlVVak5kZ2FKSG1nYlVVM3AwWnJUZFYtcm5OdXJlQ3hUMGFwa0Fka2pVQlk3Q3M3ZURqTDhzeEl1VUt6b05RZ2h4VTlIRUQ5SDFmTzZfOExCX01BVWl3dno5MkdDdFRGaHRMX1ozZG1mZlNUWmdZVEktSS1TLXVkM1pOTmNlRDVyQmJNaFVRQjRidFZMQklHMDJ0VWIzcmEyQVpTSkxEXzFEaXhqX21lMXVRZnRXeHJOY0V2YjNhd1FVckM3aG5rU0dmM1BNS2dhVWZtQjhaT3YzVGZFMDl4R3B5dFA?oc=5"
+    },
+    {
+      "cat": "economia",
       "titulo": "Imposto do pecado pode elevar preço do cigarro e da cerveja",
       "fonte": "Poder360",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZWp5ZTdyV1A2bjNKckdiTTdKYWx6cG1kaW5XVFBfUmFkZkh5eGJRcTJUZUNVb1M0UkxDdmpaUzVLbmwtYW54eWw5eUdjeWNkU1JnRDgySFprRFdjQ0x3Um5mVmNiM1EtOG9YbEpydFBlT3RVdnNDRjNYeWRCc202MDlMa21JYkMycHBiOWszRW9vMU1wS1V3NUl6Wm1ZTlpMeUM1ajRiQW1ZYTM3WmxPTHd3?oc=5"
@@ -316,46 +322,40 @@
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSWs0elJYQmlkbmpfS3otM3h4azJOWjNybkJ6eTM4UmhVR01nTDhYbUpqVVZfVmhhVmFHYXBQdmhJcEdyaUktWjc0OGVkMHhHa01FanNMSzBNUG81c2RlaUduNDRST2FKUDZzbEZZV3JobW40aHZXVDJoN294Q0JuT2lvN2FRNkgyckpvWHV5SzBWLUtPOXg00gGcAUFVX3lxTFBlem1EczIwZ25SdTFzSHY1eTNWZS16YmduRkV0YTZfMVZGdnA0WFB4aGdoclpLOFk5S0pLU0VvMnFHeVRNZ05pWDFqZF9JWllrYXA0SV9SbWZRdDFXam44LW1QZ0g0MTBFN2VCZnJDWFYwYXN5MXZUQmFabl9XZXdoRTdJSUhiZ0N4OVMyTDQ3WnM3WlZZdmxtSWJDWA?oc=5"
     },
     {
-      "cat": "economia",
-      "titulo": "Durigan diz que é preciso dar condições para a queda dos juros",
-      "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWmVWalNoN1RoZFJxdmJIM2k0Yi1kaUNzbWEtXy11Z0pKWmpJUDByOWoyUFNuNUJlcWZEdU04UWZwb1p1TXVkRmxlNmMwSHhTWFRSbGc5U1FDcml4a25PejkzTmhIbjlnYjF3VkxYVlh3S1dmb0JoYXNydG5WVUVtMktXSXdxZnkzSnBLVU5jTUxPZkY3cGQ5VWo5MTNnMC1YeXZ4bWdZV1lfMmhKZnd0enZvb1dLYmVrOEE?oc=5"
+      "cat": "brasil",
+      "titulo": "Flávio Bolsonaro diz ao NY Times que 'vai levar para o túmulo' como saiu do Brasil; jornal aponta ajuda dos EUA",
+      "fonte": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBoSTJYcDRfR2tqYU1WSkdPLXUtd3dGSVJsU1paNGZXTFBOaTc0Z01JY1hMdnFoQUw5RlJxVW9ZY3o5YngtZ1pzUGxFeU54azBhVkg1TE9TVjdpZ2xPTUFvSkRkMNIBaEFVX3lxTE1LajdvdlBSMFVTdVBrWTRQRmJDbmhhdDBSQUp0WC04NTVfOFVGdlpzNGxlM0JUQ0czYndOek0tRmpWc2h0am1pdm1EUFZLQ3lpQ1cxS2ZjNGZxSFYzR09YbzVxTWdyWm9l?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Tornado em Chapecó: veja registro de estragos um dia após fenômeno em SC",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNa19UY0FIckRLV1lkX1RqYlJQc1dxejEwMjFWTDd0TlIwX2lpa2tJTDhvQnhuRzQ2TUFuWjlBeG9mRzhUT0ZLeHg4VkRVaUhQOTdiTkw1S1pHd2hTWW53dENHaFgyQlJVOTVqcWFTZlpvRWNPbGE5a2YwVU1ZSWhoR3E2ZVNqZDNYcWdWbFM3WVozdkhnek9RVEVxOEVlRjJsQkoyeXBEZnR6M05HbVlsbXlQamJTZHJ4?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Operação contra bets ilegais: polícia apreende 35 celulares; ninguém foi preso",
+      "titulo": "Lula chama Flávio Bolsonaro de ‘pé-frio’ e diz que senador foi aos EUA buscar proteção",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOU1IyMjl2MUlNQXVyd1hGa2ZLbnF0SWlPa1VhX2VtWWN1NjBxZFZxWWMzMzFQdnNVb2FTdnhJNEs4dVpqZEVka3h0aVJlTlFRQ2pkek5xRTFpS2l0N3V3UmxfNmJ3RDMwYmhjOHFRcVJ3ZkhaQTRWQmlwZGlac0pkTDljSEtISG5oc1dKZTc3U1ZTMkVHcXdWZTNMaExqRGN1SFlvdDVadVVCZklDUTBFUjNtbDlaa2VZellPMlJVdGt1UUQ1cHFMbUFtZi1Bc3hIMUtwM3Jpbjhnd9IB6AFBVV95cUxQUW5CSjlieUdER3BGWDVvLTZfejQtZVBsZ3hhRlBleFZ6Z18wRjBva3FVVU42dk9BZkFvMnRWdm15Yk91bVY4VmtUUXVZbEdpQ2VQVmhpR0pGcWFRaVJmZldGcDZzUmJrWk15R2U3dXNmX2M0cU1CajlFbWhaaHBkYzVBdWQ3Vl92aWZoMHJ5R2JmRFlKX3NDSURxdDJFcVRoaWpJS2paaFAyYko2RHFtNWVjNGg3emJ0X2lQTVpQTThPajlUREVtWUwxSXVKTmNsWFo3a3ZKUmJseDU0SVZpOGgxMjVaYW9C?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTUNoYXBWWi1RN3ZiWmwxRFk5akZiWlVNOXdEaWdMaWRKcGFVZktuT0NqV1NBR3VKTTNoU25SVFhmUDZHY1hwU3N3YmdySkpMQWE5TWJfN3hhcFVNSVBqMjZienJZaWliYS16ckJrTjNuRWYxTHR5UnNGSExrYjBCMno4YVFEWXRvYll1dXpwNzNFWElvTlZJV2pyYU9jekUtblI4djA2SE9vNTlFc2pHa3pZWVJNMnBBbVV2cXNjLWNjWF9IZTM3cnU3T0V0bXh2MU1TSHFSUm0zdUR50gHrAUFVX3lxTE9Cc3ZhWVBEc1ZVdzA1aFl0X2U2U25rMUdzdlpQVHlMY19NRkNlRXVRR0hVRGdYTHpjS1dPcl9lbUtPTUh6R1VjRldMQkw2aEE5RW11bUR4WkszVmdGbEtRc1FXSVExSDBrZnMycjhhRXpiY0xqdm5PTm9yLXc2bGZtQ3V4WDZFN09EbUozdnNVdHlNQUwyZnhfYkh6NlBWUmEwYjFmQzNiNTF5NG4zWDk2UzNHODZ4clYwLUJvb0FlcXhDOGI0QXZJNUtNOVJoeVZmdEo2cElJb2FhQ0VJMkhpVEZfcmJCYWFUaE0?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "‘Vou levar para o túmulo’, diz Flávio Bolsonaro ao NYT sobre como fugiu do Brasil",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSXRTaWxQdWczME16aThLMkZPYk94SW9CbHpsT1A1cDNEemdNMUxTTTZqUHVRVURCY05BRmhUMDQzQjNneHpPTjlIV3kyVWtDMFNoME15N1EyYUM0RlZVMXFaSjk5SEVVWEhPTXlfM0xzd0FneTM1dldpWFNmd1pObENKalNBaWtVY1B3b3l3S1V2SGplemtUdTYwSjJ6QlljRmhIRXVXVF95ZXJ4NVZxMTRVOUVGQdIBuwFBVV95cUxNSlVGa2p2dDJ2MHBDdC1NZzR2WVh2OE1Dc0hYM21UR0I1c1g5WnhrQkVjcU9hblRkcUZjOXhNMG04OWE5QmhMd2k1S1lQUE1aMlB6WENBdDY3NVg1QlgzVVM3blkzZk9qei1YTjkzWjExQV9EVkdaY08wY18xb3Z1V1ZzTWVSRHdUOXljRjJqRXFDZjFvYll5eENjUGktaGlRMUc0VmVfODhMZjFkRU04dEhEM2podnU1bjlZ?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Maioridade penal: entenda as diferenças entre as propostas do Congresso",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRndxVnByaGFtVDduOFh6dEptcTQ3dkQwWFo2R0dxbExXTjRsZzBDVWtHTXlxeS1xYmE0X2ZKNmM4cEg3ZlJBT3BsRjdYMF93eVh3Z1JBOUQyMWsyeW1mTUxWNVZ4TTNDc29LNWJZYUJpNXdzMEZncHBCS3ZZcVRkdjlPOHJwZnFPNm15X3lSLW12TElZVFAtZ0VEeFJRSVZNX1BJelIxbDd2NGRUb3c?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Trump perde o Congresso: o que muda para o Brasil e para os conflitos no mundo?",
+      "titulo": "Médica vira ré por morte de paciente após lipoescultura e é proibida de exercer a profissão no RJ",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMTBCbFBJZ0k4MDd5cU4yUVQ2cElCUUt3b2lrUVZHWWZOUzZCcTljRE9mUDAzbzVsWXV3NElpTlU4aXNSWVpTYWZ4eGtLb1VLZ25VSmdVSWRZRWozbzJ2ZF94LXpjSURIdlVIOENVTGtkVldJVDk1UWVsZlkxcEtTYkdzV21hTjVrTlpFaXFjMmtfSWI4S0RnQ3NibzhQeHNxOFFSaXVGTUhLeDZJNl9FQWhUNC1aRjh4bEFlSHJIZXNYdHZ3N2pGcNIB1wFBVV95cUxPbThjS1pLYmNpczhyMk9pZkdSMDQzMmdKQ2NaZmY2STJTVWJMRkFFTVdRTXNJU3c5NVE3N19HeWt2OEh6blh0bjVmUTROMTRFUGxMeUNBR3ViSlJLM1ZLVDlodDJ4Y0VKTjVFWldSY09ERk9mNHRwWEc2Z2xvcUJFenluUm5QRHZNSWZ6Q1NWTlZISFBkTzFxaG5jV2FEdWpEa0J6eTMycHpUWE1FYVVUeTRFNFlyLTdKNXU5Vk04ZTNwVFphaDN3VkJ1NEVqUVM5dzhYQ2JKWQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZEpvNFJqTzFVOVgzTllqQ0E1S1hNN2F5SHg4RlVqYTFOMV9vNHdQSHRLeHdETm5adW56WXBUUk1BTjZ2dVdUUUVGUW9nbWFwM3NtVnRBbkFUZGl2aU1TZkZPaTc3elMzQ0kxR0xZUVNvY0swSnJQNnFXMXhCcTBYU0NkLTFsdnJKYzBORnktdDROUVJyVjYzemtWME9WanNkWE5r0gGyAUFVX3lxTE1tYmtiTkN4M2NVYmxaNWhnN0pLWVJsenROWkRxX1F5V2NLZEFSUHZVcEE4X1Jsam5RTm1VQVpDNEZJcHFUMXhoYlJTV1kwX2V2YnBtYm5sYzJFbW9aUzJReHFxWTN1b3p2Si1MMnFaRzIxMlZ5bHpmc2RpRkwtU1JyN0l1MlNMZnFDOGYwdzVfZ1NPWktCQVV4UTBCX0xaNWlISE1pdUxrbHVBRm5GZEI5Vmc?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Bancada do agro terá de transformar força política em resultados no Congresso",
-      "fonte": "Canal Rural Mato Grosso",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNQnpLWkk4dHZKTTBvWHpLQ09sZzhsd29Bb0d5QmhVRG0telpvV3F5cHNGbHB1NVBVeW1RWWhoVnVvT28tbmlfT2RuTmo5dzZFeDN6MDhRcjJwakJyYzBzY2lTMzRwcG4xcG9hOTA0NFpJY3ZtYWNaQ2lJeDh4S0lPWEJOcEFtV2gxWjhDVEZnRW9Id0oxbVFfbnJUTl9xTjNTbDhSUzJsREhpWHc2N3ZFNncyTzBNeEZYQXhJbUJLY1JhSGd3V0QxbE9SVkpkalY3Q29RbGlmc3c?oc=5"
+      "titulo": "Trump e Brasil: como o novo Congresso dos EUA muda a relação com Lula",
+      "fonte": "Gazeta do Povo",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRG5vNGNodU9QNEhyeEYwU0EyOFV5aV9BQ3E0UlotaFBJQmRyc2lqcWVvZlVpbEw1cU4zeV9xLWUyUjFVSlBlYm1OTEhtM2t0OGI0MDFMc1BfWU9oY215djJrZ0tkSWxTaWNDRnlodVV3aUVNSGFVdWFQMHJEM0Y0Y0ljVDhVd2gwMS11LWZBVmJlbXpRRU1vNnQwcElNSFkwVXVzSjdCRGszamZrZlV5ODVUQ2FGQms?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "PEC da Segurança completa dois meses sem avanço no Senado",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQLUdqb3kwN0k4aU1YOUN3dC1BTXBtWmZDbnhUT3B5OUJGbTl3YVAwM0N6VS1WQm9BbGhLR1FQZkJHellkS2J6SnhwS3UwbGRwdFFYME9rV3hNR1IyaVhJOUwzb0ZkRkpGSGVCQldXMnA1MERGTXE3S2ppZExUZ1lsRWtJQmxZalBLaDRGaEZad3Zna2Z2MmJSTm0zTG4?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Crise política no Paraguai se agrava, e base governista retira apoio a Peña e se declara a favor de impeachment",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPbWlrMjIwdDUwLXg4d1NaU1VNZmpES3d3REZEZHNXVU13emhsOXNiVXZzb21RU3dxR0ZIRjl2Njk5OFlkV0pNRWJBRWI0aXFuNXVmNE9CV1g3OGlHMUYta041V3d3X0V2TWRGalJkaVZValBnd1U2OERjUGVFMkJBZE5oUEt1SVl0T3dMN0RvTy10V3J5bHFSNURGck5nM2xmS1c1M2xaQmZtN1F2SjdZb1ZocU9lWkdHRUl2Q2MwRUw2N0VVWV9YOVVWYm1pTnZOdWFB0gHiAUFVX3lxTE9RN1VseUpvalZjWldmbGJDUlVaeXpsN1ZGdTFDTmJ6WHgxVGFpVVRsMWZVUklfWkxmck8xMTk2cGRtQVRucTZXcmhZaF9UQnJKTjI4MVdqN3BxTGpVUllVVTZKZDRjOXgyeTZHeGxtVzFzTlJUcmQ3cGxrWTVUTXI0Mk1YV3A3UV9la2szc1VaN3ZSdnZDM0hsY2NZbUZ0aTdoZ3pSS2ZFTjB0UDVBNXlkWTIwby1yRVlzd1lDZVJiaTAzeG9rcG0yMHFSLUZESENxc2l1Q01sSXBuUmJfalB2ZHc?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -365,15 +365,9 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "The New York Times minimiza entrevista de Flávio Bolsonaro e desmente teses de fraude na eleição e perseguição",
-      "fonte": "Brasil de Fato",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQVS1IT2xKN1dIbDJpVVhMOFU5NEdVc3Fac0tDckY1ZFlDOURpak1xbkpFdzh1X1J4NnM1UkpPUHJEZlFrdFpBaHp3RFpOdmczZHhfVTE0SkpzYmpUM25JajlaQ2ptMHhfbm5xejBCekFSc0s5YW9qZGdJV1U3TWM3Q0htMU5wV2NwcHJCd1Q2aU8zUGtITFRrQ1l6c1ZhMzA0c0lOak1UYkdnZXo2T2Y3WVZhem5tUkFkWkh4RnNTRVVNMTdUazBpOHNBaGFjQjcxZ1REQWNaZjFFeGZtSEtneTd2YmIyVTR5Zmc?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Pesquisa Alfa: Lula e Flávio têm empate técnico no 2º turno",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRDBGU0daRWtsZHZIX2cxenVBNE9pWGZzam5URWRIS0NfbkVMbFY4TFVMOHRSZ2wwRzdsTkNEM0stbTRmNE9UeDF0M1B1NER3OFNLa24tWmpKTi1Yc1FzYVVDUHJVN3laUkRDclZsS0xMSFZ1NlZRU3JLMHROSFQzVTN4Rm9HUHlKNGNJOVZJQU1sSFFkYWkzU1JadlVxdjlW?oc=5"
+      "titulo": "Lula ironiza fuga de Flávio aos EUA: \"Pé frio, derrotou o Trump\"",
+      "fonte": "Congresso em Foco",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSDFiS2hoc3Z1UWdNQXNkbUJBeGJMMDNTREotSG4xMnhRS3pQUVRMZ19SdGhLSkRTb3hCTEFPaTNfc2pab0RtM1BFU2xiOVFIQV9qVXhUakx6R2pPVTFmTERqamhKNTZna195Tkp4MzF3NmEwMjdwdFRyTHdyeFNvTWt2SUQtNldhdnd4X3B1SVkzeDlxcHVfMmtiOTVsaFhKNjJEaHJtWHBkcnhLNUlGYg?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,7 +1530,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-05T19:02:17-03:00",
+    "atualizadoEm": "2026-11-05T23:30:22-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
@@ -1548,10 +1542,11 @@
       "câmbio (Yahoo)",
       "Ibovespa",
       "8 de 8 ações",
-      "12 notícias"
+      "11 notícias"
     ],
     "falhas": [
-      "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
+      "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests",
+      "PTAX: https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados/ultimos/1?format…: HTTP Error 304: Not Modified"
     ]
   }
 }
