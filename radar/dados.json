@@ -167,8 +167,8 @@
       "anterior": 167563.47,
       "minimo": 166191.45,
       "maximo": 166191.45,
-      "hora": "05/11 23h30",
-      "ts": 1793932219898
+      "hora": "06/11 07h58",
+      "ts": 1793962703883
     },
     "acoes": [
       {
@@ -249,12 +249,12 @@
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.1694,
-        "var": -0.06
+        "valor": 6.1384,
+        "var": -0.56
       }
     ],
-    "acoesTs": 1793932219898,
-    "moedasTs": 1793932219898,
+    "acoesTs": 1793962703883,
+    "moedasTs": 1793962703883,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,21 +305,21 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Lula defende responsabilidade fiscal e diz que economia precisa estar 'arrumada' para atrair investimentos",
+      "titulo": "Imposto Seletivo: entenda cobrança sobre carros e quais ficarão isentos",
       "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNVU50RWRkTU9TTXJ4Z1VXZVlqWUcxWlB5eXNPRUlxeWJoM3N6M2JsNUM2eVJ4azcxcnkyYkd3SnhTUzBOa1hVSWVwbkFWUXlrMGRxVWJncWJKb29mN25LZkFvVVlKMXAxLTBXWGZCQkFYSEQ0Ynk5dWVrYUFLYWd1NmlpdzVualQ5eFY3NDVyb0p4b0N4V1BHd2daV0JVQmVWUm1MN0tiMFhFRHBQR2poMDF1UGRjY2IwTzFpREd4V2c3TThTUm4tbjZoMkdGREctTHFuekg1ajNacWFMX2Z0MlhzQW9xV2tIWDNpWmVhUGlDaTI3VkHSAYQCQVVfeXFMUHNYb1JsN05vU3BGaDJnb01NaUhfTEh1cjlLS0tpN1piMlVVak5kZ2FKSG1nYlVVM3AwWnJUZFYtcm5OdXJlQ3hUMGFwa0Fka2pVQlk3Q3M3ZURqTDhzeEl1VUt6b05RZ2h4VTlIRUQ5SDFmTzZfOExCX01BVWl3dno5MkdDdFRGaHRMX1ozZG1mZlNUWmdZVEktSS1TLXVkM1pOTmNlRDVyQmJNaFVRQjRidFZMQklHMDJ0VWIzcmEyQVpTSkxEXzFEaXhqX21lMXVRZnRXeHJOY0V2YjNhd1FVckM3aG5rU0dmM1BNS2dhVWZtQjhaT3YzVGZFMDl4R3B5dFA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPY3k5WnBNNmtTcGh3M3U2dVdoeEpibWp2YWdmSDFTUUxsVjluY2tRczMtcmp1WUR5ZTBGdE1VdUdZT1hjMFMybUNabWdkQjFHU3Y5TFZEUnRYcndtRDl3WVRLcThPVkdTQlhaTnBsWktlR3d0c2FMeXY2d1kyMlNiNm9GRHM2QVRTbnZyY1V3OTNLRnQ2OFFvaDN5UGtyNUFaNFNvVkhTQjJEcXVEQW1ONUlqTk8xWk14SDdWVkttWnRydGlJbG84atIB1wFBVV95cUxNQnRCcDVjZC1oMFJISnRvNzZGdUFfcldmTHZaN1MtUXRZQmx3ZU5iLTY4dmtXUy1aNzJ6ekJwRVFuSFhwLUI2Uk5pdG1RY2YtSEJhQm1WSDZpSlRIalRkenk1N0E1MktQY19CYUd3QjEtc0V1MGNQRjhSNnVLakt5RTNIekg3eHZrekl4R2w2X2E5WDR4cGgyWEFPSDY4cEhwbTNZTUF5ZHhKUk94LTQxckh5WWpUR2RsNERSZENYRkRyLXdnNU5BUTBDSmlFeWRyOGEwRWlsQQ?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Imposto do pecado pode elevar preço do cigarro e da cerveja",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZWp5ZTdyV1A2bjNKckdiTTdKYWx6cG1kaW5XVFBfUmFkZkh5eGJRcTJUZUNVb1M0UkxDdmpaUzVLbmwtYW54eWw5eUdjeWNkU1JnRDgySFprRFdjQ0x3Um5mVmNiM1EtOG9YbEpydFBlT3RVdnNDRjNYeWRCc202MDlMa21JYkMycHBiOWszRW9vMU1wS1V3NUl6Wm1ZTlpMeUM1ajRiQW1ZYTM3WmxPTHd3?oc=5"
+      "titulo": "'Temos que ter responsabilidade fiscal', diz Lula em meio a debate sobre ajuste nas contas públicas",
+      "fonte": "Folha de S.Paulo",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPQTJQUE4tY2VPRFFDS3lRbHZQXzZ6S011S2NLblNwZjFhak9TdHlaSEt1ZzlhRVVYeHdzRTJpNWRCY0tuVlV0bDFzaUg2NGx3Nnd5SkR0dEVIcFBLQXZHdWVXY2ZWeFNrTlVjOWNTR1lVY2NMRHBFQ3E3elltbVU1RVVVN3BIUlI3a3pmTF95MG9rVThaOGhUNGZWWWlMeXNIOVB6WGRfTVZuaWF0M056WDhUZDlGbDlVaW51U053c0wyaFlHcE5nem52N3hoa2JhNVNuYVNxYmx6Q3RzTlBqSVpB?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Nasdaq tem maior queda diária em 19 meses com temor sobre regulamentações de IA",
-      "fonte": "InfoMoney",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSWs0elJYQmlkbmpfS3otM3h4azJOWjNybkJ6eTM4UmhVR01nTDhYbUpqVVZfVmhhVmFHYXBQdmhJcEdyaUktWjc0OGVkMHhHa01FanNMSzBNUG81c2RlaUduNDRST2FKUDZzbEZZV3JobW40aHZXVDJoN294Q0JuT2lvN2FRNkgyckpvWHV5SzBWLUtPOXg00gGcAUFVX3lxTFBlem1EczIwZ25SdTFzSHY1eTNWZS16YmduRkV0YTZfMVZGdnA0WFB4aGdoclpLOFk5S0pLU0VvMnFHeVRNZ05pWDFqZF9JWllrYXA0SV9SbWZRdDFXam44LW1QZ0g0MTBFN2VCZnJDWFYwYXN5MXZUQmFabl9XZXdoRTdJSUhiZ0N4OVMyTDQ3WnM3WlZZdmxtSWJDWA?oc=5"
+      "titulo": "Goldman Sachs disseca o crash histórico de Wall Street: \"Nossos telefones estão explodindo\" - Investing.com Brasil",
+      "fonte": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOM1NlLXdDYmVVMW5BUE96YjlTdXBmNEI5aEpmNjcwSmIxU0tMTFJ5OFpKU0pHTENqa1l5RmI4UkNySDR0NnUzT3hxRUZlaUtZckdMdi1SUi1SdTNHa0t6UmtvMUxNQzdIR1JBaXBHcmxRZGkyUUVNUVZtWWMwS215aTRma3dDam1sblVZVEpJOHpSN3A1MVMwb08tYjFGd0pNcFVXd2VQQmlva2M3XzZ6OUNKTlUzRVFQSHZmS0dqY0dDVFN3eFlyNXpxZy1sZ28wNk5fSFJDUi1wUQ?oc=5"
     },
     {
       "cat": "brasil",
@@ -329,15 +329,15 @@
     },
     {
       "cat": "brasil",
-      "titulo": "Lula chama Flávio Bolsonaro de ‘pé-frio’ e diz que senador foi aos EUA buscar proteção",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTUNoYXBWWi1RN3ZiWmwxRFk5akZiWlVNOXdEaWdMaWRKcGFVZktuT0NqV1NBR3VKTTNoU25SVFhmUDZHY1hwU3N3YmdySkpMQWE5TWJfN3hhcFVNSVBqMjZienJZaWliYS16ckJrTjNuRWYxTHR5UnNGSExrYjBCMno4YVFEWXRvYll1dXpwNzNFWElvTlZJV2pyYU9jekUtblI4djA2SE9vNTlFc2pHa3pZWVJNMnBBbVV2cXNjLWNjWF9IZTM3cnU3T0V0bXh2MU1TSHFSUm0zdUR50gHrAUFVX3lxTE9Cc3ZhWVBEc1ZVdzA1aFl0X2U2U25rMUdzdlpQVHlMY19NRkNlRXVRR0hVRGdYTHpjS1dPcl9lbUtPTUh6R1VjRldMQkw2aEE5RW11bUR4WkszVmdGbEtRc1FXSVExSDBrZnMycjhhRXpiY0xqdm5PTm9yLXc2bGZtQ3V4WDZFN09EbUozdnNVdHlNQUwyZnhfYkh6NlBWUmEwYjFmQzNiNTF5NG4zWDk2UzNHODZ4clYwLUJvb0FlcXhDOGI0QXZJNUtNOVJoeVZmdEo2cElJb2FhQ0VJMkhpVEZfcmJCYWFUaE0?oc=5"
+      "titulo": "Alcolumbre vai avaliar pedido de Randolfe para anular voto de Flávio",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxON3NNMmNZY3cyZTZmMzg4QWtVRzNiM3IzTWI3UEFkdlBmSHViUE5BM0tCWDlRdGpGbDYxZEk4WmNVRmNoXzBNRXRjdTFtUWZscEk2U2tQc1JSLVlvTXlYZnhpN3B6WWlURnkyZm1qOFRHTTdOREY1VVlXcmtvbEVGR0RLay1oOEEwODhDT04xTS02OUh2YTZiUmtYZzJEelZqNzF1b3lYaTlVdDc4Z1htQVdwbw?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Médica vira ré por morte de paciente após lipoescultura e é proibida de exercer a profissão no RJ",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZEpvNFJqTzFVOVgzTllqQ0E1S1hNN2F5SHg4RlVqYTFOMV9vNHdQSHRLeHdETm5adW56WXBUUk1BTjZ2dVdUUUVGUW9nbWFwM3NtVnRBbkFUZGl2aU1TZkZPaTc3elMzQ0kxR0xZUVNvY0swSnJQNnFXMXhCcTBYU0NkLTFsdnJKYzBORnktdDROUVJyVjYzemtWME9WanNkWE5r0gGyAUFVX3lxTE1tYmtiTkN4M2NVYmxaNWhnN0pLWVJsenROWkRxX1F5V2NLZEFSUHZVcEE4X1Jsam5RTm1VQVpDNEZJcHFUMXhoYlJTV1kwX2V2YnBtYm5sYzJFbW9aUzJReHFxWTN1b3p2Si1MMnFaRzIxMlZ5bHpmc2RpRkwtU1JyN0l1MlNMZnFDOGYwdzVfZ1NPWktCQVV4UTBCX0xaNWlISE1pdUxrbHVBRm5GZEI5Vmc?oc=5"
+      "titulo": "PEC da Segurança busca abrir caminho, mas não garante integração efetiva do Susp",
+      "fonte": "Consultor Jurídico",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOWFnUU00bUl1dS1jckdaMTh2S1B0czRCbTBqQlhDSFpsZUlIeHBaaVNPajJkWVluWVk0YTNrX3FfWGt2aU1HNHp5a25DS0IzQnNuVXd2WXJGUi1Wb0M5VG1icThOUFlXQ19ZVlU4c0EyOHpEWEhsYVEwaEpZbFZXYVFHNXRNMDdrU1FpTUwtTldtSlMwZ0NoOWQ3QmFmNW0tY2tz?oc=5"
     },
     {
       "cat": "politica",
@@ -347,27 +347,33 @@
     },
     {
       "cat": "politica",
-      "titulo": "PEC da Segurança completa dois meses sem avanço no Senado",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQLUdqb3kwN0k4aU1YOUN3dC1BTXBtWmZDbnhUT3B5OUJGbTl3YVAwM0N6VS1WQm9BbGhLR1FQZkJHellkS2J6SnhwS3UwbGRwdFFYME9rV3hNR1IyaVhJOUwzb0ZkRkpGSGVCQldXMnA1MERGTXE3S2ppZExUZ1lsRWtJQmxZalBLaDRGaEZad3Zna2Z2MmJSTm0zTG4?oc=5"
+      "titulo": "Lula negocia ajuste fiscal e apoio político em meio à pressão do mercado",
+      "fonte": "InfoMoney",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbTNzUDB0aXAyenR0bHFKbGY2dzhKNFVlV1Rsb0NxRV9VczBmSTdHQVlsOWk2akpMQkpUZ2V3UEIxRzdCd09PazdGVkc5dG1USmdvUE1yMFhKN2xfcV9tRi1Pck5OT2M2WEo1QnI2Q1JZTHhsZlpObG5tazhBaHlHLUZvQUxLaEw0MnIyUzlTcWpOeWJCVXhRdHVTcEMzSk90V2hLeVpaMThTaXliNnpib9IBtgFBVV95cUxNdU55R1I3UWduUDBuVVU5YWVOWFNWZkhwQnRBWTM2N25Db1dlOHcxRnd5N3dUTmM4cGJVYjlmVGEwS3RTWndKMUNlbTdBVEdJNGpYRjFDRW56MjBJSXo0MlBJOHZiekZhUE94anUzOWxYUllRRUI4RnNBaEJuc3E4T1JyMmdaaVNGXzZkZGlJbDctRENHODdOS2hhUnRnV0tsVTlYQmZ1NDV1N0haLXhZNGotRVd5dw?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Crise política no Paraguai se agrava, e base governista retira apoio a Peña e se declara a favor de impeachment",
+      "titulo": "Veja linha do tempo da crise política que ameaça Peña no Paraguai",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOd1d1c0NGbnhNV0FSODhzZXdjRmFBRFhzaGF3YlVmZ29pZXBwSVl1QWFNV2ZZVENYUnBvd2xtYlpRZEQ2NTNMMFVOcnExb1lrSXJVS2NtNHhWRkY4eDg1azZwOWo4aHA2N0l5LXJ0OFNZUjloMXAxN2pQREJTSEU4bnUzYzU4TThZaVB1QWgwZk81Z0paLWZ1SHo3eWY?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "Lula diz que Flávio Bolsonaro foi pé-frio nos EUA e ‘derrotou Trump’",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOd1QyRERmZzhPZU5fUEdaa2ZicldIQ2dzMWEybkI4QVdxUTloSEg1dGMxNXV2czhMRnFsXzRsQnVFcG9fMERiNkY1THlCdnMzWHo1d0VkMi0ta0FSR1RyUG92Yl93N2Y1TS12NzBqeXN2VTIyal9Xc3pkVHcxZFVoeG1VNktYNEJyOXI0ZlRIaV94c3hyT05QRUFrYUhNYVVGcmo5QXNn0gGrAUFVX3lxTE9PQk1PcmxWY2ptWUZyUkhUSTdaenY3MXVoLUpCYXhlMmM0NXBJSnBSOUtXdnVjQThSb19HYTlENFVXNEVEQm1DUlZCeTB3SWhCLTB3d0JSZUxlWnU0Rm1oZW5MbVNfVV9nSWd4aENfOHpfNlpndnZZMlB3SXpyNTZrM1pydEpHcjlJN1ZZd2FMUGl6ZWh1UFZ6dFplRHJXLVFQRWptdEo1SWJKRQ?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "The New York Times minimiza entrevista de Flávio Bolsonaro e desmente teses de fraude na eleição e perseguição",
+      "fonte": "Brasil de Fato",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQVS1IT2xKN1dIbDJpVVhMOFU5NEdVc3Fac0tDckY1ZFlDOURpak1xbkpFdzh1X1J4NnM1UkpPUHJEZlFrdFpBaHp3RFpOdmczZHhfVTE0SkpzYmpUM25JajlaQ2ptMHhfbm5xejBCekFSc0s5YW9qZGdJV1U3TWM3Q0htMU5wV2NwcHJCd1Q2aU8zUGtITFRrQ1l6c1ZhMzA0c0lOak1UYkdnZXo2T2Y3WVZhem5tUkFkWkh4RnNTRVVNMTdUazBpOHNBaGFjQjcxZ1REQWNaZjFFeGZtSEtneTd2YmIyVTR5Zmc?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "'Vitória para o mundo', diz Lula sobre resultados nas eleições no Brasil, em Israel e nos EUA",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPbWlrMjIwdDUwLXg4d1NaU1VNZmpES3d3REZEZHNXVU13emhsOXNiVXZzb21RU3dxR0ZIRjl2Njk5OFlkV0pNRWJBRWI0aXFuNXVmNE9CV1g3OGlHMUYta041V3d3X0V2TWRGalJkaVZValBnd1U2OERjUGVFMkJBZE5oUEt1SVl0T3dMN0RvTy10V3J5bHFSNURGck5nM2xmS1c1M2xaQmZtN1F2SjdZb1ZocU9lWkdHRUl2Q2MwRUw2N0VVWV9YOVVWYm1pTnZOdWFB0gHiAUFVX3lxTE9RN1VseUpvalZjWldmbGJDUlVaeXpsN1ZGdTFDTmJ6WHgxVGFpVVRsMWZVUklfWkxmck8xMTk2cGRtQVRucTZXcmhZaF9UQnJKTjI4MVdqN3BxTGpVUllVVTZKZDRjOXgyeTZHeGxtVzFzTlJUcmQ3cGxrWTVUTXI0Mk1YV3A3UV9la2szc1VaN3ZSdnZDM0hsY2NZbUZ0aTdoZ3pSS2ZFTjB0UDVBNXlkWTIwby1yRVlzd1lDZVJiaTAzeG9rcG0yMHFSLUZESENxc2l1Q01sSXBuUmJfalB2ZHc?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "O senador Flávio Bolsonaro (PL-RJ) negou, em entrevista ao New York Times divulgada nesta quinta-feira (5), ter recebido ajuda de algum governo na fuga aos Estados Unidos depois de ter perdido o segundo turno das eleições presidenciais para Lula (PT)",
-      "fonte": "Instagram",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9keVZjaENUaGVqR2wxNWpWMVFuTGZXOE9ETmh0UWpTVzBQRDVCTFFXUTJXVWtFbFpTQUIyWC1RWHBfUFhTYXM0ZUdsZ05DNzdXLXc?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Lula ironiza fuga de Flávio aos EUA: \"Pé frio, derrotou o Trump\"",
-      "fonte": "Congresso em Foco",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSDFiS2hoc3Z1UWdNQXNkbUJBeGJMMDNTREotSG4xMnhRS3pQUVRMZ19SdGhLSkRTb3hCTEFPaTNfc2pab0RtM1BFU2xiOVFIQV9qVXhUakx6R2pPVTFmTERqamhKNTZna195Tkp4MzF3NmEwMjdwdFRyTHdyeFNvTWt2SUQtNldhdnd4X3B1SVkzeDlxcHVfMmtiOTVsaFhKNjJEaHJtWHBkcnhLNUlGYg?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTUNoYXBWWi1RN3ZiWmwxRFk5akZiWlVNOXdEaWdMaWRKcGFVZktuT0NqV1NBR3VKTTNoU25SVFhmUDZHY1hwU3N3YmdySkpMQWE5TWJfN3hhcFVNSVBqMjZienJZaWliYS16ckJrTjNuRWYxTHR5UnNGSExrYjBCMno4YVFEWXRvYll1dXpwNzNFWElvTlZJV2pyYU9jekUtblI4djA2SE9vNTlFc2pHa3pZWVJNMnBBbVV2cXNjLWNjWF9IZTM3cnU3T0V0bXh2MU1TSHFSUm0zdUR50gHrAUFVX3lxTE9Cc3ZhWVBEc1ZVdzA1aFl0X2U2U25rMUdzdlpQVHlMY19NRkNlRXVRR0hVRGdYTHpjS1dPcl9lbUtPTUh6R1VjRldMQkw2aEE5RW11bUR4WkszVmdGbEtRc1FXSVExSDBrZnMycjhhRXpiY0xqdm5PTm9yLXc2bGZtQ3V4WDZFN09EbUozdnNVdHlNQUwyZnhfYkh6NlBWUmEwYjFmQzNiNTF5NG4zWDk2UzNHODZ4clYwLUJvb0FlcXhDOGI0QXZJNUtNOVJoeVZmdEo2cElJb2FhQ0VJMkhpVEZfcmJCYWFUaE0?oc=5"
     }
   ],
   "indicadores": {
@@ -1530,23 +1536,22 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-05T23:30:22-03:00",
+    "atualizadoEm": "2026-11-06T07:58:25-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
       "BC ipca12",
       "BC ipcam",
       "BC igpm",
-      "BC poup",
       "BC desemp",
       "câmbio (Yahoo)",
       "Ibovespa",
       "8 de 8 ações",
-      "11 notícias"
+      "12 notícias"
     ],
     "falhas": [
-      "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests",
-      "PTAX: https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados/ultimos/1?format…: HTTP Error 304: Not Modified"
+      "BC poup: https://api.bcb.gov.br/dados/serie/bcdata.sgs.195/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
+      "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
     ]
   }
 }
