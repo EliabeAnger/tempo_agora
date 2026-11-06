@@ -162,54 +162,54 @@
   },
   "mercado": {
     "ibov": {
-      "pontos": 166191.45,
-      "var": -0.82,
-      "anterior": 167563.47,
-      "minimo": 166191.45,
-      "maximo": 166191.45,
-      "hora": "06/11 07h58",
-      "ts": 1793962703883
+      "pontos": 168663.05,
+      "var": 1.49,
+      "anterior": 166191.45,
+      "minimo": 165909.73,
+      "maximo": 169073.05,
+      "hora": "06/11 15h00",
+      "ts": 1793988054561
     },
     "acoes": [
       {
         "ticker": "PETR4",
-        "preco": 45.95,
-        "var": -2.48
+        "preco": 45.13,
+        "var": -1.78
       },
       {
         "ticker": "VALE3",
-        "preco": 62.67,
-        "var": 0.51
+        "preco": 63.73,
+        "var": 1.69
       },
       {
         "ticker": "ITUB4",
-        "preco": 39.97,
-        "var": 0.65
+        "preco": 40.68,
+        "var": 1.78
       },
       {
         "ticker": "BBDC4",
-        "preco": 13.77,
-        "var": -2.06
+        "preco": 14.1,
+        "var": 2.4
       },
       {
         "ticker": "BBAS3",
-        "preco": 16.49,
-        "var": 0.0
+        "preco": 17.09,
+        "var": 3.64
       },
       {
         "ticker": "WEGE3",
-        "preco": 48.3,
-        "var": -3.5
+        "preco": 48.26,
+        "var": -0.08
       },
       {
         "ticker": "SUZB3",
-        "preco": 52.29,
-        "var": -0.11
+        "preco": 52.41,
+        "var": 0.23
       },
       {
         "ticker": "B3SA3",
-        "preco": 14.36,
-        "var": 0.42
+        "preco": 14.48,
+        "var": 0.84
       }
     ],
     "juros": [
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.487,
-        "var": -0.3
+        "valor": 5.5002,
+        "var": -0.06
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.1384,
-        "var": -0.56
+        "valor": 6.1274,
+        "var": -0.74
       }
     ],
-    "acoesTs": 1793962703883,
-    "moedasTs": 1793962703883,
+    "acoesTs": 1793988054561,
+    "moedasTs": 1793988054561,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,39 +305,51 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Imposto Seletivo: entenda cobrança sobre carros e quais ficarão isentos",
+      "titulo": "Wall Street perde trilhões em um dia: entenda o que derrubou as ações de IA",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOXhxRktpMGd2UHZIWnRGMUt4VTIwMDBwMkQtVzdPZldOWk1pY0drZjNjWWxpdWpHQlNPemJvT0xxcUczUnlMbDZmdmQwUDRnUG5jUFNGQzhucDFkXzk0M2xreGFhbkhWa3B5ejEyUnRNVkNHVDRzSVNjeXN6cWRnX0pNYnM2MEN5Sjg0UUowa1pESC1WeDlXSmxiOXDSAasBQVVfeXFMTmFjaW42MzNvU3JKOFJsbTQ4TGQ3NUs1RnVvb09uOTM1dEhuLUZ2dXl0OGhET25pTktmaEFmOURDMnZEM0ZNbmVTalpoRjBWbzQtREw2Zmw4OVNtWWE4Z0JJYmItVjNaRXhLX3QzRU1wdWlJUGJLbGY0ZG1WVjRpdHlqbHVlaXF2NHd5T0xnakpwU0VLT01CNkowdWhwU0pKZmc1LURPaXR0eWgw?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "A economia ‘arrumada’ de Lula, depois de se encontrar com Mantega e turma | Estadão Analisa",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZFk4cjlOZnJlRElHVTI1UDRid28xYU1zazYxLXZhbjFBeE91NWFIcEM1OXRqczRIVDZOUDNnYUE2RkkwM1pqVFNzbS1yZERmUkx5QlctOVlkS1VkT2U4MzZyclRwdWtUNG5LVDZORFFyeENXV2t4V2NzMnBzTlhNVmo3ak55MF9uZ2lrbVU0aFd0SEt6YnZ5cjlZZ2pYYklybWk5TkV1My01N0hsWTI5YmpraWlHSjF2Ti04SGlDUU5YVFBncTRyeWpXbWM4bmZZODFXY2dB0gHbAUFVX3lxTE5VWjhOOGYxaFdkWFFEUFNma2FNbkNUMC0xVWhrSG1ObktxQUhxZ2VURWV0OTB1R0RwYTBGOXRWeVA3Wlp1LUhYdC1iVV9reGV2Wk8yODJPWWlteW5zOWYtYVJKemxMNnhhN1ZJRk1XTFdGRERnWGo4ZzNuZDhsb0FmVjhoaUVpSmR6eXNwTnFHNzFYa1EyNTM5TlJ4UHUtbjh6eURMRmZ5NmRGUE9LRVpMMEJqRlZ5MzhPLXZZZDdMUFg4QWxJUHRnTXhxaEltYVR2UEI4YjR6T0gwdw?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Por que o Ibovespa sobe mais de 1% mesmo com dados fortes do payroll nos EUA?",
+      "fonte": "InfoMoney",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNem1YcXEzVEkzeTBXUDJJTXlNeWh2WGJEd1ItcjVUN09aUHE4N3BEdzlVU3M3TDV5bXBwU211RDFqMXRBN3JrTmJTSURjWW1RWThQX25OamRfY1hWNTU0eGE3NUs4NUwwNHZOTXcxaks2bVhKOVBfdWEwTjIzaFROMWE4YjBvN1o5eEQta1hOX2dGTzhFbVM4dy1ZMVVJVjJlYnEweFMwOTM5UDdUTnFaZ3dtTmzSAboBQVVfeXFMT1dLTmhLVTctUzZvZThHYkMwX1REM3ZNYlFzcFVyMXdzMkdSWGdMemFqVGhneDZLUUJXSHlwN0t1OXZaNXBkVk9qVWRITVJlVl9NNWFCWTdOeVFaNlUtakVpY185UllJTi1GNGtvQU54SnlPWThhVUVGRENPWW5WTUlISDFOYjZJbUl0WnBuSU1Jbkw5Z0JXWDgwTVNBdnNmZm95T0g5OG5ZNG4wOW5zTjRLMWthWkkwRUtB?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Lula diz que Brasil tem 'seriedade fiscal' e que pobre não vai pagar a conta do ajuste",
       "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPY3k5WnBNNmtTcGh3M3U2dVdoeEpibWp2YWdmSDFTUUxsVjluY2tRczMtcmp1WUR5ZTBGdE1VdUdZT1hjMFMybUNabWdkQjFHU3Y5TFZEUnRYcndtRDl3WVRLcThPVkdTQlhaTnBsWktlR3d0c2FMeXY2d1kyMlNiNm9GRHM2QVRTbnZyY1V3OTNLRnQ2OFFvaDN5UGtyNUFaNFNvVkhTQjJEcXVEQW1ONUlqTk8xWk14SDdWVkttWnRydGlJbG84atIB1wFBVV95cUxNQnRCcDVjZC1oMFJISnRvNzZGdUFfcldmTHZaN1MtUXRZQmx3ZU5iLTY4dmtXUy1aNzJ6ekJwRVFuSFhwLUI2Uk5pdG1RY2YtSEJhQm1WSDZpSlRIalRkenk1N0E1MktQY19CYUd3QjEtc0V1MGNQRjhSNnVLakt5RTNIekg3eHZrekl4R2w2X2E5WDR4cGgyWEFPSDY4cEhwbTNZTUF5ZHhKUk94LTQxckh5WWpUR2RsNERSZENYRkRyLXdnNU5BUTBDSmlFeWRyOGEwRWlsQQ?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "'Temos que ter responsabilidade fiscal', diz Lula em meio a debate sobre ajuste nas contas públicas",
-      "fonte": "Folha de S.Paulo",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPQTJQUE4tY2VPRFFDS3lRbHZQXzZ6S011S2NLblNwZjFhak9TdHlaSEt1ZzlhRVVYeHdzRTJpNWRCY0tuVlV0bDFzaUg2NGx3Nnd5SkR0dEVIcFBLQXZHdWVXY2ZWeFNrTlVjOWNTR1lVY2NMRHBFQ3E3elltbVU1RVVVN3BIUlI3a3pmTF95MG9rVThaOGhUNGZWWWlMeXNIOVB6WGRfTVZuaWF0M056WDhUZDlGbDlVaW51U053c0wyaFlHcE5nem52N3hoa2JhNVNuYVNxYmx6Q3RzTlBqSVpB?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Goldman Sachs disseca o crash histórico de Wall Street: \"Nossos telefones estão explodindo\" - Investing.com Brasil",
-      "fonte": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOM1NlLXdDYmVVMW5BUE96YjlTdXBmNEI5aEpmNjcwSmIxU0tMTFJ5OFpKU0pHTENqa1l5RmI4UkNySDR0NnUzT3hxRUZlaUtZckdMdi1SUi1SdTNHa0t6UmtvMUxNQzdIR1JBaXBHcmxRZGkyUUVNUVZtWWMwS215aTRma3dDam1sblVZVEpJOHpSN3A1MVMwb08tYjFGd0pNcFVXd2VQQmlva2M3XzZ6OUNKTlUzRVFQSHZmS0dqY0dDVFN3eFlyNXpxZy1sZ28wNk5fSFJDUi1wUQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1Td05yZl92b1Aybl9zc1NTbHhQbHktdXRxbVVEWkNwa05TVU5kVmxLeEZIZUZXeDktZTR3aHl1dzBDVFRGeWc1WFUwMThJVkt4TGtiN0c1eFdCSXQ4QmtXV1Z1UUMwSmRMOGlKYVRPM1h3R2xQdUEyWWJR0gGIAUFVX3lxTE9oWVU2QTRWcjg4Q0dTaUoxTU9pajRYcWxidnFvVzAzTTVyRzhSaE1sQmN4V2FUMDdnaWVXU0w3SVFrdXZwNHB0c2phVS1yU3l3UlVieUhOdDdnQmlfamIyUF9RVXRtU3B1M3VhSjZvamhPRGdvbC0zSmFPZmV5OGVweG9sUENSSFE?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Flávio Bolsonaro diz ao NY Times que 'vai levar para o túmulo' como saiu do Brasil; jornal aponta ajuda dos EUA",
-      "fonte": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBoSTJYcDRfR2tqYU1WSkdPLXUtd3dGSVJsU1paNGZXTFBOaTc0Z01JY1hMdnFoQUw5RlJxVW9ZY3o5YngtZ1pzUGxFeU54azBhVkg1TE9TVjdpZ2xPTUFvSkRkMNIBaEFVX3lxTE1LajdvdlBSMFVTdVBrWTRQRmJDbmhhdDBSQUp0WC04NTVfOFVGdlpzNGxlM0JUQ0czYndOek0tRmpWc2h0am1pdm1EUFZLQ3lpQ1cxS2ZjNGZxSFYzR09YbzVxTWdyWm9l?oc=5"
+      "titulo": "‘Verdadeiro confisco’, diz decisão de juíza em SP que liberou 3 bets; entenda o que aconteceu",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQktXNzZ4WVlBTFM4RXZSd1NpUzBSTlBORlBkb1NHZENaMnhMM2NMd3FoZm9JRTNsS1ZLUTdNT2VJTmtnWWdFbGhGdzZTSDIwN2NuUXlZNUpNMUg2blpEbEliUnhXNTFIS3oxblFNdFpXWDZwaWJ0SFU3X0ZKaUViOTk5RFVnaXlWOWF2U0o3MXExTXNDeE1sdUdoZHFmaDFMa2hoQWlUTHdldkJxMGt5cnZwNUNtNm9RcV9HQ1Q5UU5VTWNlMWRn0gHMAUFVX3lxTE00LXFyUXpib0lvdmF5anBKWVRBS0trNWNIdlRYQWZhSjRkUUZpQ2R6cFF5WkhSMkktSE92VEpabFFnT0E0NllLZjF1WmhldDQ4UkZrQUdla29NNEVSMzNiX1BsU1RjTG40OXhJQlk3X3N2ZHNQbjdaSWZEWllIcFdXSW80bjlsTVV1ekU2MUJpVm1lTFU1LXN0dHF0VTFZZERuT3RQOFdjeW95UU5DbVVzczVfemlZc3NxTzg0Ry1nbUl6eGM1SVpxYlNONQ?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Alcolumbre vai avaliar pedido de Randolfe para anular voto de Flávio",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxON3NNMmNZY3cyZTZmMzg4QWtVRzNiM3IzTWI3UEFkdlBmSHViUE5BM0tCWDlRdGpGbDYxZEk4WmNVRmNoXzBNRXRjdTFtUWZscEk2U2tQc1JSLVlvTXlYZnhpN3B6WWlURnkyZm1qOFRHTTdOREY1VVlXcmtvbEVGR0RLay1oOEEwODhDT04xTS02OUh2YTZiUmtYZzJEelZqNzF1b3lYaTlVdDc4Z1htQVdwbw?oc=5"
+      "titulo": "Após temporal, BH amanhece com desabamento de complexo de moradias e 1,7 mil imóveis ainda sem energia",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQeU03aE13RThwaDN0RDk2WFN3Q1lqRVJiMzFzcWZSNWgzeUlINEhHRW1IamZhQ3RISlR5UmQwMDJkSTlRWUdpMlNsSHZxbUpqM093UzhNM3lXOWJIYUtEbFJFbEtPWk14ZERxMkJFWXEtcnA2UEJzREVkTXRkTUJqcXNPcUlsNkZGV3VLUVpEU240RTJjaFY3VGF3UjRWeWUzR0laUVRLY3BWcFV6cXVyQU91MnVjTUFGTTVVazEwZzFFaUlJc2YwbmZnM2dJbUtwZUJHRU9ETURUQk42aWVIWnVGblF2X3lFZHF1WTI2MzJSRlYxT0Y4emJSRDZ1T3lVRG9zODZUNNIBlgJBVV95cUxOWUFRdkllc19TV3drVFBHYXpYNEFBT1ZaMW1jVi0xdVhWaVZlRHpvcFNqamxWdzZnaWl5OElSUDlmUVZkUWdacUFQWmlneE9OTW1CekwwNjdHek9VaUMzaGs2NXJmcGRSYURaLTgwNzJnOEVZTWlBdkVVU0NkOC04cXpMSDdEQ1AyVFhKT0laNjlPbV95NTYxaEdtcVctLVp3THFxMEIya2lteW9fdXVYcTdSaUw1MVJPQ1FjMW82eGZQenFkaVdqeWttbzlxS18xTU1QV19iLVctOXhNYVU5a1FmVlBUOTJtSEswaTJQRmJYZXJ2Tk9YZlB0MjdhMWFRRllqekN6cUpKa09vb05ldUhwaGpTdw?oc=5"
     },
     {
-      "cat": "brasil",
-      "titulo": "PEC da Segurança busca abrir caminho, mas não garante integração efetiva do Susp",
-      "fonte": "Consultor Jurídico",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOWFnUU00bUl1dS1jckdaMTh2S1B0czRCbTBqQlhDSFpsZUlIeHBaaVNPajJkWVluWVk0YTNrX3FfWGt2aU1HNHp5a25DS0IzQnNuVXd2WXJGUi1Wb0M5VG1icThOUFlXQ19ZVlU4c0EyOHpEWEhsYVEwaEpZbFZXYVFHNXRNMDdrU1FpTUwtTldtSlMwZ0NoOWQ3QmFmNW0tY2tz?oc=5"
+      "cat": "politica",
+      "titulo": "Cúpula do Congresso deve indicar nomes para ministérios de Lula",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdWhmeDVZa1FTU2FTYk9NUXRlT3U4cUZoVzdJU083WW1vNGt3Z3B1NmotalBRY3RMYmNsRnl4eGJEZldZaVlubkRGWTZzcVloLTlQSWF0eUh6bGZOOVpzb3RuajFtRkJIOThrWHhwZVYzQ05Gc2k2RV9Ec2ROTENVT09QTGNpWmVZU0lVWUppVmpza2JJQ0k2YktONlQ0dXptTWJwZjJ3UktLeGFFOFNmZmJWeUlWT3VZUlAza2d3?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Plano Brasil Soberano 3: MP que financia exportadores afetados por tarifaço avança no Congresso",
+      "fonte": "UOL Notícias",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWWhGS1g0MTIxTTVaNWJfeHk0VFl4cmhCeEhQdWtCelphd1M4SE1nWmcwdTlMdXZjNVg4S293eFJtTzNBOGZKdGltVF9HQ2NFSFZQSjl0N05aOWVpNGxZc0IzaFdidTdQTUs2ZU8ydC1nWFNRV3FLUEVjSS1xUjI0SDJxY3REUzJ5UFVzQWkzVndZZXVYNEIyRmswT3NsOVRrV2NDRndydTY0NlhVZTVrVXVPT3ViRFZOeXZheEZKQWs5dkFNU2ViSDRVN0FSWklHVXlJ?oc=5"
     },
     {
       "cat": "politica",
@@ -346,34 +358,22 @@
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRG5vNGNodU9QNEhyeEYwU0EyOFV5aV9BQ3E0UlotaFBJQmRyc2lqcWVvZlVpbEw1cU4zeV9xLWUyUjFVSlBlYm1OTEhtM2t0OGI0MDFMc1BfWU9oY215djJrZ0tkSWxTaWNDRnlodVV3aUVNSGFVdWFQMHJEM0Y0Y0ljVDhVd2gwMS11LWZBVmJlbXpRRU1vNnQwcElNSFkwVXVzSjdCRGszamZrZlV5ODVUQ2FGQms?oc=5"
     },
     {
-      "cat": "politica",
-      "titulo": "Lula negocia ajuste fiscal e apoio político em meio à pressão do mercado",
-      "fonte": "InfoMoney",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbTNzUDB0aXAyenR0bHFKbGY2dzhKNFVlV1Rsb0NxRV9VczBmSTdHQVlsOWk2akpMQkpUZ2V3UEIxRzdCd09PazdGVkc5dG1USmdvUE1yMFhKN2xfcV9tRi1Pck5OT2M2WEo1QnI2Q1JZTHhsZlpObG5tazhBaHlHLUZvQUxLaEw0MnIyUzlTcWpOeWJCVXhRdHVTcEMzSk90V2hLeVpaMThTaXliNnpib9IBtgFBVV95cUxNdU55R1I3UWduUDBuVVU5YWVOWFNWZkhwQnRBWTM2N25Db1dlOHcxRnd5N3dUTmM4cGJVYjlmVGEwS3RTWndKMUNlbTdBVEdJNGpYRjFDRW56MjBJSXo0MlBJOHZiekZhUE94anUzOWxYUllRRUI4RnNBaEJuc3E4T1JyMmdaaVNGXzZkZGlJbDctRENHODdOS2hhUnRnV0tsVTlYQmZ1NDV1N0haLXhZNGotRVd5dw?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Veja linha do tempo da crise política que ameaça Peña no Paraguai",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOd1d1c0NGbnhNV0FSODhzZXdjRmFBRFhzaGF3YlVmZ29pZXBwSVl1QWFNV2ZZVENYUnBvd2xtYlpRZEQ2NTNMMFVOcnExb1lrSXJVS2NtNHhWRkY4eDg1azZwOWo4aHA2N0l5LXJ0OFNZUjloMXAxN2pQREJTSEU4bnUzYzU4TThZaVB1QWgwZk81Z0paLWZ1SHo3eWY?oc=5"
+      "cat": "eleicoes",
+      "titulo": "‘Terceiro turno’ no TSE tem 11 ações de Flávio Bolsonaro para cassar Lula e Alckmin",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxONVFHNG9yWjR5NnVOQmtiWEc3OWhfVTgxSkNQekkwRHZHUElJcnZXQlBiLVozZ29JR2RNZlZoSThDMUdWRHYyQS1CUDVTS1BLTGRvQ0FjSW9nVjNLU3RCUm9hYWJkbW9EWkozSVZCc0RvTFNUaVAtZW1ldnprMHdwdVZyZDNFY2o0LUVwRS1FaV9yQS1Mak9CWW56ZzQybWFYb1F3UzRlLUZPRUEzOVJSWjkwYjdXenJ0Y1oyU05LQ3d3c3owQnVudjc5WmJLT1RZRWZmTkpmWi1lQW_SAeoBQVVfeXFMTk1iekdZZVJZZjEwdUJvQ1ItM1NSdUJJZmY4VjU4OVAzRjRfNUM1UUFubGdUNWZ0Zk1MSFVSQS1IeHkybDZDRnRfOEotdjRmc1FwbVQzRkVFcmo1cXBDbjg4a1JKelNEYUNta004RnVPcEZfZlhHcWwwdHFUdVREemVDdEtQSG1tVk1OLThxNWZFdVN4MDhxZUg5RWU0MTJrOC1ZdDhOZlpoNVItaDRqRzBrRng5RHZKSUttUkljalUtQWN1VVJsTHVXRHVNSFZvcTF0dXdUM0JzQ2gyQVNyMmw5MFR3YzkwSjhn?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "Lula diz que Flávio Bolsonaro foi pé-frio nos EUA e ‘derrotou Trump’",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOd1QyRERmZzhPZU5fUEdaa2ZicldIQ2dzMWEybkI4QVdxUTloSEg1dGMxNXV2czhMRnFsXzRsQnVFcG9fMERiNkY1THlCdnMzWHo1d0VkMi0ta0FSR1RyUG92Yl93N2Y1TS12NzBqeXN2VTIyal9Xc3pkVHcxZFVoeG1VNktYNEJyOXI0ZlRIaV94c3hyT05QRUFrYUhNYVVGcmo5QXNn0gGrAUFVX3lxTE9PQk1PcmxWY2ptWUZyUkhUSTdaenY3MXVoLUpCYXhlMmM0NXBJSnBSOUtXdnVjQThSb19HYTlENFVXNEVEQm1DUlZCeTB3SWhCLTB3d0JSZUxlWnU0Rm1oZW5MbVNfVV9nSWd4aENfOHpfNlpndnZZMlB3SXpyNTZrM1pydEpHcjlJN1ZZd2FMUGl6ZWh1UFZ6dFplRHJXLVFQRWptdEo1SWJKRQ?oc=5"
+      "titulo": "Pesquisa FESPSP mostra racha no eleitorado sobre fuga de Flávio Bolsonaro",
+      "fonte": "CartaCapital",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaVdXUnJBbHpQM1ZHNDVHaUhnSFNHZ3RJVFBOOWJMOE5OWGJfMTAyNEk1d3VjdXF5SWs0RkdiVGJES2VEVjcxOVJLOXdpcFI5U3FqcXdUNm92MXUtM3d6VWdLcDB6T2J0cU0xY2p1Y2FnNUVEc1ZFY1MwNzI5ODhZVTduZEVkT3Fac2F0c1UzUHl6NGhvVUdMeTBFd1VMZHdUV0VyaTczd2xlSDFFT29WWE11NWc5dw?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "The New York Times minimiza entrevista de Flávio Bolsonaro e desmente teses de fraude na eleição e perseguição",
-      "fonte": "Brasil de Fato",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQVS1IT2xKN1dIbDJpVVhMOFU5NEdVc3Fac0tDckY1ZFlDOURpak1xbkpFdzh1X1J4NnM1UkpPUHJEZlFrdFpBaHp3RFpOdmczZHhfVTE0SkpzYmpUM25JajlaQ2ptMHhfbm5xejBCekFSc0s5YW9qZGdJV1U3TWM3Q0htMU5wV2NwcHJCd1Q2aU8zUGtITFRrQ1l6c1ZhMzA0c0lOak1UYkdnZXo2T2Y3WVZhem5tUkFkWkh4RnNTRVVNMTdUazBpOHNBaGFjQjcxZ1REQWNaZjFFeGZtSEtneTd2YmIyVTR5Zmc?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "'Vitória para o mundo', diz Lula sobre resultados nas eleições no Brasil, em Israel e nos EUA",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTUNoYXBWWi1RN3ZiWmwxRFk5akZiWlVNOXdEaWdMaWRKcGFVZktuT0NqV1NBR3VKTTNoU25SVFhmUDZHY1hwU3N3YmdySkpMQWE5TWJfN3hhcFVNSVBqMjZienJZaWliYS16ckJrTjNuRWYxTHR5UnNGSExrYjBCMno4YVFEWXRvYll1dXpwNzNFWElvTlZJV2pyYU9jekUtblI4djA2SE9vNTlFc2pHa3pZWVJNMnBBbVV2cXNjLWNjWF9IZTM3cnU3T0V0bXh2MU1TSHFSUm0zdUR50gHrAUFVX3lxTE9Cc3ZhWVBEc1ZVdzA1aFl0X2U2U25rMUdzdlpQVHlMY19NRkNlRXVRR0hVRGdYTHpjS1dPcl9lbUtPTUh6R1VjRldMQkw2aEE5RW11bUR4WkszVmdGbEtRc1FXSVExSDBrZnMycjhhRXpiY0xqdm5PTm9yLXc2bGZtQ3V4WDZFN09EbUozdnNVdHlNQUwyZnhfYkh6NlBWUmEwYjFmQzNiNTF5NG4zWDk2UzNHODZ4clYwLUJvb0FlcXhDOGI0QXZJNUtNOVJoeVZmdEo2cElJb2FhQ0VJMkhpVEZfcmJCYWFUaE0?oc=5"
+      "titulo": "TSE admite ações de Flávio Bolsonaro e Novo contra chapa Lula-Alckmin",
+      "fonte": "Opera Mundi",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOLUFHdkVRaktIdUdpUHRXa2hTd2NLTTlrdUV0SUtmX2dPOTliLUtNczFRbzZ1TXM1azdfUzU5dzJuUkx6SDltT2JJWm8wNHRLRzFwQ3VESnFGV1dGRnhMdF9NbW5QNko3TUxCb082QUR6TUZJTTVaQl9XTHhUX0lGWXRKUkdrS1dqall5dTVuMEE2QWNsTTRyZkl0ZGhUOHhBWU80aGdHSGpFZEU1ZFNRTEd6bEcwb3ZSX3Y0Sk93?oc=5"
     }
   ],
   "indicadores": {
@@ -386,7 +386,7 @@
       },
       "cdi": {
         "valor": 13.65,
-        "data": "04/11/2026",
+        "data": "05/11/2026",
         "fonte": "Banco Central"
       },
       "ipca12": {
@@ -405,8 +405,8 @@
         "fonte": "Banco Central"
       },
       "poup": {
-        "valor": 0.6704,
-        "data": "04/11/2026",
+        "valor": 0.6703,
+        "data": "05/11/2026",
         "fonte": "Banco Central"
       },
       "desemp": {
@@ -1536,13 +1536,13 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-06T07:58:25-03:00",
+    "atualizadoEm": "2026-11-06T15:00:57-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
       "BC ipca12",
-      "BC ipcam",
       "BC igpm",
+      "BC poup",
       "BC desemp",
       "câmbio (Yahoo)",
       "Ibovespa",
@@ -1550,7 +1550,7 @@
       "12 notícias"
     ],
     "falhas": [
-      "BC poup: https://api.bcb.gov.br/dados/serie/bcdata.sgs.195/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
+      "BC ipcam: https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
       "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
     ]
   }
