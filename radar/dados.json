@@ -162,54 +162,54 @@
   },
   "mercado": {
     "ibov": {
-      "pontos": 168663.05,
-      "var": 1.49,
+      "pontos": 168498.45,
+      "var": 1.39,
       "anterior": 166191.45,
       "minimo": 165909.73,
       "maximo": 169073.05,
-      "hora": "06/11 15h00",
-      "ts": 1793988054561
+      "hora": "06/11 20h13",
+      "ts": 1794006783057
     },
     "acoes": [
       {
         "ticker": "PETR4",
-        "preco": 45.13,
-        "var": -1.78
+        "preco": 45.36,
+        "var": -1.28
       },
       {
         "ticker": "VALE3",
-        "preco": 63.73,
-        "var": 1.69
+        "preco": 64.04,
+        "var": 2.19
       },
       {
         "ticker": "ITUB4",
-        "preco": 40.68,
-        "var": 1.78
+        "preco": 40.53,
+        "var": 1.4
       },
       {
         "ticker": "BBDC4",
-        "preco": 14.1,
-        "var": 2.4
+        "preco": 14.2,
+        "var": 3.12
       },
       {
         "ticker": "BBAS3",
-        "preco": 17.09,
-        "var": 3.64
+        "preco": 17.13,
+        "var": 3.88
       },
       {
         "ticker": "WEGE3",
-        "preco": 48.26,
-        "var": -0.08
+        "preco": 48.19,
+        "var": -0.23
       },
       {
         "ticker": "SUZB3",
-        "preco": 52.41,
-        "var": 0.23
+        "preco": 53.4,
+        "var": 2.12
       },
       {
         "ticker": "B3SA3",
-        "preco": 14.48,
-        "var": 0.84
+        "preco": 14.39,
+        "var": 0.21
       }
     ],
     "juros": [
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.5002,
-        "var": -0.06
+        "valor": 5.4959,
+        "var": -0.14
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.1274,
-        "var": -0.74
+        "valor": 6.132,
+        "var": -0.67
       }
     ],
-    "acoesTs": 1793988054561,
-    "moedasTs": 1793988054561,
+    "acoesTs": 1794006783057,
+    "moedasTs": 1794006783057,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,39 +305,51 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Wall Street perde trilhões em um dia: entenda o que derrubou as ações de IA",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOXhxRktpMGd2UHZIWnRGMUt4VTIwMDBwMkQtVzdPZldOWk1pY0drZjNjWWxpdWpHQlNPemJvT0xxcUczUnlMbDZmdmQwUDRnUG5jUFNGQzhucDFkXzk0M2xreGFhbkhWa3B5ejEyUnRNVkNHVDRzSVNjeXN6cWRnX0pNYnM2MEN5Sjg0UUowa1pESC1WeDlXSmxiOXDSAasBQVVfeXFMTmFjaW42MzNvU3JKOFJsbTQ4TGQ3NUs1RnVvb09uOTM1dEhuLUZ2dXl0OGhET25pTktmaEFmOURDMnZEM0ZNbmVTalpoRjBWbzQtREw2Zmw4OVNtWWE4Z0JJYmItVjNaRXhLX3QzRU1wdWlJUGJLbGY0ZG1WVjRpdHlqbHVlaXF2NHd5T0xnakpwU0VLT01CNkowdWhwU0pKZmc1LURPaXR0eWgw?oc=5"
+      "titulo": "Bolsas do Japão têm maior queda desde tarifas de Trump com temor sobre IA; Coreia do Sul aciona circuit breaker",
+      "fonte": "Folha de S.Paulo",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPSkdwOC1meFJLWGZFdDFwVlhwWGZuY05YNndDTVdDTnpibDhCQjBzSjdKWEpKZzVtWThqQjJBZF96WWxBWkowTkpRak9XR1NiNm9QSVNwNXYzdkhnQ3BIQzlpWjh2ajhxbTdrTEhsTlBIRmk2eXBsZ2RjTzdtRUM1eWtaNjFsT2dzZTV0aXBRUkMxc0tDeGtPV3hDUXB6TFBVbGJDOGktcUtpY1dYa2JCc0ZYM3dkNkFVMkVnUFNMWExLakY2SXlaVkY4UnZVOW82Y1ZWSnFOMUktU2s?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "A economia ‘arrumada’ de Lula, depois de se encontrar com Mantega e turma | Estadão Analisa",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZFk4cjlOZnJlRElHVTI1UDRid28xYU1zazYxLXZhbjFBeE91NWFIcEM1OXRqczRIVDZOUDNnYUE2RkkwM1pqVFNzbS1yZERmUkx5QlctOVlkS1VkT2U4MzZyclRwdWtUNG5LVDZORFFyeENXV2t4V2NzMnBzTlhNVmo3ak55MF9uZ2lrbVU0aFd0SEt6YnZ5cjlZZ2pYYklybWk5TkV1My01N0hsWTI5YmpraWlHSjF2Ti04SGlDUU5YVFBncTRyeWpXbWM4bmZZODFXY2dB0gHbAUFVX3lxTE5VWjhOOGYxaFdkWFFEUFNma2FNbkNUMC0xVWhrSG1ObktxQUhxZ2VURWV0OTB1R0RwYTBGOXRWeVA3Wlp1LUhYdC1iVV9reGV2Wk8yODJPWWlteW5zOWYtYVJKemxMNnhhN1ZJRk1XTFdGRERnWGo4ZzNuZDhsb0FmVjhoaUVpSmR6eXNwTnFHNzFYa1EyNTM5TlJ4UHUtbjh6eURMRmZ5NmRGUE9LRVpMMEJqRlZ5MzhPLXZZZDdMUFg4QWxJUHRnTXhxaEltYVR2UEI4YjR6T0gwdw?oc=5"
+      "titulo": "Balança comercial tem superávit de US$ 9,3 bilhões em outubro, alta de 39,4%",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMUFrV1E1SHZ1aHVMZV9TOFJEWmxRSTUzUGdfWUtsS2dnWmdNVTVRY0xsSDhuZTdMYnZiWDNQeWNmM3FsZFZYTlVwb1hHZjVRU1VEUkxSdzNlQkNfdThHYVZ0Szl5a0t0ZnQycnZTOVJ5T3lvUF9zeVB2Tm1RX1RNazVyLThjeGFYd3ctQzNfNFhQRUhmb2ZnVTNFOG00c0VHaldTOEs0eGxMRnZQaC00bnNyZDY2VTRSYlNjSDNTdU9IMG0ybEsxTl9Sa0FWZ9IB3AFBVV95cUxOOHVsYkdRS2J6MFhaRjEzRDZMcDYwblFyRHJKd3FsQVJCcEs4U2pDNHlYUEpuTk81VFBlWUEweExnWWhneG5PM29KUHpZQW81TTlidkV3SDhGM0tIYi1HREpUTEhRTlczUDZtZmstNmYwaVBpOV92Wm04Q1ZIOUU0emhHckJHdEdRRzl1M3owM2kxckV3WDVRRXF4UzZCZzRzOWY3bllORHMzUUxqY1ZRcUxneDZrNnZ2SEVKNHA3MEh1RGhaTFk0di1QeGh2emVrVU84ODhtS05sNUxC?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Por que o Ibovespa sobe mais de 1% mesmo com dados fortes do payroll nos EUA?",
-      "fonte": "InfoMoney",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNem1YcXEzVEkzeTBXUDJJTXlNeWh2WGJEd1ItcjVUN09aUHE4N3BEdzlVU3M3TDV5bXBwU211RDFqMXRBN3JrTmJTSURjWW1RWThQX25OamRfY1hWNTU0eGE3NUs4NUwwNHZOTXcxaks2bVhKOVBfdWEwTjIzaFROMWE4YjBvN1o5eEQta1hOX2dGTzhFbVM4dy1ZMVVJVjJlYnEweFMwOTM5UDdUTnFaZ3dtTmzSAboBQVVfeXFMT1dLTmhLVTctUzZvZThHYkMwX1REM3ZNYlFzcFVyMXdzMkdSWGdMemFqVGhneDZLUUJXSHlwN0t1OXZaNXBkVk9qVWRITVJlVl9NNWFCWTdOeVFaNlUtakVpY185UllJTi1GNGtvQU54SnlPWThhVUVGRENPWW5WTUlISDFOYjZJbUl0WnBuSU1Jbkw5Z0JXWDgwTVNBdnNmZm95T0g5OG5ZNG4wOW5zTjRLMWthWkkwRUtB?oc=5"
+      "titulo": "Imposto Seletivo: entenda cobrança sobre carros e quais ficarão isentos",
+      "fonte": "Folha PE",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeFA4dFB5OVJSVlFoN24ySnc4S3VQZFpfVTFVOXByaV9TcTFybzdHb3RSNnlHTnZZSHdHY3hiVkY5ZVgxZktkNVUyYUlNUFZRbThFSU5xY0htalNmR1RYOFZSUzA2WC1RNlp0YmF5UVdUdGVES3ZZTlhDVzY4OGVMVnB2WGUwQlR5TDVJR1hMZmVMaUhUS2w5ckQ5UUpkajFLMnh5d3E1cW13Zw?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Lula diz que Brasil tem 'seriedade fiscal' e que pobre não vai pagar a conta do ajuste",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1Td05yZl92b1Aybl9zc1NTbHhQbHktdXRxbVVEWkNwa05TVU5kVmxLeEZIZUZXeDktZTR3aHl1dzBDVFRGeWc1WFUwMThJVkt4TGtiN0c1eFdCSXQ4QmtXV1Z1UUMwSmRMOGlKYVRPM1h3R2xQdUEyWWJR0gGIAUFVX3lxTE9oWVU2QTRWcjg4Q0dTaUoxTU9pajRYcWxidnFvVzAzTTVyRzhSaE1sQmN4V2FUMDdnaWVXU0w3SVFrdXZwNHB0c2phVS1yU3l3UlVieUhOdDdnQmlfamIyUF9RVXRtU3B1M3VhSjZvamhPRGdvbC0zSmFPZmV5OGVweG9sUENSSFE?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "‘Verdadeiro confisco’, diz decisão de juíza em SP que liberou 3 bets; entenda o que aconteceu",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQktXNzZ4WVlBTFM4RXZSd1NpUzBSTlBORlBkb1NHZENaMnhMM2NMd3FoZm9JRTNsS1ZLUTdNT2VJTmtnWWdFbGhGdzZTSDIwN2NuUXlZNUpNMUg2blpEbEliUnhXNTFIS3oxblFNdFpXWDZwaWJ0SFU3X0ZKaUViOTk5RFVnaXlWOWF2U0o3MXExTXNDeE1sdUdoZHFmaDFMa2hoQWlUTHdldkJxMGt5cnZwNUNtNm9RcV9HQ1Q5UU5VTWNlMWRn0gHMAUFVX3lxTE00LXFyUXpib0lvdmF5anBKWVRBS0trNWNIdlRYQWZhSjRkUUZpQ2R6cFF5WkhSMkktSE92VEpabFFnT0E0NllLZjF1WmhldDQ4UkZrQUdla29NNEVSMzNiX1BsU1RjTG40OXhJQlk3X3N2ZHNQbjdaSWZEWllIcFdXSW80bjlsTVV1ekU2MUJpVm1lTFU1LXN0dHF0VTFZZERuT3RQOFdjeW95UU5DbVVzczVfemlZc3NxTzg0Ry1nbUl6eGM1SVpxYlNONQ?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Após temporal, BH amanhece com desabamento de complexo de moradias e 1,7 mil imóveis ainda sem energia",
+      "titulo": "Lula sanciona lei que institui 'OAB da Medicina' para novos médicos",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQeU03aE13RThwaDN0RDk2WFN3Q1lqRVJiMzFzcWZSNWgzeUlINEhHRW1IamZhQ3RISlR5UmQwMDJkSTlRWUdpMlNsSHZxbUpqM093UzhNM3lXOWJIYUtEbFJFbEtPWk14ZERxMkJFWXEtcnA2UEJzREVkTXRkTUJqcXNPcUlsNkZGV3VLUVpEU240RTJjaFY3VGF3UjRWeWUzR0laUVRLY3BWcFV6cXVyQU91MnVjTUFGTTVVazEwZzFFaUlJc2YwbmZnM2dJbUtwZUJHRU9ETURUQk42aWVIWnVGblF2X3lFZHF1WTI2MzJSRlYxT0Y4emJSRDZ1T3lVRG9zODZUNNIBlgJBVV95cUxOWUFRdkllc19TV3drVFBHYXpYNEFBT1ZaMW1jVi0xdVhWaVZlRHpvcFNqamxWdzZnaWl5OElSUDlmUVZkUWdacUFQWmlneE9OTW1CekwwNjdHek9VaUMzaGs2NXJmcGRSYURaLTgwNzJnOEVZTWlBdkVVU0NkOC04cXpMSDdEQ1AyVFhKT0laNjlPbV95NTYxaEdtcVctLVp3THFxMEIya2lteW9fdXVYcTdSaUw1MVJPQ1FjMW82eGZQenFkaVdqeWttbzlxS18xTU1QV19iLVctOXhNYVU5a1FmVlBUOTJtSEswaTJQRmJYZXJ2Tk9YZlB0MjdhMWFRRllqekN6cUpKa09vb05ldUhwaGpTdw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTTkxN0RnZ3d3MUpLNnAxbTUzTWFwT2dQdzdQVVhONGpOdTlFcmlPT25kNEgwZTVEZ0JzeVJnSm1GSUFQdDE0QXdjNThrZkEzUGxHaDdGRGxPT3JEWkJ6WlU2cHVGbGpoQ0xTWThaZl91RDlvODB1SnFTN29naGhFdzJDQ18yTUNlM2hRZHV2NVVPYnA2ck9wWkpCRk1PbW51d25wdDFEejVNOVVBa3BIVE5NZk5YZFpldTVXWdIBywFBVV95cUxOdTFtQktucVFCakNXa3RWeDNaLVgxdGc0dFlrM1gzR0R4VWpxbHp1ZDlrWnduWnVUWkt2eDNad1Z6cnV1X0E3anFYUkNpczNwb3paRm5VamJfQWtEZFRpTkZRV3JlNjVmM24xVlR4YXkzamxGano3N0hLTFVYT1g0RjRjWHBkd2oxQnVuejJqWm9naHRGV0JMeDkzeGRsVFg3NDgzQmFEeXJnUWdqekhiakVsMjhhazFPWVpuNUhfUmFxRzJMczlXUDlxYw?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Lula rebate e diz que pobre não pagará \"sacrifício\" de ajuste fiscal",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbVJYRC1zQ2hFZGNReEVfQUp4VXFZakdYcmtvRjc0MTJBbDluSEJZTjZUOUluNTVrSWlpMm1iWUFmLW9jWXFIWEkxc3lkdC15Q1JQLUJKeFpUZUJtRVl3VjExWlEtZFhHdjNxVWNqX3owdmtIUDJuT1h3RzEyYVFETkloM2MtSnFLandDeUNiSHROWGROMmVsNTBncGtQTXRRNmhPWFA0MjFDQmdycHc?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Prédio desaba e deixa feridos no Brás",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOR05MemZoN204a3R0cUV0amU4Z2NYdGwtcHVQYWhSWTFoTmVVa1Jhb0Jhcm1ZbnFpUlM1TEZxR0FHdTF5NFlpNjhJTlJQSXlXMTVnVUVXbXRlM0VVbldia2Y3ck5uUC1pcmhtbVROQkU0czRMMkZXSWVtaEZnZXE5TjRTamVSazdZRlJzenl0clEyYkRXU1BIS05rdFrSAasBQVVfeXFMTWlsVlVXZlNFLXcweE5nM0xURjAtazVJYW52OGZ5TlZlWFUzbUdBWTBYSGlrNENzT3Q4MmtOREktdWtMbjg5Q1lzRGMySWR1UHJtMkIzcTRFUk40aEktV1lZTGVhNXh0TDh0MEFDbHRxNWFwb2ZWWDZ3V0NzWElaYWZYTEotdElOZHF6RzZaeVZYcGx5VHBHenpTU2tES0NpYXVUZmt5MnFiM0tv?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Lula quer levar Brasil à condição de país desenvolvido em quatro anos",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbEhEZGliWm9acmdjTHU0U3hHeUdGS2V0TUswTXo4czRXeGc4YkRzWFFrUUVpYUZqRDV2c3l0VkpCaFFqY3lvSXBpUzk1Ml9WcktXWXdyOFpobmxJc0ZvUWdnZk9UNzlvX3dpUUJ4VHFOdjJXZWc4dTNWaEpjdU9nYTJzSXBOeXZ0VTU3QXBXN3JOXzdtQjJ2S0xDMXVkZHFZQVlLd3l1Nm9oM0QwUXcxTTdPcWtORHAxMTRYQkkzRllSeUk?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "O campo está punindo quem o trata como instrumento: da política em Brasília às tarifas em Washington",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOQUtiSzd5andmbzlPcjFfT2dTTnJUQVJsanp0T0kzTkpZdjg1MUhOOFFCYkg5X1IzeXpYUG1wYXNOLW8teTlGODAyM01aempBUm9fZW5HaHBaaHhEaVY2dDRHOGtXU1FIYXhDNTBOckh1bE9QNVNKc0xTeVlKZ09wR1F5OGR2T0RvTGxNYlB6ZWt0RGNNTHZtREcwalI1eEJ1eWc1d1hVVi1YVE84cThDZnROZ1JzYWlmWkN6c1NfNkV4Qkp1NjNkSlU3SF93RVR1cU9kdVAyTzRZVi02c0xLa2FWcUVEZ9IB6wFBVV95cUxObnBLTDBLazdKckxJSE5sZGpUaUJPdHctbl85OWJnWTQ2aUN1b3J5dF93amo3OVdmdzNBcjM2ZzczSXg4ZlRHVGpWWlVSMGxMTV9xWHdkWHVQcnZoU3dRdWNKSmp6WTBhRHhCQWRtckdBdC1ENm5OazlYMG5wZWhDZFdVdkhQOTYxb3BwVzJ3TXRiWVlrdDdzOG1HR2pyQTlTcUpXTjcxWlE2N19PTjBHODAxR2FhanA3NGFwbVR1dWdfdkxTdzZocWJ0OGNzTV9HNHZ0NHpjaE1PX3p2bHJGTk5oc25kekN2TF9B?oc=5"
     },
     {
       "cat": "politica",
@@ -346,34 +358,22 @@
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdWhmeDVZa1FTU2FTYk9NUXRlT3U4cUZoVzdJU083WW1vNGt3Z3B1NmotalBRY3RMYmNsRnl4eGJEZldZaVlubkRGWTZzcVloLTlQSWF0eUh6bGZOOVpzb3RuajFtRkJIOThrWHhwZVYzQ05Gc2k2RV9Ec2ROTENVT09QTGNpWmVZU0lVWUppVmpza2JJQ0k2YktONlQ0dXptTWJwZjJ3UktLeGFFOFNmZmJWeUlWT3VZUlAza2d3?oc=5"
     },
     {
-      "cat": "politica",
-      "titulo": "Plano Brasil Soberano 3: MP que financia exportadores afetados por tarifaço avança no Congresso",
-      "fonte": "UOL Notícias",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWWhGS1g0MTIxTTVaNWJfeHk0VFl4cmhCeEhQdWtCelphd1M4SE1nWmcwdTlMdXZjNVg4S293eFJtTzNBOGZKdGltVF9HQ2NFSFZQSjl0N05aOWVpNGxZc0IzaFdidTdQTUs2ZU8ydC1nWFNRV3FLUEVjSS1xUjI0SDJxY3REUzJ5UFVzQWkzVndZZXVYNEIyRmswT3NsOVRrV2NDRndydTY0NlhVZTVrVXVPT3ViRFZOeXZheEZKQWs5dkFNU2ViSDRVN0FSWklHVXlJ?oc=5"
+      "cat": "eleicoes",
+      "titulo": "Flávio admite não ter prova de fraude, critica volta de Jair ao Brasil e diz querer 2030 assim como Tarcísio",
+      "fonte": "Folha de S.Paulo",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNdHprYkgzNzBjWlZEUjMzOGtJYU5PZzZtbXVNNzJDNlJkOC1aQ3pad1FtSENlY0x2WS03a3VLUTJ2SnFrbXdvSkt5R3U0QXZUd0F3dGZkUHdobmVBS2dxenpGRjduNUpsTnoxT2FsS0otd09kR1FXQlN5eDJITE53TzRTTmtwRFUzMEJpbXVqRHdpZ2NFTzN0RktvN0x6Ui1md3Vqak40dHZYRkhIN0IzV01HT2ZvMnZxSzRrcmhwZEdSYTNoX2RfTmxJNTNWNW9CRl9tMEJBOGV4ZlNCRHNKUjg1QURLTUc2SExqWGxR?oc=5"
     },
     {
-      "cat": "politica",
-      "titulo": "Trump e Brasil: como o novo Congresso dos EUA muda a relação com Lula",
-      "fonte": "Gazeta do Povo",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRG5vNGNodU9QNEhyeEYwU0EyOFV5aV9BQ3E0UlotaFBJQmRyc2lqcWVvZlVpbEw1cU4zeV9xLWUyUjFVSlBlYm1OTEhtM2t0OGI0MDFMc1BfWU9oY215djJrZ0tkSWxTaWNDRnlodVV3aUVNSGFVdWFQMHJEM0Y0Y0ljVDhVd2gwMS11LWZBVmJlbXpRRU1vNnQwcElNSFkwVXVzSjdCRGszamZrZlV5ODVUQ2FGQms?oc=5"
+      "cat": "eleicoes",
+      "titulo": "O senador Flávio Bolsonaro (PL-RJ) disse, em entrevista exclusiva à Folha, a primeira a um veículo de imprensa brasileiro desde a fuga, que nem ele nem Lula podem afirmar, com 100% de certeza, quem foi eleito presidente do Brasil. Ele admite não ter pro",
+      "fonte": "Instagram",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ubVZuRUJQVkhFLWlTWGNrSlJKM3ZRVS1FLW5YRHJYTEd0LWU0Z2ltX0N5RDJ3RFlNWXAtampBSU43eE5zTHpqc1FTSFVBb3lEYUE?oc=5"
     },
     {
       "cat": "eleicoes",
       "titulo": "‘Terceiro turno’ no TSE tem 11 ações de Flávio Bolsonaro para cassar Lula e Alckmin",
       "fonte": "O GLOBO",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxONVFHNG9yWjR5NnVOQmtiWEc3OWhfVTgxSkNQekkwRHZHUElJcnZXQlBiLVozZ29JR2RNZlZoSThDMUdWRHYyQS1CUDVTS1BLTGRvQ0FjSW9nVjNLU3RCUm9hYWJkbW9EWkozSVZCc0RvTFNUaVAtZW1ldnprMHdwdVZyZDNFY2o0LUVwRS1FaV9yQS1Mak9CWW56ZzQybWFYb1F3UzRlLUZPRUEzOVJSWjkwYjdXenJ0Y1oyU05LQ3d3c3owQnVudjc5WmJLT1RZRWZmTkpmWi1lQW_SAeoBQVVfeXFMTk1iekdZZVJZZjEwdUJvQ1ItM1NSdUJJZmY4VjU4OVAzRjRfNUM1UUFubGdUNWZ0Zk1MSFVSQS1IeHkybDZDRnRfOEotdjRmc1FwbVQzRkVFcmo1cXBDbjg4a1JKelNEYUNta004RnVPcEZfZlhHcWwwdHFUdVREemVDdEtQSG1tVk1OLThxNWZFdVN4MDhxZUg5RWU0MTJrOC1ZdDhOZlpoNVItaDRqRzBrRng5RHZKSUttUkljalUtQWN1VVJsTHVXRHVNSFZvcTF0dXdUM0JzQ2gyQVNyMmw5MFR3YzkwSjhn?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Pesquisa FESPSP mostra racha no eleitorado sobre fuga de Flávio Bolsonaro",
-      "fonte": "CartaCapital",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaVdXUnJBbHpQM1ZHNDVHaUhnSFNHZ3RJVFBOOWJMOE5OWGJfMTAyNEk1d3VjdXF5SWs0RkdiVGJES2VEVjcxOVJLOXdpcFI5U3FqcXdUNm92MXUtM3d6VWdLcDB6T2J0cU0xY2p1Y2FnNUVEc1ZFY1MwNzI5ODhZVTduZEVkT3Fac2F0c1UzUHl6NGhvVUdMeTBFd1VMZHdUV0VyaTczd2xlSDFFT29WWE11NWc5dw?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "TSE admite ações de Flávio Bolsonaro e Novo contra chapa Lula-Alckmin",
-      "fonte": "Opera Mundi",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOLUFHdkVRaktIdUdpUHRXa2hTd2NLTTlrdUV0SUtmX2dPOTliLUtNczFRbzZ1TXM1azdfUzU5dzJuUkx6SDltT2JJWm8wNHRLRzFwQ3VESnFGV1dGRnhMdF9NbW5QNko3TUxCb082QUR6TUZJTTVaQl9XTHhUX0lGWXRKUkdrS1dqall5dTVuMEE2QWNsTTRyZkl0ZGhUOHhBWU80aGdHSGpFZEU1ZFNRTEd6bEcwb3ZSX3Y0Sk93?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,13 +1536,13 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-06T15:00:57-03:00",
+    "atualizadoEm": "2026-11-06T20:13:06-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
       "BC ipca12",
+      "BC ipcam",
       "BC igpm",
-      "BC poup",
       "BC desemp",
       "câmbio (Yahoo)",
       "Ibovespa",
@@ -1550,7 +1550,7 @@
       "12 notícias"
     ],
     "falhas": [
-      "BC ipcam: https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
+      "BC poup: https://api.bcb.gov.br/dados/serie/bcdata.sgs.195/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
       "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
     ]
   }
