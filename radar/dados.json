@@ -167,8 +167,8 @@
       "anterior": 166191.45,
       "minimo": 165909.73,
       "maximo": 169073.05,
-      "hora": "07/11 07h17",
-      "ts": 1794046631220
+      "hora": "07/11 13h51",
+      "ts": 1794070283775
     },
     "acoes": [
       {
@@ -253,8 +253,8 @@
         "var": -0.67
       }
     ],
-    "acoesTs": 1794046631220,
-    "moedasTs": 1794046631220,
+    "acoesTs": 1794070283775,
+    "moedasTs": 1794070283775,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,39 +305,39 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "US$ 2,5 tri evaporam da Nasdaq com “tsunami azul” despertando temores em relação à IA",
-      "fonte": "InfoMoney",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNOFRGTkwtTEJyRmdxV1JiVFpIXy1JOFdmVzNtYnJzbndCV3RpUW1XVWNfeDdfamV0YkNzcHVTLWdMZ1Nsbm1HalFOcFZma3Noem1uUmVJUVNHOFlVOVV6T01kS3hjbzVBc3dhQjJNRDNXSG5GdmVMQVk0elBMeFcxVWZFWWNBRHRNY0JKbTdvX2hJdVBQcWFIQ2ZmenVIUWZTSjRiT3pTZ3VZN3BmVko3aGNxWEJVLUtQUVI4aNIBwgFBVV95cUxQTUlJVHM4WTZ6UWw5VVYyTGpOTUxkTmptRFpvWG96NjJTaC1PUjNpLUp2UkZrU0JGSVlpa0ZIS3pEYVFYUE00VUxBY0tmU3JkRGt6ZFZSM0xnRDVXVWd5WVBoMDljRGNwQkt3bk5tck1rd1djNGVCOWRPUk5qQzZBVmo0RzFyYlR6SjhnV0NNcURSOVpnalhfZUpnaHVfWElaOVM1Ul9pbG5kS3I0andmOHFfQ0RFbDlyMTZFWUo4QzBIdw?oc=5"
+      "titulo": "VR e VA podem ser aceitos em mais maquininhas a partir deste sábado",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNlRuTkJPdkh6SE95TjlVU1UwdHhLTUFLMVBSSV9oanViYTFvOFY3ZlJxRGVnZUVpVUsxMlNOY0FZMER4bWZoMlZuM1BscXFUSlZMOXlGaHdzSktPMEFfOHcyVnpKcEwxd1p3NHQyNkRROXpGcjJUU1c0SUZHcm8yWmZDamRMOWM2VEJjMWszcmZZck5LVWJ0Y3JfdkMtenVoWDY1SGZzNUZZcTBGbHpXQld2MFJjOHdsMWJtd0hveEE?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "‘Imposto do pecado’: veículos a diesel são os mais prejudicados; veja o que pesa em cada tipo de carro",
+      "titulo": "'Imposto do pecado' não é invenção brasileira: álcool e tabaco são taxados nos 38 países da OCDE, grupo de nações ricas",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTWNweldiend4LTVPSlk3VmhlWjI3a3M5cDkyRzBPMDh0VzdkWXpsSTc3RVJJdGotRlZnenNzSkt0ZnVZUkszbWplZjNMenkxajZDaWh5dVZKYXlLc0dlaGlCLWNIazBpTDRNYjJaMmJ6ajlIM1p6OWdESDdvLUpDYlo0ZXRnN2l1b0530gGaAUFVX3lxTE1KMEVwV1VWWks2ODZxbTFpRnFPcTUwb3J2ODhDVUZPWl9tY1ZYMFRPaWp1TzhXRHQxYnNILUN5RDBBZFNjR0VzQmZac1hLUDJLb1NMalBFUG1iUWZlYjIwOWJpTlFiVXlYQmtXYThEVFNpVWp3WW5sQzcwR3QyYXN2SjlCWFd3LV92akNIV1hSU3pYMWtiUHA5LWc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNekpNSHdOMTFJUGFhVlFiWTA0aFNzVS0xUUJyb3VfTmFjSFg4UHpUbDNjQmNEbDRDU1ZONTZMWm9wcDY3MXdDMS1hV240SThMa0NiZTJVTWtaYmtHYUhJbW5MZi1Odkk4ZmV2dy1QSU81WXNmVm80Q3Q2U1JjbmRWNmV0RENtbUpTOG02eE00aVpIaFNkWTVWb3lGMjFFSXh3OXRCTDY5WV85ay1ZOUNnWFpvN3JkOFg5aWNyVTFCZjBrOHczVU9MUDZHSERDOXdKV2wyUV96aE5BSWZxUzRiajBiY0hISmxfYU9vYTZvdFRUb01FcEtoRG94Qm9fWjDSAY4CQVVfeXFMTTNVTVlEVkNzRlB4bU50Zl9TYmtFLUdMRk9qU3Rsak9fSHFKVmgtTUJmcE9PdkJ1OGl3cWRNckhWdm0xWnIyZ2pESzBuMkxYVU05c1VFZ0oxRXJLZlI5QTdPU0Z2UGJweTZfSGlOUllhbzlIcVBPRGg2bjZUeTZpems1dWpCdkhyMFdENGdtZnNDWDJQTGE1ODQxTVFzQmpudGRqNkNKNEpjZ1k0VWpaYUU5V2YtVzdQUmE5WE0xWXJvZURCRllJWFprcGg2RVIzRlliZVQxZDk0dDlhNkhJa3NKbHFUSW9Jb2Jnd3Zpa3FKT3A0TGFtV2p3RHN3b2F3cUJmNElEUWxqV21iakJ3?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Apostas de RS e SP acertam Lotofácil e ganham R$ 976 mil cada; veja números",
-      "fonte": "UOL Notícias",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZHdCNXN2bXhGSXAzdUE3Mk1JSTdWSjl0NU5WeTZiVmZXeURhN3BpMjZiQUlUR3ZHWWJnTlBoOS1aeGVhaTV0NXFES3ZSQkItaWc3WTlna0tBMEpzSnFONkdmSXVqUDg1MmZsSHRBSnRrY3hXOXZQNVBZaE11amVrQUhvUTNDb3pzcFFRbE1vd2txNmZYT2gzN3U4MmlneUR0N1VTaV9tZm00REJWOVNrM0lmaG4?oc=5"
+      "titulo": "Trump chama IA de 'ouro' e ataca líderes que tentam frear data centers",
+      "fonte": "UOL",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQd1pfTWpERjVZX2RRNWxIR0o2OTRqMlhqcVBIZ2pnWGhNckMzMDVVRXpkMVVZOUpWdGdZNUl6aVg3R3pSdlk3bXl6LWtvcG9KaXQ5OWFrV2JfLVEwVGJOZzAxUmdJZGlVckpMbktyeHZWanJzWXFCMVhZelhqbHpNZ3lIaWw4bGFoekxwbDRmekNZaW9WSWlTVlU5NHBaU0l1RlFuUmlUNWJsVVlJX1dMVFQ0NzdVOE8zRUttRmZpRHJKRkd3N2ZENA?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Pressionado a cortar gastos, Lula diz que Brasil tem 'seriedade fiscal' e que 'pobre não pagará a conta'",
+      "titulo": "Gonet pede ao STF suspensão de ações contra MP do fim das bets até Corte decidir sobre proibição",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPUXZWWWdSZUhnSXEyQkFDSkMwZHZoNVR3dEFUMnAyb1FCTXVJbDUyYlEteXhzazlhVW40cWVmQWFqQ2Z3Q3p3S0JhbnRseFpjQlBoamIyb1lCamNZUjE4djlvclNLc0Y1WVAwMll2T2tYQkN2anBNRHNwb1JVck5sV2h2cEtkQjZsTnhLb2w0RXI2c3pFbTU5NzRwNnJhelUtZ0VzcHRQeldRbC1mdDhtWFM5b19OQWctS19SN0YtdVZhNjFpbGVacEQ4dm5OZTRpRHRqODNrSlpscEtSQXNYQ3VKN2hib0RseThXV2J2NmM4QXdCblJvRlFCV0xxTjRHeVhsQTNua9IBlgJBVV95cUxQMHk0WUN1SUR1R24zS0IwQXJpUFVZTmxyUlljWHpmLUJYZG1lZkt3ZE5CY2NETDlKeHZUNzktR2JYaDNfc2RYcFZZV2RmSkw1dHVlY3VDVnZ4WHBwb1ZGdzZPZG94MlNleDVrQ0puTFNYZldWdWdPcnEtTlNxSFRXMG5vb2xCUDdNekpQOGRpOXYwVVFYY2dRNFlQNGdOR095N0YtSnEySnYzTmpDcGVCTlBMQk0yWmF3dGowSFFFYkJwQUI1UmU5NnVBdTB1LVRDQ1JuTVNodS1xWjFtTldJQ3B1SnRVMDF6cDJld3k1c0dCbjNFQzhoYnBZekIwemdUbmY1TmZRNmlvSDVheTZRTlNKZHYydw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTE15N3ZMWExlVG43dDZrV1ZqRWZCOXZFZVdpa2pncGlKSzNqT25MdC10SVNUc1FDZFpRRFRPRlc4alR3VXF0ZkxCMVY3NzR0ZS1aS1BoWXNTVTlMSmhYNlU0cFNvb01BY21kSGVzd1JuQ0wyQ0NRLVpfOGN4eW93MzhWSEsxelNyT2cxQldaRkh3ZnpnLTBZM3NHbHYxdFZpdExXWVBEd3NiSkY5d0RqREJsNkl3dmQwMU11QW9GdDhTTE91S3FYWkFwX2ZZZGFFVEM1TTh6RHpoNDdXR3VGNzRWbFg3Z9IB9AFBVV95cUxPekhKM0hxSnQwUWpXM3RzU2RKU0RRa21xd2dzODFGYjFFR0hvXzYyNXBTcGtxUFNpM0t5TGVDd3NnQkNBVVQ3S0xNN0MyeS01OFJtSEduNE9LdWxEZ1h6OVRsSzJnMDBTaGJmVDA0WEJiemJPTXE1NDg1cFc1ZHZsOVlRRU01bHNHYW5URFBTamtNMG9MTlNvNGg2WjhJZC12SUJUWWlsYmV3UmxUMkE4YnhFX2pfYlExZzVVcGl0Tl9RSXJ0YU9kTkgxYUUyMFBxNkdnV2wyLWZzeWozbHFwRWJ2d0h5bHloMGx3TE4tdW1FaERi?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Lula rebate e diz que pobre não pagará \"sacrifício\" de ajuste fiscal",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbVJYRC1zQ2hFZGNReEVfQUp4VXFZakdYcmtvRjc0MTJBbDluSEJZTjZUOUluNTVrSWlpMm1iWUFmLW9jWXFIWEkxc3lkdC15Q1JQLUJKeFpUZUJtRVl3VjExWlEtZFhHdjNxVWNqX3owdmtIUDJuT1h3RzEyYVFETkloM2MtSnFLandDeUNiSHROWGROMmVsNTBncGtQTXRRNmhPWFA0MjFDQmdycHc?oc=5"
     },
     {
       "cat": "brasil",
       "titulo": "Rogério Marinho diz que vai procurar Lula e STF se for eleito presidente do Senado",
       "fonte": "Tribuna do Norte",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOc3dFS1JpdnJtdE04SHh3RWpocUJxMmtYSlRzRFE1V3FHQ1RVaGdKUWFOdmNHWWUzMl8wbmZWd2hZVklQZ1E0ZjJDeF9IcU9uSzZWT04tY2UwcWpZNE4zc1ctMFBpdnpaalE0Qll2ZmRSSkM3ekhqRU9kc1RubjNHT2VnTjhiaUMtZ3lHMldrbFEyQmNDUTRZaGxxbzByNnE0eHJiTUhxUlNKakZIM29zWTJ3dnpTWnlielkwUlp2SQ?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Novas imagens mostram destroços de loja após desabamento no Brás",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZmthVEkzakg4eGVtRlVULXRZRWhlMHdRUHBORVBIX3hHVlNWZU1SdGFSRC1EUWU3ajZwRjRKUEJuTExKd3puanAxbGpXcEotQVU2NDJweHpoOHM2TzRUY3VCNkpwLWE1UmV6SExmdFRybE9nRFZlejhOaHUxZEJxaXUyUEw0Y0dXSUZvMGFrYUZ2dmtlT3pqMHZPRTFXMEZXZDBpR2hwOGJVWmRSd18tLWJsTnA?oc=5"
     },
     {
       "cat": "politica",
@@ -353,21 +353,21 @@
     },
     {
       "cat": "politica",
-      "titulo": "Paraguai: Santiago Peña é preso em casa após sofrer impeachment",
-      "fonte": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1kMWd2NGJVWGo1aFhTWU1HOHJqTG1IQnl1Um1SS2xRanUzZGlaUkF4QVl6cXlGallzNEdqaklOUEhPTnAxdGJEOF93OXNYSXAxbFBoei1ZNFgyQkNqRXh1LXdzc9IBaEFVX3lxTE8zX2RkMWs0SnkxeDlnQU9VanVoRmZDbnhNY3Z6WEZidXFZZnNQTjFCZ2FxX0FwVHgxbEVQeG5DZmdhS3VTelBSY0gzSG9wNzVHVktINmNtRG9YSDZmOUVrXzZPQ0NvMEhf?oc=5"
+      "titulo": "Lula terá Congresso de maioria de direita a partir de fevereiro",
+      "fonte": "TV Sim Brasil",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZlFEWVBsVEcyaXJObklCVmZ3S1BQeWhOa0NmQ0FfYzhGbE5MWU9wWmZxUTNiVTY1NkI0dWdsWU9nR21tMlZMMnBoYUNRaEdURjQzMWZ5MjVLYXkzTUpYVXRFQ3AzamM5d3k5Y1FUbG83clk4YVd0RjBNZTJ0NlV2WmFfaUh4blVsOXRad1poeFRZclBnVDlSN2dTYksxZw?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "O senador Flávio Bolsonaro (PL-RJ) disse, em entrevista exclusiva à Folha, a primeira a um veículo de imprensa brasileiro desde a fuga, que nem ele nem Lula podem afirmar, com 100% de certeza, quem foi eleito presidente do Brasil. Ele admite não ter pro",
-      "fonte": "Instagram",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ubVZuRUJQVkhFLWlTWGNrSlJKM3ZRVS1FLW5YRHJYTEd0LWU0Z2ltX0N5RDJ3RFlNWXAtampBSU43eE5zTHpqc1FTSFVBb3lEYUE?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Pesquisa Alfa: Lula e Flávio têm empate técnico no 2º turno",
+      "titulo": "CNT/MDA: Lula tem 48%, e Flávio, 39% no 2º turno",
       "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRDBGU0daRWtsZHZIX2cxenVBNE9pWGZzam5URWRIS0NfbkVMbFY4TFVMOHRSZ2wwRzdsTkNEM0stbTRmNE9UeDF0M1B1NER3OFNLa24tWmpKTi1Yc1FzYVVDUHJVN3laUkRDclZsS0xMSFZ1NlZRU3JLMHROSFQzVTN4Rm9HUHlKNGNJOVZJQU1sSFFkYWkzU1JadlVxdjlW?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQc2tVaVZEbUtlNnc2TFZBSkRKeGVZSWlmR285elp4OFJOZlpGUGUtN3N6Sk5xQU0yaDBEWEtYNXVUdVBFcmZvdG03OHBUVTZiU0RfRm5fZVUtcG4wSm04NGltRVhyTjZ5bklUV2kyalRNamRIWHNCNUtqTzNtZzUyakxIUkhHZXRkaFE?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "‘Não tenho provas e nem terei’, diz Flávio Bolsonaro sobre supostas fraudes nas eleições",
+      "fonte": "CartaCapital",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTWw3YTZ2eV9vd1V2Z3BSSmQtMDZiVUw5VHZmRlJJaldEYnB1S3lqU1hyMUdWSHRPX3dTT0xmV2h4eFY5VzdxYVBka1ZNNGVhSElZUm8wOTlETUJlMnMwOVZpQS15WGVYN3ExM3JqbUtGcW8xNlpLWnRTOWlfWkxBNk9NLUFidXZGSWw1TkdkTzY0RTlKNUxwd3IyMkxOa2J2Z00yUFhXOTdGY1ZYYS0tYTN1V3BvNlRvSkhJOWdldVJVZFpFTUE?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -1536,10 +1536,9 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-07T07:17:12-03:00",
+    "atualizadoEm": "2026-11-07T13:51:27-03:00",
     "ok": [
       "BC selic",
-      "BC cdi",
       "BC ipca12",
       "BC ipcam",
       "BC igpm",
@@ -1551,6 +1550,7 @@
       "12 notícias"
     ],
     "falhas": [
+      "BC cdi: https://api.bcb.gov.br/dados/serie/bcdata.sgs.4389/dados/ultimos/1?for…: HTTP Error 304: Not Modified",
       "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
     ]
   }
