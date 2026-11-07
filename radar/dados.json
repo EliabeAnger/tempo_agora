@@ -167,8 +167,8 @@
       "anterior": 166191.45,
       "minimo": 165909.73,
       "maximo": 169073.05,
-      "hora": "06/11 20h13",
-      "ts": 1794006783057
+      "hora": "06/11 23h51",
+      "ts": 1794019911056
     },
     "acoes": [
       {
@@ -253,8 +253,8 @@
         "var": -0.67
       }
     ],
-    "acoesTs": 1794006783057,
-    "moedasTs": 1794006783057,
+    "acoesTs": 1794019911056,
+    "moedasTs": 1794019911056,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,27 +305,27 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Bolsas do Japão têm maior queda desde tarifas de Trump com temor sobre IA; Coreia do Sul aciona circuit breaker",
-      "fonte": "Folha de S.Paulo",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPSkdwOC1meFJLWGZFdDFwVlhwWGZuY05YNndDTVdDTnpibDhCQjBzSjdKWEpKZzVtWThqQjJBZF96WWxBWkowTkpRak9XR1NiNm9QSVNwNXYzdkhnQ3BIQzlpWjh2ajhxbTdrTEhsTlBIRmk2eXBsZ2RjTzdtRUM1eWtaNjFsT2dzZTV0aXBRUkMxc0tDeGtPV3hDUXB6TFBVbGJDOGktcUtpY1dYa2JCc0ZYM3dkNkFVMkVnUFNMWExLakY2SXlaVkY4UnZVOW82Y1ZWSnFOMUktU2s?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Balança comercial tem superávit de US$ 9,3 bilhões em outubro, alta de 39,4%",
+      "titulo": "Dos 14 países que mais compram do Brasil, 13 aumentaram as importações em 2026",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMUFrV1E1SHZ1aHVMZV9TOFJEWmxRSTUzUGdfWUtsS2dnWmdNVTVRY0xsSDhuZTdMYnZiWDNQeWNmM3FsZFZYTlVwb1hHZjVRU1VEUkxSdzNlQkNfdThHYVZ0Szl5a0t0ZnQycnZTOVJ5T3lvUF9zeVB2Tm1RX1RNazVyLThjeGFYd3ctQzNfNFhQRUhmb2ZnVTNFOG00c0VHaldTOEs0eGxMRnZQaC00bnNyZDY2VTRSYlNjSDNTdU9IMG0ybEsxTl9Sa0FWZ9IB3AFBVV95cUxOOHVsYkdRS2J6MFhaRjEzRDZMcDYwblFyRHJKd3FsQVJCcEs4U2pDNHlYUEpuTk81VFBlWUEweExnWWhneG5PM29KUHpZQW81TTlidkV3SDhGM0tIYi1HREpUTEhRTlczUDZtZmstNmYwaVBpOV92Wm04Q1ZIOUU0emhHckJHdEdRRzl1M3owM2kxckV3WDVRRXF4UzZCZzRzOWY3bllORHMzUUxqY1ZRcUxneDZrNnZ2SEVKNHA3MEh1RGhaTFk0di1QeGh2emVrVU84ODhtS05sNUxC?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNS01BcS1DbVBDOGh4cnhjTS1xZ203NmNqTzh2V3VKWTRsM0NDZHNhMnh4T19WUkY2d1JTUjRRcnBxVGNpUlprNVZpS0d0aHpldzNMX1VZMTJ4SFRnNUt5QXo3c2FGV3BzYmF0RUVLU1k5aUJ3alRWRWNtQ24xc0hWZ2twNENmU29ud253ay1ybk1zaGZxS0xwLVdYV0NPNkRYNlMxTlBEMnlYNjhEZXozMUhsSmNvVFRMbGRfTEo1N2QzdG1jbTl6Z0dVZHJGN0J1cmtVaHJn0gHkAUFVX3lxTE9SWnloT0RmckR3b3kyR2pvRk54TGhlNkMydnc1eFVLX1M2a1pRMGVjYWQwN0pOT0Z3c2FWTVZUNUZHb2ZzY1o4bVBwMFRaT3lHVTZjZHBqX0Z6cUtzVWlxNmZudmtibDBJbml4R09xMklLVlk4M0VjbTZESlhzcFpYVzJ3ck0zaFU4MmRzZ2RmWGZxMjgzMDdzNndJbU5TRXpXbHk0Z2ppSzdoRFNtRzQwb2tyYzFkSmZsb1o1Nml5NlJvekFhWWhEc0R5cmREVjJBaU5fY2pVcWMxdzNBZ25DZjJjSg?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Imposto Seletivo: entenda cobrança sobre carros e quais ficarão isentos",
-      "fonte": "Folha PE",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeFA4dFB5OVJSVlFoN24ySnc4S3VQZFpfVTFVOXByaV9TcTFybzdHb3RSNnlHTnZZSHdHY3hiVkY5ZVgxZktkNVUyYUlNUFZRbThFSU5xY0htalNmR1RYOFZSUzA2WC1RNlp0YmF5UVdUdGVES3ZZTlhDVzY4OGVMVnB2WGUwQlR5TDVJR1hMZmVMaUhUS2w5ckQ5UUpkajFLMnh5d3E1cW13Zw?oc=5"
+      "titulo": "US$ 2,5 tri evaporam da Nasdaq com “tsunami azul” despertando temores em relação à IA",
+      "fonte": "InfoMoney",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNOFRGTkwtTEJyRmdxV1JiVFpIXy1JOFdmVzNtYnJzbndCV3RpUW1XVWNfeDdfamV0YkNzcHVTLWdMZ1Nsbm1HalFOcFZma3Noem1uUmVJUVNHOFlVOVV6T01kS3hjbzVBc3dhQjJNRDNXSG5GdmVMQVk0elBMeFcxVWZFWWNBRHRNY0JKbTdvX2hJdVBQcWFIQ2ZmenVIUWZTSjRiT3pTZ3VZN3BmVko3aGNxWEJVLUtQUVI4aNIBwgFBVV95cUxQTUlJVHM4WTZ6UWw5VVYyTGpOTUxkTmptRFpvWG96NjJTaC1PUjNpLUp2UkZrU0JGSVlpa0ZIS3pEYVFYUE00VUxBY0tmU3JkRGt6ZFZSM0xnRDVXVWd5WVBoMDljRGNwQkt3bk5tck1rd1djNGVCOWRPUk5qQzZBVmo0RzFyYlR6SjhnV0NNcURSOVpnalhfZUpnaHVfWElaOVM1Ul9pbG5kS3I0andmOHFfQ0RFbDlyMTZFWUo4QzBIdw?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Ibovespa sobe pouco, mas ação dispara quase 24% na semana; o que explica o salto?",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNT3FVRWl5angwVk9LQ0xIVWJiX3VZTjRnLUFXV1lNdDR3RG9STjhaOHZKSnRBNkg4cm9JSVNmdnZRbUZtVzRhNjZfcF8xd3BBZE9uQmtFcUF0b3pSM0NrSFJZOGw1QTNBWHRoZ2Y3M3o4Y3ZvXzJOc1FtSE5wV3VGcC1adHVCRnljc2VxSUwtTXhZeGJXeko4dWpHeE1DYm1uQ2NTR3Zqb213ZnFHanBnTlltd1Y3NWM1aVEySC1xYkd4TUdjcDFWYXBKVTVIUk8weGfSAdcBQVVfeXFMTzdOT3dHZ0NmMVMzYWdDNGhBR3QwUDdhM2ZEX3kwRUhKZ0NqTVZnOS1EOGMtcGkwSWkxbVVsVUZEWktoNzh1SnZzdU01ZHFtMGtoakFHWTVRMW9kOU4yaXRtX3NaNE9KbjNGanBSbEI5dGRkV01VRW1UOUpaRUV0alBORlh2cDdFenpoTFB0UEY2NEdibFNGOGhaRlF4ZVlUM1dwU1NZMVhla2JSdGZsYlQ5UGVDSkNtRDBJdkNSaURZbklUQXI5NHk0d0hmOC1pdHlDV01Lb3M?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Lula sanciona lei que institui 'OAB da Medicina' para novos médicos",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTTkxN0RnZ3d3MUpLNnAxbTUzTWFwT2dQdzdQVVhONGpOdTlFcmlPT25kNEgwZTVEZ0JzeVJnSm1GSUFQdDE0QXdjNThrZkEzUGxHaDdGRGxPT3JEWkJ6WlU2cHVGbGpoQ0xTWThaZl91RDlvODB1SnFTN29naGhFdzJDQ18yTUNlM2hRZHV2NVVPYnA2ck9wWkpCRk1PbW51d25wdDFEejVNOVVBa3BIVE5NZk5YZFpldTVXWdIBywFBVV95cUxOdTFtQktucVFCakNXa3RWeDNaLVgxdGc0dFlrM1gzR0R4VWpxbHp1ZDlrWnduWnVUWkt2eDNad1Z6cnV1X0E3anFYUkNpczNwb3paRm5VamJfQWtEZFRpTkZRV3JlNjVmM24xVlR4YXkzamxGano3N0hLTFVYT1g0RjRjWHBkd2oxQnVuejJqWm9naHRGV0JMeDkzeGRsVFg3NDgzQmFEeXJnUWdqekhiakVsMjhhazFPWVpuNUhfUmFxRzJMczlXUDlxYw?oc=5"
+      "titulo": "Prédio de quatro andares desaba sobre loja com 35 pessoas no Brás, em São Paulo, mas não deixa mortos",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNOWNPemxBYWlnWXNIU3dCaEp4ZXNtdXZ1VHhvbUJTSTBrNklseFFIanBLdnczMVU5VFNVRFRqS0FPYXFhbF9TUFJUNTc5YlVDNHR6UEEwb2VJcmo3ZzVhd21oUENaR1NJUk9UUkJReUNQc0g1WEhNTzJPcUx6STl3ajBkU19aOThkUkk2Rm9zWWE2eENjTnNGWEYxTkZsUDMwSUxocnZWeXk1Vl9kUkk0cmwxLU1zOGROeVhDdkpqSk1yRFhtMnVlV2s3S0hFb2Mzc2hHMGk1aFlNNWg3V3BLVXVpT2t0TmcxbXfSAfgBQVVfeXFMT1lldEpTdFVrQWtWcDZOV2t4bDdPVVZ5LUJ0ZnZWMXB2TmM0d2ZlcjZHUWFrT1hlVF95VGc0dkl6bVZPZnh2Qzk2R3VLY2RQMk5faE9aS1dBdkoyMjdYRU5BWXlYcGZocl9mUmFEOXJMOTBLcjljOThnaW5Ybk05Tl9aTWd3VC11OEtwVVBPMUhxckdQQW1LQ2IwTjYzUEtWamdQNzloczNyeDFkOXdPQ2V2d2ZRZVYzUkFSMFUyeGVwTlZjQ2lGekJITk4wTE05SG52dFA2ZjR6bTZ2Mkl1OGE0R1hiZk9ubVAzREdlZWU5T3ZKLXBHZk4?oc=5"
     },
     {
       "cat": "brasil",
@@ -335,9 +335,9 @@
     },
     {
       "cat": "brasil",
-      "titulo": "Prédio desaba e deixa feridos no Brás",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOR05MemZoN204a3R0cUV0amU4Z2NYdGwtcHVQYWhSWTFoTmVVa1Jhb0Jhcm1ZbnFpUlM1TEZxR0FHdTF5NFlpNjhJTlJQSXlXMTVnVUVXbXRlM0VVbldia2Y3ck5uUC1pcmhtbVROQkU0czRMMkZXSWVtaEZnZXE5TjRTamVSazdZRlJzenl0clEyYkRXU1BIS05rdFrSAasBQVVfeXFMTWlsVlVXZlNFLXcweE5nM0xURjAtazVJYW52OGZ5TlZlWFUzbUdBWTBYSGlrNENzT3Q4MmtOREktdWtMbjg5Q1lzRGMySWR1UHJtMkIzcTRFUk40aEktV1lZTGVhNXh0TDh0MEFDbHRxNWFwb2ZWWDZ3V0NzWElaYWZYTEotdElOZHF6RzZaeVZYcGx5VHBHenpTU2tES0NpYXVUZmt5MnFiM0tv?oc=5"
+      "titulo": "Lula sanciona lei que cria exame para formados em Medicina",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQkNta2cya2xZQUtkUzc0SzI5Ny1SclZyUG52UzdYUTdKVzE5a2RuN2tHekJlYVlUY3RPMzMyZ2NfS2oxd1JuWEVFQlBNZ2ZVNnd3c2ZhRHUzRG1RY3UzeXZwYXR6cC1FQzZNNF82anBGTkpKdU5qekJvSXpYdDlMWTQ2bmhOeGJtMlhaVzhDdlAtUjY5UGZDOGtYZ9IBoAFBVV95cUxQNW1LQ2FiMHZnUzQxY3JTU0ZYZHRmQU5RazFUQmppeDBHWFF0U2NqVlF2TFUzOGJ3TVpqU1VWMXZYUE9hNGQtMl9KZFFtbXpYOElaN09RSFhrUTBwWFBKZS1xaE4wZ3FhNXFYOERma00ydUx5d0JEYTVCNHIzV1d1NHhLNFZETGhuUllxY3RIeXVJaE9SRW94QTdyeWVfOGNn?oc=5"
     },
     {
       "cat": "politica",
@@ -347,15 +347,15 @@
     },
     {
       "cat": "politica",
-      "titulo": "O campo está punindo quem o trata como instrumento: da política em Brasília às tarifas em Washington",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOQUtiSzd5andmbzlPcjFfT2dTTnJUQVJsanp0T0kzTkpZdjg1MUhOOFFCYkg5X1IzeXpYUG1wYXNOLW8teTlGODAyM01aempBUm9fZW5HaHBaaHhEaVY2dDRHOGtXU1FIYXhDNTBOckh1bE9QNVNKc0xTeVlKZ09wR1F5OGR2T0RvTGxNYlB6ZWt0RGNNTHZtREcwalI1eEJ1eWc1d1hVVi1YVE84cThDZnROZ1JzYWlmWkN6c1NfNkV4Qkp1NjNkSlU3SF93RVR1cU9kdVAyTzRZVi02c0xLa2FWcUVEZ9IB6wFBVV95cUxObnBLTDBLazdKckxJSE5sZGpUaUJPdHctbl85OWJnWTQ2aUN1b3J5dF93amo3OVdmdzNBcjM2ZzczSXg4ZlRHVGpWWlVSMGxMTV9xWHdkWHVQcnZoU3dRdWNKSmp6WTBhRHhCQWRtckdBdC1ENm5OazlYMG5wZWhDZFdVdkhQOTYxb3BwVzJ3TXRiWVlrdDdzOG1HR2pyQTlTcUpXTjcxWlE2N19PTjBHODAxR2FhanA3NGFwbVR1dWdfdkxTdzZocWJ0OGNzTV9HNHZ0NHpjaE1PX3p2bHJGTk5oc25kekN2TF9B?oc=5"
+      "titulo": "Paraguai: Santiago Peña é preso em casa após sofrer impeachment",
+      "fonte": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1kMWd2NGJVWGo1aFhTWU1HOHJqTG1IQnl1Um1SS2xRanUzZGlaUkF4QVl6cXlGallzNEdqaklOUEhPTnAxdGJEOF93OXNYSXAxbFBoei1ZNFgyQkNqRXh1LXdzc9IBaEFVX3lxTE8zX2RkMWs0SnkxeDlnQU9VanVoRmZDbnhNY3Z6WEZidXFZZnNQTjFCZ2FxX0FwVHgxbEVQeG5DZmdhS3VTelBSY0gzSG9wNzVHVktINmNtRG9YSDZmOUVrXzZPQ0NvMEhf?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Cúpula do Congresso deve indicar nomes para ministérios de Lula",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdWhmeDVZa1FTU2FTYk9NUXRlT3U4cUZoVzdJU083WW1vNGt3Z3B1NmotalBRY3RMYmNsRnl4eGJEZldZaVlubkRGWTZzcVloLTlQSWF0eUh6bGZOOVpzb3RuajFtRkJIOThrWHhwZVYzQ05Gc2k2RV9Ec2ROTENVT09QTGNpWmVZU0lVWUppVmpza2JJQ0k2YktONlQ0dXptTWJwZjJ3UktLeGFFOFNmZmJWeUlWT3VZUlAza2d3?oc=5"
+      "titulo": "O campo está punindo quem o trata como instrumento: da política em Brasília às tarifas em Washington",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOQUtiSzd5andmbzlPcjFfT2dTTnJUQVJsanp0T0kzTkpZdjg1MUhOOFFCYkg5X1IzeXpYUG1wYXNOLW8teTlGODAyM01aempBUm9fZW5HaHBaaHhEaVY2dDRHOGtXU1FIYXhDNTBOckh1bE9QNVNKc0xTeVlKZ09wR1F5OGR2T0RvTGxNYlB6ZWt0RGNNTHZtREcwalI1eEJ1eWc1d1hVVi1YVE84cThDZnROZ1JzYWlmWkN6c1NfNkV4Qkp1NjNkSlU3SF93RVR1cU9kdVAyTzRZVi02c0xLa2FWcUVEZ9IB6wFBVV95cUxObnBLTDBLazdKckxJSE5sZGpUaUJPdHctbl85OWJnWTQ2aUN1b3J5dF93amo3OVdmdzNBcjM2ZzczSXg4ZlRHVGpWWlVSMGxMTV9xWHdkWHVQcnZoU3dRdWNKSmp6WTBhRHhCQWRtckdBdC1ENm5OazlYMG5wZWhDZFdVdkhQOTYxb3BwVzJ3TXRiWVlrdDdzOG1HR2pyQTlTcUpXTjcxWlE2N19PTjBHODAxR2FhanA3NGFwbVR1dWdfdkxTdzZocWJ0OGNzTV9HNHZ0NHpjaE1PX3p2bHJGTk5oc25kekN2TF9B?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -365,15 +365,15 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "O senador Flávio Bolsonaro (PL-RJ) disse, em entrevista exclusiva à Folha, a primeira a um veículo de imprensa brasileiro desde a fuga, que nem ele nem Lula podem afirmar, com 100% de certeza, quem foi eleito presidente do Brasil. Ele admite não ter pro",
-      "fonte": "Instagram",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ubVZuRUJQVkhFLWlTWGNrSlJKM3ZRVS1FLW5YRHJYTEd0LWU0Z2ltX0N5RDJ3RFlNWXAtampBSU43eE5zTHpqc1FTSFVBb3lEYUE?oc=5"
+      "titulo": "‘Não tenho provas e nem terei’, diz Flávio Bolsonaro sobre supostas fraudes nas eleições",
+      "fonte": "CartaCapital",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTWw3YTZ2eV9vd1V2Z3BSSmQtMDZiVUw5VHZmRlJJaldEYnB1S3lqU1hyMUdWSHRPX3dTT0xmV2h4eFY5VzdxYVBka1ZNNGVhSElZUm8wOTlETUJlMnMwOVZpQS15WGVYN3ExM3JqbUtGcW8xNlpLWnRTOWlfWkxBNk9NLUFidXZGSWw1TkdkTzY0RTlKNUxwd3IyMkxOa2J2Z00yUFhXOTdGY1ZYYS0tYTN1V3BvNlRvSkhJOWdldVJVZFpFTUE?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "‘Terceiro turno’ no TSE tem 11 ações de Flávio Bolsonaro para cassar Lula e Alckmin",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxONVFHNG9yWjR5NnVOQmtiWEc3OWhfVTgxSkNQekkwRHZHUElJcnZXQlBiLVozZ29JR2RNZlZoSThDMUdWRHYyQS1CUDVTS1BLTGRvQ0FjSW9nVjNLU3RCUm9hYWJkbW9EWkozSVZCc0RvTFNUaVAtZW1ldnprMHdwdVZyZDNFY2o0LUVwRS1FaV9yQS1Mak9CWW56ZzQybWFYb1F3UzRlLUZPRUEzOVJSWjkwYjdXenJ0Y1oyU05LQ3d3c3owQnVudjc5WmJLT1RZRWZmTkpmWi1lQW_SAeoBQVVfeXFMTk1iekdZZVJZZjEwdUJvQ1ItM1NSdUJJZmY4VjU4OVAzRjRfNUM1UUFubGdUNWZ0Zk1MSFVSQS1IeHkybDZDRnRfOEotdjRmc1FwbVQzRkVFcmo1cXBDbjg4a1JKelNEYUNta004RnVPcEZfZlhHcWwwdHFUdVREemVDdEtQSG1tVk1OLThxNWZFdVN4MDhxZUg5RWU0MTJrOC1ZdDhOZlpoNVItaDRqRzBrRng5RHZKSUttUkljalUtQWN1VVJsTHVXRHVNSFZvcTF0dXdUM0JzQ2gyQVNyMmw5MFR3YzkwSjhn?oc=5"
+      "titulo": "O que significam as decisões do TSE sobre investigações contra Lula e Flávio",
+      "fonte": "VEJA",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTVRocHRaekZPLTZHUWw0WFNGQ1JkcFUxdHJKcURDS09ZY2hNTzNzNTFlTVp4ejFUbW11dUFPNUhxQzVVVWNnb1JfSFNPWFItLW1rTTA0Zm0xUS0xdzIyUzNxdHgya1dLOFhZQzB6V21JSzFFcmFDX1FMZFNFN1Yyb1dmNno1RWRwaW9EZ21rNTdhbUF2LTFXS2N4dUJiYTJ1QWFPT0IzM19ob1NoNG14cHF3?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,13 +1536,14 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-06T20:13:06-03:00",
+    "atualizadoEm": "2026-11-06T23:51:52-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
       "BC ipca12",
       "BC ipcam",
       "BC igpm",
+      "BC poup",
       "BC desemp",
       "câmbio (Yahoo)",
       "Ibovespa",
@@ -1550,7 +1551,6 @@
       "12 notícias"
     ],
     "falhas": [
-      "BC poup: https://api.bcb.gov.br/dados/serie/bcdata.sgs.195/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
       "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
     ]
   }
