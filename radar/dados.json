@@ -167,8 +167,8 @@
       "anterior": 166191.45,
       "minimo": 165909.73,
       "maximo": 169073.05,
-      "hora": "07/11 17h55",
-      "ts": 1794084944620
+      "hora": "07/11 21h41",
+      "ts": 1794098472229
     },
     "acoes": [
       {
@@ -253,8 +253,8 @@
         "var": -0.67
       }
     ],
-    "acoesTs": 1794084944620,
-    "moedasTs": 1794084944620,
+    "acoesTs": 1794098472229,
+    "moedasTs": 1794098472229,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,39 +305,39 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "The Economist: Empresas correm contra o tempo para se proteger de ataques hackers turbinados por IA",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONTY0dW10WWhtQTYtZVZrTEFTNmgyOW5rWUxSalZKb2FKcmdtdUt4SWpBUG5HMGU4TVNKUmc2QjFiUDU0QWhXbVNuSHdZdUpxYm1YMEt5T0VHZmV5T0U5QTBfS1RTT3NtZ3B0S21Id3hwR0g2MFduUHpxNmpoVlNDR2FZUXA1aWt6NGFKeWRRaVc2U3JVNENxTXhB0gGfAUFVX3lxTE9QYmdzLVNaMGVRRG5hakQ4SXgtSE41aEN0YXp5VW1YTjBVTjZNdzVpMG1PUmNZV2Iwc0VlNkVWWkliZkx3Vjc3bnpFU3oyY0ZaWWV3VWNqQkhOandLTUNWaW83UVRMdllNbHJ6WklWSXl3bUtkcWN0U2NuM1VsWWpsX1BaZmRLdURkOFBSRkI1RjhRb3ZnWWNZUzV3aEozVQ?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Ofertas de Black Friday já estão disponíveis em mais de 30 empresas: de varejista de moda à construtora",
-      "fonte": "Extra online",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPSHRKMHBRS1A2QXVmQV9jdERHTDdCNTVkTTdmNkVSWDdWS0JmYVNhVjVzV0JQOFJTWlRfUXFoSmVOX2czNndNbDhmeVF5eE1GVC1sak53NWtCbi1YTVQ3c0tuSm9uczZPWGhLLUIySzZZNk4tLUJ5T1dnMTg1MGY1enZadmgzcmF6VEJaNUEyUjZsZ2gwOThRLVo2djBtdWNQNVJ0QmYwNkRfTzZQaTNlelNkejZKMWF3NHdSbG1LTHREMk9oMTZ6N1otSW1PajQ5RWVMWHJqUWt3bnJReUVDUGxDM0JTTG5oMTdhVmNR0gH8AUFVX3lxTFBUS25PcVFFb3ZOQXpYdnpmSkpUUFBWeXVKVjNXVEIyVkkzVjVBbklDaWVFSUxwSHlneFRUelYtRUI3azBaSE9paXRpdVA4MFkyMW1UQVl0REVwUFU0amJidGFTZ1VyVnBMRmlVY1dtTlhOVFpjTW5KZS1yMWl0OVQ1VXgtYnpKT0Nyb0xiUkdIMzZMX0lId0M1WU9Jc2F5Znd1U2ktRE1KWk1aWTl0WDlKYVNUb1U0SG5nMmpCNVF4bW1HOUQ5eDFscVJUT3FuXzR4Z0pSajJIT0loQklSLVhmWUR3Tnc2TzNhNTJLa3VCZlVsaW1tX3dEMG1ocA?oc=5"
-    },
-    {
-      "cat": "economia",
       "titulo": "VR e VA podem ser aceitos em mais maquininhas a partir deste sábado",
       "fonte": "ICL Notícias",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE52R1RXUjAzTHBjeS1yY2p1Y25rNFZrajhoaHR1N054Z2tabkJJMlBxUUsxcnZBanZ4cTdSMWJ5d1BPTFBHV3pwdVFqUllpX2RSeU51MExfUWpNN3E2VG4zekJDbmJ3N1pybkF0MHFHcFhhaERWel8wbE9B?oc=5"
     },
     {
-      "cat": "brasil",
-      "titulo": "Helicóptero cai em fazenda e deixa cinco pessoas feridas em Passos, MG",
+      "cat": "economia",
+      "titulo": "Mega-Sena premia duas apostas de Corumbá com R$ 20 mil cada",
+      "fonte": "Diário Corumbaense",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFByUUhYUjNGT08ydEEtcGkzRWZneW9EUUtyQ0k1MkN2UkNLRERxeGFTbWhwQUUwQTl0WTZrUXZKQWRXR183ekZyeUdlSXF0NUdBQnJOVXFJeHhhaHc?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "'Imposto do pecado' não é invenção brasileira: álcool e tabaco são taxados nos 38 países da OCDE, grupo de nações ricas",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSDZWNUdWSWdJOUptVVpjbDVtcG5vSXludmxYMFhSWGprd3Z3d19zMmhhUjlWaWcxckt1MGZVb2NTLWZYWUdSR09TQVdCYmVOci02UWdaOWkycDhVZUs3WUc2Wl8zXzltWDJZUkRpNm1Ua3BHM2lJdEhQZmVkSkM1X245empMLVNPc3RWNkV4amJkZnBHNEwtX2ZteWQ3aWlJUUHSAbABQVVfeXFMUHdrVGVzUVh4anVHajJBVGpFVkpfQ0NJaEktSzFPUEZvY0xwMzRNWGo5VUUzT01jYW9qT3JENjVWTXJyQ0FHZ1BPRFIzeTB5ZXNyN1B2Nkh0TlZXNlNxd2hadkF0Z2RZLU9vQVFmQ0o4QkJQVDZUNWM0RnA4WUl3YXhvem82Z19aNkZLTnJ6WlpzZ1ZEeUpnRjNzdUJfNlkwQnU1a0pBWWNyTFdTSFhWdU8?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNekpNSHdOMTFJUGFhVlFiWTA0aFNzVS0xUUJyb3VfTmFjSFg4UHpUbDNjQmNEbDRDU1ZONTZMWm9wcDY3MXdDMS1hV240SThMa0NiZTJVTWtaYmtHYUhJbW5MZi1Odkk4ZmV2dy1QSU81WXNmVm80Q3Q2U1JjbmRWNmV0RENtbUpTOG02eE00aVpIaFNkWTVWb3lGMjFFSXh3OXRCTDY5WV85ay1ZOUNnWFpvN3JkOFg5aWNyVTFCZjBrOHczVU9MUDZHSERDOXdKV2wyUV96aE5BSWZxUzRiajBiY0hISmxfYU9vYTZvdFRUb01FcEtoRG94Qm9fWjDSAY4CQVVfeXFMTTNVTVlEVkNzRlB4bU50Zl9TYmtFLUdMRk9qU3Rsak9fSHFKVmgtTUJmcE9PdkJ1OGl3cWRNckhWdm0xWnIyZ2pESzBuMkxYVU05c1VFZ0oxRXJLZlI5QTdPU0Z2UGJweTZfSGlOUllhbzlIcVBPRGg2bjZUeTZpems1dWpCdkhyMFdENGdtZnNDWDJQTGE1ODQxTVFzQmpudGRqNkNKNEpjZ1k0VWpaYUU5V2YtVzdQUmE5WE0xWXJvZURCRllJWFprcGg2RVIzRlliZVQxZDk0dDlhNkhJa3NKbHFUSW9Jb2Jnd3Zpa3FKT3A0TGFtV2p3RHN3b2F3cUJmNElEUWxqV21iakJ3?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Josmar Jozino: Polícia indicia Milton Leite e pede prisão preventiva por ligação com PCC",
-      "fonte": "UOL Notícias",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPb2h4Q1d0MUR6cGxGWFZHa2plQkdMcXRpei1sbnN0ZWVTaXNpZ3dEQmhQV2FTSGRZcGU3SkZBa3R0Z29xdHZLWFFQQ252MFNhWDdaaHV1Y0xuTE1TcFJRbDdXa3JFZ2lBZGJqOXNwRUNwM2tMaHFTUlE5Tm9VcnM5Mnl2c1o4TVNFN2pCQTZic2dicVozNnVWdjd3ZnJmSEF3MzFlNEp2SXVnYzd2RTRjLWE1cjV1TWpFN2NMem1TdzhaOEx6ZnRrVUlxdkpnUmQzRkhN?oc=5"
+      "titulo": "Defesa Civil Nacional orienta brasileiros a estocar água e alimentos para 72 horas",
+      "fonte": "Gazeta do Povo",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSkFpbjVETEIzVkpZd0gwRG5KTmRUT1V1WWt1TFNFWjBPRmF4Sl8tM3l3bEVMekZoYkxhSWF2VW8wbndTeVpnNndNYzhSeHpqdmRvTEhjTkxyNkQ4SElkbXVQdl8xd2xQOEtZMy1zMlBrSnhXZ1RESnRqbnVHOHR1X3VpLVVpNkdxanlBb1NhQmpveG9GczBSMDhTQXpXZjdtTF9KVk9MZEdYTkM3STdfbW1QOXlLNEs4ejFwY242TQ?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Lula rebate e diz que pobre não pagará \"sacrifício\" de ajuste fiscal",
+      "titulo": "Milton Leite e outros 12 são indiciados sob suspeita de organização criminosa e promoção do PCC",
+      "fonte": "Folha de S.Paulo",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQUnlWRWo4SXB3Y3RBMXVLOHcxUkIwZV9CdVdqWVY2OXEtM1NoeFFNLWlaNnloNkh2WWJYNmlkRi1kREUzcVNXXzlHSUJMY2RYeHRiOU5jV3RSWWtlb3Z5UmtJTE95Y3lyQlBSV1dndXNMU3FYeWN4YXJTejZpMWRhbVV4WWx0WTlaNlc1ZFphR1FXWG5STkpWZV9KX2swRVoxSFk3QkpVQlk1Q2l0c08tM1V2MnZGUVNpUVFCazlPV2xCTWpmQzl3T2IteE5Vb2djeEZqdWFGSW43RkZRbE5GbUJJQQ?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "“Não sabe do que fala”, diz Flávio sobre aval de Nunes Marques à eleição",
       "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbVJYRC1zQ2hFZGNReEVfQUp4VXFZakdYcmtvRjc0MTJBbDluSEJZTjZUOUluNTVrSWlpMm1iWUFmLW9jWXFIWEkxc3lkdC15Q1JQLUJKeFpUZUJtRVl3VjExWlEtZFhHdjNxVWNqX3owdmtIUDJuT1h3RzEyYVFETkloM2MtSnFLandDeUNiSHROWGROMmVsNTBncGtQTXRRNmhPWFA0MjFDQmdycHc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPS0JVRUVGcVBMZjNoWE1xSFZCRkdUcFdpYWpralN6Y2tvSG1Ybm1fS1M4MHhQZWwyQXRJbE5VTzFwOGs3bWFITTJWcVBUUFNiMV9zQUM4US1DTl8zVTBEN1NCeXBPSTFxdUNCbGZwWG9lUWcyRURGU2Z4SXFDdnZtcTZjUFdBNmoyQzl5NmdiQmFGVnYxN2dyV1F4OGJXb0NwSXhoM3dQdWNVYjBvMWRyMTdHNnQ5MXNDN0E?oc=5"
     },
     {
       "cat": "politica",
@@ -347,33 +347,27 @@
     },
     {
       "cat": "politica",
-      "titulo": "Parlamentares de saída podem indicar R$ 11,6 bi em emendas de 2027",
-      "fonte": "TV Sim Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQejZDSEc3amxuVnVLc1VTNUpnSjMyMEk4V2xIRWx5V3VCUElNeXd0LVhmN1BnLTYtcEgteEhXTkM1RFFTRTFYaDk2Z0tSbEpaYVpic0VsWTE5YjRGdzh0UmxULU1kY1g5bjRrZlp5bGFJZ3g1VUhkVmZYaUpySjVkbF93SFdCd3dmYkhmVE9PLWlsVlZOcXVVaTBvXy1iekhKVnZ0ejh2TTUtRk1wOVdEVlpBZ0t2ZE9GdWo4bWJzdXB5OWpUdjZpcg?oc=5"
-    },
-    {
-      "cat": "politica",
       "titulo": "‘Exército do Lula’: Janones e governo tentam manter militância ativa para pressionar Congresso e STF",
       "fonte": "Estadão",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRHBBTWR5TXJfckJiQUliVkxuRl94MTNNam1CSF95YTBRdDVXcXNGQjhZcGNUeHBHbTZtanJEY1hEMlJvRkxHN3NPY0xVemJvUkdzcWNLSjJzcEtIbW1RODF4OHNoY014YVN3SzZSaThaN2FiMVBxTFEzZlRtV0ZrbXhvbE5wNXdicFdJTkdNak1CLVQ5SEJYNnlhWFNGQ2VudzQtRmpJT3RfbUY2T2NLMFZmRDNBcWVZS1pfODBsdW83NWdPdFYycFZHM2ozaTTSAdQBQVVfeXFMTmptVUU5WEwyZVBISlg5U1Y3ZTJ2aUFLYkV6TmJnV01oQ0JaWExwWEtLYXh4aVYxSW9oZm9XZHBBcV83YmFwTHhkcWV4aGJOT0N2cjBqZjZxR3lINk9nVEtQYkZUWTJhazRuUWFxSUpVdng1MHZva0JRVWxwRjVxSUVSLVRvZ0lRTmJoaHVlT2tZSUlQcklRSGlXbXRrdElPQjJNZXVFOGRhdW03UFlLdHktdFVkdzVIVi01OUdzRUV3cVFTT0lwU3BDQ21wM05hb2pvenQ?oc=5"
     },
     {
-      "cat": "eleicoes",
-      "titulo": "Plano de Flávio prevê segurança jurídica para donos de armas",
-      "fonte": "Gazeta do Povo",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZWJkNFVQbVNPdVZ2MlV5X1JPbWNTQkhTOTZPclFHUk84WVZueGhqRExfU1Z5ajhyU0d0WG9ONFczMjQxVDlTTXJ3R0dIYThJN0ZqSzZLZDY3bHBGWHZ1alRKaTd5cnhEMl9SSTlyOHBlUzB3U3FvZzdEVVlPZEE5WVYwalFEOUFDbm5NeFlnQ0xTMjNub05TSENiZ1NuUEJMT2tQcGVwZU8yVU0?oc=5"
+      "cat": "politica",
+      "titulo": "Projeto cria política de soberania digital e impõe regras a big techs",
+      "fonte": "Congresso em Foco",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQN0d4dVdTcXJTalZ2bmQ4VHBuNENOWThBWHpKSTMyVktpdWlTRWdEejhCaU5OcGVVejJZc3dzOU93bmhQeE1ZZXlza1V4WWZmMEowQWlPUTR5eUp4YTFNVkpkMXVqbDBWckRXT0FxWWlNeUhVak5iaWktNXNtRGhNM05OcVpIWmlSVUJTbTgzaVIyZXAzNHlnc1hCMHU0c1JFWDhmUDE5eGs5WUVBeGg2MHhXVE9RV0llMGx1djc4aW0?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "“Não sabe do que fala”, diz Flávio sobre aval de Nunes Marques à eleição",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPS0JVRUVGcVBMZjNoWE1xSFZCRkdUcFdpYWpralN6Y2tvSG1Ybm1fS1M4MHhQZWwyQXRJbE5VTzFwOGs3bWFITTJWcVBUUFNiMV9zQUM4US1DTl8zVTBEN1NCeXBPSTFxdUNCbGZwWG9lUWcyRURGU2Z4SXFDdnZtcTZjUFdBNmoyQzl5NmdiQmFGVnYxN2dyV1F4OGJXb0NwSXhoM3dQdWNVYjBvMWRyMTdHNnQ5MXNDN0E?oc=5"
+      "titulo": "No swing state brasileiro, nem Lula nem Flávio Bolsonaro sabem o que fazer",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWnNRWGlJeE1yd0VYbnpTZkx6NmpxTzROUms1bDNqelZ6OW9kWEFWM0Y3UXdsXzF3a2w3X3NkU3RWVktFLUtJbnRIMmtITW9KQ05uZEJkRm1IMlhYLXE4S3ZNcnVfMkp0ZkZvSVpPaG5MZ0VmTW54NHFyVC02SHdmUWstV3FoazlIUjdPaUo3QmdtSTAwUGVKbGdXYy1rd3lUeF9EOXVoeWZvUUNNZEhhOFRwM0kxT3VReEdMbXVPTnR0bVRpLU03Ng?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "Flávio Bolsonaro repete alegações falsas sobre eleição; confira checagem",
-      "fonte": "UOL Notícias",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZl9sVnFmZTAzNHpZV01IRlpIaDRXSl8zVjctTDRvYnBleXRuM2lQMTE2LVh1QWRBaFRJRUJTcjU5QlJLY1ZvbmRpNXdia2dOYzJPY1dKd1hsWG93VlV3ZXhVTFlOOXZCc3hidndYNmpOSklJYjJJeUdZQ3RtdzlQamRVaWRCakFJQ2NhaFpvQ0swN0RWNVc1elpROFI2TGI0VFFOeTRZRmM1Zw?oc=5"
+      "titulo": "Flávio Bolsonaro diz que Nunes Marques 'não sabe do que está falando' sobre a eleição",
+      "fonte": "Folha de S.Paulo",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQX3dpVHlPMndvSGFDV3JWMEhKMXhSdFl4VlhpVGE4MVZfNWNQYm5tT09qYlMzcUZ6SWZPUHhZQTBQOGtUa0J5NDRmX3J1N3VsaDNVNDJfSXFwV0FKemNTS0E1LWJPanoyN2g2T2ZqM1hRUnluTjVfLVl4Y2JmdXpIUlZnTGhtT2lfMEpSbDQ1T1hFbzAtYzFQTFFvQkNfZ2ZLaHZLbTJGQ3haZmdkMDNwTnhhTmE1WEpFWERrN2lTSmFPVFJOZDg4alFacTNJUQ?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,7 +1530,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-07T17:55:46-03:00",
+    "atualizadoEm": "2026-11-07T21:41:14-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
@@ -1548,7 +1542,7 @@
       "câmbio (Yahoo)",
       "Ibovespa",
       "8 de 8 ações",
-      "12 notícias"
+      "11 notícias"
     ],
     "falhas": [
       "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
