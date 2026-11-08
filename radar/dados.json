@@ -164,11 +164,11 @@
     "ibov": {
       "pontos": 168498.45,
       "var": 1.39,
-      "anterior": 166191.45,
+      "anterior": 166191.0,
       "minimo": 168498.45,
       "maximo": 168498.45,
-      "hora": "08/11 12h16",
-      "ts": 1794151016626
+      "hora": "08/11 16h46",
+      "ts": 1794167192307
     },
     "acoes": [
       {
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.505,
-        "var": 0.02
+        "valor": 5.4959,
+        "var": -0.14
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.132,
-        "var": -0.67
+        "valor": 6.1284,
+        "var": -0.72
       }
     ],
-    "acoesTs": 1794151016626,
-    "moedasTs": 1794151016626,
+    "acoesTs": 1794167192307,
+    "moedasTs": 1794167192307,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,57 +305,57 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Itaipu tinha cerca de R$ 1 bilhão no Ueno Bank, banco do Paraguai que teve operações suspensas, e tenta recuperar dinheiro na Justiça",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNS2xWU2JjMmR5Yy0tdEx4cmt6djhpeEN0QmdVVWxVaGNzN2N1b3QtOWFSOVVjc3pHS0dzcmlYQjBsWHVQXzZxaEtpcWFtWTAxZHI4TjdhbjBzZS00dmIyUmJsdmpJeWthYlhfUldfaVhvRFhrQlU5NXBFQklCS284V1ZlM3BwOEVLVnQtdDZfUThpV2hXRmJfWmZnRE1yWk3SAa4BQVVfeXFMT1RPbXQ0V3V3Z1pXNldtZXNaREY3bjRDRURUUHpiSXkyYWMtYlhNdmlRQm1tOUJQYlFRR1ZWd09vTk9BWGxwbVBZalJLRV9JYXJ6R3pPRzZDQzhweDRDTlp2OVBwZVVha0RlUk04ZHdBUnJOQnlRZVZoZjl1VEZqNzJJWGxGUFdja0tkQllGMDV1bVo1RHJZMVppYkNRUEtIS2hEZVo3Q1JPdGloOVFB?oc=5"
+      "titulo": "Lado paraguaio de Itaipu diz ter R$ 1 bi no Ueno Bank e aciona MP",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdWhGRW5CWXhzZU5NNVhCTHRIXzBOVEdLNExNVVNMZWdaYk9rVlUxelZka3dDSG5XYndvXzkyTGZBQmJxU2djT2FqeU5fZS12SmlhNkJGRVozR0FMTmkySG9rWXpVM01uR09HYTRrVVFEWHJxRjA4T0Jtb0dCdFYySzR1dVpydGlWSEpHNVFkNHRxWF9kNEJiQ2dNUHVEQUppYU80Rk8zcU9ab1BzRGN1b2Jrbw?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Mega-Sena sorteia prêmio acumulado de R$ 59,5 milhões; confira dezenas",
-      "fonte": "UOL Notícias",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTU9NbmJPaWViMmp0b0dmQVJjWDk0aGVvb3cydTdsbGZBdjdZZnA3ck9JdzlPSVRZRTAzT082TXNPRVJfYVRBemRyV1BGSDNBeWVlRS1nU1U0X3JNT180dHJmMERRQnJJYmlKd2lTSnBwVFFpYUthQThpeGNXYS1ZODFIejN3b1Z0WWFVVHMxR2VIMUN2elR6WGZmNVM2Y2JsM1d1cWRwUjlmYjI0cTRoQ0Eza28?oc=5"
+      "titulo": "Mega-Sena 3083: aposta simples de Goiânia leva quase R$ 60 milhões; confira os números sorteados",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVUhRYnNNOVpGNWV6NkkyYVJyTnV5Y1ctMFBLTHUyYU5Da1pxNEtqOFVHR1ZOWUVGbjVMdWJwbG9jemc1WnRzZmhOYmxhSUdXZnFwcEtLaEpUMEZQNV9FRmxBakVwOXZHZ0RZVEVhSHE0WXIwRGlGa2lCLThrQnB5b3Jpd3dVRC01WUJqZURJaks3aGpIdGtyUFhlZlJxRjFFUVZLTmNGaFdld2pC0gG7AUFVX3lxTE5KUDVnS1FvbVR3QjBQN3RicGtPOGhDN2VCUC13M1dHeVZrQnAxR0I2MENyM2hRUFlqQ21KMi1MVWkwakxEY1VsRjFtZ0VKSmR4SUtleHJjMXRaV1ZZY0FESEFuSmRNLU1WWVRzZVVNcDlaeG9vSlh6VXo3VmM2T0EzTF9iam5DS2RwZU80NzJ2WERfUEN5Znk4ZmVURVFraUVnYVdfcVJ4STc2NkVPeUw0SWU2YUFSRkYtbGs?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Como uma falsa entrevista de emprego levou ao roubo de R$ 34 bilhões em criptomoedas; veja iscas usadas por hackers",
+      "titulo": "Gigante nacional do cimento fecha venda para grupo chinês",
+      "fonte": "Gazeta do Povo",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMXhHSWxRZ09BeW1rcjUtS3dYRndWMU5LMHMyS1NZTzB4blJNd3RDN25NN3ZvN0x6WHBWeTBLNk03VjNGUFFoekQtRmhTMEh2SXVnUXJLY3RXVWIxZG5zNFhVbHkyV0JIMFlrbW1hY3hSM3VOdC1vWWlaMlpITm9fdHZkVVVxRldDbWNicDNlaTdUWWJCdXlKMG1EbWxqWkllQWZnSlA4UERUcjg?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Enem 2026: tema sobre valorização do SUS exige que aluno identifique problema implícito no enunciado, avaliam professores",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeV9ybGt0OVpFTXhkRnNZaWd6X2FreWk4bTFvYVNibkFDQnZuZGJZVDE5N3FjbjZDQ3VpSC1wNGRzaTAzVXJYVG5ESWJHNV9UX2JSNzJvQ004YngxU2sxeTA0NzZwZmQxejNZYXRMUTBZTlRXajh0MHIwNWVQVWYwcEVRYjFWaElzT2NpNmhHY3hsUk5PX1lSWk5PTTZfX2dSQk9B0gGyAUFVX3lxTE9Sb19JeWVWLXdSTXZ0VkFjRDZQN1oxVjIwdGRNSkFjVXcwVGE5QVFMNTFQM1Q0QXQ2eHZ4d3MtYlVkUUdKWnpRWWJSU3FJbXJvWU9wenRUaHpWS2dWV3ZJdTE3em5sNFlfVGZfZWVnRlFiekdRMF91ak83dU9pN29SRmc1em1KVE1xUXBBQkpKWVJBVVBDaEJ2WDBvR2thTVZNNUdLQ20taXpTdU9iV205clE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQVNmM2RnbWFHM0xGZkhiWi03MjkxWlVFLUh1ZXRUWGx6QjllZTdsN2ppcnQtQS0wMzZVd2syRnB1Ymt4Q1BZczQyZHg0WDdXUlFna0xheGc0NG9SZ0I1OWRocHdlWlo3bEN4MFl2ZGJ4UGtkaW9nX2RKVGx5dGxLU3ltdlkyYTduMjVkazYxWGc2SVBLbGdfYmR0MHlpWGp5MzBCY0FlMkZyVFozNmdRNUpaRXE2R2RNaEZyZW4zM0VvWmhn0gHTAUFVX3lxTE5vMlVfTmEzRENiNnBDVmRnWlZqN0JIWWo2bllwQTZtYWxCRlhnSmNJOXFJWV9CM3d2aEFUc0JoMGVOY3JIbGlvQktVb2NfRTd2T2lVYW5QZ0RBZkxnMjI3VHhOM0RWV1lRSFRsQ3d5dk8zUGVMNlZ5bkF4am80UnNpMlZ4VHl2RVBSaHZ3bmM5aGEzQjZUZjE0OWhza2V6RU1QM1Bsdnlsd0pOVnkxN1VjVmtYOHViZzM1VVZ6WGhlWFFOR05fVWNYMVBpSW5SV0VIejQ?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Que horas abre o portão do Enem? Que horas fecha o portão do Enem?",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTXRfSHhJalJuMUtIbkZNNm1Ia09ROWdTSUwybFEwTFRPMklpZEk2R2hLTXR4MmpmNExEb3cyVVNDVUZZcDIzem1aRF9GaFhvajhTTVVXeF9WcFhnM3pFQkp0Um1PaWVNN1R6VlN6Y3k4cjhObldxY3FhR1ZUaGFDMWRQX0ItRWs5aXlhLXlhQnI0SmFRQlkyQWJ4WGozX3BodXQ2STVIdWZhYXJpeWd3TjBJTmR2Ul9IN2lEa0dNaUpNbGVFUWFGRNIB1wFBVV95cUxNMk5uczBWWVVWaUY1di1PYjh4bGJTWkd0TE9XUmZPWHppLVpQNDVkTU5XbS1pVFJTdmNmWTdCWUFfUWJodmFaYUlqVTZHamxPTEdyYlBQaDlMSy1pSTJyb0ZiY0VQaDFNazVwODNxNVFvbmZfSEJIZUtpcXYtMENnTHAzbHktZ2h2NUpMNDZyN0hNcG9jQ19mVDdtdEtJVkV5OXlOQkh5OS02S3JMWW1LTHJfcXlHYkt4aDRRMGl6RHlCaUYxcUFnVGVpeW4ycUtnckVMZGxrUQ?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Lutador preso por espancar vizinhas no RJ diz ser usuário de maconha, cocaína e remédios controlados",
-      "fonte": "Terra",
-      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxORlJrbHJJOVV0YlJsS0kza0liTWU3VGtMaTBHVWN4Y3hnNjBXQWx4bDNWOFowS3ZiT1F5dk1jM0kyUnRWMHNjNGJiSmlWMXNtX1dFV3h6VDNVVi1zcnJ4dFlKOXBuSFU0RjZ0X1djeThhd255ZU12WmVGZmZSTEN3X0xBMVhkWXNPbEVCM3NseWdpT3NIMzNYY0Z1UFR3OE5PU1VpNGQxYTFEUWhjeTZ0cGxRbHlmLThHdWpyM2NJYWNWMmxUSFZ0Xzkxd2J4U1h5a3B0RmQyd0F2Q19nNzNrU0xuMzZzTzIyODlEdzdHbUpydVE1QktRcE92UlgzX1hsa2djMjZKbW1Lc2tPV0ExYnVoQ0RDLTNLcmdselpxNA?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Quaest aponta que 62% reprovam saída de Flávio Bolsonaro aos EUA e 56% acham que ele está fugindo da Justiça",
-      "fonte": "NSC Total",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQdDlEZ25zU0wwMXZVVkdKNWhNY1VsLUkxRktqMUZmOFJVS0llTTZrSE11RXdvdlpZOFhXb3JZUHRUaTk3R3pEcl80cGhjc08yMTJCZ2xDb0pJWnZaVUoxbDB4bHBXenVKdlZmRDZtalc4YXZJbFozb3dNNy1WQTVxYVNVaFVkMTlWTS1DTGhySFYxT2llMnZKQUJRMi1qOURNcEpwM3pvSVhjLXpJVG9EaE40M2M2TGFrc1Y4TWJVdndMNXdZU1I1T1lVQVB6ZHVWVjJSMnFBcDdNbm8?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Congresso retorna sob efeito das eleições e limita pautas de maior impacto",
+      "titulo": "1º dia do Enem 2026: tudo o que você precisa saber antes da prova",
       "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUnZubVh3a2hOUnZldmZDbXNPSmpjR2NKenlfVktwOGFONVA2UGhPZDVVbHdsN093dnhsaDJYX3RxNGFlUEhLYjF2LXB4X0xGRlJiNlBHbnFZSDRwbFpuM2pfT0F4dm45OG14NlAzRDBNYlczckVPUmFwTm05SGZMeGdVa2pyR2xFX1I3ODhFTDFObnRCU05FWHR4N2x1aDd4WVUyNVNyQ0FGVWVfZU1kREJmMA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeHg0aXJOZEtBTEQ1SHFlOFpVUDF2VG12MjBvb1J4dkNOTkVucGF2WUZfcTVyY0VkaUx4ajExN0tOdFlXb2M1X1RSOUxBeWNNNHB6TlVScGdURkQ2SEpwdmkxUmpMREFORHdMOVVKeWJGdUFCaVBWa3V5MThGMnVGSUlZbjh4amVYM2VsRmFmWnpwLVF1ak0zMHpsNDcwNDBhcmJyZHFB?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Quaest: 48% aprovam e 44% desaprovam governo Lula na primeira pesquisa após a eleição",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQa0ZnS1FFVGpvczJDeWt2VW95THdILVRVUzNEd0VpTXFKSXlSRkw2NVR5SHY5M1VIRmxrMU52QkhpX3hWMEJsVEI4OG5yYTFEeVdaSXl4cjU5cWlHbmZoNm5nMzhwT1hxYlVqN2VPaFNfb0dMREl4YjlNVGprWl9ESXdpeWlpOFJvRk5tY3NVc1h3endJeDBZVW8zN1JtbTgyUmE2WkpqUXJITzBtQTU5WG9xd1FabnlsQlJnTm0zRk5wbjdqWC1XLW1USXJWSTVDbmg5cU04RGNGNEZFZG5FU0tDODdoZ9IB9AFBVV95cUxOZkhfc0MwSXJFaGFiSzJ6aXVPYXl3WVZNM3dvUldkVUFCWXVYenVOSWJqdFl0dnN5MGQtY2U3cHNOZHA2WlJjaGVMVU5kc0tOWGFlZjhVQmpSYVVlYzlBTjNnbzhrbGxXUnpHZ1BzUHlLc1BraGxRZHpPLVJlM1BIZ3E3ZU1KYngyNks2alZHSzd3TFBZeGNyMjFEZ0o2RUhCX1pjRG1MaVNkWGhoZklXWHRaWFp6YlNFTVhvaC12Wlg2SThEY3JVRVo1UkstZnNsRmN5dWZCMDBxd0VDRWgydzJhSExyLXJBWkt5VDlhRFRFNlJt?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Projeto cria política de soberania digital e impõe regras a big techs",
-      "fonte": "Congresso em Foco",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUGJSUE4yYmd1Tk85NUdQQWhXcS13ZWhuMUJYT3poMV84NVFGZU1ST01DbUNrS0tISnBPNWFyZjBYd3U0V0tPLWRLa0lJTS1GbUZyaTBIaW8xTHA1YmNMQ0dmdUVLT2FjS2Z1OU95T0wtcENuSngzNVQ3S0l6RnVQVjZJbmZld1JqMWp6bHdwUWRlNE91WGlST1AzNl9FM3A3OTl5VWNvOGVSYnhwZXpQNVp0YlY0YU9WSmNV?oc=5"
+      "titulo": "Quaest: 70% acham que governo Lula terá mais conflitos com o Congresso",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbWRseUtubU5RenVnRVRIWUM4VGxxcGhXYlN0dmZKVWUyZ0lndVYxaEFzZmx6cXJOckY3N1pSS2dLUTF5RER0MkphOXlzSm9DWHlwaEdtR21uSlJwb3k1ejJ1Nkp1b1JJNjBIcEw0Y1N1Ui11Tk1jODVvTmdYR0pWUHRlVDJ3ZkJqVVpXMkVqd3FLTXhmTEhQVzEwZ0hNUTVjY3VnYzEyYzNOM2s?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Opinião | Lula 4: uma nova política externa para um novo mundo?",
+      "titulo": "Uma contribuição ao debate da reforma política, que o Brasil precisa enfrentar",
+      "fonte": "Partido dos Trabalhadores",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWW9RX1J3Q2VQSWRFczM3TkxXRDA5RkJqRzNDbnpub01mc3I4WXNFY0d4bmVhM2RsQnhCcDdibWFya0txUlZqa0xUOF9qQi1HQjh3TlQzSUhScDRaNTUtTW1lNy1FSzJBUk9UenE2cWxDTXVwc1daVVpjREdJaFZKX01XTUVZQnJEdlBoOUcyU1R3cDQ2X1lsSGVDNXrSAaQBQVVfeXFMUHNwQnpQeGFNS2Z1RkpWQVZnUUtiQ3hzMzIwMFd3c1NVMFVoVDlOVTZiLWQ4dmQybE9NUWZzMmhuNUNfWkVzYnMtZ19iWVp0WldPbmpuVTY0dFQ5VW1lOG1jaWQzV2xPWmtIQ0dCaHFiQ2hhWVQyQ3ZGS2szeWNBS3NVV2tkcWhCZllzY0hHUllwQ3QybXJyVlFlMXJFOFRDcDN2ZXg?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "O Centrão vai se desgarrar do bolsonarismo e o PT precisa de reforma completa, diz João Paulo Cunha",
       "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQX3VsVG03TjMya3czRGlMNF9VRnFyUHU0eFB0TGRGTVp1VFB3RTVmSFN6MEdpdlVIME1EalVqV2ladUpUeWpZTFg2YXB6Mlh0ZTcwbDg5blRsTXRqSldjNThRM1FnS2VNaVQzdlJNbF9EcmFDUkxaeW9kTG9ZY0dnS0lfa09DQW16LUoyMDJHN0JsOVlBYkZwQUNEVzNhV1VZT3FF?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWVBsMlRBNU1sX0ZIY0NEVHBIbnp6cUJnY25lWWlSRFJYNnctMFRieFdXM3EtYzNySmVJX012NGMyM3Zxcml2MnN2MEllSVc2dkZsLTUtU0g5LVFzTVotMFJYcWFhZVpfSk5GcG5aVXRqdTYxTS1seFJGUDlQMm5TbmRPUTN3X1Z2N2g4end4Y2ZRSW1kUmF0SmJQNmxzeUtlSF9mV1RJa1JWY3ZWS25vNEd5Ml9yTmdlX3VEaEZRYzRZb1RINnNXLVppQlNpLUFl0gHWAUFVX3lxTE03Zi1lLUl6RXdPVXBCVGtadVBVdjVSdWloU28tTG5VNlU1YW96MmJEUG1YZWRhQUktZko1UUlsaGNqS0dhUlMxdHYtWE9EVldtb01vT1Q4Q2taQl9lSlVzVUE1c0ctLXBNcENpVDVHYWJ5YkJSVnhlLTRtRGpqVC1lYjJ1TVpIVlI1OTR2M2FCNkp1TGt1ZFIxZ1U5WnZJcUNLdGo4aXpPM013LTM5VzBlNy02dkhJaG1Sd0ZEQWZXcGZwUzEzdFRfbWlueC1RZE11SHA1d0E?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -365,15 +365,15 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "Por que mulheres podem estar por trás da vitória de Lula nas eleições",
-      "fonte": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE90WkZYeU5jU3QzcHRlbVlGZk1vQWs1dTJHajNJcDQ3MHBuTHpDNm9kaGNISjdmcEZGRXVPU05wdUp3NWd5ck1TbUEzT29fVEpCRVY2c1EwRVZCYmxqUGtKNGdkUdIBaEFVX3lxTE9yOXRsYkU3d0NSSHd2cy1YRHlCV1JUeGJxVFJVNFc5M1BsbExpc2lUTi1DMWt5S1h5a1A2RzFYakRrRXllYVh5VTZxb283Z05vT1cwNndTNjJWd3pCcmNUODg5MmpxZzJC?oc=5"
+      "titulo": "Onde ficam as urnas que Lula e Flávio Bolsonaro 'zeraram' no 2º turno",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOQlZOQzB1RDk4MUswd0JWb3ZjckFvRFhzZjZ1ZS1UekVva1ZkZkpHSVRnRHVFZFVsc2swMVpZVWtlRjBmQ1kxY0w2ZExuNXJZSElsMGN0WnpaQU16UVRLa19ac3JsaC1fOWRKWTRjZ3BwNnhRS1V4cFBoczRaZzNRSlZ5QnBqRUlKTnlJVmh0UmZDQ0x6Mm5EYnJJdGtBcjV1TE9kd3JCV09rN25TRW5LU1ZVTGkyWEVnZlhiRGk2OTNzaTFnOGZYUkxYZFoxMTFWRWfSAeABQVVfeXFMTmEwLW04SWowYkNXZHJTcGF5RU1IaWxqU0RQTWdZTTRsdTRyRTRxWm5CYlR3OE0xeDNtRWc2dG0xeU1GZVZUWk5jNFJBWDl1VzBTR0o4LXJIZE05aThqYVdXTWk2QUVLQzRkb1hHcEQ1NGV1QXVXMU0xMUotR2hXS0dXTU1Od0VQM2swVlVOdkdIZW52YTRvMDFfVm1USEc4cDFmZTdnMzFEd080Ti1xUUItS1VzTW01Q0x1VjNkVlhmNVZ4V2dEQTM5ZnJrYzJ0MWxmMkhvUV9IRXpTUHVTaGI?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "Futura: No 2º turno, Lula tem 46,5% contra 44% de Flávio Bolsonaro",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTWJYSTNacWhEcG5oclBDbTVndkNoOVlPc3B5Ui0xWVN4WGhCVzVCa3Npa2hkaHBsWlpSaWRzT1FlWnBnYVNMVm1LVDJMdlNvYlAxVUVuZjdRTTdVblVrSEpqUlJxSlhKV3ZpWkF0QmNqYWNldEphUGlmU0pvRDJRYm5mVWYwM3gwZmpab1dsdWt3QUNtdEhxbExuRUtJVjg4N1E?oc=5"
+      "titulo": "Por que mulheres podem estar por trás da vitória de Lula nas eleições",
+      "fonte": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE90WkZYeU5jU3QzcHRlbVlGZk1vQWs1dTJHajNJcDQ3MHBuTHpDNm9kaGNISjdmcEZGRXVPU05wdUp3NWd5ck1TbUEzT29fVEpCRVY2c1EwRVZCYmxqUGtKNGdkUdIBaEFVX3lxTE9yOXRsYkU3d0NSSHd2cy1YRHlCV1JUeGJxVFJVNFc5M1BsbExpc2lUTi1DMWt5S1h5a1A2RzFYakRrRXllYVh5VTZxb283Z05vT1cwNndTNjJWd3pCcmNUODg5MmpxZzJC?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-08T12:16:59-03:00",
+    "atualizadoEm": "2026-11-08T16:46:36-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
