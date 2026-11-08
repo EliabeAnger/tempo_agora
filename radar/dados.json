@@ -167,8 +167,8 @@
       "anterior": 166191.0,
       "minimo": 168498.45,
       "maximo": 168498.45,
-      "hora": "08/11 16h46",
-      "ts": 1794167192307
+      "hora": "08/11 20h45",
+      "ts": 1794181539227
     },
     "acoes": [
       {
@@ -249,12 +249,12 @@
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.1284,
-        "var": -0.72
+        "valor": 6.1333,
+        "var": -0.64
       }
     ],
-    "acoesTs": 1794167192307,
-    "moedasTs": 1794167192307,
+    "acoesTs": 1794181539227,
+    "moedasTs": 1794181539227,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -311,33 +311,33 @@
     },
     {
       "cat": "economia",
-      "titulo": "Mega-Sena 3083: aposta simples de Goiânia leva quase R$ 60 milhões; confira os números sorteados",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVUhRYnNNOVpGNWV6NkkyYVJyTnV5Y1ctMFBLTHUyYU5Da1pxNEtqOFVHR1ZOWUVGbjVMdWJwbG9jemc1WnRzZmhOYmxhSUdXZnFwcEtLaEpUMEZQNV9FRmxBakVwOXZHZ0RZVEVhSHE0WXIwRGlGa2lCLThrQnB5b3Jpd3dVRC01WUJqZURJaks3aGpIdGtyUFhlZlJxRjFFUVZLTmNGaFdld2pC0gG7AUFVX3lxTE5KUDVnS1FvbVR3QjBQN3RicGtPOGhDN2VCUC13M1dHeVZrQnAxR0I2MENyM2hRUFlqQ21KMi1MVWkwakxEY1VsRjFtZ0VKSmR4SUtleHJjMXRaV1ZZY0FESEFuSmRNLU1WWVRzZVVNcDlaeG9vSlh6VXo3VmM2T0EzTF9iam5DS2RwZU80NzJ2WERfUEN5Znk4ZmVURVFraUVnYVdfcVJ4STc2NkVPeUw0SWU2YUFSRkYtbGs?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Gigante nacional do cimento fecha venda para grupo chinês",
+      "titulo": "Gigante nacional do cimento será vendida para grupo chinês",
       "fonte": "Gazeta do Povo",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMXhHSWxRZ09BeW1rcjUtS3dYRndWMU5LMHMyS1NZTzB4blJNd3RDN25NN3ZvN0x6WHBWeTBLNk03VjNGUFFoekQtRmhTMEh2SXVnUXJLY3RXVWIxZG5zNFhVbHkyV0JIMFlrbW1hY3hSM3VOdC1vWWlaMlpITm9fdHZkVVVxRldDbWNicDNlaTdUWWJCdXlKMG1EbWxqWkllQWZnSlA4UERUcjg?oc=5"
     },
     {
-      "cat": "brasil",
-      "titulo": "Enem 2026: tema sobre valorização do SUS exige que aluno identifique problema implícito no enunciado, avaliam professores",
+      "cat": "economia",
+      "titulo": "Mega-Sena: aposta de Goiânia leva sozinha prêmio de R$ 59,5 milhões",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQVNmM2RnbWFHM0xGZkhiWi03MjkxWlVFLUh1ZXRUWGx6QjllZTdsN2ppcnQtQS0wMzZVd2syRnB1Ymt4Q1BZczQyZHg0WDdXUlFna0xheGc0NG9SZ0I1OWRocHdlWlo3bEN4MFl2ZGJ4UGtkaW9nX2RKVGx5dGxLU3ltdlkyYTduMjVkazYxWGc2SVBLbGdfYmR0MHlpWGp5MzBCY0FlMkZyVFozNmdRNUpaRXE2R2RNaEZyZW4zM0VvWmhn0gHTAUFVX3lxTE5vMlVfTmEzRENiNnBDVmRnWlZqN0JIWWo2bllwQTZtYWxCRlhnSmNJOXFJWV9CM3d2aEFUc0JoMGVOY3JIbGlvQktVb2NfRTd2T2lVYW5QZ0RBZkxnMjI3VHhOM0RWV1lRSFRsQ3d5dk8zUGVMNlZ5bkF4am80UnNpMlZ4VHl2RVBSaHZ3bmM5aGEzQjZUZjE0OWhza2V6RU1QM1Bsdnlsd0pOVnkxN1VjVmtYOHViZzM1VVZ6WGhlWFFOR05fVWNYMVBpSW5SV0VIejQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYUJRdTQtTHdXTFFNbzIyRzNSbVV5M0I2V19oeHF3alhCMkpXTkdtS3RwWXI3dmN0S09VZFgxbFJTTktDa002YTJFbEo2VmN6YVRObjlVck1MNTNZLTBoWVN3TEhoXzY3S2pXU3B4T1U4eHIwc1FYM21KeTd5ZWJYTE5mWHE1NmFXSUVFR0x6dGJ0YnFxQURCMDdyMDhKdWlOekpfN2NFakd6d9IBuAFBVV95cUxQdlRad0YtTDh1Zll1clZGSHBBdFJzRXVVVkZ0VnNFWW95X21KdXFFVlNhT1RBOFF6MG52aUpzTDAwT0dOQkFpc0djVmtLdUMxemw5X0lEUlhOTkMtSUZGRFZLT2RjN0xNMFlwLUNxakVVRHhXYWgzOFNZSU9aTDFKaDlQNlJKeVdZQmhUcklmUUpOMEJMa3RkZmhxWW92SjZPWWVEZkQ2MFZ2T1pCTGNJN0FrZmRoY2J3?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "1º dia do Enem 2026: tudo o que você precisa saber antes da prova",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeHg0aXJOZEtBTEQ1SHFlOFpVUDF2VG12MjBvb1J4dkNOTkVucGF2WUZfcTVyY0VkaUx4ajExN0tOdFlXb2M1X1RSOUxBeWNNNHB6TlVScGdURkQ2SEpwdmkxUmpMREFORHdMOVVKeWJGdUFCaVBWa3V5MThGMnVGSUlZbjh4amVYM2VsRmFmWnpwLVF1ak0zMHpsNDcwNDBhcmJyZHFB?oc=5"
+      "titulo": "Gabarito Enem 2026 1º dia prova azul extraoficial e correção das provas",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWnZIRTVKVVlWeGluM19TRW0zcmhRcy0wQjc5TVBuY0FjZS1ZWVZLMXdWYkVhalZYaDNhdzFXdHhHTjgtR1g0MWFOZTBybWpYRFdXUG5FbEg3Q1pmWTVxTDZNVXI3Ulc1RjhQQS02UW0zM09vQkVLX1g5VjdxY0Mxbk1nazI2RXNjSTNVUmhIUWJ2VnFBdUhqX3FXUWljd0otbUhtWjFILXpXZDc0aTZYUEZSYzA3LWE5SWxSd3JkazNObDZtTzB2THpibkdEbHFhWXfSAeABQVVfeXFMTmk0d3dBamgtcXRxRnl4Q1M3X3ZmS0Nndkh6bmNIa2t5TzR3dWhHSjRCYUtWeDlxY3FjVEVORTJTZjR4N09ONndJcGRiNlIyVzFjZFlERkFrbS04aGd4amItYThPUXRPZUFrTDBad3Z1S21fR3BUYVdac29TR0k5TzZWNi1DWnpWVm1PeVpkcGR1WnlZV0REZVhmMzdqZzlfQ1RMSlBLNGxwMHdEOTVEeml1M3ZOZHI0eTVIYzZMaWV5Uzl4RU9ORFFLWUxpQV9KNTZJS0d1Mno1MUVpTmhmdDk?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Quaest: 48% aprovam e 44% desaprovam governo Lula na primeira pesquisa após a eleição",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQa0ZnS1FFVGpvczJDeWt2VW95THdILVRVUzNEd0VpTXFKSXlSRkw2NVR5SHY5M1VIRmxrMU52QkhpX3hWMEJsVEI4OG5yYTFEeVdaSXl4cjU5cWlHbmZoNm5nMzhwT1hxYlVqN2VPaFNfb0dMREl4YjlNVGprWl9ESXdpeWlpOFJvRk5tY3NVc1h3endJeDBZVW8zN1JtbTgyUmE2WkpqUXJITzBtQTU5WG9xd1FabnlsQlJnTm0zRk5wbjdqWC1XLW1USXJWSTVDbmg5cU04RGNGNEZFZG5FU0tDODdoZ9IB9AFBVV95cUxOZkhfc0MwSXJFaGFiSzJ6aXVPYXl3WVZNM3dvUldkVUFCWXVYenVOSWJqdFl0dnN5MGQtY2U3cHNOZHA2WlJjaGVMVU5kc0tOWGFlZjhVQmpSYVVlYzlBTjNnbzhrbGxXUnpHZ1BzUHlLc1BraGxRZHpPLVJlM1BIZ3E3ZU1KYngyNks2alZHSzd3TFBZeGNyMjFEZ0o2RUhCX1pjRG1MaVNkWGhoZklXWHRaWFp6YlNFTVhvaC12Wlg2SThEY3JVRVo1UkstZnNsRmN5dWZCMDBxd0VDRWgydzJhSExyLXJBWkt5VDlhRFRFNlJt?oc=5"
+      "titulo": "Qual é o tema do Enem 2026? Redação é sobre valorização do SUS, diz Inep",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeHU3dnV1UF8zZXdPX2tBZ3Zzam8xeExQbWVWTHBsNEFXMklqUFRjalFTanNETUI4RnN5RGVaOExKbG9fMHgzVlloYzdyeXVqNUxNVDBWSnpvV3ppc0VoNld4N1V5MjVEWU9zSzVEVFIwVk9xX01Ed2NVVVk4MGszN0l2WGU?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "TRE-MG suspende investigação da PF contra Ana Elisa após denúncia de Flávio",
+      "fonte": "Estado de Minas",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPclpLbk1fcG9VZVZ3cHhBSFB3Z3JGU3E0eUh6OXhFZXh2c054VHJqOGxzUXQ3Z21tUHNrb2xWRjNJZmJOV0FKNkwyZndOeC1LODdCc0gxMlFOOFZJR0ZJNVl1V0s2dktIOEVZOVA2bU5rX05yMURTY2J5TWdqVFFtbmJ5WGc3T1YxSTFaQ1NiUG9oT3J6UV9DTUszSnNQaEl2aGJOTWIyLUJ3Q050RG9WekpUVTB2VVVxaWJPVWdMRXc4ejB4NnfSAcsBQVVfeXFMTUV1RU81THB4SFdnZ01lZWFZRVNlbWtkdWl3SjlLUTQtX2o2T05fLUZERDl1TWphVVdzNFpLS3IyRHBDNEtRWE9URXFYWFhvaUtqSVhtbEJWQW8tWTNkR0lMbXVMS0hEU2o1YldNRHBzbGlZQ29Qb01EOGM2WmFJMmV1UVFKMzZwNklYRzM3ZVZ2UHc5cWhzOGxSWUN3RENTdGpKaWttVXhuNk5UQWFwNzQzR0VFNjhjTHdJS21GRUpzV0Jsb3NyOTlJM0E?oc=5"
     },
     {
       "cat": "politica",
@@ -359,9 +359,9 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "Crescimento de Flávio muda o humor da eleição e preocupa Lula",
+      "titulo": "Lula perdeu a vantagem sobre Flávio no 2º turno, dizem pesquisas",
       "fonte": "Gazeta do Povo",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPM1o0UFFRcnFkdDctNUxZci1vMHhldGRZOXl3cE9KWk1mMDJrOFJVdzZpNktNakxINklHX1htRnZrR2RKUGY3SlB0d1hpQjdWXy1RdnBDSjJIT25JV0RrNWR0T2gzdWtGTHN0bUQ4ZzNWS1pnUkxsSXY1ckJTalFqWlJNdnJZTThTRTRydHlsVWQyNXFlSnh0VVRadlRlbDRiZWg0aVRvemJveXBtTHluM3E2UDM0WnhES0tlLXFKbl8zb3M?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOQ3hmMFJRVlNzbG5STUJfMS11OUpyeW53b0dKeGZ1Ty1EMGw0bkZIZkNmejh2ZnJ5eGtSQ1ZQS0NHNmpDZEFYSTJaRTltbkRYN1FHYW9fZjFMSGlSNnVjQjd1dHZfX2RCdVdkd04xbGRJNmw5Y1B2SUtQVUhMdTFmeTIyLVdSWW5BaV9XZW1lUk1EXzkzeFkxbHF4emhIcjhmdEpPRTl5bnJaT3dnNWxTZ2FqbS1MWXVuRDFLQXJqWXAzN0RtSnVDMWRvZ3FzMFUtR2pncEVDQkVDQTFJbVBLWjRNaWQ?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -1536,14 +1536,13 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-08T16:46:36-03:00",
+    "atualizadoEm": "2026-11-08T20:45:43-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
       "BC ipca12",
       "BC ipcam",
       "BC igpm",
-      "BC poup",
       "BC desemp",
       "câmbio (Yahoo)",
       "Ibovespa",
@@ -1551,6 +1550,7 @@
       "12 notícias"
     ],
     "falhas": [
+      "BC poup: https://api.bcb.gov.br/dados/serie/bcdata.sgs.195/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
       "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
     ]
   }
