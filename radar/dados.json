@@ -162,54 +162,54 @@
   },
   "mercado": {
     "ibov": {
-      "pontos": 168498.45,
-      "var": 1.39,
-      "anterior": 166191.0,
+      "pontos": 171287.6,
+      "var": 1.66,
+      "anterior": 168498.45,
       "minimo": 168498.45,
-      "maximo": 168498.45,
-      "hora": "09/11 03h41",
-      "ts": 1794206460070
+      "maximo": 171287.6,
+      "hora": "09/11 14h34",
+      "ts": 1794245654799
     },
     "acoes": [
       {
         "ticker": "PETR4",
-        "preco": 45.36,
-        "var": -1.28
+        "preco": 45.19,
+        "var": -0.37
       },
       {
         "ticker": "VALE3",
-        "preco": 64.04,
-        "var": 2.19
+        "preco": 65.83,
+        "var": 2.8
       },
       {
         "ticker": "ITUB4",
-        "preco": 40.53,
-        "var": 1.4
+        "preco": 41.29,
+        "var": 1.88
       },
       {
         "ticker": "BBDC4",
-        "preco": 14.2,
-        "var": 3.12
+        "preco": 14.53,
+        "var": 2.32
       },
       {
         "ticker": "BBAS3",
-        "preco": 17.13,
-        "var": 3.88
+        "preco": 16.97,
+        "var": -0.93
       },
       {
         "ticker": "WEGE3",
-        "preco": 48.19,
-        "var": -0.23
+        "preco": 50.45,
+        "var": 4.69
       },
       {
         "ticker": "SUZB3",
-        "preco": 53.4,
-        "var": 2.12
+        "preco": 53.46,
+        "var": 0.11
       },
       {
         "ticker": "B3SA3",
-        "preco": 14.39,
-        "var": 0.21
+        "preco": 14.79,
+        "var": 2.78
       }
     ],
     "juros": [
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.505,
-        "var": 0.17
+        "valor": 5.5133,
+        "var": 0.32
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.1412,
-        "var": 0.15
+        "valor": 6.1809,
+        "var": 0.8
       }
     ],
-    "acoesTs": 1794206460070,
-    "moedasTs": 1794206460070,
+    "acoesTs": 1794245654799,
+    "moedasTs": 1794245654799,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,69 +305,69 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Aposta de Goiânia leva prêmio da Mega-Sena; veja dezenas sorteadas",
-      "fonte": "Jovem Pan",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZnJtRG4zR0tsNjNEYzVzU1c0czJZb0d2UTRGS1dmWXZXZldJZFJsQlY5ZTh0YmZqZ3lOZUlpNW5KZ1Z6akJyRzllZUZERzJrVjZTYmtzOU5VX2QwdDJ0MTAyQ1RYU2FRYk5oSkhlTFI0YkxwbVJhYmJoNzB5QWNacGktM1gwd3daTjhWRmtxaXdXVHdGS0NGNlEwRkxXNEw3?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Reforma do Judiciário é tão importante quanto a pauta econômica, diz Solange Srour",
-      "fonte": "InfoMoney",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdFFxZU9HTFVWUktkQ2Vtcl84VlFHZkFwUlBDbzFzeU5RR3Y5aUQtZEdLYW9BdERfNnhHa3RZT1diU0lRQmdqVDVSLXNXR0RZeEZTWWx3ZEpfb1Jyb2RaNGVzWGVsVkF5eFo1TWhCcEdWbXh4T3czZGpseVBERDU0VXpIclF5d1V5d2hWRzlTNjhtOTNiMWFFYkdNT1MxYjF2OHRLQTZPV3VFTW5aVk1OTWhZRFAxV1N2NExyLdIBwgFBVV95cUxQSGU2T0FVS3Z0UUs5MDMzbVI2SHMtVU52Q2xyVnBXRV9aaUN2WTdEMnhVRy12Tm1jLU1raUEzdDhMelBZbFZaalFab0pJc3RvVjlMSUdQTEJaTE9Ha01NX0VNdWNkX3BUcmpKRy02S0RHUTZuZjVTby1hcGhIZUxPV1NYQmxMdkk0TnFKYTdVMU5rZUdyUUtHVkxqZWJhblVRQ0NSUlZELXRwOXdTZTNZTjRXV2pDaDJSbnd0aHFlY0xPQQ?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "‘Imposto do pecado’: taxistas, autistas e PCDs não pagam taxa em carro zero km; veja categorias isentas",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWUV2SF9sUjZlNU90RDRfYkx1cW1IcGVCMGpjZzZBX0pkUTBDMlcyNTFxYTBSWVktU2xITGFCWUpNZTNPYUFHMi02ajJBeGZEUzZsb1pMVGVVWE8tTnRBTWpBa2hxV2t2VmtmcHpTZ282QXN3OC16d0tiUm14SGMycHdhNjR0TW43Uld4bnQ3UVFTSUdmTUNIczVNdnVxcllSYWo1WXR30gG0AUFVX3lxTFBNWGd1cWpWNzlVN0ZEOFNzN0VLa1RSc3M0bE5KNTNEdnZOMzYyLVYzM2JtaXF5QU5BMUM2RWYtUzVTQzEzaGVOa1RHR19CVk1VODhSV2JkMEt1eVdpZlZFYUVNd1VMaGVlVlk2dEZEclJRbURZV3gtT1VocW81Vjg2ZW00cENid19mVEg0NjhOcEphblJsdFdZMEMxU1htY01tLU1LVTBYM2xZNHFoMlE2aXBUcw?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Gabarito Enem 2026 1º dia prova verde extraoficial e correção das provas",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQLUVHTnI0dGZqb25LTEpqTXVzYlRLZ1FwcGlwSUlJUGQ1Qk9aRTBDVjZmVjc4REJRUmc4ejNGeFJhUnVWSUFIUzc5Qk8yQnlOU0t2U3d0NkEyaEcxYlZLblFBY2tFWlhMc1pYWUtLaldXNGNWV0JkWXVGNnRPbVE5WW5BTjYyVlJlOEoxbWFCNktGUGxvd1poVV8wTWVDckpoZXJxTmxnSVpwMUI0WDFrajl6dDllUVRvUnRKbG9kSG5KSTFlRkttVFFMYlZTLUljTjRF0gHiAUFVX3lxTFAtWnJYM0d6QnM3ZmhjSU5yMDNkZW1KOHlPZTBiWi1kUHdERGdCQzkxLUZNVS1oTkR2T09rbkFzdmNEdmkzRFhxRTQ1ZDQ3N0RGUDEwMldjelRsNlpRX3JuRHhjLUpxZ2F1ZGRLckpmb09LMG5hNDZ5bXVSRmdScHNMU0RlZm9zMEtNOXlnSENUcVpwckJoTUlibmQ0elJKZXJKMm52bGR2T1BRNEQxN1ktQWdmb3oyTEVaWDg0eWhESDJ2UGhHdXQ1dG9JVlZpR3BHandxRlBEa0ozSXoxS2gyOXc?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Fala de Lula tem 99% do discurso focado em gastos e 1% em responsabilidade fiscal, dizem economistas",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPbU1kZC1EOHI2bkQ2WV9vdVphdElZYjZQM05HdXNkLWVQNzBISVdXYk9CYUh5cVhyb2pyTVlWc0h6WTd3MEdySy1iUURFV2dYdWlGZm1ZYXljS0NYalh0NHpLd0dQVWRCRm1XVC1pOGlzRnJCNXlrY2VZdlBDZERGWHYxRjF2TmJUOVRLWlpXZkZ1MUhlVmU5NHpBb01oNzhOMno1NGlOYmlSYjJZZGRZSEdBQ1BwNDQ1NjZNdlZ2MEV2LUItNl9iOUgtbnZHYk3SAdQBQVVfeXFMTnV2dUxEaUFvcGpYVWR3UkZDLVFuLTRESlpDRWNBX284UzQzSWVfOEg4QTZBMWFFNm5BWlpQZUV4UVEtQm1IdHN3TnkxTjlJUzhvY3NEc0ZwN1Jiam9yYUZ0Rlp0aWhmbW4xNThzcjNRd25Tazh2MVFGUXB2MTF1SnMtZFlmMWRjVlRFd3dIY250UENPOE9USWJST0pnQTF6MVVmb2JjUW1GeVFKc2dna2U2Uk9ZZDMyQjhWU01UZmpkdGFrLWVMSnpNRkVLWXhjaXdrc3o?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Tema da redação do Enem é “Valorização do SUS como direito universal”",
-      "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRE1nbmQ2SVRwSDJtb2toaDIyYVJ6X1E3d0xwTktNREVocVgwV0s2anMtdEs4cGhPU3Boc2ZPZ2RfTThzRW55YXZBcXpsUjRBYTJnbXRGdDFIZ05CMmpEbFBtZ0VqUTF4TWh1TWY0bW8ydGdvZGNoa3B1eGNPZk9YV1FPY1lXMUxnbWZmNzNZTDkzUEtHSGhlTFhhUEpkTThIV1pSVW5sSGlrbTVWQlNZNGNhYkxWeE5NeXg1dVVsV3kycXM?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Marinho promete destravar anistia e rever políticas do governo Lula",
+      "titulo": "Quem é Alice Huang, apontada como espiã do CEO da Nvidia para a China",
       "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeEtNVzkwUlM5UnAwMW9qY1FsRjluczc1eVR2RnA5eDlwQmFMN2tMRE9rWlIyZmJVeTFDZTh4QTZsXzJxdVpnNUlOQVNxZlFEdGhMMUhOOUV4aVJLMmtTM04yNUpDcTctNUZzOFVDZnVPVl9jTWZiOU5pRmtGQVdDNVhFN3R1UDZiajg0aFU3OHpTTW95bm5KTzd0aXJrZmxEVVBTMzJNV0lHbW5GMUlxMTNR?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYnNoeGRHUVZ0aHp5Ty04Q0tKcFNYV2R0UlN1djF5b1RxU1k0dEtEQjczMFpHS3BjeGZuaGFVTWVCa203eTJ6MHJJRWNqSjlsVWF2S1JEVFNWUEplMWRHSjBPQTJOTUcyMW5jdkF6czVsQXdiV09xcVZaVDZ0X25LWVZjOG5wNTdLTTBMYnVxMGdCM0x4dk1iRmtYS0FmTS11b01kZjJFaDE0bzE5?oc=5"
     },
     {
-      "cat": "politica",
-      "titulo": "Movimentações no Senado antecipam disputa pelo comando da Casa em 2027",
-      "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORjBtb2U1SmdkZzdJVUNRRmpjYjRsOGk2aVZacTFNYmkxbFFJVGNqRE5nWXRuUlUySm1qazdVeDYzMENfUVUzekZGS2x4a2ZXNjYySTY5YXdyRWFsOWdleHdBMGdlNEZGX05nMzE3NVhoVlNUajFQUUNNUHdXeHJNWkxSVzNfa0xPOVlwMmluNVhWSEo5clRTTW9HR2VqaVhNeDVLUDlXbkRKbGRad25FQjV2WDRHMm8wMmhZdGhRek85R29rN0ZN?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Uma contribuição ao debate da reforma política, que o Brasil precisa enfrentar",
-      "fonte": "Partido dos Trabalhadores",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWW9RX1J3Q2VQSWRFczM3TkxXRDA5RkJqRzNDbnpub01mc3I4WXNFY0d4bmVhM2RsQnhCcDdibWFya0txUlZqa0xUOF9qQi1HQjh3TlQzSUhScDRaNTUtTW1lNy1FSzJBUk9UenE2cWxDTXVwc1daVVpjREdJaFZKX01XTUVZQnJEdlBoOUcyU1R3cDQ2X1lsSGVDNXrSAaQBQVVfeXFMUHNwQnpQeGFNS2Z1RkpWQVZnUUtiQ3hzMzIwMFd3c1NVMFVoVDlOVTZiLWQ4dmQybE9NUWZzMmhuNUNfWkVzYnMtZ19iWVp0WldPbmpuVTY0dFQ5VW1lOG1jaWQzV2xPWmtIQ0dCaHFiQ2hhWVQyQ3ZGS2szeWNBS3NVV2tkcWhCZllzY0hHUllwQ3QybXJyVlFlMXJFOFRDcDN2ZXg?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Crescimento de Flávio muda o humor da eleição e preocupa Lula",
-      "fonte": "Gazeta do Povo",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPM1o0UFFRcnFkdDctNUxZci1vMHhldGRZOXl3cE9KWk1mMDJrOFJVdzZpNktNakxINklHX1htRnZrR2RKUGY3SlB0d1hpQjdWXy1RdnBDSjJIT25JV0RrNWR0T2gzdWtGTHN0bUQ4ZzNWS1pnUkxsSXY1ckJTalFqWlJNdnJZTThTRTRydHlsVWQyNXFlSnh0VVRadlRlbDRiZWg0aVRvemJveXBtTHluM3E2UDM0WnhES0tlLXFKbl8zb3M?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Futura: No 2º turno, Lula tem 46,5% contra 44% de Flávio Bolsonaro",
+      "cat": "economia",
+      "titulo": "Tesla vai encerrar produção de Cybertruck e devolver dinheiro a clientes",
       "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTWJYSTNacWhEcG5oclBDbTVndkNoOVlPc3B5Ui0xWVN4WGhCVzVCa3Npa2hkaHBsWlpSaWRzT1FlWnBnYVNMVm1LVDJMdlNvYlAxVUVuZjdRTTdVblVrSEpqUlJxSlhKV3ZpWkF0QmNqYWNldEphUGlmU0pvRDJRYm5mVWYwM3gwZmpab1dsdWt3QUNtdEhxbExuRUtJVjg4N1E?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPN3p4RXlqTmxDUEdOUWJ0T0lMQzVTeExablNzMzJ4Z2JQVUZHMjVCeEFXOGFEUnh6MzZsWkpjbkVwUUVWVlZpb0IzOGNsU1V4RXRuMno2dVNOX2tXVGFQaVVNX3pBbXNickdfanl5eTZSUEl1azY2b05OMmJ1NXBzOEd6MTNKZHR1RHdQLUxqZmprYXdrNzZEMkNkcjhhN0FtbmlLdXJKQWZ1N1AyTklHbDdVYXZEZk9zaE8tTHJvdnBiUFVX?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "'Não tem guerra no delivery. É competição', diz presidente do iFood",
+      "fonte": "UOL Economia",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNU3BjdVdmTGhXdlExZTV1NUg5OUJNOEpZOXV2Z1pGOEFOZWZKcDNENGhZczdmWkFHSW5rVTJfWGRVNVZXTUROSWZMa2pDakNKak40QkJJQVg0ZFpUMzV4azZUTjBuc18zUTBIeEFoZ05tUVoxVFd0ZlhXSEpNeXBldUJCZlh1S3pnUEVsVllKNERnZFgtYTJVbTJIUmc2ZllfVm5EamJ1MkJjbnpvMUhoSUhTcjVxMVRkX294em9WRGRiQQ?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Fux suspende processos sobre proibição das bets até STF decidir sobre validade da medida",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbnIxWllmbUN0dUJZYlVWZHpTRGJVajZzSlVSYkdQR2tzd2s4WTZhLWxlbFYyVXNjUFFDTUd1RzhXZFQtWmthOXBDZGt3WUNFaTRzMzFHUHR5ODBNNV9NaEJYX1hJVFdJRHpqdkVvYWw4cnFjQUxWQXZIX1kzbE4zNEM4MDdrUHd0R3ZIUUdrNWkwclBUWmxDc2t3R2xkVUpnVWZyQ0Y4VTgtVzBFT09vQlRySDlVS1Jkb0xxdVQ2MXoxMktFcHJOU1VLZXlRTlQ5ajRaQjc1Mm9fdnPSAeoBQVVfeXFMT25sdFlkeWhDQ2ZTYmRlLWdtRUFFZjZJVnJXNjlZdXl2VXNDRV96bHZKcGt2NHkzVWstWWpubEx0WkpzaDFUbEw2bGtuNGJRS1BqWmZQTmtzbjRvMDJZOFpLX2NlQk1vY2tVdi1qSFZuV09HaUYxd2JwUkYzLUhFbk1aX0ZYTUYwaEt5M3ZvTTZyZ3RnZHpYREdKd2doSzZab0hRYV9KT0xENF9XZXdCcmRMVHVGWkNYZkI0eThLcW1lNENKZy1Pc2hEdXBzVFBfM3NGd2x3RXlzODBTYjNxaTBwWWt4ejR5Rk1R?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Sem polêmicas, 1º dia do Enem é marcado por correria em SP, SUS no tema da redação e questões sobre MST e Lei Rouanet",
+      "fonte": "Terra",
+      "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPV3pLbEFtc3Rha3UtbkV0d0psdzlETXozZ1JTMm5zQlZ3VXhiN3NsU3A3cEkwUjdla3pPaXdkanJPUGptdXNuQ2FTMnhYRVNRZ0NZLTVSR0x4aHVJVmFmUGVsblY1Z3ltTDd4YjYzcC1mVWJVSmxUVFdQTy1XUG9mb3Z4bEQtVjBxNmh6Z2JIZjJXVVZDYjZDY1N5aFRhTHlYU1FVbEt0VHpwdExWMHdlTkxkcnp5SkVPZjA2WlZLay1BenlRVFRlaGV0bWNTd09MRXo0VFg2elhSUkpJUWtNajY3eEh2N0RVanpCLVNYS1NKQjJubXBaWnpHY3JKWHVVeFd3dFc1V0NuR2NFV0IycFE3b0pMRzVaT2dENFdkSFQ1UE91MEt0Z3VDYjRuUTFnbGc?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "COP31 começa hoje com debates sobre energia e financiamento; veja como será o evento na Turquia",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPdUtaaWVuSElnWTZOdWFnbXR3QnF1WEFjSkZual9SRU1DbDlqQ0diWmxCWDNWeFF5SU9QcjNTX2Fmbnh3TUx6SXhpSHNiT0pxc1U5eV90ckpCOFA4aDQ5SDNFV3M4V3JZUmhMVDBLVnJ0YnQ0cURsU2JibDNLQVBvZDRWYUJCeDNSdkVHOUE2NF9qZGFHZ3I4RWFGUXJQRmR0V19FX2FRNmI2d1hEbXFVOXg4R1lYRktjR2dCa2lqQWN6NlExeUV1T3lrSUNxSXJOYjVOR0k2VHNGdzdUcXJxQjNjcVpqYUxGblHSAfgBQVVfeXFMT2RPNzM1UW01NXM3OWRkellpM25wd2g1bWlsRkNtYlB2SzVCWmxnN0NLVWlTRWFxNjFfeE14RXRSRlgwWHE5UkNHQS1HUkJaT0xPVW96R2swTkhvUTJTMTRTTnliSnJpQk9IY1prdEFwaExJVTlHTmNvVmR0WlhQME82T25oVVE0WVp0Mkp3WXpyY2Jib09NZUZBZEtLWms2djdINHBqSW5FVk54eGFudlJTbzVPMjJFUHk1TkdtYWdvbGRfbFFtdTRMLWhpVkxrZ3pVeE1zUmxHdEZEc1ZqMGtQNl9lWkZfQWY1RU1ocG5nVUNKNFhoLVc?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Líderes do Congresso tentam acordo com governo para antecipar pagamento de emendas em 2027",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQaUhXVUoyNnNNOEdfWk5RQk9xdENaV2ZnQWJocjhvcG9iYTkyaWlXWHlOSXBWUVhkYzgxZGdwWVlJVEZVRVhkQVVMM2ZoWmlvQ29BS2ZMbTduZW96OWMzMkhMQ3dFcDhqb2o5dV83Mk1ILWRFWk8zUVFQMHpUTzFNR0lGUmVhVE1IZzRMbTg3akJWUzk1NHhzckhXM3kzVXd0QnZYS0RQdkJIS3p2MnhZdHRTYXpibjdkZkszMl9neDVqMk9BMFBleVFZSkNscW1DcnRCcFI2cVJPM0tDRGpCcFliSdIB8gFBVV95cUxPdzludkMtVkZKTV9lTGtlWkl3d2VHamxvV0dnaDVJOTlpTDJQSUJheWdZYnkzYzgzQXNQVUtUTXFtZldRblF3OXVTQXp6dUs1SV9Xb0FadjR3cFJFeTJtVDFGeFpKYlEyRl96czN2N093alZCVHFaMUtwa2xiMVEtNjVGVGQ1b1A5QVh1dVZrRTNJbDVvU1FMTmtKM2tiOFBYX2YtY0pxTFpqalM4U1hhcUNQMWoydGlEY1hKaVdDWGdfbHhtLUZyZVFnM3hqdjJDVXpmcW1HMGZybFlSZ0NpMmFFRVNTUzE5MmFabHBuRlMwQQ?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Hugo e Alcolumbre priorizam votações no Congresso à viagem com Lula",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZXJfNlliLWxuVHpVRDhsWTZ3Tm5IS21OVURCYklJb3lHZTA2RHRjeTJGdjA3TWhaQnd0bU4tWWpnb1lnVXFBTnRYTjNwbW14Si14YkVEOHFVYW53aU9nZlhmNzVBT2g1alptV05MUVQ0QmZQMnNzUDlTQ3V5TVVLVHlNZmlvR0I5OWpLaG1zTmpfTmwyZkRfYi03QnhEUUpsVnVhNk1sRGJMM1dNUXYzTmhYeFpBQ1lxczJQcTJPQU9GeVU?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Relator apresenta diretrizes da proposta de voto distrital misto",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcWc4ZXM4MlV3dHhIMmVBMFh0SjdqM2JqbW15NFp0cHlNQ21JWV9wdWp1UGt5VXdTTUhiel95Zl9qaGFCb0ZHZ1BlTmtSczRYbXFJNldhaThkU1lhaTZVMnoza2lZWU5rNVhsNV9FTTZRX3F6QU1sc0N5VmhwYkVaQkp0RVMybHRlSExyQ3F4NVpuQUR4QUNzeWFPY19Gd1B0TzU1R2ttOXJMNEF3NG1GY0hGdFdYZ3FnSGZ0UHM0ejhaWTA?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "Lula perdeu a vantagem sobre Flávio no 2º turno, dizem pesquisas",
+      "fonte": "Gazeta do Povo",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOQ3hmMFJRVlNzbG5STUJfMS11OUpyeW53b0dKeGZ1Ty1EMGw0bkZIZkNmejh2ZnJ5eGtSQ1ZQS0NHNmpDZEFYSTJaRTltbkRYN1FHYW9fZjFMSGlSNnVjQjd1dHZfX2RCdVdkd04xbGRJNmw5Y1B2SUtQVUhMdTFmeTIyLVdSWW5BaV9XZW1lUk1EXzkzeFkxbHF4emhIcjhmdEpPRTl5bnJaT3dnNWxTZ2FqbS1MWXVuRDFLQXJqWXAzN0RtSnVDMWRvZ3FzMFUtR2pncEVDQkVDQTFJbVBLWjRNaWQ?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "Futura: Flávio é rejeitado por 47,1% dos eleitores; Lula, por 45,9%",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORFZPNW9DQU1LVU9vTGlHa3g2c3JHaUhhT2tKZmZTVlo2LVhkT3JxbXp1bUZXRDNIYmdGallnMVlNZmxNcGxfRC1GWGZmZ0JOTXNUMWdsc1dWWmM5a3ZiVDduMlNsZkk2amxZVVdCNk9CZDlnQ2dZYWNqcGlwRUdDWENjZDdXZVZ6c0hqTUplR1pKN1h1dWFxVE5IRERpMUNL?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -386,7 +386,7 @@
       },
       "cdi": {
         "valor": 13.65,
-        "data": "05/11/2026",
+        "data": "06/11/2026",
         "fonte": "Banco Central"
       },
       "ipca12": {
@@ -1536,14 +1536,13 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-09T03:41:02-03:00",
+    "atualizadoEm": "2026-11-09T14:34:17-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
       "BC ipca12",
       "BC ipcam",
       "BC igpm",
-      "BC poup",
       "BC desemp",
       "câmbio (Yahoo)",
       "Ibovespa",
@@ -1551,6 +1550,7 @@
       "12 notícias"
     ],
     "falhas": [
+      "BC poup: https://api.bcb.gov.br/dados/serie/bcdata.sgs.195/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
       "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
     ]
   }
