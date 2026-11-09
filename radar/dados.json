@@ -167,8 +167,8 @@
       "anterior": 166191.0,
       "minimo": 168498.45,
       "maximo": 168498.45,
-      "hora": "08/11 20h45",
-      "ts": 1794181539227
+      "hora": "09/11 03h41",
+      "ts": 1794206460070
     },
     "acoes": [
       {
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.4959,
-        "var": -0.14
+        "valor": 5.505,
+        "var": 0.17
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.1333,
-        "var": -0.64
+        "valor": 6.1412,
+        "var": 0.15
       }
     ],
-    "acoesTs": 1794181539227,
-    "moedasTs": 1794181539227,
+    "acoesTs": 1794206460070,
+    "moedasTs": 1794206460070,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,45 +305,51 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Lado paraguaio de Itaipu diz ter R$ 1 bi no Ueno Bank e aciona MP",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdWhGRW5CWXhzZU5NNVhCTHRIXzBOVEdLNExNVVNMZWdaYk9rVlUxelZka3dDSG5XYndvXzkyTGZBQmJxU2djT2FqeU5fZS12SmlhNkJGRVozR0FMTmkySG9rWXpVM01uR09HYTRrVVFEWHJxRjA4T0Jtb0dCdFYySzR1dVpydGlWSEpHNVFkNHRxWF9kNEJiQ2dNUHVEQUppYU80Rk8zcU9ab1BzRGN1b2Jrbw?oc=5"
+      "titulo": "Aposta de Goiânia leva prêmio da Mega-Sena; veja dezenas sorteadas",
+      "fonte": "Jovem Pan",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZnJtRG4zR0tsNjNEYzVzU1c0czJZb0d2UTRGS1dmWXZXZldJZFJsQlY5ZTh0YmZqZ3lOZUlpNW5KZ1Z6akJyRzllZUZERzJrVjZTYmtzOU5VX2QwdDJ0MTAyQ1RYU2FRYk5oSkhlTFI0YkxwbVJhYmJoNzB5QWNacGktM1gwd3daTjhWRmtxaXdXVHdGS0NGNlEwRkxXNEw3?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Gigante nacional do cimento será vendida para grupo chinês",
-      "fonte": "Gazeta do Povo",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMXhHSWxRZ09BeW1rcjUtS3dYRndWMU5LMHMyS1NZTzB4blJNd3RDN25NN3ZvN0x6WHBWeTBLNk03VjNGUFFoekQtRmhTMEh2SXVnUXJLY3RXVWIxZG5zNFhVbHkyV0JIMFlrbW1hY3hSM3VOdC1vWWlaMlpITm9fdHZkVVVxRldDbWNicDNlaTdUWWJCdXlKMG1EbWxqWkllQWZnSlA4UERUcjg?oc=5"
+      "titulo": "Reforma do Judiciário é tão importante quanto a pauta econômica, diz Solange Srour",
+      "fonte": "InfoMoney",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdFFxZU9HTFVWUktkQ2Vtcl84VlFHZkFwUlBDbzFzeU5RR3Y5aUQtZEdLYW9BdERfNnhHa3RZT1diU0lRQmdqVDVSLXNXR0RZeEZTWWx3ZEpfb1Jyb2RaNGVzWGVsVkF5eFo1TWhCcEdWbXh4T3czZGpseVBERDU0VXpIclF5d1V5d2hWRzlTNjhtOTNiMWFFYkdNT1MxYjF2OHRLQTZPV3VFTW5aVk1OTWhZRFAxV1N2NExyLdIBwgFBVV95cUxQSGU2T0FVS3Z0UUs5MDMzbVI2SHMtVU52Q2xyVnBXRV9aaUN2WTdEMnhVRy12Tm1jLU1raUEzdDhMelBZbFZaalFab0pJc3RvVjlMSUdQTEJaTE9Ha01NX0VNdWNkX3BUcmpKRy02S0RHUTZuZjVTby1hcGhIZUxPV1NYQmxMdkk0TnFKYTdVMU5rZUdyUUtHVkxqZWJhblVRQ0NSUlZELXRwOXdTZTNZTjRXV2pDaDJSbnd0aHFlY0xPQQ?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Mega-Sena: aposta de Goiânia leva sozinha prêmio de R$ 59,5 milhões",
+      "titulo": "‘Imposto do pecado’: taxistas, autistas e PCDs não pagam taxa em carro zero km; veja categorias isentas",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYUJRdTQtTHdXTFFNbzIyRzNSbVV5M0I2V19oeHF3alhCMkpXTkdtS3RwWXI3dmN0S09VZFgxbFJTTktDa002YTJFbEo2VmN6YVRObjlVck1MNTNZLTBoWVN3TEhoXzY3S2pXU3B4T1U4eHIwc1FYM21KeTd5ZWJYTE5mWHE1NmFXSUVFR0x6dGJ0YnFxQURCMDdyMDhKdWlOekpfN2NFakd6d9IBuAFBVV95cUxQdlRad0YtTDh1Zll1clZGSHBBdFJzRXVVVkZ0VnNFWW95X21KdXFFVlNhT1RBOFF6MG52aUpzTDAwT0dOQkFpc0djVmtLdUMxemw5X0lEUlhOTkMtSUZGRFZLT2RjN0xNMFlwLUNxakVVRHhXYWgzOFNZSU9aTDFKaDlQNlJKeVdZQmhUcklmUUpOMEJMa3RkZmhxWW92SjZPWWVEZkQ2MFZ2T1pCTGNJN0FrZmRoY2J3?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWUV2SF9sUjZlNU90RDRfYkx1cW1IcGVCMGpjZzZBX0pkUTBDMlcyNTFxYTBSWVktU2xITGFCWUpNZTNPYUFHMi02ajJBeGZEUzZsb1pMVGVVWE8tTnRBTWpBa2hxV2t2VmtmcHpTZ282QXN3OC16d0tiUm14SGMycHdhNjR0TW43Uld4bnQ3UVFTSUdmTUNIczVNdnVxcllSYWo1WXR30gG0AUFVX3lxTFBNWGd1cWpWNzlVN0ZEOFNzN0VLa1RSc3M0bE5KNTNEdnZOMzYyLVYzM2JtaXF5QU5BMUM2RWYtUzVTQzEzaGVOa1RHR19CVk1VODhSV2JkMEt1eVdpZlZFYUVNd1VMaGVlVlk2dEZEclJRbURZV3gtT1VocW81Vjg2ZW00cENid19mVEg0NjhOcEphblJsdFdZMEMxU1htY01tLU1LVTBYM2xZNHFoMlE2aXBUcw?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Gabarito Enem 2026 1º dia prova azul extraoficial e correção das provas",
+      "titulo": "Gabarito Enem 2026 1º dia prova verde extraoficial e correção das provas",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWnZIRTVKVVlWeGluM19TRW0zcmhRcy0wQjc5TVBuY0FjZS1ZWVZLMXdWYkVhalZYaDNhdzFXdHhHTjgtR1g0MWFOZTBybWpYRFdXUG5FbEg3Q1pmWTVxTDZNVXI3Ulc1RjhQQS02UW0zM09vQkVLX1g5VjdxY0Mxbk1nazI2RXNjSTNVUmhIUWJ2VnFBdUhqX3FXUWljd0otbUhtWjFILXpXZDc0aTZYUEZSYzA3LWE5SWxSd3JkazNObDZtTzB2THpibkdEbHFhWXfSAeABQVVfeXFMTmk0d3dBamgtcXRxRnl4Q1M3X3ZmS0Nndkh6bmNIa2t5TzR3dWhHSjRCYUtWeDlxY3FjVEVORTJTZjR4N09ONndJcGRiNlIyVzFjZFlERkFrbS04aGd4amItYThPUXRPZUFrTDBad3Z1S21fR3BUYVdac29TR0k5TzZWNi1DWnpWVm1PeVpkcGR1WnlZV0REZVhmMzdqZzlfQ1RMSlBLNGxwMHdEOTVEeml1M3ZOZHI0eTVIYzZMaWV5Uzl4RU9ORFFLWUxpQV9KNTZJS0d1Mno1MUVpTmhmdDk?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQLUVHTnI0dGZqb25LTEpqTXVzYlRLZ1FwcGlwSUlJUGQ1Qk9aRTBDVjZmVjc4REJRUmc4ejNGeFJhUnVWSUFIUzc5Qk8yQnlOU0t2U3d0NkEyaEcxYlZLblFBY2tFWlhMc1pYWUtLaldXNGNWV0JkWXVGNnRPbVE5WW5BTjYyVlJlOEoxbWFCNktGUGxvd1poVV8wTWVDckpoZXJxTmxnSVpwMUI0WDFrajl6dDllUVRvUnRKbG9kSG5KSTFlRkttVFFMYlZTLUljTjRF0gHiAUFVX3lxTFAtWnJYM0d6QnM3ZmhjSU5yMDNkZW1KOHlPZTBiWi1kUHdERGdCQzkxLUZNVS1oTkR2T09rbkFzdmNEdmkzRFhxRTQ1ZDQ3N0RGUDEwMldjelRsNlpRX3JuRHhjLUpxZ2F1ZGRLckpmb09LMG5hNDZ5bXVSRmdScHNMU0RlZm9zMEtNOXlnSENUcVpwckJoTUlibmQ0elJKZXJKMm52bGR2T1BRNEQxN1ktQWdmb3oyTEVaWDg0eWhESDJ2UGhHdXQ1dG9JVlZpR3BHandxRlBEa0ozSXoxS2gyOXc?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Qual é o tema do Enem 2026? Redação é sobre valorização do SUS, diz Inep",
+      "titulo": "Fala de Lula tem 99% do discurso focado em gastos e 1% em responsabilidade fiscal, dizem economistas",
       "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeHU3dnV1UF8zZXdPX2tBZ3Zzam8xeExQbWVWTHBsNEFXMklqUFRjalFTanNETUI4RnN5RGVaOExKbG9fMHgzVlloYzdyeXVqNUxNVDBWSnpvV3ppc0VoNld4N1V5MjVEWU9zSzVEVFIwVk9xX01Ed2NVVVk4MGszN0l2WGU?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPbU1kZC1EOHI2bkQ2WV9vdVphdElZYjZQM05HdXNkLWVQNzBISVdXYk9CYUh5cVhyb2pyTVlWc0h6WTd3MEdySy1iUURFV2dYdWlGZm1ZYXljS0NYalh0NHpLd0dQVWRCRm1XVC1pOGlzRnJCNXlrY2VZdlBDZERGWHYxRjF2TmJUOVRLWlpXZkZ1MUhlVmU5NHpBb01oNzhOMno1NGlOYmlSYjJZZGRZSEdBQ1BwNDQ1NjZNdlZ2MEV2LUItNl9iOUgtbnZHYk3SAdQBQVVfeXFMTnV2dUxEaUFvcGpYVWR3UkZDLVFuLTRESlpDRWNBX284UzQzSWVfOEg4QTZBMWFFNm5BWlpQZUV4UVEtQm1IdHN3TnkxTjlJUzhvY3NEc0ZwN1Jiam9yYUZ0Rlp0aWhmbW4xNThzcjNRd25Tazh2MVFGUXB2MTF1SnMtZFlmMWRjVlRFd3dIY250UENPOE9USWJST0pnQTF6MVVmb2JjUW1GeVFKc2dna2U2Uk9ZZDMyQjhWU01UZmpkdGFrLWVMSnpNRkVLWXhjaXdrc3o?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "TRE-MG suspende investigação da PF contra Ana Elisa após denúncia de Flávio",
-      "fonte": "Estado de Minas",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPclpLbk1fcG9VZVZ3cHhBSFB3Z3JGU3E0eUh6OXhFZXh2c054VHJqOGxzUXQ3Z21tUHNrb2xWRjNJZmJOV0FKNkwyZndOeC1LODdCc0gxMlFOOFZJR0ZJNVl1V0s2dktIOEVZOVA2bU5rX05yMURTY2J5TWdqVFFtbmJ5WGc3T1YxSTFaQ1NiUG9oT3J6UV9DTUszSnNQaEl2aGJOTWIyLUJ3Q050RG9WekpUVTB2VVVxaWJPVWdMRXc4ejB4NnfSAcsBQVVfeXFMTUV1RU81THB4SFdnZ01lZWFZRVNlbWtkdWl3SjlLUTQtX2o2T05fLUZERDl1TWphVVdzNFpLS3IyRHBDNEtRWE9URXFYWFhvaUtqSVhtbEJWQW8tWTNkR0lMbXVMS0hEU2o1YldNRHBzbGlZQ29Qb01EOGM2WmFJMmV1UVFKMzZwNklYRzM3ZVZ2UHc5cWhzOGxSWUN3RENTdGpKaWttVXhuNk5UQWFwNzQzR0VFNjhjTHdJS21GRUpzV0Jsb3NyOTlJM0E?oc=5"
+      "titulo": "Tema da redação do Enem é “Valorização do SUS como direito universal”",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRE1nbmQ2SVRwSDJtb2toaDIyYVJ6X1E3d0xwTktNREVocVgwV0s2anMtdEs4cGhPU3Boc2ZPZ2RfTThzRW55YXZBcXpsUjRBYTJnbXRGdDFIZ05CMmpEbFBtZ0VqUTF4TWh1TWY0bW8ydGdvZGNoa3B1eGNPZk9YV1FPY1lXMUxnbWZmNzNZTDkzUEtHSGhlTFhhUEpkTThIV1pSVW5sSGlrbTVWQlNZNGNhYkxWeE5NeXg1dVVsV3kycXM?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Quaest: 70% acham que governo Lula terá mais conflitos com o Congresso",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbWRseUtubU5RenVnRVRIWUM4VGxxcGhXYlN0dmZKVWUyZ0lndVYxaEFzZmx6cXJOckY3N1pSS2dLUTF5RER0MkphOXlzSm9DWHlwaEdtR21uSlJwb3k1ejJ1Nkp1b1JJNjBIcEw0Y1N1Ui11Tk1jODVvTmdYR0pWUHRlVDJ3ZkJqVVpXMkVqd3FLTXhmTEhQVzEwZ0hNUTVjY3VnYzEyYzNOM2s?oc=5"
+      "titulo": "Marinho promete destravar anistia e rever políticas do governo Lula",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeEtNVzkwUlM5UnAwMW9qY1FsRjluczc1eVR2RnA5eDlwQmFMN2tMRE9rWlIyZmJVeTFDZTh4QTZsXzJxdVpnNUlOQVNxZlFEdGhMMUhOOUV4aVJLMmtTM04yNUpDcTctNUZzOFVDZnVPVl9jTWZiOU5pRmtGQVdDNVhFN3R1UDZiajg0aFU3OHpTTW95bm5KTzd0aXJrZmxEVVBTMzJNV0lHbW5GMUlxMTNR?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Movimentações no Senado antecipam disputa pelo comando da Casa em 2027",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORjBtb2U1SmdkZzdJVUNRRmpjYjRsOGk2aVZacTFNYmkxbFFJVGNqRE5nWXRuUlUySm1qazdVeDYzMENfUVUzekZGS2x4a2ZXNjYySTY5YXdyRWFsOWdleHdBMGdlNEZGX05nMzE3NVhoVlNUajFQUUNNUHdXeHJNWkxSVzNfa0xPOVlwMmluNVhWSEo5clRTTW9HR2VqaVhNeDVLUDlXbkRKbGRad25FQjV2WDRHMm8wMmhZdGhRek85R29rN0ZN?oc=5"
     },
     {
       "cat": "politica",
@@ -352,28 +358,22 @@
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWW9RX1J3Q2VQSWRFczM3TkxXRDA5RkJqRzNDbnpub01mc3I4WXNFY0d4bmVhM2RsQnhCcDdibWFya0txUlZqa0xUOF9qQi1HQjh3TlQzSUhScDRaNTUtTW1lNy1FSzJBUk9UenE2cWxDTXVwc1daVVpjREdJaFZKX01XTUVZQnJEdlBoOUcyU1R3cDQ2X1lsSGVDNXrSAaQBQVVfeXFMUHNwQnpQeGFNS2Z1RkpWQVZnUUtiQ3hzMzIwMFd3c1NVMFVoVDlOVTZiLWQ4dmQybE9NUWZzMmhuNUNfWkVzYnMtZ19iWVp0WldPbmpuVTY0dFQ5VW1lOG1jaWQzV2xPWmtIQ0dCaHFiQ2hhWVQyQ3ZGS2szeWNBS3NVV2tkcWhCZllzY0hHUllwQ3QybXJyVlFlMXJFOFRDcDN2ZXg?oc=5"
     },
     {
-      "cat": "politica",
-      "titulo": "O Centrão vai se desgarrar do bolsonarismo e o PT precisa de reforma completa, diz João Paulo Cunha",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWVBsMlRBNU1sX0ZIY0NEVHBIbnp6cUJnY25lWWlSRFJYNnctMFRieFdXM3EtYzNySmVJX012NGMyM3Zxcml2MnN2MEllSVc2dkZsLTUtU0g5LVFzTVotMFJYcWFhZVpfSk5GcG5aVXRqdTYxTS1seFJGUDlQMm5TbmRPUTN3X1Z2N2g4end4Y2ZRSW1kUmF0SmJQNmxzeUtlSF9mV1RJa1JWY3ZWS25vNEd5Ml9yTmdlX3VEaEZRYzRZb1RINnNXLVppQlNpLUFl0gHWAUFVX3lxTE03Zi1lLUl6RXdPVXBCVGtadVBVdjVSdWloU28tTG5VNlU1YW96MmJEUG1YZWRhQUktZko1UUlsaGNqS0dhUlMxdHYtWE9EVldtb01vT1Q4Q2taQl9lSlVzVUE1c0ctLXBNcENpVDVHYWJ5YkJSVnhlLTRtRGpqVC1lYjJ1TVpIVlI1OTR2M2FCNkp1TGt1ZFIxZ1U5WnZJcUNLdGo4aXpPM013LTM5VzBlNy02dkhJaG1Sd0ZEQWZXcGZwUzEzdFRfbWlueC1RZE11SHA1d0E?oc=5"
+      "cat": "eleicoes",
+      "titulo": "Crescimento de Flávio muda o humor da eleição e preocupa Lula",
+      "fonte": "Gazeta do Povo",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPM1o0UFFRcnFkdDctNUxZci1vMHhldGRZOXl3cE9KWk1mMDJrOFJVdzZpNktNakxINklHX1htRnZrR2RKUGY3SlB0d1hpQjdWXy1RdnBDSjJIT25JV0RrNWR0T2gzdWtGTHN0bUQ4ZzNWS1pnUkxsSXY1ckJTalFqWlJNdnJZTThTRTRydHlsVWQyNXFlSnh0VVRadlRlbDRiZWg0aVRvemJveXBtTHluM3E2UDM0WnhES0tlLXFKbl8zb3M?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "Lula perdeu a vantagem sobre Flávio no 2º turno, dizem pesquisas",
-      "fonte": "Gazeta do Povo",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOQ3hmMFJRVlNzbG5STUJfMS11OUpyeW53b0dKeGZ1Ty1EMGw0bkZIZkNmejh2ZnJ5eGtSQ1ZQS0NHNmpDZEFYSTJaRTltbkRYN1FHYW9fZjFMSGlSNnVjQjd1dHZfX2RCdVdkd04xbGRJNmw5Y1B2SUtQVUhMdTFmeTIyLVdSWW5BaV9XZW1lUk1EXzkzeFkxbHF4emhIcjhmdEpPRTl5bnJaT3dnNWxTZ2FqbS1MWXVuRDFLQXJqWXAzN0RtSnVDMWRvZ3FzMFUtR2pncEVDQkVDQTFJbVBLWjRNaWQ?oc=5"
+      "titulo": "Futura: No 2º turno, Lula tem 46,5% contra 44% de Flávio Bolsonaro",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTWJYSTNacWhEcG5oclBDbTVndkNoOVlPc3B5Ui0xWVN4WGhCVzVCa3Npa2hkaHBsWlpSaWRzT1FlWnBnYVNMVm1LVDJMdlNvYlAxVUVuZjdRTTdVblVrSEpqUlJxSlhKV3ZpWkF0QmNqYWNldEphUGlmU0pvRDJRYm5mVWYwM3gwZmpab1dsdWt3QUNtdEhxbExuRUtJVjg4N1E?oc=5"
     },
     {
       "cat": "eleicoes",
       "titulo": "Onde ficam as urnas que Lula e Flávio Bolsonaro 'zeraram' no 2º turno",
       "fonte": "G1",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOQlZOQzB1RDk4MUswd0JWb3ZjckFvRFhzZjZ1ZS1UekVva1ZkZkpHSVRnRHVFZFVsc2swMVpZVWtlRjBmQ1kxY0w2ZExuNXJZSElsMGN0WnpaQU16UVRLa19ac3JsaC1fOWRKWTRjZ3BwNnhRS1V4cFBoczRaZzNRSlZ5QnBqRUlKTnlJVmh0UmZDQ0x6Mm5EYnJJdGtBcjV1TE9kd3JCV09rN25TRW5LU1ZVTGkyWEVnZlhiRGk2OTNzaTFnOGZYUkxYZFoxMTFWRWfSAeABQVVfeXFMTmEwLW04SWowYkNXZHJTcGF5RU1IaWxqU0RQTWdZTTRsdTRyRTRxWm5CYlR3OE0xeDNtRWc2dG0xeU1GZVZUWk5jNFJBWDl1VzBTR0o4LXJIZE05aThqYVdXTWk2QUVLQzRkb1hHcEQ1NGV1QXVXMU0xMUotR2hXS0dXTU1Od0VQM2swVlVOdkdIZW52YTRvMDFfVm1USEc4cDFmZTdnMzFEd080Ti1xUUItS1VzTW01Q0x1VjNkVlhmNVZ4V2dEQTM5ZnJrYzJ0MWxmMkhvUV9IRXpTUHVTaGI?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Por que mulheres podem estar por trás da vitória de Lula nas eleições",
-      "fonte": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE90WkZYeU5jU3QzcHRlbVlGZk1vQWs1dTJHajNJcDQ3MHBuTHpDNm9kaGNISjdmcEZGRXVPU05wdUp3NWd5ck1TbUEzT29fVEpCRVY2c1EwRVZCYmxqUGtKNGdkUdIBaEFVX3lxTE9yOXRsYkU3d0NSSHd2cy1YRHlCV1JUeGJxVFJVNFc5M1BsbExpc2lUTi1DMWt5S1h5a1A2RzFYakRrRXllYVh5VTZxb283Z05vT1cwNndTNjJWd3pCcmNUODg5MmpxZzJC?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,13 +1536,14 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-08T20:45:43-03:00",
+    "atualizadoEm": "2026-11-09T03:41:02-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
       "BC ipca12",
       "BC ipcam",
       "BC igpm",
+      "BC poup",
       "BC desemp",
       "câmbio (Yahoo)",
       "Ibovespa",
@@ -1550,7 +1551,6 @@
       "12 notícias"
     ],
     "falhas": [
-      "BC poup: https://api.bcb.gov.br/dados/serie/bcdata.sgs.195/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
       "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
     ]
   }
