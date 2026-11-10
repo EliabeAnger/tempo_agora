@@ -165,10 +165,10 @@
       "pontos": 172236.05,
       "var": 2.22,
       "anterior": 168498.45,
-      "minimo": 168498.45,
+      "minimo": 172236.05,
       "maximo": 172236.05,
-      "hora": "09/11 22h36",
-      "ts": 1794274569424
+      "hora": "10/11 06h55",
+      "ts": 1794304512245
     },
     "acoes": [
       {
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.5085,
-        "var": 0.03
+        "valor": 5.5109,
+        "var": 0.07
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.1809,
-        "var": -0.08
+        "valor": 6.1922,
+        "var": 0.1
       }
     ],
-    "acoesTs": 1794274569424,
-    "moedasTs": 1794274569424,
+    "acoesTs": 1794304512245,
+    "moedasTs": 1794304512245,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,27 +305,27 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Trump diz que FBI investiga suspeita de espionagem em caso de traição por CEO da Nvidia",
+      "titulo": "Suspeita de espionagem: como aproximação entre Trump e CEO da Nvidia coincidiu com decisões favoráveis à empresa",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPSUgyZDdYTWxFZ0lGQkItNUxEMjlzWW1OUllleWhEaERRNlJiY2hXQmdodnFnNHgyekF1dWNhSXdUdTJCbkRJOGlzanFUdXZULU85MFU2U2FVMk5zLWFCUzBMVXQtVUU4dmpCMmxtZlVCeHo2VWV0eUdDNUFYaGVaMzZnTThWVklsanpuWnp6Ti1kcDR4MldpWS14dmVvSkN5cndUdGsyMkFORDMtWUhxb1VQNXY2OVFESXBmZm9xYUs4Qll3bmNRdzVoSE51RGNuRFNHOEtJZGNmSkdt0gHrAUFVX3lxTE5TWHQ0NVQ3ZEh4bm53dXpNRjFnc3pRVU1qSXc2YndwRF9YTVZjR1Z4akdfN3JBRkZHZ0o0S3JNUUNCbDJhUUpiZWFJQnR2ODBodTlUSzZfTUxQZ1FVTXplWWV1cWJTYmJMRFdWOWlGd0w4RHpZZzk4aWRxNTBtRDdNall5dXB6SzZmZ1dlblljMkxxXzAzT1RRVkdOT2RsNzR0YzlBanRUdWZIMGs3UjNjdnlYdXRkLWR1S285bnV4N1p2UTVuZlZLN01CV05wWU9vd1NqMWlqWVZGdkFGRTRKR0o4UFBwYmZqWEU?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQbGFMcHE5QkFmUzFydUd6c1pHdGFJTXl3WkswNEtscEJvZ2FtVFd1VHhHdXpmZnV0clc4TmdseFdFbGZSdnpIbGREZ2t2bXRpWjlMc2QxSWZkWUVDMW5QMlh5b0hpcmRlSVpjWmtkMDA0MVlrUjNpWnFYcS1EYTBEWlFTaEd1M3hBQVRYQjEtTkpKcHpwX0RqM1U2enJ6Y1I4clpXUFBpNzNycEQ2REdENmxTeS02M3dTWGRZWWNZRU45MlBKeUZyeWxxM2FoSzlIRHZSY25PZjFtamtWLXFfdDFEVjItUXh1c0FGZXlmZUdiLVZrVnfSAYQCQVVfeXFMT3RpeFlydnlOTHA3QWxydHVzRV9MTVhvRER3LXVtWVZXaW5SajMyNDRJaUdVYS13NXZUNzFPVkw0anhMWnpNWm13bzY4Y2RiWmsybXJpMjlIMmlOY2hKLVowV1BMY0xCZUpwRnlDclp3aFZ5SVVCcnFocThUeEZNUTVqQnJMdEcwYmIxREtsYXBSYXJmOGVXczdxeDQweVM0dUFhcWhRTVMzYnBIb0JTNHQ4b0xwV1c1dmhUbUpmUFlkbUU0VWZxa3VmQ1l3dlY2QU1iYjlfa2RYc1Flc3hjeHh2LVhpUW81Q205TTEyU09NSGptM3Zrc053NEs2WFZuV0FJRlU?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Justiça suspende regras do governo Lula sobre vales refeição e alimentação",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMHplWWM2Y21iMklSZUYxTHc5TWNHNXF2RkJpOGdBSnFyaWJjVm5NV2EtUThnRVNKeFZSajZEU2dGOFNzNF96U3FhT1pwUUdiNlhtUC02R3QtZUdmZEVmN29EbTJ0QjhnRUZ0TTNGcmdPaDRMa05vSkVubWpqSWMzQ3hWSndNUUx6QktyVm1BTjFDc2RoRi14NnFkb0xPN0dmT1hMZFFnWlFYdzlWVXhJVDZxTQ?oc=5"
+      "titulo": "Aposta do PR acerta Lotofácil e ganha R$ 1,6 milhão; confira dezenas",
+      "fonte": "UOL Notícias",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV25sTDlrMVJPT0h0QWVUbVNHV2RZakhLdzl2N1V5VVJfR1VEOUhFMS1KYWd4VjRuR0R0Yzkxa2NUa2Jta1BEOExJUlM4T2k5OFMzZ2R2RzVQTUtyeW5veTBjekVPMU54THZyRjlHeHhJc0I2aDUwZUdPZ2RjVWRNSllLaFQ2X2RDUXdxTVlrc3Q0M3JfLWV5a3k5MnBSWE5zc2NjYjc4QlZocXlyOFBCM1Qwc3Q?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Petróleo fecha em queda de 5% com falas de Trump e acordo de enriquecimento de urânio",
+      "titulo": "Por que Ibovespa subiu 2,22% nesta 2ª mesmo com queda de commodities e cautela fiscal",
       "fonte": "InfoMoney",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOa0xZOTFpRVpHTVZQYmlWendMTVNHM2RlY21scUU3MXc5T2Fia0x1ZXhfM1k3amVHX3Y0TEhlVVBxam51WG1PbUV5OVlDVEFrZUk2dVUwd0k1bTRNMVFhOTR6MkI1YnpNLURnaURreWctVVcyTF9vNjFJa1l4UEdJcjhKSURWckRxRWV2V9IBkgFBVV95cUxNT2wwRDkwdGNJSHdOOW1xZUlfWHR3M0YyU0tLTWEyZkRWbGJUM1prU2dQNG54cTdYUjBGM0tfVzBqY09DUnU0ZDF1R3NmQnhmMHdXOHViaVNYREFVa3JCMlZkRlJMb0ZhWXpVZ2xUd3B3cmpXeFFhSlI4MGh6WGx4TUVQSjFqVUtsVVROLU1lOG5hUQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMFR6S0FJYWR1ZEtvSzgxWnM1RFFlSmthcDIzdXBtZDJYbkVEbHVMYUl4cE5FTGhqa2N4dmlTSHJkYnIyaDAwVjZGMVNDVGRlMGRzZHlIS3BhQ3cwMHBEQlFCTkxkYmdhaFEzRjIxUWVoR3lJYmc1WGxmejQtZ192YUNHV1daTXBZd0xxc0pHT3J1U2lTYXJmM01kUWVVcGRZcHQ4OWFwUENIRVk0MGVvZGM3U1c2Y2puc19iR2V30gHDAUFVX3lxTE5POVh3Mi05Zi1BMUp5VWE4cGZjQWh6ckd2d2FWOHdtMGRBakJVeHRDS2FsY29GRlF0dTZKYjFYZkNGX2wzYXFhWkNNZVNEb1gtdzF1d2JWcktYVkYtanI1LXhTWEY4MmN2RlJJSEVHQ21CMG9sODl1MEpTWVJqbW53ZHBYQzdNMDdlaEhCeVVkeE5QYlNacF8wdmdKWmRBQXZPb19Hd21QT2RtUldXbEVvRXVrVjVMUkgxRVp0NWxoaXVlcw?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "'Muito estresse até tudo dar certo', diz pai emocionado após quase se atrasar ao deixar filho em local de prova do Enem; VÍDEO",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxOZWwwRmptdTRJQV9JbHRMR01LVzlUNEpMa2ZCRldEWURBcktxc1p6Y2dxYzNLZ1JhSmlLNUgtVVpYU1hQWUVDcE5aOG1uMjhvZWkxZ1dVUW0xNHJBVkFuTHU3Rm1KMk9jVlI3Zkl2UHBNLXZIZGlrMTZnZURnbXRMdlNzZE9FbnVsLTIzMVlCaWVZSjhoa3JQRzcydVVtcnJUQVlWYm1Pc2VONGVlTVR0RFBmdWNwdEpfb2llWjA3R1JpMnQ3MnZ0NndxdXRFUWZsUFRBTGlpMGdJaEM1WlpoY0J1Y2g0WG9zRTBFR1pnZEQxX281VWlQQURDcDZZN0IyalhNUjBjZGo5WEVlOGNmUTFzNjBjS2U5NXlMMmhRak5JM0lQMDFiXzhNUVHSAbsCQVVfeXFMT254Z1VvX2RxQkdKc09LU0ppVUd3UTE1Mm5GZmNKOENudFhfUmxpUlQtSTlESjgtUFV5YkJ3UTRYWThhaG9CZDJlTjNTNWh0ZUNmbDNhX25VcGFwSGtPUXVob2FjSGV1czFKZ1BlRHVqRTd4czFKcFhpanBOMDB2S3hXdTU2ODRmQnByR3hiSE1yUHhyWlZVR0hialRXV2dUU2F1TGNqNWktejZkbUR5ZExsdlhlT1ZlY1NpSkoxRDFaeU14WnpfaHNtNFQxTWdhalBoYi0yaGo2MHVkYTA4bEdhZU5laEkyLW9SMjBHZ20tOEVPY29nX1RuZmVsdVFjNExNeFhFOGRNaVBIZXNlX1FBYW9GTkhaYmdVRVExdzJXbmFPNndDRkRRZWVGVlBuZWdPMmJOakNsTmJB?oc=5"
+      "titulo": "Moraes montou estrutura paralela no gabinete para inquérito das fake news",
+      "fonte": "UOL Notícias",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNM3BDY09jTVZqTnRMTkF6cWVvT0NzMG5JckxqZUJ3cnNMVnotMEVMLWVKckVtU21jX1JxVm9ad19BLTdtVVI0bVhmd1RQaEVUSEtHSHlBTktqV0F2bElHeG9CZU8xWC1DWlVoWnN2elNScHFZN0prTGtJN2VXUjNsY2J5MTNaREJkMXZ5Vm4tVGZ5RG51RnpEN3UxMEE0X0VXYmJKbUZJWTdLUDUzMko0VWVJME11dXp2Rkh5ei1jSUh0ckQtdm84MFBoZndBWDRuWTc1X1UySjZDZw?oc=5"
     },
     {
       "cat": "brasil",
@@ -335,15 +335,9 @@
     },
     {
       "cat": "brasil",
-      "titulo": "Adail Jr. acusa secretários de Evandro de não apoiarem Lula e cobra reforma: \"Caras de pau\"",
-      "fonte": "O POVO",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeEpYWDdwVzBoS0dOYVhnRC1PT0JkYk9ROHBGTjdvNmN0VlA2WHp1dkptakY3LVdfdG5WR29OV0FHc25UUVg5ck1sQXM5cS1ObjJRbmNDX2VHMFBwcjlxUXlkS0l2cUNoT2wyel84LWlGTTdHOWg2WUttU2VOV0c0dmVtdmRHdHZOd1hpVHFIaGhWMEdDYnNKS0k2ZTlpU2RtRDR4SE9NQktaMER4RWVVbUJYbDhoSm8?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Em manifesto, 7 entidades pedem ao governo e ao Congresso eleitos prioridade no combate a supersalários",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPM2dyS2VobXRMTE9DbU83cGx1NXNFZGZ0ZFJuNTA4V1lneGFnSkFhNnJoeVRxNWJPV2JtZS1yMjg3V3FnSDJYeDRnemFaS0ZXTzR3bzlFWS1WRDBxWFdSWE11SnJNcGpTMHRXMDNVMXdKcWVJYk1qY25LNk9BVVpjSHJNTlF1MmRMbHd5ZkdfVnhQNG43UjduUU9LOHJOcUppbWlsMWpDb1owQ1l3cU5NVHFEXy0xMVhua0F5X0JBc1E2QzR0RHQ5Y3FfdVkyZ0xQWXN6bWlvSTlDM25Mekd6UDEwOWlNLTdYZ1lvX0NR0gH8AUFVX3lxTE1VbWh0ZGF5NHViUGFRM2lkNlhJRHJ4WUs4Z3E2TWJfeW9qUC01WkpOWVZRS1pKWjB6cTVBbVY1TjhQejlXSnhqaWpac2R3dmt1TFhVNFZ5MnozRXN6U3Y1THgxTnh1SHl1dzFMMXRtQUtmb2pDaGtSS0dXZmM3MlN6Q0VhRzl5NnVTOC1ySWZZbWRMMTcyRmFFSC1UR09KVmdudVJ0dGlOMm1xWUNmVFZjZXNzajZQSERkLUxuM3JkRnVrMm5Cam0wSTQ5Z3kxaV83NjAyN0dEUkRNY1ZJNWRZRHRSbjZFeG5UTGVPYmo1dUlvLVRfNlZxdFJHeQ?oc=5"
+      "titulo": "Fux suspende processos sobre proibição de bets em todo país; o que acontece agora",
+      "fonte": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8tQXlTd28yQnhQM2MwTlNqaXlMMU5ocjJ0YXc0Nzdtd2tUZ1FOSUxRQU5haUlOOURuWVpMWXZjRGJEeVd3MkJGOUt4Q2NkRHMyQUxKbVh4UWtVN0toX2VZclRsSdIBaEFVX3lxTE1SSDVxeDY0Rm9wWXhJRFhUTUtqX29yZ05tcEZJTThBRmh5V2lMNjF5ejM4bHB4WGdNb25kWlZfazIxZ2tCOWNIVTNLa2NickNzcHgzeENEdGZGSlpIU3VaUzlCOE1oZno2?oc=5"
     },
     {
       "cat": "politica",
@@ -353,15 +347,15 @@
     },
     {
       "cat": "politica",
-      "titulo": "OAB-SP: Entregamos proposta de reforma do Judiciário ao Congresso",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYmdEc0tWMXRCai12MndjdWpEWjdiRVFud1ZJRTdHaHNTMXBneWprRkdTRDZ3WlE4UzdoazJRbm03MFFoRXNENWc5Y0cwV0c3NWN0VFpWXzNBcEVQbEYwdjhSM0NjbGF2OXk5MTh5Qy1uZzNaekJtUTVSdnowdGdRc1ZmZFdRZHV2U2ZJN3lnT2RYN2ZNeGZpT05Uc1gyYnJfb3c0cVJn?oc=5"
+      "titulo": "O que são os supersalários?",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPM2dyS2VobXRMTE9DbU83cGx1NXNFZGZ0ZFJuNTA4V1lneGFnSkFhNnJoeVRxNWJPV2JtZS1yMjg3V3FnSDJYeDRnemFaS0ZXTzR3bzlFWS1WRDBxWFdSWE11SnJNcGpTMHRXMDNVMXdKcWVJYk1qY25LNk9BVVpjSHJNTlF1MmRMbHd5ZkdfVnhQNG43UjduUU9LOHJOcUppbWlsMWpDb1owQ1l3cU5NVHFEXy0xMVhua0F5X0JBc1E2QzR0RHQ5Y3FfdVkyZ0xQWXN6bWlvSTlDM25Mekd6UDEwOWlNLTdYZ1lvX0NR0gH8AUFVX3lxTE1VbWh0ZGF5NHViUGFRM2lkNlhJRHJ4WUs4Z3E2TWJfeW9qUC01WkpOWVZRS1pKWjB6cTVBbVY1TjhQejlXSnhqaWpac2R3dmt1TFhVNFZ5MnozRXN6U3Y1THgxTnh1SHl1dzFMMXRtQUtmb2pDaGtSS0dXZmM3MlN6Q0VhRzl5NnVTOC1ySWZZbWRMMTcyRmFFSC1UR09KVmdudVJ0dGlOMm1xWUNmVFZjZXNzajZQSERkLUxuM3JkRnVrMm5Cam0wSTQ5Z3kxaV83NjAyN0dEUkRNY1ZJNWRZRHRSbjZFeG5UTGVPYmo1dUlvLVRfNlZxdFJHeQ?oc=5"
     },
     {
-      "cat": "eleicoes",
-      "titulo": "Lula perdeu a vantagem sobre Flávio no 2º turno, dizem pesquisas",
-      "fonte": "Gazeta do Povo",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOQ3hmMFJRVlNzbG5STUJfMS11OUpyeW53b0dKeGZ1Ty1EMGw0bkZIZkNmejh2ZnJ5eGtSQ1ZQS0NHNmpDZEFYSTJaRTltbkRYN1FHYW9fZjFMSGlSNnVjQjd1dHZfX2RCdVdkd04xbGRJNmw5Y1B2SUtQVUhMdTFmeTIyLVdSWW5BaV9XZW1lUk1EXzkzeFkxbHF4emhIcjhmdEpPRTl5bnJaT3dnNWxTZ2FqbS1MWXVuRDFLQXJqWXAzN0RtSnVDMWRvZ3FzMFUtR2pncEVDQkVDQTFJbVBLWjRNaWQ?oc=5"
+      "cat": "politica",
+      "titulo": "Veja a linha do tempo da crise política que derrubou Peña no Paraguai",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOd1d1c0NGbnhNV0FSODhzZXdjRmFBRFhzaGF3YlVmZ29pZXBwSVl1QWFNV2ZZVENYUnBvd2xtYlpRZEQ2NTNMMFVOcnExb1lrSXJVS2NtNHhWRkY4eDg1azZwOWo4aHA2N0l5LXJ0OFNZUjloMXAxN2pQREJTSEU4bnUzYzU4TThZaVB1QWgwZk81Z0paLWZ1SHo3eWY?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -371,9 +365,15 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "Meta diz ao TSE que não interferiu nas eleições brasileiras e nega viés no algoritmo",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTG5BVHhPV2tOTy11cktoWFkyclhUcWFmbm5tNWN6cFc4aE5INWlkbERnRms2TVdsNk1yVG5vRXhoVm9faXlXMGYwLTVSTW1mTzk3TjdRTTJoczdwdTVWT2ZFRUlYd1pZR1N6dnNPM3V6NldTMGwzZC1Ob0l6aEhySzJJcjlvQ0hlT1gxTDRtWi1GTUp5MVBZTG05dE9MNjhLRXhwOVFxVkxQWnBnNVppLThyMG9CRmFvQXh0MVNtcVE1bnlp0gHKAUFVX3lxTE5fSVJQUHNOdkZRQmNXTjBFaEJHZFA3SVIwellCVEgzNTlNQmtwUkQ4OXdmNFE5MEt0aTJ2WXU4VmdtVlhtaC1IaGNIZnBiLUlkaGV2UngxZ1hfdHg2T1ZmMk10SjN1b2dBWTJzQU5vN1FqSTNHdVBSYXRlaHk5d1hqOWgxVTNaZ2JJX201MnVFRERQdnB0Smt3OGZVSFRiRVhLRHc3RHpVejNJZUVhTzZTYTVJendabkl5VHlJLUozbldnd1BVSzhteGc?oc=5"
+      "titulo": "Crescimento de Flávio muda o humor da eleição e preocupa Lula",
+      "fonte": "Gazeta do Povo",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPM1o0UFFRcnFkdDctNUxZci1vMHhldGRZOXl3cE9KWk1mMDJrOFJVdzZpNktNakxINklHX1htRnZrR2RKUGY3SlB0d1hpQjdWXy1RdnBDSjJIT25JV0RrNWR0T2gzdWtGTHN0bUQ4ZzNWS1pnUkxsSXY1ckJTalFqWlJNdnJZTThTRTRydHlsVWQyNXFlSnh0VVRadlRlbDRiZWg0aVRvemJveXBtTHluM3E2UDM0WnhES0tlLXFKbl8zb3M?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "DECISÃO 2026: Flávio tem 53,1% dos votos válidos contra 46,9% de Lula, aponta pesquisa DataTrends",
+      "fonte": "Times Brasil | CNBC",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSnNOMFRjM0NpTXB4a0cyNDJfQkdsV21OTDhxRGppZ2ZmdTZfTHd2QTFRcVRIUDZEc295dDNaeFFyaGpRdWR6SmpNTUsweEhtQmxfUmZFdVktdld1ZWJ6dGx0VHFfUXBBT3ZTY1VkVHNjVmlsNGVnLUpnR0s5czlyV1JwaW1kZElFa0xqcWlCODZjY1ptT0JYVGpiVQ?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-09T22:36:11-03:00",
+    "atualizadoEm": "2026-11-10T06:55:15-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
