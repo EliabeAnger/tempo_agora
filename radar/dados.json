@@ -162,54 +162,54 @@
   },
   "mercado": {
     "ibov": {
-      "pontos": 172236.05,
-      "var": 2.22,
-      "anterior": 168498.45,
-      "minimo": 172236.05,
-      "maximo": 172236.05,
-      "hora": "10/11 06h55",
-      "ts": 1794304512245
+      "pontos": 171064.42,
+      "var": -0.68,
+      "anterior": 172236.05,
+      "minimo": 171064.42,
+      "maximo": 173271.61,
+      "hora": "10/11 14h53",
+      "ts": 1794333207517
     },
     "acoes": [
       {
         "ticker": "PETR4",
-        "preco": 45.19,
-        "var": -0.37
+        "preco": 45.22,
+        "var": 0.07
       },
       {
         "ticker": "VALE3",
-        "preco": 66.11,
-        "var": 3.23
+        "preco": 64.94,
+        "var": -1.77
       },
       {
         "ticker": "ITUB4",
-        "preco": 41.72,
-        "var": 2.94
+        "preco": 41.35,
+        "var": -0.89
       },
       {
         "ticker": "BBDC4",
-        "preco": 14.68,
-        "var": 3.38
+        "preco": 14.39,
+        "var": -1.98
       },
       {
         "ticker": "BBAS3",
-        "preco": 17.02,
-        "var": -0.64
+        "preco": 16.91,
+        "var": -0.65
       },
       {
         "ticker": "WEGE3",
-        "preco": 50.74,
-        "var": 5.29
+        "preco": 50.91,
+        "var": 0.34
       },
       {
         "ticker": "SUZB3",
-        "preco": 54.2,
-        "var": 1.5
+        "preco": 55.07,
+        "var": 1.61
       },
       {
         "ticker": "B3SA3",
-        "preco": 14.85,
-        "var": 3.2
+        "preco": 14.45,
+        "var": -2.69
       }
     ],
     "juros": [
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.5109,
-        "var": 0.07
+        "valor": 5.5874,
+        "var": 1.46
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.1922,
-        "var": 0.1
+        "valor": 6.2332,
+        "var": 0.76
       }
     ],
-    "acoesTs": 1794304512245,
-    "moedasTs": 1794304512245,
+    "acoesTs": 1794333207517,
+    "moedasTs": 1794333207517,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,39 +305,39 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Suspeita de espionagem: como aproximação entre Trump e CEO da Nvidia coincidiu com decisões favoráveis à empresa",
+      "titulo": "Relacionamento do CEO da Nvidia com suposta espiã facilitou envio de US$ 7,5 bi em chips à China, diz site",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQbGFMcHE5QkFmUzFydUd6c1pHdGFJTXl3WkswNEtscEJvZ2FtVFd1VHhHdXpmZnV0clc4TmdseFdFbGZSdnpIbGREZ2t2bXRpWjlMc2QxSWZkWUVDMW5QMlh5b0hpcmRlSVpjWmtkMDA0MVlrUjNpWnFYcS1EYTBEWlFTaEd1M3hBQVRYQjEtTkpKcHpwX0RqM1U2enJ6Y1I4clpXUFBpNzNycEQ2REdENmxTeS02M3dTWGRZWWNZRU45MlBKeUZyeWxxM2FoSzlIRHZSY25PZjFtamtWLXFfdDFEVjItUXh1c0FGZXlmZUdiLVZrVnfSAYQCQVVfeXFMT3RpeFlydnlOTHA3QWxydHVzRV9MTVhvRER3LXVtWVZXaW5SajMyNDRJaUdVYS13NXZUNzFPVkw0anhMWnpNWm13bzY4Y2RiWmsybXJpMjlIMmlOY2hKLVowV1BMY0xCZUpwRnlDclp3aFZ5SVVCcnFocThUeEZNUTVqQnJMdEcwYmIxREtsYXBSYXJmOGVXczdxeDQweVM0dUFhcWhRTVMzYnBIb0JTNHQ4b0xwV1c1dmhUbUpmUFlkbUU0VWZxa3VmQ1l3dlY2QU1iYjlfa2RYc1Flc3hjeHh2LVhpUW81Q205TTEyU09NSGptM3Zrc053NEs2WFZuV0FJRlU?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNalMxeFlueTZUNmNZMC13elY1VUpZcENIdURWdlFRemNUM0Z0RF9KbUM5SUg0eXN6SzFXMndLa25wOTJmREFQd3BmR3BZZnZtVURqOEc0LV9lLVA3bWJVeEQ2MzVlZnhsRzBuTGtPd1FCRWhzOE85U1VFandUZUtFRWpLYzZrT2hUOUFhRFpaR1VIY3hpMkVvWkdWQ3RVaEtWdi0yWGdlYTJ1eDVpUmtOZXM5VGtYQzgyZGZGbXkxVURMUHJIOHp4b3lnSVJBWFFZbks4TWZSRUV3cWYxT21BSi1TcU1ySjUwOHUwVXZjNk1Kd9IBgAJBVV95cUxPX2pzRHVlUWQ0S2pPb25wWWVmekJpRWNyNkhxTlBHeWhSd2IydDVrRE0wVzBoLW83QjMzMnZyRUg0U2lLMFRibHVvM3lZaG0xSmtheUIxczhzUmlQbG54NUVXY1IyRUoxRHNEdzhINE50NFpWWk9RTjMyOEU2dEtrbnZ5Qm4ycDdHOV8wc0l1YTNlRUVlRTZQdllPdmd4elFaMWdEeXJSaGZlVHZFaFVRbGhFcV9kaTlFdHM0REdmZzJZUVdvU0sxaXktOWJlN3BNNkloVkhkT2ZXWE53YWV5cHRxUlFobzNJN3dDMXUyVGRkbEk1MHl4b3d4aXlJLVlG?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Aposta do PR acerta Lotofácil e ganha R$ 1,6 milhão; confira dezenas",
-      "fonte": "UOL Notícias",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV25sTDlrMVJPT0h0QWVUbVNHV2RZakhLdzl2N1V5VVJfR1VEOUhFMS1KYWd4VjRuR0R0Yzkxa2NUa2Jta1BEOExJUlM4T2k5OFMzZ2R2RzVQTUtyeW5veTBjekVPMU54THZyRjlHeHhJc0I2aDUwZUdPZ2RjVWRNSllLaFQ2X2RDUXdxTVlrc3Q0M3JfLWV5a3k5MnBSWE5zc2NjYjc4QlZocXlyOFBCM1Qwc3Q?oc=5"
+      "titulo": "Indisciplina fiscal exige juros maiores, afirma ata do Copom",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdDlnYjRKN2YwbUVwcUtTUHVrR29VdFZrcE1pOTBqcFk2NEIxU19YZm5tSldJTkdEUlJZbVFwM1BTVWJlNnA2SVVFUFdQa3o3VmZyVDhJLUhzSnFZOE5jdEZvVkY2RzJEMmhoQ2pVRlRNZkxEa0V3STh4NUdWVDY5OVBhMXE1TjJxRUtVUjFicUVTcHlfMFhpU21mdGNhM1Q4T0E?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Por que Ibovespa subiu 2,22% nesta 2ª mesmo com queda de commodities e cautela fiscal",
+      "titulo": "Ibovespa Hoje Ao Vivo: Bolsa vira para queda e dólar dispara 1%",
       "fonte": "InfoMoney",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMFR6S0FJYWR1ZEtvSzgxWnM1RFFlSmthcDIzdXBtZDJYbkVEbHVMYUl4cE5FTGhqa2N4dmlTSHJkYnIyaDAwVjZGMVNDVGRlMGRzZHlIS3BhQ3cwMHBEQlFCTkxkYmdhaFEzRjIxUWVoR3lJYmc1WGxmejQtZ192YUNHV1daTXBZd0xxc0pHT3J1U2lTYXJmM01kUWVVcGRZcHQ4OWFwUENIRVk0MGVvZGM3U1c2Y2puc19iR2V30gHDAUFVX3lxTE5POVh3Mi05Zi1BMUp5VWE4cGZjQWh6ckd2d2FWOHdtMGRBakJVeHRDS2FsY29GRlF0dTZKYjFYZkNGX2wzYXFhWkNNZVNEb1gtdzF1d2JWcktYVkYtanI1LXhTWEY4MmN2RlJJSEVHQ21CMG9sODl1MEpTWVJqbW53ZHBYQzdNMDdlaEhCeVVkeE5QYlNacF8wdmdKWmRBQXZPb19Hd21QT2RtUldXbEVvRXVrVjVMUkgxRVp0NWxoaXVlcw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSG9wT3Q2NktUY0lNNUpXdDVucjJZMHoyYXdXeUVERW5fLVBTZ25XWnQtaUJRSm5xOU9sMFhLeElrR2RSMVVjMzFzU1lvc0RPd2ptRnNVRFNpMkdWYUluZFFlb0hWVFJzaUJ6X3V1amp0UnY2VHhhREpxeEliRDdSSm1EaEh5WERXbVpGRi1Taw?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Moraes montou estrutura paralela no gabinete para inquérito das fake news",
-      "fonte": "UOL Notícias",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNM3BDY09jTVZqTnRMTkF6cWVvT0NzMG5JckxqZUJ3cnNMVnotMEVMLWVKckVtU21jX1JxVm9ad19BLTdtVVI0bVhmd1RQaEVUSEtHSHlBTktqV0F2bElHeG9CZU8xWC1DWlVoWnN2elNScHFZN0prTGtJN2VXUjNsY2J5MTNaREJkMXZ5Vm4tVGZ5RG51RnpEN3UxMEE0X0VXYmJKbUZJWTdLUDUzMko0VWVJME11dXp2Rkh5ei1jSUh0ckQtdm84MFBoZndBWDRuWTc1X1UySjZDZw?oc=5"
+      "titulo": "PF prende ex-servidor do STJ suspeito de vazar informações para Willer Tomaz",
+      "fonte": "Jovem Pan",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPalM4TldsdURnanVub052QmJDek9NTUk1dVo0NWZRSEtQRXVxMndpVU9tNlZqeEN3OVRyWHB6Tzg5Y0xxSGhzTDhmWllZU19CZlllNnBVclNFMTQ3eEdxazVhTksxOTVHRnVLUGFXWFlYVTBMLUpJbThtRzA0OFhmQ1NuTGplbHFOR2R5ZkNxUzlYQVhjUnF2Vm9BdHNoZEJrbXQyeEVmU01yTEw0M1lj?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Quando sai o gabarito oficial do Enem? E a nota da redação?",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcUJzYnJIZmE2VC1EUFZDVUwtMGRvR0JxWWNkTFc0WTJwUWNnLXFEcy1qaTJEYmZwZkpCcnpmbHJ3Q3piVGJDRm1yR2pSQTN1VEVKTnNITjlBa2NiQWhuMVRkTk1ORGV0eHBuTXVEOTZyNGNrX2xUenJjZjM3S282T2NCazdLZTFpQnZDbHNsWlN2RXpiVjZzYzJIQXEzbzdhckdHTnV6bTNMRVJ6Unh3WEh2SHBTSXBrNnEycEF2NNIBzgFBVV95cUxPRlhxbTlHQnZmVHNvTk9MSEMtY0U5dWNrdEowYU5qdTRqclRiMGJSSjVlampvd0Q4TUhuWmhadmZrUF9TaXhUOE9qOEVvaHA2b3dQTTA2RHZzYnpQdWw2SllBdlpKM243enBTV3JSRGRkS2lFdHBmV0dZSkdLai1lYjVGcGRxSXE3M3oxUGZSc3ZfVEFaVDdpVlJycWhGblBuaWRrbC13dnJKMW8xNjVNZ0ZUdlBMS2pVV3ZMeUt0cDVocXV0TlFnZG5MS1Q3QQ?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Fux suspende processos sobre proibição de bets em todo país; o que acontece agora",
+      "titulo": "Vídeo de FHC em casa é investigado pela polícia: o que se sabe sobre imagens",
       "fonte": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8tQXlTd28yQnhQM2MwTlNqaXlMMU5ocjJ0YXc0Nzdtd2tUZ1FOSUxRQU5haUlOOURuWVpMWXZjRGJEeVd3MkJGOUt4Q2NkRHMyQUxKbVh4UWtVN0toX2VZclRsSdIBaEFVX3lxTE1SSDVxeDY0Rm9wWXhJRFhUTUtqX29yZ05tcEZJTThBRmh5V2lMNjF5ejM4bHB4WGdNb25kWlZfazIxZ2tCOWNIVTNLa2NickNzcHgzeENEdGZGSlpIU3VaUzlCOE1oZno2?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9BWE5RbER2MWMyUjF5S3JjVG0yYzFwOUVBQlZkb1Y2WXJLMm9Bd2xOWk9nTmd6Zjl4a0FLX1hXSmxQcnQxT2lOd2dUSmduS0pCZzQya3k3UXV6amdaQ3NGNkplb9IBaEFVX3lxTE1PSTQtZzhPeGNzcXlMMzFiWjlwUUcwVkJvS0JVdFB0T2FRMThjMlJ4d0RXaWFGYVdsTjFIZjRMTHg5SFB2enUxN3Q1MjlwU29rNVBaY0VpNHN1VThra0poLUE1YTA4T1N3?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "PF acha dinheiro em mala e caixa em operação contra desvio de emendas Pix",
+      "fonte": "Metrópoles",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcHU3NG9FNjZoNVp6S3NmMDR4Yko3VUFHSHY1anVkeW92VEF5bGZnMHB2OFluaHlTc25ZZVE0UHJ0elBhSGpQU1F4anRRU0VSWm1JVkxrNnh6M1Zwdjgzbmk2LWI5RHozLVFWLXhFdnpENVBTUXkzSktJUEhXWVNHN3V3MGtHb3ZjWl95cjl4clRMUVN3SklQWmFOZVRpOUdhbkNDYm1uN0J1enlsM09BNGlqczhsaVFvYU4xNTB3TE1YRUdvekE?oc=5"
     },
     {
       "cat": "politica",
@@ -347,33 +347,33 @@
     },
     {
       "cat": "politica",
-      "titulo": "O que são os supersalários?",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPM2dyS2VobXRMTE9DbU83cGx1NXNFZGZ0ZFJuNTA4V1lneGFnSkFhNnJoeVRxNWJPV2JtZS1yMjg3V3FnSDJYeDRnemFaS0ZXTzR3bzlFWS1WRDBxWFdSWE11SnJNcGpTMHRXMDNVMXdKcWVJYk1qY25LNk9BVVpjSHJNTlF1MmRMbHd5ZkdfVnhQNG43UjduUU9LOHJOcUppbWlsMWpDb1owQ1l3cU5NVHFEXy0xMVhua0F5X0JBc1E2QzR0RHQ5Y3FfdVkyZ0xQWXN6bWlvSTlDM25Mekd6UDEwOWlNLTdYZ1lvX0NR0gH8AUFVX3lxTE1VbWh0ZGF5NHViUGFRM2lkNlhJRHJ4WUs4Z3E2TWJfeW9qUC01WkpOWVZRS1pKWjB6cTVBbVY1TjhQejlXSnhqaWpac2R3dmt1TFhVNFZ5MnozRXN6U3Y1THgxTnh1SHl1dzFMMXRtQUtmb2pDaGtSS0dXZmM3MlN6Q0VhRzl5NnVTOC1ySWZZbWRMMTcyRmFFSC1UR09KVmdudVJ0dGlOMm1xWUNmVFZjZXNzajZQSERkLUxuM3JkRnVrMm5Cam0wSTQ5Z3kxaV83NjAyN0dEUkRNY1ZJNWRZRHRSbjZFeG5UTGVPYmo1dUlvLVRfNlZxdFJHeQ?oc=5"
-    },
-    {
-      "cat": "politica",
       "titulo": "Veja a linha do tempo da crise política que derrubou Peña no Paraguai",
       "fonte": "CNN Brasil",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOd1d1c0NGbnhNV0FSODhzZXdjRmFBRFhzaGF3YlVmZ29pZXBwSVl1QWFNV2ZZVENYUnBvd2xtYlpRZEQ2NTNMMFVOcnExb1lrSXJVS2NtNHhWRkY4eDg1azZwOWo4aHA2N0l5LXJ0OFNZUjloMXAxN2pQREJTSEU4bnUzYzU4TThZaVB1QWgwZk81Z0paLWZ1SHo3eWY?oc=5"
     },
     {
+      "cat": "politica",
+      "titulo": "PSB deve entrar em federação com PDT e outros três partidos",
+      "fonte": "SBT News",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOLTh2X1JsY0xEOFFfdGRabXpBNUFJT3NHWUFxbHFSVEJQcDRIRnJhY1VMbTA1OEtrLTJ3NjlYUnh5dHlzZ1hyTVFkakJRQ200R2UzbHJMR2U4Z21VWlBNdnFFNXM4a3hGTDgzbzlfUFZBYkxBS3hqaUJ1ZDQ4WWdfXzJ4dW9YREFaLVR4enVSVVhJQk5UM2NLOUFzS3Y3WXpva2tNVFYyM1IzRG1PaG1MMA?oc=5"
+    },
+    {
       "cat": "eleicoes",
-      "titulo": "Futura: Flávio tem 45,4% contra 45% de Lula no 2º turno",
+      "titulo": "TSE julga ação de Lula contra a Meta por favorecimento a Flávio Bolsonaro",
+      "fonte": "CartaCapital",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVldUS0xUMGR3eDNDdlVfVElwWXk3VVM4a0pYVjdjbEkwSW9lWXJhNW5wVHdGQlV5Zjl4Y2lJaTV6bFUyR285Mm5tYkpHSHUwa0hPbEctbExRODZfMm82OUl1YU9Sd0JmSzlHTzh0VDJkLU5Fa3pPUkN0S1E2NTJ6T2JFN1J4UE81bTZwNms5eUEzVkFBVVBWb1FZLVR4RXc0MGtkOFZQQjJvU1I5b0RCWWxpbTU?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "PoderData: Flávio sobe nove pontos em expectativa de vitória; Lula cai 11",
       "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQc01YbXRGeE12T2lFSFVMRHFnYVdja28wcENtVHk1S2QwOVlpcVpTcno0WjA2d202MHFsdnJzak1CSGNvTXVWc0dyT0RhV1R4cUNLNnpqdmxySEJ0c1hxeFY0X25IbkNBSEpWX0tWakRsMThYVDJxWVgtX3VQVVp1R3VIWDdHczB4S3RPS0Y5QmJKeDBZ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcE10RFdHc3E0V2ItU0I4Y3BXb2xhM0JrQkJUeHdFSElsdUUtZzFvZk5IQVVHUkx2U3JPeEVRaGNMVTQwVmtJbVByaXowY3pBSmZiRVM4aGhGTk11eVY4Vk5nX2w4TkJrdWZ2QnZoaC1jVGZMd3JNZnV4bnhnTk9FVXcybHdyaGZTLVRDWW9hV3p4OTk1ZnVXeTBuWDR5Q0U2V1Zyd2pJSHJKaF9iSkVN?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "Crescimento de Flávio muda o humor da eleição e preocupa Lula",
+      "titulo": "Campanha de Flávio vê “complacência com fake news” na liberação de canal pró-Lula",
       "fonte": "Gazeta do Povo",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPM1o0UFFRcnFkdDctNUxZci1vMHhldGRZOXl3cE9KWk1mMDJrOFJVdzZpNktNakxINklHX1htRnZrR2RKUGY3SlB0d1hpQjdWXy1RdnBDSjJIT25JV0RrNWR0T2gzdWtGTHN0bUQ4ZzNWS1pnUkxsSXY1ckJTalFqWlJNdnJZTThTRTRydHlsVWQyNXFlSnh0VVRadlRlbDRiZWg0aVRvemJveXBtTHluM3E2UDM0WnhES0tlLXFKbl8zb3M?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "DECISÃO 2026: Flávio tem 53,1% dos votos válidos contra 46,9% de Lula, aponta pesquisa DataTrends",
-      "fonte": "Times Brasil | CNBC",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSnNOMFRjM0NpTXB4a0cyNDJfQkdsV21OTDhxRGppZ2ZmdTZfTHd2QTFRcVRIUDZEc295dDNaeFFyaGpRdWR6SmpNTUsweEhtQmxfUmZFdVktdld1ZWJ6dGx0VHFfUXBBT3ZTY1VkVHNjVmlsNGVnLUpnR0s5czlyV1JwaW1kZElFa0xqcWlCODZjY1ptT0JYVGpiVQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTEpsWXdaZmZLVTJNNXZ5dUFuNWszNWVMUGlOT2RhaUE0Q09GY2YzMWpXXzNNQ2JTTEp6ZkhsallRcTV6eTJkZmRhNUVqcVdfTUpTTjVqekdJS2ZyTXNBS1g1d2RSMl9sdW9yUUxkMzAxRUpVRzNJNkJ2Sm03Y21oZXpkWnpaOWt4aDh3bDBvajNKc09hRlRUN3ZTU2hOcVpUVFctQ1A1akRoUzdoR1RVVGd3X0pPRHIyTUFhRjJpYVJZS3VM?oc=5"
     }
   ],
   "indicadores": {
@@ -386,7 +386,7 @@
       },
       "cdi": {
         "valor": 13.65,
-        "data": "06/11/2026",
+        "data": "09/11/2026",
         "fonte": "Banco Central"
       },
       "ipca12": {
@@ -405,8 +405,8 @@
         "fonte": "Banco Central"
       },
       "poup": {
-        "valor": 0.6494,
-        "data": "06/11/2026",
+        "valor": 0.6701,
+        "data": "09/11/2026",
         "fonte": "Banco Central"
       },
       "desemp": {
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-10T06:55:15-03:00",
+    "atualizadoEm": "2026-11-10T14:53:31-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
