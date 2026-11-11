@@ -165,10 +165,10 @@
       "pontos": 171336.98,
       "var": -0.52,
       "anterior": 172236.05,
-      "minimo": 170569.0,
-      "maximo": 173271.61,
-      "hora": "10/11 20h26",
-      "ts": 1794353207409
+      "minimo": 171336.98,
+      "maximo": 171336.98,
+      "hora": "11/11 03h31",
+      "ts": 1794378680723
     },
     "acoes": [
       {
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.5803,
-        "var": 1.33
+        "valor": 5.5829,
+        "var": 0.05
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.2402,
-        "var": 0.88
+        "valor": 6.2321,
+        "var": -0.11
       }
     ],
-    "acoesTs": 1794353207409,
-    "moedasTs": 1794353207409,
+    "acoesTs": 1794378680723,
+    "moedasTs": 1794378680723,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,27 +305,21 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Dólar fecha em alta e toca nos R$ 5,60; Ibovespa cai após inflação dos EUA",
-      "fonte": "UOL Economia",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxORmVKZ1dJdmZFRk1LcldLYURuREdjbWtkRFV1aEVselp5dkd1NDM1bk9BdlZ1aW9ubVhqbzY2YjhKeXZEWFFFUmNUVi1iaThTVktBX3c0eWZheWcyaGNZQWJEVjdlNE9JY1UwdTZDcGt6b3pvOEpJc215S21DbTIxZERSNEVoMUtlNDNoLXgwaEZPQVItTzg3YkxZTXJYdUZVazJGSHh0ckhfd05YQ2dSSzhiYkFfOF9QVVlxejUwdW5UdjBXeFF3R05rRDdYWkJQXzJlcg?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Galípolo diz que percepção de risco dos investidores ajuda a explicar juros altos no Brasil",
+      "titulo": "Lucro da Petrobras sobe 21,5% no 3º trimestre, para R$ 39,7 bilhões",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQ1pRczkwRkJqN2VoVkVHeE80NkNrQk1CVGtGeHJyd1k1eDYxMDlGZERQVURGQU1qYWJHWHRvb1Bud3JvWVluVHNiMlJHcnZyU21nVDhxclMtS3FNX0JWYXRNeDczUXFmS09oNFlIN2RtTUR5QkZwRU5Fek9GN3cxbk0wNEtaUFdHVEtWTVNrLVJkSlRNSUFzWDI4WmFEeHgwejBqX0ln0gG0AUFVX3lxTE9SdUlERG1DQjVaOVRBVzVSOXV2ajYyVkNfaHFDU0lOZ3o4cGVsWmNEUTY5RlNWdmctQ3g1cnUtbVA3dWVtSGNfTUFWN2lIS0Z0aWJYVHZEbUdJVEl2V3E4bTFBZjhiQlhyN2ZUR0EteDhSTGVSWUVTTExjVklpUDFKSzBveWNOTVNWendXWlpmNjlHYURMZFI5UG1nbkNVVkU5Y3ZYUFJWOWFtSkVBR25TSmRrSQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQ3BxMDh2UHNtb29kX2xPbU9rYkdIajJQdWlsQjJXVFJkVmN1SFhwekFkYURwQl9hRjdMQVNILWVFam5RWlpQQXI0UWQ5c0plX3YtSzV2TGVmZzBXVVpJUV91VEJodGdsTmtqd21Ic01XQlhEU19UYkZ0ZzdHU0dWbndQeDAzWFByTHZn0gGaAUFVX3lxTE1renphV1ZXZWpOWU1qTVpPaWp0eDBzT1l1SXZRaUVYYXo5SGJ5S0FIZ1hvT0hUS05WRUEzY19vWF9yTXJwYWdhYWotbEJqTlFnZ1Rpb2FnMmdSVEdBVU9IelZoU045WTFXVktyLV9iNXliLVd3TkVTbFdXUG1VQjRZQWFWN1l6NnhaNzYwcUJHdmNlVkpFdDhXOXc?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Quem é Lori Huang, esposa de Jensen Huang, CEO da Nvidia que admitiu traição após 41 anos de casamento?",
-      "fonte": "CARAS Brasil",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNR0xLeGhkZjJfZzNmMjEwTjZxb2c0R3dudmQ1QXBVY1ZBS05SaGtPczNuTzBOS3pKVVdEQkZURkhYcE5kZGptemozRngweWNEOVFWZlYzcExVTFA0d0NLQTh5UjN1WWMyUUNhZnIzek1Db1JFUGRyejdadENWdXJnQ1dLRl9rbG5VYVUwUkVuVTRQMGJpQndEaWFaaGJYUDNlU0QyYjNtNnlPRU0wSTZFY2hQU0RtZTBXanhRSXNXXzFxZmlBLWp5elNaNE5JaEZUczR6Rk1n?oc=5"
+      "titulo": "Por que traição do CEO da Nvidia com suposta espiã preocupa EUA e setor de IA",
+      "fonte": "ICL Notícias",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9hZkhiaThyempRMnhMWVBvLUdDQUplSXpPbWxTZ1NwTkFUTzNpRW03VElSUzVqRXN0R2d0cUZlTVZuRDVOVFR0N0F4UVRFXzNXSHh1R1lHZmRJU1JQc09KLU1hUWEyMHEwVkRuWkNPV0lPQ3EzZTZvM2t6aVY?oc=5"
     },
     {
-      "cat": "brasil",
-      "titulo": "Governo propõe ampliar até 2029 prazo para quitar dívida bilionária do período de hiperinflação",
-      "fonte": "Valor Econômico",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPdUxtWHlKSXVDeEtmaXJ4S3BOdHRLTmNvb3hjUlhzcVpTUEkwXzFqbHg2TGhycVRJN3FmWGhlZ0VfU2tPcVk0TFdjVlhSUjBUZG44eGxfaEZIVGt4ck9VZ1FCSG5QQXphTjBmQk5sUG5OMUpOZDEzM2R6ajRlZ0xTU2N5NGRvVjgtQkJlRlZ5c1Y5QWt3NDk5cV9hV0JyN05PWGlxcXEyNEdWc3NoZEM5bWd0RnNhUDNlaUVsdXBoTnZicVc5V3RCUVhuOW5QeC1fWkJ4OVluMXJEU05xUWFjU0ZCdHNGWnEw0gH3AUFVX3lxTE1iVmRFYXlzamVCVl9DWWVjcHB5YldJVFBtSWdpZTNqaVZkbzE0Nko0R1NmWHZwakZDS1V1ME12VjlFbjd6ZnhWRW1rVkowZzg3SHo5YnpEWFZ0dHlscWhBUVppakFMMkc1dnBTVS1BY0x5a01EbDVlUzUwaTRLOFBZMk5lRmdHM1ozMklBQXEwN0tKWmFKWk5TMDh5WmRvQmNzX3FOaW9jem5pVEFpcEY4Z1F2T29Id0JxdmZOLVN1clF4Y0NHSFFYRlJMa2o5T0VaMDFwUG1TZEVxaU5mN0FqTVN5SnN0VG93dk9sUC1ZYnRhejk4WEU?oc=5"
+      "cat": "economia",
+      "titulo": "Reforma tributária no aluguel: regras para pessoa física e jurídica",
+      "fonte": "Portal Contabeis",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWVkxMTdaWS1FVnZ4cVc1bkRvUFpyMWRFQndLXzZUX3hyRjlCMERhV3d0UGRUTDM4aHJZZTJzeUhDclpUNy1FVWdIalI5UHZZN0NzRVQwS05HYXZmMkhvUWdpSVRfeGt1cWRjSlVfRE5LcFFwamtEbVEwckdCMzVENEZ5WVpfRmI0VXo5UUh4MUxTVkUzLU16QS1LMkhLcWppdzBOMzluTlZBYS1GZXU4Yg?oc=5"
     },
     {
       "cat": "brasil",
@@ -335,9 +329,21 @@
     },
     {
       "cat": "brasil",
-      "titulo": "Temporais voltam a SP na quinta-feira; veja as regiões com maior risco",
-      "fonte": "Climatempo",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQOVlxdUVpaHlqd1RVVlUtZkZRVlI0ZHlnMVhReEIwT3dBRW5DN0oxOThidGY0NXVqY082NFpZa3J2X2RuMzk1U1JaTF9qR1hsdG5OSE95RXpqYmZRQXNxQmR5VHd2alJhTHRfaXpDbVd5TU1qOFNRc1NFWW5FMFZuQzV5X3ZoUENQOGk4V0tucUxWcFhhajV5Y2VmRGFJbVNxckdsZU1fQ1R4My05STB6d2hJUnVVQQ?oc=5"
+      "titulo": "Casal encontra câmera 'espiã' no quarto e denuncia vizinho por invadir apartamento",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOE42QXNPVXpmVkl1VGIwSDBHWTlDZHNzam42V2xlUzdlaml0S2ZoTTRvZjJfSW5kQnNaU1htM0JzMGpaM2hnQVA1aVBuYlBYejlBX25XaURkOG9iaGhaLTFKelR5MXI2aFBFMndCbnpTN0FUdERwU1UxSmhybDFSMEZfZFNBQTZqVlEwTGhqeVNyb2dhd1AzSnlqN28tMjZXUHJ2RXl5Uk5MeTdCNk1Bd1MxaFF4alcyQnFGbi1nOGppX2pKeDVfSGkwTjAtX3FV0gHfAUFVX3lxTE1fUkNDRlM0WVcza2JWeUJ0cmowTjhJcXc2SW1ncV82RDI2bWdGOUFuelRCd25xQk1Vb3pTR1ZOQWttT2tWM3VfYmh0SXV0MU5ON0tpODk0M2Z2YjJCcFZzdW1pa0R1MW4zNTJGU2ZYMmVwcGxWZG9tV1JHT1RoRHMwVTAtTFI4OW9CRTN6QjExT01GUm45SHZMdHZqdjRVSWJlY3hQNURWRVhVNEZLSnd1ZURPZl9NVk1kQW9mS0xMZTl5dFE1bWNPWmtTMTlHMXNJdFJKTkJTYlpKd3kxRjg?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Vídeo de FHC em casa é investigado pela polícia: o que se sabe sobre imagens",
+      "fonte": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9BWE5RbER2MWMyUjF5S3JjVG0yYzFwOUVBQlZkb1Y2WXJLMm9Bd2xOWk9nTmd6Zjl4a0FLX1hXSmxQcnQxT2lOd2dUSmduS0pCZzQya3k3UXV6amdaQ3NGNkplb9IBaEFVX3lxTE1PSTQtZzhPeGNzcXlMMzFiWjlwUUcwVkJvS0JVdFB0T2FRMThjMlJ4d0RXaWFGYVdsTjFIZjRMTHg5SFB2enUxN3Q1MjlwU29rNVBaY0VpNHN1VThra0poLUE1YTA4T1N3?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Comissão de Infraestrutura contesta leilão de rodovia entre Rondônia e Mato Grosso",
+      "fonte": "Senado",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OSTZwLTNITkJfTU92Yy16TEhobzZDZzlkVWZSUDdHM2taeTZ2VWZMSGVBeURMX2JSWGQtWWg4cHdMcC1fOEVDc28ySm5qQVRQbUhwZm9R?oc=5"
     },
     {
       "cat": "politica",
@@ -347,21 +353,9 @@
     },
     {
       "cat": "politica",
-      "titulo": "Governo acerta com Congresso projeto de ajuste fiscal que pode chegar a R$ 80 bi em 2027",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNRXJqMG9jYnk0R1p6YWQ2TmtDUWFtWlM1emJpM1Q3SlZVQ2RqT1RnTFo4UGs3a3JFX0tPZFB3bGJPVUpDcUFmMTZoM2lMaUllVkR1bjJSdWk0U3ZBWE5WQ05hY0NOcDJfMUl5WEZBYXh0M1VfY3dwRlNzOVFSd3EyYzdhRUt6OXA5ZlBJT0dkUWxqV3JVdW9sczJQaEJYek5YcUExU3FVVFIySjZLYTN4VUtpRTJMTzAwNUYzeDR1cjB6cmo0ejlSOThXRUNjTXBZTkpmUU5mSWpmaTRpNnF4VHZGc9IB8gFBVV95cUxQMk9qMTgyYW02TkZTUTg2Ri1yME95YzRLS1VhY0VoQUx4NGNIeF8zb1FybGloaXg2MHplR1NRajVWQkYxb3Q1cmJfX2t5VzZjUGllZXRzN2o1cmdscGc4MHpqNFhmUHFpSDZ1TFVRbGhsUk9kNmltVkttbk16TTRrRkV6N1NQTEFYcGozLWY1TGNRUElVOFBtb25jcDZnc3hianB3QmZtZXhNc2dURXBycGYzWlVlYVdzYzlncVBqRGhZbWdCWUVMd0U5b0RsNkVTR0NvS3RZWEktZVFZQUtBa29feVB5d3pxaDVnbnUxMGxnUQ?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "STF não quer substituir Congresso e governo em debate sobre 6x1, diz Dino",
+      "titulo": "Congresso tem ao menos 57 propostas sobre fim da reeleição para presidente",
       "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSThLS0s2ZUYzQTlWMXdZRFM0YnZBQ2lRZG92Y0ZPVl8xSlRkdVN3ZVVWVnJNMUJhbW0tN21welk5S3hmbkZMXzZqX082UE5GdEpKTkVYS2xod215bU0xMzktTV9jSE94YUtjc0xMc1JfYVRSV1djTWJoaVhOdTJkYjY1N0dDU0l6bjdrbzhXSDVlLWoxa2lCT1F5UVc1MGx5eTMxdDNvZ2JtQVZ2YUNYag?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Campanha de Lula recebeu R$ 1,9 milhão em doações depois do segundo turno; Flávio Bolsonaro obteve R$ 1 milhão",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQM0xNeWVjYjdLel9XYU5HaGZxSlVWeTJwbzJWalQ0dEVxVXRCSjFIVFpGb0FoUk9TZ1UyLVNXWW53OEtqUkxuZ0Z6VE54OGZ4Uk5la2IzSjFFTEw4a2t2bDd4LUFpTG9FM2lJNU9GUFRVSmxKWjdpLVpXOGlxNDlzTWwxazlPVF9GZkxmN3JaTXFhZlhTU0JkUjFMODRSdF9INzlFV1FJRkc5MVZ3bVd2TmZnekRiUFRJS0ltdVFPZkdZWjFx0gHTAUFVX3lxTE1DWDU1TTJFdlhvd0hJd2hzX3QzWW5nRU9WLXdOQWY4bmhjX1JCeEdkUXZYU184VFA1OUFkNFJwNWtCeEJvbHBwVFQxd2NOUk9LNHdZX1EwTVQ0VFBFMmR3YWY3TFZxVkxyeVFyVU95SGxSWk1CSWxmeV9MMnF0bU1QemRmdDEwUU03ajhIc2Y3TE84dFlMS1dJcTNXY3RDQmdySzloRFZNM2p3S2VaVGhiSHdxNVhwSHkxVmR0M1JRUl9ZYmNtMDRnN3kxS1BIR2c1anc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcEZHaTAxX0lSazhsV09NbXl6aUt1TWh3RzNrZmc1WXZYZEdTaDc3SmloUDRkdks4cTNhdlVSMnQtbV91QVBrMFUwaWpubVVxckUtbnF5NmtFLVdINTA5czlZekUzR2lobW1vQlk1TTF4WVUybHdGaXZXSnpyUHVsQm81VENsVW5LRmc5dTdkVE5HZmJfSG9uSk1EOVdza0NoRU1SUVYtcmllV2MzclI2SHo0aw?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -371,9 +365,15 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "TSE julga ação de Lula contra a Meta por favorecimento a Flávio Bolsonaro",
+      "titulo": "Campanha de Lula recebeu R$ 1,9 milhão em doações depois do segundo turno; Flávio Bolsonaro obteve R$ 1 milhão",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQM0xNeWVjYjdLel9XYU5HaGZxSlVWeTJwbzJWalQ0dEVxVXRCSjFIVFpGb0FoUk9TZ1UyLVNXWW53OEtqUkxuZ0Z6VE54OGZ4Uk5la2IzSjFFTEw4a2t2bDd4LUFpTG9FM2lJNU9GUFRVSmxKWjdpLVpXOGlxNDlzTWwxazlPVF9GZkxmN3JaTXFhZlhTU0JkUjFMODRSdF9INzlFV1FJRkc5MVZ3bVd2TmZnekRiUFRJS0ltdVFPZkdZWjFx0gHTAUFVX3lxTE1DWDU1TTJFdlhvd0hJd2hzX3QzWW5nRU9WLXdOQWY4bmhjX1JCeEdkUXZYU184VFA1OUFkNFJwNWtCeEJvbHBwVFQxd2NOUk9LNHdZX1EwTVQ0VFBFMmR3YWY3TFZxVkxyeVFyVU95SGxSWk1CSWxmeV9MMnF0bU1QemRmdDEwUU03ajhIc2Y3TE84dFlMS1dJcTNXY3RDQmdySzloRFZNM2p3S2VaVGhiSHdxNVhwSHkxVmR0M1JRUl9ZYmNtMDRnN3kxS1BIR2c1anc?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "TSE condena Meta a pagar R$ 7,5 mi em ação sobre favorecimento de Flávio Bolsonaro em eleição",
       "fonte": "CartaCapital",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVldUS0xUMGR3eDNDdlVfVElwWXk3VVM4a0pYVjdjbEkwSW9lWXJhNW5wVHdGQlV5Zjl4Y2lJaTV6bFUyR285Mm5tYkpHSHUwa0hPbEctbExRODZfMm82OUl1YU9Sd0JmSzlHTzh0VDJkLU5Fa3pPUkN0S1E2NTJ6T2JFN1J4UE81bTZwNms5eUEzVkFBVVBWb1FZLVR4RXc0MGtkOFZQQjJvU1I5b0RCWWxpbTU?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSnU5X1JaaUlkWW0wc2hZS0pZSG1HODJ2WlR3b1NTOUoyWW5NaXFFSEJneG85R1h0WU0zdVJQQktsdkpMTE5UcTFXeTVJeXJXMllNMVNWZEVETTJfUEo1SHZyd1ZsSG1OdHBlWE54aDIzNTJrNHRuUTZvblNqeXNlRHdiSWJlNnptejNJZ2h1MVpqWUtoeFZDM1ZSM0JGcjM5cy05SURrOVdDZUxmTDBnYlF5MnFLUDRCLTFtYmtnbFM2WUloUThhajJVYXVKZw?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-10T20:26:50-03:00",
+    "atualizadoEm": "2026-11-11T03:31:22-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
