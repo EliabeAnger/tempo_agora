@@ -162,54 +162,54 @@
   },
   "mercado": {
     "ibov": {
-      "pontos": 172724.72,
-      "var": 0.81,
+      "pontos": 172060.44,
+      "var": 0.42,
       "anterior": 171336.98,
       "minimo": 171335.2,
-      "maximo": 172864.05,
-      "hora": "11/11 12h16",
-      "ts": 1794410210297
+      "maximo": 172986.66,
+      "hora": "11/11 19h03",
+      "ts": 1794434610094
     },
     "acoes": [
       {
         "ticker": "PETR4",
-        "preco": 43.94,
-        "var": -2.25
+        "preco": 43.55,
+        "var": -3.11
       },
       {
         "ticker": "VALE3",
-        "preco": 64.57,
-        "var": -0.35
+        "preco": 64.43,
+        "var": -0.57
       },
       {
         "ticker": "ITUB4",
-        "preco": 42.05,
-        "var": 2.06
+        "preco": 41.72,
+        "var": 1.26
       },
       {
         "ticker": "BBDC4",
-        "preco": 14.58,
-        "var": 0.28
+        "preco": 14.33,
+        "var": -1.44
       },
       {
         "ticker": "BBAS3",
-        "preco": 17.16,
-        "var": 0.35
+        "preco": 16.89,
+        "var": -1.23
       },
       {
         "ticker": "WEGE3",
-        "preco": 51.38,
-        "var": 0.84
+        "preco": 51.61,
+        "var": 1.3
       },
       {
         "ticker": "SUZB3",
-        "preco": 54.52,
-        "var": 0.11
+        "preco": 53.8,
+        "var": -1.21
       },
       {
         "ticker": "B3SA3",
-        "preco": 14.82,
-        "var": 2.35
+        "preco": 14.8,
+        "var": 2.21
       }
     ],
     "juros": [
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.5537,
-        "var": -0.48
+        "valor": 5.5528,
+        "var": -0.49
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.1634,
-        "var": -1.21
+        "valor": 6.1656,
+        "var": -1.17
       }
     ],
-    "acoesTs": 1794410210297,
-    "moedasTs": 1794410210297,
+    "acoesTs": 1794434610094,
+    "moedasTs": 1794434610094,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,39 +305,39 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Ibovespa Hoje Ao Vivo: Bolsa sobe com fiscal, balanços e exterior; PETR4 cai 3%",
-      "fonte": "InfoMoney",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcmZXZEdGdEZTNVZJQ2tEeWljMmhoUFhMOEVOSGt5VldZTXZhVVVfREttOWttdjRfZ1I4TUl4NWJ0LWdTSTZwVnJqTDE0R1hDV2ZlWGtOT0xMMDU3Sk5idXZLNktacUlIallZWWdRMVZsUFhHOTdZNkNSME84SzhGQzVrVnJOaXRwZE81VGwyZw?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Petrobras tem lucro de quase R$ 40 bilhões no terceiro trimestre",
-      "fonte": "Valor Econômico",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPblBLWG4tUVdma1RqWTktWHprNDJhVVZLdjhDUlJxYk5IMUxIZ1d1aWx1a0FXckJjT3d0eXU0N21ZbjMwMVZBLWlaVG9NajlUeGZVcXhuSFhJS0ZTZ1JhOHItRGw4MXFxLVdzbXMyOV9sRDJBb0pIMVJzVkNaZWpLQ2JtTV9zRURfazBUY1lYdW43MURMWklEZ2pMenN6OUJub3VWeTh1YV9DMko5Q2lWSThhVTkwbU9GdXRSU2Z4dFd5d2JiYTNWamJSdWhGWGxDdk1rbjdFSdIB5gFBVV95cUxOb21pWmhCQ3hMVW16dlRsdEFlUnRqblk1UW91eTRRYUpTOGZwcGtWOTFLWWFvU003aEt4OEVZd1E1amVpZ3VpZ2l3REZGLXhmaEY1MXNhbWo2UDZmNmsybURFdjNUcFBLRjdhUDE0OFMwYmdzaXFuVjc0SWprbmVpSEw4OHlHdkxZWlV4Z2hXc09sRzRtZHhBNVh1a2ZSZXd4T0xGQkFINmJmM2IyR0tWUWd4QlgxZVVGSUpZcXQwd3BzcExKRy1wRWVhX29xQmFVa0ZfMXJxNzVVVjNFSFZCaHl2eDVkUQ?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Dow Jones Futuro sobe com otimismo sobre IA apesar de temor com inflação nos EUA",
-      "fonte": "InfoMoney",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNGFXeGN6WkprNTRDamlXd3pVRThhYVdaSURvLTFtU2VFQTRMQ0N6UnlUeVNURFlVM0xCanI5QTRobGJFX1dsNmNKQ19oQmI1Q0t2RWp6M0lnTVFDV2dtQWRyZmdiQXJ4UHRSbTYweTI1QkpzWG5uYlhhWDN1Z3RmV0ItZ2NtOElESEpMY3YxeEZtWFBXZmxYSEd3ZzYta05EQzNnRC01Wk9HVlNpeENiUm45ZjFoc0IwRDg40gHAAUFVX3lxTE1nX1pZUXVodDlBNHEwWEVVcUx6Vnd0a3NfdXNuUkNGQUJEblo0aVp3U2ZSVmtLeUxDZU16bXZuUVl5QTBiNnl5TnhqWVNBT3FWUE1DMmRzZ0ZyRnUtLVM1b29rX1Fta0pldURnR1JGZ09SMGx5bm5hSnAwTklQa0VwRkV6MnBPejZ0QTF5ZmZES2R4TU1hNEhiaEVqUWxGN0lMcnNnNjdTTVQ4N0FiTGJETVNoQzZ5MlRId3VLd01yWA?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Na COP31, Lula diz que brasileiros empunharam 'armas da democracia' nas eleições e cobra compromisso ambiental de países ricos",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQOUVUWnQ0b2hqSmtOOUUxV3ZKWjNtOUlRT2ZnTnVBUVg4enV5U2l6Q3NHakVXZ3Uwb2h3OVRjOGV0Q1I4UHV1RGFKU3U3X3AwSnRhbmFLdm1LMFVCZ2RSdVBsQlRnZElOcGxhMV9hRXlIWGRaRVZQTF9Ia0VJR1VQOTROZXAtaDczQWt0OGRCRms2d2tSMGZ5Sk1yTkpKaktuc29fcGdtdV9lV1BFUVNleWc5Y3hiRThyM2V3aUhFcGZmVjIxbXM4Z01vMHFFUmg1OVFRel96NVA0b1QzVlBkSEdtNVdfX3J3U2xYNlppWExrVDjSAYICQVVfeXFMTVNfeHVUTnhROEsxZFV2b3EwaEEwb3V1OWN1dEg3SXdPZVc4YzV5elZJSno1UzhKSlRVSWNWSHI3VmNxaC1kV1Jsdm9OTjFwZVlsMXY5dXpZeXhNY29oWE5yTEFiMTRQbWg1cFVoMnNHZ1ZOQ0dvYm51SjRuU1R5SExhUlJpQUt0WVBvQzVsWWpieTc4SzJjMUg0elRpWXM3SjN4YUFEaEkwQ2RDb1E3YWoyalIyNC1pb1FpaGJNTWFpaVZsMDZncW9BT195cVB3RWJ2aEVEMkNlVUMyWVNEZkJNbTNYT0lYRFJkTmhWYllrWkhsX1dzVkJLbXozSVlFUW5n?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Após reunião com Durigan, deputados descartam possibilidade de adiamento da reforma tributária",
+      "titulo": "Governo Lula apresenta projeto com medidas de ajuste fiscal de até R$ 60 bi em 2027; veja propostas",
       "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYWNzX3ZGZjFvV3ZiNTZKX0l6LTY2eFl5RWtTT3dhSTJMX1I2RGdoMDl6eFBYYU1Ga3UtR2N6Y0szU0YxUEotN21wc1ZGV29EM2hNb0lsQWk2dF9YVXZkbkozZHhrdFBxM0VZamxwdWdHWEFnbFdkZUtnbDBZa0tDaE5jbzE1VUFPaTB2eFU0TENFYjZ6VUdRUnRHU01aRUU5bmlvR2o4YnZFN0R5YkJhRkdEc3lJZmZUd0wyNUhPazcxNkZVWHfSAcsBQVVfeXFMUDhBbm1vdzVTbHFYZEVwcFJFaFRMYV9WQ1F0MFpWb09uOW9QcWFyZFNlSWZXcUlhSkp3VVFjdk9QNUVRX1RrUmg3YXJJelJMZV84ZHlucUQxdC1EMkZIWGlSUmxsQncyZU00ajR0d3Vsdjg2aFBkS3pTYXh6NTc4c0RGUmEzLUI5M2dYWmpTY2hGMWJxODB2bktaYzhWU1lrdnFXZDMyNnlsVThMdEJFaUVFeUJCeU0xeE1BVUVMY0pLb3g4OVludURYOXM?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVVQ1OGNyUzVVNGxFVThmbWVfR0NCUmxlNmNKZWt1eUlxQmJhUTNQU2JxUEl0WnJ0TGhmQzl4X3VUanNNa0pQS3pCaHBFNGVBbkhGRnBhaWotUlNiZS1HM085TFU2LUZKdmtjeU5oc29ZYzBjNVZqTVduOUQxd2pTZ1NreUFsbFhH0gGOAUFVX3lxTE8xTkhuVEhuVGJGSERHdDB3aW1OMWdZdWpoaUIybGI1SElUSTZDWlpOU0RpNmM5Q09pQmxIVWg0c0ZTaU9nX3VYSnZXOFUwZjhibU9TRVIwT2h5Mll2QnRCNktNTERPaFB2RUhyMHhCNFRXOVpmMnI5bVlKcTBZLWxuQTJwdFd3RHpoUWloZ2c?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Dólar cai na contramão do mercado internacional com pacote de até R$ 60 bilhões no radar; Ibovespa sobe",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE82MEhBWmg3TDQzMWFya2pXQWoxLUVtc1dRcWR5c3NfWVhBaURkd3IzLW9DQmNfR1FFZFp0bEZKT3VOekpLSzBTWk5JYmZSOHlXVTY3QVNPVTY5UjVkRXpkQ0hUVEQwZURwaHQwNWpmbDQ0UExGa216RdIBhwFBVV95cUxPUlpPaTFnaHdINXY3MmowZHJMTFBNYk15RVZsUlFLNDlYZU5DSWRxYXJBeWh0eThaZlNOQ002d2FGT2ktckUwazNCWWhxNW12RXZ4ejRudzVRUnEtemF2UXdoMTJsSHJaLU5HMldWVFBoYm5ScVU5RXc0bzktSHQ5dW5aT1JBZDg?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Galípolo: Entregar direcionamento com atual incerteza terá valor negativo",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUEJLSnVHem1XQXV5a284V3pwNDFzWlNQeElRdkJaYzlGLW5IaWh5akd6TTdFQXpiSXJLRmYzRFFIcVkyVnJoOHBKeFdBWFNtWjBZdUEzeTRNTFAyeWg0cDRoOFY2RTdQWTZiNldpVkcyb3RZdGg4MmIyLXJ3NU04YXJCLWtybDdPSzB5MkIzajdqUVZDdmZEOHpIYktra1N4Sy1IZnZwTzNHeWlLZnJZVE53aFZyaXZpaEF1eVNRaFhPVHoyQTZQRDg3WQ?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "MPRJ tenta prender Ricardo Magro e parentes; ex-presidente da Refit e piloto da Copa Truck são presos",
+      "titulo": "Reforma tributária: governo vai propor que primeiro pagamento da CBS seja feito em fevereiro, diz secretário da Receita Federal",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYWZtSnFhYTlad2dUZFFpX3hZZ1NYcTF6WGNlSEJOSVpXbVhoaHMyV3hEMDZKODduY3JLQjFIbktjcEllTXYyMzNQT29IN2ZaVkhPZGdvY0NVSjlueDgxUXJ5UlFxNkpTLW9QQ2taYXV5RWN1cHljWHpEc2NTX1I0TU9nSmNKeXlXRS1JWFhRSldRbDI4eTRpU09iTkF2RldPd0NNUm1mbU5sMzDSAboBQVVfeXFMUDQ5dzNwMlMtMGZhdHhCalU5SGQ5dTdZMjNQa1k4XzFQNXZvRE1raXd0QVprR1RmdmsxZmZWMVQxaHZ1b0dGZ0h3U2lITk8teXJ5UVYwSTdQVnd0c0tVdF9CUXNFSEhZSGg3YlUwai1qaWJjaXdDVnlKYmVNbnlzREVyWjFlVk00VHRkRXd0UmNWUEFfUVp1dHFnbGhpbWpzUERqd2pvc0dLT2RPc1lVcjBWU3dEMUx1cXJn?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNZGNKS2VsYkNaWlhoSjhtVGs1OElnVmc1REU4U3FtdmlxREtoZmdWakd6bFJMdDJxNTExMFpPclh2V3BxNVR3NmRGNVhHXzBmMG5SaFJ6aTdiMlA4T2xHcHVQS0w3N2dzdk9uT0FDbi0yRks0czdBaXVualJxUThUazRjN2wwbjJwbHRCSXI4RnhYQzJqWmtEbFJ0NnI1UnVCTWJaOFA1Mjh4Z3JGdk9LUDNhYXpHdlRLT0xSLXN2RmI2MGhZdkEtMWVsS0tzc1hYSU5pVlR2a1EtdVpLbXk2SExtQ3FuVU9sZGlqUllkNjVISGVFczM2QlBkZ2xodjVqcUZxM00tMkhDNHAtUzhn0gGeAkFVX3lxTE01X1pmRi1OOExrd0RocWRLbW54b2J0eUFnTy1UNjd5QjJjN3RlTW10cnAzY0JqcDgtRGtOQ2t5VkZLbTVRNmRaMGtUUXNqUmh4UnVFbkJMM0NidkxSeUxndjdTeS1MZUUwMnRJZXlhOE5aaU93RGZSMWZYUlpiWE01WHJoeVV4ZUpQQ0QxZS11ak1JWm9TblR6am5scm9FRzQxOG1IdkNCdWRhVVBfN2RaLTYzcFdXZW5XRkNDVl92Q2pDNnBxdU81ZXpiRXU3YzY1dkhtdEd6NkdhMHJDWVZUZmE1TXVFaUxJUks1bTVFb00xdTYyTlYtMWxmVS1sUzQ4dGt6a0h1eXdLSi02S0tGWl9HLU91Q3NmeHBneEE?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Lula é reposicionado em foto de líderes da COP31; assista",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQllxT1NXZ3dDUkRlYWtQUnZEaHJ3Z3VjWDdUaS1nbWduZ0liUEo0Yldaa0NmalJQMlhqaUUzay1rS045cnB3bG5sVGFkY2dteWp1ZjhsbVptdkthbmNJcVJKMjU4c3M0cTJnaURRVWlnSGhXQjVpQm12ZVV4MVVJUE5LNGpfRU5MWEpOTVRPMk9RVThYZ1JmNW5JMWNQVHdQ?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Justiça determina devolução de R$ 2,4 mi à OAS por venda de triplex atribuído a Lula",
+      "fonte": "Jovem Pan",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZHJ1U0otQlFYVms2WUNYT2RRd1FLODh5YjdwNTJFa1lBOHlnU0tTcGFQVTZtT1lKV1RFOU8wM0hzOENkSFFDdkJ6QllCcmtINnBWVE9nRGIxd3dBNTZIM0E0MzE4QjNibWNxMWJvcUdXSUdIY0ktZU5scENPN2E3Njd1NXcxTklodkRCQ2hMdUw1VF92eS03eFVQalJsdmNUOVdwRVBjTTJXd0RCb3FxTW1jMFNNWXFHOUZaWFRR?oc=5"
     },
     {
       "cat": "politica",
@@ -347,33 +347,33 @@
     },
     {
       "cat": "politica",
-      "titulo": "Congresso prorroga MP que proíbe bets no Brasil por mais 60 dias",
-      "fonte": "Tribuna do Norte",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPS2JVYkxyeEVtYXhMejFOSlpvdHZrTkZaVS0tbHprOG1RaS1TRVlwMkljVl92QjhqWjlTUTdPMVoxVFhfMzBFUE1Sa2RXTUhVUmR6V3lJYUo1dFlSTlZEek5uNUVsbGlmSFJHMXdLUk9NM1dkX292bUp2VnpROWY1S2doN1hpYUpROGR4Ujg0cmkydGN6d21MVWhDOEdhSURPZEc2bFVVUQ?oc=5"
+      "titulo": "Políticas públicas para pessoas em situação de rua são debatidas no Congresso UVB 62 Anos, em Brasília",
+      "fonte": "UVB Brasil",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcERmbHRDcHc1RUd0WlBJbmR1QlVjR1lIZWNMQUs0MVpfdzNRbWR0U2NLUGhGcUdVRXVLRmRSV2cycG95b1FVWE5majhBUjB4SVEwWkM2TndOZ2tkTzZaelFXVFgwcllfdDZFNzI1MmcxRmUxOXowNHNsdkRYUGpQMnZFZml1Yk9HVG5tY3lvQ2ZYV2Nwb0VLeUJzZ1hLR0VnU1lfNEFKanZ5cW5CcFB4bDNPVkRqSW5DN2NsNGoyMDFoLXF6YkE?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Congresso prorroga por 60 dias MP que proíbe bets no Brasil",
-      "fonte": "viva.com.br",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOS1aZFpqMk14X1huejRjZmVCbnAySGppZjcyTXFsRm9tM2pnMHB5SW9rdjVFRGhOLTAtU1lnYXNUMVdrRkFmUnNmZ3dQdml2M1JhdmY0ejhTSG1zQmVWNVo3WHdrYWJVQ1dpMktWaEkyRTQ3WEd2bm1wdmRNNDJsSTlJVXFNYW9IQjI5a0VBVGctS1VacEVSMw?oc=5"
+      "titulo": "Ao vivo: CAS analisa acesso ao exame de HPV por autocoleta – 11/11/26",
+      "fonte": "Senado",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OSTZwLTNITkJfTU92Yy16TEhobzZDZzlkVWZSUDdHM2taeTZ2VWZMSGVBeURMX2JSWGQtWWg4cHdMcC1fOEVDc28ySm5qQVRQbUhwZm9R?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "Flávio e Lula fazem carreatas para demonstrar força, dizem especialistas",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMVZ0MFNTTWxxV2FhZGlwc0Y3OVJBYjdzVlVWdk83RTRqWXVnQV9pcWFrV0JDUlg3WjlUWkplak5UbElXOGpnd3l6N1NBOE9Bb1FSWW1JaWRaSmRMRHBLWmNGMTd4QU94d3B5ZWtfOHNOdUt5RkJTMElMWkVqTkdxZV84R0FMcmxGQTJBc2swZi1SM0pCZFl2dTQtR3I4cG9lMGpzOU9oQzhrcnlNQnBr?oc=5"
+      "titulo": "TSE multa Meta em R$ 7,5 milhões por descumprir decisões de isonomia entre Lula e Flávio",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNTlyQVQ4YkJ6S084WFRiekIzRzV5OGpfTUhTY3lqekhhTDFobEF4WEdUUGVVUnJPYk1ZRno0d2xYcGplYVJRYU51MU5GSHZDam0taEZvMEJDVjlodEdwY0l2TGRTNGlXUzloV2pWT0kzaEdHa1ZNWjlBWS1xQXowNW1xeWUyY1JkZUFsQ09QZmdISUhIa243OW1jRWwyTTBUVVJ3NVNR0gGrAUFVX3lxTFBhY1REdmdXYmNxR1B1S19vc3oyWkZwM0pmdTc4bThtTGNnOVhfVnhlZEtDWWlVdXpWbmc3Sy1tb004RXkwNXY2TUhGSE9CMmpFSU9HdHo4bVJwN09iY3NDT3B0cGFuQm9VMTdJeUI0YVFFMlJ1bTU3Sy1UOUZvMmswU0JaWXd1Y2J5eUFlVWZTME9CZU9KOVNQaE9uOWtudWtVamRaNjhEN2JTdw?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "TSE condena Meta a pagar R$ 7,5 mi em ação sobre favorecimento de Flávio Bolsonaro em eleição",
+      "fonte": "CartaCapital",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSnU5X1JaaUlkWW0wc2hZS0pZSG1HODJ2WlR3b1NTOUoyWW5NaXFFSEJneG85R1h0WU0zdVJQQktsdkpMTE5UcTFXeTVJeXJXMllNMVNWZEVETTJfUEo1SHZyd1ZsSG1OdHBlWE54aDIzNTJrNHRuUTZvblNqeXNlRHdiSWJlNnptejNJZ2h1MVpqWUtoeFZDM1ZSM0JGcjM5cy05SURrOVdDZUxmTDBnYlF5MnFLUDRCLTFtYmtnbFM2WUloUThhajJVYXVKZw?oc=5"
     },
     {
       "cat": "eleicoes",
       "titulo": "Campanha de Lula recebeu R$ 1,9 milhão em doações depois do segundo turno; Flávio Bolsonaro obteve R$ 1 milhão",
       "fonte": "G1",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQM0xNeWVjYjdLel9XYU5HaGZxSlVWeTJwbzJWalQ0dEVxVXRCSjFIVFpGb0FoUk9TZ1UyLVNXWW53OEtqUkxuZ0Z6VE54OGZ4Uk5la2IzSjFFTEw4a2t2bDd4LUFpTG9FM2lJNU9GUFRVSmxKWjdpLVpXOGlxNDlzTWwxazlPVF9GZkxmN3JaTXFhZlhTU0JkUjFMODRSdF9INzlFV1FJRkc5MVZ3bVd2TmZnekRiUFRJS0ltdVFPZkdZWjFx0gHTAUFVX3lxTE1DWDU1TTJFdlhvd0hJd2hzX3QzWW5nRU9WLXdOQWY4bmhjX1JCeEdkUXZYU184VFA1OUFkNFJwNWtCeEJvbHBwVFQxd2NOUk9LNHdZX1EwTVQ0VFBFMmR3YWY3TFZxVkxyeVFyVU95SGxSWk1CSWxmeV9MMnF0bU1QemRmdDEwUU03ajhIc2Y3TE84dFlMS1dJcTNXY3RDQmdySzloRFZNM2p3S2VaVGhiSHdxNVhwSHkxVmR0M1JRUl9ZYmNtMDRnN3kxS1BIR2c1anc?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "‘Tropa do Flávio’ muda de nome após vitória de Lula no 2º turno",
-      "fonte": "CartaCapital",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNjVhZWt3R0EwR0JaNXJnbVVxLUxqdDFUM1dybVd6bW53UDlCWE4tUXlBblp6QkowYkxnbmlMRGhWSHNzOXRoN25fRkI5OTQxRUsydDFRVXJ0YUhiY2VYVVJhTENHTjYtNGVxb3VQYk5LUUdzT0pRSTRtTVROOG9ZS0FNbVZvT0dRNnZWOE9tV0NOR0ZFeVNkRHpzV2wtVGlfQ1pGQ2NR?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-11T12:16:54-03:00",
+    "atualizadoEm": "2026-11-11T19:03:32-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
