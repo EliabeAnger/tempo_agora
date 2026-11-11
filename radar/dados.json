@@ -162,54 +162,54 @@
   },
   "mercado": {
     "ibov": {
-      "pontos": 171336.98,
-      "var": -0.52,
-      "anterior": 172236.05,
-      "minimo": 171336.98,
-      "maximo": 171336.98,
-      "hora": "11/11 03h31",
-      "ts": 1794378680723
+      "pontos": 172724.72,
+      "var": 0.81,
+      "anterior": 171336.98,
+      "minimo": 171335.2,
+      "maximo": 172864.05,
+      "hora": "11/11 12h16",
+      "ts": 1794410210297
     },
     "acoes": [
       {
         "ticker": "PETR4",
-        "preco": 44.95,
-        "var": -0.53
+        "preco": 43.94,
+        "var": -2.25
       },
       {
         "ticker": "VALE3",
-        "preco": 64.8,
-        "var": -1.98
+        "preco": 64.57,
+        "var": -0.35
       },
       {
         "ticker": "ITUB4",
-        "preco": 41.2,
-        "var": -1.25
+        "preco": 42.05,
+        "var": 2.06
       },
       {
         "ticker": "BBDC4",
-        "preco": 14.54,
-        "var": -0.95
+        "preco": 14.58,
+        "var": 0.28
       },
       {
         "ticker": "BBAS3",
-        "preco": 17.1,
-        "var": 0.47
+        "preco": 17.16,
+        "var": 0.35
       },
       {
         "ticker": "WEGE3",
-        "preco": 50.95,
-        "var": 0.41
+        "preco": 51.38,
+        "var": 0.84
       },
       {
         "ticker": "SUZB3",
-        "preco": 54.46,
-        "var": 0.48
+        "preco": 54.52,
+        "var": 0.11
       },
       {
         "ticker": "B3SA3",
-        "preco": 14.48,
-        "var": -2.49
+        "preco": 14.82,
+        "var": 2.35
       }
     ],
     "juros": [
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.5829,
-        "var": 0.05
+        "valor": 5.5537,
+        "var": -0.48
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.2321,
-        "var": -0.11
+        "valor": 6.1634,
+        "var": -1.21
       }
     ],
-    "acoesTs": 1794378680723,
-    "moedasTs": 1794378680723,
+    "acoesTs": 1794410210297,
+    "moedasTs": 1794410210297,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,57 +305,57 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Lucro da Petrobras sobe 21,5% no 3º trimestre, para R$ 39,7 bilhões",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQ3BxMDh2UHNtb29kX2xPbU9rYkdIajJQdWlsQjJXVFJkVmN1SFhwekFkYURwQl9hRjdMQVNILWVFam5RWlpQQXI0UWQ5c0plX3YtSzV2TGVmZzBXVVpJUV91VEJodGdsTmtqd21Ic01XQlhEU19UYkZ0ZzdHU0dWbndQeDAzWFByTHZn0gGaAUFVX3lxTE1renphV1ZXZWpOWU1qTVpPaWp0eDBzT1l1SXZRaUVYYXo5SGJ5S0FIZ1hvT0hUS05WRUEzY19vWF9yTXJwYWdhYWotbEJqTlFnZ1Rpb2FnMmdSVEdBVU9IelZoU045WTFXVktyLV9iNXliLVd3TkVTbFdXUG1VQjRZQWFWN1l6NnhaNzYwcUJHdmNlVkpFdDhXOXc?oc=5"
+      "titulo": "Ibovespa Hoje Ao Vivo: Bolsa sobe com fiscal, balanços e exterior; PETR4 cai 3%",
+      "fonte": "InfoMoney",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcmZXZEdGdEZTNVZJQ2tEeWljMmhoUFhMOEVOSGt5VldZTXZhVVVfREttOWttdjRfZ1I4TUl4NWJ0LWdTSTZwVnJqTDE0R1hDV2ZlWGtOT0xMMDU3Sk5idXZLNktacUlIallZWWdRMVZsUFhHOTdZNkNSME84SzhGQzVrVnJOaXRwZE81VGwyZw?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Por que traição do CEO da Nvidia com suposta espiã preocupa EUA e setor de IA",
-      "fonte": "ICL Notícias",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9hZkhiaThyempRMnhMWVBvLUdDQUplSXpPbWxTZ1NwTkFUTzNpRW03VElSUzVqRXN0R2d0cUZlTVZuRDVOVFR0N0F4UVRFXzNXSHh1R1lHZmRJU1JQc09KLU1hUWEyMHEwVkRuWkNPV0lPQ3EzZTZvM2t6aVY?oc=5"
+      "titulo": "Petrobras tem lucro de quase R$ 40 bilhões no terceiro trimestre",
+      "fonte": "Valor Econômico",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPblBLWG4tUVdma1RqWTktWHprNDJhVVZLdjhDUlJxYk5IMUxIZ1d1aWx1a0FXckJjT3d0eXU0N21ZbjMwMVZBLWlaVG9NajlUeGZVcXhuSFhJS0ZTZ1JhOHItRGw4MXFxLVdzbXMyOV9sRDJBb0pIMVJzVkNaZWpLQ2JtTV9zRURfazBUY1lYdW43MURMWklEZ2pMenN6OUJub3VWeTh1YV9DMko5Q2lWSThhVTkwbU9GdXRSU2Z4dFd5d2JiYTNWamJSdWhGWGxDdk1rbjdFSdIB5gFBVV95cUxOb21pWmhCQ3hMVW16dlRsdEFlUnRqblk1UW91eTRRYUpTOGZwcGtWOTFLWWFvU003aEt4OEVZd1E1amVpZ3VpZ2l3REZGLXhmaEY1MXNhbWo2UDZmNmsybURFdjNUcFBLRjdhUDE0OFMwYmdzaXFuVjc0SWprbmVpSEw4OHlHdkxZWlV4Z2hXc09sRzRtZHhBNVh1a2ZSZXd4T0xGQkFINmJmM2IyR0tWUWd4QlgxZVVGSUpZcXQwd3BzcExKRy1wRWVhX29xQmFVa0ZfMXJxNzVVVjNFSFZCaHl2eDVkUQ?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Reforma tributária no aluguel: regras para pessoa física e jurídica",
-      "fonte": "Portal Contabeis",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWVkxMTdaWS1FVnZ4cVc1bkRvUFpyMWRFQndLXzZUX3hyRjlCMERhV3d0UGRUTDM4aHJZZTJzeUhDclpUNy1FVWdIalI5UHZZN0NzRVQwS05HYXZmMkhvUWdpSVRfeGt1cWRjSlVfRE5LcFFwamtEbVEwckdCMzVENEZ5WVpfRmI0VXo5UUh4MUxTVkUzLU16QS1LMkhLcWppdzBOMzluTlZBYS1GZXU4Yg?oc=5"
+      "titulo": "Dow Jones Futuro sobe com otimismo sobre IA apesar de temor com inflação nos EUA",
+      "fonte": "InfoMoney",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNGFXeGN6WkprNTRDamlXd3pVRThhYVdaSURvLTFtU2VFQTRMQ0N6UnlUeVNURFlVM0xCanI5QTRobGJFX1dsNmNKQ19oQmI1Q0t2RWp6M0lnTVFDV2dtQWRyZmdiQXJ4UHRSbTYweTI1QkpzWG5uYlhhWDN1Z3RmV0ItZ2NtOElESEpMY3YxeEZtWFBXZmxYSEd3ZzYta05EQzNnRC01Wk9HVlNpeENiUm45ZjFoc0IwRDg40gHAAUFVX3lxTE1nX1pZUXVodDlBNHEwWEVVcUx6Vnd0a3NfdXNuUkNGQUJEblo0aVp3U2ZSVmtLeUxDZU16bXZuUVl5QTBiNnl5TnhqWVNBT3FWUE1DMmRzZ0ZyRnUtLVM1b29rX1Fta0pldURnR1JGZ09SMGx5bm5hSnAwTklQa0VwRkV6MnBPejZ0QTF5ZmZES2R4TU1hNEhiaEVqUWxGN0lMcnNnNjdTTVQ4N0FiTGJETVNoQzZ5MlRId3VLd01yWA?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Boate Kiss: STJ aumenta penas de dois empresários condenados pela tragédia que matou 242 pessoas",
+      "titulo": "Na COP31, Lula diz que brasileiros empunharam 'armas da democracia' nas eleições e cobra compromisso ambiental de países ricos",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQOUVUWnQ0b2hqSmtOOUUxV3ZKWjNtOUlRT2ZnTnVBUVg4enV5U2l6Q3NHakVXZ3Uwb2h3OVRjOGV0Q1I4UHV1RGFKU3U3X3AwSnRhbmFLdm1LMFVCZ2RSdVBsQlRnZElOcGxhMV9hRXlIWGRaRVZQTF9Ia0VJR1VQOTROZXAtaDczQWt0OGRCRms2d2tSMGZ5Sk1yTkpKaktuc29fcGdtdV9lV1BFUVNleWc5Y3hiRThyM2V3aUhFcGZmVjIxbXM4Z01vMHFFUmg1OVFRel96NVA0b1QzVlBkSEdtNVdfX3J3U2xYNlppWExrVDjSAYICQVVfeXFMTVNfeHVUTnhROEsxZFV2b3EwaEEwb3V1OWN1dEg3SXdPZVc4YzV5elZJSno1UzhKSlRVSWNWSHI3VmNxaC1kV1Jsdm9OTjFwZVlsMXY5dXpZeXhNY29oWE5yTEFiMTRQbWg1cFVoMnNHZ1ZOQ0dvYm51SjRuU1R5SExhUlJpQUt0WVBvQzVsWWpieTc4SzJjMUg0elRpWXM3SjN4YUFEaEkwQ2RDb1E3YWoyalIyNC1pb1FpaGJNTWFpaVZsMDZncW9BT195cVB3RWJ2aEVEMkNlVUMyWVNEZkJNbTNYT0lYRFJkTmhWYllrWkhsX1dzVkJLbXozSVlFUW5n?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Após reunião com Durigan, deputados descartam possibilidade de adiamento da reforma tributária",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYWNzX3ZGZjFvV3ZiNTZKX0l6LTY2eFl5RWtTT3dhSTJMX1I2RGdoMDl6eFBYYU1Ga3UtR2N6Y0szU0YxUEotN21wc1ZGV29EM2hNb0lsQWk2dF9YVXZkbkozZHhrdFBxM0VZamxwdWdHWEFnbFdkZUtnbDBZa0tDaE5jbzE1VUFPaTB2eFU0TENFYjZ6VUdRUnRHU01aRUU5bmlvR2o4YnZFN0R5YkJhRkdEc3lJZmZUd0wyNUhPazcxNkZVWHfSAcsBQVVfeXFMUDhBbm1vdzVTbHFYZEVwcFJFaFRMYV9WQ1F0MFpWb09uOW9QcWFyZFNlSWZXcUlhSkp3VVFjdk9QNUVRX1RrUmg3YXJJelJMZV84ZHlucUQxdC1EMkZIWGlSUmxsQncyZU00ajR0d3Vsdjg2aFBkS3pTYXh6NTc4c0RGUmEzLUI5M2dYWmpTY2hGMWJxODB2bktaYzhWU1lrdnFXZDMyNnlsVThMdEJFaUVFeUJCeU0xeE1BVUVMY0pLb3g4OVludURYOXM?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "MPRJ tenta prender Ricardo Magro e parentes; ex-presidente da Refit e piloto da Copa Truck são presos",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaTdEM1NoeXpPSjhEdUhBQzJIZTJOTEFuM2tDSmhJdFUwVlpCOUNHSy1wVzQ1VmVJOTVkajE0UlpnTF9ubkZ3SUR4WXEyamhaLTh5UHppNUZQWFlrNUFyaHBzOHJBT1R6bk9zVzRMOEFWck1ic1U0NUR1UE5FRGRoYTVFYk1WelVDSi1MYnpScnlZSHIzZngyQm12OHdtNnJtMnplV0VPc25mTllsOWUyY2NnVVpsR3MwTVB1V25TcW5Gdk1kZGZIX3h1Q0VGQWZ2OVRXWmRPbVpGOWFmVkHSAewBQVVfeXFMTUlPc2ZMNDJDMkxhNXpNNGh4YjBLSklGNTJQTTY2T3U4QXg1alpnZS1xdlZQU1Fqd2ZXR093ZjZfc3hWVnJJQ2RQRU50UVozeUpoY2VJLUxmbllwbWpOanJ1ZkxPSkFBaXdWTHFqSG1Gd3lvOGZqQko0el9FZ1ctYWNmQS1vZV9pV0MwdHZXbGJmdkNXaWFTU2FPS1VwRGhWbko5QWlGQ0h6ZUpCdFRDTzBLWmdoT3lJRGZWeVNTR085a044bVo3d1JvWUZ4b3NaNS1qTlNCZS1xb0NGQnF3OXdudThwQlNhdmoyU0w?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Casal encontra câmera 'espiã' no quarto e denuncia vizinho por invadir apartamento",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOE42QXNPVXpmVkl1VGIwSDBHWTlDZHNzam42V2xlUzdlaml0S2ZoTTRvZjJfSW5kQnNaU1htM0JzMGpaM2hnQVA1aVBuYlBYejlBX25XaURkOG9iaGhaLTFKelR5MXI2aFBFMndCbnpTN0FUdERwU1UxSmhybDFSMEZfZFNBQTZqVlEwTGhqeVNyb2dhd1AzSnlqN28tMjZXUHJ2RXl5Uk5MeTdCNk1Bd1MxaFF4alcyQnFGbi1nOGppX2pKeDVfSGkwTjAtX3FV0gHfAUFVX3lxTE1fUkNDRlM0WVcza2JWeUJ0cmowTjhJcXc2SW1ncV82RDI2bWdGOUFuelRCd25xQk1Vb3pTR1ZOQWttT2tWM3VfYmh0SXV0MU5ON0tpODk0M2Z2YjJCcFZzdW1pa0R1MW4zNTJGU2ZYMmVwcGxWZG9tV1JHT1RoRHMwVTAtTFI4OW9CRTN6QjExT01GUm45SHZMdHZqdjRVSWJlY3hQNURWRVhVNEZLSnd1ZURPZl9NVk1kQW9mS0xMZTl5dFE1bWNPWmtTMTlHMXNJdFJKTkJTYlpKd3kxRjg?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Vídeo de FHC em casa é investigado pela polícia: o que se sabe sobre imagens",
-      "fonte": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9BWE5RbER2MWMyUjF5S3JjVG0yYzFwOUVBQlZkb1Y2WXJLMm9Bd2xOWk9nTmd6Zjl4a0FLX1hXSmxQcnQxT2lOd2dUSmduS0pCZzQya3k3UXV6amdaQ3NGNkplb9IBaEFVX3lxTE1PSTQtZzhPeGNzcXlMMzFiWjlwUUcwVkJvS0JVdFB0T2FRMThjMlJ4d0RXaWFGYVdsTjFIZjRMTHg5SFB2enUxN3Q1MjlwU29rNVBaY0VpNHN1VThra0poLUE1YTA4T1N3?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYWZtSnFhYTlad2dUZFFpX3hZZ1NYcTF6WGNlSEJOSVpXbVhoaHMyV3hEMDZKODduY3JLQjFIbktjcEllTXYyMzNQT29IN2ZaVkhPZGdvY0NVSjlueDgxUXJ5UlFxNkpTLW9QQ2taYXV5RWN1cHljWHpEc2NTX1I0TU9nSmNKeXlXRS1JWFhRSldRbDI4eTRpU09iTkF2RldPd0NNUm1mbU5sMzDSAboBQVVfeXFMUDQ5dzNwMlMtMGZhdHhCalU5SGQ5dTdZMjNQa1k4XzFQNXZvRE1raXd0QVprR1RmdmsxZmZWMVQxaHZ1b0dGZ0h3U2lITk8teXJ5UVYwSTdQVnd0c0tVdF9CUXNFSEhZSGg3YlUwai1qaWJjaXdDVnlKYmVNbnlzREVyWjFlVk00VHRkRXd0UmNWUEFfUVp1dHFnbGhpbWpzUERqd2pvc0dLT2RPc1lVcjBWU3dEMUx1cXJn?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Comissão de Infraestrutura contesta leilão de rodovia entre Rondônia e Mato Grosso",
-      "fonte": "Senado",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OSTZwLTNITkJfTU92Yy16TEhobzZDZzlkVWZSUDdHM2taeTZ2VWZMSGVBeURMX2JSWGQtWWg4cHdMcC1fOEVDc28ySm5qQVRQbUhwZm9R?oc=5"
+      "titulo": "Congresso prorroga por 60 dias MP que proíbe bets no país",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQ1hxV1drRjlsN3I1V3hQamFYZlZiWTRiYllvdXo4S2tCaEo2LVR5TTZWT2dOTmpHT2NjWk1xdkc4WFlGeElsQmdoaVFFN3RKcXVzVkFnWlRrV3pJakE3T0tiYXFmTkhhSTk5b21UeG5hek9QSGJxOERJQWpONUpTZ2UwNndLbjdYdmVLZENCZVhjY09HNGZRbFprZkhicEp5dUpMWEdHYjY4eWxTb1FVOGQxaFZCUQ?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Mercado pressiona Lula, mas alivia a barra do Congresso e do Judiciário",
-      "fonte": "VEJA",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPN2R1N3RpdnF3MFJpZ0gxZ0Nub0plbG56R3EzT1Brak5lSDhiYzN5UEtoR1B6ZWdCUmJrZ0VOWVlHTFEzYk5SMEx6SHloNDhVQ003VWVvUk95eXdMTUpxYlVjcG0wODB2U2tONWhRWWZ1Q1JuRGgwR1NBR3llS18wZXNqWFR4QlVlaTJuVXhmanhMSkMzZE9ibmJfdEZwN01WVUYtOGpEVEY2QQ?oc=5"
+      "titulo": "Congresso prorroga MP que proíbe bets no Brasil por mais 60 dias",
+      "fonte": "Tribuna do Norte",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPS2JVYkxyeEVtYXhMejFOSlpvdHZrTkZaVS0tbHprOG1RaS1TRVlwMkljVl92QjhqWjlTUTdPMVoxVFhfMzBFUE1Sa2RXTUhVUmR6V3lJYUo1dFlSTlZEek5uNUVsbGlmSFJHMXdLUk9NM1dkX292bUp2VnpROWY1S2doN1hpYUpROGR4Ujg0cmkydGN6d21MVWhDOEdhSURPZEc2bFVVUQ?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Congresso tem ao menos 57 propostas sobre fim da reeleição para presidente",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcEZHaTAxX0lSazhsV09NbXl6aUt1TWh3RzNrZmc1WXZYZEdTaDc3SmloUDRkdks4cTNhdlVSMnQtbV91QVBrMFUwaWpubVVxckUtbnF5NmtFLVdINTA5czlZekUzR2lobW1vQlk1TTF4WVUybHdGaXZXSnpyUHVsQm81VENsVW5LRmc5dTdkVE5HZmJfSG9uSk1EOVdza0NoRU1SUVYtcmllV2MzclI2SHo0aw?oc=5"
+      "titulo": "Congresso prorroga por 60 dias MP que proíbe bets no Brasil",
+      "fonte": "viva.com.br",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOS1aZFpqMk14X1huejRjZmVCbnAySGppZjcyTXFsRm9tM2pnMHB5SW9rdjVFRGhOLTAtU1lnYXNUMVdrRkFmUnNmZ3dQdml2M1JhdmY0ejhTSG1zQmVWNVo3WHdrYWJVQ1dpMktWaEkyRTQ3WEd2bm1wdmRNNDJsSTlJVXFNYW9IQjI5a0VBVGctS1VacEVSMw?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -371,9 +371,9 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "TSE condena Meta a pagar R$ 7,5 mi em ação sobre favorecimento de Flávio Bolsonaro em eleição",
+      "titulo": "‘Tropa do Flávio’ muda de nome após vitória de Lula no 2º turno",
       "fonte": "CartaCapital",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSnU5X1JaaUlkWW0wc2hZS0pZSG1HODJ2WlR3b1NTOUoyWW5NaXFFSEJneG85R1h0WU0zdVJQQktsdkpMTE5UcTFXeTVJeXJXMllNMVNWZEVETTJfUEo1SHZyd1ZsSG1OdHBlWE54aDIzNTJrNHRuUTZvblNqeXNlRHdiSWJlNnptejNJZ2h1MVpqWUtoeFZDM1ZSM0JGcjM5cy05SURrOVdDZUxmTDBnYlF5MnFLUDRCLTFtYmtnbFM2WUloUThhajJVYXVKZw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNjVhZWt3R0EwR0JaNXJnbVVxLUxqdDFUM1dybVd6bW53UDlCWE4tUXlBblp6QkowYkxnbmlMRGhWSHNzOXRoN25fRkI5OTQxRUsydDFRVXJ0YUhiY2VYVVJhTENHTjYtNGVxb3VQYk5LUUdzT0pRSTRtTVROOG9ZS0FNbVZvT0dRNnZWOE9tV0NOR0ZFeVNkRHpzV2wtVGlfQ1pGQ2NR?oc=5"
     }
   ],
   "indicadores": {
@@ -386,7 +386,7 @@
       },
       "cdi": {
         "valor": 13.65,
-        "data": "09/11/2026",
+        "data": "10/11/2026",
         "fonte": "Banco Central"
       },
       "ipca12": {
@@ -1536,14 +1536,13 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-11T03:31:22-03:00",
+    "atualizadoEm": "2026-11-11T12:16:54-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
       "BC ipca12",
       "BC ipcam",
       "BC igpm",
-      "BC poup",
       "BC desemp",
       "câmbio (Yahoo)",
       "Ibovespa",
@@ -1551,6 +1550,7 @@
       "12 notícias"
     ],
     "falhas": [
+      "BC poup: https://api.bcb.gov.br/dados/serie/bcdata.sgs.195/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
       "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
     ]
   }
