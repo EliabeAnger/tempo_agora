@@ -165,10 +165,10 @@
       "pontos": 172060.44,
       "var": 0.42,
       "anterior": 171336.98,
-      "minimo": 171335.2,
-      "maximo": 172986.66,
-      "hora": "11/11 19h03",
-      "ts": 1794434610094
+      "minimo": 172060.44,
+      "maximo": 172060.44,
+      "hora": "12/11 00h04",
+      "ts": 1794452650276
     },
     "acoes": [
       {
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.5528,
-        "var": -0.49
+        "valor": 5.5829,
+        "var": 0.0
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.1656,
-        "var": -1.17
+        "valor": 6.1795,
+        "var": -0.15
       }
     ],
-    "acoesTs": 1794434610094,
-    "moedasTs": 1794434610094,
+    "acoesTs": 1794452650276,
+    "moedasTs": 1794452650276,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,39 +305,39 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Governo Lula apresenta projeto com medidas de ajuste fiscal de até R$ 60 bi em 2027; veja propostas",
+      "titulo": "Limite de supersalários, mudanças no piso da saúde; veja as medidas do governo para ajuste fiscal de até R$ 60 bilhões",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNUjFRMEU4bFN1ZVIyd045eDVSdGFBSm1sSjZIaHdwamRsYUE5eXBRbDhyRk5SeGdOMmNSUnlUMGtocHRXQ0xYVzRrTG1sZ2lKZWxvd085c1QwVXFFNnQyeklSamNsVmZTQkk5ZmF1Zy15M25YNFRTZlgzZU9nYUVUTEltVXN4VXlPN0JlbVJHZXdNSTVvSnYxNU1VUS1udnBETmhMMUk5T3JwbFVSemIxZ2FuMllHUk8tQmJHV1VGMVVFc0FKSzV1YVRicjVCSWNORHRabmNBOUF6X1JsRHF3VDBXbkg2NDQ4Zjlfb0xXS0FxVjlObUkzc1hSc1kwMEXSAY4CQVVfeXFMUEU3bUZfLTZMTFpPYm9adVVJVEZ6ZGNzM3JwbWpzSXVWSU4xeDFRZnp6VjJIaW8zdGRMVTJheUxXNmY0dGJ0MGlueWZjQVZ4WTUzQ0ZTY21XY3VtcTJlbWx1ZF9OMUI1QjZRSzZBeW0wS2FvVmV1UnJaOFdaMmc3aXltWEZFM2MwT1NMTXVsUDdIN1RVMWVoZUFsSWFFUXFiMzk3YndvUW96NXVZQnFsT2JYcjE2S2VPN08ta2d5bmFPc29ybUxzMDZXdHVSVTlEb0w5Q013T194ajM5ZGZNekMwYXNLbmFhV0FBNDFhcG5paV9vSU9QelFCbnkyME1KajJmakhybnU4U3Jmc1VB?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Lucro do BB tomba 66%, surpreende mercado, e banco corta projeções pela metade; dividendos na mínima",
       "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVVQ1OGNyUzVVNGxFVThmbWVfR0NCUmxlNmNKZWt1eUlxQmJhUTNQU2JxUEl0WnJ0TGhmQzl4X3VUanNNa0pQS3pCaHBFNGVBbkhGRnBhaWotUlNiZS1HM085TFU2LUZKdmtjeU5oc29ZYzBjNVZqTVduOUQxd2pTZ1NreUFsbFhH0gGOAUFVX3lxTE8xTkhuVEhuVGJGSERHdDB3aW1OMWdZdWpoaUIybGI1SElUSTZDWlpOU0RpNmM5Q09pQmxIVWg0c0ZTaU9nX3VYSnZXOFUwZjhibU9TRVIwT2h5Mll2QnRCNktNTERPaFB2RUhyMHhCNFRXOVpmMnI5bVlKcTBZLWxuQTJwdFd3RHpoUWloZ2c?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWU9iZmZpSkFGOGQ3enNtdm13RVZVQ0Y3NExWT3o4cXViX01oQzRHWTF6X2tTQmQ2eXgtdmVTLVZPM2NUMFZ0RE9uOW83a1gtN2poZFM2by0yWUlCX2ZQNEJRVTRVWVJIRnAwSUxDYk5aV0tzUDl3dGk5cDVfUEo4cVJOMHJwZDlpTF9NeVFQbWphazR4NFhNdTNXcDFwcGczRUVyNGg2YlNBdUxkb2lUZG1sb2xWMU9uUlloaFFXVUVnOFAxYVow0gHMAUFVX3lxTE9rNHl2RmJnYVV2R2JpT3A3N1ZjVTc2V3Fuc0Z5LTR5cFdWNEd2V0MxUF9MeXJQNFMzM2NuYTNOQzZFZk9qTWV1dlVsaElwT2FsTHhvdWlRZlJIY3FHN0pTSGJRbk1aMkxiTVhkM0NFNFZpZDZXUXBRR3BhSEMzRm9vN1VqZjlNUGlzQkE0eldiekVXbTdBV3hwVEl4MDBSTU5LSEVUbzdYSlRIa2RTNXotT0EtcmpYM255T0dGVnFndVB6UTJ0Q1JUQnVTQQ?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Dólar cai na contramão do mercado internacional com pacote de até R$ 60 bilhões no radar; Ibovespa sobe",
+      "titulo": "Nvidia se prepara para destituir CEO Jensen Huang, diz WSJ; ação desaba 8%",
+      "fonte": "InfoMoney",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU1ppUWNlSElQTTFSTVBlLUlmZjR5Yk85cm1LVUY0aHM0STBTNXZ1NzVOQmdyTTg3d29sbjk1ckNEbFRpbnpDa1I0cnJvdmhNTzFUeTJ0OXhfZkNEWkZhd1dMeW03eFI3VFpxbzl1QXhvc3Rob3Z5TGc1NWdkdmZKQzBNMmpYZzhtSTlMeFhaSHlISnFQdkM2LS10N0x2NzExSHpqN2d6X216WVJsUUY4?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Senado aprova MP que renegocia dívidas rurais e retira mudanças em regras propostas pela Câmara sobre cigarros eletrônicos",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE82MEhBWmg3TDQzMWFya2pXQWoxLUVtc1dRcWR5c3NfWVhBaURkd3IzLW9DQmNfR1FFZFp0bEZKT3VOekpLSzBTWk5JYmZSOHlXVTY3QVNPVTY5UjVkRXpkQ0hUVEQwZURwaHQwNWpmbDQ0UExGa216RdIBhwFBVV95cUxPUlpPaTFnaHdINXY3MmowZHJMTFBNYk15RVZsUlFLNDlYZU5DSWRxYXJBeWh0eThaZlNOQ002d2FGT2ktckUwazNCWWhxNW12RXZ4ejRudzVRUnEtemF2UXdoMTJsSHJaLU5HMldWVFBoYm5ScVU5RXc0bzktSHQ5dW5aT1JBZDg?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOaFdGTGlQSERCQTNKUTRuWERQWHR1QWNxUnVyNWIwWEhSbm5fMi0xN19McGZZd1AwelpmZXR0QVFvUUlvbU04amo2TkNrdUFfVGxPV2R2RDl2c1dURkJQZWYxWl9iRlRIbGtWVE9FS0JoOHhodWxWWFUxMlZYQkQzUGE3RldhdDd3dmtSRzd1YjFuWnoxR0NrbXNhR0YwclFvdlR2NEs0b1B0VksyVk1uUkVXYk94QVB0bWhHZnR4T0VfUWtMQUpjY0RjbWZOTTk3UndOQWhtRmh2YVRiaHlRVVVDcW9TdTJqTmRoQ1B1Y0o2bG5Ia0VtSk5MaXd0OXpSZ1FTclZINjTSAZcCQVVfeXFMTVNRaTFkdmI3djR2TjJ5MFJ1TGZNVmh5eElpclVuX2ZzOGgtSjVkbG54OTNZYWg2WU5ieUNTenJxNThiWDZYUmQ3QTJfWTZzVS1fUlVBZ1RiNVFIcTY5emN4aDNkbEtoTHBnQU1MTk5TQUYxYWJ5Wm43SXFZcjFBQndJaUFPaUFvcDhnM0R0RDlnNnYxMjQwUTdlZFZqV0N5cmpsaWJjUWp1eEpzYmZWWjNjZU92MXNhLXFEaFVSLUJwN01BVkQyT1NHM3RCVTZ6TkdyelRpbXd3N0MtRU1VelV6Y1RkNDVINGZqYnRoUGhMU1E4VFEwdVBSQm9fbGV2SmhmTUFqMG55SGd4YmRYdjQzMUt1UU1B?oc=5"
     },
     {
-      "cat": "economia",
-      "titulo": "Galípolo: Entregar direcionamento com atual incerteza terá valor negativo",
+      "cat": "brasil",
+      "titulo": "PGR defende manter Daniel Vorcaro preso e cita risco às investigações",
       "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUEJLSnVHem1XQXV5a284V3pwNDFzWlNQeElRdkJaYzlGLW5IaWh5akd6TTdFQXpiSXJLRmYzRFFIcVkyVnJoOHBKeFdBWFNtWjBZdUEzeTRNTFAyeWg0cDRoOFY2RTdQWTZiNldpVkcyb3RZdGg4MmIyLXJ3NU04YXJCLWtybDdPSzB5MkIzajdqUVZDdmZEOHpIYktra1N4Sy1IZnZwTzNHeWlLZnJZVE53aFZyaXZpaEF1eVNRaFhPVHoyQTZQRDg3WQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTHY4MU1MTjUtVlJzbGRCelFMa1hjWHpkNlhoVHNTUkUzSjdOaXNKZ0huaVVTUnd5aDVnRFRNUFNGVVN3UGViWXVIX0hCQzM3bmRtUEpPSmFJNWZyT29tWExpU3VQOVVxcXJxSjNGUjBkN2syMXA2Nm9oTGRVNzFBZkxqckdTZWhrZjhTWm5NMndmVG5UaHlUR3NrY21oWVJkZEpULXVacGJMdDNE?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Reforma tributária: governo vai propor que primeiro pagamento da CBS seja feito em fevereiro, diz secretário da Receita Federal",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNZGNKS2VsYkNaWlhoSjhtVGs1OElnVmc1REU4U3FtdmlxREtoZmdWakd6bFJMdDJxNTExMFpPclh2V3BxNVR3NmRGNVhHXzBmMG5SaFJ6aTdiMlA4T2xHcHVQS0w3N2dzdk9uT0FDbi0yRks0czdBaXVualJxUThUazRjN2wwbjJwbHRCSXI4RnhYQzJqWmtEbFJ0NnI1UnVCTWJaOFA1Mjh4Z3JGdk9LUDNhYXpHdlRLT0xSLXN2RmI2MGhZdkEtMWVsS0tzc1hYSU5pVlR2a1EtdVpLbXk2SExtQ3FuVU9sZGlqUllkNjVISGVFczM2QlBkZ2xodjVqcUZxM00tMkhDNHAtUzhn0gGeAkFVX3lxTE01X1pmRi1OOExrd0RocWRLbW54b2J0eUFnTy1UNjd5QjJjN3RlTW10cnAzY0JqcDgtRGtOQ2t5VkZLbTVRNmRaMGtUUXNqUmh4UnVFbkJMM0NidkxSeUxndjdTeS1MZUUwMnRJZXlhOE5aaU93RGZSMWZYUlpiWE01WHJoeVV4ZUpQQ0QxZS11ak1JWm9TblR6am5scm9FRzQxOG1IdkNCdWRhVVBfN2RaLTYzcFdXZW5XRkNDVl92Q2pDNnBxdU81ZXpiRXU3YzY1dkhtdEd6NkdhMHJDWVZUZmE1TXVFaUxJUks1bTVFb00xdTYyTlYtMWxmVS1sUzQ4dGt6a0h1eXdLSi02S0tGWl9HLU91Q3NmeHBneEE?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Lula é reposicionado em foto de líderes da COP31; assista",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQllxT1NXZ3dDUkRlYWtQUnZEaHJ3Z3VjWDdUaS1nbWduZ0liUEo0Yldaa0NmalJQMlhqaUUzay1rS045cnB3bG5sVGFkY2dteWp1ZjhsbVptdkthbmNJcVJKMjU4c3M0cTJnaURRVWlnSGhXQjVpQm12ZVV4MVVJUE5LNGpfRU5MWEpOTVRPMk9RVThYZ1JmNW5JMWNQVHdQ?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Justiça determina devolução de R$ 2,4 mi à OAS por venda de triplex atribuído a Lula",
-      "fonte": "Jovem Pan",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZHJ1U0otQlFYVms2WUNYT2RRd1FLODh5YjdwNTJFa1lBOHlnU0tTcGFQVTZtT1lKV1RFOU8wM0hzOENkSFFDdkJ6QllCcmtINnBWVE9nRGIxd3dBNTZIM0E0MzE4QjNibWNxMWJvcUdXSUdIY0ktZU5scENPN2E3Njd1NXcxTklodkRCQ2hMdUw1VF92eS03eFVQalJsdmNUOVdwRVBjTTJXd0RCb3FxTW1jMFNNWXFHOUZaWFRR?oc=5"
+      "titulo": "Justiça reconhece OAS como dona de tríplex do Guarujá atribuído a Lula pela Lava Jato e libera dinheiro da venda à empresa",
+      "fonte": "Brasil de Fato",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNU0l0cnR1V21TZm13YVpkbGMxQXpFakI1VHhGZlVucWlQWGFtMjhBLTg5TUZyQUFTNVlqSENZOWFNZ2ozQThZNEJNaVozZVZ5ZjBMcGhCdFVSd09oM2N2NW1FcW9pa0NyNDZPelZxUW0xZUw3Q2lvZnlZbnNRVTVGbkVQSTItaEp6SjJjeFZtTU1SMXZHd0h4MXdZXzNvLXVBUEJEWEhrd1V3ekVDSnpSVmExTzZfV0k1bGtDSExyVWdvYjRmYjdTVnhJUUFrcEpPaWlJbVh1YTlaNmVNdFpUaE1QVHFMdWZlbEdrN0ZlQ0YwcUxWVVdWY2xB?oc=5"
     },
     {
       "cat": "politica",
@@ -359,21 +359,21 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "TSE multa Meta em R$ 7,5 milhões por descumprir decisões de isonomia entre Lula e Flávio",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNTlyQVQ4YkJ6S084WFRiekIzRzV5OGpfTUhTY3lqekhhTDFobEF4WEdUUGVVUnJPYk1ZRno0d2xYcGplYVJRYU51MU5GSHZDam0taEZvMEJDVjlodEdwY0l2TGRTNGlXUzloV2pWT0kzaEdHa1ZNWjlBWS1xQXowNW1xeWUyY1JkZUFsQ09QZmdISUhIa243OW1jRWwyTTBUVVJ3NVNR0gGrAUFVX3lxTFBhY1REdmdXYmNxR1B1S19vc3oyWkZwM0pmdTc4bThtTGNnOVhfVnhlZEtDWWlVdXpWbmc3Sy1tb004RXkwNXY2TUhGSE9CMmpFSU9HdHo4bVJwN09iY3NDT3B0cGFuQm9VMTdJeUI0YVFFMlJ1bTU3Sy1UOUZvMmswU0JaWXd1Y2J5eUFlVWZTME9CZU9KOVNQaE9uOWtudWtVamRaNjhEN2JTdw?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "TSE condena Meta a pagar R$ 7,5 mi em ação sobre favorecimento de Flávio Bolsonaro em eleição",
-      "fonte": "CartaCapital",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSnU5X1JaaUlkWW0wc2hZS0pZSG1HODJ2WlR3b1NTOUoyWW5NaXFFSEJneG85R1h0WU0zdVJQQktsdkpMTE5UcTFXeTVJeXJXMllNMVNWZEVETTJfUEo1SHZyd1ZsSG1OdHBlWE54aDIzNTJrNHRuUTZvblNqeXNlRHdiSWJlNnptejNJZ2h1MVpqWUtoeFZDM1ZSM0JGcjM5cy05SURrOVdDZUxmTDBnYlF5MnFLUDRCLTFtYmtnbFM2WUloUThhajJVYXVKZw?oc=5"
-    },
-    {
-      "cat": "eleicoes",
       "titulo": "Campanha de Lula recebeu R$ 1,9 milhão em doações depois do segundo turno; Flávio Bolsonaro obteve R$ 1 milhão",
       "fonte": "G1",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQM0xNeWVjYjdLel9XYU5HaGZxSlVWeTJwbzJWalQ0dEVxVXRCSjFIVFpGb0FoUk9TZ1UyLVNXWW53OEtqUkxuZ0Z6VE54OGZ4Uk5la2IzSjFFTEw4a2t2bDd4LUFpTG9FM2lJNU9GUFRVSmxKWjdpLVpXOGlxNDlzTWwxazlPVF9GZkxmN3JaTXFhZlhTU0JkUjFMODRSdF9INzlFV1FJRkc5MVZ3bVd2TmZnekRiUFRJS0ltdVFPZkdZWjFx0gHTAUFVX3lxTE1DWDU1TTJFdlhvd0hJd2hzX3QzWW5nRU9WLXdOQWY4bmhjX1JCeEdkUXZYU184VFA1OUFkNFJwNWtCeEJvbHBwVFQxd2NOUk9LNHdZX1EwTVQ0VFBFMmR3YWY3TFZxVkxyeVFyVU95SGxSWk1CSWxmeV9MMnF0bU1QemRmdDEwUU03ajhIc2Y3TE84dFlMS1dJcTNXY3RDQmdySzloRFZNM2p3S2VaVGhiSHdxNVhwSHkxVmR0M1JRUl9ZYmNtMDRnN3kxS1BIR2c1anc?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "‘Tropa do Flávio’ muda de nome após vitória de Lula no 2º turno",
+      "fonte": "CartaCapital",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNjVhZWt3R0EwR0JaNXJnbVVxLUxqdDFUM1dybVd6bW53UDlCWE4tUXlBblp6QkowYkxnbmlMRGhWSHNzOXRoN25fRkI5OTQxRUsydDFRVXJ0YUhiY2VYVVJhTENHTjYtNGVxb3VQYk5LUUdzT0pRSTRtTVROOG9ZS0FNbVZvT0dRNnZWOE9tV0NOR0ZFeVNkRHpzV2wtVGlfQ1pGQ2NR?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "Trump não disse que Flávio vai assumir Presidência no lugar de Lula",
+      "fonte": "Aos Fatos",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ZTEhGWWNNbkQtUy1obFZ0NVhmT000ODdxU3F1OVdtY3ZJYUk2cDZ3bFRQZ29DT21KemY2dTVaQzhWTTM3dTQybWdKU2NLSHRiM0ZLanBvcjlVMWhYQ3c2MXY5UU53SkpHbDRNSEZ5WC1OeExLd1o0Vk9kalA?oc=5"
     }
   ],
   "indicadores": {
@@ -405,8 +405,8 @@
         "fonte": "Banco Central"
       },
       "poup": {
-        "valor": 0.6701,
-        "data": "09/11/2026",
+        "valor": 0.6699,
+        "data": "10/11/2026",
         "fonte": "Banco Central"
       },
       "desemp": {
@@ -1536,13 +1536,14 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-11T19:03:32-03:00",
+    "atualizadoEm": "2026-11-12T00:04:13-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
       "BC ipca12",
       "BC ipcam",
       "BC igpm",
+      "BC poup",
       "BC desemp",
       "câmbio (Yahoo)",
       "Ibovespa",
@@ -1550,7 +1551,6 @@
       "12 notícias"
     ],
     "falhas": [
-      "BC poup: https://api.bcb.gov.br/dados/serie/bcdata.sgs.195/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
       "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
     ]
   }
