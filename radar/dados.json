@@ -167,8 +167,8 @@
       "anterior": 171336.98,
       "minimo": 172060.44,
       "maximo": 172060.44,
-      "hora": "12/11 00h04",
-      "ts": 1794452650276
+      "hora": "12/11 08h20",
+      "ts": 1794482443004
     },
     "acoes": [
       {
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.5829,
-        "var": 0.0
+        "valor": 5.5844,
+        "var": 0.03
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.1795,
-        "var": -0.15
+        "valor": 6.1936,
+        "var": 0.08
       }
     ],
-    "acoesTs": 1794452650276,
-    "moedasTs": 1794452650276,
+    "acoesTs": 1794482443004,
+    "moedasTs": 1794482443004,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,39 +305,39 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Limite de supersalários, mudanças no piso da saúde; veja as medidas do governo para ajuste fiscal de até R$ 60 bilhões",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNUjFRMEU4bFN1ZVIyd045eDVSdGFBSm1sSjZIaHdwamRsYUE5eXBRbDhyRk5SeGdOMmNSUnlUMGtocHRXQ0xYVzRrTG1sZ2lKZWxvd085c1QwVXFFNnQyeklSamNsVmZTQkk5ZmF1Zy15M25YNFRTZlgzZU9nYUVUTEltVXN4VXlPN0JlbVJHZXdNSTVvSnYxNU1VUS1udnBETmhMMUk5T3JwbFVSemIxZ2FuMllHUk8tQmJHV1VGMVVFc0FKSzV1YVRicjVCSWNORHRabmNBOUF6X1JsRHF3VDBXbkg2NDQ4Zjlfb0xXS0FxVjlObUkzc1hSc1kwMEXSAY4CQVVfeXFMUEU3bUZfLTZMTFpPYm9adVVJVEZ6ZGNzM3JwbWpzSXVWSU4xeDFRZnp6VjJIaW8zdGRMVTJheUxXNmY0dGJ0MGlueWZjQVZ4WTUzQ0ZTY21XY3VtcTJlbWx1ZF9OMUI1QjZRSzZBeW0wS2FvVmV1UnJaOFdaMmc3aXltWEZFM2MwT1NMTXVsUDdIN1RVMWVoZUFsSWFFUXFiMzk3YndvUW96NXVZQnFsT2JYcjE2S2VPN08ta2d5bmFPc29ybUxzMDZXdHVSVTlEb0w5Q013T194ajM5ZGZNekMwYXNLbmFhV0FBNDFhcG5paV9vSU9QelFCbnkyME1KajJmakhybnU4U3Jmc1VB?oc=5"
+      "titulo": "Ajuste fiscal de Lula vai de supersalários a incentivos tributários: entenda o plano de R$ 60 bi que o Senado pode votar hoje",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQbDNEcXY5OVkyRElaNWdJNEl6UXplUWZIV2p6cXF3RHZVZ0ZrQnIwWUxaX3NNQl9Hcm91R3RhQXUybmNlSjJ2bW5QREIxd3NVUnJ0ZHhuVUVvWTFNUHhjcmgzQUd1eVdvMXU5bFB2QnhjRS1DWmFzLUd2STZ6amxaYUM3aGxMbGwxLTFYZmZLbl9OazRFYlk5blRnX0VfanhudTFxV1pCWFlzQXBnZUJvNkdiM3ROZm1saFJNbFV5QURYbzJYdlNCOFdzZHo4cTlrdmFQeWk3UkFGUFF5SkJ2dG1WRHFyYmc3QXRuVklSX295VXc5ODYwdTZ6b3lQN1NpUWo3Y2hVb3gtdmlBLWs40gGeAkFVX3lxTE4yTFFiNElmaU5CT19vVHpGZEVkSE8weXgxakRPU2FJcG4waEhqMDlBSTNWaUxwcEw3RE5FWjNyZlRlMWh5WmJMTXM3bXF6NEtWODZlWjMxdXNubGJidGJzU1RoTVZ2UmdaY2xrdVRpQ2hjWmhUV25ocG9PMjlMdHc4am1GLXgwUUUwZGdJT2pKV2dBWGtJRmVSWnFZY0xkcUk1ekF6NjFITmNIcWZXaG0tSU9idVo1c2hBNkt5bk9Ta0YyT0FTcDFqZEh2SXE1WVlFUUJZdmJlTGlVSEtnWHhBS2U4T054LXJxZnR2VTJ0Mk83UzJhOXNQQm1LaEF2Z0JhUEVYQlgtTVJEeFRpT3VmbG1HTHJ6UmFkeW1qT2c?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Lucro do BB tomba 66%, surpreende mercado, e banco corta projeções pela metade; dividendos na mínima",
+      "titulo": "Jensen Huang teria outro caso extraconjugal, com executiva da Nvidia; destituição é cogitada",
       "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWU9iZmZpSkFGOGQ3enNtdm13RVZVQ0Y3NExWT3o4cXViX01oQzRHWTF6X2tTQmQ2eXgtdmVTLVZPM2NUMFZ0RE9uOW83a1gtN2poZFM2by0yWUlCX2ZQNEJRVTRVWVJIRnAwSUxDYk5aV0tzUDl3dGk5cDVfUEo4cVJOMHJwZDlpTF9NeVFQbWphazR4NFhNdTNXcDFwcGczRUVyNGg2YlNBdUxkb2lUZG1sb2xWMU9uUlloaFFXVUVnOFAxYVow0gHMAUFVX3lxTE9rNHl2RmJnYVV2R2JpT3A3N1ZjVTc2V3Fuc0Z5LTR5cFdWNEd2V0MxUF9MeXJQNFMzM2NuYTNOQzZFZk9qTWV1dlVsaElwT2FsTHhvdWlRZlJIY3FHN0pTSGJRbk1aMkxiTVhkM0NFNFZpZDZXUXBRR3BhSEMzRm9vN1VqZjlNUGlzQkE0eldiekVXbTdBV3hwVEl4MDBSTU5LSEVUbzdYSlRIa2RTNXotT0EtcmpYM255T0dGVnFndVB6UTJ0Q1JUQnVTQQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOR21ab09NRVhrVVRHbDRZOWNnX0YxWGh1UjYwaGFkci16dXk2cUhJOEN3bXUwdW9KdEFWbmJhOWRIVU1WU2k4emxDY3NDWEdoZzdrYlkxcTdDVWJ6RmF4WllBbE5KNjJhUFZXUGFxZ1dudzlVVHFiM3NReHNNYXhkWEJKaTEzVlJXMTZOYjlxYUVXajdDS1pCLXVCMkFBSk5IakR1VEx0Y2VCX3NieWgzd1prOUpkeGQ1dngySnZQVk1Ndk9QVnZFTXlMUdIB0AFBVV95cUxQM3BuRnlSd0tWQ0FJTGVLSWhldUhaamtOeEZOQ01vU25NbkZ4MGZ1Y2o0eXV3UVk3eTZpREtHNlpLcHJaRWtDaGdqTVZ3YXdGUHlGUjl6MWJuU0tvR0FNMmtuQ1hYZ3FiTHhOVjE3UWFtNHFNY3NFUTRGSUhxQUQ3TTRuemtxdVAwLXJWU0liQlp0dmRvOHdxS3NyaHRQMFp1WGt2UlE1ZmQ0WWh0aUJuc1FYdnJkbWRBY2dhZ3Z1U0RBeW9qcnc4bkFYY2V3Zkw0?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Nvidia se prepara para destituir CEO Jensen Huang, diz WSJ; ação desaba 8%",
+      "titulo": "BBAS3: “Uma parte do agro não quer pagar o Banco do Brasil”, diz CFO após balanço",
       "fonte": "InfoMoney",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU1ppUWNlSElQTTFSTVBlLUlmZjR5Yk85cm1LVUY0aHM0STBTNXZ1NzVOQmdyTTg3d29sbjk1ckNEbFRpbnpDa1I0cnJvdmhNTzFUeTJ0OXhfZkNEWkZhd1dMeW03eFI3VFpxbzl1QXhvc3Rob3Z5TGc1NWdkdmZKQzBNMmpYZzhtSTlMeFhaSHlISnFQdkM2LS10N0x2NzExSHpqN2d6X216WVJsUUY4?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdnVCdjFDbGFEV2R0Z0xpaVJfM2p0RlBfeV85Z3lCam5CT09SXzJ5bi1QVjQ5SHdfX0hVYWYybVVVMUx6TlN0cTF1N3JhaFNhNmZ5MmpvVmktTUVXWWNRanZUZGVxSThpSjVPR2YwU20wbmVCWEdMcW5hNEtWdGNKQzVzM1pNRUlHRjY3NnBOUGRmdDJmV1V3RUVjSzUyb0w3cDdXdmJYcmtONUswWEVrUFVUWEY5bWPSAbwBQVVfeXFMTlJIWTVid3k5SXdDbWxMOEhjbDBBRjdpMzB3cGdhQ050VVViZlBuRGNFZHRod2pqY3k3VjFwb2VtdE90UzcxX0lOQzQ4NUxHcnNLRVdUWmlpa1ZibDNEdl9HdzlGTVA1a2w3STBjWFd1VDl1Y3E4MHpCb3NxQUVyQVBlZUVOX0hVRkd5eWd3U0dla3ZucGxaLW83dmtGYndQMjNMUTdfU0RlclczMzBEaWFlVFNFT0R2bVVZcXQ?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Senado aprova MP que renegocia dívidas rurais e retira mudanças em regras propostas pela Câmara sobre cigarros eletrônicos",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOaFdGTGlQSERCQTNKUTRuWERQWHR1QWNxUnVyNWIwWEhSbm5fMi0xN19McGZZd1AwelpmZXR0QVFvUUlvbU04amo2TkNrdUFfVGxPV2R2RDl2c1dURkJQZWYxWl9iRlRIbGtWVE9FS0JoOHhodWxWWFUxMlZYQkQzUGE3RldhdDd3dmtSRzd1YjFuWnoxR0NrbXNhR0YwclFvdlR2NEs0b1B0VksyVk1uUkVXYk94QVB0bWhHZnR4T0VfUWtMQUpjY0RjbWZOTTk3UndOQWhtRmh2YVRiaHlRVVVDcW9TdTJqTmRoQ1B1Y0o2bG5Ia0VtSk5MaXd0OXpSZ1FTclZINjTSAZcCQVVfeXFMTVNRaTFkdmI3djR2TjJ5MFJ1TGZNVmh5eElpclVuX2ZzOGgtSjVkbG54OTNZYWg2WU5ieUNTenJxNThiWDZYUmQ3QTJfWTZzVS1fUlVBZ1RiNVFIcTY5emN4aDNkbEtoTHBnQU1MTk5TQUYxYWJ5Wm43SXFZcjFBQndJaUFPaUFvcDhnM0R0RDlnNnYxMjQwUTdlZFZqV0N5cmpsaWJjUWp1eEpzYmZWWjNjZU92MXNhLXFEaFVSLUJwN01BVkQyT1NHM3RCVTZ6TkdyelRpbXd3N0MtRU1VelV6Y1RkNDVINGZqYnRoUGhMU1E4VFEwdVBSQm9fbGV2SmhmTUFqMG55SGd4YmRYdjQzMUt1UU1B?oc=5"
+      "titulo": "“Não há estelionato eleitoral: vamos acelerar o ajuste preservando direitos sociais”, diz ministro do Planejamento sobre PLP com medidas fiscais",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPVTVqdHFnWERWRi1MajJCSVRXNFFHa0NPb1B1X1RBX2ZuN2RVbkp6czJzVzludGI3eDdONk1EZ3hJTlpkOUxkUUFCTVhCMzY1VkpuSXh4ZzRPS014Qk5hT2llQzRIb3BYbjRVQ0tfOEgzVWZCaWJrdlpINnE2NVYxa2Fua1JkQU9VR3JDb0tFRVo3TmMzS2QwN0FPUmFLWVBJQWJ3ZjJLUTZmajFKakxwTWViSG0zTllHU19XZy1SOG9JU1lNX280cmVGS3Rjd25Kb2htd3M4dUh5bkhCeU5iZGZuTGNmR2dpaU9SbmVoc1dXdXhRY2lhbXRjZTlCN0RuMXF2RlVGSjJlSFhfUl9STDQ3VDFHMU9OVlpqMTJEWWsycUpvTS1YQWVlci1MYjTSAb4CQVVfeXFMTzViYkNBenA0QWNCaUI5QmkzZXJXTktpRi1DcFF0MkxMQnRKYTlpSWlCc2FUSVd5VzZqazlqUzQyc0UyZ3NhYXRkb0VSLThhaEI5OVU0XzVLMkYxc3VnaHQ5WXExaGdHd1dZb25vWWlCdGotZlFMQTlBRlluV0pwc20tSk9Ec2Mzb1haVm5JRjFuZDhHanNqeEJsS2kxZGtNSWZuMXkyZ0JsSHFrTHViWXJPaW5zdHNHTUx5RDU0MWpoODRrWXd6LW9NbWRiQmx6amxieW10YVFKSlhCcjMzS3MwRFB6RHhhZl9KMnVCMEpXckJYTUFPWnRrZGxmM014QWIyTWJmTndUdExmbzVTTTB0bzRzWWZsY2Q2QkI5WlpVNzdyN0hQak9nR1d3TE5GTzcyalNEOVFkWEI4VU1R?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "PGR defende manter Daniel Vorcaro preso e cita risco às investigações",
+      "titulo": "Vice-prefeito de SP denuncia irregularidades de R$ 21 mi ao MP",
       "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTHY4MU1MTjUtVlJzbGRCelFMa1hjWHpkNlhoVHNTUkUzSjdOaXNKZ0huaVVTUnd5aDVnRFRNUFNGVVN3UGViWXVIX0hCQzM3bmRtUEpPSmFJNWZyT29tWExpU3VQOVVxcXJxSjNGUjBkN2syMXA2Nm9oTGRVNzFBZkxqckdTZWhrZjhTWm5NMndmVG5UaHlUR3NrY21oWVJkZEpULXVacGJMdDNE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQR2hkeWR3MkNQRUs3a0lIR3I2LTZsWG40MV85MjdnNVp0VnM2RzNXcjNSdXUxenFRYVYtRkNQTGphZVJCd3dJSGtkMVQ5VVlyeXNKUVFtbTQ3OE5aLUVpUndFRXJ3MURZazA5MkVVLUI2MkoxQXljT2pEZWtreldiNndsT1VfRUptYVAxTmlwYlNNOUlEdG45MjI4UnpyZkpsRGc?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Justiça reconhece OAS como dona de tríplex do Guarujá atribuído a Lula pela Lava Jato e libera dinheiro da venda à empresa",
-      "fonte": "Brasil de Fato",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNU0l0cnR1V21TZm13YVpkbGMxQXpFakI1VHhGZlVucWlQWGFtMjhBLTg5TUZyQUFTNVlqSENZOWFNZ2ozQThZNEJNaVozZVZ5ZjBMcGhCdFVSd09oM2N2NW1FcW9pa0NyNDZPelZxUW0xZUw3Q2lvZnlZbnNRVTVGbkVQSTItaEp6SjJjeFZtTU1SMXZHd0h4MXdZXzNvLXVBUEJEWEhrd1V3ekVDSnpSVmExTzZfV0k1bGtDSExyVWdvYjRmYjdTVnhJUUFrcEpPaWlJbVh1YTlaNmVNdFpUaE1QVHFMdWZlbEdrN0ZlQ0YwcUxWVVdWY2xB?oc=5"
+      "titulo": "PGR defende manter prisão de Daniel Vorcaro e aponta risco às investigações",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQT3BWWlJRZjFldjlSTUFsN1kzdFlWUHBUSXlYVm93Y3BCQTNNd1Z2WDhjNldQZXVmd1RZVUFiZExBeVdmWWFwbTc2NTdYSnF5WkpWZVh5M2hhUS1xck5ldnQ5VkZJemZGSC1EM2UxOFE1cUJzS1VXZm1WYzJxd0NZbE1lSVJYazdSakswQlVuZHBJN0JONU1EQXl4YjRXUlXSAa4BQVVfeXFMTmN6dkZaWWFaRjJmSXhVUWJFM2lRODR2MlBvUFRyWEtmSmlkeDhlSmFpNTJ0c25jZkl1VnJLLUF0SFZKOGZRTk9xaVJHMXltVzdMcmJBcGxoLUZhSElVTnYzTzVpT25kenV0ZF9ZSk5LSU1YTWlQWFR5c1h1MUpPMTQ0Y256Z3doczlRVmhlZVBYbzJETkVOTGpSY0VKZzloaGNueUJlWGYzNWxRdWN3?oc=5"
     },
     {
       "cat": "politica",
@@ -347,15 +347,15 @@
     },
     {
       "cat": "politica",
-      "titulo": "Políticas públicas para pessoas em situação de rua são debatidas no Congresso UVB 62 Anos, em Brasília",
-      "fonte": "UVB Brasil",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcERmbHRDcHc1RUd0WlBJbmR1QlVjR1lIZWNMQUs0MVpfdzNRbWR0U2NLUGhGcUdVRXVLRmRSV2cycG95b1FVWE5majhBUjB4SVEwWkM2TndOZ2tkTzZaelFXVFgwcllfdDZFNzI1MmcxRmUxOXowNHNsdkRYUGpQMnZFZml1Yk9HVG5tY3lvQ2ZYV2Nwb0VLeUJzZ1hLR0VnU1lfNEFKanZ5cW5CcFB4bDNPVkRqSW5DN2NsNGoyMDFoLXF6YkE?oc=5"
+      "titulo": "Sessão deliberativa ordinária – 11/11/26",
+      "fonte": "Senado",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OSTZwLTNITkJfTU92Yy16TEhobzZDZzlkVWZSUDdHM2taeTZ2VWZMSGVBeURMX2JSWGQtWWg4cHdMcC1fOEVDc28ySm5qQVRQbUhwZm9R?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Ao vivo: CAS analisa acesso ao exame de HPV por autocoleta – 11/11/26",
-      "fonte": "Senado",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OSTZwLTNITkJfTU92Yy16TEhobzZDZzlkVWZSUDdHM2taeTZ2VWZMSGVBeURMX2JSWGQtWWg4cHdMcC1fOEVDc28ySm5qQVRQbUhwZm9R?oc=5"
+      "titulo": "Congresso faz sessão para analisar abertura de créditos para a Esplanada",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPajlScDUzQVFkdGQwUFR6UmlBMk9MM3Z3Y0EwSlRmLWpNcnExS0o0WGtESzBOZkxpUkV5cFZrcFdGMS1RMjZDZGVpVHJEdEVDMEhES3ZqT2RTU3d1UXJwREdpYlc2bGZQTXhCMXlpUVdlZHVvZHdlQU1uX0hvb0lFNFN4NzNDU2NzQzFQUnd1eHdKUkJHUHliLXF0bzJnaW82aVl4OWllcjJnR3RRZWpldA?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -365,15 +365,15 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "‘Tropa do Flávio’ muda de nome após vitória de Lula no 2º turno",
-      "fonte": "CartaCapital",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNjVhZWt3R0EwR0JaNXJnbVVxLUxqdDFUM1dybVd6bW53UDlCWE4tUXlBblp6QkowYkxnbmlMRGhWSHNzOXRoN25fRkI5OTQxRUsydDFRVXJ0YUhiY2VYVVJhTENHTjYtNGVxb3VQYk5LUUdzT0pRSTRtTVROOG9ZS0FNbVZvT0dRNnZWOE9tV0NOR0ZFeVNkRHpzV2wtVGlfQ1pGQ2NR?oc=5"
-    },
-    {
-      "cat": "eleicoes",
       "titulo": "Trump não disse que Flávio vai assumir Presidência no lugar de Lula",
       "fonte": "Aos Fatos",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ZTEhGWWNNbkQtUy1obFZ0NVhmT000ODdxU3F1OVdtY3ZJYUk2cDZ3bFRQZ29DT21KemY2dTVaQzhWTTM3dTQybWdKU2NLSHRiM0ZLanBvcjlVMWhYQ3c2MXY5UU53SkpHbDRNSEZ5WC1OeExLd1o0Vk9kalA?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "TSE condena Meta a pagar R$ 7,5 mi em ação sobre favorecimento de Flávio Bolsonaro em eleição",
+      "fonte": "CartaCapital",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSnU5X1JaaUlkWW0wc2hZS0pZSG1HODJ2WlR3b1NTOUoyWW5NaXFFSEJneG85R1h0WU0zdVJQQktsdkpMTE5UcTFXeTVJeXJXMllNMVNWZEVETTJfUEo1SHZyd1ZsSG1OdHBlWE54aDIzNTJrNHRuUTZvblNqeXNlRHdiSWJlNnptejNJZ2h1MVpqWUtoeFZDM1ZSM0JGcjM5cy05SURrOVdDZUxmTDBnYlF5MnFLUDRCLTFtYmtnbFM2WUloUThhajJVYXVKZw?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,14 +1536,13 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-12T00:04:13-03:00",
+    "atualizadoEm": "2026-11-12T08:20:46-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
       "BC ipca12",
       "BC ipcam",
       "BC igpm",
-      "BC poup",
       "BC desemp",
       "câmbio (Yahoo)",
       "Ibovespa",
@@ -1551,6 +1550,7 @@
       "12 notícias"
     ],
     "falhas": [
+      "BC poup: https://api.bcb.gov.br/dados/serie/bcdata.sgs.195/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
       "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
     ]
   }
