@@ -162,54 +162,54 @@
   },
   "mercado": {
     "ibov": {
-      "pontos": 171324.31,
-      "var": -0.43,
-      "anterior": 172060.44,
-      "minimo": 171324.31,
-      "maximo": 171324.31,
-      "hora": "13/11 05h03",
-      "ts": 1794557019857
+      "pontos": 172707.28,
+      "var": 0.81,
+      "anterior": 171324.31,
+      "minimo": 171132.23,
+      "maximo": 172715.48,
+      "hora": "13/11 13h29",
+      "ts": 1794587341896
     },
     "acoes": [
       {
         "ticker": "PETR4",
-        "preco": 44.7,
-        "var": 2.64
+        "preco": 45.04,
+        "var": 0.76
       },
       {
         "ticker": "VALE3",
-        "preco": 63.95,
-        "var": -0.74
+        "preco": 63.42,
+        "var": -0.83
       },
       {
         "ticker": "ITUB4",
-        "preco": 41.68,
-        "var": -0.1
+        "preco": 42.53,
+        "var": 2.04
       },
       {
         "ticker": "BBDC4",
-        "preco": 14.32,
-        "var": -0.07
+        "preco": 14.52,
+        "var": 1.4
       },
       {
         "ticker": "BBAS3",
-        "preco": 15.48,
-        "var": -8.35
+        "preco": 15.08,
+        "var": -2.58
       },
       {
         "ticker": "WEGE3",
-        "preco": 51.65,
-        "var": 0.08
+        "preco": 51.13,
+        "var": -1.01
       },
       {
         "ticker": "SUZB3",
-        "preco": 56.04,
-        "var": 4.16
+        "preco": 55.12,
+        "var": -1.64
       },
       {
         "ticker": "B3SA3",
-        "preco": 14.76,
-        "var": -0.27
+        "preco": 14.92,
+        "var": 1.08
       }
     ],
     "juros": [
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.6419,
-        "var": -0.06
+        "valor": 5.6346,
+        "var": -0.19
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.2374,
-        "var": -0.17
+        "valor": 6.2213,
+        "var": -0.43
       }
     ],
-    "acoesTs": 1794557019857,
-    "moedasTs": 1794557019857,
+    "acoesTs": 1794587341896,
+    "moedasTs": 1794587341896,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,45 +305,39 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Ações da Nvidia | CEO renuncia após caso com suposta espiã chinesa: quem assumirá o comando da empresa?",
-      "fonte": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBpS3AtOTF3X04yeEFLbnQyTFlzbXBiWWRVTjlHUVV6bkZ3b0Q4Tk45cTNVWTB2QVpxNHR2bWxKN0hxSkNWNGtUaC1NeDdKMUdoc25vVnFFSTMxdWt3Z3RWSlJMc9IBaEFVX3lxTE1XS0g1WUcxaFpDQXFCQkl2RWNtdVR6SWpPeGVOY0l5VzhqMFNubDdwcmU3REc0QXRDVV84cE1GUkk4bVJKQ0VVeTFYQ1ZjaHZkNy1MdjE1cXVxVUxiRDE0MmRXbDJFTUpY?oc=5"
+      "titulo": "Falha no Outlook, Teams e Copilot rende memes nas redes sociais",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRldKOFpMOUlHdE5GN1ctb2NwM2play0ySDNGNnp6TTlRdmVacjJFNXNVM1ZOX3ZzZ21iVmU2akRtOVJfYUpDaUFBWDh1d1QzTmZZVW5yYzNvOExXbHlfeTJoSTI1czlNeW14N09uQ2NHSGpXLUFpZ3JvRUhwTzU4Nk5sbEdLa2xCazZXSmF4WGlMNEN3cWNFeFNCanNOUklieVk3YkNPb1J2VUhXc2lJME9DMGxrUy1zZVJJ0gHKAUFVX3lxTE92LXhpb2F4aXFfd0s2bFl0VnBNUk85MmppdEFuSmxac0QxTTYzYmVHY3p0Wm05aENYU1BpVlBlczJuNEhsOVE0aUg4eE9mWm9TZV9BZzc0S2NiLXgwUl9LMV9XVi04N21TcEhNbjlaeVZkMlZObDM3Zkx5R1RQUVlhSm03N0ZsWW9aTEl4ajZ0NDN4dlFia05YS1VmZUxHMjhyMzdvR29XekhSZy0xc0FZa1Q2ZjNaY25YNElLQlFhbVJ1SmJ3VUNYalE?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Agro do calote: grandes produtores resistem a pagar, enquanto agricultura familiar dá exemplo",
+      "titulo": "“Sou um m…”: as últimas horas de Jensen Huang como CEO da Nvidia",
+      "fonte": "InfoMoney",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNDdkaGw3SE42UU80LW52VTR3REEzdmtjSHNxQjZOMnVzS3JDb2RuUDF6MTQ0YkxxR2JQaWVTSWdDWXBVWnRpWXpxajJfNmtPV0lYSUszelFjUnowbWtoZzVDOEdvbWFaVmNUOE11cE1FWlMwTE9pTUcxZFJQTGloZVJZc1hWNlBGZmtfT3BzdDBDLUVHX2hMVnRzczA4aVBi0gGmAUFVX3lxTE5pNk5VQUsxbHFINXd3UlFvUnQ1VGZfTEstbDdZVUJMenVXN3lzaXhUZEdROGc4cTgwMjJ4V1JzVGFxMHNDbG9YNHFEWEViRV95NVFQZTI1WTlVeXJJTXRwc2hPcTB2STlxSHk2cGIzbW5wN2dKS1ZpdWN1cmxyZklSamdkRHZEZEFJRVAzcGg0eTl0anVUNmVoQzZVeE5NcGphR3ZwZXc?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Tesouro Nacional sofre ataque hacker que expõe dados de 30 mil cadastros e 4 mil chaves Pix",
       "fonte": "ICL Notícias",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBWZFNIUU9qUFd4bkdzSnNBbXQ2b1h1U01zcHFyZDhmMlAzVVRUb2VsSzdHV2dLN2FZWEFhR0pNRVE3dTV5VE1JdHpmWDJLZFV6dUxkUl9WYmtUWDVvZEw4MTJWMXBtMEtOMHd4MEE4RTNKTk04Z1NRZ1Z3?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Inflação desacelera em outubro, mas continua acima do teto da meta do Banco Central",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQd2hkTk8xc01WUVd0UUoxekthRUx3MWdHeW0wM0lNUUlGdk96TXBRcWlaZERzUVVGa1dVYllqOVdBRlF1RjRON2xHcTI3aU05cjFXYzhvcWZBV2syV1g1dmkzUDBNdEtKRG1VY0N5TDQzWmhOQ3lzdFktQjNtdWhHSktNOGNGakFua3RVSms4MktsSEh0OWY0ZjVpYTE2SGNFUnNKaTRhMnk2aW5LbzgyVHpKN29CRGRhRElLN3JSZ2w0VEJDeFY2d0VvSDFLSWdXd2dSTGdXTGg2Y0RW0gHrAUFVX3lxTE9ndlROWXRNWUJpQkctQmRuZkV2Q1VYVy1XTThDYV9Oc3JyTV8ySkxuc2JGSXBsTzBoR2ZHUVhuVDNGYWRfQ3pzaVU0LUR6d0tpSDAtQVBPQ1FMWFoxQ2pYS1lrVldfR1hjWktSSzFlMVRGQmVjcXdpWWlkeXY4NE8zX1M1dzlDWVc3eVFBNk9TUXQ4UUtVTFpCU3o4UlJXRktVTEkza1BUa1N3blFza1JuVExRSmlNQTdBcFU0UmJsWE1FVGN2WC1GY3pEd3VCc1hPSzBSR1lrV2VZNlBoMFFlM2t1V1dsTEZadmc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAxNzFDNzdXSzNWV1F4eEFZdXQyeDFqT1huTm1DajJ3U0tqN19ZNlA2djhISVQ2REtFb0dadVFJbW5KOWNkVThJakZRRjBuRVRyTGtJODdxMGJ6V1hELU1ZendyRlp2YlFrVFE3WEJGTEdWQmtNSzdLYXJNekpGdw?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Senado aprova pacote de ajuste fiscal do governo Lula",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQU1VWREhybExNYU1RbXhtMVZ5YU9mampIZzVsWWxqc3lIa2VNaUVHdG52akZPODRqMHJhX01SLTJwVHhoSFlRZVRXNHRCQUVZSzhQWl9CQVhNTXhqU3dQTHV1MkJ2enRnVHBheXFYaERabXhsRzgyME1vcVYwYk9jRm1odlJ0cXFyZThFT3loeEdlZE04djI4SVltdS1jVWc?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Eduarda Campopiano: chega a 350 mil abaixo-assinado contra medalha concedida à deputada eleita com discurso que nega feminicídio",
+      "titulo": "Após defender 'tesouraço', Flávio Bolsonaro vota dos EUA contra ajuste do governo Lula",
       "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOaFQ3bTd2NGYwV1JFMGJHaThsNFlWZndia3ZXTGdYMHhPMFQ3azJQTHJ5MW9iSXFfZkMydTZmanMtWjIwbm9SdXA4Si1LQWRqR05vcnpKZnRqcjJYV292Qk9uRURhT0R2RVZ4a1d0a2xIY3pacVBtOFJCV0VrdzN3dkd6Y2MxRUtjdGxabm1VSWVxQklndHVTS2JVT3o5MGxhQ3ZFbzUwZnU0cHJrSVR3YjhPTmwzMmZ6R2N6RGN0OWFjbFJKOW53TzRFNnF2bnV1SC01SmNuRVJwQTNhVXlyYXRVZXB6VmphVzIyODZyRVNKVDN2bXR6S3NWenNRaWFQVmsxZVVITVdyeE0xeHfSAZwCQVVfeXFMTUF3Ry1VNnFLdGhuQUFPYnp6ekRLMFpicTFhajQ5MVhfNGZBLUZ3UFR3cG80dkFBUzlkVGNEQ1R3a3ZZczdNM3dmYk1YZVVxeV9XZjZXVXBHTzJVYlVMeU5MOTNYRmJLWlRndHpYQjRiWmNCQU04LS1kR2VCZVBsaWI5YV96NFA3YTZSZXZEakV5cUVsU2pHSmhCUmNvRm9pV2hsSHh5RXZubHlpNU00UllNTHVKb3NvX2preEgxc09JMi0tTEJPMjR5RWl6elFzMUR2RkNaMzZxMHZzc0RIaE5UME9faWFVTERwWlFFTGxlal9RUDBxSWxYRi1ZUWFMb0F0eV82NWNXS3BEOE1TRGgwbVdrV2ZVbmlfYUQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdXlYTzF0SEp5MFBERTRpLXV2QnpxRTc3U09qRkxkbmpCUXgtZGlMU1pFalV3azYxTGxPeXI3MGQwTEJEWVYyNUwtekM1LVc4cy0zTE1JbV9Fc2w5dFhHeHphQkJ6ZjlFc3d1NmVSdDNOdWd5LU42OGZhazhaLWJoMW9mWGUxVk1rOWZLYUg0OUtJVXZKVW90NzRmNTdOQS1wd0FhajlWY0RicThKQWNrMWRBZ25pdkFSdUd1OEQzWFRXOGliNWdiaHNtR0d2LV8waTRuZjJFS05OUdIB6AFBVV95cUxQVGVQMUpIRTBmVDM0QnU4MHVYMVRQMjNxbFNLRUFRRVhqcVJObE1RZWZ2WGtyRFgtWkVNUUhNbVQzMGl5VmctakZJQ0lwQ1BudjVmTEpVc0tiYVlFYlZBNm4zS2FiekpBLUh3QnhVVWtTNjlpRnJVYkM4Rzl2WlhKcl9jeDBQV0pGQ1VhaGs1SjI4eGtXLVJzcHo3WWhQME5pSlNRcmNDMGh4SkUyaEJ2MktKaFRlOXVnUDBVZ0ViTTdPVmFPY3FkZ0V5NUR1anRZOHV5YmxwRC0ySnRfU00wWTBKV3QzdGZf?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Zanin nega liminar do PSD para realizar 2º turno ao governo do RJ",
+      "titulo": "PF cumpre mandado contra ex-chefe de gabinete de Mário Frias em operação sobre 'Dark Horse'",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeEJBSTNIdkUtT3BjZmFuZ2FqSUZGNGVia2dUSkE0cVVaNFFGWFdCVmc3bjJuSkpFMnRjTFZTTzFKSVI4ZkFzNWg1b1AzS3dxUndiaUNJb191alFFbzY3TjNjYXYtVVNkWXVNR0p0M2kxdC1NeDRnekI5a2VQbDhBSFg3d2hyNzJIQlpjMjl1OFlTSU5Ba3ZhX24zTXNqMGFJRHJudm5zLVJONDRPNC0zejBIRnpqems0eEtzVF9SMGhOYmFNV3JpT9IB1wFBVV95cUxNYkY2Nkl3REFTS2Yxb3NEb1BPaWpPNUdqTlBSbkNQY2d4R0oxYU5ibGhJaFZxd3hnVnNySWlqSEM2UlI0aEVhcUROdFhiTkRjUi12SWYxN1Zxa1I2UC1UMUduOUVGa0JtaS1meFZSbXFzamtVZ1ByODEwR0pjU1NpQlQxWndQNFR6bmVGNGJ4UnI3MkFyMjFqNHY5MzhORElENlBLbWZIUElUeDlVc1dPUDFNcHNUSUhpaHI0VmR2TEJ4SGtmd0ZUaklZWFpnMVZqSWQ0aDF0cw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPWGN5MnNyZ1hTNVpPSlU0ak9TTnBWM2NMRXFMM1VoVWdKWktvUTNFUm05b1lRakhxbVktUzNfbGx4WlY5ejB4NGhCeG9wTng3OFoxNUhQeUhKVnhWc1FtNlhRNHk2ZHJiZGRaQ1V4dFp1Mmx3M19QdlZrOFp5QlN5LV9yV1gwX3hWTmsyNGhzTVNKT3dQM0M2M1pTS19ib0tlWU1MbnlUM09ZWUY2bVk4TXlkanVlNWRZZG0zRm5UTVVvWmNXaDk0WjY3UHZHSzlmbmZZN19KcnBiV3o3TU91aE5NZDRXd9IB9AFBVV95cUxNcnlQSlZDTDQ4MGEyaDZVckZsdFJkNVV6YnBnVy00WFlVTzUxU185UEhWVUdLYW1RTExEX3M0V0d4RFJpU3JuRUZlWnJ1dHJCMDBKd3FDUEFydVZHVFlrUVlpUGFJNEVwSkNKQ0d2YU9HS2JXRU15OFV4U2podlNneHFKRnVZb2x5VkhvUXVmRlFRZjhvd3BtOUdHNXByQnh5aG50VmROQWRZMUVSUzZfMGRLVWZSZlp0VmJRbEdEV1JLT1o4MWtoSjVMbjBGVGxhQnh4QzV4UGR5VlJmM2RJYms2V2RSMGtkQmE5UmY4WkhyT1hM?oc=5"
     },
     {
-      "cat": "politica",
-      "titulo": "Acompanhe ao vivo: sessão deliberativa ordinária – 12/11/26",
-      "fonte": "Senado",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OSTZwLTNITkJfTU92Yy16TEhobzZDZzlkVWZSUDdHM2taeTZ2VWZMSGVBeURMX2JSWGQtWWg4cHdMcC1fOEVDc28ySm5qQVRQbUhwZm9R?oc=5"
+      "cat": "brasil",
+      "titulo": "Douglas Ruas escolhe delegado de São Gonçalo para comandar Segurança Pública do Rio; veja nomes cotados para PM e Polícia Civil",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNUmpHbmFoQ1hhaVh0bl8yMzMxUk9Td2FOcXRnc0JpRDVUck0zVTRKbWFaeEF1SzNQejNGYXFBakpDM2RuZFFuT2lNMlZqMkI0bzRDa0hHc1BTd3JGcF80c2VMb1RYdHNDaHJMSmZiMVpweXZ6WGZmWEpyUUN5OTBYNEd5OEFoZFVoaU9CZVlRa1JYUW9QaHphSk5UX1hiMGxPblQ4aFEzYk9id2Q3RHEza2h4NWVBc3NOZm43Yy1kVklOeTNvU09EdEp2ZTBkT0VqMHNUbGp4dVFHVW95eF9iQ2FwT1JxOGNudkZHX3VWcXpFOHV1dVhweS1Sd1NaRW84VllnSjBQX205Ymxq0gGbAkFVX3lxTE16WVBGX2hVWFR5S3hRSmdIQ1RaVEx3el9LYnhHQUdSZlZzdzdRc2RqTnkwdjl5RUF0MkdvVzJvaWYtVTNQOW1DTWRoMWpKZUhrRW81WW94TjBIdk5MNk9Ea0FLTzRtQ2xFNjJDRGJCZ21wdGZwN1lBS1lyVHJINlVNU1RaMVkyU0ZMTExvb0RaYktVaFNzM01mTXpEREs3TmRTdlc3aTVCUm1JTjJfZVpjSk1aQXdQd2FEWllVVUV5RXEyYkFOUi0xNVM2bEtMLUYzZGlaNFEtYjVtQmtWdS0tMjd5T0U1WENTLTZjLTRsLWphaUFNMy1NTW1POXlXLXVjQTNDR2pDMGVoU0x0d0xZQ0hBVlhzS1ZlbFk?oc=5"
     },
     {
       "cat": "politica",
@@ -353,27 +347,27 @@
     },
     {
       "cat": "politica",
+      "titulo": "Subsídio ao diesel deve sair da meta fiscal, segundo proposta que tramita no Congresso",
+      "fonte": "A Notícia do Ceará",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeDNWRjFzWDAzclhwRnhhVzBQYVJURVNVUGNYT1htdFllRTdPZ3NWd3gtRVhuWk5Sd1ByaGY4bm9nRmFEOGhwOGU4c1JBeW1xU0NYMnZFM0V6RXo5OXh6ODMwYU9VRFluQjFHd09oWHJiZEpTODhSUmE3Sk9pTkRiUUF3V3R5ZXVMUnoyd3dSRU5vTDcyTWZxSVVQTGhPZG5PU0hDdTVOSkJZRlJEcWVSMVRHXzlpU2N0?oc=5"
+    },
+    {
+      "cat": "politica",
       "titulo": "Entorno de Lula espera troca na articulação política, alvo do PT e centrão",
       "fonte": "CNN Brasil",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNWNlaExuQnQxUTdIWGJER2dpUHlwYlZNRnVoVnNHeExQdjdXSVNOc3JkYjFkZ0lwZld5M1VfZF80NXBKOXdPeEp5MTJPTDEtbzBJZmt4Ul8zaW9ENTRFelVMN2h4SlNzMVg1V3RraUk1bHVkVUFNUVAtbVhQSXB5NDZFU2FWamRqNDZkYjdZYmJ3WVZCSWo2VFBJa05YVUZ3VGhKX29GVlJYeWxudm9zOTdn?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "Brasília Hoje: Flávio Bolsonaro vota contra ajuste do governo Lula após ter prometido corte de gastos",
-      "fonte": "Folha de S.Paulo",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQODV5TlFNT2trbFQyM0ktWDNra2VFeVd0SHgzcUdmR3Z6djR1U3UxalJDWmZaOEQ2QjBXX3FpRGNnRFVDZkE3TTdjSFYxeWVLYVJiRThvdzJvWlcxUGM4RFU2LVU1eTc3QmthVEZ2ZmY0Smc3dTExUlJxUUJaZk5UTHdJTmpUbkdZeGZqODZ1a3lGTlJFT2JaMnVfUkdwWUhLYjNPamJYUXhIYkFwUjRGc0lleXRyUFFFOXBOSTJNeTUwN01falJOZTZabWw4THl2ZWVnc0R3OWpLNy15cFRQcUlrLUg?oc=5"
+      "titulo": "Flávio Bolsonaro aposta em cassação de Lula e novas eleições em 2030",
+      "fonte": "Congresso em Foco",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTjlhQ19WQmdtcDhieTFvNlk1RkdPNTlBRVBpb1BHR0t0RURtdDdLY3EzeTk4U1JISEhRQlRYbnU0MXZ2TjNmcGR0TUVNSEQtRXRTeWN6cHEwdzR1U3M2dlotZVE4d2R6VTFUZUNYS2w2T0JoWDVjRFB3OWFEX0RNaEc0eXd5SkdOQ1M4NTRrQkI1RFhHbnB3SHlaY1dLMEdiemZ2cGZKVnpiV0tMZFpPZjNVLWJDUS1IOVE?oc=5"
     },
     {
       "cat": "eleicoes",
       "titulo": "Eleições 2026: Apuração Estadual em tempo real - Minas Gerais - 2º turno",
       "fonte": "VEJA",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQX0RISjJUWmFVVlRSbWRrRTNZZ2VGU3NZZTQ1eXpVTl9vSkt0M3Z1T2JkTTJwVnN6NmpwbzZ6aklVU0lwQ1Y3SWVpSlhuU1BuNFl4VHBzWWVXSXRPS21zUHJ6Q0xjZGkwUl9FeGxidkRiMTF4cmlzdkRXR3AzaFJabjFSdE4?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Dos EUA, Flávio Bolsonaro vota contra ajuste fiscal do governo Lula",
-      "fonte": "Metrópoles",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSGVYRENXVElvQmdDeFpMQktyMWVTWktGMllya21DS1VPak4yUzQ3QUlyTFZtV05wUndBM3NTdVpfa0FENEdrR0pUUlB0dXdlRDZHT1k5ZDJ0al9NNi10dzMwVlRTREdka1JQZXJ2TUwzXzJseGhJZ0FoYnMwMHAxZUhqWXVHZmxjendyV25fUlR0eGZlYkptSjNWbXJpWi1IR1E?oc=5"
     }
   ],
   "indicadores": {
@@ -386,7 +380,7 @@
       },
       "cdi": {
         "valor": 13.65,
-        "data": "11/11/2026",
+        "data": "12/11/2026",
         "fonte": "Banco Central"
       },
       "ipca12": {
@@ -1536,7 +1530,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-13T05:03:42-03:00",
+    "atualizadoEm": "2026-11-13T13:29:04-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
@@ -1547,7 +1541,7 @@
       "câmbio (Yahoo)",
       "Ibovespa",
       "8 de 8 ações",
-      "12 notícias"
+      "11 notícias"
     ],
     "falhas": [
       "BC poup: https://api.bcb.gov.br/dados/serie/bcdata.sgs.195/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
