@@ -162,54 +162,54 @@
   },
   "mercado": {
     "ibov": {
-      "pontos": 170722.33,
-      "var": -0.78,
+      "pontos": 171324.31,
+      "var": -0.43,
       "anterior": 172060.44,
       "minimo": 169942.38,
       "maximo": 172060.44,
-      "hora": "12/11 16h58",
-      "ts": 1794513525835
+      "hora": "12/11 22h07",
+      "ts": 1794532075907
     },
     "acoes": [
       {
         "ticker": "PETR4",
-        "preco": 44.92,
-        "var": 3.15
+        "preco": 44.7,
+        "var": 2.64
       },
       {
         "ticker": "VALE3",
-        "preco": 64.11,
-        "var": -0.5
+        "preco": 63.95,
+        "var": -0.74
       },
       {
         "ticker": "ITUB4",
-        "preco": 41.33,
-        "var": -0.93
+        "preco": 41.68,
+        "var": -0.1
       },
       {
         "ticker": "BBDC4",
-        "preco": 14.18,
-        "var": -1.05
+        "preco": 14.32,
+        "var": -0.07
       },
       {
         "ticker": "BBAS3",
-        "preco": 15.54,
-        "var": -7.99
+        "preco": 15.48,
+        "var": -8.35
       },
       {
         "ticker": "WEGE3",
-        "preco": 51.55,
-        "var": -0.12
+        "preco": 51.65,
+        "var": 0.08
       },
       {
         "ticker": "SUZB3",
-        "preco": 55.59,
-        "var": 3.33
+        "preco": 56.04,
+        "var": 4.16
       },
       {
         "ticker": "B3SA3",
-        "preco": 14.6,
-        "var": -1.35
+        "preco": 14.76,
+        "var": -0.27
       }
     ],
     "juros": [
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.6503,
-        "var": 1.21
+        "valor": 5.6418,
+        "var": -0.06
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.2445,
-        "var": 0.9
+        "valor": 6.2372,
+        "var": -0.18
       }
     ],
-    "acoesTs": 1794513525835,
-    "moedasTs": 1794513525835,
+    "acoesTs": 1794532075907,
+    "moedasTs": 1794532075907,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,39 +305,39 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Após renúncia, Trump diz que ex-CEO da Nvidia fez um 'trabalho fantástico' e sugere ex-CEO da Apple no lugar",
+      "titulo": "Produtores de soja rebatem Banco do Brasil sobre dívidas do agro; estatal nega ter culpado todo o setor",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNWnpHQ1M5akNuVnBSYzRHVmRtWHFnODlBN29iWWQxWjZrUXJKSTYzcVptcEhxTlR2dUdIUGpzbXpmTV84MUJnUkk5ZzBvc2RaRzRPM2RINmRRVTJBazBObTZWdGRxODE0WDlfa2Q0Uk1mRnhySjFmS2tuVURmcTBYdWpVTnlUVzNLYnJSWC1RNDR0T1pIVGVqZC1WR1RUSHBCanhLUW50WW9SZk16ZUtWU3l1U2NEUnRZejdZdlZmRDI2VjcySXlsTElDZTJyOWp0b2I2NG9oXzNiZVMtTjJyQjF1SkpidnpCZzdMdUFR0gH8AUFVX3lxTFA1b1NvbC1XTE1ySWtJYTBwcFZzYm04cF9NQjN5d0JwOWs3Vm04eTNCdkd5RExIUG04Z1d3di1ubU9BenJoZXhmenpjMDBlWjRBWXVGdWdCcHQwZkhSZjk1Z3dpS253SnlpMWc5VmdBZEplOU81RnZMa3pSY25PaFhoemt2WVVxc3FwNlNWel9EZk94SGpwSTd4SDFyU0htdVlnUjJkZXlYdldLdGJHZkItWkRsUjJqNmkzNXA0R2pUTWd1V0tsTW9mdXJCVnZBOEQxX2RybkJLYmNiUFFuS1ltY3VUSE5YcHI5QjZvbzA1MXVLem5ZYWNVak56Mw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTnBjX184ajJiRUtvdFpoZHBTb1NldVE0Nkk1SWNwaFRFVTF6NmFKZlZIOFVKOXVIby1UT2FDQVVsYmlrM1F0YnFhbnR6dlg0ZFp5RGdxOHlBX0xyRkZ4OE1lcklsRlJUZmpRMHpfT1Y2bHBjalUwVHlMRGQteFZsTDJRRUVyc29F0gGXAUFVX3lxTE0ya1pKclVJbHhUT09WTVZTeTdWZGhmUFVkZmptQlRPeXAzV1dxcFgteWxha1QyalpFZDV2dkVDWEszZVNJQlJyT1lEVFd2UXRXZERBTTJaSW1rcmVqdm14TkE3UHJkMTdEZ0pkRzZPYmlmTEotcFh4S1hGTVl6WGZPVzZ3c0pqQ2NVYk9aVm1zR1dpNTI1RFU?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "O que é risco moral, citado pelo BB para explicar explosão da inadimplência no agro?",
+      "titulo": "Dólar sobe 1,58% a R$ 5,65, maior valor desde junho de 2025, com pacote fiscal e IPCA",
       "fonte": "InfoMoney",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT085NHJQMDBmUGtJdmJERnRMeU1fSlZfRU51dDZQLVdwNkFxRm1FUFNheWlsdWpUbzFBOFAtS2lyTVpYeDV6cmdoR2tOUmFWQkhRUWZONGE0WV9zOWdDSXZtNXI1RGVJN1dkWVAwWEdoRXB3R2N3cTE4NHRNTC1KX3UxOTVpdnFIdnVSeEhoNENDR1JvVzRUMUNKaDZSQVpxZXdfU1ZpcHk2bndhR1NlekNrTmp2cW1uLTFjc0p30gHDAUFVX3lxTE1zOW0tMV9TNFZIQ2RJLXJBdHZIbFBOajhMeEt5cmlBMzQwTTZLVmVLNk9wX0o0RDB3NUdyZkV2UVppMjd5SEtUd1hJUndJY1dTOUpOeGlGcmRiVjh3VmRZWW80OVNWQ0stMHFqcnJyQnF4LTJKN0VvQjRfTXZreUo1UlFuci1oelhEY192LTJyNVltd3FIdGV3ZjYxSGFLQXk2MHBUcmFaRXVkUFJpOHVtTE5iVWlQTUZQNlZlQkFqaGo5Yw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPemVLNkFlOHhid29adEc1NDlsaHFNUy1WbVBERC1TSHkzQUl6X1VYRlhqa1p1VzQySEZKVWFoSDJpMlhhQW4zN0xUNVhyVGdjUUtIS1NMRl9qVVhCck5PUkJXVGI1cnNWVnZ5bDBlalZBLVdhVHg5am1nalVFR1duYi1pSVFWLXpma0hEVnBEZ19hM2R2enhiWGFzZTHSAaIBQVVfeXFMT3loMTFuN3B6YTc3a1hMR0UwX3pMVjJ4UTc2SXRyZ1ZOZy1PWnZfQkQ2Qm9tT1ZqMjV3d2hlakZDdm1jdVFRSHBtVzc1aUZqUHZXSGVIMEVDdmF2OTRsc0tucmdKNm00SnE1U04xTWJxNEJWWW92dlJOSUpyWUFDVHlJMFMxYW5uMXNLS0N6RGw3UWdMUWhLS1V2bjJhTFljMy1R?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "‘Nunca é suficiente’: economista critica reação da Faria Lima ao ajuste fiscal de Lula",
-      "fonte": "ICL Notícias",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9mWEpybW82dkdqNjEtaTBRanhfYVBSZ1VrcDNkU2VOOTc4cjMzYkJvVjRmM1BDU0RLaXBaZm55MzRtcFNycXkweU9mMi1aMVNJNldHUTc0QzFSbUQxQmNSR2lzb2FneWlDRGo3cUhPam5BWlk1cmYwLW9HNjlVUQ?oc=5"
+      "titulo": "Ações da Nvidia | CEO renuncia após caso com suposta espiã chinesa: quem assumirá o comando da empresa?",
+      "fonte": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBpS3AtOTF3X04yeEFLbnQyTFlzbXBiWWRVTjlHUVV6bkZ3b0Q4Tk45cTNVWTB2QVpxNHR2bWxKN0hxSkNWNGtUaC1NeDdKMUdoc25vVnFFSTMxdWt3Z3RWSlJMc9IBaEFVX3lxTE1XS0g1WUcxaFpDQXFCQkl2RWNtdVR6SWpPeGVOY0l5VzhqMFNubDdwcmU3REc0QXRDVV84cE1GUkk4bVJKQ0VVeTFYQ1ZjaHZkNy1MdjE1cXVxVUxiRDE0MmRXbDJFTUpY?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Veja o que Lula disse sobre contas públicas antes de proposta de ajuste fiscal de R$ 60 bilhões",
+      "titulo": "Ajuste fiscal de Lula vai de supersalários a incentivos tributários: entenda o plano de R$ 60 bi aprovado pelo Senado",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOYm8wTkRMdlVEM2MxT1ktbkFtb1FnVXVUMWhnOFhWWk1XNGE4UHRrSGxwZ1JYVVJRQ2FnWHNYMFA5aGI2RUxSQ0g3c3Z3aW1JdGlxYnJ5b0RRcU9vQnRyTG9hWFlldlhOQVpqdTFaVlpfWHZEOTNOeG5hd2ttTmhOOG5BMXhGaEVxUEtacGR0Zm5oV0FjbDI4b0ZQQW5uUkpZbFY1UVdwZTVCbjNZekZhX1lnUm0tYmxNaFRaNkRQQVNfM0twZTRJZGxrWTltd2ctVFdfcHV2SXd0WFh5Z2NNZDZYQXpWZVFpTUk5NWRPNmJFNUJteVV3WXMwQWF3b3pNSllfbdIBkwJBVV95cUxQYXd2X1RaUXU2WWFPMGhiVzIxNkZBeFdxR3o2RGp0WXdSNGROVXFGR3B1a3BBdE5yTXQtZW1Tc3l1ZWMweFlmUm9ZdGNYVl93clV6YXY0bjJHa0xfaVpWRGlFTGEwVlRZRlVIQ05GODFmVFZUcXJJSW5LbTdJZ2RGZDRQaGR3YXFraXlyTEJLWmRkYU5sSHRZQ1l0YzViNGdxcVl3dUwwWEhWS3BPcFlQaXRNUWtYSnJENnYtSEJjc0VQWG9mTHgtSWdxRmtta2dEVy1CbkFEYzJ1TWdQRmFZdFNob0RFNmVNbXl3NHZqSXdYZmpEaVRHb3A2UWpVM0dFZzBtbG1Id0p3V3dqVDlwa1RVYw?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Abaixo-assinado contra medalha a Eduarda Campopiano tem 300 mil assinaturas",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRFZOSzladXR0WVZ0VGJxWXhidWttV3gzV0ZjUXlISGF6NlhCVEd3cUtSM0xWN1FtRFNjUnNKMlc4SkhsRTJ4b09hYnNuQWxoblpabk9SUE9rTFc4blZhUE9CRzlCemM2R24tMS1fc3ljclNLeTBLVDFENTRfOU9NVUxSejNXQnVlVUl4WmF3LWFHQ1NLZ0FCUjBWLWt0SGxqZ0JwM3hudnIwSUh4SmxIU2xZUk0?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Milton Leite se torna réu por promover interesses do PCC no transporte público de SP e decreta prisão preventiva",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRTM4RGRSOUMyeGhFbEcxTF9iZnhNa2NNRXU4T2s0RjVENGV5OFQ4STkxNHhmeVZfcGFpTWpGRWxaYUlSdkpJRXpMWjV4TTlMa2tHSHhvRUlmUVl1dUdubjNjaVlrWHhiYk5LVWN6dzFXSkozMjZFV0thaVNVSVFtRExpSnVMUdIBlAFBVV95cUxNUnB0UnBYbzBDWVhKTE90SWxucUt4dWRvWm9aYWdyZFZtSENWYTRSQzlES3AwY3NGMFNMSFJHSm9WYmRQcW1ETHhNYUpOQkFzYUpVdkR3aE1iVkNtcTBkcUFncndtanlncjZ6c2dmM1BrTy1pNXYxTFRSWWJoNmtCNlRVd3NDR1ctSTdjakdiaDF3cXA0?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "O direito à privacidade no caso FHC, segundo um especialista",
-      "fonte": "Nexo Jornal",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWUxJYnVjQWJoVVlRM3pFa1R2WXBhVFp0SzBReVE3QWdPMm56OXBJaGFfdy1tOU1aTnE4XzBTSTZiMmV4bmhiNFg0aEdsVFFYRTdTNjRuVml3SzNQRkphdVQ1alVwZng5cE1MSGhSdXd5eXlteF9JUUwxWVNvcHpoR1pFLUZzR2JVMUQxUlMwOXBaX1NtN0xXaDNLRi1Va1c3amJ2alExU0lvRS1tXzFwNzdzYw?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Mateus Simões escolhe novo procurador-geral de Justiça em Minas Gerais",
-      "fonte": "Rádio Itatiaia",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNV19CT2xEZHA0WjBkRHR2OEMzOHRfUUVscnh6bXo0VmI4cERiZUZRZ3lmZlc2QkRmTmUtNHVaWHRXdGNvQnlXSlBhbjZpM0ItYVRibk5OS0ZfUU5sSENKN1Z1cHU0RVhwZlNFTkdvZWpsdFlqSjFuanB4ZTRTZkJubFRJMXpUbkhpdnUtaVdNTzg0SVNiRWN5eVBaTHBNSlUzOXhONzBQMmN5ZXho?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQNWFXQ2puT3c2RkhLTV9MYlVYQTdMbGYyY0F3c2pzOTl2MHJZRFpBZUFBOGV2Q3pxOVdSVFdLUU1ZSlFKRlJSdGRhc2hjeGlSZGVneUJ1RDNuUDJqaFBZem1pSnVuWmp6WTR0SHZSUkNYUk1mdEs0R1o2SklNeWQzcTZGT3oxUjZBUWdKTnc4RV9OUjZ4blR4SnR5bWpIekxFRmFQNnFyU2wtcUJHOWxOZVlaNkNwWmFKb25HbzZncHBSVWpuRWo3ZjdJSzFGbHRKaTllelBzbXBxYzdUNUZzUS1BTnBxY3BYeHFGckQwSWxNVW93cmI4TE9Jckx3LThBdGlzWUFmdVRGbTNLcjlZM2tUNEYtNHBh0gGnAkFVX3lxTE9jd3Fxa1VmcG5lZzZmMUVjeVhUSnpHNmNUVzE5VUVESnAweThhbU9GeVRrOFd2dkotNWxUTktTVGFvQ3hOTndxTkZEN0doekV1WUlCZ09MWkdzcEZMRmhfREhWdWk2aE1pSzdnc2hKRzJMRk1ySk5XbHJpT2k3R3BFZUZBVFo2cS1ZcHhPeU1RbGZqT05Xa1NfMGZ1NmktMEw4VUxSNFBaYTU3ZEQ1UmdaaFhDM1JiZUk4RTFKUjNld29BazJvamI4TGRGOEg5Vl9CcVdqUVNlVHNOYlBNZS04U0RLLUc2cWV2SW5zRGhpckxRNzdWYUtuazFIT2NobGV5N1haeHczLUtrT1k0cEdIWWJPZGtieU4tYmJhZERPNW8zZXZvRFk?oc=5"
     },
     {
       "cat": "politica",
@@ -347,33 +347,33 @@
     },
     {
       "cat": "politica",
-      "titulo": "Governo acelerará indicações e ajuste em \"contagem regressiva\" no Congresso",
+      "titulo": "Entorno de Lula espera troca na articulação política, alvo do PT e centrão",
       "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVEY3VWhoSVM0N3BpVm5hNXJ3bldUQmd4c1VwME5oMFl3cjNfYWVJVS1JYnd4cWRPLUNWNWlHOWZ4bVJqa2Nnb2Z1bzY1XzA2dkZocXBVRnV4Njltak5jeWZBaHdVYzU4YVhLbkJmbWxOQ1p6WHd3TmdTRFVrVE82UEFIQlhPcUdBTzdqRnRvOFlBRzZwNTBZd0Q2TjhaN1dFT1ZjQkdjbnZPTDlmcUZ5aUtn?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNWNlaExuQnQxUTdIWGJER2dpUHlwYlZNRnVoVnNHeExQdjdXSVNOc3JkYjFkZ0lwZld5M1VfZF80NXBKOXdPeEp5MTJPTDEtbzBJZmt4Ul8zaW9ENTRFelVMN2h4SlNzMVg1V3RraUk1bHVkVUFNUVAtbVhQSXB5NDZFU2FWamRqNDZkYjdZYmJ3WVZCSWo2VFBJa05YVUZ3VGhKX29GVlJYeWxudm9zOTdn?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Texto que amplia fiscalização no setor de combustíveis vai a sanção",
-      "fonte": "Senado",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OSTZwLTNITkJfTU92Yy16TEhobzZDZzlkVWZSUDdHM2taeTZ2VWZMSGVBeURMX2JSWGQtWWg4cHdMcC1fOEVDc28ySm5qQVRQbUhwZm9R?oc=5"
+      "titulo": "Congresso aprova projeto que autoriza governo a usar R$ 26 bilhões em empréstimos para pagar Bolsa Família",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPa1FzaDFvUXBSMm5LQWZKbk1aQ24yV28tXzB5Q2o4QUhXWF9FOG42Q3JUT3RRMmh5ZFpPRmp2VkdJRkY1OE9yTFEtZm45TF9CaTBQczRDbEVpSnUyeUtBc1ZxNU42MU5ocTR2elFSZmNuSlhpUlpVNDlYejJjUFdMdWtyamdUYkI5aEd6a0ZBNExHZFhudWtaVUFnanBfa3ZWb1Z4Z2QybzFjSUZ5RWszam1ZOE12N3V0TVN5LXFSbFdTNEZiOWY1NEZDTGpNcWZBcWE3UWQtOXlyWXp1cmR1RFdIYmcwQU5XMS1RQkJEUUVJQdIBgAJBVV95cUxOSnRKYkFuaXB2aVBjQThYbkNjSnAwQ1AweFI1VWlla1lGaTdOblViTkwycmZhLTEwTS10bVRydkUzTEt5UnVmZW9pRFV4V2ZRNFdmbC01ZUtCUzJKXy1ldDJXSkp0OVlZT0NaUGZxV3RyOC0xWEdYYVNkVlFwU1hNcUR5eTZURE5jLUdvbUh3QjN0bngzTnhTLTV4OTFSZ0w5OGk2d0tZTnVocHFPUU9OYjFYNFBScXRtNGwwbnZKYjFNZmVhOFU3Q05DRi1qMHJiYnRjZ3RRclBySEdTNjRfRkl5UmRFUnd6SVlPSFRZaVRaZmE0eVBpTl8xZ1JkSWVi?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "Eleições 2026: Apuração Estadual em tempo real - Minas Gerais - 2º turno",
+      "titulo": "Dos EUA, Flávio Bolsonaro vota contra ajuste fiscal do governo Lula",
+      "fonte": "Metrópoles",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSGVYRENXVElvQmdDeFpMQktyMWVTWktGMllya21DS1VPak4yUzQ3QUlyTFZtV05wUndBM3NTdVpfa0FENEdrR0pUUlB0dXdlRDZHT1k5ZDJ0al9NNi10dzMwVlRTREdka1JQZXJ2TUwzXzJseGhJZ0FoYnMwMHAxZUhqWXVHZmxjendyV25fUlR0eGZlYkptSjNWbXJpWi1IR1E?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "Eleições 2026: Apuração Estadual em tempo real - Maranhão - 2º turno",
       "fonte": "VEJA",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQX0RISjJUWmFVVlRSbWRrRTNZZ2VGU3NZZTQ1eXpVTl9vSkt0M3Z1T2JkTTJwVnN6NmpwbzZ6aklVU0lwQ1Y3SWVpSlhuU1BuNFl4VHBzWWVXSXRPS21zUHJ6Q0xjZGkwUl9FeGxidkRiMTF4cmlzdkRXR3AzaFJabjFSdE4?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSUgwR2FwUmxWOG9NMW01c1c3dkJKaDBqT19FVTVKZmxSZndoTTJ5SzVLa0ZYM1MzeTdCNE9jb05TZTZNUE04UENFSWxVTHhaX2ZfRjUtUWpYeEhoTnVVcTgydy0tcUJtYkxBaHFYcVcyblZJbEZfX1NSOFM1WFNOVGthRW8?oc=5"
     },
     {
       "cat": "eleicoes",
       "titulo": "É falso que código das urnas eletrônicas tenha desviado votos de Flávio para Lula",
       "fonte": "Estadão",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbGhxWjlfX01uNEdZV29hLWpfdUxPYWpfbE5sbUQyWEp4aEhvb2NyZVlrRS1pTW9JNjRsd2Y0Z2dzNkhpOXgzbHYxX2NYY29uRVhZRlhSZm9SU3dlT2JIVkJlb0s1Wnh1TkhrVFRUVEY3ZHhGeWdkVmhuR3RIQ2Z5cjFSUVo2cmlBMUNpZ2hGN1pUM0I5OEh4LdIBngFBVV95cUxOU0VQakk4SFExZ3BjODVhUWZSM1hlQ2NUVW45RGxYeExlaWhZZEdYWk5sZVd2bXdKdFgwdEkwVFRWbl9zZHJPaHJORDdJbzEwNml0eGhWX0pqdzcwcTRSeVFCeWtzX0xmR3RQTkR2T2VxaXBDWlA2OWRtUDBoYWpLUDJlcndzMHU1bDJBaXhGQ1VqQnhCSXBfcVBQekZSUQ?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Trump não disse que Flávio vai assumir Presidência no lugar de Lula",
-      "fonte": "Aos Fatos",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ZTEhGWWNNbkQtUy1obFZ0NVhmT000ODdxU3F1OVdtY3ZJYUk2cDZ3bFRQZ29DT21KemY2dTVaQzhWTTM3dTQybWdKU2NLSHRiM0ZLanBvcjlVMWhYQ3c2MXY5UU53SkpHbDRNSEZ5WC1OeExLd1o0Vk9kalA?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-12T16:58:48-03:00",
+    "atualizadoEm": "2026-11-12T22:07:59-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
