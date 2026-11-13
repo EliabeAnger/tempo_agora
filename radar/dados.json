@@ -165,10 +165,10 @@
       "pontos": 171324.31,
       "var": -0.43,
       "anterior": 172060.44,
-      "minimo": 169942.38,
-      "maximo": 172060.44,
-      "hora": "12/11 22h07",
-      "ts": 1794532075907
+      "minimo": 171324.31,
+      "maximo": 171324.31,
+      "hora": "13/11 05h03",
+      "ts": 1794557019857
     },
     "acoes": [
       {
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.6418,
+        "valor": 5.6419,
         "var": -0.06
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.2372,
-        "var": -0.18
+        "valor": 6.2374,
+        "var": -0.17
       }
     ],
-    "acoesTs": 1794532075907,
-    "moedasTs": 1794532075907,
+    "acoesTs": 1794557019857,
+    "moedasTs": 1794557019857,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,39 +305,45 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Produtores de soja rebatem Banco do Brasil sobre dívidas do agro; estatal nega ter culpado todo o setor",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTnBjX184ajJiRUtvdFpoZHBTb1NldVE0Nkk1SWNwaFRFVTF6NmFKZlZIOFVKOXVIby1UT2FDQVVsYmlrM1F0YnFhbnR6dlg0ZFp5RGdxOHlBX0xyRkZ4OE1lcklsRlJUZmpRMHpfT1Y2bHBjalUwVHlMRGQteFZsTDJRRUVyc29F0gGXAUFVX3lxTE0ya1pKclVJbHhUT09WTVZTeTdWZGhmUFVkZmptQlRPeXAzV1dxcFgteWxha1QyalpFZDV2dkVDWEszZVNJQlJyT1lEVFd2UXRXZERBTTJaSW1rcmVqdm14TkE3UHJkMTdEZ0pkRzZPYmlmTEotcFh4S1hGTVl6WGZPVzZ3c0pqQ2NVYk9aVm1zR1dpNTI1RFU?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Dólar sobe 1,58% a R$ 5,65, maior valor desde junho de 2025, com pacote fiscal e IPCA",
-      "fonte": "InfoMoney",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPemVLNkFlOHhid29adEc1NDlsaHFNUy1WbVBERC1TSHkzQUl6X1VYRlhqa1p1VzQySEZKVWFoSDJpMlhhQW4zN0xUNVhyVGdjUUtIS1NMRl9qVVhCck5PUkJXVGI1cnNWVnZ5bDBlalZBLVdhVHg5am1nalVFR1duYi1pSVFWLXpma0hEVnBEZ19hM2R2enhiWGFzZTHSAaIBQVVfeXFMT3loMTFuN3B6YTc3a1hMR0UwX3pMVjJ4UTc2SXRyZ1ZOZy1PWnZfQkQ2Qm9tT1ZqMjV3d2hlakZDdm1jdVFRSHBtVzc1aUZqUHZXSGVIMEVDdmF2OTRsc0tucmdKNm00SnE1U04xTWJxNEJWWW92dlJOSUpyWUFDVHlJMFMxYW5uMXNLS0N6RGw3UWdMUWhLS1V2bjJhTFljMy1R?oc=5"
-    },
-    {
-      "cat": "economia",
       "titulo": "Ações da Nvidia | CEO renuncia após caso com suposta espiã chinesa: quem assumirá o comando da empresa?",
       "fonte": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBpS3AtOTF3X04yeEFLbnQyTFlzbXBiWWRVTjlHUVV6bkZ3b0Q4Tk45cTNVWTB2QVpxNHR2bWxKN0hxSkNWNGtUaC1NeDdKMUdoc25vVnFFSTMxdWt3Z3RWSlJMc9IBaEFVX3lxTE1XS0g1WUcxaFpDQXFCQkl2RWNtdVR6SWpPeGVOY0l5VzhqMFNubDdwcmU3REc0QXRDVV84cE1GUkk4bVJKQ0VVeTFYQ1ZjaHZkNy1MdjE1cXVxVUxiRDE0MmRXbDJFTUpY?oc=5"
     },
     {
-      "cat": "brasil",
-      "titulo": "Ajuste fiscal de Lula vai de supersalários a incentivos tributários: entenda o plano de R$ 60 bi aprovado pelo Senado",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOYm8wTkRMdlVEM2MxT1ktbkFtb1FnVXVUMWhnOFhWWk1XNGE4UHRrSGxwZ1JYVVJRQ2FnWHNYMFA5aGI2RUxSQ0g3c3Z3aW1JdGlxYnJ5b0RRcU9vQnRyTG9hWFlldlhOQVpqdTFaVlpfWHZEOTNOeG5hd2ttTmhOOG5BMXhGaEVxUEtacGR0Zm5oV0FjbDI4b0ZQQW5uUkpZbFY1UVdwZTVCbjNZekZhX1lnUm0tYmxNaFRaNkRQQVNfM0twZTRJZGxrWTltd2ctVFdfcHV2SXd0WFh5Z2NNZDZYQXpWZVFpTUk5NWRPNmJFNUJteVV3WXMwQWF3b3pNSllfbdIBkwJBVV95cUxQYXd2X1RaUXU2WWFPMGhiVzIxNkZBeFdxR3o2RGp0WXdSNGROVXFGR3B1a3BBdE5yTXQtZW1Tc3l1ZWMweFlmUm9ZdGNYVl93clV6YXY0bjJHa0xfaVpWRGlFTGEwVlRZRlVIQ05GODFmVFZUcXJJSW5LbTdJZ2RGZDRQaGR3YXFraXlyTEJLWmRkYU5sSHRZQ1l0YzViNGdxcVl3dUwwWEhWS3BPcFlQaXRNUWtYSnJENnYtSEJjc0VQWG9mTHgtSWdxRmtta2dEVy1CbkFEYzJ1TWdQRmFZdFNob0RFNmVNbXl3NHZqSXdYZmpEaVRHb3A2UWpVM0dFZzBtbG1Id0p3V3dqVDlwa1RVYw?oc=5"
+      "cat": "economia",
+      "titulo": "Agro do calote: grandes produtores resistem a pagar, enquanto agricultura familiar dá exemplo",
+      "fonte": "ICL Notícias",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBWZFNIUU9qUFd4bkdzSnNBbXQ2b1h1U01zcHFyZDhmMlAzVVRUb2VsSzdHV2dLN2FZWEFhR0pNRVE3dTV5VE1JdHpmWDJLZFV6dUxkUl9WYmtUWDVvZEw4MTJWMXBtMEtOMHd4MEE4RTNKTk04Z1NRZ1Z3?oc=5"
     },
     {
-      "cat": "brasil",
-      "titulo": "Abaixo-assinado contra medalha a Eduarda Campopiano tem 300 mil assinaturas",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRFZOSzladXR0WVZ0VGJxWXhidWttV3gzV0ZjUXlISGF6NlhCVEd3cUtSM0xWN1FtRFNjUnNKMlc4SkhsRTJ4b09hYnNuQWxoblpabk9SUE9rTFc4blZhUE9CRzlCemM2R24tMS1fc3ljclNLeTBLVDFENTRfOU9NVUxSejNXQnVlVUl4WmF3LWFHQ1NLZ0FCUjBWLWt0SGxqZ0JwM3hudnIwSUh4SmxIU2xZUk0?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Milton Leite se torna réu por promover interesses do PCC no transporte público de SP e decreta prisão preventiva",
+      "cat": "economia",
+      "titulo": "Inflação desacelera em outubro, mas continua acima do teto da meta do Banco Central",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQNWFXQ2puT3c2RkhLTV9MYlVYQTdMbGYyY0F3c2pzOTl2MHJZRFpBZUFBOGV2Q3pxOVdSVFdLUU1ZSlFKRlJSdGRhc2hjeGlSZGVneUJ1RDNuUDJqaFBZem1pSnVuWmp6WTR0SHZSUkNYUk1mdEs0R1o2SklNeWQzcTZGT3oxUjZBUWdKTnc4RV9OUjZ4blR4SnR5bWpIekxFRmFQNnFyU2wtcUJHOWxOZVlaNkNwWmFKb25HbzZncHBSVWpuRWo3ZjdJSzFGbHRKaTllelBzbXBxYzdUNUZzUS1BTnBxY3BYeHFGckQwSWxNVW93cmI4TE9Jckx3LThBdGlzWUFmdVRGbTNLcjlZM2tUNEYtNHBh0gGnAkFVX3lxTE9jd3Fxa1VmcG5lZzZmMUVjeVhUSnpHNmNUVzE5VUVESnAweThhbU9GeVRrOFd2dkotNWxUTktTVGFvQ3hOTndxTkZEN0doekV1WUlCZ09MWkdzcEZMRmhfREhWdWk2aE1pSzdnc2hKRzJMRk1ySk5XbHJpT2k3R3BFZUZBVFo2cS1ZcHhPeU1RbGZqT05Xa1NfMGZ1NmktMEw4VUxSNFBaYTU3ZEQ1UmdaaFhDM1JiZUk4RTFKUjNld29BazJvamI4TGRGOEg5Vl9CcVdqUVNlVHNOYlBNZS04U0RLLUc2cWV2SW5zRGhpckxRNzdWYUtuazFIT2NobGV5N1haeHczLUtrT1k0cEdIWWJPZGtieU4tYmJhZERPNW8zZXZvRFk?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQd2hkTk8xc01WUVd0UUoxekthRUx3MWdHeW0wM0lNUUlGdk96TXBRcWlaZERzUVVGa1dVYllqOVdBRlF1RjRON2xHcTI3aU05cjFXYzhvcWZBV2syV1g1dmkzUDBNdEtKRG1VY0N5TDQzWmhOQ3lzdFktQjNtdWhHSktNOGNGakFua3RVSms4MktsSEh0OWY0ZjVpYTE2SGNFUnNKaTRhMnk2aW5LbzgyVHpKN29CRGRhRElLN3JSZ2w0VEJDeFY2d0VvSDFLSWdXd2dSTGdXTGg2Y0RW0gHrAUFVX3lxTE9ndlROWXRNWUJpQkctQmRuZkV2Q1VYVy1XTThDYV9Oc3JyTV8ySkxuc2JGSXBsTzBoR2ZHUVhuVDNGYWRfQ3pzaVU0LUR6d0tpSDAtQVBPQ1FMWFoxQ2pYS1lrVldfR1hjWktSSzFlMVRGQmVjcXdpWWlkeXY4NE8zX1M1dzlDWVc3eVFBNk9TUXQ4UUtVTFpCU3o4UlJXRktVTEkza1BUa1N3blFza1JuVExRSmlNQTdBcFU0UmJsWE1FVGN2WC1GY3pEd3VCc1hPSzBSR1lrV2VZNlBoMFFlM2t1V1dsTEZadmc?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Senado aprova pacote de ajuste fiscal do governo Lula",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQU1VWREhybExNYU1RbXhtMVZ5YU9mampIZzVsWWxqc3lIa2VNaUVHdG52akZPODRqMHJhX01SLTJwVHhoSFlRZVRXNHRCQUVZSzhQWl9CQVhNTXhqU3dQTHV1MkJ2enRnVHBheXFYaERabXhsRzgyME1vcVYwYk9jRm1odlJ0cXFyZThFT3loeEdlZE04djI4SVltdS1jVWc?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Eduarda Campopiano: chega a 350 mil abaixo-assinado contra medalha concedida à deputada eleita com discurso que nega feminicídio",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOaFQ3bTd2NGYwV1JFMGJHaThsNFlWZndia3ZXTGdYMHhPMFQ3azJQTHJ5MW9iSXFfZkMydTZmanMtWjIwbm9SdXA4Si1LQWRqR05vcnpKZnRqcjJYV292Qk9uRURhT0R2RVZ4a1d0a2xIY3pacVBtOFJCV0VrdzN3dkd6Y2MxRUtjdGxabm1VSWVxQklndHVTS2JVT3o5MGxhQ3ZFbzUwZnU0cHJrSVR3YjhPTmwzMmZ6R2N6RGN0OWFjbFJKOW53TzRFNnF2bnV1SC01SmNuRVJwQTNhVXlyYXRVZXB6VmphVzIyODZyRVNKVDN2bXR6S3NWenNRaWFQVmsxZVVITVdyeE0xeHfSAZwCQVVfeXFMTUF3Ry1VNnFLdGhuQUFPYnp6ekRLMFpicTFhajQ5MVhfNGZBLUZ3UFR3cG80dkFBUzlkVGNEQ1R3a3ZZczdNM3dmYk1YZVVxeV9XZjZXVXBHTzJVYlVMeU5MOTNYRmJLWlRndHpYQjRiWmNCQU04LS1kR2VCZVBsaWI5YV96NFA3YTZSZXZEakV5cUVsU2pHSmhCUmNvRm9pV2hsSHh5RXZubHlpNU00UllNTHVKb3NvX2preEgxc09JMi0tTEJPMjR5RWl6elFzMUR2RkNaMzZxMHZzc0RIaE5UME9faWFVTERwWlFFTGxlal9RUDBxSWxYRi1ZUWFMb0F0eV82NWNXS3BEOE1TRGgwbVdrV2ZVbmlfYUQ?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Zanin nega liminar do PSD para realizar 2º turno ao governo do RJ",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeEJBSTNIdkUtT3BjZmFuZ2FqSUZGNGVia2dUSkE0cVVaNFFGWFdCVmc3bjJuSkpFMnRjTFZTTzFKSVI4ZkFzNWg1b1AzS3dxUndiaUNJb191alFFbzY3TjNjYXYtVVNkWXVNR0p0M2kxdC1NeDRnekI5a2VQbDhBSFg3d2hyNzJIQlpjMjl1OFlTSU5Ba3ZhX24zTXNqMGFJRHJudm5zLVJONDRPNC0zejBIRnpqems0eEtzVF9SMGhOYmFNV3JpT9IB1wFBVV95cUxNYkY2Nkl3REFTS2Yxb3NEb1BPaWpPNUdqTlBSbkNQY2d4R0oxYU5ibGhJaFZxd3hnVnNySWlqSEM2UlI0aEVhcUROdFhiTkRjUi12SWYxN1Zxa1I2UC1UMUduOUVGa0JtaS1meFZSbXFzamtVZ1ByODEwR0pjU1NpQlQxWndQNFR6bmVGNGJ4UnI3MkFyMjFqNHY5MzhORElENlBLbWZIUElUeDlVc1dPUDFNcHNUSUhpaHI0VmR2TEJ4SGtmd0ZUaklZWFpnMVZqSWQ0aDF0cw?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Acompanhe ao vivo: sessão deliberativa ordinária – 12/11/26",
+      "fonte": "Senado",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OSTZwLTNITkJfTU92Yy16TEhobzZDZzlkVWZSUDdHM2taeTZ2VWZMSGVBeURMX2JSWGQtWWg4cHdMcC1fOEVDc28ySm5qQVRQbUhwZm9R?oc=5"
     },
     {
       "cat": "politica",
@@ -352,28 +358,22 @@
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNWNlaExuQnQxUTdIWGJER2dpUHlwYlZNRnVoVnNHeExQdjdXSVNOc3JkYjFkZ0lwZld5M1VfZF80NXBKOXdPeEp5MTJPTDEtbzBJZmt4Ul8zaW9ENTRFelVMN2h4SlNzMVg1V3RraUk1bHVkVUFNUVAtbVhQSXB5NDZFU2FWamRqNDZkYjdZYmJ3WVZCSWo2VFBJa05YVUZ3VGhKX29GVlJYeWxudm9zOTdn?oc=5"
     },
     {
-      "cat": "politica",
-      "titulo": "Congresso aprova projeto que autoriza governo a usar R$ 26 bilhões em empréstimos para pagar Bolsa Família",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPa1FzaDFvUXBSMm5LQWZKbk1aQ24yV28tXzB5Q2o4QUhXWF9FOG42Q3JUT3RRMmh5ZFpPRmp2VkdJRkY1OE9yTFEtZm45TF9CaTBQczRDbEVpSnUyeUtBc1ZxNU42MU5ocTR2elFSZmNuSlhpUlpVNDlYejJjUFdMdWtyamdUYkI5aEd6a0ZBNExHZFhudWtaVUFnanBfa3ZWb1Z4Z2QybzFjSUZ5RWszam1ZOE12N3V0TVN5LXFSbFdTNEZiOWY1NEZDTGpNcWZBcWE3UWQtOXlyWXp1cmR1RFdIYmcwQU5XMS1RQkJEUUVJQdIBgAJBVV95cUxOSnRKYkFuaXB2aVBjQThYbkNjSnAwQ1AweFI1VWlla1lGaTdOblViTkwycmZhLTEwTS10bVRydkUzTEt5UnVmZW9pRFV4V2ZRNFdmbC01ZUtCUzJKXy1ldDJXSkp0OVlZT0NaUGZxV3RyOC0xWEdYYVNkVlFwU1hNcUR5eTZURE5jLUdvbUh3QjN0bngzTnhTLTV4OTFSZ0w5OGk2d0tZTnVocHFPUU9OYjFYNFBScXRtNGwwbnZKYjFNZmVhOFU3Q05DRi1qMHJiYnRjZ3RRclBySEdTNjRfRkl5UmRFUnd6SVlPSFRZaVRaZmE0eVBpTl8xZ1JkSWVi?oc=5"
+      "cat": "eleicoes",
+      "titulo": "Brasília Hoje: Flávio Bolsonaro vota contra ajuste do governo Lula após ter prometido corte de gastos",
+      "fonte": "Folha de S.Paulo",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQODV5TlFNT2trbFQyM0ktWDNra2VFeVd0SHgzcUdmR3Z6djR1U3UxalJDWmZaOEQ2QjBXX3FpRGNnRFVDZkE3TTdjSFYxeWVLYVJiRThvdzJvWlcxUGM4RFU2LVU1eTc3QmthVEZ2ZmY0Smc3dTExUlJxUUJaZk5UTHdJTmpUbkdZeGZqODZ1a3lGTlJFT2JaMnVfUkdwWUhLYjNPamJYUXhIYkFwUjRGc0lleXRyUFFFOXBOSTJNeTUwN01falJOZTZabWw4THl2ZWVnc0R3OWpLNy15cFRQcUlrLUg?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "Eleições 2026: Apuração Estadual em tempo real - Minas Gerais - 2º turno",
+      "fonte": "VEJA",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQX0RISjJUWmFVVlRSbWRrRTNZZ2VGU3NZZTQ1eXpVTl9vSkt0M3Z1T2JkTTJwVnN6NmpwbzZ6aklVU0lwQ1Y3SWVpSlhuU1BuNFl4VHBzWWVXSXRPS21zUHJ6Q0xjZGkwUl9FeGxidkRiMTF4cmlzdkRXR3AzaFJabjFSdE4?oc=5"
     },
     {
       "cat": "eleicoes",
       "titulo": "Dos EUA, Flávio Bolsonaro vota contra ajuste fiscal do governo Lula",
       "fonte": "Metrópoles",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSGVYRENXVElvQmdDeFpMQktyMWVTWktGMllya21DS1VPak4yUzQ3QUlyTFZtV05wUndBM3NTdVpfa0FENEdrR0pUUlB0dXdlRDZHT1k5ZDJ0al9NNi10dzMwVlRTREdka1JQZXJ2TUwzXzJseGhJZ0FoYnMwMHAxZUhqWXVHZmxjendyV25fUlR0eGZlYkptSjNWbXJpWi1IR1E?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Eleições 2026: Apuração Estadual em tempo real - Maranhão - 2º turno",
-      "fonte": "VEJA",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSUgwR2FwUmxWOG9NMW01c1c3dkJKaDBqT19FVTVKZmxSZndoTTJ5SzVLa0ZYM1MzeTdCNE9jb05TZTZNUE04UENFSWxVTHhaX2ZfRjUtUWpYeEhoTnVVcTgydy0tcUJtYkxBaHFYcVcyblZJbEZfX1NSOFM1WFNOVGthRW8?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "É falso que código das urnas eletrônicas tenha desviado votos de Flávio para Lula",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbGhxWjlfX01uNEdZV29hLWpfdUxPYWpfbE5sbUQyWEp4aEhvb2NyZVlrRS1pTW9JNjRsd2Y0Z2dzNkhpOXgzbHYxX2NYY29uRVhZRlhSZm9SU3dlT2JIVkJlb0s1Wnh1TkhrVFRUVEY3ZHhGeWdkVmhuR3RIQ2Z5cjFSUVo2cmlBMUNpZ2hGN1pUM0I5OEh4LdIBngFBVV95cUxOU0VQakk4SFExZ3BjODVhUWZSM1hlQ2NUVW45RGxYeExlaWhZZEdYWk5sZVd2bXdKdFgwdEkwVFRWbl9zZHJPaHJORDdJbzEwNml0eGhWX0pqdzcwcTRSeVFCeWtzX0xmR3RQTkR2T2VxaXBDWlA2OWRtUDBoYWpLUDJlcndzMHU1bDJBaXhGQ1VqQnhCSXBfcVBQekZSUQ?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,14 +1536,13 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-12T22:07:59-03:00",
+    "atualizadoEm": "2026-11-13T05:03:42-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
       "BC ipca12",
       "BC ipcam",
       "BC igpm",
-      "BC poup",
       "BC desemp",
       "câmbio (Yahoo)",
       "Ibovespa",
@@ -1551,6 +1550,7 @@
       "12 notícias"
     ],
     "falhas": [
+      "BC poup: https://api.bcb.gov.br/dados/serie/bcdata.sgs.195/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
       "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
     ]
   }
