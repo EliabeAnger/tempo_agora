@@ -162,29 +162,29 @@
   },
   "mercado": {
     "ibov": {
-      "pontos": 172707.28,
-      "var": 0.81,
+      "pontos": 172457.77,
+      "var": 0.66,
       "anterior": 171324.31,
       "minimo": 171132.23,
       "maximo": 172715.48,
-      "hora": "13/11 13h29",
-      "ts": 1794587341896
+      "hora": "13/11 19h40",
+      "ts": 1794609643433
     },
     "acoes": [
       {
         "ticker": "PETR4",
-        "preco": 45.04,
-        "var": 0.76
+        "preco": 45.3,
+        "var": 1.34
       },
       {
         "ticker": "VALE3",
-        "preco": 63.42,
-        "var": -0.83
+        "preco": 63.5,
+        "var": -0.7
       },
       {
         "ticker": "ITUB4",
-        "preco": 42.53,
-        "var": 2.04
+        "preco": 42.27,
+        "var": 1.42
       },
       {
         "ticker": "BBDC4",
@@ -193,23 +193,23 @@
       },
       {
         "ticker": "BBAS3",
-        "preco": 15.08,
-        "var": -2.58
+        "preco": 15.1,
+        "var": -2.45
       },
       {
         "ticker": "WEGE3",
-        "preco": 51.13,
-        "var": -1.01
+        "preco": 51.31,
+        "var": -0.66
       },
       {
         "ticker": "SUZB3",
-        "preco": 55.12,
-        "var": -1.64
+        "preco": 54.77,
+        "var": -2.27
       },
       {
         "ticker": "B3SA3",
-        "preco": 14.92,
-        "var": 1.08
+        "preco": 14.89,
+        "var": 0.88
       }
     ],
     "juros": [
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.6346,
-        "var": -0.19
+        "valor": 5.6666,
+        "var": 0.38
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.2213,
-        "var": -0.43
+        "valor": 6.2455,
+        "var": -0.04
       }
     ],
-    "acoesTs": 1794587341896,
-    "moedasTs": 1794587341896,
+    "acoesTs": 1794609643433,
+    "moedasTs": 1794609643433,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,21 +305,21 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Falha no Outlook, Teams e Copilot rende memes nas redes sociais",
+      "titulo": "Fachin atende a pedido da OAB e suspende prazos processuais em razão de falhas nos sistemas da Microsoft",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRldKOFpMOUlHdE5GN1ctb2NwM2play0ySDNGNnp6TTlRdmVacjJFNXNVM1ZOX3ZzZ21iVmU2akRtOVJfYUpDaUFBWDh1d1QzTmZZVW5yYzNvOExXbHlfeTJoSTI1czlNeW14N09uQ2NHSGpXLUFpZ3JvRUhwTzU4Nk5sbEdLa2xCazZXSmF4WGlMNEN3cWNFeFNCanNOUklieVk3YkNPb1J2VUhXc2lJME9DMGxrUy1zZVJJ0gHKAUFVX3lxTE92LXhpb2F4aXFfd0s2bFl0VnBNUk85MmppdEFuSmxac0QxTTYzYmVHY3p0Wm05aENYU1BpVlBlczJuNEhsOVE0aUg4eE9mWm9TZV9BZzc0S2NiLXgwUl9LMV9XVi04N21TcEhNbjlaeVZkMlZObDM3Zkx5R1RQUVlhSm03N0ZsWW9aTEl4ajZ0NDN4dlFia05YS1VmZUxHMjhyMzdvR29XekhSZy0xc0FZa1Q2ZjNaY25YNElLQlFhbVJ1SmJ3VUNYalE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPOGlYTDJnSkpMcG05VUg3Z2FtQ0JZOUNpRE9PVVF6WmZoV0lUdHMta1JELTgwVWFSdUxHSVp2blUwWUFITkZ5Uzd0SkdnS0NxWlZlZXd5MUp4dHlxSF9LRnppbmhCU1RIRV9JWWh6ZTZ3R0ozQjVvaXpVeFltZV9TcjllY0pVZlRZTGdLMWpfanBSZGlyaTQ0eEt4TUFwMkRpdkdORUNuOV9zTXJrbzVGYU9KOHVoZG9VTHBSdThQNFJ0eWVoZnBaREpkUFR0SnNRVlJzekU2bktYRTd6TEtabNIB7wFBVV95cUxPcjJNU24tM19UbXBhVm8xekd4YjZKbXJkeEhVZnMyMG92ZmJ3bkFINXZ5bGhIemRRMDdCdU9sM3djOXZUMEpRNS1zNXBkdXZnLXBLd1lBTlBwV3ktek1wamE2TjFlNnBHSWh1aGFnVkQwODdYeHdaTUdzWlJBYTNfWExaM3IxdUFsOW1ic1RiUHBDRDN4b2NIX2VZY2NNdFo2alB1bEtDelJCVjBrX1MzUjd2dUtxSFlvY1FhVWxFN2hfSVFFS1phZTdVR2NmU3lQY1c3X3E1Vk1KLVZGcnZaWm9IRFg4bEFHenJES3pnMA?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "“Sou um m…”: as últimas horas de Jensen Huang como CEO da Nvidia",
+      "titulo": "Dólar hoje vira para baixa de olho no fiscal e dados econômicos",
       "fonte": "InfoMoney",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNDdkaGw3SE42UU80LW52VTR3REEzdmtjSHNxQjZOMnVzS3JDb2RuUDF6MTQ0YkxxR2JQaWVTSWdDWXBVWnRpWXpxajJfNmtPV0lYSUszelFjUnowbWtoZzVDOEdvbWFaVmNUOE11cE1FWlMwTE9pTUcxZFJQTGloZVJZc1hWNlBGZmtfT3BzdDBDLUVHX2hMVnRzczA4aVBi0gGmAUFVX3lxTE5pNk5VQUsxbHFINXd3UlFvUnQ1VGZfTEstbDdZVUJMenVXN3lzaXhUZEdROGc4cTgwMjJ4V1JzVGFxMHNDbG9YNHFEWEViRV95NVFQZTI1WTlVeXJJTXRwc2hPcTB2STlxSHk2cGIzbW5wN2dKS1ZpdWN1cmxyZklSamdkRHZEZEFJRVAzcGg0eTl0anVUNmVoQzZVeE5NcGphR3ZwZXc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOakIwN1ZneWFjMTlUOWx6VjItUERCWEN5RjM4eWI3WVNJeVEycmQ4ekxtaEpJMWZUMThCQjltcXdUNFY5THBqNTQzVkl0Y0puNDNQVU5JSExWaVNRdURlU3BzQTFMaUtmOEY5VFAwR3k5bFpOa3JDX1FCcUIwWFBVWXdiMkp0aUNRcVRGQmpEM1I5X3c2SHZZcjVGQkjSAaIBQVVfeXFMT2ZISV9Ic0pkbFJueDZKSXhad1p3MGdySWplR0llTVJ5TGdyOXBRdzBrVU1mNWd5SmVJWndNbkRaZncxaEdualY0ME54a3JZSGZoalV1U1hrbjFiVi13MW9vRnp0UmZjY01fLVlEUHAtb19IUHdxcVFOM0RNa3NsX2NIV05GczZSdUg0RGlaSGlLLXZOQm1xVUZiVnYxRE1ieFhn?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Tesouro Nacional sofre ataque hacker que expõe dados de 30 mil cadastros e 4 mil chaves Pix",
-      "fonte": "ICL Notícias",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAxNzFDNzdXSzNWV1F4eEFZdXQyeDFqT1huTm1DajJ3U0tqN19ZNlA2djhISVQ2REtFb0dadVFJbW5KOWNkVThJakZRRjBuRVRyTGtJODdxMGJ6V1hELU1ZendyRlp2YlFrVFE3WEJGTEdWQmtNSzdLYXJNekpGdw?oc=5"
+      "titulo": "Debate sobre juros parece disputa de torcida organizada, diz Galípolo",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVUliVFl5WnZkLWlHUlRIOC1VWWZoOVpLLTJKNVFmbm9SOXEyM0RzcHliQWExMHJ0WTZmOUdXczRrTHBZcUFWSE9wNW1mNkJSc3VOYURiSC14enFVN0hhMW9VSGNHOW45T2hCQ1VVc2U4TGdYTnNpWmhYRkdub1pzTDRUSmR6eWRhclppdjRhWGVueDcteXUyRE5YS2tUczU1MTItM3ZXS1VjZ05mRlp3X2pyM0NWS19kZVk3UFlqMUZHcUtYV1E?oc=5"
     },
     {
       "cat": "brasil",
@@ -329,33 +329,33 @@
     },
     {
       "cat": "brasil",
-      "titulo": "PF cumpre mandado contra ex-chefe de gabinete de Mário Frias em operação sobre 'Dark Horse'",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPWGN5MnNyZ1hTNVpPSlU0ak9TTnBWM2NMRXFMM1VoVWdKWktvUTNFUm05b1lRakhxbVktUzNfbGx4WlY5ejB4NGhCeG9wTng3OFoxNUhQeUhKVnhWc1FtNlhRNHk2ZHJiZGRaQ1V4dFp1Mmx3M19QdlZrOFp5QlN5LV9yV1gwX3hWTmsyNGhzTVNKT3dQM0M2M1pTS19ib0tlWU1MbnlUM09ZWUY2bVk4TXlkanVlNWRZZG0zRm5UTVVvWmNXaDk0WjY3UHZHSzlmbmZZN19KcnBiV3o3TU91aE5NZDRXd9IB9AFBVV95cUxNcnlQSlZDTDQ4MGEyaDZVckZsdFJkNVV6YnBnVy00WFlVTzUxU185UEhWVUdLYW1RTExEX3M0V0d4RFJpU3JuRUZlWnJ1dHJCMDBKd3FDUEFydVZHVFlrUVlpUGFJNEVwSkNKQ0d2YU9HS2JXRU15OFV4U2podlNneHFKRnVZb2x5VkhvUXVmRlFRZjhvd3BtOUdHNXByQnh5aG50VmROQWRZMUVSUzZfMGRLVWZSZlp0VmJRbEdEV1JLT1o4MWtoSjVMbjBGVGxhQnh4QzV4UGR5VlJmM2RJYms2V2RSMGtkQmE5UmY4WkhyT1hM?oc=5"
+      "titulo": "Enem 2026: saiba como controlar a ansiedade antes e durante a prova",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPR05kOW1nQ0hkZ0lEb194ejVhdHBPZWRzVmVZNGd1UjZWakhPelZXa1N3Ul94b05mWTZ0WGRuWHFPTUowWmFPbjljVUpxS2dMNG1iRDBkZjAzY3RXWTdRdTFFekxsUUtVUGNBakNZcE5ocmRIdkM2TTVZZWViMzlqYjJORzBlbUtVeFBqQ3lFbFRXSHdUM241OTBzUFRlTDI2MlpkR1YzV1ZYamdoX0E5Uk1FbFVMbE5ROGtTSw?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Douglas Ruas escolhe delegado de São Gonçalo para comandar Segurança Pública do Rio; veja nomes cotados para PM e Polícia Civil",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNUmpHbmFoQ1hhaVh0bl8yMzMxUk9Td2FOcXRnc0JpRDVUck0zVTRKbWFaeEF1SzNQejNGYXFBakpDM2RuZFFuT2lNMlZqMkI0bzRDa0hHc1BTd3JGcF80c2VMb1RYdHNDaHJMSmZiMVpweXZ6WGZmWEpyUUN5OTBYNEd5OEFoZFVoaU9CZVlRa1JYUW9QaHphSk5UX1hiMGxPblQ4aFEzYk9id2Q3RHEza2h4NWVBc3NOZm43Yy1kVklOeTNvU09EdEp2ZTBkT0VqMHNUbGp4dVFHVW95eF9iQ2FwT1JxOGNudkZHX3VWcXpFOHV1dVhweS1Sd1NaRW84VllnSjBQX205Ymxq0gGbAkFVX3lxTE16WVBGX2hVWFR5S3hRSmdIQ1RaVEx3el9LYnhHQUdSZlZzdzdRc2RqTnkwdjl5RUF0MkdvVzJvaWYtVTNQOW1DTWRoMWpKZUhrRW81WW94TjBIdk5MNk9Ea0FLTzRtQ2xFNjJDRGJCZ21wdGZwN1lBS1lyVHJINlVNU1RaMVkyU0ZMTExvb0RaYktVaFNzM01mTXpEREs3TmRTdlc3aTVCUm1JTjJfZVpjSk1aQXdQd2FEWllVVUV5RXEyYkFOUi0xNVM2bEtMLUYzZGlaNFEtYjVtQmtWdS0tMjd5T0U1WENTLTZjLTRsLWphaUFNMy1NTW1POXlXLXVjQTNDR2pDMGVoU0x0d0xZQ0hBVlhzS1ZlbFk?oc=5"
+      "titulo": "Vice de Nunes quer ouvir Bolsonaro e fala em deixar a Prefeitura de SP",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPT0xoa09Md3o0SmpkVDBFeVpoX3NXY3ZReXBJa3hqOUx6SVYzNUVCcHlRNkI3ODlGVVB2VlZRMEFsNzZkcVBVMXBFaVFobXpwa0hQa2E0V2lPX2pYbl81SHVBVlJGSmhuanRFVVAtWXZVdkNCOFZ1aTJqaDhyMmk3dlhEckJTSkFOSzJ3TWZhZXR4UFVMNURIYzRVdzJLN29QSU0wRXZ2azlZRm1EWUV6eFV5OHYtb0I5bG9n?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Congresso aprova 24 projetos com crédito suplementar para ministérios",
-      "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaGIxdmRrYjBmMmxKSW9VVjRzSFlfWVBBNTVDLU9Na2M3U1lkcUdoajRiQmF6ZGpvR1FQMkFjem9WbVNXSFJhT1luV0wyblVWQ0hFdDV1dmpyaVBJR19yaWJJcjRxVVlBcmZ0U0R5QjRvTzc5QV9KZnptdUhBUlhXVmtYT3ZyX3BWLTlmX09XRUF2V1d5M3BTaGl3d0xFYkJWRzlrOUk0UlF4djBDQWFEbjBraU9Da1ZlcS05YmF3NEdhckZOWkE?oc=5"
+      "titulo": "Notícias EPE participa de Congresso e Missão EVEx Lisboa 2026 - Empresa de Pesquisa Energética",
+      "fonte": "Empresa de Pesquisa Energética - EPE",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOHVIMzk5aUl5N3ZXdnRDWlFPRzVrajR0WktHSUNoQi1BdXZaUEhiOURzWVZzbkp6ZkZZTmxKR1BiRUs3YnRWbjZwZWhoRllzNjF4eGhkSkhobUJoMzlTYnZMQmJncThnanpGZWgyTXIxY0ZMOC0tQmtQemVHRE9DSTExaF9CSENpRklvUGp6bzVoQ2ZTNGRBMExQRzg?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Subsídio ao diesel deve sair da meta fiscal, segundo proposta que tramita no Congresso",
-      "fonte": "A Notícia do Ceará",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeDNWRjFzWDAzclhwRnhhVzBQYVJURVNVUGNYT1htdFllRTdPZ3NWd3gtRVhuWk5Sd1ByaGY4bm9nRmFEOGhwOGU4c1JBeW1xU0NYMnZFM0V6RXo5OXh6ODMwYU9VRFluQjFHd09oWHJiZEpTODhSUmE3Sk9pTkRiUUF3V3R5ZXVMUnoyd3dSRU5vTDcyTWZxSVVQTGhPZG5PU0hDdTVOSkJZRlJEcWVSMVRHXzlpU2N0?oc=5"
+      "titulo": "Senado Aprova: Proteção de verbas para internet nas escolas — Senado Notícias",
+      "fonte": "Senado",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OSTZwLTNITkJfTU92Yy16TEhobzZDZzlkVWZSUDdHM2taeTZ2VWZMSGVBeURMX2JSWGQtWWg4cHdMcC1fOEVDc28ySm5qQVRQbUhwZm9R?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Entorno de Lula espera troca na articulação política, alvo do PT e centrão",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNWNlaExuQnQxUTdIWGJER2dpUHlwYlZNRnVoVnNHeExQdjdXSVNOc3JkYjFkZ0lwZld5M1VfZF80NXBKOXdPeEp5MTJPTDEtbzBJZmt4Ul8zaW9ENTRFelVMN2h4SlNzMVg1V3RraUk1bHVkVUFNUVAtbVhQSXB5NDZFU2FWamRqNDZkYjdZYmJ3WVZCSWo2VFBJa05YVUZ3VGhKX29GVlJYeWxudm9zOTdn?oc=5"
+      "titulo": "Camilo Santana é cotado para pasta da articulação política",
+      "fonte": "SBT News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZ0hkU2VmUDNEcVAxZUtxc0Q5WDlSTkc4MmY5Y3hrYW1LblktU1dOOHlpb24xUUhJLVFaWmk4X0FrS1k1RXo0ZWUyemtKWi1MNTNkQWMySUxXYVNjUWdmclE5OXpCMjVVMzVxeEVNUTdyNVlQeWZ5bk9qU1pUU1hRYVdUemRQVHR6cFlkMVRmSzAzZFZFdHVKMXBrQkJKYm5VYTBwYVJFR2pycWY0Z1dj?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -365,9 +365,15 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "Eleições 2026: Apuração Estadual em tempo real - Minas Gerais - 2º turno",
-      "fonte": "VEJA",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQX0RISjJUWmFVVlRSbWRrRTNZZ2VGU3NZZTQ1eXpVTl9vSkt0M3Z1T2JkTTJwVnN6NmpwbzZ6aklVU0lwQ1Y3SWVpSlhuU1BuNFl4VHBzWWVXSXRPS21zUHJ6Q0xjZGkwUl9FeGxidkRiMTF4cmlzdkRXR3AzaFJabjFSdE4?oc=5"
+      "titulo": "Nos EUA, Flávio Bolsonaro fantasia com nova eleição e reivindica título de ‘presidente eleito’",
+      "fonte": "CartaCapital",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMmZFaU80bTJOdVR3UEtVYk1mTWVCUmZRcjYxZ0wtVkQ0QURBZ09WNnBPNXZIYzd5VWNtaTYtVjdFbnhOajR3NWJuVzVvN2dwNEJ4ZHFILWU2SFFFUHhCTV9KWS13b3FvM25XcEVtbGhsTEFBdlVOci11LUJnY2dDN2JmZ1dUV3A5TnprenVOT3gya1hwdlR6X3N0ZnRHV1dWaXZEZnRXYUlMVnlFZndRQnNNenAwbmZrcGQwNXAzNU9HQ2RkeVhhTU43UTEyUQ?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "Flávio Bolsonaro vota contra ajuste fiscal do governo Lula",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUkFWdlZ0V2VEdU9rRzNIa1VXR3l4NUFOS1M0cVA1WUxJeFpWQ2NVdmdUMVhmaU9ILW1RaEJ5MGp2VndZMUhfdmo4SmF5aW0tVFBWb25qWHZjT2lHcHJPajQ4V1pPcUpXV1NPaTJoRW5uV0ZKdU14cHg1WUJUSjlJOTBKNVZkYUdzR1FWZWlpVjNMS1pvanRoOVFqYThYUQ?oc=5"
     }
   ],
   "indicadores": {
@@ -400,7 +406,7 @@
       },
       "poup": {
         "valor": 0.6699,
-        "data": "11/11/2026",
+        "data": "12/11/2026",
         "fonte": "Banco Central"
       },
       "desemp": {
@@ -1530,21 +1536,21 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-13T13:29:04-03:00",
+    "atualizadoEm": "2026-11-13T19:40:45-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
       "BC ipca12",
       "BC ipcam",
       "BC igpm",
+      "BC poup",
       "BC desemp",
       "câmbio (Yahoo)",
       "Ibovespa",
       "8 de 8 ações",
-      "11 notícias"
+      "12 notícias"
     ],
     "falhas": [
-      "BC poup: https://api.bcb.gov.br/dados/serie/bcdata.sgs.195/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
       "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
     ]
   }
