@@ -167,8 +167,8 @@
       "anterior": 171324.0,
       "minimo": 171132.23,
       "maximo": 172715.48,
-      "hora": "14/11 08h32",
-      "ts": 1794655947465
+      "hora": "14/11 15h09",
+      "ts": 1794679770111
     },
     "acoes": [
       {
@@ -253,8 +253,8 @@
         "var": -0.04
       }
     ],
-    "acoesTs": 1794655947465,
-    "moedasTs": 1794655947465,
+    "acoesTs": 1794679770111,
+    "moedasTs": 1794679770111,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,57 +305,57 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "O preço da ‘ressaca digital’: quanto custou ao mundo a pane global do Outlook da Microsoft?",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOME1iWnNZSGZrenMyZVB0cTZVSWozY3JGd2txZFQ0QXVFU2g1MERGS0l0VG8xX0NmeGFTZkJWdzFEdnZkeEtGVDNYWTlpVlYyRFVlbnRjMzZrRTItbG92T2lHdzV0b1hfM3djT0tiakZaYXhiU0pSbndtY2ppcWxIRU96RmRrR1g2NmJtNHpLYUpoLUczTDBJRC1TRlFDMTd3SC1fWHhrVXB2aF9laWdpbXBuZkdzWk50djNKd0N0YWRfNHFlVjdfb2pyaVROVWZtUVk5NU5ybzhhUi1KSlRz0gHuAUFVX3lxTFBDTkxmMjF3MlBCX19EanQwaDVjZVBIQmZlNXNFTml5WkZRSHJ2OTA2cDVzcXZqZ1F4ZHRfTHpLNDJZZEh3R185QkxTankwVFV0emZQOWdEWFJ2V05CbXVxV0MycXJwaXFwNEtodU0zQmNJWE1XZjlmWHVwTVdiZGdWOTg2TGY3VFpYVnNLdmw5dnZtRHVHa2tqSzMwMUJIUnhldk90aUc0UXBsVUhPTWdoOGxxejBCd1RIRGVZM0VDdm5MdThYT1VnU2tlUXdDOWZyN3o4LUlGTTl6ZU50QmdJSy1HdHdTWW9mVUFNRFE?oc=5"
-    },
-    {
-      "cat": "economia",
       "titulo": "Crise na Nvidia: veja em 8 pontos como traições levaram à renúncia de Jensen Huang",
       "fonte": "G1",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQXNla2xVVENUWDVFWjVhbEo4b1dsdXRaS0VtZlNLd1IwY3FUSmcxc3ZyeW53YUZsS01NVm84MjdNRzAtaDdsaVdWWXJKUzlGaXd6UEJCMGhsNU05OVZSd0hKRXVtZktyOVZ2UHEtYUlrak5lZGFLOThrYWJaalc0djdfMlp2SEHSAZYBQVVfeXFMTnFma2RKNGN2YkJFZk5MdXN0cUtJR3pkeHRhbE5fa0hJejBCSk5GelBkeUpyNEREM1ZsRVN2VTliNFNYckVKSXVBUV9henVKZ3FXVWFaWWlJUVF3TDZaM3E4dGV1MnFRdW1UOTc0NnB5UFpRZ2JSNk40aHRsQ1UxVUdLSUFZUW1KUG5iRGVOaDliSjlZSkhR?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Ibovespa retoma o caminho da vitória e tem segunda semana positiva; dólar sobe",
+      "titulo": "O preço da ‘ressaca digital’: quanto custou ao mundo a pane global da Microsoft?",
       "fonte": "InfoMoney",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUF94d1lCTTNSVFQ3NTFXUkFWUjFLV2I4Qi1rREVaaDBLZHFXT01uR2dhNjdLcV9sSWV5M3ptTXoyWHplOGsyTmRxTngwbHhXTUpmXzZ5VVF2b3QzRVdaR1hLeHFhVlN6V1dVQl8xZ3Zya1ByU0FTMnptUWlOazN4NFBMUkNNdklHcHF4QTJ3SQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNTBJX2ZQOWRNMlJvQ1JzTzRqRmVPbTVHWDFKRGVUSndROTdhVlQzWEdMTG80czBaMEF4YzlrSmFIVy1XZnZYVWJ1VTd5OGVhZTkydEVCUXVQYXR4dlQtVlZrcFZhMnJlQlFSRkhhNWd0MVljdnlrcXJlM3ZZUElzTjg4Y2ZReFNZeTc2aEJxcXM0MlQ5cTVacXVDTl81cGM3WkhrMGxZZVRpdkZ2Z3VTb21TWjhJQdIBuwFBVV95cUxPY1hySkVjWTRORkVVSjRQT2JMSEgtRXVQclRlSGpKLWZzeXg4eFdtcnk5Njc2SVR5Y2x6Rk83anFQODBSR3pRNUVpRWxtSTc1a0dYXzFxYlMzWkk1UmtsRy1sNGVIOTAxNXdrZ1BwX3N1aEhKWFYzVk52a3NrM1FnN2RSbUVBQks5R01xTmY0MnF0WDFmSHdRM3NENU1TTS1EQWg0T1lCdWZVTVZaRFYxaHRlSXM0c0VvcHdz?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Sem sinal fiscal crível, pessimismo com Selic e PIB seguirá punindo ações cíclicas",
+      "fonte": "InfoMoney",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdlMwb2UySndkV3lJSmV5UFY5bktlYmdDckp5SnV4eUMzSU5DUkd0V1RJeEJ0anB4bWpqVVY0elBCTURGZlJsS2lJUDlpYUJ3QU0yRTkwc3J3bXNFSjR6Wm5JVngzNlFmSVY3SkZ4R3JCRFpma3YzNENjOUVONl8wMWxvMXhCanpiTW9ndExWNW51d0ZyUE9IY1NzZlo0V2FRTUZ6VXI0WFNnSGlCTWRmYm90N1hXVEpCSXRpa9IBwgFBVV95cUxPdjJYWXVZN0p4U29yVFFrY3Z0bEw5S19tVTV0TEk3SnM5OURCUFp2bVV5ampfZktEVWhLenJfYWF2N3B3M2lqbmhnbFA0a3lKVm5EUmdSVzc2QUlrTUM1RXNxR2xybE1jRTVHSDlSSUE3LWxkc0RFMl9sbzhTZC10WkVQLTJMU1U4UmNlek5oRVExUENyOTNhWmJta0FkMG04SEMwMHlsSG1uS2puLXZ2MG5GQjFlYmxmYTZWMFo0WWt5QQ?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Que horas começa o Enem? Veja quando os portões serão abertos e a hora do fechamento no segundo dia",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQZklEMEhoMllLWXFOVkNXWjJrU21FS1RVVTlqVHFGcmRZb2w0VFVKQ2dNNE9pNmM4dWsyZ1B6ek5iN2hiWDlRb0lncktlYjR1WTZGTGt2QXFpRXdUMVhzWVR0MEtuSmpzRUc4TF9LSjl0VzFzZnplSTE3R1BvaWVkdkEtald3MXVNQU4xNGxOakJ2ZlNtOGFELWs2YjE5N19Pd1BaVmFkdWxRalVibDRGZjMtRHRjYVBUWFp2TEN1RDVBdWY4RU4xZTNGN2lCRUVpVDBxSUtIampaT3dEYmFvTDlHVGdTU0xkeWZmWFJ5eDFzeUw0S3lqbGFVUdIBigJBVV95cUxQUF9NdDI3MnZXZGJYdVRHcmQ1NGpIa21tRkQyOG9maUpKcDhFX183SmVBYWJnaHhuNmttU3JnSFZsTEFKdmdEY2VnRXcwYTRKLXhnUlQtMjNydVMyQXYta3lBWk5qdklZYklNRVhpbHpEaThwWV9FYnZsWURrM3NaWjltN2g1cmtBYXZpakFhV0N5Y25uemJJcW5Hck55clY1eHlSaEgyNUJCSkNTel9BelBTOWI4S1BLbnJwRTd5VTVJRnFPYXpoa044ZWNETWdDWDFRaE5CelpZaDI3U3hESndVZ3BXTUZXWEhlUWlZLWlReVFNemhvRGlIQjVzTXp0Ui10N0Jsa2xIZw?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Gilmar diz que Moro agiu para impedir candidatura de Lula em 2018",
-      "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSUZtRmYwYS1GV2czNURQaXlCaHUxbHdDcGJQQ3ZCRjZjTzl2QTJoN3BtVmlOWXBOaTVBOWNLOXBqaGNGNE1LbXc5dm9xMGIwLTA3Zk1ORXdoUGNjUHlET3BERE1USUl1MGlxclNGTzJtTHNBaGtVTUVpNHNZNDF0N0poXzlod1JkeF84aUMwSjVzTVlaRjU4Y2tHUWkyTS1DWXFTcWItV2VWd1BpcTdSX2pHTTdsTWdpVUtfSjlKaw?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Cavado favorece temporais no Sul neste sábado, e chuva forte avança pelo interior do Nordeste",
+      "titulo": "COP 31: UE acusa países de tentar enfraquecer ciência climática e cobra relatório antes de 2028",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbHhnWW05YkJLNlVZRldsTGthZkJEREk0c1J4eUtFdGlOMDRVZU1hZHBmaDY4M1pCWW96WUplODItVldmQllwaWctQlpGTlpFYm1JTC0yc3YzcTNuMWtYcDBCYVV6RkdxcDBLLTBtWkZfZnpheUluT0luVGhYU1pVT08xMnRWU1J5dUhWWDhtbGlSbjdtZmZNQjFETEpYa2hkVHpn0gGyAUFVX3lxTE9QX2x4TVI5VXQzaE92Rnc1ck9ZbWRzWXd6VWx1SzlPaUdqU29oaGc5RVBkZEVncm5aaDc5RENmNXRQVmVnY2dabjJ2akZMQVN0MDdPT3pfRXAwcnlBMXBldmd2MGptVktXOGJVQlJQbUJGdVl2Y09UMS1QRGF6NC1DUktPSXJ6RUFPaGh6cXFqV0EtaW1mdkFzRExjOGt1R3Q4NTB1Z19BWE4wZk1lWGhPVUE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNR2RHdlJUVk1MaTFpMUZSQzBhVURqZGhQN01odVZYRV9mR0JxWWN6WWxJZVpXLXhhUVpJN2RzMTVTTlFmS1hUMDlNYVBULVlYSkRPRm5ILWZ4b3I2R1E5SkZjOXM3bFFjU0RlbGpoa1pEVE9JQy1PMENDcVlYYmh3UmJ1VkFTcmV1bHlJQ2NmOXHSAZ8BQVVfeXFMUGNaSnJHbTNEMkQ3aGRiVll2V2FDTGxJSnJmNlc2ZUkxc2x0Z3hKV3VBUGxhbmQyb0d3dXdJX1dGWHBSbUpvMkpSc0xONDJwUnV3UXY3UW5BQUZvNXMzUjY0VkVpS01BSEp2Sm9iMFA3NjlYNHp0ZmFwZ1VZSVZnQTBRb3EtMjNpalF6LTd1aXh3SUpWeGw2UDBRZDdBUm9j?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Suspeito de invadir apartamento de casal e instalar câmera 'espiã' é preso",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTThiNVQxZnNNQUV6Y3B1QktvQ3NXVWNRNmd0SU8ybV9rMWE4WGx4RnFnWEUyTHFmcXdNY0RVZDhEYXNHZExTMDMwSUJGakhETTREdUZIaXJJTmh6MUJYUkNMbThlMHN0ZklPWDVMT1NfeWx6VXFKUHZHTzRqTUpxcWhEak5QM1lMREJ2cjc1THBydjFpVm9fYTVGdk9qRU1rSEw3c9IBswFBVV95cUxPaGtqcXNDclRJZW9ybm5lTGdkTmpHSThnVEJwZkpuN2NQZjlzWXdLckdqaE9ZWk9ad1pOSkdXT0g3eTQ5T0pjdDZ2azNQVGFTTTlFMUtzQ0RubFhkcll5LWU3Vk13V3JtMmdSbEtsUDlrVmdzRDJpSHBPMVhJekNWNjBFRU5jRGRGY2FaUVBMeVdxZTY0SEFTVmo5R1V0TFhXOEZQZ3VOUll2dkJBSi1BRXh6MA?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Gilmar Mendes critica tese de anulação formal no caso triplex: \"Houve uma fraude\"",
+      "fonte": "Migalhas",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObkY5X1g0el9wTGZLaFNkbnJvVEJBdHdvdFpNRzJfMVVKM0FaWDNEUkUxVGlCWVJuU2xpX1FCTXBmOWY0V3ZrS3lUd24xNmpvODZjRC1GUjhicFFCaG03b2pwbmgxLUlYWTJobGtyNDNncG5SQjF3aXZvbmZUSlhJb3JWQXFOdnpYTUN0R1QzUzQzaFVnTnRSOU5PWVlobmJraVNkR3BLaw?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Voto distrital misto volta a ser debatido no Congresso após décadas de tentativas e rejeições",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPYzdPcERMcWpta0Q1bWFyU2NOTjZjcHdkMXBQZ1F5RlhQQjNqaUcta1JXZTNwa0dQVTBZOXJ5X0h6ZDlKalVBM1pRVUlndXlpVjRFX3EwZ0pVMkJBX0F5OE9YUUx3ZmVMRUJiUjA4LUpHMkZVaWVxLW1oVU1SenJPNy1LeXpBUFY3WEIzUWNBWTZBVWpTZTBOVjY4ZFhLQlBlOUY0OUtpUnVEVVRCaEJaS3BUaEVwX2ZscVFMWWxyTGM2SktqSG51ekN3ekoySzc4OGZjS2dDODJ2UUg0QmF3WmgyT1RBMkp1ODZmcUNscEpJY3lIVHfSAfsBQVVfeXFMTjhpX1BoX3ZleWI5Mk0zT1RZZ0xUZHVYMmJsWnNMekx0UXAwOUZCUmh6OFBpUUhmTXZ0cHRTcGlxc1hzazdYd3JYWDlWV3hDU0h4aEViamVqREVlTjZVYmxOR09QY3U1OG9FRnN6RVQzQWZWazFfeExVUS0xWDNLYkxpQm9XVXpFNy1Jb2pEZGxxeDZEYkkteWZxYzZLeTctQ3JqdGRaUUQ4UWZpdlRhZmsyczFsQVRUWURtWkIxZ3RsLUVzMWR5WnBkRk1INWRlOVMtVDM5R3JMUHItcDBiXzBTel9hQms1SkVVbFFzNjhlVEQ0Wjg3Znp3Z28?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Ministro do Planejamento destaca que ajuste preserva políticas sociais",
+      "fonte": "Agência Gov",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQalUxaElQQVpORFpsa0tRTWRLYVpiUDZCRG0xS1A4QWZ1VEMyYm1xLWpVRXpUaUltX1gxVjdObkpmOG1JYVZfUDZlQ1FsWURfd0lnSHd4ckJDbmNBdmwtNTc5V3k0dERVTi1DYk1tWnJmTnpEcGR6YnEtYjFnWjBrNVBjcWlKcEhZaG1EODlfZ1Y3N3BhZDhTalRQNDdJOHNSTVJJWi1iQU45eEl0TnlQdXl4VEE3dw?oc=5"
     },
     {
       "cat": "politica",
       "titulo": "A semana política em Brasília",
       "fonte": "TELETIME News",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5McEphTWRtUlZHOFB0YTBtWmRxdWFKWGZweVh1OHFIdTNGU2F3TktSRlJfTm5VaEZhSy1QU3ZRX1JWNWJ3YXFHOFRiQy1xWGdqeVNiMHlsdjZ2T3Exdy1KZXRyZnlQazY2VUlhSmJpMm5MUjQ?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Congresso rebate Dino e pede que STF barre ajustes sobre fim da escala 6x1",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZnd3N1VWV2dOaTZiT0RZNHl5Mjk0T3BUalA4Y0tEbzVlRjVhQU1HZmRfa05lNFJwcHk4VjBuSmhmdGRUczNxOGRoZVpnaDJMcWZCWDNPa01ZaG9LX3F0RjNzYnJ6X3FZckVfZWhqYzFJUlgwLXJadXJucGVKTlcyZ0p3SUdrekRwREl4VjhFNlFyOVB1Nk1YM1RlRFpfY0x5VnNiNFUyQkdEdEpzT05ES3FYdw?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "PT vai lutar com todas as forças para isolar a ultradireita no Brasil, afirma Edinho Silva",
-      "fonte": "Partido dos Trabalhadores",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObHVOR0RfbTR6bEJod0kxVFlmcnpWVU5wQ3ozRTY1N29UdlhPQXkxYmdDM0tnOTJrVGttMGFEOG5jd0M2Zk5OSGpncmZJNGR3ZENkcEx4V2FqMjNGeWkyNThoZHJQckZvbmNNU1FSV255cmdZSTdITThneGRmaS1RaUxKeVlPRnFlcVFuekhhdVIxMGtNVFVlMDFycEI0TmdfRll5eV81SmZxaUpZTzY3UXRqaELSAbQBQVVfeXFMTmx1TkdEX200emxCaHdJMVRZZnJ6VlVOcEN6M0U2NTdvVHZYT0F5MWJnQzNLZzkya1RrbTBhRDhuY3dDNmZOTkhqZ3JmSTRkd2RDZHBMeFdhajIzRnlpMjU4aGRyUHJGb25jTVNRUldueXJnWUk3SE04Z3hkZmktUWlMSnlZT0ZxZXFRbnpIYXVSMTBrTVRVZTAxcnBCNE5nX0ZZeXlfNUpmcWlKWU82N1F0amhC?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -365,15 +365,15 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "Nos EUA, Flávio Bolsonaro fantasia com nova eleição e reivindica título de ‘presidente eleito’",
-      "fonte": "CartaCapital",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMmZFaU80bTJOdVR3UEtVYk1mTWVCUmZRcjYxZ0wtVkQ0QURBZ09WNnBPNXZIYzd5VWNtaTYtVjdFbnhOajR3NWJuVzVvN2dwNEJ4ZHFILWU2SFFFUHhCTV9KWS13b3FvM25XcEVtbGhsTEFBdlVOci11LUJnY2dDN2JmZ1dUV3A5TnprenVOT3gya1hwdlR6X3N0ZnRHV1dWaXZEZnRXYUlMVnlFZndRQnNNenAwbmZrcGQwNXAzNU9HQ2RkeVhhTU43UTEyUQ?oc=5"
-    },
-    {
-      "cat": "eleicoes",
       "titulo": "O Brasil não é Venezuela, Lula não é Maduro",
       "fonte": "O GLOBO",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUDN3YkZBWi1pS2gyTDZKNEotMnFyRTVEQlpGbTVDUDdKTVE1UUc1ZnNMNFFMUDlNcWtkUG1tS2JETWxGWjk5eVlWTWl6VVJHN2dwS0VtM3ZkZXlqTE50OVlqWTZPQU0zdzBLS2ZWZU54bW9tTC1fenZBamFGdkNKdTF3WXlYNmw4Qm51SG1lMmRCNFRGRlBITVZUVmJrejNZQ2ZQeTBxUdIBtgFBVV95cUxOR1I5U2VIQ2RCeGxxWERFMkdHdEFVeDlwMnlGZUpnQ1d6TUY1cjF0ZHR6UzRNQ3hILXhYb3gxQk5weURJb1VFUVRpUWJZMFdybXZIYnp0Ry1fc3hMamh0OXlmeWkzb3ZCc2UtLWhNemp2Y0hlUWFrWEVBeHhJWXJDamtFbktWZGIzQnFhelo1QlJWWHRJTW5mNnJuQVhrRzVxNGM2Y3o0cXY2Y29LQVZWdjAzR3dwZw?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "Nos EUA, Flávio Bolsonaro fantasia com nova eleição e reivindica título de ‘presidente eleito’",
+      "fonte": "CartaCapital",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMmZFaU80bTJOdVR3UEtVYk1mTWVCUmZRcjYxZ0wtVkQ0QURBZ09WNnBPNXZIYzd5VWNtaTYtVjdFbnhOajR3NWJuVzVvN2dwNEJ4ZHFILWU2SFFFUHhCTV9KWS13b3FvM25XcEVtbGhsTEFBdlVOci11LUJnY2dDN2JmZ1dUV3A5TnprenVOT3gya1hwdlR6X3N0ZnRHV1dWaXZEZnRXYUlMVnlFZndRQnNNenAwbmZrcGQwNXAzNU9HQ2RkeVhhTU43UTEyUQ?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,13 +1536,13 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-14T08:32:33-03:00",
+    "atualizadoEm": "2026-11-14T15:09:32-03:00",
     "ok": [
       "BC selic",
-      "BC cdi",
       "BC ipca12",
       "BC ipcam",
       "BC igpm",
+      "BC poup",
       "BC desemp",
       "câmbio (Yahoo)",
       "Ibovespa",
@@ -1550,7 +1550,7 @@
       "12 notícias"
     ],
     "falhas": [
-      "BC poup: https://api.bcb.gov.br/dados/serie/bcdata.sgs.195/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
+      "BC cdi: https://api.bcb.gov.br/dados/serie/bcdata.sgs.4389/dados/ultimos/1?for…: HTTP Error 304: Not Modified",
       "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
     ]
   }
