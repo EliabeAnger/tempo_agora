@@ -167,8 +167,8 @@
       "anterior": 171324.31,
       "minimo": 171132.23,
       "maximo": 172715.48,
-      "hora": "13/11 19h40",
-      "ts": 1794609643433
+      "hora": "14/11 00h20",
+      "ts": 1794626456172
     },
     "acoes": [
       {
@@ -253,8 +253,8 @@
         "var": -0.04
       }
     ],
-    "acoesTs": 1794609643433,
-    "moedasTs": 1794609643433,
+    "acoesTs": 1794626456172,
+    "moedasTs": 1794626456171,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,27 +305,21 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Fachin atende a pedido da OAB e suspende prazos processuais em razão de falhas nos sistemas da Microsoft",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPOGlYTDJnSkpMcG05VUg3Z2FtQ0JZOUNpRE9PVVF6WmZoV0lUdHMta1JELTgwVWFSdUxHSVp2blUwWUFITkZ5Uzd0SkdnS0NxWlZlZXd5MUp4dHlxSF9LRnppbmhCU1RIRV9JWWh6ZTZ3R0ozQjVvaXpVeFltZV9TcjllY0pVZlRZTGdLMWpfanBSZGlyaTQ0eEt4TUFwMkRpdkdORUNuOV9zTXJrbzVGYU9KOHVoZG9VTHBSdThQNFJ0eWVoZnBaREpkUFR0SnNRVlJzekU2bktYRTd6TEtabNIB7wFBVV95cUxPcjJNU24tM19UbXBhVm8xekd4YjZKbXJkeEhVZnMyMG92ZmJ3bkFINXZ5bGhIemRRMDdCdU9sM3djOXZUMEpRNS1zNXBkdXZnLXBLd1lBTlBwV3ktek1wamE2TjFlNnBHSWh1aGFnVkQwODdYeHdaTUdzWlJBYTNfWExaM3IxdUFsOW1ic1RiUHBDRDN4b2NIX2VZY2NNdFo2alB1bEtDelJCVjBrX1MzUjd2dUtxSFlvY1FhVWxFN2hfSVFFS1phZTdVR2NmU3lQY1c3X3E1Vk1KLVZGcnZaWm9IRFg4bEFHenJES3pnMA?oc=5"
+      "titulo": "Dá para pedir indenização à Microsoft depois do apagão do Outlook?",
+      "fonte": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAtYVBHalR1VWIyZ1YtdU5oTmdZaTE3QnpoWi0xTWpMSVNrcWJvZXc5bGlOS3lMR24tc09nR25WOHR2WFVhTE1YXzFrcWlPQ0VZVDdlVUt0UHZXSW1ZTGhEbDBwb9IBaEFVX3lxTE5INDBvbHFNR0NZWG85dXN4RVpCVk15MTUwYUZENU1Jb25SVjNlMG9yYVNMZHlacUtRTzdBdHB4VEhUaXJzSlhvVnhPWEVSMTNKVjdaQ2w2SlQzN0JPQkM5QURzcWNPckd5?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Dólar hoje vira para baixa de olho no fiscal e dados econômicos",
+      "titulo": "Dólar sobe a R$ 5,65, com reação a pacote fiscal; na semana, alta foi de 2,6%",
       "fonte": "InfoMoney",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOakIwN1ZneWFjMTlUOWx6VjItUERCWEN5RjM4eWI3WVNJeVEycmQ4ekxtaEpJMWZUMThCQjltcXdUNFY5THBqNTQzVkl0Y0puNDNQVU5JSExWaVNRdURlU3BzQTFMaUtmOEY5VFAwR3k5bFpOa3JDX1FCcUIwWFBVWXdiMkp0aUNRcVRGQmpEM1I5X3c2SHZZcjVGQkjSAaIBQVVfeXFMT2ZISV9Ic0pkbFJueDZKSXhad1p3MGdySWplR0llTVJ5TGdyOXBRdzBrVU1mNWd5SmVJWndNbkRaZncxaEdualY0ME54a3JZSGZoalV1U1hrbjFiVi13MW9vRnp0UmZjY01fLVlEUHAtb19IUHdxcVFOM0RNa3NsX2NIV05GczZSdUg0RGlaSGlLLXZOQm1xVUZiVnYxRE1ieFhn?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Debate sobre juros parece disputa de torcida organizada, diz Galípolo",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVUliVFl5WnZkLWlHUlRIOC1VWWZoOVpLLTJKNVFmbm9SOXEyM0RzcHliQWExMHJ0WTZmOUdXczRrTHBZcUFWSE9wNW1mNkJSc3VOYURiSC14enFVN0hhMW9VSGNHOW45T2hCQ1VVc2U4TGdYTnNpWmhYRkdub1pzTDRUSmR6eWRhclppdjRhWGVueDcteXUyRE5YS2tUczU1MTItM3ZXS1VjZ05mRlp3X2pyM0NWS19kZVk3UFlqMUZHcUtYV1E?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Após defender 'tesouraço', Flávio Bolsonaro vota dos EUA contra ajuste do governo Lula",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdXlYTzF0SEp5MFBERTRpLXV2QnpxRTc3U09qRkxkbmpCUXgtZGlMU1pFalV3azYxTGxPeXI3MGQwTEJEWVYyNUwtekM1LVc4cy0zTE1JbV9Fc2w5dFhHeHphQkJ6ZjlFc3d1NmVSdDNOdWd5LU42OGZhazhaLWJoMW9mWGUxVk1rOWZLYUg0OUtJVXZKVW90NzRmNTdOQS1wd0FhajlWY0RicThKQWNrMWRBZ25pdkFSdUd1OEQzWFRXOGliNWdiaHNtR0d2LV8waTRuZjJFS05OUdIB6AFBVV95cUxQVGVQMUpIRTBmVDM0QnU4MHVYMVRQMjNxbFNLRUFRRVhqcVJObE1RZWZ2WGtyRFgtWkVNUUhNbVQzMGl5VmctakZJQ0lwQ1BudjVmTEpVc0tiYVlFYlZBNm4zS2FiekpBLUh3QnhVVWtTNjlpRnJVYkM4Rzl2WlhKcl9jeDBQV0pGQ1VhaGs1SjI4eGtXLVJzcHo3WWhQME5pSlNRcmNDMGh4SkUyaEJ2MktKaFRlOXVnUDBVZ0ViTTdPVmFPY3FkZ0V5NUR1anRZOHV5YmxwRC0ySnRfU00wWTBKV3QzdGZf?oc=5"
+      "titulo": "Subvenção de R$1,40 ao diesel importado não será renovada, diz ministério",
+      "fonte": "UOL Notícias",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPbEw5RXgyaFpqZzA3YkVMd3pLb3V3dEZtd0EzSERTRGNFZnFSbjVnRjVKTHQzdjQ1RDdoek5DMHNSbFZiM0c3R2ltd3ktMURHZUJWcG1haFZodjRBRmQ1TG5GS3pIVFAxYkc3Q3VzWnZLNGZyLVpEVU1JVFZXdGhMOUtSdHBMVVFKVWRqbDhzbUdhVFVLcm4xeFo0QjVRRGFLN2djbGpraFZXLVVWTlE5cmVnSVg5ZF80Y19tR3VwUklYalBnamtiVDV4dGZHckYxRU1SLQ?oc=5"
     },
     {
       "cat": "brasil",
@@ -335,27 +329,33 @@
     },
     {
       "cat": "brasil",
-      "titulo": "Vice de Nunes quer ouvir Bolsonaro e fala em deixar a Prefeitura de SP",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPT0xoa09Md3o0SmpkVDBFeVpoX3NXY3ZReXBJa3hqOUx6SVYzNUVCcHlRNkI3ODlGVVB2VlZRMEFsNzZkcVBVMXBFaVFobXpwa0hQa2E0V2lPX2pYbl81SHVBVlJGSmhuanRFVVAtWXZVdkNCOFZ1aTJqaDhyMmk3dlhEckJTSkFOSzJ3TWZhZXR4UFVMNURIYzRVdzJLN29QSU0wRXZ2azlZRm1EWUV6eFV5OHYtb0I5bG9n?oc=5"
+      "titulo": "Morte em academia de escalada: instrutora e colega dão versões diferentes sobre queda de aluno",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNR3BfcG5Gcy1wY1ZLNnU5dHM2X1Z5Nk1YWUcyajBDWGdmS3pFY0JZUzVTUlk2aXBGTV93ZmJZY2dwNlpITU02ak5DdVBEZm9mdGtQUXU0TlhVWndFc3labk5kdGNQb2JJaWYzQUhnYi1MODljTHZLNHpweEdJOVNJOXpxNE1PQlJYUUQ3NGl5eE1oLWVTaldzZ2c3Mi1VVTlpWUEtQ096dEd5THZCUllSd0ZLQllYU3NURDh3NFJLSnNVYnlNTUdiVFVzbnkzMTkzR0w5cVdxaFoxSWlxUjY2RTRuZEJiWkQ4V2JLdGxnTTh6NkRBWVHSAYQCQVVfeXFMTlp5dmJld0ZuUU9uWWN1TG1kN0R1UHhXTXp3MDlTN0stUGtZM3ctck5GME9TRlV6NTNUbjd2SVl3UkJLcU5GazZFM3VsN2NQZUhlRUM3OEc1S0xleXZJNDRUVFhiclhQZWNYUmZGYmdXLTBTaEw1SDVEV2J4cHRYTUJ4TnY0NVl5U2dZaWRoV2lVQWxrOHdwSFdZUmNqU0pkVXZZbXk2cDZCQ2dfZ0hYTENra1RzNjl3c3JiUEczWGVQamtiODJFMkx0U1NJSmhvMTBDUXpiejFJUjVyODgwa1J5TFU5VkJmR0hSbW5RT1RPc09KYWtoN19zT29iWXlZVExlR20?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Bombeira e companheiro mataram homem por dívida de R$ 25 mil com a empresa do casal",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPdWEwRUlpNFZHN2tFbm81NXY5UWJUblVWeU1oemZ1bUsyaTRMYV8zZlNuYjRsRjNxRlVYR2I0cW5DQzFHWlEzZlRaMU43QUVTQk1vMzczcnNMdU84NERYWl9ZNENIQi1qZGxaYnVEYlNoSjB1aEZha3BNdzFYWDhlLUJUbHJaODhEYnNjMExTTm1CaDJISEYtMVdqSmQ1N19BT1Zfb29FSGxVOE9lX05ZczVoNmpRZUNYVG9yNlpwNVRzaTJncEpDOEtzd0Z5TDRnQXJ30gHiAUFVX3lxTE5IeTVsWi01RjRfVDZ3OGJGU0gzbHFya2ZoMkNvNmQ3b1dNZUhnRzVlN1Y0eXgzek0tSkxpQ05mOUpiSGUyZ2pLM2ZsNVhsMjJ4SUQzcnVLMF9DOURpVEdVNE9EbGhpYmYteVVVem11WUxqY2RHdzR6YkFhNW5QN2dZNDR3bjFwNFBRLXNnX1FqNzZpbEpoQkQydGpJUXhjaHNmLWVkbHNHLTBKN2dLT2NxUlBHVGZ0LTB2OE5Kc01FOVNJWGVCTU02cEhXUVQ2V1J6YzFsMk14TWJ4YllWajc0bGc?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Notícias EPE participa de Congresso e Missão EVEx Lisboa 2026 - Empresa de Pesquisa Energética",
-      "fonte": "Empresa de Pesquisa Energética - EPE",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOHVIMzk5aUl5N3ZXdnRDWlFPRzVrajR0WktHSUNoQi1BdXZaUEhiOURzWVZzbkp6ZkZZTmxKR1BiRUs3YnRWbjZwZWhoRllzNjF4eGhkSkhobUJoMzlTYnZMQmJncThnanpGZWgyTXIxY0ZMOC0tQmtQemVHRE9DSTExaF9CSENpRklvUGp6bzVoQ2ZTNGRBMExQRzg?oc=5"
+      "titulo": "A semana política em Brasília",
+      "fonte": "TELETIME News",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5McEphTWRtUlZHOFB0YTBtWmRxdWFKWGZweVh1OHFIdTNGU2F3TktSRlJfTm5VaEZhSy1QU3ZRX1JWNWJ3YXFHOFRiQy1xWGdqeVNiMHlsdjZ2T3Exdy1KZXRyZnlQazY2VUlhSmJpMm5MUjQ?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Senado Aprova: Proteção de verbas para internet nas escolas — Senado Notícias",
-      "fonte": "Senado",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OSTZwLTNITkJfTU92Yy16TEhobzZDZzlkVWZSUDdHM2taeTZ2VWZMSGVBeURMX2JSWGQtWWg4cHdMcC1fOEVDc28ySm5qQVRQbUhwZm9R?oc=5"
+      "titulo": "PT vai lutar com todas as forças para isolar a ultradireita no Brasil, afirma Edinho Silva",
+      "fonte": "Partido dos Trabalhadores",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObHVOR0RfbTR6bEJod0kxVFlmcnpWVU5wQ3ozRTY1N29UdlhPQXkxYmdDM0tnOTJrVGttMGFEOG5jd0M2Zk5OSGpncmZJNGR3ZENkcEx4V2FqMjNGeWkyNThoZHJQckZvbmNNU1FSV255cmdZSTdITThneGRmaS1RaUxKeVlPRnFlcVFuekhhdVIxMGtNVFVlMDFycEI0TmdfRll5eV81SmZxaUpZTzY3UXRqaELSAbQBQVVfeXFMTmx1TkdEX200emxCaHdJMVRZZnJ6VlVOcEN6M0U2NTdvVHZYT0F5MWJnQzNLZzkya1RrbTBhRDhuY3dDNmZOTkhqZ3JmSTRkd2RDZHBMeFdhajIzRnlpMjU4aGRyUHJGb25jTVNRUldueXJnWUk3SE04Z3hkZmktUWlMSnlZT0ZxZXFRbnpIYXVSMTBrTVRVZTAxcnBCNE5nX0ZZeXlfNUpmcWlKWU82N1F0amhC?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Camilo Santana é cotado para pasta da articulação política",
-      "fonte": "SBT News",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZ0hkU2VmUDNEcVAxZUtxc0Q5WDlSTkc4MmY5Y3hrYW1LblktU1dOOHlpb24xUUhJLVFaWmk4X0FrS1k1RXo0ZWUyemtKWi1MNTNkQWMySUxXYVNjUWdmclE5OXpCMjVVMzVxeEVNUTdyNVlQeWZ5bk9qU1pUU1hRYVdUemRQVHR6cFlkMVRmSzAzZFZFdHVKMXBrQkJKYm5VYTBwYVJFR2pycWY0Z1dj?oc=5"
+      "titulo": "Análise: Brasília luta para que tudo fique como está",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQekZJeHN2OFNDZ3FWWE9qZkdZd2hPSGtscV9hVENDVFNnR2plU2lQWEVKMjJWS3FuaWhKenB2RnJvcDVTZElhN0ZnQjBELTdGbjNGYjlKM1Fyb0pQVG9aV0tCQ0NHMGNHMTVWWGFmNzdpam1rSWt2dWJpSjVLYnB4TDkzSkpXaEtJZXBTZlk1bEpnUHJXY0ltSUxMVHIwUDgtR0hFVnFreWJEV1ZfVWlRcQ?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -365,15 +365,15 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "Nos EUA, Flávio Bolsonaro fantasia com nova eleição e reivindica título de ‘presidente eleito’",
-      "fonte": "CartaCapital",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMmZFaU80bTJOdVR3UEtVYk1mTWVCUmZRcjYxZ0wtVkQ0QURBZ09WNnBPNXZIYzd5VWNtaTYtVjdFbnhOajR3NWJuVzVvN2dwNEJ4ZHFILWU2SFFFUHhCTV9KWS13b3FvM25XcEVtbGhsTEFBdlVOci11LUJnY2dDN2JmZ1dUV3A5TnprenVOT3gya1hwdlR6X3N0ZnRHV1dWaXZEZnRXYUlMVnlFZndRQnNNenAwbmZrcGQwNXAzNU9HQ2RkeVhhTU43UTEyUQ?oc=5"
+      "titulo": "O Brasil não é Venezuela, Lula não é Maduro",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUDN3YkZBWi1pS2gyTDZKNEotMnFyRTVEQlpGbTVDUDdKTVE1UUc1ZnNMNFFMUDlNcWtkUG1tS2JETWxGWjk5eVlWTWl6VVJHN2dwS0VtM3ZkZXlqTE50OVlqWTZPQU0zdzBLS2ZWZU54bW9tTC1fenZBamFGdkNKdTF3WXlYNmw4Qm51SG1lMmRCNFRGRlBITVZUVmJrejNZQ2ZQeTBxUdIBtgFBVV95cUxOR1I5U2VIQ2RCeGxxWERFMkdHdEFVeDlwMnlGZUpnQ1d6TUY1cjF0ZHR6UzRNQ3hILXhYb3gxQk5weURJb1VFUVRpUWJZMFdybXZIYnp0Ry1fc3hMamh0OXlmeWkzb3ZCc2UtLWhNemp2Y0hlUWFrWEVBeHhJWXJDamtFbktWZGIzQnFhelo1QlJWWHRJTW5mNnJuQVhrRzVxNGM2Y3o0cXY2Y29LQVZWdjAzR3dwZw?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "Flávio Bolsonaro vota contra ajuste fiscal do governo Lula",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUkFWdlZ0V2VEdU9rRzNIa1VXR3l4NUFOS1M0cVA1WUxJeFpWQ2NVdmdUMVhmaU9ILW1RaEJ5MGp2VndZMUhfdmo4SmF5aW0tVFBWb25qWHZjT2lHcHJPajQ4V1pPcUpXV1NPaTJoRW5uV0ZKdU14cHg1WUJUSjlJOTBKNVZkYUdzR1FWZWlpVjNMS1pvanRoOVFqYThYUQ?oc=5"
+      "titulo": "Nos EUA, Flávio Bolsonaro fantasia com nova eleição e reivindica título de ‘presidente eleito’",
+      "fonte": "CartaCapital",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMmZFaU80bTJOdVR3UEtVYk1mTWVCUmZRcjYxZ0wtVkQ0QURBZ09WNnBPNXZIYzd5VWNtaTYtVjdFbnhOajR3NWJuVzVvN2dwNEJ4ZHFILWU2SFFFUHhCTV9KWS13b3FvM25XcEVtbGhsTEFBdlVOci11LUJnY2dDN2JmZ1dUV3A5TnprenVOT3gya1hwdlR6X3N0ZnRHV1dWaXZEZnRXYUlMVnlFZndRQnNNenAwbmZrcGQwNXAzNU9HQ2RkeVhhTU43UTEyUQ?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,14 +1536,11 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-13T19:40:45-03:00",
+    "atualizadoEm": "2026-11-14T00:20:58-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
-      "BC ipca12",
       "BC ipcam",
-      "BC igpm",
-      "BC poup",
       "BC desemp",
       "câmbio (Yahoo)",
       "Ibovespa",
@@ -1551,6 +1548,9 @@
       "12 notícias"
     ],
     "falhas": [
+      "BC ipca12: https://api.bcb.gov.br/dados/serie/bcdata.sgs.13522/dados/ultimos/1?fo…: HTTP Error 304: Not Modified",
+      "BC igpm: https://api.bcb.gov.br/dados/serie/bcdata.sgs.189/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
+      "BC poup: https://api.bcb.gov.br/dados/serie/bcdata.sgs.195/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
       "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
     ]
   }
