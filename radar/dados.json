@@ -167,8 +167,8 @@
       "anterior": 171324.0,
       "minimo": 171132.23,
       "maximo": 172715.48,
-      "hora": "14/11 15h09",
-      "ts": 1794679770111
+      "hora": "14/11 19h29",
+      "ts": 1794695343968
     },
     "acoes": [
       {
@@ -253,8 +253,8 @@
         "var": -0.04
       }
     ],
-    "acoesTs": 1794679770111,
-    "moedasTs": 1794679770111,
+    "acoesTs": 1794695343968,
+    "moedasTs": 1794695343968,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -1536,9 +1536,10 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-14T15:09:32-03:00",
+    "atualizadoEm": "2026-11-14T19:30:09-03:00",
     "ok": [
       "BC selic",
+      "BC cdi",
       "BC ipca12",
       "BC ipcam",
       "BC igpm",
@@ -1546,12 +1547,15 @@
       "BC desemp",
       "câmbio (Yahoo)",
       "Ibovespa",
-      "8 de 8 ações",
-      "12 notícias"
+      "8 de 8 ações"
     ],
     "falhas": [
-      "BC cdi: https://api.bcb.gov.br/dados/serie/bcdata.sgs.4389/dados/ultimos/1?for…: HTTP Error 304: Not Modified",
-      "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
+      "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests",
+      "notícias economia: https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=pt-BR&…: HTTP Error 503: Service Unavailable",
+      "notícias brasil: https://news.google.com/rss/headlines/section/topic/NATION?hl=pt-BR&gl…: HTTP Error 503: Service Unavailable",
+      "notícias politica: https://news.google.com/rss/search?q=pol%C3%ADtica%20Bras%C3%ADlia%20C…: HTTP Error 503: Service Unavailable",
+      "notícias eleicoes: https://news.google.com/rss/search?q=Lula%20Fl%C3%A1vio%20Bolsonaro%20…: HTTP Error 503: Service Unavailable",
+      "poucas notícias novas, mantidas as anteriores"
     ]
   }
 }
