@@ -167,8 +167,8 @@
       "anterior": 171324.0,
       "minimo": 171132.23,
       "maximo": 172715.48,
-      "hora": "14/11 19h29",
-      "ts": 1794695343968
+      "hora": "14/11 23h42",
+      "ts": 1794710575727
     },
     "acoes": [
       {
@@ -253,8 +253,8 @@
         "var": -0.04
       }
     ],
-    "acoesTs": 1794695343968,
-    "moedasTs": 1794695343968,
+    "acoesTs": 1794710575727,
+    "moedasTs": 1794710575727,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,9 +305,9 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Crise na Nvidia: veja em 8 pontos como traições levaram à renúncia de Jensen Huang",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQXNla2xVVENUWDVFWjVhbEo4b1dsdXRaS0VtZlNLd1IwY3FUSmcxc3ZyeW53YUZsS01NVm84MjdNRzAtaDdsaVdWWXJKUzlGaXd6UEJCMGhsNU05OVZSd0hKRXVtZktyOVZ2UHEtYUlrak5lZGFLOThrYWJaalc0djdfMlp2SEHSAZYBQVVfeXFMTnFma2RKNGN2YkJFZk5MdXN0cUtJR3pkeHRhbE5fa0hJejBCSk5GelBkeUpyNEREM1ZsRVN2VTliNFNYckVKSXVBUV9henVKZ3FXVWFaWWlJUVF3TDZaM3E4dGV1MnFRdW1UOTc0NnB5UFpRZ2JSNk40aHRsQ1UxVUdLSUFZUW1KUG5iRGVOaDliSjlZSkhR?oc=5"
+      "titulo": "Rubio reformulou relatório da CIA sobre CEO da Nvidia, diz Washington Post",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQa1YyVEJRVWF2dnFZbktKWUdHdk85T21rbEk5WW1BajBUY29oZXFqYlR5QkdWcU9KM0JOblgxU2ZzN3R2eGluajY2UFJNTk1OQXA4UjBFRzlNeDVBR2FUVG1LVzNsZDg4YUxLMjlRRmtnV0s3Nkt4RnBYdkliX1V1NVM1MmNvX2pKdVBpY2hkSTUxY1E2anA0MGE1a2ptdnQ2WGlfMXJjSnY0Q0I0WmFLS1Y1SnZ2R1JS?oc=5"
     },
     {
       "cat": "economia",
@@ -317,9 +317,15 @@
     },
     {
       "cat": "economia",
-      "titulo": "Sem sinal fiscal crível, pessimismo com Selic e PIB seguirá punindo ações cíclicas",
-      "fonte": "InfoMoney",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdlMwb2UySndkV3lJSmV5UFY5bktlYmdDckp5SnV4eUMzSU5DUkd0V1RJeEJ0anB4bWpqVVY0elBCTURGZlJsS2lJUDlpYUJ3QU0yRTkwc3J3bXNFSjR6Wm5JVngzNlFmSVY3SkZ4R3JCRFpma3YzNENjOUVONl8wMWxvMXhCanpiTW9ndExWNW51d0ZyUE9IY1NzZlo0V2FRTUZ6VXI0WFNnSGlCTWRmYm90N1hXVEpCSXRpa9IBwgFBVV95cUxPdjJYWXVZN0p4U29yVFFrY3Z0bEw5S19tVTV0TEk3SnM5OURCUFp2bVV5ampfZktEVWhLenJfYWF2N3B3M2lqbmhnbFA0a3lKVm5EUmdSVzc2QUlrTUM1RXNxR2xybE1jRTVHSDlSSUE3LWxkc0RFMl9sbzhTZC10WkVQLTJMU1U4UmNlek5oRVExUENyOTNhWmJta0FkMG04SEMwMHlsSG1uS2puLXZ2MG5GQjFlYmxmYTZWMFo0WWt5QQ?oc=5"
+      "titulo": "Mercado estima impacto do ajuste fiscal abaixo de R$ 60 bilhões",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONFhIeXgzVE1OdGlIN1hTOV9tbTZKZS0xLTU1WXdzNDJaS09iQzNERDM5aE1IMlBCVHRybUVKSXR6VG5HeXZKRjlvRFp3YXpQZzFEYUVJQ0tXNDlsMkxlZ0JXQjBZTTQyZm53U0JqWnhCTEsxZkt0bklEQ2tiQ0N0SFVGcjJVTldyOVZ1SmQzNUk4VUFvWWZDa2tQc2hMNGFWVGNFS0Q3R3lTQQ?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Janones critica ação da \"extrema-esquerda\" contra ajuste fiscal de Lula",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMExOc1dSUzJKN3E1c1VHcFVxeHR1NHhGY2Q0TVQyTHF3ZlVqRG8zV1k4QU8ydUgwa0xvTzlQZVpuTW5rZDRwaDU1R2MtdmU0NDFsVzBva0xwMW8xeGVrZ3RudVBfSzVlQmtPMm1oRVJtdnlCY1VsZ2IwQ2ZaSmdFdlRkQXU3ZzlFRE9lOWxwX2txUHZiSmxJeWlSdUM5bWc2bUZLUnA5WXdFQQ?oc=5"
     },
     {
       "cat": "brasil",
@@ -329,15 +335,15 @@
     },
     {
       "cat": "brasil",
-      "titulo": "Suspeito de invadir apartamento de casal e instalar câmera 'espiã' é preso",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTThiNVQxZnNNQUV6Y3B1QktvQ3NXVWNRNmd0SU8ybV9rMWE4WGx4RnFnWEUyTHFmcXdNY0RVZDhEYXNHZExTMDMwSUJGakhETTREdUZIaXJJTmh6MUJYUkNMbThlMHN0ZklPWDVMT1NfeWx6VXFKUHZHTzRqTUpxcWhEak5QM1lMREJ2cjc1THBydjFpVm9fYTVGdk9qRU1rSEw3c9IBswFBVV95cUxPaGtqcXNDclRJZW9ybm5lTGdkTmpHSThnVEJwZkpuN2NQZjlzWXdLckdqaE9ZWk9ad1pOSkdXT0g3eTQ5T0pjdDZ2azNQVGFTTTlFMUtzQ0RubFhkcll5LWU3Vk13V3JtMmdSbEtsUDlrVmdzRDJpSHBPMVhJekNWNjBFRU5jRGRGY2FaUVBMeVdxZTY0SEFTVmo5R1V0TFhXOEZQZ3VOUll2dkJBSi1BRXh6MA?oc=5"
+      "titulo": "Gilmar Mendes chama de “desfaçatez” fala de Moro sobre triplex",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZWFqSndPelM4UDJkcEdMRHJSd2xVU3FHOFU2bnRWOGY1NGNiWEdqXzRQNFJRSnBKQzJ2NUQ1Q1F6TzRmdW54WFFPcUxrZl9VOUZSZ0QydzgwWHZQQVVPdkNmVVBjcGktV2pBU1J3NXhqUXJORWhmcjRNcW5iaV9lV1MtejFDSXZhQk5GeWpXT2NzcXRVY3BEZTlvQnRXYUh4S0R1WXNn?oc=5"
     },
     {
-      "cat": "brasil",
-      "titulo": "Gilmar Mendes critica tese de anulação formal no caso triplex: \"Houve uma fraude\"",
-      "fonte": "Migalhas",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObkY5X1g0el9wTGZLaFNkbnJvVEJBdHdvdFpNRzJfMVVKM0FaWDNEUkUxVGlCWVJuU2xpX1FCTXBmOWY0V3ZrS3lUd24xNmpvODZjRC1GUjhicFFCaG03b2pwbmgxLUlYWTJobGtyNDNncG5SQjF3aXZvbmZUSlhJb3JWQXFOdnpYTUN0R1QzUzQzaFVnTnRSOU5PWVlobmJraVNkR3BLaw?oc=5"
+      "cat": "politica",
+      "titulo": "Cidadania convoca Congresso para votar incorporação pelo Progressistas",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTGw1NVo1dnotbnMydnlhbkN4U0VnVzFic1MtOXVKU1Rlc2IxYXFveG1kczE4ZnpTNE1BZDV3WmRtMDY4bWc5bXB1MW9qOEJIdTMxeGMxbFFkMzdOdk9icDFKajd1R2VNZV9jSzRBZnlvNXNTVE1yeGVfc3o1ZHppdEtYOGNnNXdVNDdKZmVnQzdOR2lzOHZaVGFNbDZJc25mR3ZmOVNBTHBGS09OWEE?oc=5"
     },
     {
       "cat": "politica",
@@ -352,12 +358,6 @@
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQalUxaElQQVpORFpsa0tRTWRLYVpiUDZCRG0xS1A4QWZ1VEMyYm1xLWpVRXpUaUltX1gxVjdObkpmOG1JYVZfUDZlQ1FsWURfd0lnSHd4ckJDbmNBdmwtNTc5V3k0dERVTi1DYk1tWnJmTnpEcGR6YnEtYjFnWjBrNVBjcWlKcEhZaG1EODlfZ1Y3N3BhZDhTalRQNDdJOHNSTVJJWi1iQU45eEl0TnlQdXl4VEE3dw?oc=5"
     },
     {
-      "cat": "politica",
-      "titulo": "A semana política em Brasília",
-      "fonte": "TELETIME News",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5McEphTWRtUlZHOFB0YTBtWmRxdWFKWGZweVh1OHFIdTNGU2F3TktSRlJfTm5VaEZhSy1QU3ZRX1JWNWJ3YXFHOFRiQy1xWGdqeVNiMHlsdjZ2T3Exdy1KZXRyZnlQazY2VUlhSmJpMm5MUjQ?oc=5"
-    },
-    {
       "cat": "eleicoes",
       "titulo": "Flávio Bolsonaro aposta em cassação de Lula e novas eleições em 2030",
       "fonte": "Congresso em Foco",
@@ -365,15 +365,15 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "O Brasil não é Venezuela, Lula não é Maduro",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUDN3YkZBWi1pS2gyTDZKNEotMnFyRTVEQlpGbTVDUDdKTVE1UUc1ZnNMNFFMUDlNcWtkUG1tS2JETWxGWjk5eVlWTWl6VVJHN2dwS0VtM3ZkZXlqTE50OVlqWTZPQU0zdzBLS2ZWZU54bW9tTC1fenZBamFGdkNKdTF3WXlYNmw4Qm51SG1lMmRCNFRGRlBITVZUVmJrejNZQ2ZQeTBxUdIBtgFBVV95cUxOR1I5U2VIQ2RCeGxxWERFMkdHdEFVeDlwMnlGZUpnQ1d6TUY1cjF0ZHR6UzRNQ3hILXhYb3gxQk5weURJb1VFUVRpUWJZMFdybXZIYnp0Ry1fc3hMamh0OXlmeWkzb3ZCc2UtLWhNemp2Y0hlUWFrWEVBeHhJWXJDamtFbktWZGIzQnFhelo1QlJWWHRJTW5mNnJuQVhrRzVxNGM2Y3o0cXY2Y29LQVZWdjAzR3dwZw?oc=5"
+      "titulo": "Renan Santos descarta apoiar Lula ou Flávio em eventual 2º turno",
+      "fonte": "Vero Notícias",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaXR4czhsdEdmdXBKbHhfYmIwaEo3R0pRZXFabW1jcEJKdW1rVnVRaWg3QzJiRlVCVjVBM1FwS0haMm9vOXRwQzlIV3N1amNqUUdYMUhLOW9PREV6clhiVGZrOFRCbVd5ekQ1UnUtTl95YmlZODhtaVVKeWNPVHgwUkNnN0EzUzZwbjlLVkYwM2RGRmNzNkpPd3NDQm9DY0pN?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "Nos EUA, Flávio Bolsonaro fantasia com nova eleição e reivindica título de ‘presidente eleito’",
-      "fonte": "CartaCapital",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMmZFaU80bTJOdVR3UEtVYk1mTWVCUmZRcjYxZ0wtVkQ0QURBZ09WNnBPNXZIYzd5VWNtaTYtVjdFbnhOajR3NWJuVzVvN2dwNEJ4ZHFILWU2SFFFUHhCTV9KWS13b3FvM25XcEVtbGhsTEFBdlVOci11LUJnY2dDN2JmZ1dUV3A5TnprenVOT3gya1hwdlR6X3N0ZnRHV1dWaXZEZnRXYUlMVnlFZndRQnNNenAwbmZrcGQwNXAzNU9HQ2RkeVhhTU43UTEyUQ?oc=5"
+      "titulo": "Após defender 'tesouraço', Flávio Bolsonaro vota dos EUA contra ajuste do governo Lula",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdXlYTzF0SEp5MFBERTRpLXV2QnpxRTc3U09qRkxkbmpCUXgtZGlMU1pFalV3azYxTGxPeXI3MGQwTEJEWVYyNUwtekM1LVc4cy0zTE1JbV9Fc2w5dFhHeHphQkJ6ZjlFc3d1NmVSdDNOdWd5LU42OGZhazhaLWJoMW9mWGUxVk1rOWZLYUg0OUtJVXZKVW90NzRmNTdOQS1wd0FhajlWY0RicThKQWNrMWRBZ25pdkFSdUd1OEQzWFRXOGliNWdiaHNtR0d2LV8waTRuZjJFS05OUdIB6AFBVV95cUxQVGVQMUpIRTBmVDM0QnU4MHVYMVRQMjNxbFNLRUFRRVhqcVJObE1RZWZ2WGtyRFgtWkVNUUhNbVQzMGl5VmctakZJQ0lwQ1BudjVmTEpVc0tiYVlFYlZBNm4zS2FiekpBLUh3QnhVVWtTNjlpRnJVYkM4Rzl2WlhKcl9jeDBQV0pGQ1VhaGs1SjI4eGtXLVJzcHo3WWhQME5pSlNRcmNDMGh4SkUyaEJ2MktKaFRlOXVnUDBVZ0ViTTdPVmFPY3FkZ0V5NUR1anRZOHV5YmxwRC0ySnRfU00wWTBKV3QzdGZf?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-14T19:30:09-03:00",
+    "atualizadoEm": "2026-11-14T23:42:57-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
@@ -1547,15 +1547,12 @@
       "BC desemp",
       "câmbio (Yahoo)",
       "Ibovespa",
-      "8 de 8 ações"
+      "8 de 8 ações",
+      "12 notícias"
     ],
     "falhas": [
       "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests",
-      "notícias economia: https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=pt-BR&…: HTTP Error 503: Service Unavailable",
-      "notícias brasil: https://news.google.com/rss/headlines/section/topic/NATION?hl=pt-BR&gl…: HTTP Error 503: Service Unavailable",
-      "notícias politica: https://news.google.com/rss/search?q=pol%C3%ADtica%20Bras%C3%ADlia%20C…: HTTP Error 503: Service Unavailable",
-      "notícias eleicoes: https://news.google.com/rss/search?q=Lula%20Fl%C3%A1vio%20Bolsonaro%20…: HTTP Error 503: Service Unavailable",
-      "poucas notícias novas, mantidas as anteriores"
+      "PTAX: https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados/ultimos/1?format…: HTTP Error 304: Not Modified"
     ]
   }
 }
