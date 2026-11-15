@@ -167,8 +167,8 @@
       "anterior": 171324.0,
       "minimo": 171132.23,
       "maximo": 172715.48,
-      "hora": "14/11 23h42",
-      "ts": 1794710575727
+      "hora": "15/11 08h00",
+      "ts": 1794740402045
     },
     "acoes": [
       {
@@ -253,8 +253,8 @@
         "var": -0.04
       }
     ],
-    "acoesTs": 1794710575727,
-    "moedasTs": 1794710575727,
+    "acoesTs": 1794740402045,
+    "moedasTs": 1794740402045,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,57 +305,57 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Rubio reformulou relatório da CIA sobre CEO da Nvidia, diz Washington Post",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQa1YyVEJRVWF2dnFZbktKWUdHdk85T21rbEk5WW1BajBUY29oZXFqYlR5QkdWcU9KM0JOblgxU2ZzN3R2eGluajY2UFJNTk1OQXA4UjBFRzlNeDVBR2FUVG1LVzNsZDg4YUxLMjlRRmtnV0s3Nkt4RnBYdkliX1V1NVM1MmNvX2pKdVBpY2hkSTUxY1E2anA0MGE1a2ptdnQ2WGlfMXJjSnY0Q0I0WmFLS1Y1SnZ2R1JS?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "O preço da ‘ressaca digital’: quanto custou ao mundo a pane global da Microsoft?",
-      "fonte": "InfoMoney",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNTBJX2ZQOWRNMlJvQ1JzTzRqRmVPbTVHWDFKRGVUSndROTdhVlQzWEdMTG80czBaMEF4YzlrSmFIVy1XZnZYVWJ1VTd5OGVhZTkydEVCUXVQYXR4dlQtVlZrcFZhMnJlQlFSRkhhNWd0MVljdnlrcXJlM3ZZUElzTjg4Y2ZReFNZeTc2aEJxcXM0MlQ5cTVacXVDTl81cGM3WkhrMGxZZVRpdkZ2Z3VTb21TWjhJQdIBuwFBVV95cUxPY1hySkVjWTRORkVVSjRQT2JMSEgtRXVQclRlSGpKLWZzeXg4eFdtcnk5Njc2SVR5Y2x6Rk83anFQODBSR3pRNUVpRWxtSTc1a0dYXzFxYlMzWkk1UmtsRy1sNGVIOTAxNXdrZ1BwX3N1aEhKWFYzVk52a3NrM1FnN2RSbUVBQks5R01xTmY0MnF0WDFmSHdRM3NENU1TTS1EQWg0T1lCdWZVTVZaRFYxaHRlSXM0c0VvcHdz?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Mercado estima impacto do ajuste fiscal abaixo de R$ 60 bilhões",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONFhIeXgzVE1OdGlIN1hTOV9tbTZKZS0xLTU1WXdzNDJaS09iQzNERDM5aE1IMlBCVHRybUVKSXR6VG5HeXZKRjlvRFp3YXpQZzFEYUVJQ0tXNDlsMkxlZ0JXQjBZTTQyZm53U0JqWnhCTEsxZkt0bklEQ2tiQ0N0SFVGcjJVTldyOVZ1SmQzNUk4VUFvWWZDa2tQc2hMNGFWVGNFS0Q3R3lTQQ?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Janones critica ação da \"extrema-esquerda\" contra ajuste fiscal de Lula",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMExOc1dSUzJKN3E1c1VHcFVxeHR1NHhGY2Q0TVQyTHF3ZlVqRG8zV1k4QU8ydUgwa0xvTzlQZVpuTW5rZDRwaDU1R2MtdmU0NDFsVzBva0xwMW8xeGVrZ3RudVBfSzVlQmtPMm1oRVJtdnlCY1VsZ2IwQ2ZaSmdFdlRkQXU3ZzlFRE9lOWxwX2txUHZiSmxJeWlSdUM5bWc2bUZLUnA5WXdFQQ?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "COP 31: UE acusa países de tentar enfraquecer ciência climática e cobra relatório antes de 2028",
+      "titulo": "Casamento de 40 anos e dois filhos: quem é quem na família de Jensen Huang, que deixou Nvidia após casos extraconjugais",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNR2RHdlJUVk1MaTFpMUZSQzBhVURqZGhQN01odVZYRV9mR0JxWWN6WWxJZVpXLXhhUVpJN2RzMTVTTlFmS1hUMDlNYVBULVlYSkRPRm5ILWZ4b3I2R1E5SkZjOXM3bFFjU0RlbGpoa1pEVE9JQy1PMENDcVlYYmh3UmJ1VkFTcmV1bHlJQ2NmOXHSAZ8BQVVfeXFMUGNaSnJHbTNEMkQ3aGRiVll2V2FDTGxJSnJmNlc2ZUkxc2x0Z3hKV3VBUGxhbmQyb0d3dXdJX1dGWHBSbUpvMkpSc0xONDJwUnV3UXY3UW5BQUZvNXMzUjY0VkVpS01BSEp2Sm9iMFA3NjlYNHp0ZmFwZ1VZSVZnQTBRb3EtMjNpalF6LTd1aXh3SUpWeGw2UDBRZDdBUm9j?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZWFrSVE2Qno2OGVkeDZ2XzF2UGxqYjJaOTJsTVdMZTBQZi1ITm1ENFFyZVgyOTd3Z0JLOWVBUzlhV1lidGoyVkU3bmxvdDRDMlJBWGRNMXpzUUVmb2RJRmRFWWNVR2U3SXpUVXBpQ0ctcmt0c2NYZUpVbmtzWldQYk0tSdIBkgFBVV95cUxNX0ZvRTNqbU5pUWpPUmc4ZVRlN1hjbEVMblR4eWptVzlCY0RlLU1pWGRjT3l1WmtRbkpiX1RmUDV2TldLQXpJX1lyUEl2UjNTV0xZbEhBT0NtNWtGb2kzSGJQZXg1bjhMR20xRTY2SmJ2MXBHc2hVb19PYzE3ZzlwVl9EOTVKMmdFdjI3RkV2MWtTUQ?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Mega-Sena sorteia prêmio de R$ 27 milhões neste domingo",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOc3VUV2ZaVkl3RlYyNmNsX3RPdEVNRDdmNktjM3Y3WW54dllyQzJfanJwWFk3alpnUklfbXpXQTNMQWJVQk9VUDNOUG90U3dOUl9qazVGR2ZVemRoa00zLTFQTE1YU1lidFhOUUU0d0Y5X2wycWFtN25VelNwLWo2QjVlbmI3VW4yazFlNlVGazRpSXRiQ2djUDk1NVBqQ1lRX3JqcmkxZXJLamktMnc?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Inadimplência do agro gordo com o Banco do Brasil é filha de velha cultura de dever e não pagar",
+      "fonte": "Folha de S.Paulo",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQbmdpdG1IRE9NZHpqRkJnNU9RSEp5VEtVbk1qa0h4YVdVZkloN1F2VzBXQUJqakZKSWtzV1gxa0dUeTRCek1PS1NTdDlJWWFkckhQZWRfYWxFNmpaTjBlYlQxUGJwd1o5Q0xkNzhVangtNDhXSElpbkJNRk8xQVZGUjdHbkJ5ZzBGZ1p0cXlOanpoVGdlVDdMYkdRM0JJbnJUZ1lpQ09jakxJSWNOS1Vlc2RGOUZVRk50NGNoampLT0pEMVk2em9Hc05PcUV6SDhLQ1JURC12TjVtN05CeC1sQ0ZjSHcxNFVVMXZfZXpKd2M?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Gilmar Mendes chama de “desfaçatez” fala de Moro sobre triplex",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZWFqSndPelM4UDJkcEdMRHJSd2xVU3FHOFU2bnRWOGY1NGNiWEdqXzRQNFJRSnBKQzJ2NUQ1Q1F6TzRmdW54WFFPcUxrZl9VOUZSZ0QydzgwWHZQQVVPdkNmVVBjcGktV2pBU1J3NXhqUXJORWhmcjRNcW5iaV9lV1MtejFDSXZhQk5GeWpXT2NzcXRVY3BEZTlvQnRXYUh4S0R1WXNn?oc=5"
+      "titulo": "Que horas começa o Enem no 2º domingo?",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPLXMzZTRzb19aVDB6RkZkbmdYVG44TUpzLU5NWVliX2x3eXdLZTNkSkpqTlVmT1hkVWF3TmN1cGdwTTh5QnFqdExMTkJ6YWlSa3N1MGhWblpMcndUR0ZVcjZaMGNrRDhyZDNkczkxRW5OLUV3U3h2Q1dCaUpVRGM3d2w0b0ZPQnpDTkZzemhsYXZLNmRFQlVmajF2RUNlelc4Mk02MHJna2loMlXSAboBQVVfeXFMUFlBVWYzN0tVcEdwR0dYQ2lkcjgzZlhXcG1PYnJnYjJUZnMxNmdUUEwzenNLQ0RhaWpYak5OZzNzMERUNVJQRW5uMFR0OTFQY3hRdE1fQy1zUE5GUGdMQk5OMTRMNGtTSnpfLWl2Sm1vUk1oU3Q0akFFWjNKeFZBRGEwNjYzOGZyTG1wS1VXZlNkRm1hbFNHSEpVSGJMTElELU1RVzE3R2JVRXQ1WTBmTGd3bVpkMkpaRnlR?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Lula cita herói anticolonial das Filipinas ao comentar sua reeleição",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQc2lTcEwwWmxFNlptQkNKcWEwUHpqLUpldndyZW1qV1pXc01SYVFSVWQ2YkdLaWRIaTQwV0Nodnc5cS1NR1kwMXUzdUVJOWpkOWR6aGQtV0JUdXpRcHVvQzlyNzluU3k5cmxKakpvVHZvRHVvNmlIT3ZZWW9MSTZENnRNeTBUakN3RjMzY2Nqa3JBekpSakVzb2dxeklKd1c1RWNWUWtMMmZ4UFN6dE5ZVWxtV25uZ3paLUpvOWl0QmdQLVZw?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Janones põe Moretti nas redes para alinhar o discurso sobre o ajuste",
+      "fonte": "Metrópoles",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeXE5R1RyQU9lSHdaUEVaVDljejR6emxCbnpwQnlrZEVNcE02ZXVRSTZfZzNHaTNxNTNnWGhnMS1RUHpyWHdtZXZILVE2Z2NueUNVa3JaRk12VFNfeG9NckVtSVFlU201OGN4M2JTS2dEMWI4VUxWR0FIWnZLb2xCVWR3Y3g2ZXBXWnY4Z3UtTFlQeVE2cnVnUWJ6QTVZenNXdWtOR3VhYXpTZlhrMjlUSzE5bGlEOHR6dkE?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Cidadania convoca Congresso para votar incorporação pelo Progressistas",
+      "titulo": "Beatriz Rey: Conta de senadores pró-impeachment contra STF quase não fecha",
       "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTGw1NVo1dnotbnMydnlhbkN4U0VnVzFic1MtOXVKU1Rlc2IxYXFveG1kczE4ZnpTNE1BZDV3WmRtMDY4bWc5bXB1MW9qOEJIdTMxeGMxbFFkMzdOdk9icDFKajd1R2VNZV9jSzRBZnlvNXNTVE1yeGVfc3o1ZHppdEtYOGNnNXdVNDdKZmVnQzdOR2lzOHZaVGFNbDZJc25mR3ZmOVNBTHBGS09OWEE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOU2l2ZzU2c2F0UHZUSkRhQTFFcUZNSHhJdFROR3FScDNlWEhHUEtWamp5d2YtcEJic2FtS3EwWGE5Mzd2QUxRLVVVQ2tJdXoySnFZc1hRSWU3LWo5UEZLaGg0VTdGQVJLazRTVkt1WFJldElQWHpWMG1ub0pXSmJnbmRTNDU4clVlZlltQ25RODdEdw?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Voto distrital misto volta a ser debatido no Congresso após décadas de tentativas e rejeições",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPYzdPcERMcWpta0Q1bWFyU2NOTjZjcHdkMXBQZ1F5RlhQQjNqaUcta1JXZTNwa0dQVTBZOXJ5X0h6ZDlKalVBM1pRVUlndXlpVjRFX3EwZ0pVMkJBX0F5OE9YUUx3ZmVMRUJiUjA4LUpHMkZVaWVxLW1oVU1SenJPNy1LeXpBUFY3WEIzUWNBWTZBVWpTZTBOVjY4ZFhLQlBlOUY0OUtpUnVEVVRCaEJaS3BUaEVwX2ZscVFMWWxyTGM2SktqSG51ekN3ekoySzc4OGZjS2dDODJ2UUg0QmF3WmgyT1RBMkp1ODZmcUNscEpJY3lIVHfSAfsBQVVfeXFMTjhpX1BoX3ZleWI5Mk0zT1RZZ0xUZHVYMmJsWnNMekx0UXAwOUZCUmh6OFBpUUhmTXZ0cHRTcGlxc1hzazdYd3JYWDlWV3hDU0h4aEViamVqREVlTjZVYmxOR09QY3U1OG9FRnN6RVQzQWZWazFfeExVUS0xWDNLYkxpQm9XVXpFNy1Jb2pEZGxxeDZEYkkteWZxYzZLeTctQ3JqdGRaUUQ4UWZpdlRhZmsyczFsQVRUWURtWkIxZ3RsLUVzMWR5WnBkRk1INWRlOVMtVDM5R3JMUHItcDBiXzBTel9hQms1SkVVbFFzNjhlVEQ0Wjg3Znp3Z28?oc=5"
+      "titulo": "Após a reeleição, a fortuna sorri para Lula, porém exige mais virtudes",
+      "fonte": "Correio Braziliense",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQ1Y5MTdSZ3RKd3hIWGhkU2VIOU5wSWFQTVQwS3AzSk45TjRJQmtYQlp2VWFtaWFLcTVUZW1oRnNWeV9WQVhxVGVJc2dVZmZNNEVmSUhfMTdRWDRSSzJFaG1vaDJIeEdQNS03cmREZ3NkNjJxbzViNGY1MHMtTEtNWk1USV85Sk9qSnRKTlFXOWdvUi1PWkU2YTlOR2pSZm9iallqQjVhdVBCNEd3akw1NS1jVVdnQQ?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Ministro do Planejamento destaca que ajuste preserva políticas sociais",
-      "fonte": "Agência Gov",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQalUxaElQQVpORFpsa0tRTWRLYVpiUDZCRG0xS1A4QWZ1VEMyYm1xLWpVRXpUaUltX1gxVjdObkpmOG1JYVZfUDZlQ1FsWURfd0lnSHd4ckJDbmNBdmwtNTc5V3k0dERVTi1DYk1tWnJmTnpEcGR6YnEtYjFnWjBrNVBjcWlKcEhZaG1EODlfZ1Y3N3BhZDhTalRQNDdJOHNSTVJJWi1iQU45eEl0TnlQdXl4VEE3dw?oc=5"
+      "titulo": "Senado terá 54 votos pró-impeachment no STF, mas conta não fecha",
+      "fonte": "TV Sim Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQY19SdVZ1ZE5WeTFPa2tzOWN6R05ONW9xTXNQNGlHbjVEZUJxY2RKbkRzUERSdklJdGQwQUZ1ZFBhLTZCaDZxRjZISHdYdHk2bU5aZXlkU1VfNDVwal9Ec1lxNFJab1hFNzBveTNOcUx3X0JXQ2dhaUpqRk1kN3lYQnhVVDB5RG1fMGhjWUpqbWRsQ05fNHh5M2JzVkZHbEhJcTV0WGhFOXVRNlBkblVNWHBPWjBmMkRHZGc?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -365,15 +365,15 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "Renan Santos descarta apoiar Lula ou Flávio em eventual 2º turno",
-      "fonte": "Vero Notícias",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaXR4czhsdEdmdXBKbHhfYmIwaEo3R0pRZXFabW1jcEJKdW1rVnVRaWg3QzJiRlVCVjVBM1FwS0haMm9vOXRwQzlIV3N1amNqUUdYMUhLOW9PREV6clhiVGZrOFRCbVd5ekQ1UnUtTl95YmlZODhtaVVKeWNPVHgwUkNnN0EzUzZwbjlLVkYwM2RGRmNzNkpPd3NDQm9DY0pN?oc=5"
+      "titulo": "Tarcísio supera Flávio Bolsonaro em pesquisa pela liderança da direita",
+      "fonte": "TV Sim Brasil",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPb19xelVaWlF2Wkhsb0lIcU5TcVNMN29LcmdHS1kxQnJpZFRwSzZ3MnEwQnNPcGFoVk1vTFRYVW9JQy01emp0bHlaa1llUE12eW96R1p4T2dOblRWYi1vM01aYW01MWduakl4QVJwWUM2SlVmLXZoRmVEWkxkWjkwdTJ4a3VZY0xXUzV0SXd5c0c3MUN1azVDbC1wekk4al80SkNVandhbzlud2Rid0x2dWFNQ1NXd3hCNWlPZXR2eHM3eWtl?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "Após defender 'tesouraço', Flávio Bolsonaro vota dos EUA contra ajuste do governo Lula",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdXlYTzF0SEp5MFBERTRpLXV2QnpxRTc3U09qRkxkbmpCUXgtZGlMU1pFalV3azYxTGxPeXI3MGQwTEJEWVYyNUwtekM1LVc4cy0zTE1JbV9Fc2w5dFhHeHphQkJ6ZjlFc3d1NmVSdDNOdWd5LU42OGZhazhaLWJoMW9mWGUxVk1rOWZLYUg0OUtJVXZKVW90NzRmNTdOQS1wd0FhajlWY0RicThKQWNrMWRBZ25pdkFSdUd1OEQzWFRXOGliNWdiaHNtR0d2LV8waTRuZjJFS05OUdIB6AFBVV95cUxQVGVQMUpIRTBmVDM0QnU4MHVYMVRQMjNxbFNLRUFRRVhqcVJObE1RZWZ2WGtyRFgtWkVNUUhNbVQzMGl5VmctakZJQ0lwQ1BudjVmTEpVc0tiYVlFYlZBNm4zS2FiekpBLUh3QnhVVWtTNjlpRnJVYkM4Rzl2WlhKcl9jeDBQV0pGQ1VhaGs1SjI4eGtXLVJzcHo3WWhQME5pSlNRcmNDMGh4SkUyaEJ2MktKaFRlOXVnUDBVZ0ViTTdPVmFPY3FkZ0V5NUR1anRZOHV5YmxwRC0ySnRfU00wWTBKV3QzdGZf?oc=5"
+      "titulo": "Renan Santos descarta apoiar Lula ou Flávio em eventual 2º turno",
+      "fonte": "Vero Notícias",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaXR4czhsdEdmdXBKbHhfYmIwaEo3R0pRZXFabW1jcEJKdW1rVnVRaWg3QzJiRlVCVjVBM1FwS0haMm9vOXRwQzlIV3N1amNqUUdYMUhLOW9PREV6clhiVGZrOFRCbVd5ekQ1UnUtTl95YmlZODhtaVVKeWNPVHgwUkNnN0EzUzZwbjlLVkYwM2RGRmNzNkpPd3NDQm9DY0pN?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,14 +1536,13 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-14T23:42:57-03:00",
+    "atualizadoEm": "2026-11-15T08:00:04-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
       "BC ipca12",
       "BC ipcam",
       "BC igpm",
-      "BC poup",
       "BC desemp",
       "câmbio (Yahoo)",
       "Ibovespa",
@@ -1551,8 +1550,8 @@
       "12 notícias"
     ],
     "falhas": [
-      "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests",
-      "PTAX: https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados/ultimos/1?format…: HTTP Error 304: Not Modified"
+      "BC poup: https://api.bcb.gov.br/dados/serie/bcdata.sgs.195/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
+      "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
     ]
   }
 }
