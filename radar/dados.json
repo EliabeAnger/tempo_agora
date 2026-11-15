@@ -165,10 +165,10 @@
       "pontos": 172457.77,
       "var": 0.66,
       "anterior": 171324.0,
-      "minimo": 171132.23,
-      "maximo": 172715.48,
-      "hora": "15/11 08h00",
-      "ts": 1794740402045
+      "minimo": 172457.77,
+      "maximo": 172457.77,
+      "hora": "15/11 14h45",
+      "ts": 1794764720307
     },
     "acoes": [
       {
@@ -253,8 +253,8 @@
         "var": -0.04
       }
     ],
-    "acoesTs": 1794740402045,
-    "moedasTs": 1794740402045,
+    "acoesTs": 1794764720307,
+    "moedasTs": 1794764720307,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,39 +305,45 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Casamento de 40 anos e dois filhos: quem é quem na família de Jensen Huang, que deixou Nvidia após casos extraconjugais",
+      "titulo": "Brasil tem superavit de R$ 18 bi nos 9 minerais críticos prioritários",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNFJvMFlrejhmVDJ5Y3BnYUNSZklzdVdMdDlWV1FPM3R5M2FMcVNZM3RROWM5R3QwZlB1RHdlUUVYZjFORU5qRGoyOTlkQWk3UzEtVDJLTzUzNWQtelVNYlBDWEFPMXJQUjN6N3pWVlZYLXM2NG56OHlrWVJUV3o2a2lpMXNTcXZiY3Ryc3R6UkJJaVFkbHJ3eEk5WDdjZGRTTk5NT194TTVjTzkyZHRhSzZR?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Superendividamento: veja como buscar ajuda para renegociar as contas sem comprometer despesas básicas",
+      "fonte": "Extra online",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOM1RacmFTUC1HNDhQaENfVHhBS0RvNlJRYW9NMVZvU0F5alhvRF9wcEtCUjNBbjBkank1cXFEZzJKdnV5TTkyRDUzTlZiSmRqeXFwdGkwc1dXQXZIYmZWeGp5YmV4TG9kQUZIX3dlUnNsVWJRVDdqd2pYSFBWcEM4UzlKSkZmZXozQWlMejV4Z0tLdUhaR0lmWk1NbnNfTzQ3eVYtaVlNQTk1elNXVVlqMWl1eXRqaWJyU3l2WDN2Z0ZNTnFWczgyM0ZQbVF2Y2lfMm00cVRzeUVDM2xRVmoySUNXak9HUDJ2UERhd0dWczQzZ2VEYU530gGGAkFVX3lxTE9vczMwOHA1NFpMcVQ0VlBTNTR1V2F3TGVZNXJUNlBCX19vMGM5TkduRzY2QnpWWW5fMFUydkFhRWNDNFRKbVBIZHpfWFhrYUxsYTBzdVVNNFBBaDhEd2dmTDJCbjl1a1ZmdGVlb2FRSWR3WXVsc2FZWW9HN3NENmo4dDc5WTdTR0hmdy1pNnpNY3k4VGM5UEozalJNZ3dWdzZsdWw0NFFEbnRIZlhoQk4xbHdpOGlpSjFndUlvaXdZTTFaejNZWHdXNl9uczdMUHk0NzFVNlpDN2pla3hxMmxOdzNKbnRxSjJaZ0tjbWdtRWN4ZTlJekxzU0ZlQzMxSURpSksxWGc?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Mega-Sena hoje, concurso 3086: confira o resultado sorteado neste domingo (15)",
+      "fonte": "InfoMoney",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSVl0c19Ja1ltdWc5bmpnZUFaVWMyajQxR0pvbHBiTjBpTHFYd0VzLVU1RTV4WUlrb29QYklka2JBdEFWbXM3b2czUjA4elp4R0JrdUtXSllVZjU0bGh3clhJaDByaVhjcmlJS0dVSHpaU1ZRTVFNckFGX2xYNVhHUnFVaGVaVThlWVFRZmJQc0thZUxYZ191ZTh2Rnk2M3BOOGE1d3o1T0V1U05JdTgtc0Jn0gG3AUFVX3lxTE5UZVFNWUtnRWNoMFRuOHBQU3VIUlNVM3lFT1EyNUVZS0hJWllCcTFsVDVIQWFzWDUwZy1NbUdSOTNybkV3akcxYXdqMnNpc3oxcFFFUmJMV2Y4dnZFUnk3Q0RDNVpIRFgwWWhOcW9QX1lKZlYwdU1adkMzc1NJUU5HVGs3S1RMWEZpREFNOE9BNGVWZ1lEdDVuaTZleExoMVlTRGotLU4zeHUwTDN5UGEwR1dtYjNfSQ?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Enem 2026: 460 cidades com locais de prova estão sob alerta de chuva ou tempestade; veja lista",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZWFrSVE2Qno2OGVkeDZ2XzF2UGxqYjJaOTJsTVdMZTBQZi1ITm1ENFFyZVgyOTd3Z0JLOWVBUzlhV1lidGoyVkU3bmxvdDRDMlJBWGRNMXpzUUVmb2RJRmRFWWNVR2U3SXpUVXBpQ0ctcmt0c2NYZUpVbmtzWldQYk0tSdIBkgFBVV95cUxNX0ZvRTNqbU5pUWpPUmc4ZVRlN1hjbEVMblR4eWptVzlCY0RlLU1pWGRjT3l1WmtRbkpiX1RmUDV2TldLQXpJX1lyUEl2UjNTV0xZbEhBT0NtNWtGb2kzSGJQZXg1bjhMR20xRTY2SmJ2MXBHc2hVb19PYzE3ZzlwVl9EOTVKMmdFdjI3RkV2MWtTUQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcHZ0SXlfZm84amVBa2NwbUV1YllBVXA2MTBYcjh5Y25GOHRQczBXcEFrdXpZYWR4QTR6THIwUEZLUE9SbE01VVduTmx5NzM5MTJ4REVacHVMd25jVk9VR3EtTnVLaVFuNVlsMVhlS3ZzcFljbUJTdnJUY29HdGt0NWY2SjYxdGFXamZBNkRoaHpKVHkwNWNpempxWDc4cWpPNTFHR3NHTlZ5cEY1UE1ubEs1QzI1R19oRF9FbVBMLXM3OXpIS19tQtIB1wFBVV95cUxNVXNNdFNiaDZoUFptamRJUkFQdG9NdFZrSHBwOHgwWXE5aFdjNHNaWkJPOW9mMzEtUzcwUFhNRTdhREV5bnZTNG5OVlVPdEZ6ZW1xWWJaenhHSXN5MnJTZDNWX0NMQ0pEdGRtbl9TVm51Z1dScXR3STdWOURSaVZxM0FUdE82SENndzU5Z2xBbnlOVkhYWTNHeVVmdm5KWU5jUG9HdjY2NHNPZHJGRTltVFA4eUtpUjFTdlptVlRNaU5NamtVdkNrRGdZZVI2d09hTVhJd1JwYw?oc=5"
     },
     {
-      "cat": "economia",
-      "titulo": "Mega-Sena sorteia prêmio de R$ 27 milhões neste domingo",
-      "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOc3VUV2ZaVkl3RlYyNmNsX3RPdEVNRDdmNktjM3Y3WW54dllyQzJfanJwWFk3alpnUklfbXpXQTNMQWJVQk9VUDNOUG90U3dOUl9qazVGR2ZVemRoa00zLTFQTE1YU1lidFhOUUU0d0Y5X2wycWFtN25VelNwLWo2QjVlbmI3VW4yazFlNlVGazRpSXRiQ2djUDk1NVBqQ1lRX3JqcmkxZXJLamktMnc?oc=5"
+      "cat": "brasil",
+      "titulo": "Lula sobre tarifaço: “Em vez de chorar, a gente procurou outros parceiros”",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUXZ1Sl9DekhsUGwzZ29CcHBVdFJmVnJHOU1yeExkSVFEajNzOHQ1Ry1BcVU3WWNTcjhWeTdFcXROZm16Wk9tOVdXR2hwSjdkb0dQLV9tZ2tJNHNzaTBXNm1uS0ktUzNZemZ5ZktFOXJEelZaeGQwVXpxaE9ZaWJDVkI4V3FjYUZueDg3dmpHLWZOdFFtTTlySTdOWmRfMFRhd1AwOHBJZURuc3RzdmJaZg?oc=5"
     },
     {
-      "cat": "economia",
-      "titulo": "Inadimplência do agro gordo com o Banco do Brasil é filha de velha cultura de dever e não pagar",
+      "cat": "brasil",
+      "titulo": "Machado de Xangô, símbolo de orixá da justiça, será inaugurado no STF",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNk1zbDYtSExPdXU2YlNTVUZaSHNBbl9hUDZPYk1xdE1GSlVBQWdfRFZzVjhJamVLVnVHbnZVMU8wZWlvT2ZfMmpjUUh1a1gyS2RGRm1Zdkx1QjFFR3pidkhuNnBtTXdEbE5rcHI1eWVXWEJRRTBmeVAzLUIwbUtTOGNPQ01jSUVCU3hzNlNSbS1yLURRcjBvTkVDS29vUDlLejJLNmZFNV94eGlrakxZ?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Senadores retomam debate sobre fim da reeleição à Presidência mesmo após derrota de Flávio Bolsonaro",
       "fonte": "Folha de S.Paulo",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQbmdpdG1IRE9NZHpqRkJnNU9RSEp5VEtVbk1qa0h4YVdVZkloN1F2VzBXQUJqakZKSWtzV1gxa0dUeTRCek1PS1NTdDlJWWFkckhQZWRfYWxFNmpaTjBlYlQxUGJwd1o5Q0xkNzhVangtNDhXSElpbkJNRk8xQVZGUjdHbkJ5ZzBGZ1p0cXlOanpoVGdlVDdMYkdRM0JJbnJUZ1lpQ09jakxJSWNOS1Vlc2RGOUZVRk50NGNoampLT0pEMVk2em9Hc05PcUV6SDhLQ1JURC12TjVtN05CeC1sQ0ZjSHcxNFVVMXZfZXpKd2M?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Que horas começa o Enem no 2º domingo?",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPLXMzZTRzb19aVDB6RkZkbmdYVG44TUpzLU5NWVliX2x3eXdLZTNkSkpqTlVmT1hkVWF3TmN1cGdwTTh5QnFqdExMTkJ6YWlSa3N1MGhWblpMcndUR0ZVcjZaMGNrRDhyZDNkczkxRW5OLUV3U3h2Q1dCaUpVRGM3d2w0b0ZPQnpDTkZzemhsYXZLNmRFQlVmajF2RUNlelc4Mk02MHJna2loMlXSAboBQVVfeXFMUFlBVWYzN0tVcEdwR0dYQ2lkcjgzZlhXcG1PYnJnYjJUZnMxNmdUUEwzenNLQ0RhaWpYak5OZzNzMERUNVJQRW5uMFR0OTFQY3hRdE1fQy1zUE5GUGdMQk5OMTRMNGtTSnpfLWl2Sm1vUk1oU3Q0akFFWjNKeFZBRGEwNjYzOGZyTG1wS1VXZlNkRm1hbFNHSEpVSGJMTElELU1RVzE3R2JVRXQ1WTBmTGd3bVpkMkpaRnlR?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Lula cita herói anticolonial das Filipinas ao comentar sua reeleição",
-      "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQc2lTcEwwWmxFNlptQkNKcWEwUHpqLUpldndyZW1qV1pXc01SYVFSVWQ2YkdLaWRIaTQwV0Nodnc5cS1NR1kwMXUzdUVJOWpkOWR6aGQtV0JUdXpRcHVvQzlyNzluU3k5cmxKakpvVHZvRHVvNmlIT3ZZWW9MSTZENnRNeTBUakN3RjMzY2Nqa3JBekpSakVzb2dxeklKd1c1RWNWUWtMMmZ4UFN6dE5ZVWxtV25uZ3paLUpvOWl0QmdQLVZw?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Janones põe Moretti nas redes para alinhar o discurso sobre o ajuste",
-      "fonte": "Metrópoles",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeXE5R1RyQU9lSHdaUEVaVDljejR6emxCbnpwQnlrZEVNcE02ZXVRSTZfZzNHaTNxNTNnWGhnMS1RUHpyWHdtZXZILVE2Z2NueUNVa3JaRk12VFNfeG9NckVtSVFlU201OGN4M2JTS2dEMWI4VUxWR0FIWnZLb2xCVWR3Y3g2ZXBXWnY4Z3UtTFlQeVE2cnVnUWJ6QTVZenNXdWtOR3VhYXpTZlhrMjlUSzE5bGlEOHR6dkE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNMGJadnM5ZU9YdnM3RTM5WGVkSk5ValdZZGpTdWlyY1NjTFhkTW9PMFZRRGN0S3JwUWR0UUo5OGVmeUNtM1lQVVM3TllpZFlmZHY1djVFUmNicFdrOWZJOU0yakM5a19DUlhFek1rT1h3WS14VEw0Nnp2MHk1U2VRUDNRcVhtaG94cHctWDdqWjJEVnVBVUMyM1hNVkdTRURsWGJyeU1VTDlJOUNRU1NjRXNXd1BPVmx4T0J0ckJSMDFqS05HYW95M0dyUUNwQkpoUl9hZVJQc1Y1UmpoN1VsNmsxbnk?oc=5"
     },
     {
       "cat": "politica",
@@ -347,21 +353,15 @@
     },
     {
       "cat": "politica",
-      "titulo": "Após a reeleição, a fortuna sorri para Lula, porém exige mais virtudes",
-      "fonte": "Correio Braziliense",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQ1Y5MTdSZ3RKd3hIWGhkU2VIOU5wSWFQTVQwS3AzSk45TjRJQmtYQlp2VWFtaWFLcTVUZW1oRnNWeV9WQVhxVGVJc2dVZmZNNEVmSUhfMTdRWDRSSzJFaG1vaDJIeEdQNS03cmREZ3NkNjJxbzViNGY1MHMtTEtNWk1USV85Sk9qSnRKTlFXOWdvUi1PWkU2YTlOR2pSZm9iallqQjVhdVBCNEd3akw1NS1jVVdnQQ?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Senado terá 54 votos pró-impeachment no STF, mas conta não fecha",
-      "fonte": "TV Sim Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQY19SdVZ1ZE5WeTFPa2tzOWN6R05ONW9xTXNQNGlHbjVEZUJxY2RKbkRzUERSdklJdGQwQUZ1ZFBhLTZCaDZxRjZISHdYdHk2bU5aZXlkU1VfNDVwal9Ec1lxNFJab1hFNzBveTNOcUx3X0JXQ2dhaUpqRk1kN3lYQnhVVDB5RG1fMGhjWUpqbWRsQ05fNHh5M2JzVkZHbEhJcTV0WGhFOXVRNlBkblVNWHBPWjBmMkRHZGc?oc=5"
+      "titulo": "Maior Bancada Feminina da História do Congresso em 2027",
+      "fonte": "Jornal Brasília Capital",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUVhXcFlSVU9ld1hKXzcwZEpVcy05ODZVcFFkV2Y2bkdaVmJ0b1N3TnpHb0tiNVh2VGdXTG40TDJ2UjZqQk5oWVF6c2NDTTdQS0N5NjRteWQ4TVhIRDc4RmVHQ3hPSmc1RGg2SGdVOHFmNVVsNlE4N3VkbmFxWHdPQlZpNnNRRUxsalE?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "Flávio Bolsonaro aposta em cassação de Lula e novas eleições em 2030",
-      "fonte": "Congresso em Foco",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTjlhQ19WQmdtcDhieTFvNlk1RkdPNTlBRVBpb1BHR0t0RURtdDdLY3EzeTk4U1JISEhRQlRYbnU0MXZ2TjNmcGR0TUVNSEQtRXRTeWN6cHEwdzR1U3M2dlotZVE4d2R6VTFUZUNYS2w2T0JoWDVjRFB3OWFEX0RNaEc0eXd5SkdOQ1M4NTRrQkI1RFhHbnB3SHlaY1dLMEdiemZ2cGZKVnpiV0tMZFpPZjNVLWJDUS1IOVE?oc=5"
+      "titulo": "Após derrota para Lula, Flávio Bolsonaro procura mansão de luxo nos EUA com aluguel de até R$ 85 mil por mês",
+      "fonte": "O Potiguar",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSmFqcV9uTUM4eUoxeVJ2dEt1ZnV2Mm8ySW9PYmw4VTN2amtYaVVsdW9qZk9zSUFnUGplc1FGbGd6UVJSeTVRVTJPeFVDX3ZxZTZFZVVQNE1VZmpNWmd6MjM4bms5eldtZTZjNmJmcExUVGtvZXIzSWxKa3ozX0szUTcyR202TUdhNjEzT3h4YmI0SnhCc3pZYmZGR3dwd1lxV1FTY0tmN3hfSEVoZzlWbEk2WWh6LUVGN1dpU2E4NHNTUkNjQ1JIOURwNmNlcDNx?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -371,9 +371,9 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "Renan Santos descarta apoiar Lula ou Flávio em eventual 2º turno",
-      "fonte": "Vero Notícias",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaXR4czhsdEdmdXBKbHhfYmIwaEo3R0pRZXFabW1jcEJKdW1rVnVRaWg3QzJiRlVCVjVBM1FwS0haMm9vOXRwQzlIV3N1amNqUUdYMUhLOW9PREV6clhiVGZrOFRCbVd5ekQ1UnUtTl95YmlZODhtaVVKeWNPVHgwUkNnN0EzUzZwbjlLVkYwM2RGRmNzNkpPd3NDQm9DY0pN?oc=5"
+      "titulo": "Flávio Bolsonaro cita reconhecimento de resultados das eleições brasileiras pelo Irã e Hamas",
+      "fonte": "Portal VV8",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPTHROUHNwWEJDcENWTmdmdk1KZ3VJOEJoc2lPTzB5dlFiWlo0VzBmY1lDQUNIRm44bklxZTVrc3RBblZ2VEl6UFgxSzlncHdiMS1xNlhuSWFZOTRUcHp1VGN5OFFuWE9iTVIydW9pa0ZYSVJSZGtjT2ozWEVnZ3hnUmNXMHlXMmJDWUtMank5bnMzQjBFeV9SMlYzN21tVUJkRkNadmJEMVFHblZnTjZXMVFGM3J3UjNKZElyM0RfTld3UWJueGZEaVA1UQ?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,13 +1536,14 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-15T08:00:04-03:00",
+    "atualizadoEm": "2026-11-15T14:45:23-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
       "BC ipca12",
       "BC ipcam",
       "BC igpm",
+      "BC poup",
       "BC desemp",
       "câmbio (Yahoo)",
       "Ibovespa",
@@ -1550,7 +1551,6 @@
       "12 notícias"
     ],
     "falhas": [
-      "BC poup: https://api.bcb.gov.br/dados/serie/bcdata.sgs.195/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
       "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
     ]
   }
