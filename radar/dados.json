@@ -167,8 +167,8 @@
       "anterior": 171324.0,
       "minimo": 172457.77,
       "maximo": 172457.77,
-      "hora": "15/11 23h46",
-      "ts": 1794797208610
+      "hora": "16/11 08h29",
+      "ts": 1794828541897
     },
     "acoes": [
       {
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.6666,
-        "var": 0.0
+        "valor": 5.6408,
+        "var": -0.46
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.2438,
-        "var": -0.03
+        "valor": 6.2151,
+        "var": -0.49
       }
     ],
-    "acoesTs": 1794797208610,
-    "moedasTs": 1794797208610,
+    "acoesTs": 1794828541897,
+    "moedasTs": 1794828541897,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -311,21 +311,21 @@
     },
     {
       "cat": "economia",
-      "titulo": "Correios perdem R$ 1,9 bi no 3º trimestre; rombo no ano chega a R$ 7,5 bi",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQV2t2c2MyajFQOEZoSnRpenNId1doR080T0t3RHhjQ1NhX2ZkSHMwYUdHUGswSVl6anMxQVdvYktVMnhSRVg5cUtUeTNjTmdVbFdVdXFPYV8waEIweFhBb1JmZkw4cUt6S3BnbmItOWJxd29YUDV0Y1E1cDB6Vnh3Rm1VNW5rSlJRWU1nT0Q0YmYxX1BaQkFFWjhRT28tVHh5OTBhZW1nR3ByWnh4dUY2NFpObDRXbzdXUFJEVVZR?oc=5"
+      "titulo": "Prejuízo dos Correios soma R$ 7,5 bilhões até o 3º trimestre",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQU3U0WFFDUHFVTkJSZk5RZW1BQ24zTmRmNVIwSFFqZjY2QmVFdC1rNWZtWTM4WDVPMHBtQVcyQUk0NXJEZXgydDduelFTdlk1V0UzQnQ5c2d2MGRCbmNTVHlNSmdfNE9oQi16R2NTSDRPTjVUS1pFejNucjhEWEt3MnpnTE5uQnowMGxKMVljME1BM3FCQ1BOVzNCcUZvSE53ZTRnUw?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Confira o resultado do concurso 3086 da Mega-Sena sorteado neste domingo (15)",
-      "fonte": "ICL Notícias",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA5VDJOR3VNNm5ON3piMEtWUTNyd1MxYU1qcllad2hreFUtbEUtVTVPQ3RYU1E1SzFRejFlMzJCSkZNMFpsV3hHWDdBZnNpaWRyNFMydXR4YXYyZWtLNGNUX2s5YWo0T2hEby03ZTMtWWt6Nlp3NHJPbnJuTlhaVGs?oc=5"
+      "titulo": "Ministro da Fazenda se reúne com presidente do Banco do Brasil após lucro da instituição cair 66%",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPdGZYT3pFLXVkY3A2TnkwNENsSmJmbnU4TkQ3dWZmSHAwR21pTWNIc3RNVXRTbU1iNjFvSXZ5WlM0Wml4cUxhbHNYWlpaX0FqRTZNdkczMU1SVXpKMjd5ZXhQSmcxczFRdjYwbldVWC1ZdF9LMFBESDhYY1hVUFFIMGpveThKMUdBX1ZrQkdJUFRXSFdBMWwyMFNjTnpDY1hOQ1J3cnZCTjRzSWo2SmdMcklKMVE3MExnaG9YWG1PY01aNXZSVjl4NDBOLTBNSy1MLU1LUi1jb2VlX3VUZ0VmSkhmdklLNldiWHVzazhDeW5WZ3FaS3JNVExJcDdKQ3N60gGPAkFVX3lxTE9TakJpXzNaVjVtakJNdExWOC1VNV9IOThDcm9tSk85SU1YeXNCanJleExGYXJIWUM3Skx6c3BkMDNKNmZSU29PczR6TS1oV1prNEROUDJ4a2NPcWFnVnJWV2RuZzhhUUtwbFRsQ3BkbFA2Q0w4bUxNaVRBUmljYmhMOXVrb2w5enVHTzcteGczTEhMV0J4T2FXMnV3aFJBM2FlcDduSkp2S2VDNE9Ld0N1OEZhM05EOWY3R1BPUzJuM3ZpaXNVTVhIa0NkSW5DeENHdHVwUTNhS2dzM0x6WkhtWlNVcnlScU1qYkZGX0pyakJjRTJhTmstVVVMM181QW81VHpqU1EtZWZXZThpZG8?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Gabarito Enem 2026 2º dia: veja correção extraoficial e respostas",
+      "titulo": "10 questões mais difíceis do 2º dia do Enem 2026 têm fusão nuclear, circuitos elétricos e cápsulas de café; você acertaria?",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZVVWb3hyU181VUQ2Z1RXRE5SVmN2MzZCYmw2M1hWaFEyTlQzOF9Sc0wxd2EtbllER0htQklPNlMxcjk4Mk5qMTlYNDV0QzlIQ2M3dFVkM2REUTJvNzdtc2J1V0tXRmZHdjY2b1BaaWRUckZRWmFKenc3VjR3SS1xTEFrTFVxLU45RXp3ejNzU05kazZDS1U2TGcyTzhZdjc0NUh0Z1gxZ0J5d3hPMHJJV0ZGOHBLTnFvZmtWSXY4UWkzazBQcXBoddIB1wFBVV95cUxQRDZ3SXJwNlVWRnFSSjBZVndqU3dsZGV2WVNGZGc1OXZPNkNzSXVtVDRXOFg2bnc4dGhBV1VFMzlXVDhNWW9vWTREQTk2ZXN6OHRhREtXZnRNR0xob2s1WkxFRUsxX0VRclE2cHpqNVJhN2JvVUpnMHdlZThENzIzQl81UTFYRmxJRkZ5SFZXUUpscWViLXFVZVRZa2RYQjVDb2ktUjJTc0hpbE5xOE5WQXV5eHo2QnVob2pBM3o0NUpnajJhSDR6TTZYang2bFVBY295eEJucw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPZVZzRzVYU09mQ0hEZTlIYTRsdzdlRG40SHI5c3Qyc3ZOdE9NX29GRTJZTEI4bGxpNTNkNURLVlJ0bmNTYVJkOW5raWIwVGM2eXYyMXlVcGNBUlVuRjZDUGxGWElCNWFzQ2s5emUxQS1HMFc0c3JRY0U2SEpmd3lGUW53M1Rnc3lwbFozU3QyWWRHMUpnaFYxUm1Rb3NQX1BEWHJmUjh0M2ZCN3hqdnZkTjF5YXFranRJdTZGTE04QU5rUUxLVGNJd2xHSXFNY0NjSV8ybU9YUnQ4OVh1RWFpWnVQeFdUVndza1NmRzlkc3RYa3Rnc1NUZWxTLTRiZHRxQUpNMTF30gGUAkFVX3lxTE0wcXRwNFIyaE5MOWVtYTIzcWRmOTZHVU1yWUJPU2lFLUZyMHlEQUZrVnhnWGVhaVVVeENYbEtybThicmdlZXVVUnZqYWVmRlg5ZTZUcDE0LTJ2MkVPX3ZuandrZlV2eU12bHFtaXZGaC1oWVFiNUhIRDVEMURIVGZjT2lkbzNKeWVJX3FPMkpsN0NfNWxWbDAtOHN1Unp6X3E5cUt5R3J3a3NOUnpFektRWlVyYkh0akJCZjlvNjRlcWhEaVpZTmlZazZTaXY1ZVNFT0hWRmhsRXVPNFZfY09LN05BNXNHMHJmNms2OFVMak1YeEE5TEQzaUZvSWMwU2VRU05yNFZ2U0dKX3FfMXBsbDJzeg?oc=5"
     },
     {
       "cat": "brasil",
@@ -335,27 +335,27 @@
     },
     {
       "cat": "brasil",
-      "titulo": "Chuva alaga ruas de SP e provoca transbordamento de córrego na Zona Leste; vídeos mostram estragos",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOdlRaRFhTOXp3b2FqT0tuUEdtRXN3OFEyNU5pdWRpcWFxX3dyTkZMMTY5LVp5d3ZqSnFLUU14eVF1dmR2Zm5hVE1ReDRqOGVNQ0ZYdmtiQnpKcnd3cE85U2RtVHZTSGxYcVEtVjdNZ2QxM3lRVGVtbWlzTkFaRTVmeEpYVlNaSTdEMVNQTVVISXVPY09SMXZmWE1sREJ2b1JydGsxSGkzdTRNRV9ZSVd1ZU5sYVpiTmlVNklUSnhHcnlnQXRXSUppdjZJN3J0Vk90d3BUOXhjOER2SlJ3Y2hQRC1mYlJOWEFzMlg2cNIB-wFBVV95cUxOLXplRVVMV08yWGFhWGJWNnk2MVpqOFJIX2Fkd2RNeGlPS3EwYzVzWk93T2MxZE9NX0xsU0hwMW1qVDh3enBEUUF0cW91ZFhtSGxyRG0zakQ3UDZLZlBLT2JhVmZSX0JaREZlUjRWUmZQck1OS0FOODV4Wm91bU80SW9WVVdLcUN6WldaMEVqRXNNZE5Rc1ozNm84Y0JxTW1hQW5uUTlrUWFid24yZFhYeTJnT1VLVXk3S3k0Y1RlMmhIWmo1Z1MwOGhIN1B2T2lFVno3eXFKbHd4NGdvaHlqRFZPeHEydE42RF8yVm4wX3RxN09OUEhMbzIzaw?oc=5"
+      "titulo": "Oposição defende apuração sugerida por vice em SP, mas questiona 'intenção'",
+      "fonte": "UOL Notícias",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQa0djd2dxNzllTzZBRWI5T0hSSXJBZXlGNU1IbUg3U1FXOXdsSG5LaC1CNFpqQUdXaGxlempWQW9vV1pPbjVhMUstVTQ5ZGloQ0I0X0labU1LQ0w1eVFpeEVjZDA0T2hicDNQekl4R0JtZ3BkOUpzT3huSFFQWkpmaW1Qa21sSGxBS2xLbjVRMXlsYThYcVdnMWVVd0VIUkQ4bEZ4cDRqLTRFaE9zWDM3OWs2OF9hSE9OY0FlUERYZy02WmU5bnk1OVVfV2NBV1p2TEw0MjFsdjUxQQ?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Revigorado pelas urnas, Lula passa a boiada no Congresso",
-      "fonte": "VEJA",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQzhjOFQ1MEVBTm92NWJHWFRwZDVmUGNnVnNGTnJYZEoxeU9jSHlVX3pDY1o0YUkzM3hpV2FvZDg1NjJsMUswamtHN2tTS2x5VjhIdFFJSm83UXEzUndUX0VvMzN5ZGlsR3BmalB4RVp5TzN6TGpuWi00cm5iM2xveXQ5V1FrY0UtTDk0MEJyeGs1ZVNhd2c?oc=5"
+      "titulo": "Governo mapeia indicações pendentes e reforçará negociação com Congresso",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWl9jN2JGOHNqR0hMUENFOHJtcFpxdGZMd0xKRjRuVUxYeFpqUUY3UjlNQzlUR0xaVjNzSDJoLS02ZUI0VElNSFZBeFNLOC1SaFpUUVRiZ3diS1BPcjg1amZydDA4aDhsdVVKbmJYMDZkZGJ4QVNuSGc4UG1oVVFyMS1qTzN6bURCMTJzRElnTHU0VnlZTVEzbVNkZnNZTGhxSC16czhkNU4xMFZmVlJtcg?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Senadores retomam debate sobre fim da reeleição à Presidência mesmo após derrota de Flávio Bolsonaro",
-      "fonte": "Folha de S.Paulo",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNMGJadnM5ZU9YdnM3RTM5WGVkSk5ValdZZGpTdWlyY1NjTFhkTW9PMFZRRGN0S3JwUWR0UUo5OGVmeUNtM1lQVVM3TllpZFlmZHY1djVFUmNicFdrOWZJOU0yakM5a19DUlhFek1rT1h3WS14VEw0Nnp2MHk1U2VRUDNRcVhtaG94cHctWDdqWjJEVnVBVUMyM1hNVkdTRURsWGJyeU1VTDlJOUNRU1NjRXNXd1BPVmx4T0J0ckJSMDFqS05HYW95M0dyUUNwQkpoUl9hZVJQc1Y1UmpoN1VsNmsxbnk?oc=5"
+      "titulo": "Governo, Congresso e STF disputam influência sobre Lula na escolha para a Corte",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNMzdPVmxtRnQyeEhzTVhqM093T0ctTFRmMlRGQUl1YlpYM2JmeVZtY2J2MjFVQ1k2VEdyNURoUHBHakdTZVI0T0hGRGVlejBILUFGdWZ6TzFQeERYalh3d2JsQXlkUUtsdkdsV1hHLTB5bllhRWN5eV9xWlV2Q1Jkb3Q2eW9Hc3QzbGdsdjZyYndBYUxkYVNNRmozclNvVXJET2RTXzhEQmpzQ2dxcVhGbTJYLVN4VU5RYmpqQTVlOFdmeEUxMktJMFVrbnNDM1djMjZV0gHiAUFVX3lxTE9PTGZBbWZ3SUVZbHphWUp4czVVN3VPZldfa2hDZ0x2a2FBRjZDa1Q1cHQzZW9Ib3pvaTYtQ2dtZmNNUkx6WEJBV05pOTBBc1h0NnpFcGxZQ2lwNWkyQjJmdmlVaHdqYjM0NTkwRkVJVVJTaEFDYXpMQ2JIRllkSUhhRFN1VGU3ME40bmFRNms2aWNLMGtWdmtsdk8zZVdaaFBLaWZvLUxnLWl0bVBWa1lld0VZNWJ3N1VlLVRadnFoNm5vRFZfNDV1MmZWdF8yRDVyWVI2VXN3eUVOZXVPSDFCQXc?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Governo Lula negocia 40 ministérios e pode superar recorde de Dilma",
+      "titulo": "Governo corre para preencher 26 cargos antes de novo Congresso",
       "fonte": "TV Sim Brasil",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQOE9adFBLY3d0eVpnNjV0MlZ3Nm5OYTZhZnhOS2tha0dXMVF1WVA5LTNscnZQNUt1ams0UllkNGdOR0x2WnJTc0l6c013aDlNRUNXUElPVkx0SVp2VUo3c09pM0JIN2lNQi13Y0JzMExHSUp6cTRXZjVMY3I1YUpCNFdnc2FIYm5FMWlzb2RfMHcwWDJqeGR1bWl0bC1YbGtILUZDUjVrRlItaXFNekpEbnE3cVRCRXc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVU5aT3NyNU5jc3FpbHZJRTNFbmw0Wkp4YTlOdW1pT1pROElBdEVEeHZpdkpVS2ZzZmhLNXRpUlJES3l1aGkwY2ZLX0ZUS2N0QUR0UXpLS29sa2NEbmZiVUM0TmxQMXl1SGFXRm5lbEU2cnFEQU1GYXU4dF9qSFdxM3NjbVFBWHBQdHh2YkV1WjE1Z0Qza0FsaTh2al9CNm10TXhONGFFT0FZcElwMktMVUN6dHBIazQ?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -365,15 +365,15 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "Testes estatísticos não encontram indícios de fraude na eleição presidencial de 2026",
-      "fonte": "A Crítica de Campo Grande",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSlI0WHo2N3N0LVl0Um9qVjBibGZ3Ulh5RjZrazBxczkzZldtOTQ1bWd0MXp6dXVoRU5ZanV3b0tSMEJOc1IxUXB4ZmJnUUZHN3hqWDU4SENRVTVJRXZJa1dmQ0FhTzBqRUF4ZmtPREtBYnc3SlhCRVlRYi1GSWJNbTJDN2hlbHZSZGdlVjZveWctTExGcFBTWWJvWEVMeDRxMWFicDVwSUNfaU9LT21Dc1BR?oc=5"
+      "titulo": "Coluna do Túlio - SBT News",
+      "fonte": "SBT News",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE56QmlvMmRnSWwtNkFzWEFNcmo3X0dqOW5hRmF0ZjFEUm1LdkRjMnhvalJxNmdCMGtrZm1TVDlDM05KZ2pQTUplQjM4NlZURnRCT2s3aG9TTmo4T1h5ZGJ3?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "Flávio questiona urnas em entrevista e aposta em cassação de Lula",
-      "fonte": "TV Sim Brasil",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQ3IzWXJxZXpFY1ZtQm9CQ0FhOG5hRGlNc3RwY21qRFpJanhKejVKdDF6NVc1S0dIYzdrM3RiaWJSUDQwM3J2ZThmYlNIX3hhbEpjTzBOeUNzRlNfWjRKOHVoR2RNaFNxUm9QY1RQdVU1eHZYSU4wanRQRHNqa091WFdaTXJjdEhlNzhMQmlsZU05eXNyNjlRSjR5Zy03RUZlbU81WHEwSHAtY2pKQ3BZ?oc=5"
+      "titulo": "Testes estatísticos não encontram indícios de fraude na eleição presidencial de 2026",
+      "fonte": "A Crítica de Campo Grande",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSlI0WHo2N3N0LVl0Um9qVjBibGZ3Ulh5RjZrazBxczkzZldtOTQ1bWd0MXp6dXVoRU5ZanV3b0tSMEJOc1IxUXB4ZmJnUUZHN3hqWDU4SENRVTVJRXZJa1dmQ0FhTzBqRUF4ZmtPREtBYnc3SlhCRVlRYi1GSWJNbTJDN2hlbHZSZGdlVjZveWctTExGcFBTWWJvWEVMeDRxMWFicDVwSUNfaU9LT21Dc1BR?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,13 +1536,13 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-15T23:46:50-03:00",
+    "atualizadoEm": "2026-11-16T08:29:03-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
       "BC ipca12",
       "BC ipcam",
-      "BC igpm",
+      "BC poup",
       "BC desemp",
       "câmbio (Yahoo)",
       "Ibovespa",
@@ -1550,7 +1550,7 @@
       "12 notícias"
     ],
     "falhas": [
-      "BC poup: https://api.bcb.gov.br/dados/serie/bcdata.sgs.195/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
+      "BC igpm: https://api.bcb.gov.br/dados/serie/bcdata.sgs.189/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
       "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
     ]
   }
