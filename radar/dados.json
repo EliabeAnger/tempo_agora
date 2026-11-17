@@ -165,10 +165,10 @@
       "pontos": 169295.4,
       "var": -1.83,
       "anterior": 172457.77,
-      "minimo": 168490.95,
-      "maximo": 172457.56,
-      "hora": "16/11 19h09",
-      "ts": 1794866992686
+      "minimo": 169295.4,
+      "maximo": 169295.4,
+      "hora": "17/11 01h32",
+      "ts": 1794889926449
     },
     "acoes": [
       {
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.7833,
-        "var": 2.06
+        "valor": 5.784,
+        "var": -0.03
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.3707,
-        "var": 2.0
+        "valor": 6.3655,
+        "var": -0.05
       }
     ],
-    "acoesTs": 1794866992686,
-    "moedasTs": 1794866992686,
+    "acoesTs": 1794889926449,
+    "moedasTs": 1794889926449,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -304,40 +304,28 @@
   },
   "noticias": [
     {
-      "cat": "economia",
-      "titulo": "Dólar sobe a R$ 5,77, maior valor desde abril de 2025; Ibovespa recua",
-      "fonte": "UOL Economia",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRllvVnZ0UDEtYnItT0lWXzRMeXFjUHV0c1gyRTNtSmd3SmszN3B0RUFpWk84UFR4eXp0S3ZwdWpkNDlCT0diVm00VWFsMzJjVmZzTXQzaEtNWF9IUFJsNVdreHZzcUR0WUdRZkVJdzlFbkhhSHFjY2Z3QmdlbHo3R1I5TDVYLXZzZFBpaDRCQkJQYzVZWlFWN3B0aHZjNVBOaGswMTZ4ZFVidTZBNnZUbjNJZXlPNUsxdUNmTnMxZ2MzVlUyVUUzOHBCbm9fQmRB?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Jensen Huang discute retorno como CEO da Nvidia e líderes tech lançam abaixo-assinado",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNREwxbWFfSmRMMnd6RHplOGZhMHhQLWpxVFlQalVqdmFKdTdqV2d5LUZpdDNOMUNMcUlDODBFUGxSUUpGZFRGb1ZmZzBIRVgtcFpqUVlqakFRcjNmaHIwR28wZnBBWHdlcHRoeXhxcGtOcUtWX0Q3NGduZkNxb3c1UWVpS295SnVscW4ySElGM25mMXk5VTkzUC1ESnVMbXc4blVQb1RWaG5wS3dYWGliUlJCVTEyVHhwbUxkTFE4cGlFNjRRWFo1dEdtSVczRGJsbVpuOGVRV0PSAd4BQVVfeXFMTloxb3V0Q0t4dHIyTkwyS0RkLWItaGtrdktDcGRMTUxxdUpLWThncFNYUWhaMWhVaURoYlRFYXdKQ29ONVBfeUYwRWtZb2ktbW9pTXo4V0xIaGVtZFhRa2NzYUZQUzNsZ094U2p1NVlVWFAyNzBlQ0NhUk5GUkpTaG4wZ2tJd0ZwQUVvaFJITFQwOGdIYTMtLWJGeFZ1T0xVekpmUzJXSnJWV3hlZ0hMcG1rWThoSDUxaC1uNG1pWlNLTWxQUWRCeWtsbXdzZ3V3eW50TTRBUkNkbHlIcVpR?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "'Prévia' do PIB do BC registra tombo de 0,9% no 3º trimestre, maior queda desde a pandemia",
+      "cat": "brasil",
+      "titulo": "Alckmin diz que não há razão para mercado ter oscilações após pacote fiscal: 'Brasil tem segurança jurídica e está trabalhando'",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUjBOV0daVV9FRmFGTVZYQXhocHN1MF9LLWlPbFlicTMzODRHNFg4MTNBTzBnaTJTVG9RNHBxcW1BUDVaR1ZWZ2tWdG9PSmZVbms2VENMaWRoU1p0cWZISG0zcUV5LTQtXzFDTFV2TWx2ekRPV1djODNSTnc1Tnd2RFhMZjFWNzZ0b3pWdGJQMF81aGlsRlBpTTc3OXZPQTBGQzJBTVhtV1VkMlZlTndDSVlsNFk1eVNuNHA4dDRZYnVONUFfamJQdERQY1g?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPYTBPQi1fVXhyZUJ0U0pXcWtnd3RLMk1PbHhjV1k4d3g3V21jbDNRQXVMaXJYb2pnYzMzenpqM0ZsQnl0dV9MVGtjRENhei1qSUJHMTEybkx0c0JKN3RnQ25CNFZkQ19ZRUhBd1A4bGN3R0tlVVdFUlh3ek1nb180b0FSNVZJMVlrX3AzYVZoa3hqY1RDZ3lvNWJtSXFsWUhmcVFUOVRTNVFNYnZNLVZPalphUWtRWWJrVWtFaVJreG02RUdhU09sTlVucHlPSVJubEVBNk9DTjRKWXJlcWdSM0Zqa1lwUENGSDhJMkNPcEpPckhnMHlRd2JVUGFuVXlyTmdSM1hUNU9kdVHSAZoCQVVfeXFMUHdjRTZ3MHNlVl9GdVRhbjA1WDFmVTFGc3ZjdXV2THFxNTB4X0Z4eHFiY1E5Q0NESkIxT0NTUHlSMUtLVm04eGt1MXpMLV9IUHhjU3JSaEM0ZG5nWElxNTVDbUhvNDhIU191Y2pqQnI0dnJ0X2tOVGpPN1VoUHJMdHJfWkJ6dTZ5R3kyNUpXWFlRZHIyRVY0MGZCS1Z5NnBOcmFrQzI2NmxhN01lUmg2V1VtLTBPTVh5bzlMTmdNeUFVSk1nZk8tTVB2S01TNWpsZGVjRDg2U0ZNd3l5c3JNOS0yWWNOME0tc1JzRW9CM0E2eERPWW1SX0kxQ25lN1o5NlpRd3FSUUxoTEZxRXRYblprUm1faUh4VXl3?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Novo secretário de educação do RJ diz que quer colocar o Estado entre as dez melhores educações do país",
-      "fonte": "Diário do Rio",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNTV9sMnZaVUcwRzlDYjVwVU5hQnlidWlnOXZkZk1uUnZfYnRQN3lYZEpycmF5QV9qUkFvSUlRdWgwa2tmOUJ2Z1lfMW9HY3U2MjdZT0VXQzBISm5oMDRHTm5WRXV2SFVyOUtibmxNRkpCa2NYUWpWYU5manRMSEhIcXBscXR4ZVBSQzlTQy1YU0djNUE0dWk0Ul9LeWN4YzU2RVlCM2phd3JJc0M3SGJlZk1DdW11TFk1SUJraVRabzgwM3lXc0VILUprMzh2R2N2R3dWN1lhQlRDT1RLQmdUUWJtVUdOU00?oc=5"
+      "titulo": "‘Não quero mais falar que o estado está quebrado’, diz Cleitinho",
+      "fonte": "Estado de Minas",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWnJlVWhkZzFOT1N5cW9SWDQ1Y1FWRktfWjhIOTRsMDhQLWpNZ01IejlTV0J5ZHVLaXN3ajlsNVo0TU5vNk9Fd014S1R6ZkN5QTVfeEJhU29hc0NIUG44WDFqeXNXd1FsM3pQd085RFo2aWlPZFRRLUlRT1dObUdxSHpUNlJKRHN6akJ2Nzd5N0xNZllLdEF5U0JFT3BYcnh1NGRkMHRmVTVoM2NLVk01RTlQONIBuAFBVV95cUxOTlRuNW5QVE9xeWdJRlZNS2U1RHRnLVY1X1lwY29KQ0t6OWlzMVM1MzhhSTF0Q1R1YXg0V0VBZ2Q0RG5VcWdYSlRIejk1TjZLNXhSY002eWg4T2dKandnS3FjeG1CcHlEZnRjSzlIR2h0amZUdE55WmM5NjR2WTkxYWNKcjR4VHlQa1doTUc2UTQ2LWZDUzdfVko5OHhkMGwta0tLX2pTSENhelJ4dE9HSzhnem40Tkl3?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "TRE-CE tem maioria para condenar Ciro Gomes e torná-lo inelegível por ataques a prefeita",
-      "fonte": "O POVO",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWVNiNXJIdmM4emt4b09scXJ1VDdXZU5aZVFNMGVqUHBUMnJIMW8zczAzWEFQU0NIRDBRdDBVMG8wcVV1NnM5MFVkSmhaT00tQW1FUzlwRk1BbHlnU281TGV2SGpBNlQ1SlNxSE04Qm9LUTA5TFM3NkgwN05Nd2ZuU0VwektFczNBN1p5SGwxN1AwZWRtbWQwVGQ2YnVKYkF6eDJtWHFyTzJHSDRFdzRrN2J6U0RxTFlPT3pmOU1MemhzQQ?oc=5"
+      "titulo": "Terça-feira de alto risco pode ter temporais com fortes vendavais",
+      "fonte": "MetSul Meteorologia",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeHRkd2w1SDhNeFdWVVFnRDM0aVcwNmQta2tobnF4VXEyX1pUaVliQmVxX0tTTmN6cG9wckNJTEtDMmRhWFY4bGZ1UlQtaTBhNzc3ZlpXQ0JYUE1XbFNVVklyRlBIRjR5ZUNCMm5OLTRIOU11b0xTNUZ0aGJJMm1kdXU3TXdyRUJTcHM3VDNn?oc=5"
     },
     {
-      "cat": "brasil",
-      "titulo": "Enem 2026: começa prazo para pedir reaplicação de provas em dezembro",
-      "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUEgzRjM5RDI2YXhOSF9iTGdacUdfTktvRldUNVFraWFKWjdwdzh3dDRRZjFHVXhHQ1I3R0tpOGs5Wmo2dzJLYmN1V2xJNVl4STJkckN6MmJ5UnRkLTQ5TGVfR1prV3NYWEs5YWJ3MExyb2lURmpzaFBlWUdMQk02cEQ2d3V6cFQyaDNoSTBKUE1pLW1sbWgwYlNFT0hYMDJud29hMUVWQzVvLUtPcVc4SGtEMHpWNU5Id1MzeUIxa3NXZGs?oc=5"
+      "cat": "politica",
+      "titulo": "Senado celebra o Dia de Zumbi e da Consciência Negra - 16/11/26 — Senado Notícias",
+      "fonte": "Senado",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OSTZwLTNITkJfTU92Yy16TEhobzZDZzlkVWZSUDdHM2taeTZ2VWZMSGVBeURMX2JSWGQtWWg4cHdMcC1fOEVDc28ySm5qQVRQbUhwZm9R?oc=5"
     },
     {
       "cat": "politica",
@@ -352,10 +340,10 @@
       "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOMnJzR04tUGxqU3JaU0JUMDdfWmxXbm1IeXBsaEVQR1R6d2VBdkhybkVEWmk4NXFBWG5jcmxsM3JfaWVPSVBnU0ZGbHU2UzdEVC02TkhaOHRVaFVJS21XeVBJRmtLQUJiZ3F3M1RGcEl5M2VOOGl1RkRsbHBrbmJVTDZmejlmNkNwS3B2cVdQcmtZdWljaVpGdEktZGJOdGFROEdFQThkY1BocjhuVjRPd2pVYy02MjR1ckpyWjF5M1JiSGFQa21NbkRNMm5YUHNSNFhES0NoVkl5TmV0bDIxeGhBZ0JmYnVtSUZ1LURZeE1xNWFxRFBOQldqd1FHLVdWT3fSAZACQVVfeXFMUEJvZFYyajlaS1NwelFYRk5QU2w3cEFXbHhObGNaRDE0OWE1Xy1uZWkyWV9NX2ZHbHAyTXhicVpGYmZUbTZkdGljX1dsVHU0ZTJvSFlXbU9Jck4zX21rOUpKWHBpUHhVazFITl82Y2tIQ3ZsZEtJMklRRWRVVTB3dG9sNjdsQnlHX0ZHQ2d3SnVLZTRSaHJpemNKTG01Z0VRcjFTWHhCRGhRLTFyVTdtS0MxSWJrYUM5SjhZNUVpN0N1UF9pYUd1MFMzZ1h6Sm9RdTVDR3ZHdG5vVE9TU0NMWDB6ajZOVlFla0pEVF9DRE5JNE9RbzExemkzZi1sTEhjRFFTMk9oTDk0OXZqLXIxUU4?oc=5"
     },
     {
-      "cat": "politica",
-      "titulo": "\"Lula não poderá ser substituído por uma só pessoa\", diz deputado Bohn Gass",
-      "fonte": "brazileconomy.com.br",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTG16WHVxbTJDN2VtU3hIeWVpMFYyY2hpNEJoVld3ektIbTBsWW9LalRDM3hEaXRXODNCWUdzTHpuVnFROTJ4ZE53NWx0aVFmdGVySnk4MFVmSjJRQ3hGUTBCZllkVnhDZlVsYnZIeTF3bGJFVlhxUTdSYzFLR3R1S1VPSWx1RnNrXzB4ajVXcTJEUk9KUTBhOV84Z0pCYjQ2Z1ZZOENXandESEplWDVCN2VLYUp5NndWZDRF?oc=5"
+      "cat": "eleicoes",
+      "titulo": "Veja teria negociado TV aberta com Flávio Bolsonaro em troca de ataques a Lula, diz site",
+      "fonte": "Jornal GGN",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdHl3WEZkWVBwdlctdnM1ekhNeHpzY2xlZTB5bFZaSElrLXd4aTZrOEl1RTI4TWJTamp5YjZSamxidVhwN2Y4TVVscnUtYllQUU14RE9nNkd3WUNvODUwWEcxS09DX2k3UjBIUkVicm00MGJTQVdISjh3b25rbDcwd0w2ZnJXMWxheHNUZFdKU2V6aE5zOHJESlAzd2xqMWhFX0NOYTF3Q0F2ZFJpRDRCRWhsOTJCYnpZTHkxQnRGOA?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -368,12 +356,6 @@
       "titulo": "Entenda em infográficos como queda da abstenção ajudou Lula a vencer",
       "fonte": "Poder360",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPY2NUMkRrbHVMY3p2dXV0SjVpYmE0WTE2RzhIdDFvSDhaTXVueWs1LV9QOFNLRFZNdUJsazZOWDkzSFNNWFJSa0RsT1ZPbEtmcHBIZ0k2bm4zNVJ6TUg3RkpfTlBzOFo4S0RVTkgxTVRnQVh4eWlSbTR2X2dGcTBrOXdWRi1Db0xiVjRBY0ltTWNkMFBmNDF3bFJnVWNvbGpsNm44UHVPaEVTU1VXRVNvNzNVUUVNTjZK?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Veja teria negociado TV aberta com Flávio Bolsonaro em troca de ataques a Lula, diz site",
-      "fonte": "Jornal GGN",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdHl3WEZkWVBwdlctdnM1ekhNeHpzY2xlZTB5bFZaSElrLXd4aTZrOEl1RTI4TWJTamp5YjZSamxidVhwN2Y4TVVscnUtYllQUU14RE9nNkd3WUNvODUwWEcxS09DX2k3UjBIUkVicm00MGJTQVdISjh3b25rbDcwd0w2ZnJXMWxheHNUZFdKU2V6aE5zOHJESlAzd2xqMWhFX0NOYTF3Q0F2ZFJpRDRCRWhsOTJCYnpZTHkxQnRGOA?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,7 +1518,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-16T19:09:56-03:00",
+    "atualizadoEm": "2026-11-17T01:32:09-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
@@ -1548,10 +1530,11 @@
       "câmbio (Yahoo)",
       "Ibovespa",
       "8 de 8 ações",
-      "12 notícias"
+      "9 notícias"
     ],
     "falhas": [
-      "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
+      "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests",
+      "notícias economia: https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=pt-BR&…: HTTP Error 429: Too Many Requests"
     ]
   }
 }
