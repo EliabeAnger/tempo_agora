@@ -162,54 +162,54 @@
   },
   "mercado": {
     "ibov": {
-      "pontos": 170690.38,
-      "var": 0.82,
+      "pontos": 169816.64,
+      "var": 0.31,
       "anterior": 169295.4,
       "minimo": 169300.3,
-      "maximo": 170823.77,
-      "hora": "17/11 11h29",
-      "ts": 1794925773361
+      "maximo": 171749.52,
+      "hora": "17/11 19h55",
+      "ts": 1794956102660
     },
     "acoes": [
       {
         "ticker": "PETR4",
-        "preco": 44.37,
-        "var": 0.8
+        "preco": 43.98,
+        "var": -0.09
       },
       {
         "ticker": "VALE3",
-        "preco": 60.74,
-        "var": 0.07
+        "preco": 60.34,
+        "var": -0.59
       },
       {
         "ticker": "ITUB4",
-        "preco": 41.5,
-        "var": 0.48
+        "preco": 40.89,
+        "var": -0.99
       },
       {
         "ticker": "BBDC4",
-        "preco": 14.39,
-        "var": 1.12
+        "preco": 14.41,
+        "var": 1.26
       },
       {
         "ticker": "BBAS3",
-        "preco": 14.82,
-        "var": -0.87
+        "preco": 14.62,
+        "var": -2.21
       },
       {
         "ticker": "WEGE3",
-        "preco": 51.83,
-        "var": 2.84
+        "preco": 51.15,
+        "var": 1.49
       },
       {
         "ticker": "SUZB3",
-        "preco": 55.86,
-        "var": 0.65
+        "preco": 55.39,
+        "var": -0.2
       },
       {
         "ticker": "B3SA3",
-        "preco": 14.92,
-        "var": 0.74
+        "preco": 14.65,
+        "var": -1.08
       }
     ],
     "juros": [
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.7756,
-        "var": -0.18
+        "valor": 5.7657,
+        "var": -0.35
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.3474,
-        "var": -0.34
+        "valor": 6.3484,
+        "var": -0.32
       }
     ],
-    "acoesTs": 1794925773361,
-    "moedasTs": 1794925773361,
+    "acoesTs": 1794956102660,
+    "moedasTs": 1794956102660,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,75 +305,75 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Dólar sobe e se aproxima de R$ 5,80 em dia de votação de ajustes fiscais no Senado",
-      "fonte": "InfoMoney",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZlBOVWFwMmt2dkVWclZmSE5SbGVjSDJPSHRFeXlJRnNvV2hzV2xsNlNzaHVIREpRcFphNF9EZUttMWhQZlZvTUUyMmtudFYzUGtDSWlJUUFmUWpWdDlIRFpXcjFjYjN1d0hkQXBUdzJGWlNtUEN5VnlxS0pSU3B1Nm9VcE82aW1IZUIxcHBpZjMzWmotRVNGZHJNU23SAaIBQVVfeXFMT2phWEdDeHN5WHNES0ZIdjVHbklsWFRnc3FQcUNaWXVYYllra0VjcHhpNlRUSUh4ei1kU2dBX0N0LVpfYmtLRDl0Umk3VmEybDI0VGU2SUdHNHR2Wm5Rby1HVWZyMTQ0cHAzQU1GenNZbWhTcmx1YzlQdzJJMVZ5Slh1M21JUW9jN0djdWh5cnFkWVBZSVVZcGxIUGRQVjdMWUlR?oc=5"
+      "titulo": "Dólar fecha a R$ 5,78; Ibovespa perde força com fiscal e queda em NY",
+      "fonte": "UOL Economia",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZVpLdGZ1WUdHakUyOWFfcExxTlFMSm5OSWhJZ1FSajAwbjRmOXZsSFYzaWZUMzZJUkxaZzAxal9URFhNQmpkSmxxbTd4cU9mYjBhTGotRnJEWHBlZVczTGRXM1ZPUHNlRkZTdUF0MjRLVUFXaHZZN2NnMDIyQWJuOF9aeW9rc0FkeFFNdmFRaThLQnRhdWI5bUF5UXZyQlF0cjMxclE1cFRTY2s?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Nvidia descarta retorno de Jensen Huang ao cargo de CEO após renúncia",
-      "fonte": "UOL Notícias",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZjNaZnRtcEoyazA3ZGQwV1Rfam5iUXcxdzkwdkE0azZ2ell0MXJoTDdKTHFiNkpMc2tKVUdQVTlzRXU0b3Y5UXVsanh0QTM4T1dMRXVoVGxTa3Z4eFFBeVNVTDhYMFZXWDNFY3JiZmtsUFJzWjNsVkNiU1dMNXNGY2ZlYm9aZjdSeE4yeXFrMWQ0Tk5STi1TdzV2LUNPWTlsVElNbmZMSk00YzRRWlhSQ2hzSHFTMUNORWZEQTNUcVc0VUxkZDU4V2dySmNlSDZHY0lDeVhjb3h3RVBo?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Mega-Sena pode pagar R$ 34 milhões nesta terça-feira; g1 transmite ao vivo",
+      "titulo": "Aneel tem 4 votos a favor de recomendar fim da concessão da Enel em SP, mas diretor-geral pede vista",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORkxoSzNYb05vZ0lXN005V2FBa29JTFlfM2FqOW43dkdfdWhpY3c1TmhBYVlNZV9LSXhRa1NDY2JGM1BsQThNbGdFSnkzRmFKZEhneHVhd0dlLTZUMDVtdWotSVFRQlhveTJYcjB4c3gwekhwZnlNYWtvSWh1WTVfVFB6bmJpYWhPM1dMYzBPWWEybzdVWVVJTXk1aW8xd2N0Q1VHYTlEamJDemV1MHo2c2ROSzByenBVbXJFYm55dGFDZzhEeFFtcjdoR0F0WDlVZlUw0gHiAUFVX3lxTE5UbnoxczNMMVBEQURxNXlJUkt4cHNOekRFbVdlSWRSSmRSZEsweWw5aERLY1Nxa2ZpLTVBbFRFQWdXYmd5dFhoMm42S19nbHhUT1JHeUcxMVQ4TVNhTkpZRU9kOEUxcHZ1YkZ6Q2RpZERBbUpTOWVNSUxTNlRVSjUwVmxIbGlWZ255dnJhOTItR241dWZlcTU5dURmSFMteFVSSHdzVmxtZDBtR3ZFNVFaTUw0Z1lXWEFUbk1hVnFXbG5nRmNleHNzZ3JVOG1tVC1zcllHZ1JxT3VOb21SZXlzaXc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNOFN2RkZKcEpLajh0THhjdTZoNW5wVTRBdjR6NkZQVDR3RHdVd3J0NkNEcEJnTzQ2Z0ZKVUV6dWtfSDQ5SC0xNjdjelRwRXM4MmpHS2E4WlN3MUVOMXhtX1ZTSmVBamVOaXA3U2EtajBVWW9Ia29FNXpWOHE4b3BoaGRBX3FuZWZlaDN4OFJZWUZXYk9RaWN2V1kweVNGcWhNMmttMm5zZU91YmpCOGt0aFFyQUtmLTBfVWd2a2poYVdlYmtRNXRlOWV5OUtTdm1ENnBBeDBHaWNvMzJjYjNYTNIB7wFBVV95cUxOZzNvQTBpVmphODJaRGk4UDBVRlpzV0w0NXc0d05LS3ZQZWo0ZXhTNndiZ1YzUjY4MWlkRDZVSkxabW8wSHlKRU15U0xuX21HZHpYYzhzUVFWQzRjd1ZlM1NxVFVKdnQ2SnhOVHZoVEJvVnBlRXFOYnJabFBQTU1YUmNLRkc3SWtKRVFDdjRsZjBuU25ZY1AwdzJmYXRZNnM4aEJKTk1rV0s5THpPVmpDTlQ4NXZ6ZkkzQlAxUS1WblNtZHM1dDlzWG56UEtFNjhMSlM4VmFiV0t6S2tvUmlwRTItSHNYRENZQTlUN3RmOA?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Até onde o dólar pode subir? Por que o real é a moeda que mais perdeu valor desde a reeleição de Lula",
+      "fonte": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8zTUFXRGlpWk4ySHVvVzVVY0JnMFE2VE1kSEdFQWl2SXM0dXotQ0hyTkhLY25iUkZxUjZvSkZ3ODJrZzlwcW1oY0tvNFhEYkdsOWZhUjhOY1hFU2Vrc2RVMFJESdIBaEFVX3lxTE9KWWhEMnVyc0lVMENZV3AtMzUxMkpXMzRkLW01NkNZVTJaYmlhVFQ5REdxRlkwdlJMbHl6UUVxeVlyU0lYNmpLMEhSN2FyVDk1TkZIVnNNQ2pZbjRrVG1fWlVYMWMwcDJ4?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Douglas Ruas apresenta futuro secretário de Educação e anuncia meta de transformar 200 escolas do estado em unidades cívico-militares",
+      "titulo": "Lula se reúne com Alckmin e ministros antes de Senado finalizar votação de ajuste fiscal e em meio a críticas de ala do PT",
       "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNRzVRYmVzTFFuV05YYi1Ydzh6N2lVbENvWVgwUTRnX2hDMjN5OGkwYlI1VVI4bmtRb25HM2xReHZqNlpqc0VtRnhrTGJpSl9neXd1eHJsZ1hzTXJHU2pQMjlfVFU4UU4xSDAxRGcyb1FMeG1jQV91TWRkU1hRSUZiNGJYd3RKd0Q5aXUydTREZVltWnpscTlGQThjV3BNMW1Yc2s3dE5XNEtwaFBqdGtBQzViUURMVzJZd0RiUFZJRVk4Rmk4c1lXOGZ6VFZWTGV0TDZYQnlJOVViLWpSd21fRkpIUEtwMEViUEU0dl84VmVzS3M5RHhLSHZxSWtXZFI3NGZTNy02VFl0TGZON3lGMU1pNkpMQdIBpAJBVV95cUxQX3d3WkNGcU5rdEJ2UVBBVElwMnZrbExDYTVTb3l1TmdqMjNlaWZERWx5NHBVOGktYjlUTXltYUJoV2dXazA4Y0wyVnhKV2tCWmRNd3BidHMwRURYLVZ6eEQ0UHlvelhHRFRGWjhpeWRzS2dTaXRqTzVzMmkyWU40MnRacElsLVI5QnV0NU1ZaWlERXBnNC1WMWtkemxQbGp3VTdQS3B6TWJFWXp0MHBoamtIc1V4YWJxMXVQejZMUm50STdYMy1GMWJ0UVFmbEFBMkpiWXFnZGk2bC1lWmVnOFdlQmZmM09DSU1fSkotQXBrYk5FQ2QzWUFCSnk1a2hNdTluZXh5V2pobWx6VF9CbzVRSlBCcDBfVVF0WElMU05iMGN4?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOZ1N2TVliTnNVbUZuLXd6V19reE1CcDdSYXVYcXd3MkFyd3VMWXg5SzhLLVhMMFlUNWNfNS1TcEpsTERCTjJkeTUtTThCcDJPRzdid3JQMzhBREtMZ2I2eU5GTXJQa2p3eDJWOFRsQlQ4dktUX2xLSDg1YTZ3MGtXMTZXM3BMdmQwNzBwWlV0bEZsWDYyLVlyWjBWRlZ6eEJGNXpxdVdjc20tNHg5QndGX3FtMXFvV25hUXR2QlhqSFlmTUhMS0VQTThBLVBub3VPV3NRVmRCQ1Y2R2ZFUGZpYnYtelhwamp1ZkhuUnhKRVlOOXRzQXk1YlpvbHRCUTd30gGPAkFVX3lxTE82VUZIcVJYQnk5OGZoMS1EMVZmajNYeUxzTG05aU5MM1NaRzVQWFhxcXNoaVVPTmtGQXo2bTBMX3czU0tGamFvYmJzLV9YaGxqczJIS1FQcVgzZW9JbmdUNlZGSUFtaWY5VUNZOGN1UG1USlNaUzItQVh6TlpWa0lGalM4SWk3d3lVc2pkb29fbW10bjdMM2xZbllDNFN3REc3SzBraENDRnZKS19VQVQtZk9sdTYwRWdXS0FtM21wVl91UlYxRmxpYUd0ZmFoYWQ0cHYtTFE2ZDVtY3U0UmRXTk1HZ3ZDd3h1Q2NmMnFOXzkyLVVLaW9ONHh3Q25sN0pzanBlU1Z5dTlrZ3E0OU0?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "STF: PSB apoia ação do PDT que mudaria 36 cadeiras na Câmara",
-      "fonte": "O POVO",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQWDVkMmhSdFdEbEF1RXdOcTZYbGNjZGNXaFp4TDdBVEpnOUJINGpxNjhXWVV5czV0UGdkdlhNRWpIT19sZFYtN2sxdWhuOC1FSFJLXzgzUnRFMzlYMnE0WGFHd19DWm9sbVJTaldXUkVHMEVSTU9STzB5aXJDS3VoMXA4dmFJSDAzcnFFVlZxQVNvc0o2SEp6SXVaX2t5RDNLNWVNYjVodE5hMTA2OEZVRWNPeGlLbzROcVoyT08tREIxVzVQNGJ0Sk9YMlo1NGRoVWdxdU1feFFvQS1yU1N6a3ZVUUVZWDhhV0tR?oc=5"
+      "titulo": "Polícia acha máquina capaz de produzir 3 mil fuzis por ano em ação no RJ",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPem5HN3hCQWZ0M2Rmbzk2UUdRUUdTUng0Y1haU2loTGVfaDE5REx2V3lPc05oQzV5SlRUNFE2V2FiRG1DQ0VVbjBmTTRMcHJzeURtZDhnaXBvZ0R2cS1fZFpEZm1FTGJ5R2tnUlktZXlaNTZBWWlpWUNzTV9XTkgyN2otUW5md0F3RDYwbEk3RjBxMGNSZ2tWLWJfUVZ3OFg1SFZfV1ZOUVpfOXRncml0SmhtU211TUxkZ3JKMmU0QQ?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Tereza Cristina diz que decidirá Senado com Marinho “sem vaidades”",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYjhrdXIzMnVfcXRDcnNZWEJvRGVLZFFZZGNaNXlRYTRfM2JGUnBMRk5GdHJTRlZDZWZ3eEMyazR1dnFTTk9Zd21CRnlQWjhiTndhb2lNQlVPVzMxTl9ScTZPaTBWTXprbTh3WkVDa25sNm9fT2toTGJhOGJUOC1kVnlNWHF6REhadE1jTHVBUnhTRGQ3Q1ZXSmlFRDg4cWtOZE9iRGc4a2FQNEJ2aVE?oc=5"
+      "titulo": "Mônica Benício entra com novo recurso contra homenagem à Eduarda Campopiano",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTE5uVWZteGFiS1EzSjVOOFoyOWNfYWNnSU9GMUY5blA4T1hUOHMzZ3llMkdtNW1qY3JoSU9WcHBVc0o3UC1vMjRlSTd6NVFiVHpEOFNiVlBjNVQ4MnpTUEJfYUoyMUk3U0RKSFhNNWxDUWpfamlNQVMtUVNCTWdxS0hGVjE3MDhzSmxEMG1MaWZOXzU0NlEzRThhNG1QWnBWQ0Q2Y0RwRzktSnkwaFhRZzloNzh6TG1GcVZJ0gHKAUFVX3lxTFA1N2dFb2ZsYXJabjhmcWJuVDBid2wwdWd0cWxodVdWVDd2TjQ0QWpOQVNzUkZnUVBPaFF4djR5YzBpTDc1LXhqeVR1OTVQTW04NzRRRmF6WWpXOElxMFZuZGtqc2xKVFZ3ZC1fVGtHY3hrVHd0a1pPZUpPWG1CdXpsbHFXOHMxMENlVWJ3a3gydVpNUEVQelZySWlXNFhPazMzWHNMblFkWnowOWFrdFg2bGNxM3FuQXBqdk5UdUtKdWU0blpKQVpjakE?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Flávio critica Moraes por barrar visita de Marinho a Bolsonaro sobre eleição no Senado e diz que Congresso é ‘trincheira’ da oposição",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPV2ZnbVd3OTFJOVFNaWN4dzI1dkkzbGdRTkpDVE5QZVRtNXdHT25TTHBZc09PNjZSUTZiVFRRN2RXaGc3a0tJYndPcFdsMG43anktVkZ5UWhfdGVDSHZvTldPSVFheDFSWUpIZnBZbXhRd0pSYVBtb1Z0WTliWENPajMtZUg0cTR2T3o5VGhycjQycmZYLUpRSjlSbHozVlFxRUZRZ1ZkSWpvRFdEYWI1dTJDTEQ5Qks4UWc1NlZLSXZoeEpBQzdxVkxJRmdJZW9iMHc1elNRV2pKZTVMMmJUSmRhem1tdlFVNUVkUVd2Yml5WWFiQVJTd0xhMDBxVnI1UTV6dTlfRHd6eVFZdF96S0dDY1FpaU4zNTBZdEM1UTN3bjNaN3fSAbQCQVVfeXFMT2JzSFBfaHpmOHhmcTJROEJrZnRfSUNsVlFuZ3U2dld5RFpSaS1qRGZxUUlOb1R3SkcwZzJ1SHNiZF9ZaENFWmRyNnhEeVcyTl9CcFRyNzNhTnZQSEN6MVJCMW9oYU5GQm1McHUwSWNPYVZqNEZQbVJJa0lUUUVNSFJ3S3FVRGhpcmctdWNza1RZcl9Kd2k4bWEyUG40RmtBWTVIa01WU1ZubWV4dE5LV1hrWi1vMHhhQURCaTMzWVFkVVRwLWhBNFBQZ2dDdTI0Wk5Ldjk2MVBYQUJOeGRMdEtHS1QwQldhTjlmWW1XeWg5XzFJb1F3RWdOYTQxeE9WakgwdldHRzB0bm02dnpzTW4tMGpOMm9GRHNLaXdTTUtoRmR1eDNjci1NM0s3THRRall5OE0?oc=5"
+      "titulo": "Congresso pede que STF julgue lei que beneficia condenados pelo 8/1",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNmNJcWktQWlTekZ0eTd2Ulo0UC1VTXVoTmhSUlp5MFdaSXp6WHRELWl4WWNXS01kN2UxOWhkS3RPYUVqOTlNTDc5cWU2MUhuUG5xM19PVjFJcW01NGtmeEFFeGdGRHJDV280MjAtUUVhX3NXM0taVzNtLS1aM3FId0pneEdSbS05enFsYkJwdGVtWXZ0SUpMYmlocjBuQm8xeGJFaE1CY1R4NDJnek1hd1dVQkVDQUhuVm1fNUdERUVuZw?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Falta dinheiro para tantas necessidades, mas o Congresso já disputa R$ 57,5 bilhões",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZzhnRU9yY3F5dXI2Yldyb1k0QmRDa1JQREM4NGpRTi1kLWhaOTdVWmVMckU4WEw2NmZYaXMzOGFpSW5PZDVLZzMwX2pyVWJoZlhUMDJsRFdWTC00ZURMZjV6TGt6Tmx3X2lpekgtRkZyZHllY3ItcEEtNjJVM0RQM09NbWlQZ2RlTFpWd2FBb1NtNzlDYzlKTmY0NXF0aVd1UW5xUkNnVzQzMndXa1VRbUpFVjVPZF9GYWNDaTdJU1h3Z0hxamFSaVJGdjlSOXNQYW43dk1n0gHbAUFVX3lxTE0tOXJvUGJIYmNMZVVJemZseWJtTTJCOEw5ZmVfeDNjdWNydmc0WDJiaHdsRkY0UE5BNUk4ZlByLTkzcG10dTBvSHRwRVY1bEJGSGNOZjlubHZfby1UZEMtemRVdVRuZEZ0b1VaX2xlbC1LTmhhLUx0S0hGc2g0VUFYQ1NGcEZvb1NJYmVIUWFZMWM5d1liRG1BSHRBTU9kckpPMXh3THdpLU43V2dKU1pWZ0JfTnhGem9ISHpQN2Q4Sk5nanhGOHY5SWpRWVRXNDY0WllNM2FTcWU1aw?oc=5"
+      "titulo": "Alcolumbre e Motta se reúnem com Moraes e pedem que ministro paute no STF lei que reduz penas de Bolsonaro",
+      "fonte": "Folha de S.Paulo",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQZjk0VmxMd0hIQlVocWxLYVFRc2dmT0s5OWN1LXNmVnZnTk9QbWZhLTZvZlRrcnVXc19DMUZCU2xRVVNlMlRIcjBvZzllQ181ZWNDY0tYYnlUcGthWmV4NFcyRkxMUmpMZ3l3R2VZOW15ZURWMXNkX2pQblV2YnJBeHBJV1lpX2lHWG1CVF9YZlZxMkUydXRhT3FxMENONUN3NkRJUkNrTER0bkR1aVdoVHh5V2dSa2tGUmxleWktclVrcGJpUUszbjlMeDFrOWdWeV9hRnp0Y2hWeXBKZVViVFNydklrNkFlUDBEVg?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "“O eleitor seria o principal vencedor com a adoção do voto distrital misto”, avalia professor de Ciência Política da Unesp",
-      "fonte": "Jornal da Unesp",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPV0EzeFU4V2lJdm1GZFNKOFR5TWIySUpTQkJrM1c0Yi02UV9Jb0pNdC1VR3BXSWo1a3lsMkFTaUZKZWFUN25SdDVEVTFBZFVNS1hlRjJtemxoUV9PT3VGU1ZpZmUtR0VSTmpSX3RnbmEzMmxhQ3d6cUVPaHllUHJhalp2dm10a19uSzZ4aVRDclRMSUYtVjFfOF9MLVBDWERRTGxTc1dJWERqT3lwYkJJZFl5c1pWQTRFOEtwcU04YS1pTkV6MHc1dS0wM1Zjd040aDJ4VVRCWXpXZHQ5c2kxd3hlU3lubVh3YXpr?oc=5"
+      "titulo": "Governo vê risco de derrota e segura pacote fiscal",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObWV6X3F2MHF0a2U3LUxuMDlvT2g3V24wQUc2ZkZRdVA4eXNOVUY3V28tc2F3MmhCRUlydkhOSmt1NnBwY1VPcU5BZWtaT2pTeFFhUVdOS1hJY2xCbzMzamN1THVwdzlyMDRTNTdtU0I5WHlEUzRXZllZZjV0a2xxQWliZ1ZaS29McktwUFh1VlZRY05MQ3JpSGJUeGRQSWpZczFsNEs2Skd0dXozYmNF?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "Flávio Bolsonaro quer liderar a oposição, mas não consegue comandar o próprio PL",
+      "titulo": "Eleições entre turnos: Lula e os Bolsonaro nas grandes cidades em 2022 e 2026",
       "fonte": "CartaCapital",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcnZWelVJc3dZVWh0cE1Cc2NfRWZRemxYd1UtN2tpWnV3bjMzVjVvYUMteHBELTI1XzhCN2xXQXlpSDkzUkZ5X1hSeWRBMko1ZHlGNkZYSHl2dzJuM1NEZ0x4WUwxWmstZTZGSFJta0N2LUNkdEd3bUpzNGoweV85aXJiWEZxMHNOMHZXVFBKUUtiUzVkVXg1VUtORjV5U3BkMmw5b3h4eFhMa0VSaDRudEJMa1VLS2Q5R0hHOWhR?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZFJEMmdYNGxFb1FuSDFlcDZac0lqdUI2aVFZckhfRkZheU9jRzVIOUN4MnU4azNQYUVIckdSOVB1RTRWRU9tYVZvSm1VOEI4a3dsRkhvMzVtTDRYcXp6NmVGOE9iWHpRbmNtS09VdnFpRTFFd0VJeVlxcVFrOTJRTXF1ZGlicjBDeWRRNXllWGY3ckhlb2VNNDJfV1FESDU2dGNnVzJ2OXNOdVoxZ3FZaUphVGZVcndZ?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "Brasileiros apoiam resultado das urnas e desaprovam saída de Flávio Bolsonaro do país",
+      "fonte": "Tribuna do Planalto",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMXBtNVFXTWxJRjc0T1Z0RDJlZmE0UFZtcTJ3ZkQxekx0TDlrdkpMbThzZHhwcHNHN3FDZU9GckIxN0VtRzluMzBmSGZQaTB2SktGRHNhMVJQaExnc1hnbmx4ZGdncTlrdXhRV2RZckRhMjZ0bTg1RlhkVjlCM2dYUGw3TGVoNW5OUUxhTkhvRHU0X2oyNUx0N0tBM3IzZFJTZnZnMGh6UElaNHNLXzQtbUw2OHdMYUlLRVUw?oc=5"
     },
     {
       "cat": "eleicoes",
       "titulo": "Direita espanhola critica visita de Lula a Sánchez e questiona vitória do petista sobre Flávio",
       "fonte": "Gazeta do Povo",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZ3lfQ1BuMm9kQ2ZXUnhQN2FXb1puSFc5RWhpWWwyNzlmYVVRYng1cjNFRzRlM1V2QlVvVUZzQjJLLXlGQ1lFd2ZmeklGNUJGdGdNSGFQaHY5cE1reWJrZFh5bl8yaVVTaWxLMll1SWtjR3gyOGtHYlVMZGFQejRXaFZBSXgwUDVMdkpEMW5sMXpkX3VMUlV5aVVTZUtEWkhCVnVIbUlPSV92VkYwWTZoSUVrZldlcWVVdjNKVnV4TTQ?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Líderes partidários do Senado discutem levar adiante o fim da reeleição para a Presidência da República, proposta feita pelo senador Flávio Bolsonaro (PL-RJ) na campanha eleitoral deste ano. Mesmo com a derrota de Flávio para o presidente Lula (PT), o",
-      "fonte": "Instagram",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9TM25HaWRuQzVWUkg0QTNONXh0XzlLak5TNklzbURBRklZVXFSdmNLWkJZZEFBLVBpSDVQV3M4VFVtVGpxNW8wQXluU1BVeUNpUkE?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-17T11:29:35-03:00",
+    "atualizadoEm": "2026-11-17T19:55:05-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
