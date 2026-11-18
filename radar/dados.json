@@ -162,54 +162,54 @@
   },
   "mercado": {
     "ibov": {
-      "pontos": 169588.17,
-      "var": -0.13,
+      "pontos": 167537.95,
+      "var": -1.34,
       "anterior": 169816.64,
-      "minimo": 169078.44,
-      "maximo": 169785.3,
-      "hora": "18/11 11h04",
-      "ts": 1795010668156
+      "minimo": 167099.05,
+      "maximo": 170259.69,
+      "hora": "18/11 18h59",
+      "ts": 1795039192241
     },
     "acoes": [
       {
         "ticker": "PETR4",
-        "preco": 43.87,
-        "var": -0.25
+        "preco": 43.17,
+        "var": -1.84
       },
       {
         "ticker": "VALE3",
-        "preco": 59.92,
-        "var": -0.7
+        "preco": 59.0,
+        "var": -2.22
       },
       {
         "ticker": "ITUB4",
-        "preco": 40.85,
-        "var": -0.1
+        "preco": 40.19,
+        "var": -1.71
       },
       {
         "ticker": "BBDC4",
-        "preco": 14.45,
-        "var": 0.28
+        "preco": 14.08,
+        "var": -2.29
       },
       {
         "ticker": "BBAS3",
-        "preco": 14.67,
-        "var": 0.34
+        "preco": 14.12,
+        "var": -3.42
       },
       {
         "ticker": "WEGE3",
-        "preco": 51.64,
-        "var": 0.96
+        "preco": 51.38,
+        "var": 0.45
       },
       {
         "ticker": "SUZB3",
-        "preco": 56.38,
-        "var": 1.79
+        "preco": 55.6,
+        "var": 0.38
       },
       {
         "ticker": "B3SA3",
-        "preco": 14.56,
-        "var": -0.61
+        "preco": 14.3,
+        "var": -2.39
       }
     ],
     "juros": [
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.7988,
-        "var": 0.57
+        "valor": 5.8488,
+        "var": 1.44
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.3565,
-        "var": 0.13
+        "valor": 6.4206,
+        "var": 1.14
       }
     ],
-    "acoesTs": 1795010668156,
-    "moedasTs": 1795010668156,
+    "acoesTs": 1795039192241,
+    "moedasTs": 1795039192241,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,63 +305,57 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Dólar dispara, pressiona inflação e piora cenário para economia em 2027",
-      "fonte": "Valor Econômico",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNOU4yZGxaVmNsYk1PS0ZKZUxaM3dKcV9JaHBzM1VyYjlkc0JyX0Y0Skd1VE5Bby1hRHNUY3VBTVd1cmVCZG1jOGV6ZENHYWJzQzRUd0E1cDVVWmRMR2x2MmU2ZEwzU1JydktlRVY2TFVlcEdFanVSVE1raVljS1VKWmw0ZF80MjljR1g4RndqWHhlNy1VSFhDZ2RUdGtZblN2OVFjMGJiRmY5aTFvbkJ4VzktVnBIRVk3THEwTFExTWZwVUVT0gHTAUFVX3lxTE5uZjN5VUN5RjFzcXNIOWFKRjIwSC1yWTh0bDVsVXRkQ256ZTY1Wk5PN3ZWamgyQktkNmdxa3pERVJFYm54X3ZTb3RGTDFfYjlEamVOOUVESkVzNGpVLUFUbld2MjZsWlRTUnN2QlVwLTdXSUFOeV9zNS1qLXkwLTNkd05uX2dKcjJ0RUU1YkdfcVF5aXVZaE4zLUh6dXdhZURLMnRqZnAzeTc1QVNFLW9vcGxtemZSTE1MS0JndlVmSjBnOFV3N3Y5OElwRTl2V3BvMk0?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Rival do ChatGPT define preço de ações e mira estreia histórica na Bolsa",
+      "titulo": "Dólar fecha em alta de 1,45%, a R$ 5,87, com fiscal no radar; Ibovespa cai",
       "fonte": "UOL Economia",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNS2VUUEVxMm5va2NaRkFjQWRxT1JzWUlKX0x3dXVpS2xteGVybzd2VEYyQUJ3Q0gyQWVINGZhMTVaczFYQkdRMlJoLU1VN1JIRU96MDE0UWFjZlQ3Q1o1bUxnOGtsa1lJcGNoRnZRRlkwRVZBOENFOEt1QW1ZOVF0aTd3d05EMmJXTURUVGl6b3pYZ05WVUpTeUZMQmxjeGlteFdmQ0JfQmkzZXVNbDc4R25tMGhMQTh0blMtMHNBa2ppSk90RmRpeA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMThSYjhEN0R5QUFpWERMY2YxUWhkSWtVVGRHcDFTQUoyY0VaYnRFdjFrZ0Y5Rnlkb3pnbEtKX3JFXzlVbktBRVRnc2tPdEY3Z1VJRlZCa2VpNlJfUVlnc1dJQTdhbUZpUkd5Rm1xdlFLX0pqTEF5OVI2bGw1NW1uQTVZSGN3VVNiSkxJSkpWOXlmWlZMMEVkVnFwRDBEZjV4VEFOMW1vVnhRU3owQk80SUR5SWdPZTRoT0E?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Caso Master: impacto financeiro estimado é de R$ 76,1 bi após 1 ano",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcllZbnRYeTVtYkJUYWZDakFRT3ZJb3VfOFQ2Z3oweUx1b3I0LVA4M3QxUWpUWUxCSGlsTl9MRmFYbWxZbXFGQjVFQzd6ZnVMbjlpVVgxejFYbUR3S0dMLTlWcVBiMWotMmxZeWxNUlpHaVpqMUFUMDl5NzZFUXZvS2pOTFVhQS1qVm5nb3pVcG0yM294Y0czdzN0bGJPeFhuQjdWeGp2X3BmemU2?oc=5"
+      "titulo": "Dólar sobe e supera R$ 5,86; Ibovespa recua mais de 1% em dia de votação de ajuste fiscal no Senado",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNT3hzSDZ5Q1NiSXVXalV0N0pxWDZISEwwbjIybFpUTlhWMmZfdlRZMWNONjdiMHB3RTU3QUU4RDdXSzhIaXVXMkFBVkV0NzAzQTJWejFBNXo2eGF0Q1FkRFh1SUMtdHVnOEl1eU5ZS2FjX2JOaDdlZlJvTVFIV1JVc2lfaGNKR2QzSFh1YTZOdlV5bHhEWUpxVThvX0RvSHMyLWliYWJDRmM3ODg2VkpjdWJxNU5Md3BDUDlKdkpMUkc2NV9KdV9tOFlqT2lwdW1HdFdtS2hwX2VWUXlCc0xjM05qUdIB6AFBVV95cUxQbGVCNEtZM0xvOUpROE8yWUUzMGZLdldYUXlCbm5EZzdFWEdpOExXNEJ4WkszRnJ4aXhTMG5kMnFiMmE0VGowNERDanJYYzR3YnRiTWtHYUlZVFRhVzF0b2ZrWk91UkJPa3UzUjhqLWJ1d0I1TXhBSGhLMGpKZG13Qy1lWklDamowUVpxNEFfbTJjYjc1cDhLQVJLZk1WRFhnMzcxdTU4Z25ScldOQXhkb2NkWU9xdndlNnRzd0dyaDZpMHRiOFFXeVJicXQ3VjBjblg3Sjl4MXFUSkJMNTZwX2tkVVFsN3JK?oc=5"
     },
     {
-      "cat": "brasil",
-      "titulo": "PF faz operação contra grupo de apostas ilegais e bloqueia mais de R$ 2,3 bilhões; dono da Esportes da Sorte é alvo",
+      "cat": "economia",
+      "titulo": "IPO da Anthropic: veja como investir na criadora do Claude por meio de BDRs no Brasil",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZHAtYkcyOFdzWVh3c3d3NlV5ZmZNNTRmUWxma19CWDQ2MTlzd1U4Y0ZhVFkwQ2phanBtTkhvNFd2N1VEV2s4V0NRekJGZTRqalR4N2wtRWdQdTdtQ3dUOTZJQllNeFU2THlYdnNTODFZbFAzV1VCT09PNWRoVUZIczFyUXp6VjJ0NlFQVVdtOE1sbUJBSHhob0gwb0RhTl9KSzJQSTdjYlBiTEpWZ0pDalliaE5GTjFSMng1OGw1M19RcHo1Z3U5UExRb1ZSdVZ4VXVsSjN30gHkAUFVX3lxTE5nTklZQ1dTUkpuLXJ0VDhwRnlsYkFBMXQzVGEzNXFTUUlnNy1SODVQcGtzQkFmZWxiWU5oaUxwOFE0Q0lHZ05fbW9RYVRkb3VRSlEwUGVzWV9yWERpWXNGcm5qa29jQmlvNGRHckdjSEd1cG5PRVNHX3l0emhxWmZ2ekR0ZDA4ZG96RkQtNWtJc1FHQ0NrQVd3RXpaM1FKamdhVVZXM0R4OXJaaTdMTGthZG1SU19JVEtrNkpTRGNLcDh3UzVTS0QtSGQtYUJpRllJbEg5WEIyOTlPaDNOUS1hMTB6bA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPd1A1T0xXSUVKNnlhZUsyQnJ5X0JabmRLeV9EZmVXODV0aWxkYkhOUGtWS3RYOWRyNE05VHFrQWktZkkxSFJ0Q0dxXzZjNURmbElnTVpwSzZIWG5tdkZleXlSdkVVYVVNUVR5QjZpZDdHLU5BNTJqd1MtTWw1OURqOXg5SmdkZ1laN0k4UEQwX2x5bVF5MWVyRXpaSXdYVENybkHSAbABQVVfeXFMTlJyekRnMHRZWS12RHI4aG1tRTdvclhxcUJtTV85YzAyemt6c1VCcUU2U2xmVjJ6b1RmaGFDV3pqQ3dMMlpJbW5YNGlJRHFqX1ZUSVlVU1pHQV9BbTB5WU5uN1NydHI2OXRMd3pNM1JPYWpPYzJWWTk1S2NZX0xEWlctaFlySXZCemdSeTNSNFp2eVVJM1J5LXowamtPazdpRmQyT0R1dnBWYnpzRWxpUHI?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Indígenas isolados se aproximam de aldeia e governo fica em alerta",
-      "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOYjZxSXJxWTFoLWNBRTIxTGU4SU1LbkpxblV2N3Noc3RfRTl3MHVMRW9JeEhIYXE5TmdGb1AyWl9qS0YwSW9Qakx0M0xsNzJMS2kxNi1IMkdxN3J1QXRDb2c1Y2NMbGtRb1p0Ylc1Skl1TlFLZVZ1Y1VhZncwcFRNVXo2eU04RGZLX0hta1l6WFpIb2ZYZnItcEJYZUVRemNMOWlnRGFmSFBkRVRZd0F6cXU3UEZMV1hxcVRubE5JRkJVNHp5bjM4U285X3k?oc=5"
+      "titulo": "Darwin Filho: saiba quem é o dono da Esportes da Sorte, investigado em operação da PF que bloqueou mais de R$ 2,3 bilhões de quadrilha",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQd29FdVRuQ1dfclk5a3cxcUJDLTNGWTNJaEtWR1JodmxKY2pGNlNKZERxRkd2VVItZWZzUWl5TERQYTFwdlJEV1lUU0VTVnZRV2FsdFMxNllKb2NWTkpWZjFESVZEclhxQkxrei1FRTdmbWZOakxPRDdxaGM0WllLaHAyNEJRTjViY3hFM2VzNW9JVDdrM2JWOHdtYklUbFB0NmtCaUdkYjl3MldQdVp0RktXc2JFSm94T05DY3lCWHNWMS00VWNxNzdKVUlhZHBUalo4Y193eTVrQzZLTHFST1ktbEhNcnF6a0s5QTMxa0d6aGdZdHZpSUpxLVFEakN4NmNSS0NtX2FIeUV2Qmdj0gGeAkFVX3lxTE1TWWMzMUN6aC1QRG1qdG1wN0RPWWxocWszQzh2ekJOZE5pNUJfLVk1eXRLTDZZVjRUSmw1dWlTSHhqWDliaDVNZ3pTRm1MN21GU3pGNXpuOHhFWGQxb3FsdkdCZy1vREE4WmRlbGpwLXVYMmJiUFZzWVFpZFpEbEVvZml2b0ZZNVVsbXRZU0FNbkdNZ2piNkNTdmxHTUV0Q2MwZGRiSmluOWpWVGVFdU4zRHFERkFfbGwtYU9iaHNYTmIyclBZdVZMdXB1YjVHQjZuMU9hcGEtX1laaG5mamN3bUtqempaSTV1QTlrTG5SS0czZ3lwd3labERicm1FeDBiWmtZQ2ZkcEpZRGJSY1owamp2Y3lfUjBOZkZUcEE?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Irmãos gêmeos de grupo de pagode são presos por estupro após festa em MG",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdVlkUjBUUGhpSVpyV1VfaTNIaThmXy1mTzNrcjJKYl9aMHZ0UEx2b2FPam8xdmp4LXVORTloUUpMcGRQOTFFWG9Ta0dwMEJyaEFjM1pGSHQ4QnpmT1ZCRVJnSGNQNlphalFFLTdIb2NpZEJvNmtMS2ZZcnVfTHZpYmJQb3QxR1Q2cllVRWE3c29CMkFpN2ZGaTlTU1RRMTJJUmV6dzFrVkhPM3J0QWNRMF9HRVFMczFvY2R4TjlYVQ?oc=5"
+      "titulo": "Justiça atende Nikolas e suspende pregão para iPhones do Senado",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaktTSF9hY0NsQmF6Ukt1VXBGY2VLY3hoTHhuYS1TUHdGSmh3OXVEcm5xOHRtU1VUSVdWa083VDFJT3RQbFlRRzR6WEVvc0d1TWQ0cjZqZDkxN0hzTXRmd28yQXBQZXY3TXQ2WFpIcVNNYUI1WWpBZ0lXOTNQTGJGU29oSzE1UHBYd0l1cldZRlNyU2dJVzE2cl9TejlWT3Ryc0drX0FmZ2tIZWZL?oc=5"
     },
     {
-      "cat": "politica",
-      "titulo": "Congresso pede que STF julgue lei que beneficia condenados pelo 8/1",
+      "cat": "brasil",
+      "titulo": "STF inaugura símbolo da Justiça na tradição iorubá",
       "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNmNJcWktQWlTekZ0eTd2Ulo0UC1VTXVoTmhSUlp5MFdaSXp6WHRELWl4WWNXS01kN2UxOWhkS3RPYUVqOTlNTDc5cWU2MUhuUG5xM19PVjFJcW01NGtmeEFFeGdGRHJDV280MjAtUUVhX3NXM0taVzNtLS1aM3FId0pneEdSbS05enFsYkJwdGVtWXZ0SUpMYmlocjBuQm8xeGJFaE1CY1R4NDJnek1hd1dVQkVDQUhuVm1fNUdERUVuZw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdFo5ZmJwTEpaZnQ3a3h4S0dkZUJyNVFydWY3eVBUYVE0aFlnaTk4TVFFOGFLTWNNUzlkeGVqNWZRYndJRVl0YVM1Tlh1cE1aZTJScjN4TW92TE5INS02WEVoSkY5YXhSMzl4NkJ5a0FEN0xHNzdha3VFbTBKSm80eWZKREphczU1R3dmdHRVOG9EOHZVWGlkY1RZMnVxUjREdjVVYUhBbHFqb2s?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Ajuste fiscal expõe dificuldade de articulação do governo Lula no Congresso",
+      "titulo": "Análise: Brasília vive dia de tempestade perfeita",
       "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYjhVMHZOQmZoTkg5N0VVZDB0VG5uVUtJdXVJTDhhT2JuSXRjU1JYNHFIcXkxakFpcHFfS0otSTgyaXB0aWdnMVhmbW5BUUdKZE1lZE9zR25TNDZFcFBuNFd3MWFGbjZHZGE5dEF0S2FaaVl0YXBiMjBsRDVzTzhlQkJIb0c5Rlg2djRMRUtkN1kzSFBjZUJEQ0V0S1RtV1prY0JzWk1iaXF1VmlyWjVEQWxwQnQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZlhQRW0tSndUYVBvcS1zTVJJLXlBMGxpMWstaENDQXdrWGhLUF9SbFZkVm5oSzd1dXUxQ3dxWjRDXy1TdEVWSldzal94RDU3VV9XMXNjbVJBZ005ZmlzMTg4bzYxTG95ZDNGZW83eXdSa1dMT3RUNTFpVXRsR3NiczNtOEZtMXRJQjl0QmxBeU1RQkxqVk5wTm41RVRGSzRKcllUbk94Z2hzZjg?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Ajuste fiscal sob a interferência da política não existe!",
-      "fonte": "Correio do Povo Penedo",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSEcxdnNLNHdsRmdnRk9aVS1WQWxTd090U0lkZWlTU016RURpcnlOTkxGZTZ4NXk0SHJMVkhZMjJRTTVrOHhFUFc0NFMxTThKQWI3VDZTc0MtNnl1SXZlS18zS2xvOFFxRzh2dzJSbDhMbXAtdFR0RWRHbUxpempQdFlLUGRDR2dRV2lWd09kcVYxd01vUGgtUjg5dnp5ZTVIWDZWSDJ0M3JDZw?oc=5"
+      "titulo": "Lula assume o quarto mandato diante do Congresso mais conservador da história recente",
+      "fonte": "Sinpro-DF",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUHR4bkhDWXdtTTlmQ0dpYXNFMWFaYXFjdFlvYzJDVmw2Q0tHc29BZWZQYkJpQzlUbHE1NmRqMXFjNGwzeDE2akJ1N3dOR2EwdUhSakFYYmtEdFFMMjZpNHp0SE5HSV9sWU1Dd1Z5bThzSVlNZ2ZEQlItc0RqSnJOb0lBLUp2d1A5NFprWEcxWW95VXVUZ1puOVJlOHZ1cHZjU3Y0ajZCVGxEcFBpLUpHNnFEcW0?oc=5"
     },
     {
-      "cat": "eleicoes",
-      "titulo": "Lula gasta R$ 133 mi na eleição e Flávio, R$ 115 mi; marketing, redes sociais e viagens lideram despesas",
-      "fonte": "Folha de S.Paulo",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQT0hnUnN3OGNUcE8wNUlSRWdpSDZObkhfRk1kSVU1RDdtN0xUbVQ3OXVhR0VnODdJdmpFbmR5SGViVGo5ZUhkd1ViZTJHLVRFM0F5VWNEWEZQNDJVMVUtbXA2YUVyTGlPNGFsbjltamxYNFRKNndEOVlwSHl5NnZHTzBfMWh3cHo3VDVVME8xdWJycHQtdUdwZlctUjNmQ0l6M1RXUXVuamtsSVZsbGpPeEp4RmdZeTRFLUc5WWF6Vm5MdVB4ZEZuS3kwVUVXZUlFQ3ZYOG55TklORXFza2JkT2ZCVQ?oc=5"
+      "cat": "politica",
+      "titulo": "PSB e PDT oficializam federação para ampliar força política no Congresso",
+      "fonte": "Rádio Metrópole",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORmdHTWR3VDVteHg5NDJBQktjVWJhSWJQVXB5N3EwZ1NDanVXbmh4YmJXWk1FRmJpVjQxcjFhTmdYUkJ0bXliNEpDenBZeGhmRVZaRmpmd1RXUDRJcHpyYVQ4UGRFaThCTk9paU9pbVBJLTh3Z2R0MVZ1MGgtNGUwRGl3UmhHWklBRFhGRG01VXRTRzFUS21taU03ZDdfNVZBZTE4WjVhUGtvV2g5YmRXSDRPNUJCd19HSTRBLVZuWUQ?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -371,9 +365,15 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "Eleições entre turnos: Lula e os Bolsonaro nas grandes cidades em 2022 e 2026",
-      "fonte": "CartaCapital",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZFJEMmdYNGxFb1FuSDFlcDZac0lqdUI2aVFZckhfRkZheU9jRzVIOUN4MnU4azNQYUVIckdSOVB1RTRWRU9tYVZvSm1VOEI4a3dsRkhvMzVtTDRYcXp6NmVGOE9iWHpRbmNtS09VdnFpRTFFd0VJeVlxcVFrOTJRTXF1ZGlicjBDeWRRNXllWGY3ckhlb2VNNDJfV1FESDU2dGNnVzJ2OXNOdVoxZ3FZaUphVGZVcndZ?oc=5"
+      "titulo": "Lula 4 e os 4 cavaleiros do apocalipse",
+      "fonte": "| Instituto Socioambiental",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdTdjYTl6ZlAzd2E3SUFZeWtjUWtvUUJXZ2xnR3pzZFFtTDQzNTNCUzRyMnNrSkROdEZ6dFpOcFRWSWZrUk45T2ZuajQ2alR0dW5VTGVaUDBVdUFrc3oyaEptV3VtQ3ZtRllnZFQ0eWg2OWxJRmxkdzA0bXdzVlY1N1lBUExEQ3Bwd2UtTk9ESldPV2dCbWRtNzd3?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "Lula gasta R$ 133 mi na eleição e Flávio, R$ 115 mi; marketing, redes sociais e viagens lideram despesas",
+      "fonte": "Folha de S.Paulo",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQT0hnUnN3OGNUcE8wNUlSRWdpSDZObkhfRk1kSVU1RDdtN0xUbVQ3OXVhR0VnODdJdmpFbmR5SGViVGo5ZUhkd1ViZTJHLVRFM0F5VWNEWEZQNDJVMVUtbXA2YUVyTGlPNGFsbjltamxYNFRKNndEOVlwSHl5NnZHTzBfMWh3cHo3VDVVME8xdWJycHQtdUdwZlctUjNmQ0l6M1RXUXVuamtsSVZsbGpPeEp4RmdZeTRFLUc5WWF6Vm5MdVB4ZEZuS3kwVUVXZUlFQ3ZYOG55TklORXFza2JkT2ZCVQ?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-18T11:04:31-03:00",
+    "atualizadoEm": "2026-11-18T18:59:54-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
@@ -1551,8 +1551,7 @@
     ],
     "falhas": [
       "BC poup: https://api.bcb.gov.br/dados/serie/bcdata.sgs.195/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
-      "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests",
-      "PTAX: https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados/ultimos/1?format…: HTTP Error 304: Not Modified"
+      "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
     ]
   }
 }
