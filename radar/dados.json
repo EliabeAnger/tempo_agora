@@ -165,10 +165,10 @@
       "pontos": 169816.64,
       "var": 0.31,
       "anterior": 169295.4,
-      "minimo": 169300.3,
-      "maximo": 171749.52,
-      "hora": "17/11 19h55",
-      "ts": 1794956102660
+      "minimo": 169816.64,
+      "maximo": 169816.64,
+      "hora": "18/11 01h26",
+      "ts": 1794975971647
     },
     "acoes": [
       {
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.7657,
-        "var": -0.35
+        "valor": 5.7778,
+        "var": 0.21
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
         "valor": 6.3484,
-        "var": -0.32
+        "var": 0.0
       }
     ],
-    "acoesTs": 1794956102660,
-    "moedasTs": 1794956102660,
+    "acoesTs": 1794975971647,
+    "moedasTs": 1794975971647,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,15 +305,15 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Dólar fecha a R$ 5,78; Ibovespa perde força com fiscal e queda em NY",
-      "fonte": "UOL Economia",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZVpLdGZ1WUdHakUyOWFfcExxTlFMSm5OSWhJZ1FSajAwbjRmOXZsSFYzaWZUMzZJUkxaZzAxal9URFhNQmpkSmxxbTd4cU9mYjBhTGotRnJEWHBlZVczTGRXM1ZPUHNlRkZTdUF0MjRLVUFXaHZZN2NnMDIyQWJuOF9aeW9rc0FkeFFNdmFRaThLQnRhdWI5bUF5UXZyQlF0cjMxclE1cFRTY2s?oc=5"
+      "titulo": "Aneel forma maioria para recomendar fim antecipado da concessão da Enel em SP, mas diretor pede vista",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNOFN2RkZKcEpLajh0THhjdTZoNW5wVTRBdjR6NkZQVDR3RHdVd3J0NkNEcEJnTzQ2Z0ZKVUV6dWtfSDQ5SC0xNjdjelRwRXM4MmpHS2E4WlN3MUVOMXhtX1ZTSmVBamVOaXA3U2EtajBVWW9Ia29FNXpWOHE4b3BoaGRBX3FuZWZlaDN4OFJZWUZXYk9RaWN2V1kweVNGcWhNMmttMm5zZU91YmpCOGt0aFFyQUtmLTBfVWd2a2poYVdlYmtRNXRlOWV5OUtTdm1ENnBBeDBHaWNvMzJjYjNYTNIB7wFBVV95cUxOZzNvQTBpVmphODJaRGk4UDBVRlpzV0w0NXc0d05LS3ZQZWo0ZXhTNndiZ1YzUjY4MWlkRDZVSkxabW8wSHlKRU15U0xuX21HZHpYYzhzUVFWQzRjd1ZlM1NxVFVKdnQ2SnhOVHZoVEJvVnBlRXFOYnJabFBQTU1YUmNLRkc3SWtKRVFDdjRsZjBuU25ZY1AwdzJmYXRZNnM4aEJKTk1rV0s5THpPVmpDTlQ4NXZ6ZkkzQlAxUS1WblNtZHM1dDlzWG56UEtFNjhMSlM4VmFiV0t6S2tvUmlwRTItSHNYRENZQTlUN3RmOA?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Aneel tem 4 votos a favor de recomendar fim da concessão da Enel em SP, mas diretor-geral pede vista",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNOFN2RkZKcEpLajh0THhjdTZoNW5wVTRBdjR6NkZQVDR3RHdVd3J0NkNEcEJnTzQ2Z0ZKVUV6dWtfSDQ5SC0xNjdjelRwRXM4MmpHS2E4WlN3MUVOMXhtX1ZTSmVBamVOaXA3U2EtajBVWW9Ia29FNXpWOHE4b3BoaGRBX3FuZWZlaDN4OFJZWUZXYk9RaWN2V1kweVNGcWhNMmttMm5zZU91YmpCOGt0aFFyQUtmLTBfVWd2a2poYVdlYmtRNXRlOWV5OUtTdm1ENnBBeDBHaWNvMzJjYjNYTNIB7wFBVV95cUxOZzNvQTBpVmphODJaRGk4UDBVRlpzV0w0NXc0d05LS3ZQZWo0ZXhTNndiZ1YzUjY4MWlkRDZVSkxabW8wSHlKRU15U0xuX21HZHpYYzhzUVFWQzRjd1ZlM1NxVFVKdnQ2SnhOVHZoVEJvVnBlRXFOYnJabFBQTU1YUmNLRkc3SWtKRVFDdjRsZjBuU25ZY1AwdzJmYXRZNnM4aEJKTk1rV0s5THpPVmpDTlQ4NXZ6ZkkzQlAxUS1WblNtZHM1dDlzWG56UEtFNjhMSlM4VmFiV0t6S2tvUmlwRTItSHNYRENZQTlUN3RmOA?oc=5"
+      "titulo": "Dólar fecha a R$ 5,78; Ibovespa perde força com fiscal e queda em NY",
+      "fonte": "UOL Economia",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZVpLdGZ1WUdHakUyOWFfcExxTlFMSm5OSWhJZ1FSajAwbjRmOXZsSFYzaWZUMzZJUkxaZzAxal9URFhNQmpkSmxxbTd4cU9mYjBhTGotRnJEWHBlZVczTGRXM1ZPUHNlRkZTdUF0MjRLVUFXaHZZN2NnMDIyQWJuOF9aeW9rc0FkeFFNdmFRaThLQnRhdWI5bUF5UXZyQlF0cjMxclE1cFRTY2s?oc=5"
     },
     {
       "cat": "economia",
@@ -323,21 +323,21 @@
     },
     {
       "cat": "brasil",
-      "titulo": "Lula se reúne com Alckmin e ministros antes de Senado finalizar votação de ajuste fiscal e em meio a críticas de ala do PT",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOZ1N2TVliTnNVbUZuLXd6V19reE1CcDdSYXVYcXd3MkFyd3VMWXg5SzhLLVhMMFlUNWNfNS1TcEpsTERCTjJkeTUtTThCcDJPRzdid3JQMzhBREtMZ2I2eU5GTXJQa2p3eDJWOFRsQlQ4dktUX2xLSDg1YTZ3MGtXMTZXM3BMdmQwNzBwWlV0bEZsWDYyLVlyWjBWRlZ6eEJGNXpxdVdjc20tNHg5QndGX3FtMXFvV25hUXR2QlhqSFlmTUhMS0VQTThBLVBub3VPV3NRVmRCQ1Y2R2ZFUGZpYnYtelhwamp1ZkhuUnhKRVlOOXRzQXk1YlpvbHRCUTd30gGPAkFVX3lxTE82VUZIcVJYQnk5OGZoMS1EMVZmajNYeUxzTG05aU5MM1NaRzVQWFhxcXNoaVVPTmtGQXo2bTBMX3czU0tGamFvYmJzLV9YaGxqczJIS1FQcVgzZW9JbmdUNlZGSUFtaWY5VUNZOGN1UG1USlNaUzItQVh6TlpWa0lGalM4SWk3d3lVc2pkb29fbW10bjdMM2xZbllDNFN3REc3SzBraENDRnZKS19VQVQtZk9sdTYwRWdXS0FtM21wVl91UlYxRmxpYUd0ZmFoYWQ0cHYtTFE2ZDVtY3U0UmRXTk1HZ3ZDd3h1Q2NmMnFOXzkyLVVLaW9ONHh3Q25sN0pzanBlU1Z5dTlrZ3E0OU0?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Polícia acha máquina capaz de produzir 3 mil fuzis por ano em ação no RJ",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPem5HN3hCQWZ0M2Rmbzk2UUdRUUdTUng0Y1haU2loTGVfaDE5REx2V3lPc05oQzV5SlRUNFE2V2FiRG1DQ0VVbjBmTTRMcHJzeURtZDhnaXBvZ0R2cS1fZFpEZm1FTGJ5R2tnUlktZXlaNTZBWWlpWUNzTV9XTkgyN2otUW5md0F3RDYwbEk3RjBxMGNSZ2tWLWJfUVZ3OFg1SFZfV1ZOUVpfOXRncml0SmhtU211TUxkZ3JKMmU0QQ?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Mônica Benício entra com novo recurso contra homenagem à Eduarda Campopiano",
+      "titulo": "Camilo Santana diz que governo não tinha votos para barrar desidratação do pacote fiscal",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTE5uVWZteGFiS1EzSjVOOFoyOWNfYWNnSU9GMUY5blA4T1hUOHMzZ3llMkdtNW1qY3JoSU9WcHBVc0o3UC1vMjRlSTd6NVFiVHpEOFNiVlBjNVQ4MnpTUEJfYUoyMUk3U0RKSFhNNWxDUWpfamlNQVMtUVNCTWdxS0hGVjE3MDhzSmxEMG1MaWZOXzU0NlEzRThhNG1QWnBWQ0Q2Y0RwRzktSnkwaFhRZzloNzh6TG1GcVZJ0gHKAUFVX3lxTFA1N2dFb2ZsYXJabjhmcWJuVDBid2wwdWd0cWxodVdWVDd2TjQ0QWpOQVNzUkZnUVBPaFF4djR5YzBpTDc1LXhqeVR1OTVQTW04NzRRRmF6WWpXOElxMFZuZGtqc2xKVFZ3ZC1fVGtHY3hrVHd0a1pPZUpPWG1CdXpsbHFXOHMxMENlVWJ3a3gydVpNUEVQelZySWlXNFhPazMzWHNMblFkWnowOWFrdFg2bGNxM3FuQXBqdk5UdUtKdWU0blpKQVpjakE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNejhEbWcyQnpFWktUZE9uRXZmTlBxTS1yRE9ub2pLbE8teEF3OXRYcWF1RGREaVpxaXlCbDVzdVA3RlJhZjB1SW9TdC05UjZNTlhjOWxGODBvV1JycUJleGxpRnBIUUdEcnRSWi1pR2VhXzlacnlrR1dKMWZkdThmTEg0SXpJeGZXamhmUlhzYmp3ZHFUamlMNTdsMm9iN3EyQWRIdnpWVWtsNlVvZGM2VnpLREVUVHNIeXZGTU9jMC1KbXN1Qm5pT3FObmFWVkFoemYxbE1xZG4xZFnSAeoBQVVfeXFMUEk0Q3RqVDMydS1WMU92a251T0o5ZWZaeDRqdlNXRXk5NmsxSEQ5aFNsTldDREs5MXYtNnZITktDR01BY2g3N3l3TVBwNEJndkloMWdhVGp4SHNYdkdVd2x6bVRiX1MzZVFQMV9zRy1pQ045SE1QMnlULWtvZGFNWUhKYk9ENGdNaWg2VlN0TVlXQmJZZWxGbUNaOGx3RHpYVEw1TEx1VHl1ZC1FdDBjZ3R6bVVfdExFTGFiZXlueVdFZTRMREFJSlc1THlva01TYmN1eUdGZkh2WEdiVWFXZnl5TjlMdXhjWXhn?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Amazônia maranhense: indígenas isolados do povo Awá fazem contato com Guajajara",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPdlo5LVJCVnowUDh4VDE0RERHQ25ZN2dfa1hDSU5DT2oyYjRtUUpnQk5tYzc5XzhWSFp0Zkl4RTJCZlJKTWxHNU4waFUyZEFNa25QUzYyRnZxbTR3dnNhWjZZRkt4MFFBdTlaTGsybmcta1A0d3pJaG5TQ1FZSXpGZ0JWTXdSWWsyeDJWNC1Bd0NpejhjOUpJcUxYMFoxQjdhVWlEdDhTN2hIT3FWRDJKQUc3V3VXaV9BYTAxV3dBbTE0OXJ0eHc1ZW5lTk1EOVlPSVHSAeABQVVfeXFMT1BBTjJiZGswOS1CT25iSW8xQ3c0d0JheW4za3JWdWd4UllFVVAyX09mQU1MU3NrNGtyYTRUdzJQQTA4UHM2MHU1Y0twZlVsb01zcmx3bWVBQzl6VVV1eGcyRXp6d080cVVSd2JaTkNRX1FXcU9EV3BFLThKU25TTjd6LVUwaTYxNkRibWpJRWhkRUxVblk0TDl2TlhoUFZqbVc0QUVaUUdrM3VTZ3VIRWhzdXFwTW56R1Ryc0VZRTZTTEZ2bFVPN2w1NTZGQ1BZSFhweXFsUjlzQUZkQlBNdGY?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Alcolumbre e Motta cobram de Moraes julgamento da lei da dosimetria",
+      "fonte": "Metrópoles",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNX254N1Y5eUFHNU9aRk43bHZKMW9fbFlrRkgzckdGbnFUeHZtdzB5M29aVFNGWXJINFZSZ3RWdWVuYzRUbFRYRWdsRGdIcVo5dnB6VURtOXFaY0ZTRVBqTlF0RmFWNE4yRmZOMU1yRHhNSzFZYnpoU05XTjZIMFlGLTlJckw3Q05CQnBRMkY3b3NDOFI2bFpLUFBES0ZqRlhEQWpR?oc=5"
     },
     {
       "cat": "politica",
@@ -347,33 +347,33 @@
     },
     {
       "cat": "politica",
-      "titulo": "Alcolumbre e Motta se reúnem com Moraes e pedem que ministro paute no STF lei que reduz penas de Bolsonaro",
-      "fonte": "Folha de S.Paulo",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQZjk0VmxMd0hIQlVocWxLYVFRc2dmT0s5OWN1LXNmVnZnTk9QbWZhLTZvZlRrcnVXc19DMUZCU2xRVVNlMlRIcjBvZzllQ181ZWNDY0tYYnlUcGthWmV4NFcyRkxMUmpMZ3l3R2VZOW15ZURWMXNkX2pQblV2YnJBeHBJV1lpX2lHWG1CVF9YZlZxMkUydXRhT3FxMENONUN3NkRJUkNrTER0bkR1aVdoVHh5V2dSa2tGUmxleWktclVrcGJpUUszbjlMeDFrOWdWeV9hRnp0Y2hWeXBKZVViVFNydklrNkFlUDBEVg?oc=5"
+      "titulo": "Ajuste fiscal expõe dificuldade de articulação do governo Lula no Congresso",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYjhVMHZOQmZoTkg5N0VVZDB0VG5uVUtJdXVJTDhhT2JuSXRjU1JYNHFIcXkxakFpcHFfS0otSTgyaXB0aWdnMVhmbW5BUUdKZE1lZE9zR25TNDZFcFBuNFd3MWFGbjZHZGE5dEF0S2FaaVl0YXBiMjBsRDVzTzhlQkJIb0c5Rlg2djRMRUtkN1kzSFBjZUJEQ0V0S1RtV1prY0JzWk1iaXF1VmlyWjVEQWxwQnQ?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Governo vê risco de derrota e segura pacote fiscal",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObWV6X3F2MHF0a2U3LUxuMDlvT2g3V24wQUc2ZkZRdVA4eXNOVUY3V28tc2F3MmhCRUlydkhOSmt1NnBwY1VPcU5BZWtaT2pTeFFhUVdOS1hJY2xCbzMzamN1THVwdzlyMDRTNTdtU0I5WHlEUzRXZllZZjV0a2xxQWliZ1ZaS29McktwUFh1VlZRY05MQ3JpSGJUeGRQSWpZczFsNEs2Skd0dXozYmNF?oc=5"
+      "titulo": "Em Lula 4, governo deve escolher ‘ministros com bom trânsito no Congresso’, avalia cientista política",
+      "fonte": "Brasil de Fato",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVnVqbi1BQmNyd2VTV1dGbUExZGY5bmx5NTY0em5TUUppQ0xVY1ZNYjhJb0tXQ0hMRVY3enJuaWhlLTlsSWZtbjFMRmpKTjNPN04ydXg5ZVIzZF94MmE4cUJ4c1cwVXAwN3dnSzE1aWhTSGdlOHl4T2JYX25jeHNpUFpvOFd0YnNyeElCeS04Rk5uTzNyRk9EQTZ6MzYydmRtdGQ2WGFLQjJocC1LbmxUSWxXNzZmZmp6YzNlWERnaVBQcGp4VHRHNXdGcXhacXhQRVhEZDZ6dHI?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "Lula gasta R$ 133 mi na eleição e Flávio, R$ 115 mi; marketing, redes sociais e viagens lideram despesas",
+      "fonte": "Folha de S.Paulo",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQT0hnUnN3OGNUcE8wNUlSRWdpSDZObkhfRk1kSVU1RDdtN0xUbVQ3OXVhR0VnODdJdmpFbmR5SGViVGo5ZUhkd1ViZTJHLVRFM0F5VWNEWEZQNDJVMVUtbXA2YUVyTGlPNGFsbjltamxYNFRKNndEOVlwSHl5NnZHTzBfMWh3cHo3VDVVME8xdWJycHQtdUdwZlctUjNmQ0l6M1RXUXVuamtsSVZsbGpPeEp4RmdZeTRFLUc5WWF6Vm5MdVB4ZEZuS3kwVUVXZUlFQ3ZYOG55TklORXFza2JkT2ZCVQ?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "Campanha de Lula atingiu limite de gastos; gastos de Flávio Bolsonaro ficaram R$ 18,6 milhões abaixo do teto",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPLXpOWW1PVUVFTDlRREJfampPU2RpSS1vM0pJYW8tckNuYTFmajlyZlNjbC1PbkFtRDRyS3ljREhEOUwxZGJMVVhTQWVXNm1NMkl4Zl9YbldwSko1T1lWYXU0VGR4dnhjVkN5RFB0VGhueG4xUFdpX2FHaG0xQjhHOHJwYzNuS2g4M3Q0SF9kUzJJbHRqZlo5UGVxVHZzQdIBrAFBVV95cUxPd2JJdmY5a0w5di1TVUp0S3ZfcVpiaHc5bzVrUHRQQ1JnVzViSnV1M0wxZ2ctZlduTnk2TTVnV0kxX2lJMXFsYVg1bldTX2dfZWFfN0hFRi1Bdk5tX0JhOU1oQUlVZ3VOaWdLblA0eWhOeVp5a0N2VUZlWlZMTnVWcDJRajhNUl8wVFk4S0ZmSzl1U1VMeGpmQl94c3pfVXM4OXZQZk4tUTRQMGVm?oc=5"
     },
     {
       "cat": "eleicoes",
       "titulo": "Eleições entre turnos: Lula e os Bolsonaro nas grandes cidades em 2022 e 2026",
       "fonte": "CartaCapital",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZFJEMmdYNGxFb1FuSDFlcDZac0lqdUI2aVFZckhfRkZheU9jRzVIOUN4MnU4azNQYUVIckdSOVB1RTRWRU9tYVZvSm1VOEI4a3dsRkhvMzVtTDRYcXp6NmVGOE9iWHpRbmNtS09VdnFpRTFFd0VJeVlxcVFrOTJRTXF1ZGlicjBDeWRRNXllWGY3ckhlb2VNNDJfV1FESDU2dGNnVzJ2OXNOdVoxZ3FZaUphVGZVcndZ?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Brasileiros apoiam resultado das urnas e desaprovam saída de Flávio Bolsonaro do país",
-      "fonte": "Tribuna do Planalto",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMXBtNVFXTWxJRjc0T1Z0RDJlZmE0UFZtcTJ3ZkQxekx0TDlrdkpMbThzZHhwcHNHN3FDZU9GckIxN0VtRzluMzBmSGZQaTB2SktGRHNhMVJQaExnc1hnbmx4ZGdncTlrdXhRV2RZckRhMjZ0bTg1RlhkVjlCM2dYUGw3TGVoNW5OUUxhTkhvRHU0X2oyNUx0N0tBM3IzZFJTZnZnMGh6UElaNHNLXzQtbUw2OHdMYUlLRVUw?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Direita espanhola critica visita de Lula a Sánchez e questiona vitória do petista sobre Flávio",
-      "fonte": "Gazeta do Povo",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZ3lfQ1BuMm9kQ2ZXUnhQN2FXb1puSFc5RWhpWWwyNzlmYVVRYng1cjNFRzRlM1V2QlVvVUZzQjJLLXlGQ1lFd2ZmeklGNUJGdGdNSGFQaHY5cE1reWJrZFh5bl8yaVVTaWxLMll1SWtjR3gyOGtHYlVMZGFQejRXaFZBSXgwUDVMdkpEMW5sMXpkX3VMUlV5aVVTZUtEWkhCVnVIbUlPSV92VkYwWTZoSUVrZldlcWVVdjNKVnV4TTQ?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-17T19:55:05-03:00",
+    "atualizadoEm": "2026-11-18T01:26:13-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
