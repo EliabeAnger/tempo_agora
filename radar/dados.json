@@ -162,54 +162,54 @@
   },
   "mercado": {
     "ibov": {
-      "pontos": 167584.94,
-      "var": 0.03,
+      "pontos": 166376.44,
+      "var": -0.69,
       "anterior": 167537.95,
-      "minimo": 167549.55,
-      "maximo": 167584.94,
-      "hora": "19/11 10h16",
-      "ts": 1795094192045
+      "minimo": 165833.3,
+      "maximo": 168498.42,
+      "hora": "19/11 18h40",
+      "ts": 1795124420676
     },
     "acoes": [
       {
         "ticker": "PETR4",
-        "preco": 43.17,
-        "var": 0.0
+        "preco": 42.67,
+        "var": -1.16
       },
       {
         "ticker": "VALE3",
-        "preco": 59.0,
-        "var": 0.0
+        "preco": 58.48,
+        "var": -0.88
       },
       {
         "ticker": "ITUB4",
-        "preco": 40.19,
-        "var": 0.0
+        "preco": 40.07,
+        "var": -0.3
       },
       {
         "ticker": "BBDC4",
-        "preco": 14.08,
-        "var": 0.0
+        "preco": 13.83,
+        "var": -1.78
       },
       {
         "ticker": "BBAS3",
-        "preco": 14.12,
-        "var": 0.0
+        "preco": 14.3,
+        "var": 1.27
       },
       {
         "ticker": "WEGE3",
-        "preco": 51.38,
-        "var": 0.0
+        "preco": 51.13,
+        "var": -0.49
       },
       {
         "ticker": "SUZB3",
-        "preco": 55.6,
-        "var": 0.0
+        "preco": 55.32,
+        "var": -0.5
       },
       {
         "ticker": "B3SA3",
-        "preco": 14.3,
-        "var": 0.0
+        "preco": 14.28,
+        "var": -0.14
       }
     ],
     "juros": [
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.8913,
-        "var": 0.73
+        "valor": 5.9346,
+        "var": 1.47
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.4748,
-        "var": 0.84
+        "valor": 6.509,
+        "var": 1.38
       }
     ],
-    "acoesTs": 1795094192045,
-    "moedasTs": 1795094192045,
+    "acoesTs": 1795124420676,
+    "moedasTs": 1795124420676,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,39 +305,45 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Com empresa ligada à Anthropic, ator Ashton Kutcher pode virar bilionário com IPO histórico",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQZVNZZ0YyTnRBcXh5bWFVVXJLRHdxRDhmUklOdkFUeGdFUGozNWRhVUFmWVdLR1FESG5MS3dYcWFvSWdaempMemlhWUM3UkVyODNiaThLSGhtejVVZU9WM0NaM184WnpyQURpSmdSbnV0WmRBVnFEMjg0Rmp4Tl95NWNESGhKR25qblJLVUhJd1VtZzFHSHRlMUVfY2d4M2hlS1I3U0h3VEViZjFxVTV1R1l4ZlpnNDJTdlNzX1B3MTRqYUtQbmRIQ0hjcGU0bzlkOXl3U256RkxKWkpLQUc0S1QzdlRhTVZ5X2UxcHpKZ2Nzd9IBgAJBVV95cUxOQXdhcEdWVXdlMlBvbTBjY1ZkUVBJd19QaHZMUUF4elRGRm1feEJuZVRrenJuRE9oTG5vY2J4WlMtV0h5S1hPRkx2YUQwNjZfM0dmZ251TUVHUnpLSUdELTRmNTV6bTVjNlRvbEJkbUlINDFSSnprNVhQZXZWY25La0xnTkwyUTN4OU5JU2VwME5wZHc3VUF3QWstMGR6TTQ5NlJBa2JFRW8tV2gtUllIX1dENmdzWkdpaVRJWk01TGZVNzdkNTItYVpZSTE5b3l6RzFwMUtNTjJHaWdVRGFoc20xVE10dnJTWmRreUROOWpNNE9Kb2hlb3pkN1A3b1I1?oc=5"
+      "titulo": "Dólar sobe mais de 1% e fecha a R$ 5,93, maior valor desde abril de 2025, apesar de intervenção do BC; Bolsa recua",
+      "fonte": "Folha de S.Paulo",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYS1OWDJnb3d5Nkp3RjZGeThUSnlyYzlZTFhsVm85UGRVaGQyVVlNcnZtcnN2N3dYalBfUWQtb2V5aWl4TWZTWWxkWDM4QXdQc3RoMzZlMEV4SERGNzVsNU0wMFlPSk9Qd1RGTVdDWnE1bmRQTU9RRGkzanNuVm5RMjdWVzhER0NQaGlVZl9JTXFYSnBHbng0UEhTemxFVU13dmhwRkF0Z09LMS0tbVVSNmplWHhFcDZDRnlOcTZaOGpyT3Z6Mmc?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Mega-Sena sorteia prêmio de R$ 40 milhões nesta quinta-feira",
+      "titulo": "Anthropic: fortunas de fundadores disparam e somam R$ 817,5 bilhões com estreia na bolsa; veja ranking",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRGUwUlo0R1dCZzR2VWNjb3E3SDdTZ3N1M1pubHh6NFZ4RUFCLVY5VXNYcHBBQWdBS19PTk9sa09jSkpTY0tzN2RzRFN0UzVLLXQtQ0hibHJiQzR6QkZabUJUODNDY050NS1HQmR1OTkzcG4yQ295NUgwWXltbG5QamZpdUh0QnZ3ZGJ4SW10ZXJsNDFQalVTMTZMR3FEZGdHVENtY0RLbFp4dGdoS0FZbDhkQzBZcHJXWlJkblU2eTJkdlFNNUkzSGNRUdIB2gFBVV95cUxNaWF3aDBYVVpYWGFkWnBlVjYyX0FmYzFxOElPdU5OZHVQVUtiSkJ0NXFIMDRkWTVOZnpxRzVBNVcxSHpQbVZKcHdWSEFNQklJYnl4ZHZvTEJ3SUM1TW11RjQxX0R0WXJDQlpYNFhSNi14eXBOeXhqaVktNjMwb1cwOG1GWll3eHlvWnpMbEpzMF9zRk1hdFJtNXpzU2diM1BTMUtZMzlhRVk4OXFIUGowYmozc3BoTV9WTlFFUTdfek9ZaEcyYURRaU5MLUdIZVlXSVpWOHZIUEduQQ?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "13º salário de 2026 será um pouco maior para quem ganha até R$ 5 mil. Entenda motivo",
+      "fonte": "Extra online",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOG5yWTAxOGh4RXpURW5SUElpcWp1dkJKRXdJa1JKR2Q3RHllYkREZC1pNUlZekNDUThScFNVQmpEdHZPQlNaRUZNeEJVSG1pc2RvUjJMRnpHMUZ2MDJSOUdLLUlJWmFiaUhxWjVZdjJiZkZTd0w0WC1JZGVHRGF6NnQtX2lib2V0Qk1MeGg0N3NER2F6SmhHUGFuWVJHOGtlQ3c4Q0djSnQ2T0JLQlJUN3VJaDJfcnFacHNwLVdoZmxtVlB6MGNBQUNsMkNnVU1hNWVR0gHiAUFVX3lxTE4zR195YW5yek40aEh5LWJZXzBxZGlCRVVMaDhGTUhOUzN0VVJsNGtReExYTUxlN2ZpcjRNN21UM3RSb1haQWZCWEx1Wl9ENnJtbXlHZWxaUnFaZEJzWlJmX3RjUTVSZlVBNU0xN0xVLTFacUgwREJwYXlud01FQXVGcXJpZm5hMExOSVIybWJQZnl5N0JyWUdPbmt3NXpJNFlXOWhTTWN4dHF6MmpGRk5qZVBuTy1OTnU5MDRTNmJBSlJ1S09ONGVzTXdQMnByZHprYUxGRkxPMTBZVXN0RHUwSUE?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Feriado do Dia Nacional de Zumbi e da Consciência Negra: veja o que abre e fecha em Fortaleza nesta sexta (20)",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNVlUwTHBkWFVDc1JjcXBnMzd6ZjBsb01qa0pSZE9jUm5uUTRreDVLaGtKT3A1TFo1UmpUSU9mODFCQXBFUjREbWJZM2lhd1FCTmRXVnIwQzVvOUxLa3BIaU9zT3d2SndfZXZxWVJHY3cwZC1nMUFkVHFYR0ZPZGw1cHZzQS02R01hN3hiMDMxVkZjZFIzSzhGUTdIU2ZpMDZwWnFoTjhpTHlnQ2EzcTVxUl93Y0tYN003MGFqUWhvcm9WVHBGZ0pQQnRJdzdZUlAxQlVKMXlmNC1hZV9pZGZKbW1hbVI5NEFLVzZmM0w5OXhYXzdG0gGDAkFVX3lxTE9PamdQV3ZGWmg0MkMtd0RldjRDbTRvU3NoUXEteTZ6dXZsZlRHdV8tSUZsMldQdDR1OF91RTd1NUtYR3lZOVdVcTVXSUpnYTVkeHdsMmlGM0NSMGNSdnZSYTBqQy1iczFuYWRuMkx5b3QtNGF3dTA5MmN0dUxIb0tKMHVOQ2ZUSGp1akNFajZPN2E3TkpyY0hqSWw4aWhkblpyc1h0T1RldlBlS2dwVnJTZFRTRjVnRUFTOHduWTFvZFJQVHQ4a3I2RDdxeGl4WkVmWXVha1R0RV9XNVhlX3BOSEhGMXQtUmI2Yzc1SWNEX2taTEtjeXNEcG93SnJrMlh2a3M?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Lula fará visita ao cacique Raoni durante viagem a Mato Grosso nesta quinta",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONngzLWVqVkhJR3drNzRtMlZ6NVF2aUJQOENyRDdjLVBCejU4RjZDQmpwNkR5T1NTeHREelJrR2xyZzNydkU5bTU5and1UVE2Z0hPeUhQX1hZODNiLWdnTUJCeE92TG9WckRET3dzT2VyOVN0SjJjRXJlWXh2Qi1CWFdqeWVnZE1uRkFrRWxEVjF6MzAxUF9JVERKaGliM2xnUzFXQnhPTFFsTVBNcHRYcE5kUWFPYWRlOWc1cUFB0gHMAUFVX3lxTE1uZUNZSC1jUTRla2h2RGhrUk9ndG5qdmNRV29aUE1KZ2Y3LW50Y0ttUm9PWmhUT0RHVV8wVEJORzZUQVo3eEFBWUhwMUd6Y0tycWpTTERDajVkN1NMNEJ1ajR0WGxNZk1WNVFUNElnbTRLNWkwc2ZTOGJGb2owdERWTmI2QVZCSUNjaGFocE9KbEZNUHI1SVMwcGs0dS1RNEI3RTFEcWNLV3Z6UDdtaDlkSExJNjRNemxRLS1Udkx4X0xfSGRhaEhjSkY3WQ?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Polícia prende 17 suspeitos de fraudar aplicativo de transporte na Grande Fortaleza",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZWdwOWxRUmJmMkI0SkdwTDRybElEY0NBOUVnNzB1NTFxRGZNSWRoUXJJdko0VjVheDdLQi1SNzN0bFM0YWZJeVlRLVU2dlRzWHM5OGVxZDRmUWRuLVFaTnNFZVd4LW9YNnVFaGNzUXd0bDducUlYTFNZcXhod080emo1N3hoMHVZYnhjdDlFQ01ZSFM1UlVJU2VyWDRUZDJ4dW0wd0N4OFhtZjZWaXFfN2lIVFF0Mm91X0dWQXlxdWFER25MWjNFWlB0WWROcUg5ZnBfZtIB4wFBVV95cUxPNFN6OF9GZGJCSFRWYXRDR1dMeDZnbzdNeE1DbzFUdUdlUDNudmxGOVlQMFpUQmYtUWJzZnBBZFhMQmZGOFAtU3NBMXRTcEdPZVZQT3l5a0I0bkprMUMzWDJBb0U4LWdBdmtNQkhJX0wyLTNKaXYzaTVNSTBvdERzdTRRSEhxeTZWVzNIRzNWT0t0SkdHQUM2TWFfRWl5am1MNE5jTy1xLVVIZS1xQm83UmY2T2xRT19VcmV1TU5MUzNZV1lmcWJPZk1fY3FJZ2RFRFEtNU1Md3BkRmNMRWlCVEdQdw?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "PSB e PDT formam nova federação partidária",
       "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOc0FiSU5RcDJERHRQWmRWbV9BdTlkRW5DYkl1TUZmTS1SZ1d2RzlkRmxKRVk2NDJUU1h2dUZ3LUJvbFo1OUtBVU1heXJjMFhNdUJJcWpyeGFMay05N2ZxWEMtWTZUVTJqbTdHSVpVOExHVjVZaDFKYmtrRGVoY2VjTnhud1pCVXlpNm5MZHNENThsaEgtTkxxY3RPUUhHRlhnLW5RTUprZ2tEaEY5Q1Y3Zll5OXc?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "13º salário: calculadora mostra quanto você vai receber, com descontos e novas regras do IR",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQeUE4WTNPQ3lxR3FIVVdXNTJIajNiRmRZMTladjlsRFctRmZ2cjhDamRxeWdPX1NmRFpxM0hsblZMaHNJQTJ4VXZmN0pMUm53YVcyclZrLTZlVHJXc2RCSVptS0RQajlkX29hTklLUDg4b0paa2ZUZXBrY3Nfb1hXNzdtN294eU53Tlh4ZDgyVEJmRkMwVHFfUm90b29YQWJhaXdZV2RpNlF6V3dGSjd6a2VyZWIzb0ViOFRfN0wyTGpqQlliMmp0Q2p6N3ZNS09ETXphaW5fSVlJbjFQcmlYWHlZZVVseUJVQ21R0gH6AUFVX3lxTFBBNWlBX2h6TUZPVzlhWEh2b3pTTDlCRU5TblFiZ2dhNUZjSnV2d0JjTWlfeHNNVXdvUVdMbnpFMGNJczZTR0tRN3NYX0lUQ0tXbVZOZHZYLWNmQVpNcWF6Z0xHOThlcWhVaHlSSDEyRkE5Q0RjR2pFaXhJLVJwdE5IVVRhM2Y3bEVZdl91dUFGZE05WHFicG1oZkItc3ZaMXRsdm5CcV8zU2xJelhUdlY2Z241bzVqUFJ6ZS1HbzEySm1aNTZCallYMzExb1JadjBhS29TQTlJR2ltSW9JTFIwc2NKRUlLN2M2V2JMVmJYMkVPQVVNMDlsZWc?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Senado faz acordo sobre Lei Kandir e aprova ajuste fiscal de Lula",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTmFJR05zQ3lObFk0UzNiTUJBRXFmMVJLMkhpeHBPVFg4ajdZcWxFRVdIN3U5eVdHZEV4QXhKN3RwQzQ4SkhjYkFiOXE3RGd3MXFXNFlLMU9VMU5iZDhIS241VXJnSHNJNmpqckl5cUtkdE9XSDhyWHB5YTlzYzJ1Zmp3NnZmZHdUVEFacjJCbndWS2Q5Y3dUdE8tMldCb2tZREpXWDVyMWZjS3hnSnJB?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Lula vai demarcar terra indígena onde cresceu o cacique Raoni entre Santa Cruz do Xingu e Vila Rica",
-      "fonte": "Olhar Alerta",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNam9LUlhacUVFRngyNWE5eTQ5UkxZNmxId1dtSG44U3BsU3dObFpVMEVjMHdzeUVnX2puMXVGY3VhMFE4bE4tU2pva2ItOVVxVmJYcEdoT3ZPb2VpOXRfbnFGaGxVTXJ3REJPNkhoXy1RZ2RxOEdvcm1mMVdTNXo3LTNfdU5EcEtGOUt6UEluOFNVRGlQQzFDX2ZPdlpGV2czaVNtMGZQX3N1czZwanhFUTBpdjZrX3c2OVpRN1J3SWtEZ2Q0SlhQSks1SDhTbFJxUnpVV0xwNjVxNUxX?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Confira o que abre e o que fecha no feriado da Consciência Negra em Salvador e região metropolitana",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdzFBOW9iWnlSYVJLc1JEYUVqUEZfaVdNc2M4RXRNNHNUZnpHMDM4bnI2Y1JreDVkYWhIb2xPakdXcmhaYUNWOVpsNUlzVm9kT3o3aG15Z1pvNVJzSjNyOXhhUll2S3pKM0ZrZ2NHX09BM0NuY2Nxb3RTYVZMVFZLd3lWUndJcjllOF84RGdtb21GVXBoVldwbkI3NDg2d2c0RE9jTU5kb294RVIxajVKMjNVd0ZGMlY5WE5j0gHKAUFVX3lxTE5Za01sazNXamg3Ulg0Y1ZlU2JFY0dJSi0xbUNuWkxNNGNDZy1SOG1BUXZxUkpJay1tY0J0T2Q2dVZNd1RTeGpadk1wOTFiV2J3VVk0bFY4cnpyaVEwYXJ1VzZXMlZKNWtLZUJ4SU5aUnFVakYxNGVXdjZBQVE0SVdKNDV5ejNLb0R6QmxqZFl1bUxXajRvUUo2WEpTcDZUWG5XLTREdU1JR01KbUZmNC14cGlfWDU1eTVIc3RiTEc4N3Nadnc4eDRFX1E?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeXZSOG0zck5iRnBYWWx3SDhxMGpoemNObDBodGNyN3dXdVU3WmZLSHRHLUJaU1QxOWZKSnhzMkFSdU5CVElfZkxINGRkQWFlUVFubXVsdVFiRWx6OGF6ZktQSm1wVEdWeDBVdHNhbGJrTmRma0NNSUluVHBINzdpbTBYajJqTEtNQk5TMnNEbE5ZX2JMRV9mc1l5TGtYeHNYWGFhcXU4dEJUQVllaDd4a05IRG03X2NpVmFCVA?oc=5"
     },
     {
       "cat": "politica",
@@ -347,15 +353,9 @@
     },
     {
       "cat": "politica",
-      "titulo": "Lançamento do Arquivo S volume 11 - 18/11/26",
-      "fonte": "Senado",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OSTZwLTNITkJfTU92Yy16TEhobzZDZzlkVWZSUDdHM2taeTZ2VWZMSGVBeURMX2JSWGQtWWg4cHdMcC1fOEVDc28ySm5qQVRQbUhwZm9R?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Governo assina hoje decreto que regulamenta fim da escala de trabalho 6x1",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQend0ZHl6Nmc4b1FTZ1dhRFRTemlocjBpZXFZYm1UVkJoVFRaWnBBeGE1NHhyTzdwWVN6cjRDdXFMMmhHS2F1RERRbUNjc0l3NlRKNERTSTczOVFzRklQTDJlMXlBYU1ET0hYLVV1TWFsYTJQWHN2UkRQMktieHJ2SHc5dHFRdzlKSmFCUVFXLVRKc2tNbWhNRWxVMEx3c1NmYnFTY2thUVhLU0p1WDlEaGdB?oc=5"
+      "titulo": "Rueda tenta emplacar líder do União Brasil em ministério",
+      "fonte": "SBT News",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSDRxcllFeVZ1b2ltM3dwelZtZmZSa3NUNUtlb1NEOXhlSjByY1kzbXVGZGlIejNyRVpfdFlRcW9EV19nZnZnbnpmZDNURFJlYy1pSXZQMDlNcnBPYlAtNUtld29vaFJWNU5YSjFFeExfcmdjZng5SUkxU3RDaGhTdmhIRFVodXdzdUI4dExEX3ljb3llTENnVlZoN3lKZTJxWGxTRmVkQ1dsazNS?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -365,9 +365,9 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "PGR denuncia Flávio Bolsonaro sob acusação de calúnia contra Lula em postagem sobre Maduro",
+      "titulo": "Lula gasta R$ 133 mi na eleição e Flávio, R$ 115 mi; marketing, redes sociais e viagens lideram despesas",
       "fonte": "Folha de S.Paulo",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQUkVXZmRnblh6OWlFZG9aLTJvcV9zOG9zNllvQ19aTlJoT2tPOENCanNLa2FqbTdITFZ0cDhYVjJROTFEcE5CamxYeXh5NGtVOEM2NGF1N0RaQTZOeGFCTGV3SEM0MlJkaVlsTXhRRmZEUWp6UWFHaHB0ZUQyd1FyNnk3akN5d1RxUXhSMHhSWFBUN0wyRU4xdGtKMlo0Qy1GZ2lGZGt1cEMyVHJPYmdTUjBwOHBJX296Y2N3NDFlQUhGcVI5VTVvV0psdlZqZjNpMUt0UDFVYw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQT0hnUnN3OGNUcE8wNUlSRWdpSDZObkhfRk1kSVU1RDdtN0xUbVQ3OXVhR0VnODdJdmpFbmR5SGViVGo5ZUhkd1ViZTJHLVRFM0F5VWNEWEZQNDJVMVUtbXA2YUVyTGlPNGFsbjltamxYNFRKNndEOVlwSHl5NnZHTzBfMWh3cHo3VDVVME8xdWJycHQtdUdwZlctUjNmQ0l6M1RXUXVuamtsSVZsbGpPeEp4RmdZeTRFLUc5WWF6Vm5MdVB4ZEZuS3kwVUVXZUlFQ3ZYOG55TklORXFza2JkT2ZCVQ?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -1536,14 +1536,13 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-19T10:16:34-03:00",
+    "atualizadoEm": "2026-11-19T18:40:22-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
       "BC ipca12",
       "BC ipcam",
       "BC igpm",
-      "BC poup",
       "BC desemp",
       "câmbio (Yahoo)",
       "Ibovespa",
@@ -1551,6 +1550,7 @@
       "12 notícias"
     ],
     "falhas": [
+      "BC poup: https://api.bcb.gov.br/dados/serie/bcdata.sgs.195/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
       "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
     ]
   }
