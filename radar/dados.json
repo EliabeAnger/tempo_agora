@@ -162,54 +162,54 @@
   },
   "mercado": {
     "ibov": {
-      "pontos": 167537.95,
-      "var": -1.34,
-      "anterior": 169816.64,
-      "minimo": 167537.95,
-      "maximo": 167537.95,
-      "hora": "19/11 00h33",
-      "ts": 1795059195449
+      "pontos": 167584.94,
+      "var": 0.03,
+      "anterior": 167537.95,
+      "minimo": 167549.55,
+      "maximo": 167584.94,
+      "hora": "19/11 10h16",
+      "ts": 1795094192045
     },
     "acoes": [
       {
         "ticker": "PETR4",
         "preco": 43.17,
-        "var": -1.84
+        "var": 0.0
       },
       {
         "ticker": "VALE3",
         "preco": 59.0,
-        "var": -2.22
+        "var": 0.0
       },
       {
         "ticker": "ITUB4",
         "preco": 40.19,
-        "var": -1.71
+        "var": 0.0
       },
       {
         "ticker": "BBDC4",
         "preco": 14.08,
-        "var": -2.29
+        "var": 0.0
       },
       {
         "ticker": "BBAS3",
         "preco": 14.12,
-        "var": -3.42
+        "var": 0.0
       },
       {
         "ticker": "WEGE3",
         "preco": 51.38,
-        "var": 0.45
+        "var": 0.0
       },
       {
         "ticker": "SUZB3",
         "preco": 55.6,
-        "var": 0.38
+        "var": 0.0
       },
       {
         "ticker": "B3SA3",
         "preco": 14.3,
-        "var": -2.39
+        "var": 0.0
       }
     ],
     "juros": [
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.8488,
-        "var": 0.0
+        "valor": 5.8913,
+        "var": 0.73
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.4206,
-        "var": 0.0
+        "valor": 6.4748,
+        "var": 0.84
       }
     ],
-    "acoesTs": 1795059195449,
-    "moedasTs": 1795059195449,
+    "acoesTs": 1795094192045,
+    "moedasTs": 1795094192045,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,57 +305,57 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "IPO da Anthropic: veja como investir na criadora do Claude por meio de BDRs no Brasil",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPd1A1T0xXSUVKNnlhZUsyQnJ5X0JabmRLeV9EZmVXODV0aWxkYkhOUGtWS3RYOWRyNE05VHFrQWktZkkxSFJ0Q0dxXzZjNURmbElnTVpwSzZIWG5tdkZleXlSdkVVYVVNUVR5QjZpZDdHLU5BNTJqd1MtTWw1OURqOXg5SmdkZ1laN0k4UEQwX2x5bVF5MWVyRXpaSXdYVENybkHSAbABQVVfeXFMTlJyekRnMHRZWS12RHI4aG1tRTdvclhxcUJtTV85YzAyemt6c1VCcUU2U2xmVjJ6b1RmaGFDV3pqQ3dMMlpJbW5YNGlJRHFqX1ZUSVlVU1pHQV9BbTB5WU5uN1NydHI2OXRMd3pNM1JPYWpPYzJWWTk1S2NZX0xEWlctaFlySXZCemdSeTNSNFp2eVVJM1J5LXowamtPazdpRmQyT0R1dnBWYnpzRWxpUHI?oc=5"
+      "titulo": "Com empresa ligada à Anthropic, ator Ashton Kutcher pode virar bilionário com IPO histórico",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQZVNZZ0YyTnRBcXh5bWFVVXJLRHdxRDhmUklOdkFUeGdFUGozNWRhVUFmWVdLR1FESG5MS3dYcWFvSWdaempMemlhWUM3UkVyODNiaThLSGhtejVVZU9WM0NaM184WnpyQURpSmdSbnV0WmRBVnFEMjg0Rmp4Tl95NWNESGhKR25qblJLVUhJd1VtZzFHSHRlMUVfY2d4M2hlS1I3U0h3VEViZjFxVTV1R1l4ZlpnNDJTdlNzX1B3MTRqYUtQbmRIQ0hjcGU0bzlkOXl3U256RkxKWkpLQUc0S1QzdlRhTVZ5X2UxcHpKZ2Nzd9IBgAJBVV95cUxOQXdhcEdWVXdlMlBvbTBjY1ZkUVBJd19QaHZMUUF4elRGRm1feEJuZVRrenJuRE9oTG5vY2J4WlMtV0h5S1hPRkx2YUQwNjZfM0dmZ251TUVHUnpLSUdELTRmNTV6bTVjNlRvbEJkbUlINDFSSnprNVhQZXZWY25La0xnTkwyUTN4OU5JU2VwME5wZHc3VUF3QWstMGR6TTQ5NlJBa2JFRW8tV2gtUllIX1dENmdzWkdpaVRJWk01TGZVNzdkNTItYVpZSTE5b3l6RzFwMUtNTjJHaWdVRGFoc20xVE10dnJTWmRreUROOWpNNE9Kb2hlb3pkN1A3b1I1?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Em vitória para governo Lula, Senado mantém dispositivo que preserva até R$ 18,3 bi do ajuste fiscal",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbEJqNW1WV2dQTEZvUVRtNF95VlZ3Sy1wbmRyQzZfMF9xdVN0RG8yZ1pXaVprWE1OMmhsbnhCZDNQYlQ2Qnl1UW1fdlR2WDFNbWMyX0VYdXB5ZWNHTkppdVltSnlQY0FSeklPMnZJazJ4NkphUVdla2M0Z0tKSHhEbUNDN05nLTRVQTlr0gGQAUFVX3lxTFBTLWF3aUpSVktiRFlneGpRcEo2eU1FclloRVpINXpjSHBLQXd5clN2ZWlmcmZFMEtmODlqUGpFeDJpR2d0c0tMZ3FCU2xVdFZ4UmdJSm9tc1JqUTE0X2JObkhsLVRZczJ3a1dqSV9ZdTdoUWZHQ2M2R1dTTTdVU09maFFjVkRnZUJvTjhzVnc3WA?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Caso Master: impacto financeiro estimado é de R$ 76,1 bi após 1 ano",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcllZbnRYeTVtYkJUYWZDakFRT3ZJb3VfOFQ2Z3oweUx1b3I0LVA4M3QxUWpUWUxCSGlsTl9MRmFYbWxZbXFGQjVFQzd6ZnVMbjlpVVgxejFYbUR3S0dMLTlWcVBiMWotMmxZeWxNUlpHaVpqMUFUMDl5NzZFUXZvS2pOTFVhQS1qVm5nb3pVcG0yM294Y0czdzN0bGJPeFhuQjdWeGp2X3BmemU2?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Ajuste fiscal: Senado faz acordo sobre mudança na Lei Kandir, rejeita outras alterações e conclui votação do projeto",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOOEJxZWdKZjBZZVBzWDJadG9SclZ1aHpyWmJiWHRJbDZCVlI3THplUDU2U3U3Ml9pNWhiaUwycjBfS0xyY2FNa3E1QlgtYVlQMTFRM3AtOC1EWHJUY2daLXZtN0JibXJvLXdETkx2eS1wTHl5TGsyU3Z4anRKMVlnSUJNSDYtQm14bjU1MXJfeUZTbW5qUlFIYktDTlhnTkxCaDJGSEszbWJEODVXTGYxWWRXam11WWNDMlM3cVpkOWd2NW96NVpnak5OQWlHUEd6RlpsUUlB0gHkAUFVX3lxTFAxdkN3WDdCNWpwdXhzb3JiQUF2cnJaTXhid096VzBidmpuN1BGZDVaM2g4Yms5dDd0N3AyT2Yyc0NiUTctWFV5VzFkTmdZOF9kMUZ4Q3YzU2lKX2dpT3QxSTc1bWh0SnM0ZzlVX28zWVlMVThJQTVTOVhiUC15NFJMNW1PRnRtTVZJS0pDcTV1R1FXRXM1LWlvQ0JrYW53V0pSbU9JWmczdTNwc0NCZGZjN2hWdmRHbEhzWEM0cEVBWjlkdEVuMHIxM2Fvb3hYQ0M5X2pUWmZUR2VoLWJEVFBDZGh4cw?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "“Loucura”, diz Valdemar sobre Nikolas na presidência da Câmara",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPc0U3bV82RW15eElfMVJyaFFyd1dLTGVqanlZcjFDamd6NGdTc19iMzBuNmNlMUR6S3BfSGw2WFQ4cm5BdS1GQUdqcEktZ2tfQ3RkYzQ5alNDU1RPM0hQR2psaklxekZPVWlQOHE2SW1HMkk1QnVvOUxmYzJ1VkIwMUdKc3V2eDc2MlZLU19YSXlQZElrbVpYczZZc0VvdkVxOEtB?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "TSE: ministro pede vista e adia julgamento sobre cassação da chapa do PL-CE pela terceira vez",
-      "fonte": "O POVO",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPQktFNDVIaGZOOUQ3RGdZcERTSnIzRFpPUmpJcEJNMHpRZV9RdkNMR3BlMUhHcjAxdkd2OFU2U3M3SDVKcHFSTEtyZS1FZmYxU0FUZnVkSTJLcjB2ckhxZlFia215TThKRXZKZ0Q3cWFZbXNXbkJiUHl6M2JaRm5yRklXRm1DN0x3UEg3ODVKVHJjMXNvczc5anZCZ2x2RlhjSU5TNFdlbXFhTUs2RVZGYmhwNHlJN1o1TnBEYmMtNmkzNHBqUXNtMVRCUEdhMDgzdDhVMVhackpZS0l6N2JRRlEtaEJDUQ?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Senado rejeita mudanças no texto e aprova ajuste fiscal do governo",
+      "titulo": "Mega-Sena sorteia prêmio de R$ 40 milhões nesta quinta-feira",
       "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSjgxdk42TEltaWQzSUVNcG1jUDlWRDRseWpESVZqaU91ZXZEZXJSMV9GY3FzcWRmMV9IcXJrTjUxUkEzRFVOSkZlOGJDb0RMM3hVMUQzT29jUHpORERWd3N3TWtTMlVmZFQzR3IwZmdzSkgwM1FZaXotMXRxR3pUNm8yOXhCTDVqNWVMYk1aVm1JVXZjcmwxZ3dZNUg3Y0JqMERGMFBwbTAyaFJ2a3VMTlRqY0pGQktxVHU4RmZRUDBrdw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOc0FiSU5RcDJERHRQWmRWbV9BdTlkRW5DYkl1TUZmTS1SZ1d2RzlkRmxKRVk2NDJUU1h2dUZ3LUJvbFo1OUtBVU1heXJjMFhNdUJJcWpyeGFMay05N2ZxWEMtWTZUVTJqbTdHSVpVOExHVjVZaDFKYmtrRGVoY2VjTnhud1pCVXlpNm5MZHNENThsaEgtTkxxY3RPUUhHRlhnLW5RTUprZ2tEaEY5Q1Y3Zll5OXc?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "13º salário: calculadora mostra quanto você vai receber, com descontos e novas regras do IR",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQeUE4WTNPQ3lxR3FIVVdXNTJIajNiRmRZMTladjlsRFctRmZ2cjhDamRxeWdPX1NmRFpxM0hsblZMaHNJQTJ4VXZmN0pMUm53YVcyclZrLTZlVHJXc2RCSVptS0RQajlkX29hTklLUDg4b0paa2ZUZXBrY3Nfb1hXNzdtN294eU53Tlh4ZDgyVEJmRkMwVHFfUm90b29YQWJhaXdZV2RpNlF6V3dGSjd6a2VyZWIzb0ViOFRfN0wyTGpqQlliMmp0Q2p6N3ZNS09ETXphaW5fSVlJbjFQcmlYWHlZZVVseUJVQ21R0gH6AUFVX3lxTFBBNWlBX2h6TUZPVzlhWEh2b3pTTDlCRU5TblFiZ2dhNUZjSnV2d0JjTWlfeHNNVXdvUVdMbnpFMGNJczZTR0tRN3NYX0lUQ0tXbVZOZHZYLWNmQVpNcWF6Z0xHOThlcWhVaHlSSDEyRkE5Q0RjR2pFaXhJLVJwdE5IVVRhM2Y3bEVZdl91dUFGZE05WHFicG1oZkItc3ZaMXRsdm5CcV8zU2xJelhUdlY2Z241bzVqUFJ6ZS1HbzEySm1aNTZCallYMzExb1JadjBhS29TQTlJR2ltSW9JTFIwc2NKRUlLN2M2V2JMVmJYMkVPQVVNMDlsZWc?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Senado faz acordo sobre Lei Kandir e aprova ajuste fiscal de Lula",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTmFJR05zQ3lObFk0UzNiTUJBRXFmMVJLMkhpeHBPVFg4ajdZcWxFRVdIN3U5eVdHZEV4QXhKN3RwQzQ4SkhjYkFiOXE3RGd3MXFXNFlLMU9VMU5iZDhIS241VXJnSHNJNmpqckl5cUtkdE9XSDhyWHB5YTlzYzJ1Zmp3NnZmZHdUVEFacjJCbndWS2Q5Y3dUdE8tMldCb2tZREpXWDVyMWZjS3hnSnJB?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Lula vai demarcar terra indígena onde cresceu o cacique Raoni entre Santa Cruz do Xingu e Vila Rica",
+      "fonte": "Olhar Alerta",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNam9LUlhacUVFRngyNWE5eTQ5UkxZNmxId1dtSG44U3BsU3dObFpVMEVjMHdzeUVnX2puMXVGY3VhMFE4bE4tU2pva2ItOVVxVmJYcEdoT3ZPb2VpOXRfbnFGaGxVTXJ3REJPNkhoXy1RZ2RxOEdvcm1mMVdTNXo3LTNfdU5EcEtGOUt6UEluOFNVRGlQQzFDX2ZPdlpGV2czaVNtMGZQX3N1czZwanhFUTBpdjZrX3c2OVpRN1J3SWtEZ2Q0SlhQSks1SDhTbFJxUnpVV0xwNjVxNUxX?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Confira o que abre e o que fecha no feriado da Consciência Negra em Salvador e região metropolitana",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdzFBOW9iWnlSYVJLc1JEYUVqUEZfaVdNc2M4RXRNNHNUZnpHMDM4bnI2Y1JreDVkYWhIb2xPakdXcmhaYUNWOVpsNUlzVm9kT3o3aG15Z1pvNVJzSjNyOXhhUll2S3pKM0ZrZ2NHX09BM0NuY2Nxb3RTYVZMVFZLd3lWUndJcjllOF84RGdtb21GVXBoVldwbkI3NDg2d2c0RE9jTU5kb294RVIxajVKMjNVd0ZGMlY5WE5j0gHKAUFVX3lxTE5Za01sazNXamg3Ulg0Y1ZlU2JFY0dJSi0xbUNuWkxNNGNDZy1SOG1BUXZxUkpJay1tY0J0T2Q2dVZNd1RTeGpadk1wOTFiV2J3VVk0bFY4cnpyaVEwYXJ1VzZXMlZKNWtLZUJ4SU5aUnFVakYxNGVXdjZBQVE0SVdKNDV5ejNLb0R6QmxqZFl1bUxXajRvUUo2WEpTcDZUWG5XLTREdU1JR01KbUZmNC14cGlfWDU1eTVIc3RiTEc4N3Nadnc4eDRFX1E?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Análise: Brasília vive dia de tempestade perfeita",
+      "titulo": "Viva Maria: pesquisa identifica violência política de gênero",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZ0lhVFJrWkduVVhGWjRzTl8xSEc5Ql9DNTFadUUtSlE5MG1JZ2VvanAydnNfb1NSTDBxMWNselZJVEhUN0F4WXQyVmtHY3FINnRWenNLRlJTTzhjdTdTWC1wdXotLU8xU2xPM3VhRVV3bXBrQmZSU1c3bXNDRVgzSDNXMHBYZkFSTVhWZlBackt6cVI5cFVzZVIwYVFJcnQ5MkJwWGpxb0F6LUI4ZVA1NktLaU5pcUtHYWtjRFU5c3d0c2NxZ0txLVJOb0hXS3I4QXU0?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Lançamento do Arquivo S volume 11 - 18/11/26",
+      "fonte": "Senado",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OSTZwLTNITkJfTU92Yy16TEhobzZDZzlkVWZSUDdHM2taeTZ2VWZMSGVBeURMX2JSWGQtWWg4cHdMcC1fOEVDc28ySm5qQVRQbUhwZm9R?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Governo assina hoje decreto que regulamenta fim da escala de trabalho 6x1",
       "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZlhQRW0tSndUYVBvcS1zTVJJLXlBMGxpMWstaENDQXdrWGhLUF9SbFZkVm5oSzd1dXUxQ3dxWjRDXy1TdEVWSldzal94RDU3VV9XMXNjbVJBZ005ZmlzMTg4bzYxTG95ZDNGZW83eXdSa1dMT3RUNTFpVXRsR3NiczNtOEZtMXRJQjl0QmxBeU1RQkxqVk5wTm41RVRGSzRKcllUbk94Z2hzZjg?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Lula assume o quarto mandato diante do Congresso mais conservador da história recente",
-      "fonte": "Sinpro-DF",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUHR4bkhDWXdtTTlmQ0dpYXNFMWFaYXFjdFlvYzJDVmw2Q0tHc29BZWZQYkJpQzlUbHE1NmRqMXFjNGwzeDE2akJ1N3dOR2EwdUhSakFYYmtEdFFMMjZpNHp0SE5HSV9sWU1Dd1Z5bThzSVlNZ2ZEQlItc0RqSnJOb0lBLUp2d1A5NFprWEcxWW95VXVUZ1puOVJlOHZ1cHZjU3Y0ajZCVGxEcFBpLUpHNnFEcW0?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQend0ZHl6Nmc4b1FTZ1dhRFRTemlocjBpZXFZYm1UVkJoVFRaWnBBeGE1NHhyTzdwWVN6cjRDdXFMMmhHS2F1RERRbUNjc0l3NlRKNERTSTczOVFzRklQTDJlMXlBYU1ET0hYLVV1TWFsYTJQWHN2UkRQMktieHJ2SHc5dHFRdzlKSmFCUVFXLVRKc2tNbWhNRWxVMEx3c1NmYnFTY2thUVhLU0p1WDlEaGdB?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -368,6 +368,12 @@
       "titulo": "PGR denuncia Flávio Bolsonaro sob acusação de calúnia contra Lula em postagem sobre Maduro",
       "fonte": "Folha de S.Paulo",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQUkVXZmRnblh6OWlFZG9aLTJvcV9zOG9zNllvQ19aTlJoT2tPOENCanNLa2FqbTdITFZ0cDhYVjJROTFEcE5CamxYeXh5NGtVOEM2NGF1N0RaQTZOeGFCTGV3SEM0MlJkaVlsTXhRRmZEUWp6UWFHaHB0ZUQyd1FyNnk3akN5d1RxUXhSMHhSWFBUN0wyRU4xdGtKMlo0Qy1GZ2lGZGt1cEMyVHJPYmdTUjBwOHBJX296Y2N3NDFlQUhGcVI5VTVvV0psdlZqZjNpMUt0UDFVYw?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "PGR denuncia Flávio Bolsonaro ao STF por calúnia contra Lula em postagem",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNT2s1b3o4aDJqV2pzdDVLRFVRQ1MzZUlqdWhXbnZUU040ZERmOEgxMXBhZjVTaDZoSXJIU1hldG1DUXNzQUhSa3NYZmhXd2g2NWFoTmE3NmI2OC1TWjFBT3AzX1h1THdFZktPSVJoeWZmTWJhWmoyZkFScnFCTlRDTUlzb3V5X1F4cTZVV0tsMXlXc0VHZFlGSzcxenltcjFDRGo0UFVUOFBLU3U3ZkHSAbMBQVVfeXFMUFpVN1ZEZFk2ZXBOd0NfT1d0c05PT1BQRm43SUFkLXJyUHZsVDQ5TFZtUVlRQkRTTC1CZjBUSFpScC1ISEdBVzhhRWstV3Vvd2x3ZXVPRVVpQVZDVjI4bl9uWU42VHdrMUhNdmFnTmkwdGl4SVEySjZqYnBHRktTYk9GN0l2ZVJZU3gybjZIaThqbWlqZjlGM3Q3ZllmRUgtZndTdUw5VmRuUVpQcTRlTVpMUWc?oc=5"
     }
   ],
   "indicadores": {
@@ -380,7 +386,7 @@
       },
       "cdi": {
         "valor": 13.65,
-        "data": "17/11/2026",
+        "data": "18/11/2026",
         "fonte": "Banco Central"
       },
       "ipca12": {
@@ -400,7 +406,7 @@
       },
       "poup": {
         "valor": 0.6701,
-        "data": "17/11/2026",
+        "data": "18/11/2026",
         "fonte": "Banco Central"
       },
       "desemp": {
@@ -1530,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-19T00:33:18-03:00",
+    "atualizadoEm": "2026-11-19T10:16:34-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
@@ -1542,7 +1548,7 @@
       "câmbio (Yahoo)",
       "Ibovespa",
       "8 de 8 ações",
-      "11 notícias"
+      "12 notícias"
     ],
     "falhas": [
       "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
