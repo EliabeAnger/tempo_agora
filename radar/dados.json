@@ -165,10 +165,10 @@
       "pontos": 167537.95,
       "var": -1.34,
       "anterior": 169816.64,
-      "minimo": 167099.05,
-      "maximo": 170259.69,
-      "hora": "18/11 18h59",
-      "ts": 1795039192241
+      "minimo": 167537.95,
+      "maximo": 167537.95,
+      "hora": "19/11 00h33",
+      "ts": 1795059195449
     },
     "acoes": [
       {
@@ -244,17 +244,17 @@
         "sigla": "USD",
         "nome": "Dólar Americano",
         "valor": 5.8488,
-        "var": 1.44
+        "var": 0.0
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
         "valor": 6.4206,
-        "var": 1.14
+        "var": 0.0
       }
     ],
-    "acoesTs": 1795039192241,
-    "moedasTs": 1795039192241,
+    "acoesTs": 1795059195449,
+    "moedasTs": 1795059195449,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,39 +305,45 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Dólar fecha em alta de 1,45%, a R$ 5,87, com fiscal no radar; Ibovespa cai",
-      "fonte": "UOL Economia",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMThSYjhEN0R5QUFpWERMY2YxUWhkSWtVVGRHcDFTQUoyY0VaYnRFdjFrZ0Y5Rnlkb3pnbEtKX3JFXzlVbktBRVRnc2tPdEY3Z1VJRlZCa2VpNlJfUVlnc1dJQTdhbUZpUkd5Rm1xdlFLX0pqTEF5OVI2bGw1NW1uQTVZSGN3VVNiSkxJSkpWOXlmWlZMMEVkVnFwRDBEZjV4VEFOMW1vVnhRU3owQk80SUR5SWdPZTRoT0E?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Dólar sobe e supera R$ 5,86; Ibovespa recua mais de 1% em dia de votação de ajuste fiscal no Senado",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNT3hzSDZ5Q1NiSXVXalV0N0pxWDZISEwwbjIybFpUTlhWMmZfdlRZMWNONjdiMHB3RTU3QUU4RDdXSzhIaXVXMkFBVkV0NzAzQTJWejFBNXo2eGF0Q1FkRFh1SUMtdHVnOEl1eU5ZS2FjX2JOaDdlZlJvTVFIV1JVc2lfaGNKR2QzSFh1YTZOdlV5bHhEWUpxVThvX0RvSHMyLWliYWJDRmM3ODg2VkpjdWJxNU5Md3BDUDlKdkpMUkc2NV9KdV9tOFlqT2lwdW1HdFdtS2hwX2VWUXlCc0xjM05qUdIB6AFBVV95cUxQbGVCNEtZM0xvOUpROE8yWUUzMGZLdldYUXlCbm5EZzdFWEdpOExXNEJ4WkszRnJ4aXhTMG5kMnFiMmE0VGowNERDanJYYzR3YnRiTWtHYUlZVFRhVzF0b2ZrWk91UkJPa3UzUjhqLWJ1d0I1TXhBSGhLMGpKZG13Qy1lWklDamowUVpxNEFfbTJjYjc1cDhLQVJLZk1WRFhnMzcxdTU4Z25ScldOQXhkb2NkWU9xdndlNnRzd0dyaDZpMHRiOFFXeVJicXQ3VjBjblg3Sjl4MXFUSkJMNTZwX2tkVVFsN3JK?oc=5"
-    },
-    {
-      "cat": "economia",
       "titulo": "IPO da Anthropic: veja como investir na criadora do Claude por meio de BDRs no Brasil",
       "fonte": "G1",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPd1A1T0xXSUVKNnlhZUsyQnJ5X0JabmRLeV9EZmVXODV0aWxkYkhOUGtWS3RYOWRyNE05VHFrQWktZkkxSFJ0Q0dxXzZjNURmbElnTVpwSzZIWG5tdkZleXlSdkVVYVVNUVR5QjZpZDdHLU5BNTJqd1MtTWw1OURqOXg5SmdkZ1laN0k4UEQwX2x5bVF5MWVyRXpaSXdYVENybkHSAbABQVVfeXFMTlJyekRnMHRZWS12RHI4aG1tRTdvclhxcUJtTV85YzAyemt6c1VCcUU2U2xmVjJ6b1RmaGFDV3pqQ3dMMlpJbW5YNGlJRHFqX1ZUSVlVU1pHQV9BbTB5WU5uN1NydHI2OXRMd3pNM1JPYWpPYzJWWTk1S2NZX0xEWlctaFlySXZCemdSeTNSNFp2eVVJM1J5LXowamtPazdpRmQyT0R1dnBWYnpzRWxpUHI?oc=5"
     },
     {
-      "cat": "brasil",
-      "titulo": "Darwin Filho: saiba quem é o dono da Esportes da Sorte, investigado em operação da PF que bloqueou mais de R$ 2,3 bilhões de quadrilha",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQd29FdVRuQ1dfclk5a3cxcUJDLTNGWTNJaEtWR1JodmxKY2pGNlNKZERxRkd2VVItZWZzUWl5TERQYTFwdlJEV1lUU0VTVnZRV2FsdFMxNllKb2NWTkpWZjFESVZEclhxQkxrei1FRTdmbWZOakxPRDdxaGM0WllLaHAyNEJRTjViY3hFM2VzNW9JVDdrM2JWOHdtYklUbFB0NmtCaUdkYjl3MldQdVp0RktXc2JFSm94T05DY3lCWHNWMS00VWNxNzdKVUlhZHBUalo4Y193eTVrQzZLTHFST1ktbEhNcnF6a0s5QTMxa0d6aGdZdHZpSUpxLVFEakN4NmNSS0NtX2FIeUV2Qmdj0gGeAkFVX3lxTE1TWWMzMUN6aC1QRG1qdG1wN0RPWWxocWszQzh2ekJOZE5pNUJfLVk1eXRLTDZZVjRUSmw1dWlTSHhqWDliaDVNZ3pTRm1MN21GU3pGNXpuOHhFWGQxb3FsdkdCZy1vREE4WmRlbGpwLXVYMmJiUFZzWVFpZFpEbEVvZml2b0ZZNVVsbXRZU0FNbkdNZ2piNkNTdmxHTUV0Q2MwZGRiSmluOWpWVGVFdU4zRHFERkFfbGwtYU9iaHNYTmIyclBZdVZMdXB1YjVHQjZuMU9hcGEtX1laaG5mamN3bUtqempaSTV1QTlrTG5SS0czZ3lwd3labERicm1FeDBiWmtZQ2ZkcEpZRGJSY1owamp2Y3lfUjBOZkZUcEE?oc=5"
+      "cat": "economia",
+      "titulo": "Em vitória para governo Lula, Senado mantém dispositivo que preserva até R$ 18,3 bi do ajuste fiscal",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbEJqNW1WV2dQTEZvUVRtNF95VlZ3Sy1wbmRyQzZfMF9xdVN0RG8yZ1pXaVprWE1OMmhsbnhCZDNQYlQ2Qnl1UW1fdlR2WDFNbWMyX0VYdXB5ZWNHTkppdVltSnlQY0FSeklPMnZJazJ4NkphUVdla2M0Z0tKSHhEbUNDN05nLTRVQTlr0gGQAUFVX3lxTFBTLWF3aUpSVktiRFlneGpRcEo2eU1FclloRVpINXpjSHBLQXd5clN2ZWlmcmZFMEtmODlqUGpFeDJpR2d0c0tMZ3FCU2xVdFZ4UmdJSm9tc1JqUTE0X2JObkhsLVRZczJ3a1dqSV9ZdTdoUWZHQ2M2R1dTTTdVU09maFFjVkRnZUJvTjhzVnc3WA?oc=5"
     },
     {
-      "cat": "brasil",
-      "titulo": "Justiça atende Nikolas e suspende pregão para iPhones do Senado",
+      "cat": "economia",
+      "titulo": "Caso Master: impacto financeiro estimado é de R$ 76,1 bi após 1 ano",
       "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaktTSF9hY0NsQmF6Ukt1VXBGY2VLY3hoTHhuYS1TUHdGSmh3OXVEcm5xOHRtU1VUSVdWa083VDFJT3RQbFlRRzR6WEVvc0d1TWQ0cjZqZDkxN0hzTXRmd28yQXBQZXY3TXQ2WFpIcVNNYUI1WWpBZ0lXOTNQTGJGU29oSzE1UHBYd0l1cldZRlNyU2dJVzE2cl9TejlWT3Ryc0drX0FmZ2tIZWZL?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcllZbnRYeTVtYkJUYWZDakFRT3ZJb3VfOFQ2Z3oweUx1b3I0LVA4M3QxUWpUWUxCSGlsTl9MRmFYbWxZbXFGQjVFQzd6ZnVMbjlpVVgxejFYbUR3S0dMLTlWcVBiMWotMmxZeWxNUlpHaVpqMUFUMDl5NzZFUXZvS2pOTFVhQS1qVm5nb3pVcG0yM294Y0czdzN0bGJPeFhuQjdWeGp2X3BmemU2?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "STF inaugura símbolo da Justiça na tradição iorubá",
+      "titulo": "Ajuste fiscal: Senado faz acordo sobre mudança na Lei Kandir, rejeita outras alterações e conclui votação do projeto",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOOEJxZWdKZjBZZVBzWDJadG9SclZ1aHpyWmJiWHRJbDZCVlI3THplUDU2U3U3Ml9pNWhiaUwycjBfS0xyY2FNa3E1QlgtYVlQMTFRM3AtOC1EWHJUY2daLXZtN0JibXJvLXdETkx2eS1wTHl5TGsyU3Z4anRKMVlnSUJNSDYtQm14bjU1MXJfeUZTbW5qUlFIYktDTlhnTkxCaDJGSEszbWJEODVXTGYxWWRXam11WWNDMlM3cVpkOWd2NW96NVpnak5OQWlHUEd6RlpsUUlB0gHkAUFVX3lxTFAxdkN3WDdCNWpwdXhzb3JiQUF2cnJaTXhid096VzBidmpuN1BGZDVaM2g4Yms5dDd0N3AyT2Yyc0NiUTctWFV5VzFkTmdZOF9kMUZ4Q3YzU2lKX2dpT3QxSTc1bWh0SnM0ZzlVX28zWVlMVThJQTVTOVhiUC15NFJMNW1PRnRtTVZJS0pDcTV1R1FXRXM1LWlvQ0JrYW53V0pSbU9JWmczdTNwc0NCZGZjN2hWdmRHbEhzWEM0cEVBWjlkdEVuMHIxM2Fvb3hYQ0M5X2pUWmZUR2VoLWJEVFBDZGh4cw?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "“Loucura”, diz Valdemar sobre Nikolas na presidência da Câmara",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPc0U3bV82RW15eElfMVJyaFFyd1dLTGVqanlZcjFDamd6NGdTc19iMzBuNmNlMUR6S3BfSGw2WFQ4cm5BdS1GQUdqcEktZ2tfQ3RkYzQ5alNDU1RPM0hQR2psaklxekZPVWlQOHE2SW1HMkk1QnVvOUxmYzJ1VkIwMUdKc3V2eDc2MlZLU19YSXlQZElrbVpYczZZc0VvdkVxOEtB?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "TSE: ministro pede vista e adia julgamento sobre cassação da chapa do PL-CE pela terceira vez",
+      "fonte": "O POVO",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPQktFNDVIaGZOOUQ3RGdZcERTSnIzRFpPUmpJcEJNMHpRZV9RdkNMR3BlMUhHcjAxdkd2OFU2U3M3SDVKcHFSTEtyZS1FZmYxU0FUZnVkSTJLcjB2ckhxZlFia215TThKRXZKZ0Q3cWFZbXNXbkJiUHl6M2JaRm5yRklXRm1DN0x3UEg3ODVKVHJjMXNvczc5anZCZ2x2RlhjSU5TNFdlbXFhTUs2RVZGYmhwNHlJN1o1TnBEYmMtNmkzNHBqUXNtMVRCUEdhMDgzdDhVMVhackpZS0l6N2JRRlEtaEJDUQ?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Senado rejeita mudanças no texto e aprova ajuste fiscal do governo",
       "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdFo5ZmJwTEpaZnQ3a3h4S0dkZUJyNVFydWY3eVBUYVE0aFlnaTk4TVFFOGFLTWNNUzlkeGVqNWZRYndJRVl0YVM1Tlh1cE1aZTJScjN4TW92TE5INS02WEVoSkY5YXhSMzl4NkJ5a0FEN0xHNzdha3VFbTBKSm80eWZKREphczU1R3dmdHRVOG9EOHZVWGlkY1RZMnVxUjREdjVVYUhBbHFqb2s?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSjgxdk42TEltaWQzSUVNcG1jUDlWRDRseWpESVZqaU91ZXZEZXJSMV9GY3FzcWRmMV9IcXJrTjUxUkEzRFVOSkZlOGJDb0RMM3hVMUQzT29jUHpORERWd3N3TWtTMlVmZFQzR3IwZmdzSkgwM1FZaXotMXRxR3pUNm8yOXhCTDVqNWVMYk1aVm1JVXZjcmwxZ3dZNUg3Y0JqMERGMFBwbTAyaFJ2a3VMTlRqY0pGQktxVHU4RmZRUDBrdw?oc=5"
     },
     {
       "cat": "politica",
@@ -352,28 +358,16 @@
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUHR4bkhDWXdtTTlmQ0dpYXNFMWFaYXFjdFlvYzJDVmw2Q0tHc29BZWZQYkJpQzlUbHE1NmRqMXFjNGwzeDE2akJ1N3dOR2EwdUhSakFYYmtEdFFMMjZpNHp0SE5HSV9sWU1Dd1Z5bThzSVlNZ2ZEQlItc0RqSnJOb0lBLUp2d1A5NFprWEcxWW95VXVUZ1puOVJlOHZ1cHZjU3Y0ajZCVGxEcFBpLUpHNnFEcW0?oc=5"
     },
     {
-      "cat": "politica",
-      "titulo": "PSB e PDT oficializam federação para ampliar força política no Congresso",
-      "fonte": "Rádio Metrópole",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORmdHTWR3VDVteHg5NDJBQktjVWJhSWJQVXB5N3EwZ1NDanVXbmh4YmJXWk1FRmJpVjQxcjFhTmdYUkJ0bXliNEpDenBZeGhmRVZaRmpmd1RXUDRJcHpyYVQ4UGRFaThCTk9paU9pbVBJLTh3Z2R0MVZ1MGgtNGUwRGl3UmhHWklBRFhGRG01VXRTRzFUS21taU03ZDdfNVZBZTE4WjVhUGtvV2g5YmRXSDRPNUJCd19HSTRBLVZuWUQ?oc=5"
-    },
-    {
       "cat": "eleicoes",
-      "titulo": "Campanha de Lula atingiu limite de gastos; gastos de Flávio Bolsonaro ficaram R$ 18,6 milhões abaixo do teto",
+      "titulo": "PGR denuncia Flávio Bolsonaro por calúnia contra Lula",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPLXpOWW1PVUVFTDlRREJfampPU2RpSS1vM0pJYW8tckNuYTFmajlyZlNjbC1PbkFtRDRyS3ljREhEOUwxZGJMVVhTQWVXNm1NMkl4Zl9YbldwSko1T1lWYXU0VGR4dnhjVkN5RFB0VGhueG4xUFdpX2FHaG0xQjhHOHJwYzNuS2g4M3Q0SF9kUzJJbHRqZlo5UGVxVHZzQdIBrAFBVV95cUxPd2JJdmY5a0w5di1TVUp0S3ZfcVpiaHc5bzVrUHRQQ1JnVzViSnV1M0wxZ2ctZlduTnk2TTVnV0kxX2lJMXFsYVg1bldTX2dfZWFfN0hFRi1Bdk5tX0JhOU1oQUlVZ3VOaWdLblA0eWhOeVp5a0N2VUZlWlZMTnVWcDJRajhNUl8wVFk4S0ZmSzl1U1VMeGpmQl94c3pfVXM4OXZQZk4tUTRQMGVm?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdW85UWVoeUhYNG1rbUktcVJLM0xoYUJDSGZiaUdkOFo1bko4Si1jWnMxUTBpVjdnYkZYVzBoNkdvS1FnSGlZRHRmOGtjcl8wVVJ3dHdOa2xiejZndFZ0N1Yxc1dfWllxNFVXVy05akplNm1uU2pMTlZOeUI3c2NwM2NCVWZWdENYaU45UnRLN0pQekZFUURxTF9RMkpkbFdPVUlnSDQzUDcwMUFo0gG7AUFVX3lxTFBrejdTTFFsempnLWdlU1FobzRwV0xBLUhSSGs4aVRqUlUxNWEtMUFzMHNWTHNsTUNXSXF4NjlQcE5BN25tYkowckVSLXNwdUFLZmJmT19oRUI0RGx5QUlteEVkb1RGb21uYUlISXZra215TDdXVUtZSDZFS3FTSC1YaEprT2J2YmdraUFoR2RtVTNsemNabGwxSnVXQnJybkdiSFNGRnZiVkwzaGFTenJGUm9jVk05czRzWmc?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "Lula 4 e os 4 cavaleiros do apocalipse",
-      "fonte": "| Instituto Socioambiental",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdTdjYTl6ZlAzd2E3SUFZeWtjUWtvUUJXZ2xnR3pzZFFtTDQzNTNCUzRyMnNrSkROdEZ6dFpOcFRWSWZrUk45T2ZuajQ2alR0dW5VTGVaUDBVdUFrc3oyaEptV3VtQ3ZtRllnZFQ0eWg2OWxJRmxkdzA0bXdzVlY1N1lBUExEQ3Bwd2UtTk9ESldPV2dCbWRtNzd3?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Lula gasta R$ 133 mi na eleição e Flávio, R$ 115 mi; marketing, redes sociais e viagens lideram despesas",
+      "titulo": "PGR denuncia Flávio Bolsonaro sob acusação de calúnia contra Lula em postagem sobre Maduro",
       "fonte": "Folha de S.Paulo",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQT0hnUnN3OGNUcE8wNUlSRWdpSDZObkhfRk1kSVU1RDdtN0xUbVQ3OXVhR0VnODdJdmpFbmR5SGViVGo5ZUhkd1ViZTJHLVRFM0F5VWNEWEZQNDJVMVUtbXA2YUVyTGlPNGFsbjltamxYNFRKNndEOVlwSHl5NnZHTzBfMWh3cHo3VDVVME8xdWJycHQtdUdwZlctUjNmQ0l6M1RXUXVuamtsSVZsbGpPeEp4RmdZeTRFLUc5WWF6Vm5MdVB4ZEZuS3kwVUVXZUlFQ3ZYOG55TklORXFza2JkT2ZCVQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQUkVXZmRnblh6OWlFZG9aLTJvcV9zOG9zNllvQ19aTlJoT2tPOENCanNLa2FqbTdITFZ0cDhYVjJROTFEcE5CamxYeXh5NGtVOEM2NGF1N0RaQTZOeGFCTGV3SEM0MlJkaVlsTXhRRmZEUWp6UWFHaHB0ZUQyd1FyNnk3akN5d1RxUXhSMHhSWFBUN0wyRU4xdGtKMlo0Qy1GZ2lGZGt1cEMyVHJPYmdTUjBwOHBJX296Y2N3NDFlQUhGcVI5VTVvV0psdlZqZjNpMUt0UDFVYw?oc=5"
     }
   ],
   "indicadores": {
@@ -405,8 +399,8 @@
         "fonte": "Banco Central"
       },
       "poup": {
-        "valor": 0.67,
-        "data": "16/11/2026",
+        "valor": 0.6701,
+        "data": "17/11/2026",
         "fonte": "Banco Central"
       },
       "desemp": {
@@ -1536,21 +1530,21 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-18T18:59:54-03:00",
+    "atualizadoEm": "2026-11-19T00:33:18-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
       "BC ipca12",
       "BC ipcam",
       "BC igpm",
+      "BC poup",
       "BC desemp",
       "câmbio (Yahoo)",
       "Ibovespa",
       "8 de 8 ações",
-      "12 notícias"
+      "11 notícias"
     ],
     "falhas": [
-      "BC poup: https://api.bcb.gov.br/dados/serie/bcdata.sgs.195/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
       "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
     ]
   }
