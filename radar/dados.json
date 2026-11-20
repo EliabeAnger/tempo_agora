@@ -167,8 +167,8 @@
       "anterior": 167537.95,
       "minimo": 165833.3,
       "maximo": 168498.42,
-      "hora": "20/11 00h22",
-      "ts": 1795144940592
+      "hora": "20/11 09h58",
+      "ts": 1795179489596
     },
     "acoes": [
       {
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.9346,
-        "var": 0.5
+        "valor": 5.9362,
+        "var": 0.52
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.512,
-        "var": 0.42
+        "valor": 6.5141,
+        "var": 0.45
       }
     ],
-    "acoesTs": 1795144940592,
-    "moedasTs": 1795144940592,
+    "acoesTs": 1795179489596,
+    "moedasTs": 1795179489596,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,39 +305,45 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Dólar dispara a R$ 5,93, apesar de intervenção do BC; Ibovespa recua",
-      "fonte": "UOL Economia",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUnRZcEE3clJYLVRyNjRudnlFOWh3bkZqVi1sSGhSU21aUUJJS0EyLWJ6eXpzMzF2WEtnNWx5akZnYW1YcVJEc21KcTdwN0VfdG1GV2RkRGZPa016SDRnWkFxckxpYlNGUVAwRF9KcVRqMUltY0s3OTU1T09sWnJ3SW9oU2VPbWZSczZFUC15VXI5WjBDNTZhdzR6WHpwZkt2TEJkY18tcW5mZ3hJV3BMNDgwUWtJQWpjTExKZVpGcC1YSDdCWnFuMnRsVVlHQQ?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Anthropic é responsável pela maior oferta pública de ações da história; papéis dispararam na estreia na bolsa de Nova York",
+      "titulo": "Anthropic x OpenAI: como a rivalidade entre os CEOs virou símbolo da corrida pelo domínio da IA",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNaS16di10VUs0WWNnemhkbGYtVE1JT2ZPLUZCY0NYeXc3UkZERjNpRjhIYU1hTHdWQTR4UUwyVHJKbnJDVHRXN1IwX0VXUkxkdDh1ODhlVW9kVnJ3SXE2ZHhDQ3lRbW1SckJIUmdaTzdzQUpmSVg3d3NzVlp3NndnWE9sMTV3SGVCNmpHZjBXSzAxZXNGU0RrU1pyeEdlZkROREhXVXpOSmpuYmNvM3pKSzF6bEY4dC1YR1VnbkEzMHdQZl8xdjgxNk5zbXphTFlyVHhrNUZfTmlYb3hnRkdzbEtzTXBLV3M2T19SaF81eHJ5TVVRWVFLNm5qVC10ejV2dUdtLWgzVDY3bzBIT3hr0gGeAkFVX3lxTE1ULXRfaUY3MWFVY2Q5ZEw2NW9NSGZ6RlJMMmtYWkxOalJ6VjlJX1NMeU8zN0UzeEtDMXZOWmg5cDhNY2tzOE1jdlZ1QkRmT21NRGIwa0p0WUxRcWE0QTkxSVVNbGx5YkF4Y1NvYlh5dDNXcklIc19jQ3A5bDY4MzVIX1c5d1FmaWdXcXhkeGJjQllxMmVlWGdjR09aV2lOV1I5a01zMHlqZ0NUMk9aWTEwMEk5eDIzTDNWbmRqNno4MGVMTVNGb2ZuUWpvSVh5YzdkSzBPZy1rU0lTVkU2STdFSTRLZFFzekR4WDNtQm40dE1uUEFRcUV6OHFjWDdCX0RkVDBUQlptekRySS1XSmRBMTJfMWFoT3lSNzlJa2c?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPSzViMURrQVM3cTB4REUzdEhrY0JtNTljYnBNWHgxamMtaUxpamdVdmFOMEdyQlFPREliUFE5dzR1MVhyOFhrZHRQSTZmbzhFTFEwSHpKdUNWSE1ERld4dGpWY1VaMlE5R1VKbFBfcFNUYndjZmdGWEVSOTBLVzlCUFBKUmpLWHF2eUp2b0FJQUVESFlsMTA0SzQxTVc4VWgzUXoyNXBjd241Y2R6d19ZY2lzbWRVM2JsNkJFX3lnNURhbzc5Tk5SS0ZfaHlfanZBNjhneWNMS0NGZ3Q2enZaT19LNjFYZ9IB9AFBVV95cUxPMzdnNzcyZnVGRkdjYjl2b2ZxbnROc1ZKSGk2T1F1a0NIR3VrRXVMNUFhZnA2MVJFTU82Y2pkQ3EzSDlVOE90Z2dTeEdTRGhoejE1ZWNRck5oVi1oel9SUkRRV1BVWlJoQ0xRRHNrbzRSeE5qRnltRWJ6S1RHMl9MTWxCZEFmMmNNaWxybWNQajVWSDhrSF9OeFZISW1lNmJEdmN0cnBCMnNQZE03aFdiWWpMNmRxMHk4bEp6cE5MZkp0Ymc3R3hHWlFJbVJLUWNMc2Q5SW1qdTU3NUJRdGJHdjk3X20tQjF5bC1ZNWtiRzVoYlVR?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "13º salário de 2026 será um pouco maior para quem ganha até R$ 5 mil. Entenda motivo",
-      "fonte": "Extra online",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOG5yWTAxOGh4RXpURW5SUElpcWp1dkJKRXdJa1JKR2Q3RHllYkREZC1pNUlZekNDUThScFNVQmpEdHZPQlNaRUZNeEJVSG1pc2RvUjJMRnpHMUZ2MDJSOUdLLUlJWmFiaUhxWjVZdjJiZkZTd0w0WC1JZGVHRGF6NnQtX2lib2V0Qk1MeGg0N3NER2F6SmhHUGFuWVJHOGtlQ3c4Q0djSnQ2T0JLQlJUN3VJaDJfcnFacHNwLVdoZmxtVlB6MGNBQUNsMkNnVU1hNWVR0gHiAUFVX3lxTE4zR195YW5yek40aEh5LWJZXzBxZGlCRVVMaDhGTUhOUzN0VVJsNGtReExYTUxlN2ZpcjRNN21UM3RSb1haQWZCWEx1Wl9ENnJtbXlHZWxaUnFaZEJzWlJmX3RjUTVSZlVBNU0xN0xVLTFacUgwREJwYXlud01FQXVGcXJpZm5hMExOSVIybWJQZnl5N0JyWUdPbmt3NXpJNFlXOWhTTWN4dHF6MmpGRk5qZVBuTy1OTnU5MDRTNmJBSlJ1S09ONGVzTXdQMnByZHprYUxGRkxPMTBZVXN0RHUwSUE?oc=5"
+      "titulo": "Dólar dispara após falas de Lula, apesar de intervenção do BC",
+      "fonte": "Gazeta do Povo",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVlBFQ0JCVkhJeUllV3hCMWw4UTFtQ2RaYTk3akt5YUNYNzQzY3pXYUcxV0hjNmoxcTFZOVQ4U3UwYy05VGdhU2hYYTFxV3d3ZTBkeWI5bW8ybVpnZGdwNDMyZ1A4NklCYW94Z2I0dXEzTUFfUm9JdjlRU3ZYNEk3Sy0xQXZsQ05wTHhGQlB4ZlA2RnIxQmpESWxYNA?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Mega-Sena acumula e prêmio vai para R$ 45 milhões",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQN3VDbGdRTzJaMVFONEVaM2tXWTZjcTRXWUNCUnZLWDdaOHczWnF5emJqLXo3SVVPS3NQVjNXaHdha1ZJY3JhSDRseV9sSU1tN2FaV0g5alpyR0pLUFpsN2lKYTVzbWtORW5jcU5TRzJNaHcyUWFBblNMUWFfMkFBN1hSSVUtbVk0N0wwVk5neFpUb1Y1dnV3Y1ZUU0tpeS1mZ3B5YmtWQ3E3dw?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Após pressão de Motta e Alcolumbre, STF marca julgamento da Lei da Dosimetria",
+      "titulo": "Saída do Rio para o feriadão provoca congestionamento na Ponte Rio-Niterói",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZHBXUUVlQVNDWTR2VmNvLVBaam05aDZkdzk5Uk5HdHhsQ1Jab0xXMUVCTUF0cFYtOUZ6Z3FQTVJxaHZXUUZ0cllYOW1PX3N5Z3l6c09YakNISjVuQXJjaFFJRVpTOTB5S2ZxN2hJcFlLVVVzNUp3OFNMN2VtR01qTDZNYjVVV2NTVzNfRmZLOGtqbXZ4RHdoXzh2TFR5RWFQV194RdIBswFBVV95cUxPLXIwTVBUNExfaGlNOHk0Znk4MUlWSmxCb3daWlZaQk0yVC1rNTdZZy1XQkZnU0dBZDNjVE9NYkw1bEFiV3A0OWY1Y082STktbk5NZEJyelU1dnRHcl9vS1ZaNUZwRmg5UjhzTS1uUGRtc2JjRjByb3N2bUpRSloxVTNMNmM3ZkNTTjhrQ09Ba2MxVEg5YkpJRmx3UC0tWGFpX1dIcTE1Z1NtMGcyYlNGT25DUQ?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Metade dos reeleitos na Alesp faltou a 76% das sessões durante a campanha",
+      "fonte": "UOL Notícias",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZWxpU0c5bEFwMjhxYVR5TEQ4a180dVBVRXQzUUZjOHBqWGF5N1hQZkxzWW1LR2o1T0p2U2dDYzVWLWNTazlVM3hyODU0VHFNOU0teGQxNWprTlNSUEFQZGxOaGVOb1ozU3NJX3dZemNFTGV2SUFvRGZNMDZpLUxUdXFDbVhubjBxejRFd1I3WmsxR1dKZGU4RVRITVg0eUhjbWdLZ2lObmdyZG80Vm1oZEZnbVpuZmJCSHctTTVheE5uQi1yVVBTaWhvdkJFUXAtaVBxVkFB?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "A dança das cadeiras entre Haddad, Alckmin e Camilo na nova equipe ministerial de Lula",
       "fonte": "CartaCapital",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYWJnVG03UHFGRmhSNWtFa2R2V1JXa2s0eThaQUg5c0dJbWFsWkUwcVNiaDBjV0hjLXRwMC1Ub3lEWVB4a2QtYmVUQXp2Rl9iTkUtYWtTa1NjOWliVlN1dVZUTUFTUW9YV2o3Yk1QTkQyNDJob2dRY19vTTFPUlhCRTRfd0pwV1VoVzdESDluUjQ4MzlKdmszY04wLUtIekhmOVFYaHlQcjBEbGpVY0p4R1ljVzhKeEwz?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdTdpQ2M2NnF3aVBIa3J6NlBzODRmeEJrM3lWS0VGSEcyS0QzVFFGQ3lUN0p3NFg5dFBsOXRYTERHdllPeTY4cU9fLU9zS2tmb0w2ZkhQYkItRDYzYS11QzAybGs3dHE0VlVYOFljMk14eGZ3ajNxZjRaaUppQUdRVVFPTUplc0NhWmFMVXk5MnVyNlM4YVBoaWllbWJyb2Q1ZXNrOUE2NjJzaGVKV0FYdDIyblQzdEhFcy1IeWhJZldBYVBFOWc?oc=5"
     },
     {
-      "cat": "brasil",
-      "titulo": "Feriado do Dia Nacional de Zumbi e da Consciência Negra: veja o que abre e fecha em Fortaleza nesta sexta (20)",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNVlUwTHBkWFVDc1JjcXBnMzd6ZjBsb01qa0pSZE9jUm5uUTRreDVLaGtKT3A1TFo1UmpUSU9mODFCQXBFUjREbWJZM2lhd1FCTmRXVnIwQzVvOUxLa3BIaU9zT3d2SndfZXZxWVJHY3cwZC1nMUFkVHFYR0ZPZGw1cHZzQS02R01hN3hiMDMxVkZjZFIzSzhGUTdIU2ZpMDZwWnFoTjhpTHlnQ2EzcTVxUl93Y0tYN003MGFqUWhvcm9WVHBGZ0pQQnRJdzdZUlAxQlVKMXlmNC1hZV9pZGZKbW1hbVI5NEFLVzZmM0w5OXhYXzdG0gGDAkFVX3lxTE9PamdQV3ZGWmg0MkMtd0RldjRDbTRvU3NoUXEteTZ6dXZsZlRHdV8tSUZsMldQdDR1OF91RTd1NUtYR3lZOVdVcTVXSUpnYTVkeHdsMmlGM0NSMGNSdnZSYTBqQy1iczFuYWRuMkx5b3QtNGF3dTA5MmN0dUxIb0tKMHVOQ2ZUSGp1akNFajZPN2E3TkpyY0hqSWw4aWhkblpyc1h0T1RldlBlS2dwVnJTZFRTRjVnRUFTOHduWTFvZFJQVHQ4a3I2RDdxeGl4WkVmWXVha1R0RV9XNVhlX3BOSEhGMXQtUmI2Yzc1SWNEX2taTEtjeXNEcG93SnJrMlh2a3M?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "CV orienta presos no Ceará a simularem desmaios para atrair policiais penais",
-      "fonte": "O POVO",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPM3VHekFRc2JyZHB5QWdrUTJKSWx1UVhqblBRUk0xcWJkVnYyZFp3TjBOYXV0eUJYVmxQVDdYVm5GZTI1cWR0RV9yV2NONkNRSXBid2l5S0JtWE9XVVA1UWxmdXVVTEtWcjR5S1BhM1Y3SDVnVk05cERnV2VZVDlTMld3OXl4NnF3WW1LVUw1OEV3MGdLUWx6cWJfUkFPUkVXN01vcjMxYWdPQnVvc1l2RC1PMWVUQ01RbU5HTzlsTjVGTEhkVU1wbUd1ckl2Q1BTeFh0UXMwU0kwcWJO?oc=5"
+      "cat": "politica",
+      "titulo": "Consciência Negra: Congresso tem ao menos 57 propostas de inclusão",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQT09BLVE3ZkhVUWx6a0c1amRPTGcxalJzaVdqR252Rk94eW5yelZPWUNRdUNYdldXaVdycHVjNXdYUGVaYVU2Z2o1Y3BSMmcta2c0M3ozak5OT1V4cDUxd29BMnlpZXk4RzRkRXljZTIxMDdWWE1rNTlpZTlZLUpZNEFqeER3SkVRb2FTb0x6Ui1xUHpncXI1OWRXbUk1clN2ZFRYR1ZsNA?oc=5"
     },
     {
       "cat": "politica",
@@ -347,33 +353,27 @@
     },
     {
       "cat": "politica",
-      "titulo": "Viva Maria: pesquisa identifica violência política de gênero",
+      "titulo": "PSB e PDT formam nova federação partidária",
       "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZ0lhVFJrWkduVVhGWjRzTl8xSEc5Ql9DNTFadUUtSlE5MG1JZ2VvanAydnNfb1NSTDBxMWNselZJVEhUN0F4WXQyVmtHY3FINnRWenNLRlJTTzhjdTdTWC1wdXotLU8xU2xPM3VhRVV3bXBrQmZSU1c3bXNDRVgzSDNXMHBYZkFSTVhWZlBackt6cVI5cFVzZVIwYVFJcnQ5MkJwWGpxb0F6LUI4ZVA1NktLaU5pcUtHYWtjRFU5c3d0c2NxZ0txLVJOb0hXS3I4QXU0?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "O que a Comissão Antimáfia da Itália veio ver no Brasil e o que o Congresso pode aprender com ela",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOU1JsVkt1RlpQVG1GNUQtTS1HdWZVX0hEMGxjTkpWYkhiTG9lQ2cwQVFuTjNKOUM3ODJvS1RYREM4a3hWbjI1dm5OdFI0R1o4R29TVXA4dnRmeXl1cWk5eW5OR2s5Q09qLXRYUktrOW5YdzNJczB3dVFYckxvS0lpenRja3Rva0FfeEhETDlQMWNJcmdMcGFmeDU3ZnI3d3RYNkhNY0tCN2hleGg3cmpaelVyV21lQ1NVTVNtVV9IR2RfdjMtZ2dEcnZ6MzZCa0RNN0RnM0xQcDh4dWgzOFM2SzI1M0tHQktCSFBvSg?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeXZSOG0zck5iRnBYWWx3SDhxMGpoemNObDBodGNyN3dXdVU3WmZLSHRHLUJaU1QxOWZKSnhzMkFSdU5CVElfZkxINGRkQWFlUVFubXVsdVFiRWx6OGF6ZktQSm1wVEdWeDBVdHNhbGJrTmRma0NNSUluVHBINzdpbTBYajJqTEtNQk5TMnNEbE5ZX2JMRV9mc1l5TGtYeHNYWGFhcXU4dEJUQVllaDd4a05IRG03X2NpVmFCVA?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "PGR denuncia Flávio Bolsonaro por calúnia contra Lula",
+      "titulo": "Briga na esquerda menos de um mês após eleição expõe divergências sobre rumos do governo Lula 4",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdW85UWVoeUhYNG1rbUktcVJLM0xoYUJDSGZiaUdkOFo1bko4Si1jWnMxUTBpVjdnYkZYVzBoNkdvS1FnSGlZRHRmOGtjcl8wVVJ3dHdOa2xiejZndFZ0N1Yxc1dfWllxNFVXVy05akplNm1uU2pMTlZOeUI3c2NwM2NCVWZWdENYaU45UnRLN0pQekZFUURxTF9RMkpkbFdPVUlnSDQzUDcwMUFo0gG7AUFVX3lxTFBrejdTTFFsempnLWdlU1FobzRwV0xBLUhSSGs4aVRqUlUxNWEtMUFzMHNWTHNsTUNXSXF4NjlQcE5BN25tYkowckVSLXNwdUFLZmJmT19oRUI0RGx5QUlteEVkb1RGb21uYUlISXZra215TDdXVUtZSDZFS3FTSC1YaEprT2J2YmdraUFoR2RtVTNsemNabGwxSnVXQnJybkdiSFNGRnZiVkwzaGFTenJGUm9jVk05czRzWmc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOb0o1Zk1fb0VqdGhKanlLWnlqWXBzZUhnM28xTk03LU54dVl3QnYxNEhaamFHSXE0bm90SG9sdGw5MUZuRnE1TExMU2EtaU9MUkUwVHRrX3ctN3VGYVFiYVBLSlJmTzRwQXVzOGg1WHJ4ck5leHA4OVdxNUFDR2FoYXlCc1RDSHNpejgwMHFDdzVyNjDSAaIBQVVfeXFMTk55T1dzRGtXYU9TM3pDakVXV3l6X3VvdDRnNzRVOHpPYWZUVzdDdjI3VE1CNG1Nemx1ellnN1dYTnNkVGUtXzFSa1hEV2VScS1BQ2hNWmI4c3g2cWZhcC0xRHlEa0F3VzM0UUVvd3UzSW92T3BXVlhIelBIejhjWENjbkc4b294RGRtTkhlUUZ4Qk1xWnFoaV8yQklFM1A5ZjRR?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "Flávio Bolsonaro pode fechar acordo com PGR para escapar de processo",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMm1IVDR5MXlmS2hjZERMRnFWZlUwbjJTSVA2WDJKLVBZRXpfbTZNcXEzSEM0TE9abmFVaDFHZzlsN0JCVHhRbHd1QmJUZTdiZHd4MW9qM3hpTWxJVU9mZXkwYl85ZlpFaGQzTFdyWURTZzlWZTNEVENySHJGMUI0SUZpUHEwNmI1RTU3NVhOQXJ2Sk94NkNtSk5NUnhQNlNTWUNxbHA2QkpOR05DS1d6RW5CTDdtakltVThCWDNocw?oc=5"
+      "titulo": "Com 99,87% das urnas apuradas, Lula tem 45,12% e Flávio Bolsonaro 47,06%; segundo turno é no dia 25",
+      "fonte": "sentidohorario.com.br",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUm9NRXRKWlI3aDdDZG5Dc1RJMnQ5eURfSWZFQnNlTmNmVkV4Sk9BNjlsNGNVQzlCcEhkRU10LTFVTVA3dlYtTjZiek9LQ2hTNWVhU1lKTXBIUjJNTWNwcHlwQnZxblNoVk5GOW1MZjNnT1Flc01LV0FPUmFNZWU1QmNURkFJUFM4cUoxM1NwT1ozNkhYYjVDZjFrbTVZZmN3X0hkSlpoRlI0VFZ1a2w1U0F6NXJmaVNZSTYtdUJPaw?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "PGR denuncia Flávio ao STF por calúnia por post que associa Lula ao tráfico",
-      "fonte": "UOL Notícias",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPblBhMFNhdkJaM2loMWFQSFBaMzExNEFmRlhYamt4eGVkZ3lielNGLVRzX0Y4ejlpZmxVc2xYWXB5WmhPUmhBMlAyLUpHWWdZR0RmVENHRU5ZdktvVWpDemU5Q3hhSExoZVNBczU1by1xdDROVFo3QlZHVkN1QmJ3QWwtUEN0N0dBeVVqR3JKTjFGNFM0UjkxMXJha01XYWpfTVNGSExmNUpza0JtdFF4Ymd0Y2RrenIxc3FLWG44SWZjRUNMOGk4ai1GYUQ2TnNmVG84ZU42MElNai1IR0E?oc=5"
+      "titulo": "PGR denuncia Flávio Bolsonaro sob acusação de calúnia contra Lula em postagem sobre Maduro",
+      "fonte": "Folha de S.Paulo",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQUkVXZmRnblh6OWlFZG9aLTJvcV9zOG9zNllvQ19aTlJoT2tPOENCanNLa2FqbTdITFZ0cDhYVjJROTFEcE5CamxYeXh5NGtVOEM2NGF1N0RaQTZOeGFCTGV3SEM0MlJkaVlsTXhRRmZEUWp6UWFHaHB0ZUQyd1FyNnk3akN5d1RxUXhSMHhSWFBUN0wyRU4xdGtKMlo0Qy1GZ2lGZGt1cEMyVHJPYmdTUjBwOHBJX296Y2N3NDFlQUhGcVI5VTVvV0psdlZqZjNpMUt0UDFVYw?oc=5"
     }
   ],
   "indicadores": {
@@ -386,7 +386,7 @@
       },
       "cdi": {
         "valor": 13.65,
-        "data": "18/11/2026",
+        "data": "19/11/2026",
         "fonte": "Banco Central"
       },
       "ipca12": {
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-20T00:22:22-03:00",
+    "atualizadoEm": "2026-11-20T09:58:13-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
