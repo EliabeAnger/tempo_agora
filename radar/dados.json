@@ -167,8 +167,8 @@
       "anterior": 167537.95,
       "minimo": 165833.3,
       "maximo": 168498.42,
-      "hora": "20/11 09h58",
-      "ts": 1795179489596
+      "hora": "20/11 18h10",
+      "ts": 1795209010223
     },
     "acoes": [
       {
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.9362,
-        "var": 0.52
+        "valor": 5.9488,
+        "var": 0.74
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.5141,
-        "var": 0.45
+        "valor": 6.5257,
+        "var": 0.63
       }
     ],
-    "acoesTs": 1795179489596,
-    "moedasTs": 1795179489596,
+    "acoesTs": 1795209010223,
+    "moedasTs": 1795209010223,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,39 +305,45 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Anthropic x OpenAI: como a rivalidade entre os CEOs virou símbolo da corrida pelo domínio da IA",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPSzViMURrQVM3cTB4REUzdEhrY0JtNTljYnBNWHgxamMtaUxpamdVdmFOMEdyQlFPREliUFE5dzR1MVhyOFhrZHRQSTZmbzhFTFEwSHpKdUNWSE1ERld4dGpWY1VaMlE5R1VKbFBfcFNUYndjZmdGWEVSOTBLVzlCUFBKUmpLWHF2eUp2b0FJQUVESFlsMTA0SzQxTVc4VWgzUXoyNXBjd241Y2R6d19ZY2lzbWRVM2JsNkJFX3lnNURhbzc5Tk5SS0ZfaHlfanZBNjhneWNMS0NGZ3Q2enZaT19LNjFYZ9IB9AFBVV95cUxPMzdnNzcyZnVGRkdjYjl2b2ZxbnROc1ZKSGk2T1F1a0NIR3VrRXVMNUFhZnA2MVJFTU82Y2pkQ3EzSDlVOE90Z2dTeEdTRGhoejE1ZWNRck5oVi1oel9SUkRRV1BVWlJoQ0xRRHNrbzRSeE5qRnltRWJ6S1RHMl9MTWxCZEFmMmNNaWxybWNQajVWSDhrSF9OeFZISW1lNmJEdmN0cnBCMnNQZE03aFdiWWpMNmRxMHk4bEp6cE5MZkp0Ymc3R3hHWlFJbVJLUWNMc2Q5SW1qdTU3NUJRdGJHdjk3X20tQjF5bC1ZNWtiRzVoYlVR?oc=5"
+      "titulo": "Ação da Anthropic cai forte após estreia e traz choque de realidade para setor de IA",
+      "fonte": "InfoMoney",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONzA1NU1wblVmM3ZNR1FOY0xfMkgwWHBLcnZfdVpOYmRuclJyOERGaEdWNjUycTJiMjFxU2x2T2FpMkJuWmt2LWROdTJoU3dlVWw0UUVFeFBYLXVsVFpVdnlqLUtEOWpWVkZnVkF4bGFHQXllb1RSdlN4Vjc0T01hcFg1aTRLUFNlOFdTWERpTFZObXo3eFg0Tk9DbzltelJkQlU5RlBhZGNaenFWN0Q2ZVVHejV5OWZRc1NPV2FHSELSAcYBQVVfeXFMTm5mcjJmX2F5eHJ2Z1N5SExabXZYc1gxdFRpdWhsTXZvbFA0OEJsN1BpVlRYcEhJeUpOeExJUTF3Z0s4amlrTFZMOV9FeHFTYjBRRUhXTVBzeGduaDB5ODFUMkU0TTJ5WkJnbzN3OFQ0YUtHeWF3V0xaaHpPWjY5UGhJbGpPaG1wMS1jYXp0S3ExSkNYZGJzN19SbWVXNm0wb3lnZ2V0ajhHTTFzWHRjOHVKRFBGcVVnYWF3SWpibTBFTzhGa09R?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Dólar dispara após falas de Lula, apesar de intervenção do BC",
-      "fonte": "Gazeta do Povo",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVlBFQ0JCVkhJeUllV3hCMWw4UTFtQ2RaYTk3akt5YUNYNzQzY3pXYUcxV0hjNmoxcTFZOVQ4U3UwYy05VGdhU2hYYTFxV3d3ZTBkeWI5bW8ybVpnZGdwNDMyZ1A4NklCYW94Z2I0dXEzTUFfUm9JdjlRU3ZYNEk3Sy0xQXZsQ05wTHhGQlB4ZlA2RnIxQmpESWxYNA?oc=5"
+      "titulo": "Calculadora do 13º salário 2026: veja quanto você vai receber",
+      "fonte": "Campo Grande News",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNlRUa3VlZXRHNXI0cldscHpZVHJmUy1XZzRPcEh1ZlhhUGtpOWx0c25wNDJWLUs2cGc5dmpIcHMtNXBMeHlFbWluQXdzMDVRX1BmVzFEbm5yR2thNWZkZWJNUGpRcXdjZ3hmUDdReDZhMUtDUnVwelpuN2dkWkxlZnR1WnpnZVd6R0xidWl0NDV4TFduWVNUX2FwNG1xSlpnbEZzQ0ln0gGmAUFVX3lxTE9KYWl2ZjRpQnFxQ1hsSGNNdjI5VkZiNFgtekVZX0thSVZSZk8tZlB4TjZJdTBsbWJPOXdNei1QRklBQnU1NFZTQjdZejh5bnB2akVJMnJnYnJaZDRTSmRUVUhUcTZLUGhBbVVGT2dHT0doUkdTY3hacVNjX2xJZTBaOTlRcUg4QkdzYnJ0eDlUbTVOSEFNVlRCV3ZLUklhUDdCYUFXOEE?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Mega-Sena acumula e prêmio vai para R$ 45 milhões",
-      "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQN3VDbGdRTzJaMVFONEVaM2tXWTZjcTRXWUNCUnZLWDdaOHczWnF5emJqLXo3SVVPS3NQVjNXaHdha1ZJY3JhSDRseV9sSU1tN2FaV0g5alpyR0pLUFpsN2lKYTVzbWtORW5jcU5TRzJNaHcyUWFBblNMUWFfMkFBN1hSSVUtbVk0N0wwVk5neFpUb1Y1dnV3Y1ZUU0tpeS1mZ3B5YmtWQ3E3dw?oc=5"
+      "titulo": "Ações de emergentes ficam próximas a “bear market” com expansão da crise de IA",
+      "fonte": "InfoMoney",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOazV6ZzF4eUo2NlFzYWF3N2ZVTHRuUXVUQnAyZHhJcE8wRUQ1ZGtMMmNZV1JobTVOMUMzSF8yZHV1eXZQdFFraHdDTzJuZUhMMXVzWjhrN1NNcU9oNk5wMzhjZTA2ZnZtRFRua1Y2N3Jma2hERU1QYVJ3d080WU1OSDRNalpoTGZhM0g0WURWOUdVcnp2cW9mYVNEZFdsYm5qNGhzSDhBUERLZnF3dzN4QVlITmZOQdIBuwFBVV95cUxQa013LXYtZDkwSFphY3pFaW00ZjVEN0NBa1dkNDFHTXRNQi01NW1WRFZJd2p2aXhTT2RNeWxIS3FyOElJeUMxcFUydU1VTHAwMEFBYllmVEdKaHpDZlFCaGp5ZzFlUW1jV3htSEtxcm94WFdCbVJ4Y29vZWlCbE5IZ2hfYW9oeUJjTVowRWZmLWVHVjZWVURtWHl3ZktWVVB5ZF91d1NzcFlmNElXWHY4bGs0U2pEcnNudXBF?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Saída do Rio para o feriadão provoca congestionamento na Ponte Rio-Niterói",
+      "titulo": "Tempestade no RS: Mortes e destruição em Tupanciretã por supercélula",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZHBXUUVlQVNDWTR2VmNvLVBaam05aDZkdzk5Uk5HdHhsQ1Jab0xXMUVCTUF0cFYtOUZ6Z3FQTVJxaHZXUUZ0cllYOW1PX3N5Z3l6c09YakNISjVuQXJjaFFJRVpTOTB5S2ZxN2hJcFlLVVVzNUp3OFNMN2VtR01qTDZNYjVVV2NTVzNfRmZLOGtqbXZ4RHdoXzh2TFR5RWFQV194RdIBswFBVV95cUxPLXIwTVBUNExfaGlNOHk0Znk4MUlWSmxCb3daWlZaQk0yVC1rNTdZZy1XQkZnU0dBZDNjVE9NYkw1bEFiV3A0OWY1Y082STktbk5NZEJyelU1dnRHcl9vS1ZaNUZwRmg5UjhzTS1uUGRtc2JjRjByb3N2bUpRSloxVTNMNmM3ZkNTTjhrQ09Ba2MxVEg5YkpJRmx3UC0tWGFpX1dIcTE1Z1NtMGcyYlNGT25DUQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPY2ZEa2lDVjhveFlYUmNMZk9jYUt1V19ISGdTYnBMZTdja2tqdW9rMzMtS2M5ZmYtMEp0eGxnWWtOSnVqb0hWWWxmWmJNZzJ3RXUtaFZCcU1IbzJxbFAyd2c0Z0NEdjktZEhMQXhQclRkckxrWTJRSG9aVWlJYUtHS1RMZkljTHpvbE16dGNzSUI1dVNuWklySlZTbDlsV1ZYWXFUTTZXRFZMLXZFX0RFMA?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Metade dos reeleitos na Alesp faltou a 76% das sessões durante a campanha",
+      "titulo": "Fuvest 2027 antecipa lista de aprovados para a 2ª fase e locais de prova; veja como consultar",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOQjNjdzRvOHJ3XzdBM1RUa0I2ZUVqVl9hNWh3NUtjemhEX3diN3A1b0gtQmpQUGQ5SWZEQ2IxV0dodnpiTk1iRU1JLUFNRjUtdm9xa3JJcVhjWWsyVUc4NXBNdkZwQzNDa2ZmeXV5QVVpODBPeGhONVZJLVduUlU0SEk4V2pWY0xyN19BcWY3M3FTUjNLNzF6Y0hTdW9HZDY4WHVYeC16XzhZbFRMdVpoeVI5OTFJTWhUMDFSU04ycWFRX1dScjUxS1BwR1FpdmRwRzNLRkFUS2c5aE00Z0RxZjZzMDVWd9IB9AFBVV95cUxNdHBiSTFBeFZnMUNHeFRWN3lPdHZQTFBkamdkNkkyNmllWndTUWFxUW1TZVJfSG42WHdGR0ZwcENxWHlyVk9VUFhfbFhnaG1hMlRGVTdMazk4TEhOWmt6bmZfUVNOYVQ3NHg5VnhlU0s4a25vMzJrX3M1SnBXbnpKcHR1OC1KSmE5LWdpRGxOOGRMOWFzYXg2cmdYT2hnbzZCTmR5LUdUN1ItaTl3T2RVRUs3WExCWGl2blFoLWhtZ2VSQW5MZlEtcmVIQXRIUWZ0SHZkUC1UUjlZNy1NMVRjczlYOXNLNm50a0UyeVJ5S0dMOGIt?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Bolsonaro é levado a hospital após sentir dores abdominais",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNa2VFWEtkYk9NSzBxYS1tQmZIdUZmaXBCbll2a1ZLUVRDeW5ZSHRNVG1xNE42VklBdTBmSEt5RXk2Ukd2MXZLRVkzaTNSLVVLQ3hRWUkwYlJicXBSdDg3MVJxZUZRUVZtVnE2dFJub3c4LVRCc2VCNUNoZlVPVElabTN1clNmMi0xd25GampsZFhCWmZySkc2T2YwckRLSHhSTVFLbNIBswFBVV95cUxOTVpILXVfZU1RTlFoazdEbmQtZU9QYzM5ZWhYTThGQ09uaFZVenZJaUZNTFdsbVNWR0V5Si1Fb3JMT0JZTXJLMjUxb2oxVlpFRGNlREprel9ZRVcwRmF3Rkx5cWNJQXFIaWVVb3oxUWNVV1RfeGg0QlpoSmdXMGpJTjltRzNUZ1VxcVR2WTFJY2EzLU9FOGhxS0RoUUg4XzVwYUMxQTVfVTdWMGhDanlLN2psZw?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Congresso autoriza até R$ 149,4 bi para Previdência e Bolsa Família",
       "fonte": "UOL Notícias",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZWxpU0c5bEFwMjhxYVR5TEQ4a180dVBVRXQzUUZjOHBqWGF5N1hQZkxzWW1LR2o1T0p2U2dDYzVWLWNTazlVM3hyODU0VHFNOU0teGQxNWprTlNSUEFQZGxOaGVOb1ozU3NJX3dZemNFTGV2SUFvRGZNMDZpLUxUdXFDbVhubjBxejRFd1I3WmsxR1dKZGU4RVRITVg0eUhjbWdLZ2lObmdyZG80Vm1oZEZnbVpuZmJCSHctTTVheE5uQi1yVVBTaWhvdkJFUXAtaVBxVkFB?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "A dança das cadeiras entre Haddad, Alckmin e Camilo na nova equipe ministerial de Lula",
-      "fonte": "CartaCapital",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdTdpQ2M2NnF3aVBIa3J6NlBzODRmeEJrM3lWS0VGSEcyS0QzVFFGQ3lUN0p3NFg5dFBsOXRYTERHdllPeTY4cU9fLU9zS2tmb0w2ZkhQYkItRDYzYS11QzAybGs3dHE0VlVYOFljMk14eGZ3ajNxZjRaaUppQUdRVVFPTUplc0NhWmFMVXk5MnVyNlM4YVBoaWllbWJyb2Q1ZXNrOUE2NjJzaGVKV0FYdDIyblQzdEhFcy1IeWhJZldBYVBFOWc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxONmdsOFlIcy1qcndnR2F1bGFNZVhIUEI4elRzaVdlSzlKeXZRTUFlWTU1VlFVbXM1YWhZV19wRzdoTHpTN21YLU9YVFA3NDNUanBRTUlZaHlNMUVESFY5OGFZUTFlamZfbWI2aU9HYUpmaGgzaTRiYkVWOVFvUXJrNXZibmZDTHdtMXo1M0VpVHY2T0FlRXliWnRRbHRPQkVyREZxVDd0UW96bVNtWFotOHZPdVpBd3V1ekRBd21ZY2dlak5Vc0diN08xNG5xZGx2?oc=5"
     },
     {
       "cat": "politica",
@@ -347,15 +353,15 @@
     },
     {
       "cat": "politica",
-      "titulo": "Congresso homenageia 60 anos da Embratur - 19/11/26",
-      "fonte": "Senado",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVzF4NTlkVlJ2eHFFdFBHUnBOQVpvakpsbmhWVkVyZnRKZlZ3b3VtcmVKeHgzTGxGWUpfTHR0MDYzSjQteEhnTU04eWgzXzRxZThfM09YM2V3NlAzdkxBU3BSVDVIQVBiYWJBNnhBWUdqbWtsX0xCQmpWSVJzN1c0TnIwMFhqVEphSXI0YTR3ZmFWWENyUURabUN1SHh5aFBBVVdJT203RWlQdmtSSUE?oc=5"
+      "titulo": "Benedita e Paim: lideranças negras se despedem do Congresso após 40 anos",
+      "fonte": "VEJA",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVjFWTUMyc0paLWZrM2ZzRTVoMTd1bEY2Y2kzQXE5VDAxWWV0azdRVnlaMDd3Si1Zd2JiNjYtZlQyd3FMSEtlUEdKRzJta0ZQX3VqcFRqUGZ0NjBMem5YQmFaVEE5dEM4NVduUjVBREdfVHk3SU0zV3g4RGoyNG5tTkF2d1dfRG03bmZzWHRYZks2RmI5QnlMTE5nWWZrVlVxY0xEV0I5RkZxcEU?oc=5"
     },
     {
-      "cat": "politica",
-      "titulo": "PSB e PDT formam nova federação partidária",
-      "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeXZSOG0zck5iRnBYWWx3SDhxMGpoemNObDBodGNyN3dXdVU3WmZLSHRHLUJaU1QxOWZKSnhzMkFSdU5CVElfZkxINGRkQWFlUVFubXVsdVFiRWx6OGF6ZktQSm1wVEdWeDBVdHNhbGJrTmRma0NNSUluVHBINzdpbTBYajJqTEtNQk5TMnNEbE5ZX2JMRV9mc1l5TGtYeHNYWGFhcXU4dEJUQVllaDd4a05IRG03X2NpVmFCVA?oc=5"
+      "cat": "eleicoes",
+      "titulo": "Eleições 2026: Apuração Estadual em tempo real - Minas Gerais - 2º turno",
+      "fonte": "VEJA",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQX0RISjJUWmFVVlRSbWRrRTNZZ2VGU3NZZTQ1eXpVTl9vSkt0M3Z1T2JkTTJwVnN6NmpwbzZ6aklVU0lwQ1Y3SWVpSlhuU1BuNFl4VHBzWWVXSXRPS21zUHJ6Q0xjZGkwUl9FeGxidkRiMTF4cmlzdkRXR3AzaFJabjFSdE4?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -365,15 +371,9 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "Com 99,87% das urnas apuradas, Lula tem 45,12% e Flávio Bolsonaro 47,06%; segundo turno é no dia 25",
-      "fonte": "sentidohorario.com.br",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUm9NRXRKWlI3aDdDZG5Dc1RJMnQ5eURfSWZFQnNlTmNmVkV4Sk9BNjlsNGNVQzlCcEhkRU10LTFVTVA3dlYtTjZiek9LQ2hTNWVhU1lKTXBIUjJNTWNwcHlwQnZxblNoVk5GOW1MZjNnT1Flc01LV0FPUmFNZWU1QmNURkFJUFM4cUoxM1NwT1ozNkhYYjVDZjFrbTVZZmN3X0hkSlpoRlI0VFZ1a2w1U0F6NXJmaVNZSTYtdUJPaw?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "PGR denuncia Flávio Bolsonaro sob acusação de calúnia contra Lula em postagem sobre Maduro",
-      "fonte": "Folha de S.Paulo",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQUkVXZmRnblh6OWlFZG9aLTJvcV9zOG9zNllvQ19aTlJoT2tPOENCanNLa2FqbTdITFZ0cDhYVjJROTFEcE5CamxYeXh5NGtVOEM2NGF1N0RaQTZOeGFCTGV3SEM0MlJkaVlsTXhRRmZEUWp6UWFHaHB0ZUQyd1FyNnk3akN5d1RxUXhSMHhSWFBUN0wyRU4xdGtKMlo0Qy1GZ2lGZGt1cEMyVHJPYmdTUjBwOHBJX296Y2N3NDFlQUhGcVI5VTVvV0psdlZqZjNpMUt0UDFVYw?oc=5"
+      "titulo": "O futuro político dos argentinos após a vitória de Lula e a derrota de Trump",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbXJ4dmJTa2VQX0Q3dDUxRjhpVUxDcmVoQ1U1UGtadlJ5Tl9GbVJpTXpTUzQza3lNVXRxYzVERHlpZGRNdFNPR0dDYm0ya2c0MUJ6UXk0elRQTEpvbVg0clhRV3lpS214MHVvT1g2Mk45MDJPUmdMNF8zbUFpTl96SElhcVc1MklRRFBvLWdpdUhXdDNmQ3YtSDZVMmJVMG9SS3h4NXo3akFFOVA1T3Q2N1VYc2N5aHBRd0tFamJqYVRwMGfSAcgBQVVfeXFMUDZUeXNJVzAwQzNLM1VGdExlY2Z0ZHdod04zdnYyMFl6WVdudHMzRUxOV3pJUFExWDdEQUNSa0dWTXVCWWZsV0t4a3FlN3ZlQS1BdDdhaTdGa2V5N25lN0V3M1c5eTlEckljczhraVZLWFlvNVlwTTB6dW83SUJXdzRVU0lic1pZSUNBc1J2OGl2X3g4dmJsYnBHaV9EdkFHeEJHRVRzVkoyUVplN0VIdVlBbkdua2wwanBtaU95bUgzS0xyVDVDQzM?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,14 +1536,13 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-20T09:58:13-03:00",
+    "atualizadoEm": "2026-11-20T18:10:11-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
       "BC ipca12",
       "BC ipcam",
       "BC igpm",
-      "BC poup",
       "BC desemp",
       "câmbio (Yahoo)",
       "Ibovespa",
@@ -1551,6 +1550,7 @@
       "12 notícias"
     ],
     "falhas": [
+      "BC poup: https://api.bcb.gov.br/dados/serie/bcdata.sgs.195/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
       "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
     ]
   }
