@@ -167,8 +167,8 @@
       "anterior": 167537.95,
       "minimo": 165833.3,
       "maximo": 168498.42,
-      "hora": "20/11 23h21",
-      "ts": 1795227660532
+      "hora": "21/11 08h11",
+      "ts": 1795259472605
     },
     "acoes": [
       {
@@ -243,8 +243,8 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.9488,
-        "var": 0.74
+        "valor": 5.9074,
+        "var": 0.04
       },
       {
         "sigla": "EUR",
@@ -253,8 +253,8 @@
         "var": 0.54
       }
     ],
-    "acoesTs": 1795227660532,
-    "moedasTs": 1795227660532,
+    "acoesTs": 1795259472605,
+    "moedasTs": 1795259472605,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,9 +305,15 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Bolsas de NY fecham em forte queda e põem índices em correção, com tombo de Anthropic e Nvidia",
-      "fonte": "UOL Economia",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaGpSSUlyWXh3dkpyUUY3eXFBQXF1VnNCaGV6Vng1aDBMdVZranB1MS16ckh4UVFZTnNBTF9mblc3S1BiOWRyVlNmS3l2Z3Q4ek5DNHlaaXlrb1JUMzdsVEppS1o1RnRlUnY1bWViT291V3pMaU5JQ0F5OGJLNWhMMVlmMkJnZWFHTWtlTlBlSHZvYU5WQThaSEg2amZrd1B3R3hLMlc2ajl0cGJFTUtVOW1ReXVmSkVNMzZMdEsxSmlCZFFsbWh3WkZSTEItZGxjX2xsZG9aTl9NZTgtdGhscXNmbHRzdDhuWjNUd0RXQmR3cHpw?oc=5"
+      "titulo": "Ações da Anthropic caem 8,5% um dia após estreia histórica na bolsa dos EUA",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9Fc1NOY19naEdxLUdsV2RTdm5QeDdHc2tYLTdZVzR0VDd0ckJHS2c0SWZHdmMtOXZXSVNKS3B2LXBfTC0tOVNtdkQ4RmxfQ0Y4N2M2YmM2SjVmUkFtdnVmbG9LU1Nra3VGeHFzYzBTM212ZllkUmJzUXdn0gGIAUFVX3lxTE9RYWtxTjJndTBlYk9sVXFOTV9MYkZKQ2M1ODVDeU5TVHlHZnkyMVhkQjVYRjlBLUFxNE5xX2dPUGdWajNaUmRlMGhZWHFfUjJWbDhPbWRkaDdIMDhHVFg4S2t4ejNhc2szNlBoWm1mV0JZZVFqR3lVX282QWFjdGtRS0s5bEpIZjY?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Nvidia | Ex-CEO humilhava funcionários para fazê-los trabalhar após ficarem ricos com o boom da IA generativa",
+      "fonte": "Omelete",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSHVpU0tQWkdub3l3MHJkdDEyN3llZnVjQlVHN0JMc1JQNlhpa1puWGRUN19sOXo0SmJzS1dBMVNFRVA0OVpqU2UwYnpKUGVqTDJvNXptX3lXeno0X2g3bWRUWE5Yd2x1eU1iQUR6UEh6Zk44RUxmXy03MGd4Uzk3ZllNLUdBNVZuWE5QV3JhNkswNFVaNGZfQlYxdDAxcC1UMTl2a0NrZl9oUFJPRnhNQTB5am5ab1dhVldTWnE1bXloYUIzWldTQw?oc=5"
     },
     {
       "cat": "economia",
@@ -316,46 +322,40 @@
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQVHYzNWRBSXpEbmlIcENtaUQtcjQyTjJYN3Q2Y3F1NmNtWDZEZzhhNzNoa3EwSVNPRkZpM2ZQTnl3WUNHNFFNbUNscmdlZ1dFREwxV281bEdzMkZhWVp3cU1iMUlYcjJMUWNYY3JnVXpTMHBqNUxmeDdJWlFWaC1YaG9kWWdhR2VxdG0zbFZtcU41YXZWMUk1VjN1azFpdEc2NHdvR2FYRjJTUWVhN0VDUkVSSDNJMGRLLW1qUWZyZ3BNQy1QZ2tUM29LZ1djWHlXaVdBQzloV2l6d0nSAeoBQVVfeXFMTVlteXlETlZqcWFCWFdSSWxRbWtKYUtoSDJSekF2eGhTNGNqMG81SG9FNVhveUZUSnlPYmtlRm0xRVpLcXJoNEVReDByT3k1ZDBfeDNyMUNuWFZ2M2xFVkRjYVJEMUJTTGhLT0gyY1FmWkhnLW5PaXBtSnI4aktzbF92RDktMjR0VVBmNmY2ZUJqS01RM0UtaDFSUWhScy1UR0g0cFhIRS1mS3lYZmo5NkFyVnpFUzdTRXB2N3ZtcEprVW93QVJuaWhIaG9fLU1JZzZKZVhBb3RFdHM5LVdhNEI2M2R6eDk3bk1n?oc=5"
     },
     {
-      "cat": "economia",
-      "titulo": "Tombo das ações da Anthropic após estreia vira alerta para mercado de IA",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOd0NxS3pMenJydTdVdjY2ckpOekRCa0RCYkUyRmc5ODdwa3ozM2tEdTdWcE80U3NNV2dSTmJrTFJOeVBUZGo2cFZObGVsQ1dxd2lZVURaYU5MdmF5TC1VbTN1emRQWGhQTWUydUZyNjFmRWtZdmZoYWlHN2Q2d3NCV0VNbHZLaVBzTWJaNHBYUGhMYmhHblVWZEZYZ2xNakNmcEJiYUFjT2x2YVhndS1yT3FSU3FicWV6aUxRZkhsM2tPQUk?oc=5"
-    },
-    {
       "cat": "brasil",
-      "titulo": "Imagens mostram antes e depois de empresas atingidas por temporal em Tupanciretã, no RS",
+      "titulo": "Bolsonaro é internado após sentir dores abdominais",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdEVQd18zdTNuNHJPQUttcTh0T1NRYkFtdDBBWnJXUXZUa1l5RXN5WWY1dmQyQkg4NE5oclcwMUV4YlYwOFFobGdkWmdtM3NtVWJBQVJzTEhuQnE0YUV4OGpIc3dPVkJScG4zaXlqbmMzcHE5SUcweEZtYzZKZ3FMMllBNE1SbkFRdkNRbDFSdkcwVy1QM1c2aEVMWDY1aUUzTVA1amgzSXd1OG9rUXFpN25uTkzSAcMBQVVfeXFMUE9qd2FER2hWOHV1bmw4NEllWUtrS1dYN3BQbUhJMDM0enFDSzFMb0NZVm9zTnpQY25mcElnUDJ6WGpkMmh5MDJBdko2UjNqT0d3bDk4V2pxVTIyMFdMQUhwSDNwQmpGa21aYjRNWDZhcVE2ZWk3ejlRT3JTenB4c1FZZmtaM1pXNHVkdTNZNThsb3VueEZpbEpkNV9RaUZYdm1NVTRaQzQyUTB1bkpvT0x2MzdZVHdaOFJTSHNhZ3lkRjFz?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNa2VFWEtkYk9NSzBxYS1tQmZIdUZmaXBCbll2a1ZLUVRDeW5ZSHRNVG1xNE42VklBdTBmSEt5RXk2Ukd2MXZLRVkzaTNSLVVLQ3hRWUkwYlJicXBSdDg3MVJxZUZRUVZtVnE2dFJub3c4LVRCc2VCNUNoZlVPVElabTN1clNmMi0xd25GampsZFhCWmZySkc2T2YwckRLSHhSTVFLbNIBswFBVV95cUxOTVpILXVfZU1RTlFoazdEbmQtZU9QYzM5ZWhYTThGQ09uaFZVenZJaUZNTFdsbVNWR0V5Si1Fb3JMT0JZTXJLMjUxb2oxVlpFRGNlREprel9ZRVcwRmF3Rkx5cWNJQXFIaWVVb3oxUWNVV1RfeGg0QlpoSmdXMGpJTjltRzNUZ1VxcVR2WTFJY2EzLU9FOGhxS0RoUUg4XzVwYUMxQTVfVTdWMGhDanlLN2psZw?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Bolsonaro tem obstrução quase total do intestino delgado, diz médico",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRjlTSG5jYVl1T2xJcGJPNC1YQ2JwYzg0amNaZ19NY1VqT1dVZlpGdDUtU0p6REQtRDFkVW9tM283NWd2VWcwVjR0aEF4UmFOSUliTWV0TXdQTVUwTjE0VXQzOUF3WWt2MTFWTkxUWTZ4ejQtYVVZbEl1Wm5PNlV6b1BlZEYxLXBsSHBSek4zNUZvdW1FcWNWQnJiMmhGSjRNbjdxN2dEV3R5bUZ0aGFn?oc=5"
+      "titulo": "Ministro de Lula vai a Tupanciretã após temporal no Rio Grande do Sul",
+      "fonte": "CartaCapital",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOVlfVS1VTGRvZ3l4SjZET05wUDlTZm5lcFdWbUdZc01fV0RFSlllSlRRZ1B2Vnd1YjVaQ0Z6YVBLSnZjMUUtR3VXODc2bmE0b2duU2ttbmNDYXFpTUhxdmRNemo4d0kzaEN6SmIwdDI3UFVubTFwSXlUVVRZLW5zTVJzUzVwWjE0eGxMcHRlbmdxdzJCMVcyQWI3XzlWODhkTlJ6eDNmZmkweFFIM2RjQWFR?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Fuvest 2027 antecipa lista de aprovados para a 2ª fase e locais de prova; veja como consultar",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOQjNjdzRvOHJ3XzdBM1RUa0I2ZUVqVl9hNWh3NUtjemhEX3diN3A1b0gtQmpQUGQ5SWZEQ2IxV0dodnpiTk1iRU1JLUFNRjUtdm9xa3JJcVhjWWsyVUc4NXBNdkZwQzNDa2ZmeXV5QVVpODBPeGhONVZJLVduUlU0SEk4V2pWY0xyN19BcWY3M3FTUjNLNzF6Y0hTdW9HZDY4WHVYeC16XzhZbFRMdVpoeVI5OTFJTWhUMDFSU04ycWFRX1dScjUxS1BwR1FpdmRwRzNLRkFUS2c5aE00Z0RxZjZzMDVWd9IB9AFBVV95cUxNdHBiSTFBeFZnMUNHeFRWN3lPdHZQTFBkamdkNkkyNmllWndTUWFxUW1TZVJfSG42WHdGR0ZwcENxWHlyVk9VUFhfbFhnaG1hMlRGVTdMazk4TEhOWmt6bmZfUVNOYVQ3NHg5VnhlU0s4a25vMzJrX3M1SnBXbnpKcHR1OC1KSmE5LWdpRGxOOGRMOWFzYXg2cmdYT2hnbzZCTmR5LUdUN1ItaTl3T2RVRUs3WExCWGl2blFoLWhtZ2VSQW5MZlEtcmVIQXRIUWZ0SHZkUC1UUjlZNy1NMVRjczlYOXNLNm50a0UyeVJ5S0dMOGIt?oc=5"
+      "titulo": "Efeito canetas emagrecedoras: mercado de roupa plus size encolhe no Brasil",
+      "fonte": "UOL Economia",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRFZ1Q0FSSjNxUzI5VzBCQi1STU5SMm5HNlRjbk04X2hzci1mV1hMcFdvYThtUjI3bmx1emVWSGUycDU5OWpvdU41WG5NcEgtLV9VUjliV21GS2s1eTdpTmVUSGEzcGtnaV9YNE1ZMk5HczZKY1BTVTUybVpQazlIdmtiOGF5cnc5Ml81THltdjd4U0RlQ3NnNnRkNk1NMkV1Wk5pVjZmTlRSMkh2dzM1a0FvclhnWUNNUzlxOGR5bGR0c1d5dklPMjFQVUl0aWc?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Congresso autoriza até R$ 149,4 bi para Previdência e Bolsa Família",
-      "fonte": "UOL Notícias",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxONmdsOFlIcy1qcndnR2F1bGFNZVhIUEI4elRzaVdlSzlKeXZRTUFlWTU1VlFVbXM1YWhZV19wRzdoTHpTN21YLU9YVFA3NDNUanBRTUlZaHlNMUVESFY5OGFZUTFlamZfbWI2aU9HYUpmaGgzaTRiYkVWOVFvUXJrNXZibmZDTHdtMXo1M0VpVHY2T0FlRXliWnRRbHRPQkVyREZxVDd0UW96bVNtWFotOHZPdVpBd3V1ekRBd21ZY2dlak5Vc0diN08xNG5xZGx2?oc=5"
+      "titulo": "Em busca de reeleição, Alcolumbre e Motta acenam ao Planalto, por ajuste fiscal, e à oposição, com benefício a Bolsonaro",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPa1FUM2VEOVpfMjhYMVR6V2JMc0h3dTNoNHhQazFRYk9PbFJ4RmwxalJQaE9OelZHVTNFYXVPNlV4bVlOY1liRDhqSUZtdk91eG5LMXFwbHptWURkMklZWUtVR2FkaUYwTGlrUGxYSFlPU3V2NEc0eFR6MlBqMTlySmloWkNwOFFGNjFybGRDaXB1S1lfR0Jvdmh3ZzloVE1WUGVIR1p1R0JsamZJLUd3NU5qRXR6YTVCdVJQb2o0SkdVMklxWktHV1hSREkxX1h1VmltQS1TMlR1cnFZU2tEUE5haThUSmlfZWp2cGJIdlBrY2l6SGN5NVo1a0xwV2pGWHZIUkpR0gGUAkFVX3lxTE50eFR0dzJxdnJOQWxzSkQ1UnM1d0VDaHBXazVmNW9rSm1LWHV6NFVxU203U3BGakFQVkh6UnZSd09sbWJWcGxBM2RINmVWZEtZWEdQb3F1U2IzTFNTMlppUGF3d09URmhFN25WX2pKbll2SUJaV3AzZjRobnVEOF9DOURqRUR4THdpOUNFTkhtMUdqTXFybFpJVElxXzVvUTNoVmRfbi1LbVJiLWVEa253TTBaeGVEZnpyc1FUbU04RHJrMUJPaWloZTBTeVZuZ2s2andwNlVGZXREQzQxZXAwbU5JNnlnM1ByMkZ2MG9MTWJwbnRkWW9wazUwQkNPUkVIRlZRX3BDcjk4bTA4VC0tc1EwVQ?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "O que a Comissão Antimáfia da Itália veio ver no Brasil e o que o Congresso pode aprender com ela",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOU1JsVkt1RlpQVG1GNUQtTS1HdWZVX0hEMGxjTkpWYkhiTG9lQ2cwQVFuTjNKOUM3ODJvS1RYREM4a3hWbjI1dm5OdFI0R1o4R29TVXA4dnRmeXl1cWk5eW5OR2s5Q09qLXRYUktrOW5YdzNJczB3dVFYckxvS0lpenRja3Rva0FfeEhETDlQMWNJcmdMcGFmeDU3ZnI3d3RYNkhNY0tCN2hleGg3cmpaelVyV21lQ1NVTVNtVV9IR2RfdjMtZ2dEcnZ6MzZCa0RNN0RnM0xQcDh4dWgzOFM2SzI1M0tHQktCSFBvSg?oc=5"
+      "titulo": "EDITORIAL | O futuro não tem bancada no Congresso – “No orçamento brasileiro, o futuro costuma chegar quando o dinheiro já foi distribuído. Corporações têm bancadas, setores econômicos têm interlocutores e governos têm eleições pela frente. Mas crian",
+      "fonte": "Instagram",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE45Z3E0X1BzLTBwUkE0QVJUWVhzTnZiNmZQSTlhVERvZmo3ZGFGMHhQQjBWdVZRRk51NVZlZ01MUjRxUGJYeWhzTHBYZ3ZGNlZKN2c?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Consciência Negra: Congresso tem ao menos 57 propostas de inclusão",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQT09BLVE3ZkhVUWx6a0c1amRPTGcxalJzaVdqR252Rk94eW5yelZPWUNRdUNYdldXaVdycHVjNXdYUGVaYVU2Z2o1Y3BSMmcta2c0M3ozak5OT1V4cDUxd29BMnlpZXk4RzRkRXljZTIxMDdWWE1rNTlpZTlZLUpZNEFqeER3SkVRb2FTb0x6Ui1xUHpncXI1OWRXbUk1clN2ZFRYR1ZsNA?oc=5"
+      "titulo": "Turistas podem agendar pela internet visitas ao Congresso Nacional - Notícias",
+      "fonte": "Notícias - Canção Nova",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMUhJZ1hZZXBROHdHVDhnX1k1R0pkY01PUVAyS1RlS0Znb1NDNUVDelpwQk1ad3h3M3hQUDltZmJTcU9pLUlJMi1RMzdvZ25FTE16UlhpOG1ndGJvTVZzZl9teTh5b0JXWVNKZGRibmpRRV9hcmdqamFDQWRudjZLSWZnbXNGTGR5UzE1eEpfSTVwQ2dkRFQzTjI5ck13RktYRlVaR0JiYnY2Zw?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -371,9 +371,9 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "O futuro político dos argentinos após a vitória de Lula e a derrota de Trump",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbXJ4dmJTa2VQX0Q3dDUxRjhpVUxDcmVoQ1U1UGtadlJ5Tl9GbVJpTXpTUzQza3lNVXRxYzVERHlpZGRNdFNPR0dDYm0ya2c0MUJ6UXk0elRQTEpvbVg0clhRV3lpS214MHVvT1g2Mk45MDJPUmdMNF8zbUFpTl96SElhcVc1MklRRFBvLWdpdUhXdDNmQ3YtSDZVMmJVMG9SS3h4NXo3akFFOVA1T3Q2N1VYc2N5aHBRd0tFamJqYVRwMGfSAcgBQVVfeXFMUDZUeXNJVzAwQzNLM1VGdExlY2Z0ZHdod04zdnYyMFl6WVdudHMzRUxOV3pJUFExWDdEQUNSa0dWTXVCWWZsV0t4a3FlN3ZlQS1BdDdhaTdGa2V5N25lN0V3M1c5eTlEckljczhraVZLWFlvNVlwTTB6dW83SUJXdzRVU0lic1pZSUNBc1J2OGl2X3g4dmJsYnBHaV9EdkFHeEJHRVRzVkoyUVplN0VIdVlBbkdua2wwanBtaU95bUgzS0xyVDVDQzM?oc=5"
+      "titulo": "TSE investiga ajuda dos EUA à campanha de Flávio Bolsonaro",
+      "fonte": "TV Sim Brasil",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQckFOSDEwVi03WC1IVldtS3Z0RWZveDYxV094dkw4dER6elBybTNqZ0FFLXU0RWMyeDhlSjNXOHlLQWVsV3ZRM21HQmdISUFBSEI2T2hma3ppMHhjeGFQMVRKc1lfLUQ3TjRGUjJhTmlpVmNfbGEzSlR5SmNPSi1NXzVsUTA1QkxqTkR0VXRnTVdodndHZ0RrN0VrTG54a203bTU3VUF1LWJWb0Q0a2Z1YWNOMEY0RUk?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-20T23:21:02-03:00",
+    "atualizadoEm": "2026-11-21T08:11:14-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
