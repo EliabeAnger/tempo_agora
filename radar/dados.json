@@ -167,8 +167,8 @@
       "anterior": 167538.0,
       "minimo": 165833.3,
       "maximo": 168498.42,
-      "hora": "21/11 15h00",
-      "ts": 1795284012513
+      "hora": "21/11 20h22",
+      "ts": 1795303352708
     },
     "acoes": [
       {
@@ -253,8 +253,8 @@
         "var": 0.54
       }
     ],
-    "acoesTs": 1795284012513,
-    "moedasTs": 1795284012513,
+    "acoesTs": 1795303352708,
+    "moedasTs": 1795303352708,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,57 +305,57 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Anthropic cai 9% um dia após estreia de ações nos EUA",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSEZJZklMdkJXbVEzby1DZFB4V3BUQWtkdXBaRGdiRmpsQmRYbmdWRGRNZVF5YzUtZ1Bla1lTZWVNN0RaN0VlcEt5ZXpwUlVRYXljN2xqSlNjd0Q1aHVaY1JHRDBFVGthdmdzZnVpLVRhakc1ektOM0FDRjBlMG9fVllteUFpTlZ5NGl1WWV1MmxjRWlzcGJORmZrOFZOVGxzVjN6MzJUMHU?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Dívida de famílias quase dobra em 5 anos e sobe mais que ativos, diz estudo",
-      "fonte": "UOL Economia",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPa1FYNmVrdEdPOTMwOEFFal9OM08yM3l2ODEwMW91V0dvTnNWX2g1SWc0X1QxSTIwVFBIVkppTzNGSUYwMDFjR2lZMDRBbzhpQ09IU1VsWC1lbXZXWnJaSU94N2U5UWh0MmtmQ3FTUjBvYkxYRXViTjAwWG1PbDl6QkZza1dKMC02Q2s2T0ZXVnRJYzJha3FIVTdQY1lZRmp2Z1NZc2tpLXEzXzZjTGpMdGFlUDVmTFdMUlZlcHRjUUI1VFFTVDFZ?oc=5"
-    },
-    {
-      "cat": "economia",
       "titulo": "The Economist: Brasil lidera corrida da América Latina para virar polo global de data centers",
       "fonte": "Estadão",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbTQ1SGlXVWRqUUFpNVIxdmh5akR1Q0c4ejZ5anJ2WnpWNkhOb0xfdVZMRzc0ZXppM2FJNVRSc2U3NEEzRFFJVnN1R3hpbmM2UG9BWE5SQzdyWExldjRWeU5SbUtVajlpc2lEVmdfcUVkVDd2TFNaNjBKbEhjVEF3WHEtZGw0cURYLWd0NGhRN2h0OG1LNVQ5MEduZFhIZnVIbHZZUmFWME1mZjNZeFA4bDhSNmNuM29uUzUxUHp4YW1HQ0VGRDVwSA?oc=5"
     },
     {
-      "cat": "brasil",
-      "titulo": "Temporal atinge o Grupo Vega e paralisa atividades em Tupanciretã no RS",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZzN4VXNJc2JEeTlSZ2U2YVdGOFIxUHRLM2Qwbl85Rk1hYXhnZmg4WkwyNVNRLVpoWm41WVZMeFRJdkI5dmNMNnJ6OWFtZjFfdzlESHZPRXhoLTVvc29nMEJMU2RsVktRVzJtV3VpMGVUdzI3LV9Gc1R4aXVZaG1tUldMbjBVSlJuaEpXWXdlQkdDZVViUWFneFJWTFJ1T2I0TF9hZ3dKMUZDQQ?oc=5"
+      "cat": "economia",
+      "titulo": "Quem tem direito a receber o 13º salário? Primeira parcela deve ser paga até dia 30 de novembro",
+      "fonte": "R7",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNVRoQl9sQTg0T0RYeDl4Z0tKN1JVM0FiZGZYeHZmVmlQOXJWbGJCRHJEOHdVSEVPQlhxYlJVY2RIdmlsYzByV0tYTzhTVC1RdjBMS3lld0JEdHgwM3ZyX0ozc0pMZ1dYSkdZazJmVmZBZkhmQnJya1g2ZzJPem1RdUhGMU4zakRtd3ZkMXppeDJMd2tKQUttaWJwTHdCLWMxU0xlQk5KRmktYlBWelBlUHlER2YwY2xjM0tQTzh5MXdyNnZXSXpNT1JCdGNZMFYxdkVkZjdkeDNHMnlITzBydA?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Efeito canetas emagrecedoras: mercado de roupa plus size encolhe no Brasil",
+      "fonte": "UOL Economia",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRFZ1Q0FSSjNxUzI5VzBCQi1STU5SMm5HNlRjbk04X2hzci1mV1hMcFdvYThtUjI3bmx1emVWSGUycDU5OWpvdU41WG5NcEgtLV9VUjliV21GS2s1eTdpTmVUSGEzcGtnaV9YNE1ZMk5HczZKY1BTVTUybVpQazlIdmtiOGF5cnc5Ml81THltdjd4U0RlQ3NnNnRkNk1NMkV1Wk5pVjZmTlRSMkh2dzM1a0FvclhnWUNNUzlxOGR5bGR0c1d5dklPMjFQVUl0aWc?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Bolsonaro está internado na UTI com abdômen obstruído, em estado estável e sem previsão de alta, diz hospital",
+      "titulo": "Bolsonaro está internado na UTI com obstrução intestinal, em estado estável e sem previsão de alta, diz hospital",
       "fonte": "O GLOBO",
       "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQdXBnRXNaSGN3b0s4WGxQc3lpWEhtX19LR2xTdGVmRWkwb05QWVNfUzhrT3BvQUNKMFpNYkcxeG1zRXBPWjJ2WldkVnFHUjFQa0tGR3FsalA4NUxPTkZtN3ZxOEIxR1Y5SWtjeFEyMjdYNmRmV19leFM2ODR4cDF6T3hLdFhtZzNBU2s3NFgxY2Y3Wno2Vy1hcGxwZjNSVFZCb21ZQ05xaHFuaDd2TUNsRjVuX3c1VnA3S1Z5YTNvOEk4R1QtdkhPVy1fQ1VmQzBwRUl3dWNkSThNOEtwVlJ3MFJKOTlacTU3dUtaYUpqUml4cWhoMzZlOGZn0gGIAkFVX3lxTE1RQmZWYnlnSzhCR2pYcmpuaF9PNHNIcFZiMTZBNGxBNXVJRFZtblRqc2t4R0xzVGo4R2RhNmIyTmlzSnBrWU0xTjFHSXE5TEpPc01hTEJBREROQkl4cm5IZE9ibmNMT1FNeFIyVUZGUktWRWVWcmpvaS1PaUkxRkVKZE5vRzZHeHNNaG9Nb2hmRGNHT3BpYXhMd2RBXzhha1ZtZDU5ekdVWmZTZ1FNY3hIbjgzazFhemxOaWtMVGdGSnpJeGRzaGMzUzh6eldKNkhwUV8wOEE5bDVaM1lkOEsyVjV2MVdqWXRrYmpRYm9NNFNsZXhTYnVuMFpoM2pQYW9TZ0NCbU5WNQ?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Lula defende pacote fiscal do governo: ‘Não é o sistema financeiro que me ensinará a dirigir o País’",
+      "titulo": "Tempestade no Rio Grande do Sul afeta 19,6 mil pessoas em 33 cidades",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQVNlS3Nubm40emRoZC1yWndrb2dDT3kwc29PVFF5SVk5YURLSzJVaWUwTmVkc0sydVpucGJDZTN1SW9yaXpldGhEdGN4Y0NpY2ZyQ2RRXzVnU3hyZ1R1czNVS2xZbi1OWElsYndLU2pGODViQmhQRWxKcG42ZjZlYlNSMkVDSzBqdkh1aXh0SHJtVTNJRy02aFdVUjkxTEREMjI4V0JHQzJaSGowakN1MVo1Y2ZzWTJWWnJ6MU9iSGRiWmY5RTNUZ09n?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Dois tornados atingem cidades do Paraná no mesmo dia, diz Simepar",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQS3A1YmdWMWFDdXhWZ2lGbmNndkEtc3V5bm12X19mRzR2ZklBYWF5cG1ReDAwcEZwQXRUbHY2TGpzWk9LTkkzNEdsMWdmOG93bU5hS3JUb0phUVFvazMweGVWSGRIWXZMakZjUDRCWlczbmdFV3U1T0tzcEcyb0FaVU9nZlZHYVp5TnJ5WmlKZ0o1OGt6Slk2UmZhdUgtNTloYmprT3J5cW1tZ1I3RjBlY0FFYngwVUZpcnQ4RmNsSVN6aGNEWENz0gHWAUFVX3lxTE9EZjhaY09XYkxTSUw5RThEc28zcGZWcDNWS2xTak51ZVVvQjlmVkZUUDhZUV9pMkhrbC1XWDRnRkM1dFZkNHhCcnJrcUdPMGhWXy1xVWxoRWo0Rzg4ZnM2NWJMOG5VMlo0dGI0Szk4SVdEOFo2UnM4VFRoTnE3dFU1ZHNVclVPZExYS0RkOVZnU3ExQVFkOWZ4RkNvd1lyYl85SXpKelRqZFptQk5xWHYxU0MyZXFwcnJsbkdkbmZKQzVCVGctS01IZEZ3TXp3Sjk5b29fYXc?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "\"O sistema financeiro não vai me ensinar a dirigir o Brasil\", diz Lula",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcTIxT3dlbFdpMHlFaXlQd3dhQlQ2cHZBaHRybWVqanBHZlpLa0MwYkk0MnJkMW5Hbm9RTjlhNXRZcFY4UEFNb0hmQ0R0bE5tMEJBcjVoeVBhaU9zZHByT3hXUkJDb0VmNDlseHJUWjViR2ZWTVRhLTVxQWd4bHBPNUFwU2pOTGk0V1psdnFkMjRQeFdnUEpELXphZlNCajg0MzFkOGxtaDhaY0ZnQ2I4WlJOSEk0cnI4T09zQnBlWFc?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "O que a Comissão Antimáfia da Itália veio ver no Brasil e o que o Congresso pode aprender com ela",
       "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeTVObDJOMjFnbzRaT2ZZaF9SV2t3X1RkN0tWdXNUWjdJMUFSVU56SDhQbEp6cFZQN1M3VDBJVGczNFplWnhkZ3F6VHJINDdua1Jkc21rU0R6WW8zanhOM0lVVHNNdVBqLWY1WVFyOUJUVXRlTWY2MFF4blN4SmZLeFdJWl95blh5M1dKUVpJSXUxMDF0ZC1mYnhvMXUxZ1E?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOU1JsVkt1RlpQVG1GNUQtTS1HdWZVX0hEMGxjTkpWYkhiTG9lQ2cwQVFuTjNKOUM3ODJvS1RYREM4a3hWbjI1dm5OdFI0R1o4R29TVXA4dnRmeXl1cWk5eW5OR2s5Q09qLXRYUktrOW5YdzNJczB3dVFYckxvS0lpenRja3Rva0FfeEhETDlQMWNJcmdMcGFmeDU3ZnI3d3RYNkhNY0tCN2hleGg3cmpaelVyV21lQ1NVTVNtVV9IR2RfdjMtZ2dEcnZ6MzZCa0RNN0RnM0xQcDh4dWgzOFM2SzI1M0tHQktCSFBvSg?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "PP oferece a Lula base fiel no Congresso e apoio a Alcolumbre",
-      "fonte": "TV Sim Brasil",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORE9tOFpvWHlvQm4xNlRJRHg4MUNuM2VGYkJhTmduRVY0MUp2TkMySUhBRzZVZjJ5NXJuMlJGNDA2NkdELVpyNEl2M0NTRF9hUURBQld3Mm5jZUJEX19HVUlJa0JtV0xaSFE2S1MwU0ZsaVlqRW9DeWgzbUxrbGZ4UnRXdWlRR2JraXNwZWlWZEZtWUt5WW5UYVF3VXJCVzlOelpmRzUzWmt4MzZSdVE?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Em busca de reeleição, Alcolumbre e Motta acenam ao Planalto, por ajuste fiscal, e à oposição, com benefício a Bolsonaro",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPa1FUM2VEOVpfMjhYMVR6V2JMc0h3dTNoNHhQazFRYk9PbFJ4RmwxalJQaE9OelZHVTNFYXVPNlV4bVlOY1liRDhqSUZtdk91eG5LMXFwbHptWURkMklZWUtVR2FkaUYwTGlrUGxYSFlPU3V2NEc0eFR6MlBqMTlySmloWkNwOFFGNjFybGRDaXB1S1lfR0Jvdmh3ZzloVE1WUGVIR1p1R0JsamZJLUd3NU5qRXR6YTVCdVJQb2o0SkdVMklxWktHV1hSREkxX1h1VmltQS1TMlR1cnFZU2tEUE5haThUSmlfZWp2cGJIdlBrY2l6SGN5NVo1a0xwV2pGWHZIUkpR0gGUAkFVX3lxTE50eFR0dzJxdnJOQWxzSkQ1UnM1d0VDaHBXazVmNW9rSm1LWHV6NFVxU203U3BGakFQVkh6UnZSd09sbWJWcGxBM2RINmVWZEtZWEdQb3F1U2IzTFNTMlppUGF3d09URmhFN25WX2pKbll2SUJaV3AzZjRobnVEOF9DOURqRUR4THdpOUNFTkhtMUdqTXFybFpJVElxXzVvUTNoVmRfbi1LbVJiLWVEa253TTBaeGVEZnpyc1FUbU04RHJrMUJPaWloZTBTeVZuZ2s2andwNlVGZXREQzQxZXAwbU5JNnlnM1ByMkZ2MG9MTWJwbnRkWW9wazUwQkNPUkVIRlZRX3BDcjk4bTA4VC0tc1EwVQ?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Lula repete 2022 e confirma Janja como coordenadora da posse presidencial",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSEVHcGhfSVNSdlZ2MVk5azZhNjBIV1ZvRmRuZjBmejVLdk11ZHZ3UUZYSTN3cF8yV0c4RG5nNVZtSDB1NFRTY2lCb25weFNMYTI1UFlnT1Q2X0ZvcmVjeWFjaG1CbDl1RmhEaTV2U2d2NU9QRjJEUnE1aExzZ1VWMnNyOG5GaEhCc1lxM00yNUV1RXVmLVJHajlDcWFPUlJIemo0dlhvWTRQUnBWeGNKeW9n?oc=5"
+      "titulo": "Os jabutis que flexibilizam regras sobre vapes no Brasil",
+      "fonte": "Nexo Jornal",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSHJWNTNtbVhuNjZ0amVKSHdSYndiZ1c0Qnd0aU5oRnFmNlFlTnI5R1JCZUk4alBIa0ZXcDF0NURCUzVKRWktaVVXTEJHNktPOEU2Zk1ES2tsdTlBX1AxY2thWU1YNFlwQmZCUkNqeGZBZnVDNmcxVHVkY1VnS0VQNmYybHJtZXJKV2k3Rmg1REVydE1jNXBQbGRlc3pjck9acXI1bDV3NA?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -371,9 +371,9 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "Lula diz que passaria faixa a Flávio Bolsonaro se tivesse perdido",
-      "fonte": "TV Sim Brasil",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNclQweE5vNVg1RUJjUExtQWVlQTRlZVN2QkM0WWRKdU1aSEhod2Vuem9UQUd5a3FkTmVnaGxmYlVpQVZHRE5uXzJZZW1aV2Nlc3p5VldsUHBNa3B6OUxrdnRQWGdreTY0c21sc3RBUWxMdTNrRl9IVW5YWGphbVNzMVRSWEFFNVA3bk5CRlpyeGQ3WXJyRTRHZnVSM0NTWGN5ZnZNZXRvQ3JQLV9YTXczdmdwMEc1UQ?oc=5"
+      "titulo": "Lula diz que passaria faixa a Flávio Bolsonaro se tivesse perdido a eleição",
+      "fonte": "R7",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbUNqcjFWRThBN3FNQ19TRllkemZfTmY0bFRJNzlMLWQtVXA1dV9MWlljZE5UbFo5c2dFYy1zZWpZQWVoSVlKT1pHRmdieUFIYzFVeUtSN2I2UWJUQmNpRDRGOTZmb2dMal9aWEVERjRMUHIwZDdYYWlOaTRVLXp0NzVKbXFLdkxfTHlkRDlDRDFLQ1pfWHJhbGt1cHNkUFFrb1NSOHpYTTdJQllXNmF3d3NvR011Snhrc1E?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,13 +1536,13 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-21T15:00:14-03:00",
+    "atualizadoEm": "2026-11-21T20:22:35-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
+      "BC ipca12",
       "BC ipcam",
       "BC igpm",
-      "BC poup",
       "BC desemp",
       "câmbio (Yahoo)",
       "Ibovespa",
@@ -1550,7 +1550,7 @@
       "12 notícias"
     ],
     "falhas": [
-      "BC ipca12: https://api.bcb.gov.br/dados/serie/bcdata.sgs.13522/dados/ultimos/1?fo…: HTTP Error 304: Not Modified",
+      "BC poup: https://api.bcb.gov.br/dados/serie/bcdata.sgs.195/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
       "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
     ]
   }
