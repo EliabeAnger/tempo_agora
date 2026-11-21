@@ -167,8 +167,8 @@
       "anterior": 167537.95,
       "minimo": 165833.3,
       "maximo": 168498.42,
-      "hora": "20/11 18h10",
-      "ts": 1795209010223
+      "hora": "20/11 23h21",
+      "ts": 1795227660532
     },
     "acoes": [
       {
@@ -249,12 +249,12 @@
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.5257,
-        "var": 0.63
+        "valor": 6.5199,
+        "var": 0.54
       }
     ],
-    "acoesTs": 1795209010223,
-    "moedasTs": 1795209010223,
+    "acoesTs": 1795227660532,
+    "moedasTs": 1795227660532,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,39 +305,39 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Ação da Anthropic cai forte após estreia e traz choque de realidade para setor de IA",
-      "fonte": "InfoMoney",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONzA1NU1wblVmM3ZNR1FOY0xfMkgwWHBLcnZfdVpOYmRuclJyOERGaEdWNjUycTJiMjFxU2x2T2FpMkJuWmt2LWROdTJoU3dlVWw0UUVFeFBYLXVsVFpVdnlqLUtEOWpWVkZnVkF4bGFHQXllb1RSdlN4Vjc0T01hcFg1aTRLUFNlOFdTWERpTFZObXo3eFg0Tk9DbzltelJkQlU5RlBhZGNaenFWN0Q2ZVVHejV5OWZRc1NPV2FHSELSAcYBQVVfeXFMTm5mcjJmX2F5eHJ2Z1N5SExabXZYc1gxdFRpdWhsTXZvbFA0OEJsN1BpVlRYcEhJeUpOeExJUTF3Z0s4amlrTFZMOV9FeHFTYjBRRUhXTVBzeGduaDB5ODFUMkU0TTJ5WkJnbzN3OFQ0YUtHeWF3V0xaaHpPWjY5UGhJbGpPaG1wMS1jYXp0S3ExSkNYZGJzN19SbWVXNm0wb3lnZ2V0ajhHTTFzWHRjOHVKRFBGcVVnYWF3SWpibTBFTzhGa09R?oc=5"
+      "titulo": "Bolsas de NY fecham em forte queda e põem índices em correção, com tombo de Anthropic e Nvidia",
+      "fonte": "UOL Economia",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaGpSSUlyWXh3dkpyUUY3eXFBQXF1VnNCaGV6Vng1aDBMdVZranB1MS16ckh4UVFZTnNBTF9mblc3S1BiOWRyVlNmS3l2Z3Q4ek5DNHlaaXlrb1JUMzdsVEppS1o1RnRlUnY1bWViT291V3pMaU5JQ0F5OGJLNWhMMVlmMkJnZWFHTWtlTlBlSHZvYU5WQThaSEg2amZrd1B3R3hLMlc2ajl0cGJFTUtVOW1ReXVmSkVNMzZMdEsxSmlCZFFsbWh3WkZSTEItZGxjX2xsZG9aTl9NZTgtdGhscXNmbHRzdDhuWjNUd0RXQmR3cHpw?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Calculadora do 13º salário 2026: veja quanto você vai receber",
-      "fonte": "Campo Grande News",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNlRUa3VlZXRHNXI0cldscHpZVHJmUy1XZzRPcEh1ZlhhUGtpOWx0c25wNDJWLUs2cGc5dmpIcHMtNXBMeHlFbWluQXdzMDVRX1BmVzFEbm5yR2thNWZkZWJNUGpRcXdjZ3hmUDdReDZhMUtDUnVwelpuN2dkWkxlZnR1WnpnZVd6R0xidWl0NDV4TFduWVNUX2FwNG1xSlpnbEZzQ0ln0gGmAUFVX3lxTE9KYWl2ZjRpQnFxQ1hsSGNNdjI5VkZiNFgtekVZX0thSVZSZk8tZlB4TjZJdTBsbWJPOXdNei1QRklBQnU1NFZTQjdZejh5bnB2akVJMnJnYnJaZDRTSmRUVUhUcTZLUGhBbVVGT2dHT0doUkdTY3hacVNjX2xJZTBaOTlRcUg4QkdzYnJ0eDlUbTVOSEFNVlRCV3ZLUklhUDdCYUFXOEE?oc=5"
+      "titulo": "Juros nos EUA e ajuste fiscal no Brasil: o que está por trás da disparada do dólar",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQVHYzNWRBSXpEbmlIcENtaUQtcjQyTjJYN3Q2Y3F1NmNtWDZEZzhhNzNoa3EwSVNPRkZpM2ZQTnl3WUNHNFFNbUNscmdlZ1dFREwxV281bEdzMkZhWVp3cU1iMUlYcjJMUWNYY3JnVXpTMHBqNUxmeDdJWlFWaC1YaG9kWWdhR2VxdG0zbFZtcU41YXZWMUk1VjN1azFpdEc2NHdvR2FYRjJTUWVhN0VDUkVSSDNJMGRLLW1qUWZyZ3BNQy1QZ2tUM29LZ1djWHlXaVdBQzloV2l6d0nSAeoBQVVfeXFMTVlteXlETlZqcWFCWFdSSWxRbWtKYUtoSDJSekF2eGhTNGNqMG81SG9FNVhveUZUSnlPYmtlRm0xRVpLcXJoNEVReDByT3k1ZDBfeDNyMUNuWFZ2M2xFVkRjYVJEMUJTTGhLT0gyY1FmWkhnLW5PaXBtSnI4aktzbF92RDktMjR0VVBmNmY2ZUJqS01RM0UtaDFSUWhScy1UR0g0cFhIRS1mS3lYZmo5NkFyVnpFUzdTRXB2N3ZtcEprVW93QVJuaWhIaG9fLU1JZzZKZVhBb3RFdHM5LVdhNEI2M2R6eDk3bk1n?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Ações de emergentes ficam próximas a “bear market” com expansão da crise de IA",
-      "fonte": "InfoMoney",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOazV6ZzF4eUo2NlFzYWF3N2ZVTHRuUXVUQnAyZHhJcE8wRUQ1ZGtMMmNZV1JobTVOMUMzSF8yZHV1eXZQdFFraHdDTzJuZUhMMXVzWjhrN1NNcU9oNk5wMzhjZTA2ZnZtRFRua1Y2N3Jma2hERU1QYVJ3d080WU1OSDRNalpoTGZhM0g0WURWOUdVcnp2cW9mYVNEZFdsYm5qNGhzSDhBUERLZnF3dzN4QVlITmZOQdIBuwFBVV95cUxQa013LXYtZDkwSFphY3pFaW00ZjVEN0NBa1dkNDFHTXRNQi01NW1WRFZJd2p2aXhTT2RNeWxIS3FyOElJeUMxcFUydU1VTHAwMEFBYllmVEdKaHpDZlFCaGp5ZzFlUW1jV3htSEtxcm94WFdCbVJ4Y29vZWlCbE5IZ2hfYW9oeUJjTVowRWZmLWVHVjZWVURtWHl3ZktWVVB5ZF91d1NzcFlmNElXWHY4bGs0U2pEcnNudXBF?oc=5"
+      "titulo": "Tombo das ações da Anthropic após estreia vira alerta para mercado de IA",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOd0NxS3pMenJydTdVdjY2ckpOekRCa0RCYkUyRmc5ODdwa3ozM2tEdTdWcE80U3NNV2dSTmJrTFJOeVBUZGo2cFZObGVsQ1dxd2lZVURaYU5MdmF5TC1VbTN1emRQWGhQTWUydUZyNjFmRWtZdmZoYWlHN2Q2d3NCV0VNbHZLaVBzTWJaNHBYUGhMYmhHblVWZEZYZ2xNakNmcEJiYUFjT2x2YVhndS1yT3FSU3FicWV6aUxRZkhsM2tPQUk?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Tempestade no RS: Mortes e destruição em Tupanciretã por supercélula",
+      "titulo": "Imagens mostram antes e depois de empresas atingidas por temporal em Tupanciretã, no RS",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPY2ZEa2lDVjhveFlYUmNMZk9jYUt1V19ISGdTYnBMZTdja2tqdW9rMzMtS2M5ZmYtMEp0eGxnWWtOSnVqb0hWWWxmWmJNZzJ3RXUtaFZCcU1IbzJxbFAyd2c0Z0NEdjktZEhMQXhQclRkckxrWTJRSG9aVWlJYUtHS1RMZkljTHpvbE16dGNzSUI1dVNuWklySlZTbDlsV1ZYWXFUTTZXRFZMLXZFX0RFMA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdEVQd18zdTNuNHJPQUttcTh0T1NRYkFtdDBBWnJXUXZUa1l5RXN5WWY1dmQyQkg4NE5oclcwMUV4YlYwOFFobGdkWmdtM3NtVWJBQVJzTEhuQnE0YUV4OGpIc3dPVkJScG4zaXlqbmMzcHE5SUcweEZtYzZKZ3FMMllBNE1SbkFRdkNRbDFSdkcwVy1QM1c2aEVMWDY1aUUzTVA1amgzSXd1OG9rUXFpN25uTkzSAcMBQVVfeXFMUE9qd2FER2hWOHV1bmw4NEllWUtrS1dYN3BQbUhJMDM0enFDSzFMb0NZVm9zTnpQY25mcElnUDJ6WGpkMmh5MDJBdko2UjNqT0d3bDk4V2pxVTIyMFdMQUhwSDNwQmpGa21aYjRNWDZhcVE2ZWk3ejlRT3JTenB4c1FZZmtaM1pXNHVkdTNZNThsb3VueEZpbEpkNV9RaUZYdm1NVTRaQzQyUTB1bkpvT0x2MzdZVHdaOFJTSHNhZ3lkRjFz?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Bolsonaro tem obstrução quase total do intestino delgado, diz médico",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRjlTSG5jYVl1T2xJcGJPNC1YQ2JwYzg0amNaZ19NY1VqT1dVZlpGdDUtU0p6REQtRDFkVW9tM283NWd2VWcwVjR0aEF4UmFOSUliTWV0TXdQTVUwTjE0VXQzOUF3WWt2MTFWTkxUWTZ4ejQtYVVZbEl1Wm5PNlV6b1BlZEYxLXBsSHBSek4zNUZvdW1FcWNWQnJiMmhGSjRNbjdxN2dEV3R5bUZ0aGFn?oc=5"
     },
     {
       "cat": "brasil",
       "titulo": "Fuvest 2027 antecipa lista de aprovados para a 2ª fase e locais de prova; veja como consultar",
       "fonte": "G1",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOQjNjdzRvOHJ3XzdBM1RUa0I2ZUVqVl9hNWh3NUtjemhEX3diN3A1b0gtQmpQUGQ5SWZEQ2IxV0dodnpiTk1iRU1JLUFNRjUtdm9xa3JJcVhjWWsyVUc4NXBNdkZwQzNDa2ZmeXV5QVVpODBPeGhONVZJLVduUlU0SEk4V2pWY0xyN19BcWY3M3FTUjNLNzF6Y0hTdW9HZDY4WHVYeC16XzhZbFRMdVpoeVI5OTFJTWhUMDFSU04ycWFRX1dScjUxS1BwR1FpdmRwRzNLRkFUS2c5aE00Z0RxZjZzMDVWd9IB9AFBVV95cUxNdHBiSTFBeFZnMUNHeFRWN3lPdHZQTFBkamdkNkkyNmllWndTUWFxUW1TZVJfSG42WHdGR0ZwcENxWHlyVk9VUFhfbFhnaG1hMlRGVTdMazk4TEhOWmt6bmZfUVNOYVQ3NHg5VnhlU0s4a25vMzJrX3M1SnBXbnpKcHR1OC1KSmE5LWdpRGxOOGRMOWFzYXg2cmdYT2hnbzZCTmR5LUdUN1ItaTl3T2RVRUs3WExCWGl2blFoLWhtZ2VSQW5MZlEtcmVIQXRIUWZ0SHZkUC1UUjlZNy1NMVRjczlYOXNLNm50a0UyeVJ5S0dMOGIt?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Bolsonaro é levado a hospital após sentir dores abdominais",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNa2VFWEtkYk9NSzBxYS1tQmZIdUZmaXBCbll2a1ZLUVRDeW5ZSHRNVG1xNE42VklBdTBmSEt5RXk2Ukd2MXZLRVkzaTNSLVVLQ3hRWUkwYlJicXBSdDg3MVJxZUZRUVZtVnE2dFJub3c4LVRCc2VCNUNoZlVPVElabTN1clNmMi0xd25GampsZFhCWmZySkc2T2YwckRLSHhSTVFLbNIBswFBVV95cUxOTVpILXVfZU1RTlFoazdEbmQtZU9QYzM5ZWhYTThGQ09uaFZVenZJaUZNTFdsbVNWR0V5Si1Fb3JMT0JZTXJLMjUxb2oxVlpFRGNlREprel9ZRVcwRmF3Rkx5cWNJQXFIaWVVb3oxUWNVV1RfeGg0QlpoSmdXMGpJTjltRzNUZ1VxcVR2WTFJY2EzLU9FOGhxS0RoUUg4XzVwYUMxQTVfVTdWMGhDanlLN2psZw?oc=5"
     },
     {
       "cat": "politica",
@@ -347,15 +347,15 @@
     },
     {
       "cat": "politica",
-      "titulo": "Consciência Negra: Congresso tem ao menos 57 propostas de inclusão",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQT09BLVE3ZkhVUWx6a0c1amRPTGcxalJzaVdqR252Rk94eW5yelZPWUNRdUNYdldXaVdycHVjNXdYUGVaYVU2Z2o1Y3BSMmcta2c0M3ozak5OT1V4cDUxd29BMnlpZXk4RzRkRXljZTIxMDdWWE1rNTlpZTlZLUpZNEFqeER3SkVRb2FTb0x6Ui1xUHpncXI1OWRXbUk1clN2ZFRYR1ZsNA?oc=5"
+      "titulo": "O que a Comissão Antimáfia da Itália veio ver no Brasil e o que o Congresso pode aprender com ela",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOU1JsVkt1RlpQVG1GNUQtTS1HdWZVX0hEMGxjTkpWYkhiTG9lQ2cwQVFuTjNKOUM3ODJvS1RYREM4a3hWbjI1dm5OdFI0R1o4R29TVXA4dnRmeXl1cWk5eW5OR2s5Q09qLXRYUktrOW5YdzNJczB3dVFYckxvS0lpenRja3Rva0FfeEhETDlQMWNJcmdMcGFmeDU3ZnI3d3RYNkhNY0tCN2hleGg3cmpaelVyV21lQ1NVTVNtVV9IR2RfdjMtZ2dEcnZ6MzZCa0RNN0RnM0xQcDh4dWgzOFM2SzI1M0tHQktCSFBvSg?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Benedita e Paim: lideranças negras se despedem do Congresso após 40 anos",
-      "fonte": "VEJA",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVjFWTUMyc0paLWZrM2ZzRTVoMTd1bEY2Y2kzQXE5VDAxWWV0azdRVnlaMDd3Si1Zd2JiNjYtZlQyd3FMSEtlUEdKRzJta0ZQX3VqcFRqUGZ0NjBMem5YQmFaVEE5dEM4NVduUjVBREdfVHk3SU0zV3g4RGoyNG5tTkF2d1dfRG03bmZzWHRYZks2RmI5QnlMTE5nWWZrVlVxY0xEV0I5RkZxcEU?oc=5"
+      "titulo": "Consciência Negra: Congresso tem ao menos 57 propostas de inclusão",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQT09BLVE3ZkhVUWx6a0c1amRPTGcxalJzaVdqR252Rk94eW5yelZPWUNRdUNYdldXaVdycHVjNXdYUGVaYVU2Z2o1Y3BSMmcta2c0M3ozak5OT1V4cDUxd29BMnlpZXk4RzRkRXljZTIxMDdWWE1rNTlpZTlZLUpZNEFqeER3SkVRb2FTb0x6Ui1xUHpncXI1OWRXbUk1clN2ZFRYR1ZsNA?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -1536,13 +1536,14 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-20T18:10:11-03:00",
+    "atualizadoEm": "2026-11-20T23:21:02-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
       "BC ipca12",
       "BC ipcam",
       "BC igpm",
+      "BC poup",
       "BC desemp",
       "câmbio (Yahoo)",
       "Ibovespa",
@@ -1550,7 +1551,6 @@
       "12 notícias"
     ],
     "falhas": [
-      "BC poup: https://api.bcb.gov.br/dados/serie/bcdata.sgs.195/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
       "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
     ]
   }
