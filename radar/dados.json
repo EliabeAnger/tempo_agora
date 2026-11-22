@@ -167,8 +167,8 @@
       "anterior": 167538.0,
       "minimo": 166376.44,
       "maximo": 166376.44,
-      "hora": "22/11 12h22",
-      "ts": 1795360979245
+      "hora": "22/11 18h50",
+      "ts": 1795384214631
     },
     "acoes": [
       {
@@ -253,8 +253,8 @@
         "var": 0.54
       }
     ],
-    "acoesTs": 1795360979245,
-    "moedasTs": 1795360979245,
+    "acoesTs": 1795384214631,
+    "moedasTs": 1795384214631,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,39 +305,45 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Mega da Virada: apostar em mais números ou participar de bolões aumenta as chances? Entenda",
-      "fonte": "Extra online",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPbkhmZmZ3ZFZ2MktWVnhGOHh6UWVGUkx2elFXaDhsMUtPWDMxdEs2eE5HakJGams0YnhIelRWU29KZUtkRHZOTjduMThTSVdSU1cwdGtZQlY4Y2V2N09KVlZjZVBhbmdmYmVuYmxUQVdyR1BwRzM5S1M4ZE9YNWdoYTNOdzJ6a1ludUZqejdFeDVPSE85Skg5OUVBb190Zk90cHIxUW1PaC1OTWFXdWdlb0lzTUI1bXl6emhSNm5Ra241OXNoLWgxTkpvbHUtZWpRT3d0R0FhNXV4MVhN0gHrAUFVX3lxTFBJRnBFdjZsLUlxQWU3LUhuX0tBQUdDNHNCdDU3YlNrWFFrMnEwOGkyN1JybUVNc3dJczh5ZHFCejJlMVBHeExVcFh0R2sxRzgxaU5RWmFFUUJsc2EtckN6TVpHYWhGRXNqek1rN1BVTE5oLWwxQy1fcFRYSEJ3SnNWb0pxZTE4bXBCb0N4V3MyVTlsdTZWS1hudUlxWFk3TmVYelI4alVsYlFVNTQ0b013NzFQMGI1THNzTGpfRjNKb3o2NlBtTHA2MTM2dXo1TmJEN1hxaVQ2R1JyMTFDQTZ3TXhITUlHSVRZZVE?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Mega-Sena 3089: confira os números sorteados",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSUFrd2pjcEVDay1WZ01TTV9QV25WbWFpbzA2X0xoQTZ3dXAzQVNYMjhjemhXZ1FpVm55UkxNaF9BZVdQSVBMZFgtZElQb2pZZE1zZEpDclRpS3pDNFBMdDRTaVlJRTNJMTlrUUc1ZXRmQVFMTXVHcEU1UGZZd3U2NktBdDByZTRkVER6R2Ntc212VG5NS00tNXh5SnI2TDJpS2Z5d0NEWWQydlRK0gG7AUFVX3lxTE1uUHpRYlhpcUkzc2dBVVFXR1pkcTYwcWNUZkhZd2pZQ1JlQ1ZreERCZVVtREFhcDVQTzdObHBWb2FHMDROUXVxbmlJZURNdFFUd21vZjMzc3hHM3BFY3lJUlYtd2hYdFZyZy1xa1pYdWdQemIyQVBGdE9INmFTRU9lUUJDWU1nN1U1NXJQVlBVSDRrNHIyWWQzMTQ5ZXR3OWFRNE0zTzVvMmhLbWl4Uml3NS1QRlNCbzRkbFU?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "13º salário na conta: como decidir entre pagar dívidas, investir ou aproveitar as compras",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOeWwyLVo1bV84ZnRQa01PRGJ5MVJDRl9ldjVaX3BrT1UzaWpvZGVWYmJvVDh5UmJXSmxEcDh6eURFSGxPLTZVajVrNkppczh6bWdYOFJvVFMyWHVaN09jRWNlMnBXQ2EyVkRqUW1jRXktQjhRcTgtSV9jSVJRak9CekFCc3BkODhIb1daZjAyTTBjSU43MzJ6UnhnQ1lZVkFuSFFOQmw3dXhNaDhVeVB1VVlCOUJyYlJFbWQ5aW95QjhkYVVYOURGY0c0M3hHSjVFaXJHUlJscU9POVdI0gHrAUFVX3lxTE5YczZ1OE5rV3RSaGFNR2FNbzgwamMyVHFwOFNKTnRQTzIwZjFsanFzSExaeXBQUHA2b29IdWxESzF3NVFrZ2ZLODh6em10LXNNUHl1SjZ4c0tCN2hSUEdGZTNMT19LY0tGZU1ZNVJjWUY4a2czdVNlSWswZjg4bmx5V2ZaWndBTHJvYy1KSERTclNzMjk4NUdRejRJcW56NFFLZTVoYlVvNi0ydlVYejNLdndXdzgtcmZ6N1I0cElTeUh2ZHZoa091Y2ZpdGVLeTE3Z2trcW1waTlPckFxUmltcW01emdoYzUzUXM?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Após viagem, Michelle vai a hospital em que Bolsonaro está internado",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdXI1VkdSd002c3RhXzdKVUFMMGFHOFZVYVlWWjRSdmpYR1NUSWNKUWJYSjR0bmZpRE4tMDMzRDN5aV9BZ1RHbWN0QnFtY0Iweld3Q3B3elhlZlR2WFVXeHJ5dElsZ0V1cWpCdGlORmNXTTQzZnRKZ2ctSE9VNUl4VVdnY2FkZENyMlZTN25JLTYzczcyUHJaQ2ZhUXlaZ08tRFQtQzlPOFJRM1Vl?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "PF cita risco de ataques e quer blindado de R$ 3,8 milhões para Presidência",
-      "fonte": "UOL",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNd3Q4Wl85Zk9JOXVzTjRUcFJUd0pUT0ZNcFVWRTcxTjJTQ1dfWnV0c0R0YXE4NE4xMFdkX0REeER4a0RYTnJkb19DRE5UeG1RUmVYYmtRTDl6ZnFRcXNOZ055UTBRUWJINEZiUzF4Y2NVSWJrWWFJYlIyeGx1U3FPMF9Vci14eXZxZEQxV21pekNLdEJTWnFJVjhub05oQy1iQ1hfUTIxZHQ1UnNaMEtFTnBjSllvR2NBUUU2ZFg0bFVETVRPdlRiRWtVWQ?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "União Europeia diz que vai rejeitar acordo final e presidente da COP31 admite fracasso nas negociações por acordo climático: 'Fizemos o melhor'",
+      "titulo": "Mega-Sena sorteia prêmio de R$ 43,1 milhões neste domingo; confira as dezenas",
       "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNN3JCY2JvcngtOS1uVVZfRmpXaW9xZXdQQ2VaYTlDVW41ZGExQjdMQlhfVlR4Z2lLeWVIYnNqQmFnMEE1VEN4Nm5NQ3g2bnF1WHB2VFhHbjFJQ3NCZlNFSjdycG1TMW80MmJzVEpET1JtYnlaN2hEb3JjUzdXRjVkS2dLSVY3V0k4UHBaZHN4TTBVZWRzeFBIX01HdUtUMGVkQnB3MEw0aHFvNE1NdXVCNXQtVEQ1bnJkTm44U2FtSHNyeHNnUnVrbDV0dTRzM1ljUTVWdDdLVExSd3cyWV9sTGZxQnZOdzdpOTBGSEFiQ2JiY2FyMmwzZzl3MUJZRExPdTVMYzk0S1oyR2ZSMGk3U2V30gGgAkFVX3lxTFAzaFhRZThqd09aSDQtZVpxWjFNV192TGNjRXNhWHdOM2NpT0lWUkQ0NFIzQmx1MTBzQ3ZNdjhMX19lOEs1YjRwRlYzSVFMTlpjQjZWaS1hWXNFejhtQlNHS3pxTXNCUGpOUmtYMVJRekl6eExfZlMxbFBlVS1NVkhuS3dtdWxKQ21wTzRYd1YxRGZhN2d3ZjhpaDdDWlp3OENZdVFFWHZWVUVhUDlvbFBNTUFNblhodG52RC1qUEFaNWdmYk5ZYmVzYURGOExqSlY3azhSR3VIZ1pTODFqRjR5cUtULUxoSC1nNGtuUzlBQWRFRGFncDBZSTM5OVRNaFYxV3I1X3RDRXRXUmd1YXRUOXZ5VzlVN2Z6dFpCS1hJRA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObFlibDlCU3Q0Qmczc1RnUUhXZWUwSVVDZ3NrbWE2QW5admlkSFk1c0xhdGN6bVhsNG9KOUhaazJJUnBORDQ3dEkwUmhYMGVQZ3FJLWtmcXE2bTh4UW1tZ1JBY2FGUTZKUGllZDBydWM1MzYzbXFoV1dKQTA0aXpPSUlROUVNWU1aT1Zpd2FxLWhFV19xVXMxZDA5LTd3OU45MGJtelNDVHRGT3FOelh1STFXeDhrLW13S2R3eEhNRnNNaWptWDVvbHdqcHIzQdIB3AFBVV95cUxOSmtpeEUtdlNoVkNwTW9jYXE0aHQ2Qzh4Y1NreU1WRTF5RVJmUG83TDRWcTNqMXdfVjNmQWxKZ0h5elhHYzVjZ2s5aWZpMmlCelU4ZjFsZ1ZPanl1ekJaOElKSl8zeVNKeUJYbXJWQWVEQzJ1aTRoc2Z3ZmZDVnotUFVhSXdocEt2ZVZYbUZEOWtFZDF3MU1KS2I4ZmFzRnp2U0dmRjRhY1c5RGhrVjNRd2tvcVBCYWNaamcxMFdiandmNTRoWktnbVpTam5iSmZnNUpBSVFZcTBVNDdw?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "13º pode render mais em 2026 com novas regras do IR. Calcule seu benefício",
+      "fonte": "Metrópoles",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9kdHpPeVRYN1BJUGx2cWt3V2x0MjlBdm5zdWlCNnRJejFhN2w2andtSWdjdW5ETGpVVFJnYlZJWl9KOENIWjZFMmtVUEpQWDdTN1NVRGJYd1Z2R3Azb3NpUWk0X2hadksybW5Sdy1CVV9iMzJxNjlSaGhqdGFZQQ?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Cresce pressão por substituição de Tarciana Medeiros no BB",
+      "fonte": "Gazeta do Povo",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZ2J0Z2tReC1kbXdPZGN0bEtEM29UM0Q3bVcxY3hvN1pMUHVEczlfcjEta0xXYmJzTTdnUTRVRWl2YnlWUnhJVV91LW1CUHNXQ3k0NlduWEw3XzNkZDR1Sl9YZ2s1X3pERDNCWXVjQ0xDZVU0WGI1RnRUZnRRUHBRX29xV2M5U0pQX3hZTW5laFdCTFpmTy1Hb0llU3BJVFlJUGNJZ1pVNDZfS1U1MDE1bWtvRi1pbWZtNXN3?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "COP31 termina sem acordo após impasse sobre combustíveis fósseis",
+      "fonte": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE43NWtUdzJNN3RrSTNmSHlSbHN5ZmpuTXlaRFUwUVhtWmpaMGtqaW9LcGZqb0FGb0duLUFEZVFEd3p0SmVCTnNKbk5rZGJLVG5TTXA5MERXbm4zWXNNUnpvcHVFa9IBaEFVX3lxTE9FTkpQYWVObW1NQ1Z4anB1c3dfMGFfVEFWOVhZbzN4WE5RY25WcVl0QTFyUUdlVkZrbnRqZFRGZEdjQ0k0a3JrWnF1QWNSNnQwTEZmODdBcmFmZWlGaS1yYm95TjRzSnVX?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "'Em questão de 20 minutos devastou tudo', diz homem resgatado de escombros após temporal em Tupanciretã, no RS",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWnFKSENHWXRuaVZGTk1SRkJGNzVmLXBES3VrOW92R1liaVp6M3daSlVVT1Z6dml5dU91XzV4Y2tkT1U4WTNjRUhVNlVLb2w1QXNHUjNmMEk3cXFaLXVWeGNXLXZEQ1h4YWlueDc4WlhKSk0yanVNeWIzcDAyZUlXMGF2YktCVG1INVlwVGhaNUFOcGtzQUcwd0lSaU9oLUtyTm400gGyAUFVX3lxTE9KQUJLQ3NLRnNGYVFnQ3RvdGwxQkMwX2ZYLWxNUC10amZfMU1PSk9QZWRadGdVZEh0Y3VwOHNWYklDaVBTT1VZV3FsSG9KYUxqcW4zTU1sYTlCa0FBMVNmaFBicGEwdzRHaFk3QW5WRWJaOGxDM2Y0NG1qZDlhX2FfY3N5R0VEeTVXcWRJNVlKR2c0Q0ppb1duYjhiM0hmeXVtYjZWem9iOEZUblJLWGJITVE?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "‘Ele está com uma cara boa’, diz Michelle ao visitar Bolsonaro na UTI",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNU0RiTzlXdkx4cTZtR25wdVhHUmFOdlBjaW41QXhuaGdBWkZGZ2NXWXpqUFZuREJBS0pSTVdfYzZJQmVyNFhJOW12NjNCUzhIbTUtT0FfemVuUTFzbDM5RjJzSWdYMU82d3J6N0lhZE5FNmY2RHNpUkxXdm5sQktvRVB4X2tFU280TU5PTENzM3hjZUE0LWdUYWY2al8zdzFLZGpEdkFZZjZVUDDSAbABQVVfeXFMTmNiQzFoU21zNU9WdXV3a2dFWU1XWEVFdEVvQXAxZmExZlV4dXVZZmN6N0h6d3d6bVF4V2xZWVVRNzZ4dFdaaUtxckZFdUdmaFRBMG5uODdVWElsaGFoclVaTmZDYV9XODRDVFFmTGgtbDFpdER3RXlPYzUtWENpeTNGbDNPdmh1NkVRNWdsZjVaUDI0UlBRSTdBb0NodXM2UWRjbU5odWhpV1JQWlZuRjU?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Governo estuda enviar ao Congresso projeto para acabar com supersalários no serviço público",
+      "fonte": "CBN",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbV96WFNTd3NuS1ZYckZTZ2dtNlB0R3lrMk1UampNSFE1eWFmV1JMSC1uY0tkNlpoclNybS1nUmNEMjZpRURlQVZpb0xWWWdNZzdyZzVQbXdldXgzYWtSQXNOd3R6N0pOSTF3OUtPNG1teWU4ZWpJYlQwbUxqMXdocjFodm1HWEVXdlh6WHlESXVOUTZXaTV1ajNQM2c2VXYxUVRuZDVaaTgyXzRtNGI4TUVrbmRPVFU2Q0V5TXhXbl9BZkJ1enlJaG5mSVVhSk9GZndiSnVYMUprLUJCZ0VsRdIB7wFBVV95cUxOQzYxSnUwYzg1bTNDa05hXzZfaUxNTWc5dENGQ0tBV2ROX01ZcF9NdXpHaWVoQS1RQldZZ1pyS2k2TG05dUI3VVBfWmNQZkpUSjZ6TDRoaUEyRU4xcTBabTdlOWVJQTM0cXk2a2RaOEpKdV9lN1ZpVWdyVXZSWW1xcUFoU3V2TDFURi1uXy05bFh3WWJFMkJuODdveE1ZYzZ3LXpaMHNtaUdoVUR1emxpSDFkSWZJaUR0VUpoanQta3JFWW9WMmdXelhjYl8ySlJxQllhbkhJbXI5eVAwelM2VjJCN0JPYXZxZ2RiZ2Nhbw?oc=5"
     },
     {
       "cat": "politica",
@@ -352,12 +358,6 @@
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSFFKSi1TVWJOSnR2VWdpVGVIcHBoYjF6eC0zbHNac19aWmJ2eWpTWmxFRlZaWFh5VU5VQnViWHNkdEZiQ3hGVThxZl8tZHdXTkZrYXV0dGtFMWQ3UHFoVWpTZk5TN0x4RDg5X21oS0h4Wl9CdDM4M0l1OWVoXzFtUjNWa0oyaHZQOFI5S3hsLVJPSTBDVDROdjBUUU5PT3BaN3FTbHFVQzgyc3cyNjU5N3pHVDhfM09DZk5PM1FHdHhCal80emZEUnhFZThkUQ?oc=5"
     },
     {
-      "cat": "politica",
-      "titulo": "Voto distrital tem 66 anos de tentativas frustradas e enfrenta nova resistência no Congresso",
-      "fonte": "Diário do Nordeste",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOUFJRcVYtM2M1LUMtS3ZLOHpIZEg2WWhueVlpQ2Y1N2pTb2hHYnpreDZlT3QyZFRONFJqVVJRVGVzY04waHVwUWdjOEpmeDlZM0NrSmNwVFNjd2FyOWFseENzMmJPZDd0YVZOekxVc0FqaWVzTmJ2RVgyR2htT2toWF8xSHZwUGpTRWRUbFVKcW5IMVY1V0xKSHB1LUdNRmdHU1B1REFnQUlKcjJhbFlUdXVwalVsZFE4MUZCQnhrQlh2cjE0cFBjSEtMVDBVcnZwTGNZLTRNb0JwcnBLeThCd1NlQnZ3dllmN0Y2NVVR?oc=5"
-    },
-    {
       "cat": "eleicoes",
       "titulo": "Lula diz que entregaria faixa presidencial a Flávio Bolsonaro se perdesse eleição",
       "fonte": "Gazeta do Paraná",
@@ -365,15 +365,15 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "Afronta a Lula expõe disputa pelo futuro do PT",
-      "fonte": "Correio do Povo Penedo",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOWpWQlBid3NBTlBIa2hUaG1GSTc3LUQyaUk2S3UxRk12M1FUbk95OXhrSVgtcU54TFBORm5VWE5US3hwX3Eyb2tCVlRRdWhkOHJ5N2cwNHF2MUZ0dkkySlNUOWhfTUp4Q1IxY1I1WVhfQi1pVld4MVh4QkNMaEVUdmRJTDBmRUZpYUFtSU9wa0ZKdk5PZktlTlJWNFg?oc=5"
-    },
-    {
-      "cat": "eleicoes",
       "titulo": "\"Se eu perdesse as eleições, eu iria entregar a faixa\", diz Lula",
       "fonte": "Congresso em Foco",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPck5yZTgycHF6YXdFc29ySF96YW5naFkzeTZXb0JHRjJUTzN2aFFfc2FRb1Z4eGtISnpOWjBYeGtfVFYwMVJQTEgwOHFGR0NVZzlFRVUwWWRWWGF1N2NJc0ZrV2hZQy1Oc05mYVVJWXA5UjRxbmY0bm9adHU0STdyd2JNcTdUaXpxeWw4NzNnNG1JdThhOGVtVVlqblFBM1I0LTJkUGFqSzkzeHNKSm10dA?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "Lula diz que passaria faixa a Flávio se perdesse eleição",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNR1FOSHg3UmNabzBLU1VXcWNoc1pzdmNuVEJQTjRRbHFJMWV2R2IzYnpoaWRkb2FUZ0VpRXFtakNNY1FlZlhFVER1OTNvUEpSVm1CZ0hLd1Y2Y2N2UWtCWTJWZWd6MUVxTWpxOHEwM2o4VWpNYm9uZWRKZGhqQVpYZzJfbnctN3RXWDlxYXA3bXJzRjNDQUR0QkZCZE1jTnpM?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,13 +1536,12 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-22T12:23:00-03:00",
+    "atualizadoEm": "2026-11-22T18:50:16-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
       "BC ipca12",
       "BC ipcam",
-      "BC igpm",
       "BC desemp",
       "câmbio (Yahoo)",
       "Ibovespa",
@@ -1550,6 +1549,7 @@
       "12 notícias"
     ],
     "falhas": [
+      "BC igpm: https://api.bcb.gov.br/dados/serie/bcdata.sgs.189/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
       "BC poup: https://api.bcb.gov.br/dados/serie/bcdata.sgs.195/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
       "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
     ]
