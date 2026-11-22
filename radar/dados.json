@@ -167,8 +167,8 @@
       "anterior": 167538.0,
       "minimo": 165833.3,
       "maximo": 168498.42,
-      "hora": "21/11 20h22",
-      "ts": 1795303352708
+      "hora": "22/11 03h55",
+      "ts": 1795330518038
     },
     "acoes": [
       {
@@ -253,8 +253,8 @@
         "var": 0.54
       }
     ],
-    "acoesTs": 1795303352708,
-    "moedasTs": 1795303352708,
+    "acoesTs": 1795330518038,
+    "moedasTs": 1795330518038,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,9 +305,15 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "The Economist: Brasil lidera corrida da América Latina para virar polo global de data centers",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbTQ1SGlXVWRqUUFpNVIxdmh5akR1Q0c4ejZ5anJ2WnpWNkhOb0xfdVZMRzc0ZXppM2FJNVRSc2U3NEEzRFFJVnN1R3hpbmM2UG9BWE5SQzdyWExldjRWeU5SbUtVajlpc2lEVmdfcUVkVDd2TFNaNjBKbEhjVEF3WHEtZGw0cURYLWd0NGhRN2h0OG1LNVQ5MEduZFhIZnVIbHZZUmFWME1mZjNZeFA4bDhSNmNuM29uUzUxUHp4YW1HQ0VGRDVwSA?oc=5"
+      "titulo": "Brasil disputa liderança na atração de data centers, diz The Economist",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeWFad3RXQVVYY1A3WGdSejJjcFNGeUxPRDAzRVVucU8xNlA2azJmeXkxbkV3OGVMamltaXhmV2xaOS1NNXYxNWFqTWhsNDZDU0Fxalg3YXAxZll6QktiQnpORXo4X0s5Y2NYVmRYYWN2dE5haWVBS1ZmQmFILURNVUFON3RjYUNnYjJZNkRCTTllUFF2dVJibHI0UEEwTndmWUhSVVNWUjB5RkdETUJ0MzFqcUJMVGM5OXlJdGhOcGtUNW8?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Queda das ações em Wall Street reacende dúvidas sobre o fôlego do rali da IA",
+      "fonte": "Valor Econômico",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdzJjQlQ4YWJlS3dTNEtTUlFIajd0UDVJX2JkT0pYWVVNZlNjRzBFeDJyeGhDNkRwUVFNX0FvVk8wQnJFUkd6ZWU3NF9IbDdSUHFsbjRucXBrMDhlZ0drb0JzZVR4NUR0SHloclM5dkRjdXRHaktnRWdTWUxFcDlSZTMwMTNuMklOTTVSTEM2SzRjS0g2emhLUG5hczBVaDdxZlZtZUJESFdtZzA0RVNhTF9YXzFEVGw5bzhnc0czTzVkeUxGbWp0OWlSRE9kNzRnVC1F0gHiAUFVX3lxTFBob0xyNElPeHhJTWJuaGo3MW0wbXgtWlRYcU9sVTVZT3RaRWVoWHZuTTVOaGNwTWdfUEZnVm5aWHlBLUZyazVOX2FRZXlucmIxNFFxTTgtb1F3SGJCZXNXd2ZsRXljSk15YmwxRTNLOGJQS1IxUDJGTVNWaS1nMG1kVEd1aldfR21PaTZNSUhmTjcxVFVoWHU3SFBwajdOeUxmNFBoekl4THdYaEhUeGxXc09WY1g5VU9PUUVJbmRPeUxhaEtlWkJoT21LUlp0SnFnQzloTFpJc2VJcHJvMmh4dFE?oc=5"
     },
     {
       "cat": "economia",
@@ -316,16 +322,10 @@
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNVRoQl9sQTg0T0RYeDl4Z0tKN1JVM0FiZGZYeHZmVmlQOXJWbGJCRHJEOHdVSEVPQlhxYlJVY2RIdmlsYzByV0tYTzhTVC1RdjBMS3lld0JEdHgwM3ZyX0ozc0pMZ1dYSkdZazJmVmZBZkhmQnJya1g2ZzJPem1RdUhGMU4zakRtd3ZkMXppeDJMd2tKQUttaWJwTHdCLWMxU0xlQk5KRmktYlBWelBlUHlER2YwY2xjM0tQTzh5MXdyNnZXSXpNT1JCdGNZMFYxdkVkZjdkeDNHMnlITzBydA?oc=5"
     },
     {
-      "cat": "economia",
-      "titulo": "Efeito canetas emagrecedoras: mercado de roupa plus size encolhe no Brasil",
-      "fonte": "UOL Economia",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRFZ1Q0FSSjNxUzI5VzBCQi1STU5SMm5HNlRjbk04X2hzci1mV1hMcFdvYThtUjI3bmx1emVWSGUycDU5OWpvdU41WG5NcEgtLV9VUjliV21GS2s1eTdpTmVUSGEzcGtnaV9YNE1ZMk5HczZKY1BTVTUybVpQazlIdmtiOGF5cnc5Ml81THltdjd4U0RlQ3NnNnRkNk1NMkV1Wk5pVjZmTlRSMkh2dzM1a0FvclhnWUNNUzlxOGR5bGR0c1d5dklPMjFQVUl0aWc?oc=5"
-    },
-    {
       "cat": "brasil",
-      "titulo": "Bolsonaro está internado na UTI com obstrução intestinal, em estado estável e sem previsão de alta, diz hospital",
+      "titulo": "Michelle visita Bolsonaro no hospital após voltar de viagem ao exterior",
       "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQdXBnRXNaSGN3b0s4WGxQc3lpWEhtX19LR2xTdGVmRWkwb05QWVNfUzhrT3BvQUNKMFpNYkcxeG1zRXBPWjJ2WldkVnFHUjFQa0tGR3FsalA4NUxPTkZtN3ZxOEIxR1Y5SWtjeFEyMjdYNmRmV19leFM2ODR4cDF6T3hLdFhtZzNBU2s3NFgxY2Y3Wno2Vy1hcGxwZjNSVFZCb21ZQ05xaHFuaDd2TUNsRjVuX3c1VnA3S1Z5YTNvOEk4R1QtdkhPVy1fQ1VmQzBwRUl3dWNkSThNOEtwVlJ3MFJKOTlacTU3dUtaYUpqUml4cWhoMzZlOGZn0gGIAkFVX3lxTE1RQmZWYnlnSzhCR2pYcmpuaF9PNHNIcFZiMTZBNGxBNXVJRFZtblRqc2t4R0xzVGo4R2RhNmIyTmlzSnBrWU0xTjFHSXE5TEpPc01hTEJBREROQkl4cm5IZE9ibmNMT1FNeFIyVUZGUktWRWVWcmpvaS1PaUkxRkVKZE5vRzZHeHNNaG9Nb2hmRGNHT3BpYXhMd2RBXzhha1ZtZDU5ekdVWmZTZ1FNY3hIbjgzazFhemxOaWtMVGdGSnpJeGRzaGMzUzh6eldKNkhwUV8wOEE5bDVaM1lkOEsyVjV2MVdqWXRrYmpRYm9NNFNsZXhTYnVuMFpoM2pQYW9TZ0NCbU5WNQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbDN1U29EZ0hpM2hsMjdhaGYxZFBFQXIzbzRaWjI3VTFuakxfZVJad0kwdkVaU1M5aFpsTTVSRzVOMlk4NUJHNlNmOGx0aUF4cUtVaFNLRnRSOUhha2lLaGthT1BRblZPcGVfUmlzTlVkdVoxQm9HYXRfdVU5bHhNX0kzSTBHX0M4dkQ0bG12X1kweUhUc1U0alFwbG4tdVF3eURTamxpN0lJclI0dGxCVUU4NzJCZWttZmxvc2Fya25LQWxDb3BHNEFB0gHYAUFVX3lxTE1vVF83dW1ESmJURXVRSGJGcXpMSUFWQ2xsbjg1NjNlejFXakFoMFU1THNCRnYyUk1TY285ZXdFc1Q2bjNZYlJENUZkWWdFNlNIWHVsSmJZUlV3MG5Vb0twSk1RWTVkM2JYX0ItQWppWlRtWktjaE5mMHlZazY4WVh1M2pBYTZqMDF5WDk1R1BOSHRVa3paT2pFTGtWTENNQ0pSUi1YUGRGdWVhR1gyUjFwYmdBd1F2UkVQckRFN1J4bFpSMVZMbmpPN2J2Y0JIUlNEWDFiWVlfdg?oc=5"
     },
     {
       "cat": "brasil",
@@ -347,15 +347,15 @@
     },
     {
       "cat": "politica",
-      "titulo": "O que a Comissão Antimáfia da Itália veio ver no Brasil e o que o Congresso pode aprender com ela",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOU1JsVkt1RlpQVG1GNUQtTS1HdWZVX0hEMGxjTkpWYkhiTG9lQ2cwQVFuTjNKOUM3ODJvS1RYREM4a3hWbjI1dm5OdFI0R1o4R29TVXA4dnRmeXl1cWk5eW5OR2s5Q09qLXRYUktrOW5YdzNJczB3dVFYckxvS0lpenRja3Rva0FfeEhETDlQMWNJcmdMcGFmeDU3ZnI3d3RYNkhNY0tCN2hleGg3cmpaelVyV21lQ1NVTVNtVV9IR2RfdjMtZ2dEcnZ6MzZCa0RNN0RnM0xQcDh4dWgzOFM2SzI1M0tHQktCSFBvSg?oc=5"
+      "titulo": "Seria um dado irreparável, diz integrante do Cidadania sobre fim do partido",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeElnd0owQ0dHczJJdjlMYkJtdHhpandkQ3JvWFBUaWZGRU5vZGRWdHJfMXA4LXhYa2VhZ3BFcFhieEhWRHZfWkZxTjlhOHRzb19yd2pXQkZ0Y05JZ2wtbjBTTHA2NlVzSWJ6eWdUYXJKMzJFYk9BSVNQWU94ZWs5Q3pKUndoSHdwNExmTldwSF8zT0xjTTY3N0JMbG52OE5ubjh2cDBfYzhnRHp6R09OZHFfNA?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Os jabutis que flexibilizam regras sobre vapes no Brasil",
-      "fonte": "Nexo Jornal",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSHJWNTNtbVhuNjZ0amVKSHdSYndiZ1c0Qnd0aU5oRnFmNlFlTnI5R1JCZUk4alBIa0ZXcDF0NURCUzVKRWktaVVXTEJHNktPOEU2Zk1ES2tsdTlBX1AxY2thWU1YNFlwQmZCUkNqeGZBZnVDNmcxVHVkY1VnS0VQNmYybHJtZXJKV2k3Rmg1REVydE1jNXBQbGRlc3pjck9acXI1bDV3NA?oc=5"
+      "titulo": "O que a Comissão Antimáfia da Itália veio ver no Brasil e o que o Congresso pode aprender com ela",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOU1JsVkt1RlpQVG1GNUQtTS1HdWZVX0hEMGxjTkpWYkhiTG9lQ2cwQVFuTjNKOUM3ODJvS1RYREM4a3hWbjI1dm5OdFI0R1o4R29TVXA4dnRmeXl1cWk5eW5OR2s5Q09qLXRYUktrOW5YdzNJczB3dVFYckxvS0lpenRja3Rva0FfeEhETDlQMWNJcmdMcGFmeDU3ZnI3d3RYNkhNY0tCN2hleGg3cmpaelVyV21lQ1NVTVNtVV9IR2RfdjMtZ2dEcnZ6MzZCa0RNN0RnM0xQcDh4dWgzOFM2SzI1M0tHQktCSFBvSg?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -1536,13 +1536,14 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-21T20:22:35-03:00",
+    "atualizadoEm": "2026-11-22T03:55:19-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
       "BC ipca12",
       "BC ipcam",
       "BC igpm",
+      "BC poup",
       "BC desemp",
       "câmbio (Yahoo)",
       "Ibovespa",
@@ -1550,7 +1551,6 @@
       "12 notícias"
     ],
     "falhas": [
-      "BC poup: https://api.bcb.gov.br/dados/serie/bcdata.sgs.195/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
       "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
     ]
   }
