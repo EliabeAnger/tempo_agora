@@ -165,10 +165,10 @@
       "pontos": 166376.44,
       "var": -0.69,
       "anterior": 167538.0,
-      "minimo": 165833.3,
-      "maximo": 168498.42,
-      "hora": "22/11 03h55",
-      "ts": 1795330518038
+      "minimo": 166376.44,
+      "maximo": 166376.44,
+      "hora": "22/11 12h22",
+      "ts": 1795360979245
     },
     "acoes": [
       {
@@ -243,8 +243,8 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.9074,
-        "var": 0.04
+        "valor": 5.9488,
+        "var": 0.74
       },
       {
         "sigla": "EUR",
@@ -253,8 +253,8 @@
         "var": 0.54
       }
     ],
-    "acoesTs": 1795330518038,
-    "moedasTs": 1795330518038,
+    "acoesTs": 1795360979245,
+    "moedasTs": 1795360979245,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,75 +305,75 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Brasil disputa liderança na atração de data centers, diz The Economist",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeWFad3RXQVVYY1A3WGdSejJjcFNGeUxPRDAzRVVucU8xNlA2azJmeXkxbkV3OGVMamltaXhmV2xaOS1NNXYxNWFqTWhsNDZDU0Fxalg3YXAxZll6QktiQnpORXo4X0s5Y2NYVmRYYWN2dE5haWVBS1ZmQmFILURNVUFON3RjYUNnYjJZNkRCTTllUFF2dVJibHI0UEEwTndmWUhSVVNWUjB5RkdETUJ0MzFqcUJMVGM5OXlJdGhOcGtUNW8?oc=5"
+      "titulo": "Mega da Virada: apostar em mais números ou participar de bolões aumenta as chances? Entenda",
+      "fonte": "Extra online",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPbkhmZmZ3ZFZ2MktWVnhGOHh6UWVGUkx2elFXaDhsMUtPWDMxdEs2eE5HakJGams0YnhIelRWU29KZUtkRHZOTjduMThTSVdSU1cwdGtZQlY4Y2V2N09KVlZjZVBhbmdmYmVuYmxUQVdyR1BwRzM5S1M4ZE9YNWdoYTNOdzJ6a1ludUZqejdFeDVPSE85Skg5OUVBb190Zk90cHIxUW1PaC1OTWFXdWdlb0lzTUI1bXl6emhSNm5Ra241OXNoLWgxTkpvbHUtZWpRT3d0R0FhNXV4MVhN0gHrAUFVX3lxTFBJRnBFdjZsLUlxQWU3LUhuX0tBQUdDNHNCdDU3YlNrWFFrMnEwOGkyN1JybUVNc3dJczh5ZHFCejJlMVBHeExVcFh0R2sxRzgxaU5RWmFFUUJsc2EtckN6TVpHYWhGRXNqek1rN1BVTE5oLWwxQy1fcFRYSEJ3SnNWb0pxZTE4bXBCb0N4V3MyVTlsdTZWS1hudUlxWFk3TmVYelI4alVsYlFVNTQ0b013NzFQMGI1THNzTGpfRjNKb3o2NlBtTHA2MTM2dXo1TmJEN1hxaVQ2R1JyMTFDQTZ3TXhITUlHSVRZZVE?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Queda das ações em Wall Street reacende dúvidas sobre o fôlego do rali da IA",
-      "fonte": "Valor Econômico",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdzJjQlQ4YWJlS3dTNEtTUlFIajd0UDVJX2JkT0pYWVVNZlNjRzBFeDJyeGhDNkRwUVFNX0FvVk8wQnJFUkd6ZWU3NF9IbDdSUHFsbjRucXBrMDhlZ0drb0JzZVR4NUR0SHloclM5dkRjdXRHaktnRWdTWUxFcDlSZTMwMTNuMklOTTVSTEM2SzRjS0g2emhLUG5hczBVaDdxZlZtZUJESFdtZzA0RVNhTF9YXzFEVGw5bzhnc0czTzVkeUxGbWp0OWlSRE9kNzRnVC1F0gHiAUFVX3lxTFBob0xyNElPeHhJTWJuaGo3MW0wbXgtWlRYcU9sVTVZT3RaRWVoWHZuTTVOaGNwTWdfUEZnVm5aWHlBLUZyazVOX2FRZXlucmIxNFFxTTgtb1F3SGJCZXNXd2ZsRXljSk15YmwxRTNLOGJQS1IxUDJGTVNWaS1nMG1kVEd1aldfR21PaTZNSUhmTjcxVFVoWHU3SFBwajdOeUxmNFBoekl4THdYaEhUeGxXc09WY1g5VU9PUUVJbmRPeUxhaEtlWkJoT21LUlp0SnFnQzloTFpJc2VJcHJvMmh4dFE?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Quem tem direito a receber o 13º salário? Primeira parcela deve ser paga até dia 30 de novembro",
-      "fonte": "R7",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNVRoQl9sQTg0T0RYeDl4Z0tKN1JVM0FiZGZYeHZmVmlQOXJWbGJCRHJEOHdVSEVPQlhxYlJVY2RIdmlsYzByV0tYTzhTVC1RdjBMS3lld0JEdHgwM3ZyX0ozc0pMZ1dYSkdZazJmVmZBZkhmQnJya1g2ZzJPem1RdUhGMU4zakRtd3ZkMXppeDJMd2tKQUttaWJwTHdCLWMxU0xlQk5KRmktYlBWelBlUHlER2YwY2xjM0tQTzh5MXdyNnZXSXpNT1JCdGNZMFYxdkVkZjdkeDNHMnlITzBydA?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Michelle visita Bolsonaro no hospital após voltar de viagem ao exterior",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbDN1U29EZ0hpM2hsMjdhaGYxZFBFQXIzbzRaWjI3VTFuakxfZVJad0kwdkVaU1M5aFpsTTVSRzVOMlk4NUJHNlNmOGx0aUF4cUtVaFNLRnRSOUhha2lLaGthT1BRblZPcGVfUmlzTlVkdVoxQm9HYXRfdVU5bHhNX0kzSTBHX0M4dkQ0bG12X1kweUhUc1U0alFwbG4tdVF3eURTamxpN0lJclI0dGxCVUU4NzJCZWttZmxvc2Fya25LQWxDb3BHNEFB0gHYAUFVX3lxTE1vVF83dW1ESmJURXVRSGJGcXpMSUFWQ2xsbjg1NjNlejFXakFoMFU1THNCRnYyUk1TY285ZXdFc1Q2bjNZYlJENUZkWWdFNlNIWHVsSmJZUlV3MG5Vb0twSk1RWTVkM2JYX0ItQWppWlRtWktjaE5mMHlZazY4WVh1M2pBYTZqMDF5WDk1R1BOSHRVa3paT2pFTGtWTENNQ0pSUi1YUGRGdWVhR1gyUjFwYmdBd1F2UkVQckRFN1J4bFpSMVZMbmpPN2J2Y0JIUlNEWDFiWVlfdg?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Tempestade no Rio Grande do Sul afeta 19,6 mil pessoas em 33 cidades",
-      "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQVNlS3Nubm40emRoZC1yWndrb2dDT3kwc29PVFF5SVk5YURLSzJVaWUwTmVkc0sydVpucGJDZTN1SW9yaXpldGhEdGN4Y0NpY2ZyQ2RRXzVnU3hyZ1R1czNVS2xZbi1OWElsYndLU2pGODViQmhQRWxKcG42ZjZlYlNSMkVDSzBqdkh1aXh0SHJtVTNJRy02aFdVUjkxTEREMjI4V0JHQzJaSGowakN1MVo1Y2ZzWTJWWnJ6MU9iSGRiWmY5RTNUZ09n?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Dois tornados atingem cidades do Paraná no mesmo dia, diz Simepar",
+      "titulo": "Mega-Sena 3089: confira os números sorteados",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQS3A1YmdWMWFDdXhWZ2lGbmNndkEtc3V5bm12X19mRzR2ZklBYWF5cG1ReDAwcEZwQXRUbHY2TGpzWk9LTkkzNEdsMWdmOG93bU5hS3JUb0phUVFvazMweGVWSGRIWXZMakZjUDRCWlczbmdFV3U1T0tzcEcyb0FaVU9nZlZHYVp5TnJ5WmlKZ0o1OGt6Slk2UmZhdUgtNTloYmprT3J5cW1tZ1I3RjBlY0FFYngwVUZpcnQ4RmNsSVN6aGNEWENz0gHWAUFVX3lxTE9EZjhaY09XYkxTSUw5RThEc28zcGZWcDNWS2xTak51ZVVvQjlmVkZUUDhZUV9pMkhrbC1XWDRnRkM1dFZkNHhCcnJrcUdPMGhWXy1xVWxoRWo0Rzg4ZnM2NWJMOG5VMlo0dGI0Szk4SVdEOFo2UnM4VFRoTnE3dFU1ZHNVclVPZExYS0RkOVZnU3ExQVFkOWZ4RkNvd1lyYl85SXpKelRqZFptQk5xWHYxU0MyZXFwcnJsbkdkbmZKQzVCVGctS01IZEZ3TXp3Sjk5b29fYXc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSUFrd2pjcEVDay1WZ01TTV9QV25WbWFpbzA2X0xoQTZ3dXAzQVNYMjhjemhXZ1FpVm55UkxNaF9BZVdQSVBMZFgtZElQb2pZZE1zZEpDclRpS3pDNFBMdDRTaVlJRTNJMTlrUUc1ZXRmQVFMTXVHcEU1UGZZd3U2NktBdDByZTRkVER6R2Ntc212VG5NS00tNXh5SnI2TDJpS2Z5d0NEWWQydlRK0gG7AUFVX3lxTE1uUHpRYlhpcUkzc2dBVVFXR1pkcTYwcWNUZkhZd2pZQ1JlQ1ZreERCZVVtREFhcDVQTzdObHBWb2FHMDROUXVxbmlJZURNdFFUd21vZjMzc3hHM3BFY3lJUlYtd2hYdFZyZy1xa1pYdWdQemIyQVBGdE9INmFTRU9lUUJDWU1nN1U1NXJQVlBVSDRrNHIyWWQzMTQ5ZXR3OWFRNE0zTzVvMmhLbWl4Uml3NS1QRlNCbzRkbFU?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "13º salário na conta: como decidir entre pagar dívidas, investir ou aproveitar as compras",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOeWwyLVo1bV84ZnRQa01PRGJ5MVJDRl9ldjVaX3BrT1UzaWpvZGVWYmJvVDh5UmJXSmxEcDh6eURFSGxPLTZVajVrNkppczh6bWdYOFJvVFMyWHVaN09jRWNlMnBXQ2EyVkRqUW1jRXktQjhRcTgtSV9jSVJRak9CekFCc3BkODhIb1daZjAyTTBjSU43MzJ6UnhnQ1lZVkFuSFFOQmw3dXhNaDhVeVB1VVlCOUJyYlJFbWQ5aW95QjhkYVVYOURGY0c0M3hHSjVFaXJHUlJscU9POVdI0gHrAUFVX3lxTE5YczZ1OE5rV3RSaGFNR2FNbzgwamMyVHFwOFNKTnRQTzIwZjFsanFzSExaeXBQUHA2b29IdWxESzF3NVFrZ2ZLODh6em10LXNNUHl1SjZ4c0tCN2hSUEdGZTNMT19LY0tGZU1ZNVJjWUY4a2czdVNlSWswZjg4bmx5V2ZaWndBTHJvYy1KSERTclNzMjk4NUdRejRJcW56NFFLZTVoYlVvNi0ydlVYejNLdndXdzgtcmZ6N1I0cElTeUh2ZHZoa091Y2ZpdGVLeTE3Z2trcW1waTlPckFxUmltcW01emdoYzUzUXM?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Após viagem, Michelle vai a hospital em que Bolsonaro está internado",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdXI1VkdSd002c3RhXzdKVUFMMGFHOFZVYVlWWjRSdmpYR1NUSWNKUWJYSjR0bmZpRE4tMDMzRDN5aV9BZ1RHbWN0QnFtY0Iweld3Q3B3elhlZlR2WFVXeHJ5dElsZ0V1cWpCdGlORmNXTTQzZnRKZ2ctSE9VNUl4VVdnY2FkZENyMlZTN25JLTYzczcyUHJaQ2ZhUXlaZ08tRFQtQzlPOFJRM1Vl?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "PF cita risco de ataques e quer blindado de R$ 3,8 milhões para Presidência",
+      "fonte": "UOL",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNd3Q4Wl85Zk9JOXVzTjRUcFJUd0pUT0ZNcFVWRTcxTjJTQ1dfWnV0c0R0YXE4NE4xMFdkX0REeER4a0RYTnJkb19DRE5UeG1RUmVYYmtRTDl6ZnFRcXNOZ055UTBRUWJINEZiUzF4Y2NVSWJrWWFJYlIyeGx1U3FPMF9Vci14eXZxZEQxV21pekNLdEJTWnFJVjhub05oQy1iQ1hfUTIxZHQ1UnNaMEtFTnBjSllvR2NBUUU2ZFg0bFVETVRPdlRiRWtVWQ?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "União Europeia diz que vai rejeitar acordo final e presidente da COP31 admite fracasso nas negociações por acordo climático: 'Fizemos o melhor'",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNN3JCY2JvcngtOS1uVVZfRmpXaW9xZXdQQ2VaYTlDVW41ZGExQjdMQlhfVlR4Z2lLeWVIYnNqQmFnMEE1VEN4Nm5NQ3g2bnF1WHB2VFhHbjFJQ3NCZlNFSjdycG1TMW80MmJzVEpET1JtYnlaN2hEb3JjUzdXRjVkS2dLSVY3V0k4UHBaZHN4TTBVZWRzeFBIX01HdUtUMGVkQnB3MEw0aHFvNE1NdXVCNXQtVEQ1bnJkTm44U2FtSHNyeHNnUnVrbDV0dTRzM1ljUTVWdDdLVExSd3cyWV9sTGZxQnZOdzdpOTBGSEFiQ2JiY2FyMmwzZzl3MUJZRExPdTVMYzk0S1oyR2ZSMGk3U2V30gGgAkFVX3lxTFAzaFhRZThqd09aSDQtZVpxWjFNV192TGNjRXNhWHdOM2NpT0lWUkQ0NFIzQmx1MTBzQ3ZNdjhMX19lOEs1YjRwRlYzSVFMTlpjQjZWaS1hWXNFejhtQlNHS3pxTXNCUGpOUmtYMVJRekl6eExfZlMxbFBlVS1NVkhuS3dtdWxKQ21wTzRYd1YxRGZhN2d3ZjhpaDdDWlp3OENZdVFFWHZWVUVhUDlvbFBNTUFNblhodG52RC1qUEFaNWdmYk5ZYmVzYURGOExqSlY3azhSR3VIZ1pTODFqRjR5cUtULUxoSC1nNGtuUzlBQWRFRGFncDBZSTM5OVRNaFYxV3I1X3RDRXRXUmd1YXRUOXZ5VzlVN2Z6dFpCS1hJRA?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "\"O sistema financeiro não vai me ensinar a dirigir o Brasil\", diz Lula",
-      "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcTIxT3dlbFdpMHlFaXlQd3dhQlQ2cHZBaHRybWVqanBHZlpLa0MwYkk0MnJkMW5Hbm9RTjlhNXRZcFY4UEFNb0hmQ0R0bE5tMEJBcjVoeVBhaU9zZHByT3hXUkJDb0VmNDlseHJUWjViR2ZWTVRhLTVxQWd4bHBPNUFwU2pOTGk0V1psdnFkMjRQeFdnUEpELXphZlNCajg0MzFkOGxtaDhaY0ZnQ2I4WlJOSEk0cnI4T09zQnBlWFc?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Seria um dado irreparável, diz integrante do Cidadania sobre fim do partido",
+      "titulo": "Caso Master pode definir relação de Lula com Congresso, diz professor",
       "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeElnd0owQ0dHczJJdjlMYkJtdHhpandkQ3JvWFBUaWZGRU5vZGRWdHJfMXA4LXhYa2VhZ3BFcFhieEhWRHZfWkZxTjlhOHRzb19yd2pXQkZ0Y05JZ2wtbjBTTHA2NlVzSWJ6eWdUYXJKMzJFYk9BSVNQWU94ZWs5Q3pKUndoSHdwNExmTldwSF8zT0xjTTY3N0JMbG52OE5ubjh2cDBfYzhnRHp6R09OZHFfNA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWVhST0ZhSldLdFVtSW5LUDJTWXJRSjExNnpMZkkzTjFsZmhjQUFZWVVSYWp4SlBnOFdGSXJicFdpc2QzeFN6WTMzSnpYRUVHX0FPUjRxdXd6eENNVGZwVlpqSUZ5U2dvMlhaTWJ4a19DaE5hT0w2ajVoWTFHRFJFcm0zNUtPRUZyS2NBazRuUXBTeTBsam9DLWRSNUQ3YVRDcS1Nd2tTNjZVaWM?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "O que a Comissão Antimáfia da Itália veio ver no Brasil e o que o Congresso pode aprender com ela",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOU1JsVkt1RlpQVG1GNUQtTS1HdWZVX0hEMGxjTkpWYkhiTG9lQ2cwQVFuTjNKOUM3ODJvS1RYREM4a3hWbjI1dm5OdFI0R1o4R29TVXA4dnRmeXl1cWk5eW5OR2s5Q09qLXRYUktrOW5YdzNJczB3dVFYckxvS0lpenRja3Rva0FfeEhETDlQMWNJcmdMcGFmeDU3ZnI3d3RYNkhNY0tCN2hleGg3cmpaelVyV21lQ1NVTVNtVV9IR2RfdjMtZ2dEcnZ6MzZCa0RNN0RnM0xQcDh4dWgzOFM2SzI1M0tHQktCSFBvSg?oc=5"
+      "titulo": "Câmara abre semana com previsão de votação do ajuste fiscal e negociações sobre Orçamento",
+      "fonte": "Brasil de Fato",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSFFKSi1TVWJOSnR2VWdpVGVIcHBoYjF6eC0zbHNac19aWmJ2eWpTWmxFRlZaWFh5VU5VQnViWHNkdEZiQ3hGVThxZl8tZHdXTkZrYXV0dGtFMWQ3UHFoVWpTZk5TN0x4RDg5X21oS0h4Wl9CdDM4M0l1OWVoXzFtUjNWa0oyaHZQOFI5S3hsLVJPSTBDVDROdjBUUU5PT3BaN3FTbHFVQzgyc3cyNjU5N3pHVDhfM09DZk5PM1FHdHhCal80emZEUnhFZThkUQ?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Voto distrital tem 66 anos de tentativas frustradas e enfrenta nova resistência no Congresso",
+      "fonte": "Diário do Nordeste",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOUFJRcVYtM2M1LUMtS3ZLOHpIZEg2WWhueVlpQ2Y1N2pTb2hHYnpreDZlT3QyZFRONFJqVVJRVGVzY04waHVwUWdjOEpmeDlZM0NrSmNwVFNjd2FyOWFseENzMmJPZDd0YVZOekxVc0FqaWVzTmJ2RVgyR2htT2toWF8xSHZwUGpTRWRUbFVKcW5IMVY1V0xKSHB1LUdNRmdHU1B1REFnQUlKcjJhbFlUdXVwalVsZFE4MUZCQnhrQlh2cjE0cFBjSEtMVDBVcnZwTGNZLTRNb0JwcnBLeThCd1NlQnZ3dllmN0Y2NVVR?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "Lula diz que entregaria faixa presidencial a Flávio Bolsonaro se perdesse eleição",
+      "fonte": "Gazeta do Paraná",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZktHclhhMjV0QnQ3QThEMXA3MUk5NVF3RUYzaEtSWm9PZThGN2hlQVYwZlVpSlcxRFF2QmNOSXdybTVaa01Wc2g5M1ZtWDk1LWJWeXJmSkZJYmdUd05oVktDemFqcTJiWGhIUUYzZnRRR25qQ2tIdDZUMk5GaGtQV3cyclFvaTQwdjBVWnRMSU1aeml6cjE4U0xNc0Z1LU1OVWFoMmRjdVpqTlZtOVBXNFBmamZlVjdWaVZ3?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "Afronta a Lula expõe disputa pelo futuro do PT",
+      "fonte": "Correio do Povo Penedo",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOWpWQlBid3NBTlBIa2hUaG1GSTc3LUQyaUk2S3UxRk12M1FUbk95OXhrSVgtcU54TFBORm5VWE5US3hwX3Eyb2tCVlRRdWhkOHJ5N2cwNHF2MUZ0dkkySlNUOWhfTUp4Q1IxY1I1WVhfQi1pVld4MVh4QkNMaEVUdmRJTDBmRUZpYUFtSU9wa0ZKdk5PZktlTlJWNFg?oc=5"
     },
     {
       "cat": "eleicoes",
       "titulo": "\"Se eu perdesse as eleições, eu iria entregar a faixa\", diz Lula",
       "fonte": "Congresso em Foco",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPck5yZTgycHF6YXdFc29ySF96YW5naFkzeTZXb0JHRjJUTzN2aFFfc2FRb1Z4eGtISnpOWjBYeGtfVFYwMVJQTEgwOHFGR0NVZzlFRVUwWWRWWGF1N2NJc0ZrV2hZQy1Oc05mYVVJWXA5UjRxbmY0bm9adHU0STdyd2JNcTdUaXpxeWw4NzNnNG1JdThhOGVtVVlqblFBM1I0LTJkUGFqSzkzeHNKSm10dA?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Lula diz que passaria faixa a Flávio se perdesse eleição",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNR1FOSHg3UmNabzBLU1VXcWNoc1pzdmNuVEJQTjRRbHFJMWV2R2IzYnpoaWRkb2FUZ0VpRXFtakNNY1FlZlhFVER1OTNvUEpSVm1CZ0hLd1Y2Y2N2UWtCWTJWZWd6MUVxTWpxOHEwM2o4VWpNYm9uZWRKZGhqQVpYZzJfbnctN3RXWDlxYXA3bXJzRjNDQUR0QkZCZE1jTnpM?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Lula diz que passaria faixa a Flávio Bolsonaro se tivesse perdido a eleição",
-      "fonte": "R7",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbUNqcjFWRThBN3FNQ19TRllkemZfTmY0bFRJNzlMLWQtVXA1dV9MWlljZE5UbFo5c2dFYy1zZWpZQWVoSVlKT1pHRmdieUFIYzFVeUtSN2I2UWJUQmNpRDRGOTZmb2dMal9aWEVERjRMUHIwZDdYYWlOaTRVLXp0NzVKbXFLdkxfTHlkRDlDRDFLQ1pfWHJhbGt1cHNkUFFrb1NSOHpYTTdJQllXNmF3d3NvR011Snhrc1E?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,14 +1536,13 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-22T03:55:19-03:00",
+    "atualizadoEm": "2026-11-22T12:23:00-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
       "BC ipca12",
       "BC ipcam",
       "BC igpm",
-      "BC poup",
       "BC desemp",
       "câmbio (Yahoo)",
       "Ibovespa",
@@ -1551,6 +1550,7 @@
       "12 notícias"
     ],
     "falhas": [
+      "BC poup: https://api.bcb.gov.br/dados/serie/bcdata.sgs.195/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
       "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
     ]
   }
