@@ -167,8 +167,8 @@
       "anterior": 167538.0,
       "minimo": 166376.44,
       "maximo": 166376.44,
-      "hora": "22/11 18h50",
-      "ts": 1795384214631
+      "hora": "22/11 23h49",
+      "ts": 1795402170936
     },
     "acoes": [
       {
@@ -244,17 +244,17 @@
         "sigla": "USD",
         "nome": "Dólar Americano",
         "valor": 5.9488,
-        "var": 0.74
+        "var": 0.0
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.5199,
-        "var": 0.54
+        "valor": 6.5334,
+        "var": 0.21
       }
     ],
-    "acoesTs": 1795384214631,
-    "moedasTs": 1795384214631,
+    "acoesTs": 1795402170936,
+    "moedasTs": 1795402170936,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,21 +305,27 @@
   "noticias": [
     {
       "cat": "economia",
+      "titulo": "José Paulo Kupfer: Derrubada dos mercados nos EUA liga risco de 'segunda sangrenta' no Brasil",
+      "fonte": "UOL Economia",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPNm9rYld0STd2NTIzWEVEOHVISEFCVjhCbFEwZm9iMlBGclp6VkNoQ0ptNm9Wd2NUOWFIYXBVcldZY19mVGszSTF3N1d0LUx0WnJmMm4tMjY4UDhoa3ZyRll2TmRva3ZtNFlqY181Z2NHVWpSX2MydU1IS3dyVUsyWEZBWlJPa1lId0xGR1pYajBFWjc3Z21zc09QSnk5TnFOOE5TM1Q5cFhSSnVzWGZVNW1fZmMydVU3S0V1Q3FZMWpiWjJudVRvdFZMQjVqVTViYnNjN2xEY0g?oc=5"
+    },
+    {
+      "cat": "economia",
       "titulo": "Mega-Sena sorteia prêmio de R$ 43,1 milhões neste domingo; confira as dezenas",
       "fonte": "O GLOBO",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObFlibDlCU3Q0Qmczc1RnUUhXZWUwSVVDZ3NrbWE2QW5admlkSFk1c0xhdGN6bVhsNG9KOUhaazJJUnBORDQ3dEkwUmhYMGVQZ3FJLWtmcXE2bTh4UW1tZ1JBY2FGUTZKUGllZDBydWM1MzYzbXFoV1dKQTA0aXpPSUlROUVNWU1aT1Zpd2FxLWhFV19xVXMxZDA5LTd3OU45MGJtelNDVHRGT3FOelh1STFXeDhrLW13S2R3eEhNRnNNaWptWDVvbHdqcHIzQdIB3AFBVV95cUxOSmtpeEUtdlNoVkNwTW9jYXE0aHQ2Qzh4Y1NreU1WRTF5RVJmUG83TDRWcTNqMXdfVjNmQWxKZ0h5elhHYzVjZ2s5aWZpMmlCelU4ZjFsZ1ZPanl1ekJaOElKSl8zeVNKeUJYbXJWQWVEQzJ1aTRoc2Z3ZmZDVnotUFVhSXdocEt2ZVZYbUZEOWtFZDF3MU1KS2I4ZmFzRnp2U0dmRjRhY1c5RGhrVjNRd2tvcVBCYWNaamcxMFdiandmNTRoWktnbVpTam5iSmZnNUpBSVFZcTBVNDdw?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "13º pode render mais em 2026 com novas regras do IR. Calcule seu benefício",
-      "fonte": "Metrópoles",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9kdHpPeVRYN1BJUGx2cWt3V2x0MjlBdm5zdWlCNnRJejFhN2w2andtSWdjdW5ETGpVVFJnYlZJWl9KOENIWjZFMmtVUEpQWDdTN1NVRGJYd1Z2R3Azb3NpUWk0X2hadksybW5Sdy1CVV9iMzJxNjlSaGhqdGFZQQ?oc=5"
+      "titulo": "Fortuna de sete fundadores da Anthropic soma US$ 141 bi após IPO da empresa",
+      "fonte": "UOL Economia",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSzlfaU9OWGJWSmoyVkxGZV93SDhSSGp4ZVdNdnFYdnpUUy1BZERmdVg2Z1RwY0l0aFpUaG1WMl9Gc3AwbkQ2R3JGOUVHQTJCTmU4TWZMODZkNmFJRWIwRFYxLVJoR0NRYy0xLWJIMFVjaWM4enFFS1pHNHNfUnJmaEFmRUlULXl6RDNMUUV2T1RxWFhzUFFrMlZ0aHBVb1c0dG0weWZtcmMtNjFJMVBQS29pSjgzbUF2Vnc4c2JkR212Zw?oc=5"
     },
     {
-      "cat": "economia",
-      "titulo": "Cresce pressão por substituição de Tarciana Medeiros no BB",
-      "fonte": "Gazeta do Povo",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZ2J0Z2tReC1kbXdPZGN0bEtEM29UM0Q3bVcxY3hvN1pMUHVEczlfcjEta0xXYmJzTTdnUTRVRWl2YnlWUnhJVV91LW1CUHNXQ3k0NlduWEw3XzNkZDR1Sl9YZ2s1X3pERDNCWXVjQ0xDZVU0WGI1RnRUZnRRUHBRX29xV2M5U0pQX3hZTW5laFdCTFpmTy1Hb0llU3BJVFlJUGNJZ1pVNDZfS1U1MDE1bWtvRi1pbWZtNXN3?oc=5"
+      "cat": "brasil",
+      "titulo": "Chuva forte deixa ruas alagadas, moradores ilhados e derruba forro de shopping em SP; Defesa Civil emite alerta severo",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNNTlGTXBLQjUyb0ViNDdKUmFISWI0ZFcyaUtsM2R0Yi16OTBJYU5NU2hPbnhnOEJTbzd1NGViY0szOUEyaW04S2lCbDNUb0xqUUdvc2pVNDd4Sl9QMUdVOWZzcVhsU2toQ0dpVUV3bGVWM1RoRF9SejhWdXd2Q1oxNWdRandsaWVfWDF4bk5sSlU2Q1pUaDNuQ2x4dHpIOG1EZGY0XzZMelJ3bkZRVlJMOGJnYnRPbUxGUmRGdnR1MUc1Z0N4T0JKSTg3VDJyZ0ZJVC1zMEtraDdxRExXRXBLNHJR0gHwAUFVX3lxTE5OampQSmdVZWNRbkV4Y1l6SGdTOTJYUjVucXNVaVBCZVFscVFfSlctZmIwZ3AzT0pXc0x6S0t1VzNKVzRPUUR2UmMzQTBCcU5DdlRrTGhvSU9FQU43aDVrQkZBclVobTJyNGtveVl0RXhfSDFjeHk5aEQwT0Q2U3lOc2M3UEpMbnB5b0M0NUFsX3ZCaEplRFZOY0RjOWp6enJyWVNINDdZT3lRb3lQUGpDQms0OFNVWURPNHBSOXh4c1Zwa0czaWhPUmJqeUNMaEo3T1Zla2Vrc0RGamQ3d3FoS08wSmhJcGNMNDJndk5kbA?oc=5"
     },
     {
       "cat": "brasil",
@@ -329,15 +335,9 @@
     },
     {
       "cat": "brasil",
-      "titulo": "'Em questão de 20 minutos devastou tudo', diz homem resgatado de escombros após temporal em Tupanciretã, no RS",
+      "titulo": "Não foi tornado: meteorologistas explicam 'supercélula' e microexplosão que devastaram cidade no RS",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWnFKSENHWXRuaVZGTk1SRkJGNzVmLXBES3VrOW92R1liaVp6M3daSlVVT1Z6dml5dU91XzV4Y2tkT1U4WTNjRUhVNlVLb2w1QXNHUjNmMEk3cXFaLXVWeGNXLXZEQ1h4YWlueDc4WlhKSk0yanVNeWIzcDAyZUlXMGF2YktCVG1INVlwVGhaNUFOcGtzQUcwd0lSaU9oLUtyTm400gGyAUFVX3lxTE9KQUJLQ3NLRnNGYVFnQ3RvdGwxQkMwX2ZYLWxNUC10amZfMU1PSk9QZWRadGdVZEh0Y3VwOHNWYklDaVBTT1VZV3FsSG9KYUxqcW4zTU1sYTlCa0FBMVNmaFBicGEwdzRHaFk3QW5WRWJaOGxDM2Y0NG1qZDlhX2FfY3N5R0VEeTVXcWRJNVlKR2c0Q0ppb1duYjhiM0hmeXVtYjZWem9iOEZUblJLWGJITVE?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "‘Ele está com uma cara boa’, diz Michelle ao visitar Bolsonaro na UTI",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNU0RiTzlXdkx4cTZtR25wdVhHUmFOdlBjaW41QXhuaGdBWkZGZ2NXWXpqUFZuREJBS0pSTVdfYzZJQmVyNFhJOW12NjNCUzhIbTUtT0FfemVuUTFzbDM5RjJzSWdYMU82d3J6N0lhZE5FNmY2RHNpUkxXdm5sQktvRVB4X2tFU280TU5PTENzM3hjZUE0LWdUYWY2al8zdzFLZGpEdkFZZjZVUDDSAbABQVVfeXFMTmNiQzFoU21zNU9WdXV3a2dFWU1XWEVFdEVvQXAxZmExZlV4dXVZZmN6N0h6d3d6bVF4V2xZWVVRNzZ4dFdaaUtxckZFdUdmaFRBMG5uODdVWElsaGFoclVaTmZDYV9XODRDVFFmTGgtbDFpdER3RXlPYzUtWENpeTNGbDNPdmh1NkVRNWdsZjVaUDI0UlBRSTdBb0NodXM2UWRjbU5odWhpV1JQWlZuRjU?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNRWtUYUZabnB2WXZUcklVYzQ1dTJvcjlaWWwzZGhHcG5RVDFoNkNmM2ZZTWQtMWZGYUR2RVQtTVkzV0k3ejhhMGk5c2RscW42eXN5NVpwWDVMOGtFTEJwazJ4djhrV1VBanFmQm9VNldBSDcxTlVEM25xQnhaMDRjN3VBOHduNEc3eS1vdXRITm4yUEJSRjBNajJqRXlDNkNCN1l2dFVhYkY5eWxRa1ZXd052RXpkbG0zN0xBWVNRbkQ3NVY5MkstR2FHaDRZZEg2SERVbmhaMVpuZDdZRERUYm40NGx1VjVS0gH3AUFVX3lxTE1YMS13cFBISjhGLU1zOGZlYXQzVzc1eXE4WmhNUmhjTnJaTWdRbnJUaVZCbFU3Y1FweUIwWFV4UFBjS0Q4SnN0MlBaTDE3eEQ3ejFGTndpRE1nVVUxTXJSUFhjaVlJSmdrZURfcURpVGtkVGJOczZlUTFrTzZqZXg1bjhVOE5rLWZ2aDh0dEtCaFhrZktxNVdaZ2RrUlI1bjFEUG5ubWI2Mlc5NnFERGY5TWFBbDk4TlRsSkpKcDVtSXNsaDZoYmExT1piRmRrcVNNYXcyNHp1X2RHSU9qS3J1VUtBcXNHZHBGd0xDU2dYX0dSRzQxRkE?oc=5"
     },
     {
       "cat": "politica",
@@ -359,21 +359,21 @@
     },
     {
       "cat": "eleicoes",
+      "titulo": "Flávio acusa Moraes de interferir na eleição e diz que perdeu para o “sistema”, não para Lula",
+      "fonte": "Gazeta do Povo",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQanpVRjV4WUxpMGRxSmtZRnRWRkpYME1QYllHUEJTdU05ZkN2THR4cmNkRDcwcER5dy1KQXFjOS1ZaG1ZYmxVbXVrZ0R0M2U4cWtVT2Y3dDJCTGRIOEczdEluci1wd3BzQW85VUFtNUd0MVlqUHZwbFNpVHBKUmxDSWRTYjVGdUptLTZ0b2MycWdnMGJ4cTNXNDR3RWw0bmhsaHMwbnd0LTI4NUxIX1d4bk1LUkhoMjVLbEZSQ3AyMC1tNlFfT0xiVw?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "56% reprovam a saída de Flávio Bolsonaro do Brasil",
+      "fonte": "Brasil Fora da Caverna",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSkc5VmZUNzVNdUNKc1lWT3A2eXR0MUhGN1Jlck5WN3JsVXdncWpHZ3pUdDB1LURBU0tJV3NqZGNVaUt3U3N4TEtJZmhwTzROZHVVN19IYW9pbmt5WVZMX2lsMTEwSzVpV0hoS05zd0JrYl90TnYxLUVYME5NUlZqeUhrOUZTYTNxN19MYldB?oc=5"
+    },
+    {
+      "cat": "eleicoes",
       "titulo": "Lula diz que entregaria faixa presidencial a Flávio Bolsonaro se perdesse eleição",
       "fonte": "Gazeta do Paraná",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZktHclhhMjV0QnQ3QThEMXA3MUk5NVF3RUYzaEtSWm9PZThGN2hlQVYwZlVpSlcxRFF2QmNOSXdybTVaa01Wc2g5M1ZtWDk1LWJWeXJmSkZJYmdUd05oVktDemFqcTJiWGhIUUYzZnRRR25qQ2tIdDZUMk5GaGtQV3cyclFvaTQwdjBVWnRMSU1aeml6cjE4U0xNc0Z1LU1OVWFoMmRjdVpqTlZtOVBXNFBmamZlVjdWaVZ3?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "\"Se eu perdesse as eleições, eu iria entregar a faixa\", diz Lula",
-      "fonte": "Congresso em Foco",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPck5yZTgycHF6YXdFc29ySF96YW5naFkzeTZXb0JHRjJUTzN2aFFfc2FRb1Z4eGtISnpOWjBYeGtfVFYwMVJQTEgwOHFGR0NVZzlFRVUwWWRWWGF1N2NJc0ZrV2hZQy1Oc05mYVVJWXA5UjRxbmY0bm9adHU0STdyd2JNcTdUaXpxeWw4NzNnNG1JdThhOGVtVVlqblFBM1I0LTJkUGFqSzkzeHNKSm10dA?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Lula diz que passaria faixa a Flávio se perdesse eleição",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNR1FOSHg3UmNabzBLU1VXcWNoc1pzdmNuVEJQTjRRbHFJMWV2R2IzYnpoaWRkb2FUZ0VpRXFtakNNY1FlZlhFVER1OTNvUEpSVm1CZ0hLd1Y2Y2N2UWtCWTJWZWd6MUVxTWpxOHEwM2o4VWpNYm9uZWRKZGhqQVpYZzJfbnctN3RXWDlxYXA3bXJzRjNDQUR0QkZCZE1jTnpM?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,12 +1536,14 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-22T18:50:16-03:00",
+    "atualizadoEm": "2026-11-22T23:49:33-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
       "BC ipca12",
       "BC ipcam",
+      "BC igpm",
+      "BC poup",
       "BC desemp",
       "câmbio (Yahoo)",
       "Ibovespa",
@@ -1549,8 +1551,6 @@
       "12 notícias"
     ],
     "falhas": [
-      "BC igpm: https://api.bcb.gov.br/dados/serie/bcdata.sgs.189/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
-      "BC poup: https://api.bcb.gov.br/dados/serie/bcdata.sgs.195/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
       "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
     ]
   }
