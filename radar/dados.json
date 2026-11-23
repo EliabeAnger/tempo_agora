@@ -167,8 +167,8 @@
       "anterior": 167538.0,
       "minimo": 166376.44,
       "maximo": 166376.44,
-      "hora": "22/11 23h49",
-      "ts": 1795402170936
+      "hora": "23/11 09h53",
+      "ts": 1795438435240
     },
     "acoes": [
       {
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.9488,
-        "var": 0.0
+        "valor": 5.9848,
+        "var": 0.61
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.5334,
-        "var": 0.21
+        "valor": 6.541,
+        "var": 0.32
       }
     ],
-    "acoesTs": 1795402170936,
-    "moedasTs": 1795402170936,
+    "acoesTs": 1795438435240,
+    "moedasTs": 1795438435240,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,27 +305,27 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "José Paulo Kupfer: Derrubada dos mercados nos EUA liga risco de 'segunda sangrenta' no Brasil",
-      "fonte": "UOL Economia",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPNm9rYld0STd2NTIzWEVEOHVISEFCVjhCbFEwZm9iMlBGclp6VkNoQ0ptNm9Wd2NUOWFIYXBVcldZY19mVGszSTF3N1d0LUx0WnJmMm4tMjY4UDhoa3ZyRll2TmRva3ZtNFlqY181Z2NHVWpSX2MydU1IS3dyVUsyWEZBWlJPa1lId0xGR1pYajBFWjc3Z21zc09QSnk5TnFOOE5TM1Q5cFhSSnVzWGZVNW1fZmMydVU3S0V1Q3FZMWpiWjJudVRvdFZMQjVqVTViYnNjN2xEY0g?oc=5"
+      "titulo": "Dólar abre em alta e vai a R$ 5,98, atento à votação do pacote fiscal na Câmara",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBBUlZrS2w1WFdBb2c3TVpiWGxYdDc2NnM1WDJnWk42NEhIaWxDMV82bHZjNDdhanF3NnZYNDdqY2tNeS1NNXZyVWpJd0ZXdVdBZWZqeVM5TzE0R091dnBFOEtLc1lBS3UwdEVweWxmcjc4WHpkUmF4U9IBhwFBVV95cUxNcGpwdm8tRzd5S09HXzZZRU5rcllVWF9kR0o4RE1KVDRCT0dnMEpURUl3RWt0T2toZzViTTYzVlBWWDRBWUtkS3p0MmZpZ1JOR1NrX216djliai1LQy1IdVF0R25wMHRma3RVRmRONXhCQlNfdHlJLXQ3YjZDYk5JQl9LcHZ4RXM?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Mega-Sena sorteia prêmio de R$ 43,1 milhões neste domingo; confira as dezenas",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObFlibDlCU3Q0Qmczc1RnUUhXZWUwSVVDZ3NrbWE2QW5admlkSFk1c0xhdGN6bVhsNG9KOUhaazJJUnBORDQ3dEkwUmhYMGVQZ3FJLWtmcXE2bTh4UW1tZ1JBY2FGUTZKUGllZDBydWM1MzYzbXFoV1dKQTA0aXpPSUlROUVNWU1aT1Zpd2FxLWhFV19xVXMxZDA5LTd3OU45MGJtelNDVHRGT3FOelh1STFXeDhrLW13S2R3eEhNRnNNaWptWDVvbHdqcHIzQdIB3AFBVV95cUxOSmtpeEUtdlNoVkNwTW9jYXE0aHQ2Qzh4Y1NreU1WRTF5RVJmUG83TDRWcTNqMXdfVjNmQWxKZ0h5elhHYzVjZ2s5aWZpMmlCelU4ZjFsZ1ZPanl1ekJaOElKSl8zeVNKeUJYbXJWQWVEQzJ1aTRoc2Z3ZmZDVnotUFVhSXdocEt2ZVZYbUZEOWtFZDF3MU1KS2I4ZmFzRnp2U0dmRjRhY1c5RGhrVjNRd2tvcVBCYWNaamcxMFdiandmNTRoWktnbVpTam5iSmZnNUpBSVFZcTBVNDdw?oc=5"
+      "titulo": "Boletim Focus eleva projeções para inflação e dólar e prevê Selic a 13% em 2027",
+      "fonte": "InfoMoney",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE11WUVGWmFkMjM0a0RjREZRblluSkxpQ21fOC1xUEROT0l0MzN2Zlh1NUxaX0FwX1pzckdaRkY0ZG1HT2xrYWNsRUZBNWhoTnBLS0QwWUladFRldXNsYmlzS2xwMEgxYlVza29OQmE2V01LMTc4aUp0OWFibw?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Fortuna de sete fundadores da Anthropic soma US$ 141 bi após IPO da empresa",
-      "fonte": "UOL Economia",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSzlfaU9OWGJWSmoyVkxGZV93SDhSSGp4ZVdNdnFYdnpUUy1BZERmdVg2Z1RwY0l0aFpUaG1WMl9Gc3AwbkQ2R3JGOUVHQTJCTmU4TWZMODZkNmFJRWIwRFYxLVJoR0NRYy0xLWJIMFVjaWM4enFFS1pHNHNfUnJmaEFmRUlULXl6RDNMUUV2T1RxWFhzUFFrMlZ0aHBVb1c0dG0weWZtcmMtNjFJMVBQS29pSjgzbUF2Vnc4c2JkR212Zw?oc=5"
+      "titulo": "Brasil é o 4º mais feliz do mundo no trabalho; veja ranking e por que o país supera nações mais ricas",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPSmZyRG9HY2tFTUhqSlR0ZzFMNHpqb2hEdXVPMEFYQ2ZMSUNJZm9xUldiZ1pyQ294SFM3X0Vpd1o2eTN2aGFKekFnMXVFVE1ULTEtRlBEYkZnVG5pUjAtRDd2M3JpeVRES2o2YllScl9icU10djJocng0d1BjN2k3cHljbW83UmlhOFNDNmNOWFF4Q2xNUGlBWnZJODJkQ3FKZGc5YnhQZ0pLSXhCWmxDRnYzOHlTNWZqcDNaU1R0TVBkanZiRW9KenFyYkVVU0FtTzRFcmFaRWhzckQ1WXdCOTI4eUN5Q21PbkpMN0p2bk93RWdsdVVKODdB0gGIAkFVX3lxTE9pek0zM2c4OWNURERBdDc0SmFtaEh0RTMwX1lJMXluSzRIbnpfd3RkcTF5ZmM3QWI4VTA1dUR1bjktdlRtR08tVENRc2twTjVQUDBzWG1jcmttLWMzbGlWSF9WRDZnMWZFMUozYzY3S3ZoTFpwU2E3am9wVFRJSEcxN3ZJdlZNdEYzZklLMGRFdmRLYVdVYUpsQzdEV1BmdUNKemR1eTBJMEJfRm5GMlBHNGNjWm1rNnc2dVRxS2FhcUpYLXRxb3dHcFk1bFY0LUdhczhvbGs0M0p5bG9heEtFNmJWa04wQ3VuZ0JmUGpmdi1BU0NSQ1c0Q0pGQldxOWlFbml3ME5ETg?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Chuva forte deixa ruas alagadas, moradores ilhados e derruba forro de shopping em SP; Defesa Civil emite alerta severo",
+      "titulo": "Câmara vota projeto de ajuste fiscal nesta segunda; projeção de economia é de R$ 50 bilhões em 2027",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNNTlGTXBLQjUyb0ViNDdKUmFISWI0ZFcyaUtsM2R0Yi16OTBJYU5NU2hPbnhnOEJTbzd1NGViY0szOUEyaW04S2lCbDNUb0xqUUdvc2pVNDd4Sl9QMUdVOWZzcVhsU2toQ0dpVUV3bGVWM1RoRF9SejhWdXd2Q1oxNWdRandsaWVfWDF4bk5sSlU2Q1pUaDNuQ2x4dHpIOG1EZGY0XzZMelJ3bkZRVlJMOGJnYnRPbUxGUmRGdnR1MUc1Z0N4T0JKSTg3VDJyZ0ZJVC1zMEtraDdxRExXRXBLNHJR0gHwAUFVX3lxTE5OampQSmdVZWNRbkV4Y1l6SGdTOTJYUjVucXNVaVBCZVFscVFfSlctZmIwZ3AzT0pXc0x6S0t1VzNKVzRPUUR2UmMzQTBCcU5DdlRrTGhvSU9FQU43aDVrQkZBclVobTJyNGtveVl0RXhfSDFjeHk5aEQwT0Q2U3lOc2M3UEpMbnB5b0M0NUFsX3ZCaEplRFZOY0RjOWp6enJyWVNINDdZT3lRb3lQUGpDQms0OFNVWURPNHBSOXh4c1Zwa0czaWhPUmJqeUNMaEo3T1Zla2Vrc0RGamQ3d3FoS08wSmhJcGNMNDJndk5kbA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPZXhQLWlIaWpFa091VVUyd2huVE5ZazRpMC1HTmpSSUhxMEZnS2gxRnBXZE1ubHZXZmh4MzJIb2wyaDlNOGZwbDRPclY5bGd4Q1RXaVVyNFdWOEJ4clY4bDQzQ1h1SUhLcndpNUVtUHVlNmw4WEJBMzRmOExoM1ZycjFBSTdPVEdTRmdncEgwU2E4SFRhVG9XY25ocnY3a05udDZTSlFzM0VBTlN3SnNmUVF2VlgxeERwVDNzMHZYNkVVMFRJXzY0OWpOT2t0RzJtMHdrWFd2UVJCaWhFRGlNeVU2aHZEYTDSAfYBQVVfeXFMUFloUnZPZ3lJYUtZMWlpVGJsNkZQNUw2RHQxd05TMkw1T1hfb0JOZzkzelpJWWhsdk9jcXJ0bjVrQWVZc2ZRRXZzNS02QkRsU3d6S0Z5c0pLX3dnS1I0VFlobG1objAtQlZiS3Y3LTRBc0RfeXhyQXFjY2RuR3hva2JCWEFfclJqaXpibVhTd0hCRTNxSDBURkdNVUQyNXpUaGdmLTdDZFBqUl96WDl3ZkJHMjhuSnZhZHVBcW55UWwwZ2ZSV3dySVNUZkdsQWdWRTBSSUh6TEJodDMwajRqdDZoX3VQM2RHSzZ2bk8zd1dlREVFYmR3?oc=5"
     },
     {
       "cat": "brasil",
@@ -335,45 +335,45 @@
     },
     {
       "cat": "brasil",
-      "titulo": "Não foi tornado: meteorologistas explicam 'supercélula' e microexplosão que devastaram cidade no RS",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNRWtUYUZabnB2WXZUcklVYzQ1dTJvcjlaWWwzZGhHcG5RVDFoNkNmM2ZZTWQtMWZGYUR2RVQtTVkzV0k3ejhhMGk5c2RscW42eXN5NVpwWDVMOGtFTEJwazJ4djhrV1VBanFmQm9VNldBSDcxTlVEM25xQnhaMDRjN3VBOHduNEc3eS1vdXRITm4yUEJSRjBNajJqRXlDNkNCN1l2dFVhYkY5eWxRa1ZXd052RXpkbG0zN0xBWVNRbkQ3NVY5MkstR2FHaDRZZEg2SERVbmhaMVpuZDdZRERUYm40NGx1VjVS0gH3AUFVX3lxTE1YMS13cFBISjhGLU1zOGZlYXQzVzc1eXE4WmhNUmhjTnJaTWdRbnJUaVZCbFU3Y1FweUIwWFV4UFBjS0Q4SnN0MlBaTDE3eEQ3ejFGTndpRE1nVVUxTXJSUFhjaVlJSmdrZURfcURpVGtkVGJOczZlUTFrTzZqZXg1bjhVOE5rLWZ2aDh0dEtCaFhrZktxNVdaZ2RrUlI1bjFEUG5ubWI2Mlc5NnFERGY5TWFBbDk4TlRsSkpKcDVtSXNsaDZoYmExT1piRmRrcVNNYXcyNHp1X2RHSU9qS3J1VUtBcXNHZHBGd0xDU2dYX0dSRzQxRkE?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Governo estuda enviar ao Congresso projeto para acabar com supersalários no serviço público",
-      "fonte": "CBN",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbV96WFNTd3NuS1ZYckZTZ2dtNlB0R3lrMk1UampNSFE1eWFmV1JMSC1uY0tkNlpoclNybS1nUmNEMjZpRURlQVZpb0xWWWdNZzdyZzVQbXdldXgzYWtSQXNOd3R6N0pOSTF3OUtPNG1teWU4ZWpJYlQwbUxqMXdocjFodm1HWEVXdlh6WHlESXVOUTZXaTV1ajNQM2c2VXYxUVRuZDVaaTgyXzRtNGI4TUVrbmRPVFU2Q0V5TXhXbl9BZkJ1enlJaG5mSVVhSk9GZndiSnVYMUprLUJCZ0VsRdIB7wFBVV95cUxOQzYxSnUwYzg1bTNDa05hXzZfaUxNTWc5dENGQ0tBV2ROX01ZcF9NdXpHaWVoQS1RQldZZ1pyS2k2TG05dUI3VVBfWmNQZkpUSjZ6TDRoaUEyRU4xcTBabTdlOWVJQTM0cXk2a2RaOEpKdV9lN1ZpVWdyVXZSWW1xcUFoU3V2TDFURi1uXy05bFh3WWJFMkJuODdveE1ZYzZ3LXpaMHNtaUdoVUR1emxpSDFkSWZJaUR0VUpoanQta3JFWW9WMmdXelhjYl8ySlJxQllhbkhJbXI5eVAwelM2VjJCN0JPYXZxZ2RiZ2Nhbw?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Caso Master pode definir relação de Lula com Congresso, diz professor",
+      "titulo": "Defesa Civil emite alerta severo para chuvas na grande São Paulo",
       "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWVhST0ZhSldLdFVtSW5LUDJTWXJRSjExNnpMZkkzTjFsZmhjQUFZWVVSYWp4SlBnOFdGSXJicFdpc2QzeFN6WTMzSnpYRUVHX0FPUjRxdXd6eENNVGZwVlpqSUZ5U2dvMlhaTWJ4a19DaE5hT0w2ajVoWTFHRFJFcm0zNUtPRUZyS2NBazRuUXBTeTBsam9DLWRSNUQ3YVRDcS1Nd2tTNjZVaWM?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQVcyZzM1U2FfUDkxUkVxQ2JpTWlheGpNdDFOdERaRnEyVUtyX0pWUFlyQXFtMngtTENwWW1BeHhDUk8tSFdPUVlNNGktWklWUGZOZmxTUWlNMHZReUY4bXdVQXVoSkNCeVVuVjlCV3VKeE5FckhwZzZLS2VadU4tRklFVVVIVk56VUljelNTcEh2NHB6bFBuSHBXQVdJc2d0SGRjSXpaS0k5QW81dDJr?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Câmara abre semana com previsão de votação do ajuste fiscal e negociações sobre Orçamento",
-      "fonte": "Brasil de Fato",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSFFKSi1TVWJOSnR2VWdpVGVIcHBoYjF6eC0zbHNac19aWmJ2eWpTWmxFRlZaWFh5VU5VQnViWHNkdEZiQ3hGVThxZl8tZHdXTkZrYXV0dGtFMWQ3UHFoVWpTZk5TN0x4RDg5X21oS0h4Wl9CdDM4M0l1OWVoXzFtUjNWa0oyaHZQOFI5S3hsLVJPSTBDVDROdjBUUU5PT3BaN3FTbHFVQzgyc3cyNjU5N3pHVDhfM09DZk5PM1FHdHhCal80emZEUnhFZThkUQ?oc=5"
+      "titulo": "Oposição e parlamentares do Centrão tentam alterar medidas eleitorais de Lula enviadas ao Congresso",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxONlNzaHdETHktN05YLTNfTll1YzVSNjZDdTBiamxxUXZBNGg3eDlCV0VLNkxPRDhCZWdzR2VObG1fbVlueTlvcVgxREZOSDlJdU5EcklQUTNWUmwtR1FKbmtKdkkyQ3ptbkllT0plTk4ybzBMYWlxVS13bDZjZUc5bjBrS2dKTEhIbkpCdkg1Z21sbzFUa3JYNjhXRTFRSFQxZkFMMVlaeGVFQzE2bTdOMjZIYzVRM0JrU3BEeUxHeDdHblRYQnBBTkItb0tjc09HRnNPTnBlWkc3ejFfV2M3Q05oTVhvdFpnZVFMaDZaRdIB_gFBVV95cUxORS01eklSWEZidDdTVlJVaENTZEZFZXZSQm5EX2lOcU1ZN19fV2pfaXFPUElvVFRBWWQ1MWFNN0poc254ME1fVXlHM0VEenRNRGtpdV9xZks5b0F5dmQ5SG1pOTZSTmRUVnFDc0xTMUFTSENfTDliUnlNY1lvbF91dUdjXzhlM2Vnd3JJR2EwcjFvanZJYkQ5TXNpVHpoby10bkIzTEx5RlRGODkxYUJEczFCM3Y5TXp6VlFEMWVqVXl3bUpvaVp4dW10UXlkTW5GR1E5NGdfLW1hS2tGX3hTTUd2UG1XbkVXUUNjSkVlX1dya0c2SU1mMmdUdUJ3QQ?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Reforma política e sistema eleitoral… de novo",
+      "fonte": "JOTA Info",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSGFMOEFNZFh6b2RUZGYwd2VOMF91c2dCR1ZhVmRTSGNMSV95OXd4Qm0tX3JtTGpiZ1dZVlJPcWkyTWt3X3VqUmNoaUk0MDJQYVI5WDY4REw3MGs3YmJsZlJCUEJqVnpDQlBDUWJTNGROWlMzVkU3dmhNSmI1UEZvVmZPLVlqQVBEaDduY2ttbmFudk91bWZF?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Opinião - Filippo Lancieri e Fiona Scott Morton: Um avanço importante na política antitruste brasileira",
+      "fonte": "Folha de S.Paulo",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ19GVGhab1RTZ2UyRWo1WFlqWnV0NHNpR0JIa1YxOWdUX0VzNm83WkZrUTdnWUNsTTFsaHROTnVhWll0bEpfOVQ3RTV5OEJTM2VVZlRPQTZvRk8tV2hQTG91RDJtbUVNUjhaYzA1dzlIQjc1YkVHb19GNmJabDR6M2d6MlZxSEk2TTlKNXYtbTVqaTRLZmI3UHBxdzB3Yi16UDNHbEJmNzk0Zw?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "Flávio acusa Moraes de interferir na eleição e diz que perdeu para o “sistema”, não para Lula",
-      "fonte": "Gazeta do Povo",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQanpVRjV4WUxpMGRxSmtZRnRWRkpYME1QYllHUEJTdU05ZkN2THR4cmNkRDcwcER5dy1KQXFjOS1ZaG1ZYmxVbXVrZ0R0M2U4cWtVT2Y3dDJCTGRIOEczdEluci1wd3BzQW85VUFtNUd0MVlqUHZwbFNpVHBKUmxDSWRTYjVGdUptLTZ0b2MycWdnMGJ4cTNXNDR3RWw0bmhsaHMwbnd0LTI4NUxIX1d4bk1LUkhoMjVLbEZSQ3AyMC1tNlFfT0xiVw?oc=5"
+      "titulo": "O esvaziamento de Flávio Bolsonaro nas redes após a eleição",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdzNhWWZsUWlIOWZZdG1Ybl9QWldUbXF3ZEdCOV9Xb3BZa2ZuLTFkTEJfX1g2QTZ3U2diWEhTSUoxM21RR3NLQ0lUTGFwX2hFemducGltOWdJV3RiVkZoNlV6RFlDSDFnZW9vbzFpZW9ldXpDS01JUWFQd1NIOVh4MDY4RTkxWE5XdXJWamNOdFdvOUI3LUhwQVVlRy1xdzNvMXotUkp4U2dST1FrQlEzLWQ4N0dHRXJtQlhr?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "56% reprovam a saída de Flávio Bolsonaro do Brasil",
-      "fonte": "Brasil Fora da Caverna",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSkc5VmZUNzVNdUNKc1lWT3A2eXR0MUhGN1Jlck5WN3JsVXdncWpHZ3pUdDB1LURBU0tJV3NqZGNVaUt3U3N4TEtJZmhwTzROZHVVN19IYW9pbmt5WVZMX2lsMTEwSzVpV0hoS05zd0JrYl90TnYxLUVYME5NUlZqeUhrOUZTYTNxN19MYldB?oc=5"
+      "titulo": "Flávio Bolsonaro diz ser \"proibido de investigar\" fraude eleitoral",
+      "fonte": "Congresso em Foco",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSlZVX3gtTWZ6NENmMVFFeUE4a0xZc09ZNktfaGlSNEFhYWJmbnZhUnJZUVk1Q0ctcVVtcFBQMU5HbVVnS2hLaUlZNHpsNnhlQkhUcGVwRFNFNGdjaWpoVWdMUGR6ZzdCNXh6Y3l0eEtidmhSTi0yX1plX1VCTEladng5emE2U3ZJTmRJT3JfSEdVajQtNEFVNG5EcVJOR2pzT2lKRkhBUTdZdngtZXBPaU1HSkw?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "Lula diz que entregaria faixa presidencial a Flávio Bolsonaro se perdesse eleição",
-      "fonte": "Gazeta do Paraná",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZktHclhhMjV0QnQ3QThEMXA3MUk5NVF3RUYzaEtSWm9PZThGN2hlQVYwZlVpSlcxRFF2QmNOSXdybTVaa01Wc2g5M1ZtWDk1LWJWeXJmSkZJYmdUd05oVktDemFqcTJiWGhIUUYzZnRRR25qQ2tIdDZUMk5GaGtQV3cyclFvaTQwdjBVWnRMSU1aeml6cjE4U0xNc0Z1LU1OVWFoMmRjdVpqTlZtOVBXNFBmamZlVjdWaVZ3?oc=5"
+      "titulo": "Lula e Flávio acionaram TSE quase mil vezes durante campanha, mostra levantamento",
+      "fonte": "Folha de S.Paulo",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObWxUVW1uY0lJNmFCZTJ5eTRPdjlxaXEwNjZ4c0M0NUU3SE9tbmNhakhRVXp5ZHZhS0U1OHQ3SnlQNUY0NlN0YXc3R1VMZzdJYUF3bjE2ZW5ldW5vQThiTmItMzRNMVgtWTZDa3VDOHN0TWdxOVVyaU95NjJieEY1WURoZHN4NXZYSGJXV1NPZ0dkVHFRS3pLUGpYdkkxLW1fZEg3OWRNY2hkQjJZY3lJMTRTTmZLLWdjaE54RHpyZXdJbVl6WkthaWNB?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-22T23:49:33-03:00",
+    "atualizadoEm": "2026-11-23T09:53:58-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
