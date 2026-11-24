@@ -162,54 +162,54 @@
   },
   "mercado": {
     "ibov": {
-      "pontos": 166376.44,
-      "var": -0.69,
-      "anterior": 167538.0,
-      "minimo": 166376.44,
-      "maximo": 166376.44,
-      "hora": "23/11 09h53",
-      "ts": 1795438435240
+      "pontos": 164796.05,
+      "var": -0.95,
+      "anterior": 166376.44,
+      "minimo": 164129.33,
+      "maximo": 166373.69,
+      "hora": "23/11 21h55",
+      "ts": 1795481759320
     },
     "acoes": [
       {
         "ticker": "PETR4",
-        "preco": 42.67,
-        "var": -1.16
+        "preco": 41.3,
+        "var": -3.21
       },
       {
         "ticker": "VALE3",
-        "preco": 58.48,
-        "var": -0.88
+        "preco": 58.41,
+        "var": -0.12
       },
       {
         "ticker": "ITUB4",
-        "preco": 40.07,
-        "var": -0.3
+        "preco": 39.73,
+        "var": -0.85
       },
       {
         "ticker": "BBDC4",
-        "preco": 13.83,
-        "var": -1.78
+        "preco": 13.71,
+        "var": -0.87
       },
       {
         "ticker": "BBAS3",
-        "preco": 14.3,
-        "var": 1.27
+        "preco": 14.2,
+        "var": -0.7
       },
       {
         "ticker": "WEGE3",
-        "preco": 51.13,
-        "var": -0.49
+        "preco": 49.91,
+        "var": -2.39
       },
       {
         "ticker": "SUZB3",
-        "preco": 55.32,
-        "var": -0.5
+        "preco": 55.19,
+        "var": -0.23
       },
       {
         "ticker": "B3SA3",
-        "preco": 14.28,
-        "var": -0.14
+        "preco": 14.16,
+        "var": -0.84
       }
     ],
     "juros": [
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.9848,
-        "var": 0.61
+        "valor": 5.9293,
+        "var": 0.0
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.541,
-        "var": 0.32
+        "valor": 6.4667,
+        "var": 0.02
       }
     ],
-    "acoesTs": 1795438435240,
-    "moedasTs": 1795438435240,
+    "acoesTs": 1795481759320,
+    "moedasTs": 1795481759320,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,39 +305,51 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Dólar abre em alta e vai a R$ 5,98, atento à votação do pacote fiscal na Câmara",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBBUlZrS2w1WFdBb2c3TVpiWGxYdDc2NnM1WDJnWk42NEhIaWxDMV82bHZjNDdhanF3NnZYNDdqY2tNeS1NNXZyVWpJd0ZXdVdBZWZqeVM5TzE0R091dnBFOEtLc1lBS3UwdEVweWxmcjc4WHpkUmF4U9IBhwFBVV95cUxNcGpwdm8tRzd5S09HXzZZRU5rcllVWF9kR0o4RE1KVDRCT0dnMEpURUl3RWt0T2toZzViTTYzVlBWWDRBWUtkS3p0MmZpZ1JOR1NrX216djliai1LQy1IdVF0R25wMHRma3RVRmRONXhCQlNfdHlJLXQ3YjZDYk5JQl9LcHZ4RXM?oc=5"
+      "titulo": "Após ir a R$ 6, dólar fecha em leve baixa, aos R$ 5,92, mesmo diante de incertezas sobre política fiscal e cenário externo",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOU0xrMi1aUTE4WWFkVUtsekNvb2JOM3I2ZTZrMWI2VjliT3lLdnBvZEU2cmRUTU5mdkhDOG9RemI2OXhrU2FkX1hmWDI1MjQxQTFrTW5UbWFzb2VwZk5VTkZQekpPMmZwQnc5V2V0anlfcUpkU3l1NjdiTEpsY0phcHM1cWI5RnN4ZmhnNzJSMGxfX0w0Z3VRQTJDanFhcENodjRqNXAwVngwbUYtYzIwWTBJbENhQlV1NjlaWElBWW5wN2JBNnFTTXVERURUVDhMTFlEekpjWnpJZXlPNzR5VG43TdIB8gFBVV95cUxQeDNoRFhlTmp6X3pNR0pxcWNyVndBa213ZVpqRlR1eFBSaVRRYmZEV0dUaTFDRXJnbmxqVDVMWjRJS1laN1g1SjBFdkNCaTg2ZnczT0dFY1JQV0djSHRzNF9HRlFaNC1BQ3FhS1pIa2hzUnR4eG5kcFByc05SUXhpS2dFSzktNDBPUVhSakdPYjJkMmJjQTFiamF6LW1ZSGlxVm9RNGVsQ3RPbWFYenJHRnF2d0ZTa1hxbW5Ya215QUtkM25Cc3ZwOXdLeU91R0xSSGRUNVoyMV9xTk93M3llb25feG53VTc1YXdjVE8tSmdydw?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Boletim Focus eleva projeções para inflação e dólar e prevê Selic a 13% em 2027",
-      "fonte": "InfoMoney",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE11WUVGWmFkMjM0a0RjREZRblluSkxpQ21fOC1xUEROT0l0MzN2Zlh1NUxaX0FwX1pzckdaRkY0ZG1HT2xrYWNsRUZBNWhoTnBLS0QwWUladFRldXNsYmlzS2xwMEgxYlVza29OQmE2V01LMTc4aUp0OWFibw?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Brasil é o 4º mais feliz do mundo no trabalho; veja ranking e por que o país supera nações mais ricas",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPSmZyRG9HY2tFTUhqSlR0ZzFMNHpqb2hEdXVPMEFYQ2ZMSUNJZm9xUldiZ1pyQ294SFM3X0Vpd1o2eTN2aGFKekFnMXVFVE1ULTEtRlBEYkZnVG5pUjAtRDd2M3JpeVRES2o2YllScl9icU10djJocng0d1BjN2k3cHljbW83UmlhOFNDNmNOWFF4Q2xNUGlBWnZJODJkQ3FKZGc5YnhQZ0pLSXhCWmxDRnYzOHlTNWZqcDNaU1R0TVBkanZiRW9KenFyYkVVU0FtTzRFcmFaRWhzckQ1WXdCOTI4eUN5Q21PbkpMN0p2bk93RWdsdVVKODdB0gGIAkFVX3lxTE9pek0zM2c4OWNURERBdDc0SmFtaEh0RTMwX1lJMXluSzRIbnpfd3RkcTF5ZmM3QWI4VTA1dUR1bjktdlRtR08tVENRc2twTjVQUDBzWG1jcmttLWMzbGlWSF9WRDZnMWZFMUozYzY3S3ZoTFpwU2E3am9wVFRJSEcxN3ZJdlZNdEYzZklLMGRFdmRLYVdVYUpsQzdEV1BmdUNKemR1eTBJMEJfRm5GMlBHNGNjWm1rNnc2dVRxS2FhcUpYLXRxb3dHcFk1bFY0LUdhczhvbGs0M0p5bG9heEtFNmJWa04wQ3VuZ0JmUGpmdi1BU0NSQ1c0Q0pGQldxOWlFbml3ME5ETg?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Câmara vota projeto de ajuste fiscal nesta segunda; projeção de economia é de R$ 50 bilhões em 2027",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPZXhQLWlIaWpFa091VVUyd2huVE5ZazRpMC1HTmpSSUhxMEZnS2gxRnBXZE1ubHZXZmh4MzJIb2wyaDlNOGZwbDRPclY5bGd4Q1RXaVVyNFdWOEJ4clY4bDQzQ1h1SUhLcndpNUVtUHVlNmw4WEJBMzRmOExoM1ZycjFBSTdPVEdTRmdncEgwU2E4SFRhVG9XY25ocnY3a05udDZTSlFzM0VBTlN3SnNmUVF2VlgxeERwVDNzMHZYNkVVMFRJXzY0OWpOT2t0RzJtMHdrWFd2UVJCaWhFRGlNeVU2aHZEYTDSAfYBQVVfeXFMUFloUnZPZ3lJYUtZMWlpVGJsNkZQNUw2RHQxd05TMkw1T1hfb0JOZzkzelpJWWhsdk9jcXJ0bjVrQWVZc2ZRRXZzNS02QkRsU3d6S0Z5c0pLX3dnS1I0VFlobG1objAtQlZiS3Y3LTRBc0RfeXhyQXFjY2RuR3hva2JCWEFfclJqaXpibVhTd0hCRTNxSDBURkdNVUQyNXpUaGdmLTdDZFBqUl96WDl3ZkJHMjhuSnZhZHVBcW55UWwwZ2ZSV3dySVNUZkdsQWdWRTBSSUh6TEJodDMwajRqdDZoX3VQM2RHSzZ2bk8zd1dlREVFYmR3?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "COP31 termina sem acordo após impasse sobre combustíveis fósseis",
-      "fonte": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE43NWtUdzJNN3RrSTNmSHlSbHN5ZmpuTXlaRFUwUVhtWmpaMGtqaW9LcGZqb0FGb0duLUFEZVFEd3p0SmVCTnNKbk5rZGJLVG5TTXA5MERXbm4zWXNNUnpvcHVFa9IBaEFVX3lxTE9FTkpQYWVObW1NQ1Z4anB1c3dfMGFfVEFWOVhZbzN4WE5RY25WcVl0QTFyUUdlVkZrbnRqZFRGZEdjQ0k0a3JrWnF1QWNSNnQwTEZmODdBcmFmZWlGaS1yYm95TjRzSnVX?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Defesa Civil emite alerta severo para chuvas na grande São Paulo",
+      "titulo": "Trump colocou JD Vance para trabalhar em retorno de Jensen Huang à Nvidia",
       "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQVcyZzM1U2FfUDkxUkVxQ2JpTWlheGpNdDFOdERaRnEyVUtyX0pWUFlyQXFtMngtTENwWW1BeHhDUk8tSFdPUVlNNGktWklWUGZOZmxTUWlNMHZReUY4bXdVQXVoSkNCeVVuVjlCV3VKeE5FckhwZzZLS2VadU4tRklFVVVIVk56VUljelNTcEh2NHB6bFBuSHBXQVdJc2d0SGRjSXpaS0k5QW81dDJr?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcV9XdnZXUG5xVHJxek9sWE9NN2JIWUJiSk5JcEphNGRFMzNjQ0tDVUh1S05wU1JocHlySXh5Yjl4RHZiV3N4M2Rnblp6NHNNVzljWUZzUWJjTVJURWRHLThObEo5ZDM1TFRKekxfRmJVT3puXzVfOG0yQnZwUDVuQUJWbGR4RDJyX3BRb0ZLSC0tNXZqTUZYV1daRmxPazFoekUxX2w0MmRoZ3N0S3U4V2FfY1k0TTBY?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Fazenda reduz previsão do PIB e eleva inflação para 2027",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOalVLdEk3NF9YMHQyaEZBSktrZHV1djJxWHBSU0NLU3EzSUFFTWtMalMzdk44VFB5ekZ3ZWIxaHpaWVp5dGpnV1ExcS1rV0dCYTdNTXVOSGJhZ2hrZnpyckk3Z29BMXpZSzZFYkg4Nkhod1pMQ2gwZ1M1YS1iY29MRW9ROUpHMFhHcXFyZ3RQMkVtaEVLU3UtQlVzeXFqMVNsMzJsNTV2NmJ0QmJLeWt3YS1ZODI?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "AO VIVO: Câmara discute projeto de ajuste fiscal do governo; ASSISTA",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1OMFNVemprOVE1bTQ5SVJqVko5OHJ2c0tTOEh5ckR1WmdYWEwwam9NUEtPZUJOSGgwLVc0M3Bkcy1rUzVkYUlXeE1MWEVFaEYxa3UtZlEtWkViRUdlamJ6aUlVTl9OYmV4eGRWeFEwc2tMLU01UGpZOEpXckJYRFE?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Jair Bolsonaro tem pneumonia e segue internado na UTI, apesar de melhora clínica",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRXd2T3gwUXpXUlkwV3M0RnBIZjhHSHYyUU5MbjRRNFY1WkNhalpsYmU3a2o2Y0Nfa0QybHU5VEdNcUhnQkdveExjZEUwcFl4SjlndG5TbWxGSW1DdjQ4Z3R2Q2FNcjBCVER5Z0E4MlVlT1NITzJsT3NTNkRybFEwNDRURU1kTTlpNGloUXVsSGplWS1NbXpwOFJZSzFRRm5NcUk5dVRvekF2bnRGWENwNWFFYTd1OGPSAbwBQVVfeXFMTkI0cEdfYThpY01sVUF0cGRLOGh4QVUzSGhwRUV0dVdkMEZQODlKMTZ2TEJHeTVuQlM1dG5kMXFqSGg2NTQ1aWkxZjdzYktMUWpsa0gzWW5jc2FBVjdMTEVVRUVESFMwb1ZMSGRHTVVOOU9saGMwbTdrVmtJOG5xbkh0S20ySUlHU2tGZ21WUmNVeFc5N0xPUFJUOWNxc3lvLW12SDlhZWJscW9rVnJNcmdUR1k3SlBMdHdCZks?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "VÍDEO: carreta perde controle, atinge veículo e invade clínica na avenida do Contorno, em BH",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONlV3Nm8xTTBkeVFtOWh0TXVKbURIREJHWEsxUzE1QTBNbEs4bFZBQmxBeUp4Mk1ta3kzN2hYdjA3R3V3T19kYW8xYjcyR2NxN2lvSWpscmw5VERSVzFQZjVNbFE2R3hsV0lJRVBFRkdBZXU4OXlpNzBKZHZxYktOdW9fRnZ5Z1gxZ3hYdnNqVVlZYV9XQ0NKZno1Rkk0eHJFSWhURE1KVHB1a2s2d3RVQW5QM2piYngwUG1URGRKYkdFdm5oYlhGZ3JkWU9mcmlsTVBpU0ktTFNlOUtmUzdMbzdUWjRQUdIB9AFBVV95cUxPcnA1RDc2dkt1MlBHZmdSWEllaXNSMEhSTUlRMUxpLUZXWVlhWjYzS1FGbnNLbFNfY0R1eEJKR0YtclpySXZCUW1TeGtlYm1lNTdaa2FIRm9uMXNMVTVWNHM1aGNDZl9ERFk2Y2p0emFTeDhDQ0E5UkswMlUyb1J0TlBESF9pZVFDVzllUlJUNTFIU1ZsUEpTcFphb05veS02b0luTWVNWDZUQldvamx6S3VfN19lWm12a3dnMHFDNEx6cUtiQXAwUlNWYkgtSF83WWZCTTlXV3ExSXRQdjA4TGxqT2N2bl8xOFk1VldaQmpfV2Zj?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "De GTA V a GTA VI: O que mudou na política brasileira em 13 anos?",
+      "fonte": "Congresso em Foco",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRXROODMwNHg4b0R2NHpBTnpHSXRXNUxYcEp3N05mUjJSblNEalJMNEZkVTBXMFJTUlg1YmxESFZnTDQwMGQ3MW5xb011dy1waE9Qa0tnbkhqblFhRmp2QmZxQlJEdGs2VGdYVGctaERYNGRQYkpZOWxzVzQ0cmpzaGFsZS1JOUdyTl93cW1vamR1MVlIdENRcVc5dS16SGY3NkwxNnRRUnE1TlpsZVZzaDdEUQ?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Congresso nacional debate estratégias de prevenção ampliada e proteção social em Recife",
+      "fonte": "Governo Federal",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPUnlfUGFmRlNNZG1pZ2ZfM245RGVseEF4OVBKSEJRM3d6bVF6VGFqclBUel9veHllSGdOTkRlRU9VeU5rUWVxeWFDclQ0RTVMdEloNG9rWlhhaTVvREdLdUNYa1ppa1Rsa2RLODBqYnpnM1ZjNEw2akE0d3VCUDdxeWY4S0c4akF5MS1TSFp4WEJONHlxSnpXMVhHT1hvT0o1SFdlcHV0OUQ5S2JnMTFyakZNNjFXYWpDZzJqWHZWbzJmOWxQbWltdVZPZ1M1dw?oc=5"
     },
     {
       "cat": "politica",
@@ -346,34 +358,22 @@
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxONlNzaHdETHktN05YLTNfTll1YzVSNjZDdTBiamxxUXZBNGg3eDlCV0VLNkxPRDhCZWdzR2VObG1fbVlueTlvcVgxREZOSDlJdU5EcklQUTNWUmwtR1FKbmtKdkkyQ3ptbkllT0plTk4ybzBMYWlxVS13bDZjZUc5bjBrS2dKTEhIbkpCdkg1Z21sbzFUa3JYNjhXRTFRSFQxZkFMMVlaeGVFQzE2bTdOMjZIYzVRM0JrU3BEeUxHeDdHblRYQnBBTkItb0tjc09HRnNPTnBlWkc3ejFfV2M3Q05oTVhvdFpnZVFMaDZaRdIB_gFBVV95cUxORS01eklSWEZidDdTVlJVaENTZEZFZXZSQm5EX2lOcU1ZN19fV2pfaXFPUElvVFRBWWQ1MWFNN0poc254ME1fVXlHM0VEenRNRGtpdV9xZks5b0F5dmQ5SG1pOTZSTmRUVnFDc0xTMUFTSENfTDliUnlNY1lvbF91dUdjXzhlM2Vnd3JJR2EwcjFvanZJYkQ5TXNpVHpoby10bkIzTEx5RlRGODkxYUJEczFCM3Y5TXp6VlFEMWVqVXl3bUpvaVp4dW10UXlkTW5GR1E5NGdfLW1hS2tGX3hTTUd2UG1XbkVXUUNjSkVlX1dya0c2SU1mMmdUdUJ3QQ?oc=5"
     },
     {
-      "cat": "politica",
-      "titulo": "Reforma política e sistema eleitoral… de novo",
-      "fonte": "JOTA Info",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSGFMOEFNZFh6b2RUZGYwd2VOMF91c2dCR1ZhVmRTSGNMSV95OXd4Qm0tX3JtTGpiZ1dZVlJPcWkyTWt3X3VqUmNoaUk0MDJQYVI5WDY4REw3MGs3YmJsZlJCUEJqVnpDQlBDUWJTNGROWlMzVkU3dmhNSmI1UEZvVmZPLVlqQVBEaDduY2ttbmFudk91bWZF?oc=5"
+      "cat": "eleicoes",
+      "titulo": "Moraes dá 15 dias para Flávio Bolsonaro se manifestar sobre calúnia contra Lula",
+      "fonte": "Brasil de Fato",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZDBSeTM2MzNTcnlieVFaWUJQZ0NzVldaMnk5ZGF0Z2RLbFVVeGFISXd0M21WbUk2T05OaEEyenJpTnlCb0t2dDJxb0FtaTY3bXdjUk9LckpRblcyVEpSeWlmekdOYXJ5cE9BaVhoeVlZWGMwQzJfR3pUMnFyd2JXbEFELS0ya1lZbWR4OXhzRGxuY19SeGRaUTdZVUxpd1RWcWJxNG0xMWpZa200MktMemhVOS1zdW9fcXNxa1FURGg?oc=5"
     },
     {
-      "cat": "politica",
-      "titulo": "Opinião - Filippo Lancieri e Fiona Scott Morton: Um avanço importante na política antitruste brasileira",
-      "fonte": "Folha de S.Paulo",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ19GVGhab1RTZ2UyRWo1WFlqWnV0NHNpR0JIa1YxOWdUX0VzNm83WkZrUTdnWUNsTTFsaHROTnVhWll0bEpfOVQ3RTV5OEJTM2VVZlRPQTZvRk8tV2hQTG91RDJtbUVNUjhaYzA1dzlIQjc1YkVHb19GNmJabDR6M2d6MlZxSEk2TTlKNXYtbTVqaTRLZmI3UHBxdzB3Yi16UDNHbEJmNzk0Zw?oc=5"
+      "cat": "eleicoes",
+      "titulo": "O argumento de Moraes para intimar Flávio Bolsonaro por edital",
+      "fonte": "CartaCapital",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTWZYbW1EQzdrbUxhVE1uQXZnLXoyVW9vc3Nlc3ZuUVoyY0ZTOUpPSzRHSWtXWHJWQVRUN3BMcERSVWpTYjRlbVhLZDl1LXNOWXJRN1h4MmRrNGdtZFMzMElNeF9jMEF4STF0ZlVXdW53YlZsMXJSdUxrbGZJREMyXzZmdWdMb1VOZngxSmx0SWEzTjUtQ21SNFJLTXU5bmRkOVZiT3lB?oc=5"
     },
     {
       "cat": "eleicoes",
       "titulo": "O esvaziamento de Flávio Bolsonaro nas redes após a eleição",
       "fonte": "CNN Brasil",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdzNhWWZsUWlIOWZZdG1Ybl9QWldUbXF3ZEdCOV9Xb3BZa2ZuLTFkTEJfX1g2QTZ3U2diWEhTSUoxM21RR3NLQ0lUTGFwX2hFemducGltOWdJV3RiVkZoNlV6RFlDSDFnZW9vbzFpZW9ldXpDS01JUWFQd1NIOVh4MDY4RTkxWE5XdXJWamNOdFdvOUI3LUhwQVVlRy1xdzNvMXotUkp4U2dST1FrQlEzLWQ4N0dHRXJtQlhr?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Flávio Bolsonaro diz ser \"proibido de investigar\" fraude eleitoral",
-      "fonte": "Congresso em Foco",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSlZVX3gtTWZ6NENmMVFFeUE4a0xZc09ZNktfaGlSNEFhYWJmbnZhUnJZUVk1Q0ctcVVtcFBQMU5HbVVnS2hLaUlZNHpsNnhlQkhUcGVwRFNFNGdjaWpoVWdMUGR6ZzdCNXh6Y3l0eEtidmhSTi0yX1plX1VCTEladng5emE2U3ZJTmRJT3JfSEdVajQtNEFVNG5EcVJOR2pzT2lKRkhBUTdZdngtZXBPaU1HSkw?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Lula e Flávio acionaram TSE quase mil vezes durante campanha, mostra levantamento",
-      "fonte": "Folha de S.Paulo",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObWxUVW1uY0lJNmFCZTJ5eTRPdjlxaXEwNjZ4c0M0NUU3SE9tbmNhakhRVXp5ZHZhS0U1OHQ3SnlQNUY0NlN0YXc3R1VMZzdJYUF3bjE2ZW5ldW5vQThiTmItMzRNMVgtWTZDa3VDOHN0TWdxOVVyaU95NjJieEY1WURoZHN4NXZYSGJXV1NPZ0dkVHFRS3pLUGpYdkkxLW1fZEg3OWRNY2hkQjJZY3lJMTRTTmZLLWdjaE54RHpyZXdJbVl6WkthaWNB?oc=5"
     }
   ],
   "indicadores": {
@@ -406,7 +406,7 @@
       },
       "poup": {
         "valor": 0.6701,
-        "data": "18/11/2026",
+        "data": "19/11/2026",
         "fonte": "Banco Central"
       },
       "desemp": {
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-23T09:53:58-03:00",
+    "atualizadoEm": "2026-11-23T21:56:02-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
