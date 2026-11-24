@@ -165,10 +165,10 @@
       "pontos": 164796.05,
       "var": -0.95,
       "anterior": 166376.44,
-      "minimo": 164129.33,
-      "maximo": 166373.69,
-      "hora": "23/11 21h55",
-      "ts": 1795481759320
+      "minimo": 164796.05,
+      "maximo": 164796.05,
+      "hora": "24/11 07h59",
+      "ts": 1795517953237
     },
     "acoes": [
       {
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.9293,
-        "var": 0.0
+        "valor": 5.9239,
+        "var": -0.09
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.4667,
-        "var": 0.02
+        "valor": 6.4819,
+        "var": 0.25
       }
     ],
-    "acoesTs": 1795481759320,
-    "moedasTs": 1795481759320,
+    "acoesTs": 1795517953237,
+    "moedasTs": 1795517953237,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,15 +305,15 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Após ir a R$ 6, dólar fecha em leve baixa, aos R$ 5,92, mesmo diante de incertezas sobre política fiscal e cenário externo",
+      "titulo": "De Steve Jobs na Apple a Huang na Nvidia: veja os CEOs que caíram e voltaram ao topo de grandes empresas",
       "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOU0xrMi1aUTE4WWFkVUtsekNvb2JOM3I2ZTZrMWI2VjliT3lLdnBvZEU2cmRUTU5mdkhDOG9RemI2OXhrU2FkX1hmWDI1MjQxQTFrTW5UbWFzb2VwZk5VTkZQekpPMmZwQnc5V2V0anlfcUpkU3l1NjdiTEpsY0phcHM1cWI5RnN4ZmhnNzJSMGxfX0w0Z3VRQTJDanFhcENodjRqNXAwVngwbUYtYzIwWTBJbENhQlV1NjlaWElBWW5wN2JBNnFTTXVERURUVDhMTFlEekpjWnpJZXlPNzR5VG43TdIB8gFBVV95cUxQeDNoRFhlTmp6X3pNR0pxcWNyVndBa213ZVpqRlR1eFBSaVRRYmZEV0dUaTFDRXJnbmxqVDVMWjRJS1laN1g1SjBFdkNCaTg2ZnczT0dFY1JQV0djSHRzNF9HRlFaNC1BQ3FhS1pIa2hzUnR4eG5kcFByc05SUXhpS2dFSzktNDBPUVhSakdPYjJkMmJjQTFiamF6LW1ZSGlxVm9RNGVsQ3RPbWFYenJHRnF2d0ZTa1hxbW5Ya215QUtkM25Cc3ZwOXdLeU91R0xSSGRUNVoyMV9xTk93M3llb25feG53VTc1YXdjVE8tSmdydw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNSkJMZ3pOYnN0bGNRSXBqdzhMSzJDcDFZdlZoV1RSYi05N1lBQ1l5c0JkZG1TaGZJMTE1QzdXUHhOWW5QVkl4WUV3aU42cDlVdEU0RF9JRV96RkVDc01EUlV4Y1dMZ0dQQ1ROdGRMOE9JU2J2VWIzZ3Njd2VWbE8zN2lhZU15SVZNLVFGQTR1Z0dWdUJfVEhGcEQ2OUZKNEZqS2UtX0xfZFo1bnVzdmEtS0Q1UTMzdFRQbXAxYXdwLUROOG9ITHpmUC0yUDZVQ2JNSEQzc1FlcmU1Z0xCX3MxczBha0VZaDBVYllpN3RWbzRxOGJPeS1CUGZQaUFSbVRM0gGPAkFVX3lxTE5hZlBxbzhTcERjOW5BNFVrMVFSV0VWZ0hCSGRRZ0YyMEc4NWZ4ZDhmTm1oMk9vOHBRSVZXSm9abWt6MTV1VFBLLXo0OEFSazZfaVo4MTNkOTN4NGFSNUstZzRzZ2FjdUs0QzFJS3BrR2xJd0JOOVR5OHR0Q0gxQkctVzdackpCNkRrSWFMZEhGMDdfRTNCLV91X3N4a0Z2WmJIVWM3Z2tyQ3dwaVdJNlczdUlreDNFbEpKMlFaX0xmZlgyRm03dE5lMjBEaGx2cFVfbTFxQjdoTGFZTDI5aU5Yc2tVM3c1STNjWEdjaDFDVGtpSm1HSERxaTNncVI4dFpjMUhIekhPVEhJRDVkNkU?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Trump colocou JD Vance para trabalhar em retorno de Jensen Huang à Nvidia",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcV9XdnZXUG5xVHJxek9sWE9NN2JIWUJiSk5JcEphNGRFMzNjQ0tDVUh1S05wU1JocHlySXh5Yjl4RHZiV3N4M2Rnblp6NHNNVzljWUZzUWJjTVJURWRHLThObEo5ZDM1TFRKekxfRmJVT3puXzVfOG0yQnZwUDVuQUJWbGR4RDJyX3BRb0ZLSC0tNXZqTUZYV1daRmxPazFoekUxX2w0MmRoZ3N0S3U4V2FfY1k0TTBY?oc=5"
+      "titulo": "Dólar fecha em queda após superar R$ 6; Ibovespa recua apesar de NY",
+      "fonte": "UOL Economia",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQkF4TjM3YXkySC0yNEd4VmJtM3ZyRW9fdjE1bHlFYUhRUXFKQUZkYTRxNGRTenRUdWkyVTJYZGZVRkh4WEY1WmdCNXNOU29nUDhyMzdXSUVvaEF1QXV6ZjdnUVRXOWxEMlRUX0RDYktsYlJZSDVHb2NCdWRMbXJrTWJfWlBRY3NxX28za1dZREd3M2I5S1JLeTBVM3FFWUdNc3d6VkctdWxQVUJpeEpuc0J5czN3dktwX2hJWGhEeEpmQnpXcDU0MWhyUjhwZlA1?oc=5"
     },
     {
       "cat": "economia",
@@ -323,9 +323,9 @@
     },
     {
       "cat": "brasil",
-      "titulo": "AO VIVO: Câmara discute projeto de ajuste fiscal do governo; ASSISTA",
+      "titulo": "Após Câmara aprovar ajuste fiscal de Lula, Hugo Motta defende novas medidas ainda em 2026",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1OMFNVemprOVE1bTQ5SVJqVko5OHJ2c0tTOEh5ckR1WmdYWEwwam9NUEtPZUJOSGgwLVc0M3Bkcy1rUzVkYUlXeE1MWEVFaEYxa3UtZlEtWkViRUdlamJ6aUlVTl9OYmV4eGRWeFEwc2tMLU01UGpZOEpXckJYRFE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNc0ZOUy1raHphZV82Tkt3XzJ1aXNhaTUwa1pSRk1PME5SOXR0Z2tYSWluZVhTSi1ScGlnSGUxR0thX013cTQxM1hKdm82Nks0RG5pYXhkWHoyczRPRXBGSzlYc0g0Y1I2MjNuVXNKVUIyX3BKZ0o2Q2Flb0xIRklScTZCNmpBTzVwRkMzWEZzZUtCX05OTzRYSC1Kc3BhRUFnWHhlSWRUY0tZZlhWLWhNQ1JCMFhOdWc0OF9iaVNacDd3WlE5RTZOUWJOLWRPeTlwazFPeHRaczRITlAx0gHrAUFVX3lxTFAxdklmU2l0UE1jUHJYdGZ0V0dLWW8xSWVjRkJUTnMwTnpiclBCYTk0SDhXaGJ6TzROOWZScmJzcjRoR0RSRi1DUkFWM0RHMjNlQkV1Sl9PMU1YLVM5T0dTVTNBVHoxZFZuMVJKMllKWGIzTExQbDVLOFA4VHdZZmJQNG44REtqQlJERC1tSFpKVFlneEFRQ2w3a1FINDZvNXdSWm5zREx4MXU5ZmZUYnRkeERSekdRM2F1emcxQ1NyOWktV2h6eVRYdDd3V251M1VQR1oxcVJ2MTJkVktLekZDcXNhYnZ1R3liYWc?oc=5"
     },
     {
       "cat": "brasil",
@@ -335,27 +335,27 @@
     },
     {
       "cat": "brasil",
-      "titulo": "VÍDEO: carreta perde controle, atinge veículo e invade clínica na avenida do Contorno, em BH",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONlV3Nm8xTTBkeVFtOWh0TXVKbURIREJHWEsxUzE1QTBNbEs4bFZBQmxBeUp4Mk1ta3kzN2hYdjA3R3V3T19kYW8xYjcyR2NxN2lvSWpscmw5VERSVzFQZjVNbFE2R3hsV0lJRVBFRkdBZXU4OXlpNzBKZHZxYktOdW9fRnZ5Z1gxZ3hYdnNqVVlZYV9XQ0NKZno1Rkk0eHJFSWhURE1KVHB1a2s2d3RVQW5QM2piYngwUG1URGRKYkdFdm5oYlhGZ3JkWU9mcmlsTVBpU0ktTFNlOUtmUzdMbzdUWjRQUdIB9AFBVV95cUxPcnA1RDc2dkt1MlBHZmdSWEllaXNSMEhSTUlRMUxpLUZXWVlhWjYzS1FGbnNLbFNfY0R1eEJKR0YtclpySXZCUW1TeGtlYm1lNTdaa2FIRm9uMXNMVTVWNHM1aGNDZl9ERFk2Y2p0emFTeDhDQ0E5UkswMlUyb1J0TlBESF9pZVFDVzllUlJUNTFIU1ZsUEpTcFphb05veS02b0luTWVNWDZUQldvamx6S3VfN19lWm12a3dnMHFDNEx6cUtiQXAwUlNWYkgtSF83WWZCTTlXV3ExSXRQdjA4TGxqT2N2bl8xOFk1VldaQmpfV2Zj?oc=5"
+      "titulo": "Brasil emite alerta vermelho de tempestade para Sul nesta terça-feira (24)",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOR0EzcWpwT3Y3UV9nT0VnSXNraktkS1RoQlh5VGQyanVETjZwd0ZnS1pxTVdMeUdNMG9jYUZacG5FRFQyWFJiM0NROGlKT0RnaFpFWkpiVjNIUzcxVGZoTnZ2ajkwM1Q4N2QtaDUwM3phUWhCenN1V3FuVnU2T3VuUjZxSWhnWXo4NTNmTG81ckJ4SEg1TUN2QUFOQWRLM0VzNVppSlZtWjVXSlNPeE5CUzB2Zkk3QQ?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Câmara aprova texto-base do projeto de ajuste fiscal",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWVZpamZzQWhjNVJjTF9TbW94eWZJMDlzanZtRFpDRTVPdWF3ZDJQRkRvZDY3VUx3Rk9OVW56M0VuR0Z5eW1CZ18zX0M4RS1fOWw4NWRPV1poa3pFZTZraXNEZF9ERUdzQXNPRFp2a1FIRTdtSlN3Uldoc1VDY1dzLWhyVkF6N2RGamxkSHpFVjlEQlkzcEVVd3huU3pFamhOOENhM3Brcjl4eGRJam9F?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Lula avalia alternativas ao STF após resistências a Messias em reunião com ministros e cúpula do Congresso",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQZzFqRGFLLWI3SmxudjVtajBaWHVmcVJTbC1Vb1dKVG93MFl1X0Y2U2FZa3NoY0hWbkNEemNMVmFBM2txWmEtaXA5LXdxUXlCNmV5ZTgtTFJlWUFNS3ZIRlIzNmh2RFdTbDhrNl96SmF5UEJzdVdlZklOZ09XZFVyV1lmV0lnUnUxcXhJSWNnR2M0YU50V3NhamxHMTU3cmdEQjFBWVNkeU0yWWFESFl2ZUF4TWxUSWdhYXEyVkg0ZW1HTW5NZy1MNnBFZ21mRTJKR05Cc3BnRllZOVNERXNKTm5nQk5ZNldpMFdqcVNiRVF4UklGMnRUOdIBhwJBVV95cUxNckQ3RExqYm8wTlJJbFhONXNWQmxUcjlMaFZJTXRMSk4xSGJTd3N6dmRVLVF4RUlQcXpZX2lVYS1Qek5vU3NSWXctQTVSbmtZVGlNVzZ5cTJsVVZfS0F0U0ZlZ08yTkVaeENOWUdpMENRUW45dl9OSkRSLTdWbzEwaWRxbkVXdjVrQzh4SHBjVmlNMTJXV19vVF9CNGhKQmt2NmpKd3VBNjFrN1BWMmpJWTh3X1VtZWVnUWVwdE5oQjJYdmk5SUZ0MXBqcWhsMzNaa2d5VUpMUmJ2am9KeXg0VGwxVDhFenRIVzg0ZEVlOVpiR3pFejUxS3ZldlFEN3RORUkzQnE3UQ?oc=5"
     },
     {
       "cat": "politica",
       "titulo": "De GTA V a GTA VI: O que mudou na política brasileira em 13 anos?",
       "fonte": "Congresso em Foco",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRXROODMwNHg4b0R2NHpBTnpHSXRXNUxYcEp3N05mUjJSblNEalJMNEZkVTBXMFJTUlg1YmxESFZnTDQwMGQ3MW5xb011dy1waE9Qa0tnbkhqblFhRmp2QmZxQlJEdGs2VGdYVGctaERYNGRQYkpZOWxzVzQ0cmpzaGFsZS1JOUdyTl93cW1vamR1MVlIdENRcVc5dS16SGY3NkwxNnRRUnE1TlpsZVZzaDdEUQ?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Congresso nacional debate estratégias de prevenção ampliada e proteção social em Recife",
-      "fonte": "Governo Federal",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPUnlfUGFmRlNNZG1pZ2ZfM245RGVseEF4OVBKSEJRM3d6bVF6VGFqclBUel9veHllSGdOTkRlRU9VeU5rUWVxeWFDclQ0RTVMdEloNG9rWlhhaTVvREdLdUNYa1ppa1Rsa2RLODBqYnpnM1ZjNEw2akE0d3VCUDdxeWY4S0c4akF5MS1TSFp4WEJONHlxSnpXMVhHT1hvT0o1SFdlcHV0OUQ5S2JnMTFyakZNNjFXYWpDZzJqWHZWbzJmOWxQbWltdVZPZ1M1dw?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Oposição e parlamentares do Centrão tentam alterar medidas eleitorais de Lula enviadas ao Congresso",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxONlNzaHdETHktN05YLTNfTll1YzVSNjZDdTBiamxxUXZBNGg3eDlCV0VLNkxPRDhCZWdzR2VObG1fbVlueTlvcVgxREZOSDlJdU5EcklQUTNWUmwtR1FKbmtKdkkyQ3ptbkllT0plTk4ybzBMYWlxVS13bDZjZUc5bjBrS2dKTEhIbkpCdkg1Z21sbzFUa3JYNjhXRTFRSFQxZkFMMVlaeGVFQzE2bTdOMjZIYzVRM0JrU3BEeUxHeDdHblRYQnBBTkItb0tjc09HRnNPTnBlWkc3ejFfV2M3Q05oTVhvdFpnZVFMaDZaRdIB_gFBVV95cUxORS01eklSWEZidDdTVlJVaENTZEZFZXZSQm5EX2lOcU1ZN19fV2pfaXFPUElvVFRBWWQ1MWFNN0poc254ME1fVXlHM0VEenRNRGtpdV9xZks5b0F5dmQ5SG1pOTZSTmRUVnFDc0xTMUFTSENfTDliUnlNY1lvbF91dUdjXzhlM2Vnd3JJR2EwcjFvanZJYkQ5TXNpVHpoby10bkIzTEx5RlRGODkxYUJEczFCM3Y5TXp6VlFEMWVqVXl3bUpvaVp4dW10UXlkTW5GR1E5NGdfLW1hS2tGX3hTTUd2UG1XbkVXUUNjSkVlX1dya0c2SU1mMmdUdUJ3QQ?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -1536,14 +1536,13 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-23T21:56:02-03:00",
+    "atualizadoEm": "2026-11-24T07:59:16-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
       "BC ipca12",
       "BC ipcam",
       "BC igpm",
-      "BC poup",
       "BC desemp",
       "câmbio (Yahoo)",
       "Ibovespa",
@@ -1551,6 +1550,7 @@
       "12 notícias"
     ],
     "falhas": [
+      "BC poup: https://api.bcb.gov.br/dados/serie/bcdata.sgs.195/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
       "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
     ]
   }
