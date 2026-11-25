@@ -162,39 +162,39 @@
   },
   "mercado": {
     "ibov": {
-      "pontos": 164088.77,
+      "pontos": 164089.81,
       "var": -0.43,
       "anterior": 164796.05,
-      "minimo": 164023.39,
-      "maximo": 167579.78,
-      "hora": "24/11 18h15",
-      "ts": 1795554949124
+      "minimo": 164089.81,
+      "maximo": 164089.81,
+      "hora": "25/11 01h19",
+      "ts": 1795580344013
     },
     "acoes": [
       {
         "ticker": "PETR4",
-        "preco": 40.52,
-        "var": -1.89
+        "preco": 40.55,
+        "var": -1.82
       },
       {
         "ticker": "VALE3",
-        "preco": 55.2,
-        "var": -5.5
+        "preco": 55.19,
+        "var": -5.51
       },
       {
         "ticker": "ITUB4",
-        "preco": 39.72,
-        "var": -0.03
+        "preco": 39.74,
+        "var": 0.03
       },
       {
         "ticker": "BBDC4",
-        "preco": 13.6,
-        "var": -0.8
+        "preco": 13.62,
+        "var": -0.66
       },
       {
         "ticker": "BBAS3",
-        "preco": 14.2,
-        "var": 0.0
+        "preco": 14.18,
+        "var": -0.14
       },
       {
         "ticker": "WEGE3",
@@ -203,13 +203,13 @@
       },
       {
         "ticker": "SUZB3",
-        "preco": 55.99,
-        "var": 1.45
+        "preco": 56.14,
+        "var": 1.72
       },
       {
         "ticker": "B3SA3",
-        "preco": 14.22,
-        "var": 0.42
+        "preco": 14.18,
+        "var": 0.14
       }
     ],
     "juros": [
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.9075,
-        "var": -0.37
+        "valor": 5.9028,
+        "var": 0.16
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.4723,
-        "var": 0.11
+        "valor": 6.4601,
+        "var": -0.15
       }
     ],
-    "acoesTs": 1795554949124,
-    "moedasTs": 1795554949124,
+    "acoesTs": 1795580344013,
+    "moedasTs": 1795580344013,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,39 +305,45 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Dólar fecha em queda, com ajuste fiscal; Ibovespa zera ganhos pressionado por Vale (VALE3)",
-      "fonte": "Valor Investe",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOXVVS1BUZ0x2QWJ0elJoOUtNNU5OY2RNYWl6V0lnaEVCM3VIcnF2cUpuN21RMl9EMFFHRS14OTBtdFprdzVpTVVHQWVud1h6UVFZcWZuMzJKSEI5cENwNkFZR2dQUFZzRDFnUVNZQTlWZTRoR09WandyV0hoMUtXZUF4UDdPS1lrSzZpUk1lY1hURzY0ejRsOUgySHZ4WGdSQ2ItbGVaZl9zdkJiTVR5S2hIS2VSTVROamtqSlVVWXN6cHJHeTBFMdIB1wFBVV95cUxNRXhYb3U0bmx4b2R4VzM2T01zaE0yeVBwLVlRTzViV2FoQUJWX0tyZ1hOZE5ZQmlLQW84NjdDRmswZGpRbUtCUE5ySF9kbloxZzdyX2w1LXdjaWpjSmx6SnhnMUlGLW14ZVUybWc0VWJ6UVphNjg1MWtEYk5fUDU5aTNjM0w4UUZyYTBZSGM2S3lzd1FqR3ZsdWs0SU5rYmZrWG1YM2ZtcGpGN2lia2NYWVczUDBfYUVWQ0NMWTlFdUtXcXpkQk9oM19NNk9CMU1tdDZfZldQQQ?oc=5"
+      "titulo": "Dólar fecha novamente em queda, cotado a R$ 5,91; Ibovespa recua",
+      "fonte": "UOL Economia",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObEszMGp0R3dNRHZKR1NSMnpkSGJjTXVxcWR1LV84aEZrRjFaSjR5QWU0c2lOck5SRzBJN0kzV2FrYzF4T1hSODZGSmJlTG50Z2hpMkhoYlFfSnJaZWlvUm8tTW0wSGJuaW9GVjdwWU80NXI4enRfa0o0YzUxR0NKYlJFSFkzaVRXa3N5NmpkeFVNQTBWYmFNYWJ6WFpvT1VCTWNwTlkxLWRCYS1nTXVkaDNB?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Fazenda reduz previsão do PIB e eleva inflação para 2027",
-      "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOalVLdEk3NF9YMHQyaEZBSktrZHV1djJxWHBSU0NLU3EzSUFFTWtMalMzdk44VFB5ekZ3ZWIxaHpaWVp5dGpnV1ExcS1rV0dCYTdNTXVOSGJhZ2hrZnpyckk3Z29BMXpZSzZFYkg4Nkhod1pMQ2gwZ1M1YS1iY29MRW9ROUpHMFhHcXFyZ3RQMkVtaEVLU3UtQlVzeXFqMVNsMzJsNTV2NmJ0QmJLeWt3YS1ZODI?oc=5"
+      "titulo": "Por que o plano de investimento de US$ 122 bilhões da Petrobras recebeu avaliação negativa do Citi",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNM0FNQ1JqcURpYWFIbG8tSE93QnRnT0pEeDl2Wm9yd0R5WFBCMVRnc0xZbEJrMkFpWXA2OGxyTldpWGVOdjFHT2RGa1pHay1fRGl1ZGstQkRtRHkxd1RIcWFfMDZIVVdlMVkzdVgwS21fNGQ5cG9ZZnVtNURrUkdRV2RlMHI0R002T0RrVng3ZTh0Nmh5Y1IyMTg0ZFA2OGl6WU1xMktkcmNEc1dSVDJQaWV3YTJ1a1g2djRIclJESkRMbS1TcFhGQlpkaXJERHFOUU5rdlNoOXBCZVJaeXRmWkpndkh1ZHhZRk1fZtIB8gFBVV95cUxNMl9TUmpyU3p0YS15U1lhc08xRVRqMXl6NG9hUzhHbWxOd1pwU2ZaeW5EcWlhTS1jMnRlY2paeHUwTzVkSWJiTEotd296U0szMDZVWWlTTHFWd1d4RWQ2cW5XdjdPdDlDZjJCcUhMMjJwTHFFd2plcFJLbXFQQlRSMl9MQmtTR2xBb3pPTzRHLUJmSjlROHp6LWdVRnFhWi1TRHVqX1NhU290Y29GM21mZmZZaWJMamYxVkpBQUlSQlBNcmNlOXN1R0JlY2M3MVI0bE9Id3liZFZ0X3hlaEI0Ulh6SGliTFBaMnByaVMxYm0zUQ?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Arrecadação federal sobe 7,3% e bate recorde em outubro",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPem1rQ0hTUE9XdmtUV3BPQkhWY2JKbzhURUhpNEM5UXdWejlEcDJFMzhWTlg4X19yZEJESzV2ZGVIb3EtbTBOMXlmQTFXX0xfLWN4TElMOEdBSDAyazhUUmVfUU52dHBpSUhLZHRQeHhSQ0dZc3pIbHZSMmdNYWhpZmJYMHRaZ25qODVkTFVGN0xTOWRPZUFCQWdyLWVUZw?oc=5"
+      "titulo": "Inter corta até 5% do quadro. Efeito da AI?",
+      "fonte": "Brazil Journal",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1maEV1WWJNRDg2d2VqNjlQMVo4UjNIMndZejh4TEM0anhCN0Jaek5hN1c4QnZ3RjJyNDBTT1lhQmF1VUJ6MTJzUS1vbzE5UzNkZnMtaGlCQ1BRUl9UTzZzSmtJX0Y5WHozaU9FdjhkdUZQMDFW?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Erika Hilton e Lindbergh ficam contra ajuste fiscal de Lula",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMmtZQks1ZmpDSzBrcG1IUHc0VWlyWXByZ0txVS1fMzhyNVRETGxkbnZxOUJQcGZtR3JuNnhNTWdCWDBDUFJuUGlwWWlxanlXbjlDZW9UQUE5aXdOM0J5NUZvTDhpYUJBMlZjOTA4bGpDRE9jVlU0MmZoek55VTE2Ym5vRWhVaUE4M1BGUGJieE9xUEN0Rm5uUjdJQlZuN2VCcmFhTDRpRQ?oc=5"
+      "titulo": "Lula se reúne com equipe econômica nesta quarta para definir escopo de PEC com novas medidas fiscais",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxON2dtZ2dZNThyXzNRNkxTaTRxcVNIVW5hZURIQUFrVF9jcks0Z3dzRkFoWXRwenFsXzltNy1FTFBGUDhKcU9QQkRsZXloRy1NclJRNUswbi1mWi1NeGNmN3BGcUhSRC1fa3Vtbk01TmZ4NlZDZ3ZfcTVUZnBZZmlsU0tieEdOT0gwaE9YWEI4RlZDd2tTSmR6VEczcEpMSXNaeERkVXZZUk0ybGJBVzFqZDFoVXRQSk0zZ1F1ZzBpd2xVMmpvMFJWbzdUQUh2aUZIbk1N0gHYAUFVX3lxTE0tR0t2eWRXSHQ0dFZfa204VjB4SWh5VnV2MmZKM1ZKTUtuby15LVBqNUpKemVoZ2pHQng5QUV5bVZWc09DN1VwTXJWSmRrbFZIckxTOENWYTVXRlQ2WDVhUjkyT2pOYjk2bE0tVGcxV3M2bU92TFZsbDRNY0hrTThKVFJmY0pFSDZ0Ul9YVG9SSXFtazlEUUdMRGp0R19heUw3TXNfUjBHYVg4MWwtZVp2NkNIY3NyZ1BLbTNrMmV5OWNoZzdPWjRzc2lpOVQyZnJiYlFIeENhRA?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Fundador da Hurb é preso na Barra da Tijuca; empresário tentou fugir, diz polícia",
+      "titulo": "El Niño influencia o clima no Brasil em dezembro de 2026",
+      "fonte": "Climatempo",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWnNiSm9nbzNlVUpLanhMTDJpY09fY1VhRnB0ZUZ6bG5IQzVGYWdfZVJqc0xpMzVRQ3hsdVFjZDBPTVJ4X1hBc2ZEVWFBVHMxMm9nczhBeE1TOVY2WGZuVWhVbmxXYllXM2tralB3ZW9SWjh1M3NWNkJUWnZrX3Q1NDBWOS1OenBKb0x4WHRZWFFmTzVSMkd4alZwc2w3dElpeE5vdjB6OA?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Abin mapeia 31 organizações criminosas no Brasil; PCC foca no exterior e CV avança no Norte e Nordeste",
+      "fonte": "Valor Econômico",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQQkNKU1hRblhVd1NsWUdYWE1ES1RDSEJRcXZha3hUVTlVWVh1S2k5N3FIRTRpdkFjSndJV1BtTHkzdmUyaUFyTFNOa2dSVkFnaFFnd3p0WkxDdTZXTXNsM0tuRmtNQ2ZLZ0pCVThKQTNJcFhEUVEzWlk2azJacjVkZlNUTnNKSGJodHk3dml3VlVrM1hzSXVmRllaeHBmd2p1ZW9ZcjgwdTFqS0FwdjBpN0pRVnI0eWpHNmVzSGxnY2t0ekZrZlc5MnJUODE2TFFuQWxhbDlLZVBhdHJKSDctdFI0blRCRjh10gH3AUFVX3lxTE9haHBzQnlWZUpfMGlud1hJN01sazJBaW8zUUEzVEVfUXhEM1RiVkJfcDFKVWJaUEpYWkR1Y2x5ajJvYXBYZnRoQU1Gd3RNSW1tNUdkVUpoS2N3RlVqdW5UQUJNOE5Id2NvNl9pZzZVNnMwSlZOR0NZSWdYNVZ0VjdVS1haSWtycnQzdWJ3Z0FhX0hONXBxQUtVMnhPeUFGeE5xR2FRekNtTWdxaXBtZGUwMjc0d1B6Y0ljSHdLWE1LdnN6cjJnc0lvZXpYc2xYMEJRZU10eDVOT25uU28tOTNCVW13RlQtWV85cWtVLUdpSm4yVEdRWnc?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Governo Lula tem ao menos oito projetos econômicos para aprovar no Congresso até o fim de 2026",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPazFDUkxKUjhpdVhQMWxXcnV3VjBYQ0ZvZnFuTzBYNnhYQTIxaG9hZHV6akphbHpXQ3dEb19DOUlra2VCVVZRam1UbXdPT3NmZlpQWFFzdW1XX1hmNEdmbGN6VVZ2Uzl6UE52MXVBN3YtRFJsUS0tamkzdERLYTBYSF9RVTIySnZmU1pJNVg4ak1aMG9oOTdtMWlQU0lxb05Td1ZIWHgwczNaOFd3WE1XZVk2dmZQZDM3M3JQXzhlZm5ZdzVLOTlVekJTWHdfREdzSXRPenRqWVBOZHPSAeoBQVVfeXFMTVpnakJwM1Bid3kyUDhlTkVISzA1b3dTTk9rOHRwa1o2VU9PVHQ4aUZsWUFMbFhsTXA4bHgzT2EwWDdsSWR5SUFkOVp5SllDZkxhcnVQclplSC1seXlsb1c3X2hNN1lTUHVZQXcxUGFIbThTOGFhRWFFazNEMGJmNTFWTGtIREtMUUlkQjFQT25FWHdmeXZuN0xZMnJNNXoweG8xaE1FNWcyREVrOWkyVi0wQ0tIN3pFVHpoek5va3NpbS14b1FLRENEbXRpLUZJMlRKczBrWHl5VTNwSTBUY1BMSDZadHh6VFd3?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Brasil tem 31 organizações criminosas relevantes, aponta Abin",
-      "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOU2VuYjVCOTNyRmZ0TGhfTjVFZjVZeTI4NG9scjlSRmxBa05MWmE1a19pNGlBYUpDcXRHVWxWX21tandvcHEwRVZZdHB0dlY0RkVaOUotZFYyM3lHSVdJamkxTG9EZlNWZV8ycFdXb0hRbVlRU1VQOGE0bFRFYV95Tk9ySnhRejRUYUttZWpsVXQ0X2c4OU42OGwtcktkeDIyaXJXMEV3b0hqOXdGTS1KcWFXbkplS2Y2?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNbDl2eHFRTjA0MHdUZWI1Nk5RajZlMUd5X0ZJcXlnRUZWUHZXaGZ2eVRFcnlHVWxOY05HcjdieVY4UXd5ay1fTk0xdHNCaVFfaFA2Si1VZDBidW1vNVBQZGRyd3JWTkY0UUpBWERUdTdqZXJKLVlyWktfMk9jMFE1aHdtc296MFNKWFIzNUJLMk9xaGd1MWF5N1pvQ0prLVdaUmlRaFMxRFI5TEc1dzQ2ZkVQd2JMam5kSS1PZTJWemxwQ2taTlJ6WVhtNGdXZUp4WnNyVXZoWXNTRDFkMi1MYUFNd9IB8gFBVV95cUxNbWFLMjhpTG5Dd1F4cW5iOXBXZ05UN2dyeEJaNmczNXM4SzljVlVlVUthNldKSW9DWHQ4WlJfSU9kM0VKS3U4bmVPcG5HUjdhZU5jRlVYcENxdEhQX0tzZno0Um1MS3hKcXRyUW5nUkhNQWJLQW5uOG0yeV9DbEEtOE85MEhfVGtGNVNWcmFwQUJ4UnBZWldEY2ZIblFsY294R0pUZVJ5cjJvYTdlNWx4TEdjN21sdkNTbWJfQ3V2OXlnVWR4WVJ1NlduTEhRUnh1Wk8tc3MxXzFwcmR2VjVNOS1TWWxFd0NwdTRCenZoQjRDdw?oc=5"
     },
     {
       "cat": "politica",
@@ -347,21 +353,9 @@
     },
     {
       "cat": "politica",
-      "titulo": "Cúpula do Congresso sinaliza ao governo disposição a novas medidas fiscais",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdVBfVVB1VUFVR0FsaEs2a3lNWDN4MXV6ZXdFTmhfam1JX3RNSDRaODVZaWJIMFVkWE1EYTg1dkI0WlV5dlNwSk5Jem9fZWs5Slk5SWY0Z3hDWmxLa25zNFZ4MXZPOE5NamhFNm9iUTdLQ0NyckdZRDVraGV4TGpUUGczQ0QtMkp5b2s5RVVDaUhIS3kzM2VSNHFEQ2phLXpFOGIxcHMtM08weGdMcS1WeFN3Yw?oc=5"
-    },
-    {
-      "cat": "politica",
       "titulo": "Assembleias imitam Congresso e ampliam controle parlamentar sobre verbas públicas",
       "fonte": "DW.com",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWWdiOC04UFlpQXliRGttMVViSERXVy1SWVRGUm11QVBXRWVReUpUOUhIUmhJLXZkbHVmeVNNU0otN0JFVFNydkFvNS1ObzJVcXhQUVJZY0NpRWJkd2R3X0F1MWxZZ2J2eTItTjgwUENhbzM0dFBkM0ZJckdzcXo0Zm9QRmU4eS1hOHIwRVVNemdPMHd0c1BoRnZKelBfOU05eTJkVnYyQ2hrSHA1ZjNlUmxRM01DOXpGRkhnaWwyONIBvwFBVV95cUxNZVN5UEVSNkJjZU1Wck1WVjNMUTN4bmd0YXcxNkdtbnZZUDA4N012R0JsVlhfOFIyT21RRHV6dElWckRRVEhrREl6S0VuUFQ3SWJ3UzZWeTJKb0tTRUpYTGxyZ1pzcmpjRUdJQU9JbVZFOU5LaFVUTE5HZUNITENZMXAtczUzVDdRRUpscm0tQmVHcWFwTVU0VDRZUGJRMTBaMGtsakJQckRhWjFZQ3FSRG81YmZLRGt3Y1d4Y1gyMA?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "'Acabou': o diagnóstico de um aliado sobre a distância de Flávio Bolsonaro",
-      "fonte": "PlatôBR",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQR2taa2R3dzlWQ2FGTFJSZkJ4bGZvaDZFeXhoSUE4NG41dDlFUDQ0MDA4OGF3d2puNFk3cjBQeU02WVRqRGlxSTRoQ1d2aXJzQ2t6QWFJQldlejlHd1lSNUNfSXk1cVRHS1dETWhlejR3M2xxYms0alZHWHFzNHJsZUF0aUhXYWlMNHhtNFFfd19ua0REX09pLQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZVN5UEVSNkJjZU1Wck1WVjNMUTN4bmd0YXcxNkdtbnZZUDA4N012R0JsVlhfOFIyT21RRHV6dElWckRRVEhrREl6S0VuUFQ3SWJ3UzZWeTJKb0tTRUpYTGxyZ1pzcmpjRUdJQU9JbVZFOU5LaFVUTE5HZUNITENZMXAtczUzVDdRRUpscm0tQmVHcWFwTVU0VDRZUGJRMTBaMGtsakJQckRhWjFZQ3FSRG81YmZLRGt3Y1d4Y1gyMNIBvwFBVV95cUxNZVN5UEVSNkJjZU1Wck1WVjNMUTN4bmd0YXcxNkdtbnZZUDA4N012R0JsVlhfOFIyT21RRHV6dElWckRRVEhrREl6S0VuUFQ3SWJ3UzZWeTJKb0tTRUpYTGxyZ1pzcmpjRUdJQU9JbVZFOU5LaFVUTE5HZUNITENZMXAtczUzVDdRRUpscm0tQmVHcWFwTVU0VDRZUGJRMTBaMGtsakJQckRhWjFZQ3FSRG81YmZLRGt3Y1d4Y1gyMA?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -371,9 +365,15 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "Milei não será convidado para a posse de Lula",
-      "fonte": "ponto de pauta",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNV93ay14MXA5b3luSEtJU0Z2eDAwU0tnWlVoUmIzeWk0OS1mdUxOWm1xbWNQVUxtSjVxN3o3TDJZNDhsejloeUdHUGFJaDRrc2JYbmJITEZCb0hEaEJpZzM5eUJUb2lJY05jemFPQnE2ZUFHU085YlVObGVLRGZIM2NGamR0ZFFqMVE?oc=5"
+      "titulo": "'Acabou': o diagnóstico de um aliado sobre a distância de Flávio Bolsonaro",
+      "fonte": "PlatôBR",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQR2taa2R3dzlWQ2FGTFJSZkJ4bGZvaDZFeXhoSUE4NG41dDlFUDQ0MDA4OGF3d2puNFk3cjBQeU02WVRqRGlxSTRoQ1d2aXJzQ2t6QWFJQldlejlHd1lSNUNfSXk1cVRHS1dETWhlejR3M2xxYms0alZHWHFzNHJsZUF0aUhXYWlMNHhtNFFfd19ua0REX09pLQ?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "O argumento de Moraes para intimar Flávio Bolsonaro por edital",
+      "fonte": "CartaCapital",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTWZYbW1EQzdrbUxhVE1uQXZnLXoyVW9vc3Nlc3ZuUVoyY0ZTOUpPSzRHSWtXWHJWQVRUN3BMcERSVWpTYjRlbVhLZDl1LXNOWXJRN1h4MmRrNGdtZFMzMElNeF9jMEF4STF0ZlVXdW53YlZsMXJSdUxrbGZJREMyXzZmdWdMb1VOZngxSmx0SWEzTjUtQ21SNFJLTXU5bmRkOVZiT3lB?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-24T18:15:51-03:00",
+    "atualizadoEm": "2026-11-25T01:19:07-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
