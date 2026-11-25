@@ -162,54 +162,54 @@
   },
   "mercado": {
     "ibov": {
-      "pontos": 164089.81,
-      "var": -0.43,
-      "anterior": 164796.05,
-      "minimo": 164089.81,
-      "maximo": 164089.81,
-      "hora": "25/11 01h19",
-      "ts": 1795580344013
+      "pontos": 164828.23,
+      "var": 0.45,
+      "anterior": 164089.81,
+      "minimo": 164042.12,
+      "maximo": 165314.81,
+      "hora": "25/11 12h39",
+      "ts": 1795621168553
     },
     "acoes": [
       {
         "ticker": "PETR4",
-        "preco": 40.55,
-        "var": -1.82
+        "preco": 40.81,
+        "var": 0.64
       },
       {
         "ticker": "VALE3",
-        "preco": 55.19,
-        "var": -5.51
+        "preco": 55.96,
+        "var": 1.4
       },
       {
         "ticker": "ITUB4",
-        "preco": 39.74,
-        "var": 0.03
+        "preco": 39.48,
+        "var": -0.65
       },
       {
         "ticker": "BBDC4",
-        "preco": 13.62,
-        "var": -0.66
+        "preco": 13.66,
+        "var": 0.29
       },
       {
         "ticker": "BBAS3",
-        "preco": 14.18,
-        "var": -0.14
+        "preco": 14.35,
+        "var": 1.2
       },
       {
         "ticker": "WEGE3",
-        "preco": 50.2,
-        "var": 0.58
+        "preco": 49.12,
+        "var": -2.15
       },
       {
         "ticker": "SUZB3",
-        "preco": 56.14,
-        "var": 1.72
+        "preco": 55.81,
+        "var": -0.59
       },
       {
         "ticker": "B3SA3",
-        "preco": 14.18,
-        "var": 0.14
+        "preco": 14.38,
+        "var": 1.41
       }
     ],
     "juros": [
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.9028,
-        "var": 0.16
+        "valor": 5.8587,
+        "var": -0.59
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.4601,
-        "var": -0.15
+        "valor": 6.4088,
+        "var": -0.94
       }
     ],
-    "acoesTs": 1795580344013,
-    "moedasTs": 1795580344013,
+    "acoesTs": 1795621168553,
+    "moedasTs": 1795621168552,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,45 +305,51 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Dólar fecha novamente em queda, cotado a R$ 5,91; Ibovespa recua",
+      "titulo": "Disparada do dólar divide economistas sobre exagero do mercado",
       "fonte": "UOL Economia",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObEszMGp0R3dNRHZKR1NSMnpkSGJjTXVxcWR1LV84aEZrRjFaSjR5QWU0c2lOck5SRzBJN0kzV2FrYzF4T1hSODZGSmJlTG50Z2hpMkhoYlFfSnJaZWlvUm8tTW0wSGJuaW9GVjdwWU80NXI4enRfa0o0YzUxR0NKYlJFSFkzaVRXa3N5NmpkeFVNQTBWYmFNYWJ6WFpvT1VCTWNwTlkxLWRCYS1nTXVkaDNB?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMjVxOXYtNG91dlgtbDlZaVFtVnc3YThtb05KX2JXM2JUa2wtcGI4cVpfOHQybl9oemV0ZkJGeDRHeFF2dWZuc3gwcEVVTmFya0k0dzhhenp3dGxwalI3YU1mNzRDbFNMN2FucERROF9GU0tiWEMtemlTSy1MTjlLRDVMZ3l3WVpQOUhLNWJSLWRqOE9fdjNIanQ1VzJNWExzRDdEUzBsLWJ4TG5OWHZGeXlQTzcwWi1DUmVQOU5YRQ?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Por que o plano de investimento de US$ 122 bilhões da Petrobras recebeu avaliação negativa do Citi",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNM0FNQ1JqcURpYWFIbG8tSE93QnRnT0pEeDl2Wm9yd0R5WFBCMVRnc0xZbEJrMkFpWXA2OGxyTldpWGVOdjFHT2RGa1pHay1fRGl1ZGstQkRtRHkxd1RIcWFfMDZIVVdlMVkzdVgwS21fNGQ5cG9ZZnVtNURrUkdRV2RlMHI0R002T0RrVng3ZTh0Nmh5Y1IyMTg0ZFA2OGl6WU1xMktkcmNEc1dSVDJQaWV3YTJ1a1g2djRIclJESkRMbS1TcFhGQlpkaXJERHFOUU5rdlNoOXBCZVJaeXRmWkpndkh1ZHhZRk1fZtIB8gFBVV95cUxNMl9TUmpyU3p0YS15U1lhc08xRVRqMXl6NG9hUzhHbWxOd1pwU2ZaeW5EcWlhTS1jMnRlY2paeHUwTzVkSWJiTEotd296U0szMDZVWWlTTHFWd1d4RWQ2cW5XdjdPdDlDZjJCcUhMMjJwTHFFd2plcFJLbXFQQlRSMl9MQmtTR2xBb3pPTzRHLUJmSjlROHp6LWdVRnFhWi1TRHVqX1NhU290Y29GM21mZmZZaWJMamYxVkpBQUlSQlBNcmNlOXN1R0JlY2M3MVI0bE9Id3liZFZ0X3hlaEI0Ulh6SGliTFBaMnByaVMxYm0zUQ?oc=5"
+      "titulo": "Os riscos que Trump corre com a volta de Jensen Huang ao comando da Nvidia",
+      "fonte": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE50dzBMOGRRbkNJLU4wYzd3NFRSVlFzTkhJM1JHTjQ4c1ZteUtnQUJ1dUxMUU41TDlrbFJNUEhpQWtCeXZvZ1JrSThjOXE4QnMzc2NZOUE4Sy1sakFadXNwX0pLNNIBaEFVX3lxTFA2UG01aFViZHJJc2o2V2hsRlpNcVhUSWlIcFNTcDFLbEExTGQ4RGpVVFlMUzExVnViNG9JdXc4TmM3SUpORUFuazBFeGlqMkJoZ0NULXdjUEk2NExmUTB5LXRMMDl5NDc5?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Inter corta até 5% do quadro. Efeito da AI?",
-      "fonte": "Brazil Journal",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1maEV1WWJNRDg2d2VqNjlQMVo4UjNIMndZejh4TEM0anhCN0Jaek5hN1c4QnZ3RjJyNDBTT1lhQmF1VUJ6MTJzUS1vbzE5UzNkZnMtaGlCQ1BRUl9UTzZzSmtJX0Y5WHozaU9FdjhkdUZQMDFW?oc=5"
+      "titulo": "Resultado Mega-Sena 3090: 27 apostas do PI acertam a quadra; veja cidades",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQV285LWR6eHpQQlJXenFmV2k1dWVnZWhKWllWTkpfRlNITzdoQVlYaHNzWnlKTTdQa1pVT0tVblY5UDBORXItaHVVcGRrdkpwdXcxeEZhbE0zck1Eek4xVlhKd09yYUhYbkprTWJvZ0c5Vko4UzZXR3R4amp3eGw0REt6VUZyQdIBlAFBVV95cUxNS3dEd0xnRWwxRmRjYlJNb3Q5d1h2MkdZVU50cE9jQno5dWYzREpTd19BTW5MaU9pTV9TenZPNHllTFJKaU8tWkl6RlRNN0w3aVVpbjBpZWVGN2hKRXoxeV9MeWlpVC1WaVFyM0ZvT1BtTzJtSTRMV0Q3eFdNOVJrQVhqbnV2bW5jeWZEdDRmb1ZfdWkz?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Lula se reúne com equipe econômica nesta quarta para definir escopo de PEC com novas medidas fiscais",
+      "titulo": "Ajuste fiscal: Lula avalia enviar nova proposta ao Congresso para conter gastos obrigatórios",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPSDd5VUUxcnM5eVFPS01tUWRWT3Y1Yklfd3FRWHdWS25vZmlaTUdHbEpwVkJJX1NLamhjQzY2d1lTdVp6UHNUQVZ4bkNJYktoRERaTWZsZWtMWG5wXzBheGVWZEh2bHpyQlZSOFp6RWhqOUdqRGRKLVAycThkeG45Mmo5V2p2UFB1ZEo1azE0WGZiSVVWQ1pQdUkzSDh6VDBfNlM0WlRYXzRKUXIzV0djc0JPaWdzOUZDTEpZNW5rT3pQaTZWanFYZWI5dzNfQWI1UzNqS29zbG0xNThnVGVGdjBHcVRmWDdycVhXbHNzU2x0RWZ1OXJPd9IBhwJBVV95cUxOcDNCWHlITXJHYXktenpwTDRodFp1eFVvYTdObkk2cGZ5U21BQUlKMVpvQjVOYlo0WHh3WXppeFJ6MjlTbjcwWFkzbFRnQ1dTbVNrcXpRYVdQbGpRN1EwWWlMWFBJeEkzak5WRFpFOXdsbGZ5WWUwWHc0QXB3MFJFNFFJNjZyWTR0Mk1TbEhyLXBOS0YybGJBWHU0dDI5eXJDdDAwY2FTY1RwT3BBMmxINnVUMXdnZUVpYk9yd0dkSk82R1EyNHNienpFck1pYTBPSHpvX3pLTTZPd3oxTHpMdzRJZHlvdTZfckxBMmJWSFpCbmpaazVYbkwyWGVtYTFmdDdFOTA4UQ?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "PF mira esquema de R$ 2 bilhões que usava obras de fachada para esconder mineração ilegal em MG",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQelg0YV9ScmtHVUFmRUQ1bTJJRDNBVVN3YUxPcjJveENOYV8zRzRFbkllSElnYXVzb1VXUDY0UlRfR3lYcVMxLWhucE9YNDQ2cEVqWW1XeHlNamJ2RS1CR0V3WllUemFCWnNSVjlFeGJNanVGUnIycmFIRGg5dmU5TVdoNzExZnp5bUl0cDlDZDZrMVZrN09oN2tnR3hna3JBdFpLekhlM2pIdm8wN2FRTkRBeGlLV0hwUXQyNWx0NzNYM0hoekZEUnBhaU5hc3YtQVYtS3QzNlNZelJpVXZkSnVWQlpFUdIB9AFBVV95cUxQelkwajJMbEpOY0dDSDVGNm91M0tGbXBwNVJuUjMzN1lJLXNoR3RSSk5EeXJuWmd5QnFjM2JKTndPV3hWUjRTTjZlYWdEbDFwZUdDdWM3ZVVxVGhucFRmZm53TFN5b3NfY3ZfSTBJbGtyV1YwampjbnpiWC1lMmpWdkhSNWNYXzAwYnNMUVlfWFRkRTBZZFcxaXJSU1dNSmZ1eFdPN2pZZTVjcXlsZWdmLUZESGVwamZ0eGRIRFl4QVpPaDAyWV9sTFRjOVo1R1NEU2pFZGNIU0hqYXpXNjZvUUNOb0g0Q2l6Y0FFc2RWaWpVV05V?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Haddad só se interessa por Casa Civil e diz a Lula que pode colaborar mesmo fora do governo",
       "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxON2dtZ2dZNThyXzNRNkxTaTRxcVNIVW5hZURIQUFrVF9jcks0Z3dzRkFoWXRwenFsXzltNy1FTFBGUDhKcU9QQkRsZXloRy1NclJRNUswbi1mWi1NeGNmN3BGcUhSRC1fa3Vtbk01TmZ4NlZDZ3ZfcTVUZnBZZmlsU0tieEdOT0gwaE9YWEI4RlZDd2tTSmR6VEczcEpMSXNaeERkVXZZUk0ybGJBVzFqZDFoVXRQSk0zZ1F1ZzBpd2xVMmpvMFJWbzdUQUh2aUZIbk1N0gHYAUFVX3lxTE0tR0t2eWRXSHQ0dFZfa204VjB4SWh5VnV2MmZKM1ZKTUtuby15LVBqNUpKemVoZ2pHQng5QUV5bVZWc09DN1VwTXJWSmRrbFZIckxTOENWYTVXRlQ2WDVhUjkyT2pOYjk2bE0tVGcxV3M2bU92TFZsbDRNY0hrTThKVFJmY0pFSDZ0Ul9YVG9SSXFtazlEUUdMRGp0R19heUw3TXNfUjBHYVg4MWwtZVp2NkNIY3NyZ1BLbTNrMmV5OWNoZzdPWjRzc2lpOVQyZnJiYlFIeENhRA?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "El Niño influencia o clima no Brasil em dezembro de 2026",
-      "fonte": "Climatempo",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWnNiSm9nbzNlVUpLanhMTDJpY09fY1VhRnB0ZUZ6bG5IQzVGYWdfZVJqc0xpMzVRQ3hsdVFjZDBPTVJ4X1hBc2ZEVWFBVHMxMm9nczhBeE1TOVY2WGZuVWhVbmxXYllXM2tralB3ZW9SWjh1M3NWNkJUWnZrX3Q1NDBWOS1OenBKb0x4WHRZWFFmTzVSMkd4alZwc2w3dElpeE5vdjB6OA?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Abin mapeia 31 organizações criminosas no Brasil; PCC foca no exterior e CV avança no Norte e Nordeste",
-      "fonte": "Valor Econômico",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQQkNKU1hRblhVd1NsWUdYWE1ES1RDSEJRcXZha3hUVTlVWVh1S2k5N3FIRTRpdkFjSndJV1BtTHkzdmUyaUFyTFNOa2dSVkFnaFFnd3p0WkxDdTZXTXNsM0tuRmtNQ2ZLZ0pCVThKQTNJcFhEUVEzWlk2azJacjVkZlNUTnNKSGJodHk3dml3VlVrM1hzSXVmRllaeHBmd2p1ZW9ZcjgwdTFqS0FwdjBpN0pRVnI0eWpHNmVzSGxnY2t0ekZrZlc5MnJUODE2TFFuQWxhbDlLZVBhdHJKSDctdFI0blRCRjh10gH3AUFVX3lxTE9haHBzQnlWZUpfMGlud1hJN01sazJBaW8zUUEzVEVfUXhEM1RiVkJfcDFKVWJaUEpYWkR1Y2x5ajJvYXBYZnRoQU1Gd3RNSW1tNUdkVUpoS2N3RlVqdW5UQUJNOE5Id2NvNl9pZzZVNnMwSlZOR0NZSWdYNVZ0VjdVS1haSWtycnQzdWJ3Z0FhX0hONXBxQUtVMnhPeUFGeE5xR2FRekNtTWdxaXBtZGUwMjc0d1B6Y0ljSHdLWE1LdnN6cjJnc0lvZXpYc2xYMEJRZU10eDVOT25uU28tOTNCVW13RlQtWV85cWtVLUdpSm4yVEdRWnc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQ3JhQXBkcmpIRE1hMkVmQlBtTVFZV3ZMS1NlVmhBYzg2VW1VYldnV3VySE45ZkdFVDdEcGktWWtmMWVsN0cwWjhheFUwVHlpQktmNld6WGdXWVRFbkxhc0dVQkVVWmNTNkFKYy1oaFBkWUswaThJa19sSnNVVEpuaTdpY3pieFVUX3lkN09vRWRtZ0t3WDVHSG1DYTJYLVRaSEZNMUpRV2VReTN0dUFqQy1BOGY3LTdtR2NnNkZoX21LRXZFZ1Uw?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Governo Lula tem ao menos oito projetos econômicos para aprovar no Congresso até o fim de 2026",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNbDl2eHFRTjA0MHdUZWI1Nk5RajZlMUd5X0ZJcXlnRUZWUHZXaGZ2eVRFcnlHVWxOY05HcjdieVY4UXd5ay1fTk0xdHNCaVFfaFA2Si1VZDBidW1vNVBQZGRyd3JWTkY0UUpBWERUdTdqZXJKLVlyWktfMk9jMFE1aHdtc296MFNKWFIzNUJLMk9xaGd1MWF5N1pvQ0prLVdaUmlRaFMxRFI5TEc1dzQ2ZkVQd2JMam5kSS1PZTJWemxwQ2taTlJ6WVhtNGdXZUp4WnNyVXZoWXNTRDFkMi1MYUFNd9IB8gFBVV95cUxNbWFLMjhpTG5Dd1F4cW5iOXBXZ05UN2dyeEJaNmczNXM4SzljVlVlVUthNldKSW9DWHQ4WlJfSU9kM0VKS3U4bmVPcG5HUjdhZU5jRlVYcENxdEhQX0tzZno0Um1MS3hKcXRyUW5nUkhNQWJLQW5uOG0yeV9DbEEtOE85MEhfVGtGNVNWcmFwQUJ4UnBZWldEY2ZIblFsY294R0pUZVJ5cjJvYTdlNWx4TEdjN21sdkNTbWJfQ3V2OXlnVWR4WVJ1NlduTEhRUnh1Wk8tc3MxXzFwcmR2VjVNOS1TWWxFd0NwdTRCenZoQjRDdw?oc=5"
+      "titulo": "Um mês após derrota, Flávio aposta nos irmãos para romper isolamento político e quer Carlos como porta-voz no Senado",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPY3VqZWh1dnZpNGZXQWQwODFvaTdORFRIalN4NTU1QmJZaXNKaHRTMnVEQ1JQVEl0QkVhSm92RDhzcjU3QWV5eTNpdTAxaFlyM0R2MWRaSUtlTnhna2tSN3NrUUpGRjRvYWpIQ1QzY3RQcUFGdnJRT083LTV5RmRDaDRoTXkxQmdXVE1MN0RaWUF1TVpyVHVMQkx3YWV4c0hBa2hONmdCMjZfZVVOQVdwMHlkRXRKekVUMnU3bzNuV3FoTGhGU3VRNXF4c1o2Zi1hMHE3RXdiSU1kbHdUWGhtODB6S3NBUHlOZUZUWDVGUTF3S1pfSVpfTjJUMUN0OEVUMXZfVNIBkwJBVV95cUxOc0t4UVZxMUJSeFphMlNyZFYteFNIZGRYc3BMY2wwTVQwbUpPOE9jcVQ4OFFNa3JMc2N0YU51dzhHcF9TaWVaMU5rR05xX3BfQWhLd2VGbmtwb0NYbXVZOWZlLU9KN1BjUTdRekdFdXEwOTZiV3V1eWVvTlVsa2JUTmZFWG1fbldFbUw2MUFfcnMzUkJSOThQNFlOX3lwd2V0VmZQQXIyRGhNQUx2Ulc3SGlBdzNQempGVjNiTENVbGFmck1meW8zd2lidGRMRWJhZDJzMXJEMWFhSFlzS1ZyNG45aTZBc2JnSXJ2SlpLeTE3bGliZlhYZmJOZjY4U09Camc2TGVIYTk4anAtcmM1VHhWdw?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "A renovação política brasileira é realmente uma renovação de poder?",
+      "fonte": "O Brasilianista",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOU1NFaHJQS29PajFIVGpxdkNJU0UyakdkUHVsSGdDOXB1amI5blZia09lMkp3dm03bEZJM3JtR0N3a0dmNWppRTZ1WlRiSG9GTEZkdEFEdWhPYjlXSkJYODFyd2VxWkNDa0pJZTdYSnlLUTA1RktxaU1rTFRFRGZxM3E5YWJUMlFIV3Ztb2JhV3Z2c2Y5LXd6dHZLZGFyUDlu?oc=5"
     },
     {
       "cat": "politica",
@@ -352,28 +358,22 @@
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRG9uVm5mem5XaUdLaW53OFV2QVlIaWJua3M1Yk1LN1g0QVU3ZWU4Yl9GWDZienFHV19yZFF4MDJLWUdvM0tqWjZ6YVlWNVVaZWZkNm16aFotYVNmcmE5TERjWFZSQmFnMnBwZjF3dkwtc1BlVTVMUkR0d3Q1S1dScTFqb00ycUZqUjJhZWhFX3d2SVlSVDlYUXZuNHJtdl9LZkRaN3J1akc1N3M?oc=5"
     },
     {
-      "cat": "politica",
-      "titulo": "Assembleias imitam Congresso e ampliam controle parlamentar sobre verbas públicas",
-      "fonte": "DW.com",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZVN5UEVSNkJjZU1Wck1WVjNMUTN4bmd0YXcxNkdtbnZZUDA4N012R0JsVlhfOFIyT21RRHV6dElWckRRVEhrREl6S0VuUFQ3SWJ3UzZWeTJKb0tTRUpYTGxyZ1pzcmpjRUdJQU9JbVZFOU5LaFVUTE5HZUNITENZMXAtczUzVDdRRUpscm0tQmVHcWFwTVU0VDRZUGJRMTBaMGtsakJQckRhWjFZQ3FSRG81YmZLRGt3Y1d4Y1gyMNIBvwFBVV95cUxNZVN5UEVSNkJjZU1Wck1WVjNMUTN4bmd0YXcxNkdtbnZZUDA4N012R0JsVlhfOFIyT21RRHV6dElWckRRVEhrREl6S0VuUFQ3SWJ3UzZWeTJKb0tTRUpYTGxyZ1pzcmpjRUdJQU9JbVZFOU5LaFVUTE5HZUNITENZMXAtczUzVDdRRUpscm0tQmVHcWFwTVU0VDRZUGJRMTBaMGtsakJQckRhWjFZQ3FSRG81YmZLRGt3Y1d4Y1gyMA?oc=5"
+      "cat": "eleicoes",
+      "titulo": "Eleições 2026: Apuração Estadual em tempo real - Paraíba - 2º turno",
+      "fonte": "VEJA",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeXZ0bGd3WTMwYkgzZ0xIeW1vUFhSWElMTEdRaHpCOWtTSllaaVg2QkxrcWpYd3Z2c2lnSEROdXRwTDF0NVh4T1oyUXJBWXFoOFJ6WlA1amZJYkRWcnUtZzBRLVVNQnBNZV8waV9NU3g5cmRsbndMN3g5YWdETFk4Y2JoVHA?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "Flávio Bolsonaro diz que vai concorrer novamente à presidência em 2030 caso Jair ainda não possa",
+      "fonte": "Jamildo",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWVlSdDhrZnhHOWdXamtFVll6VWxSQk1vSUJza3Zpa3Q5Wk5wV05sckpJZUtYR21pTzNDSW1GNGlXbXVxMDlvV0xaLS0wQTZkbV9BbnBFY0NpRFZvRjNVZ0xvbGtYYS1KWDEyd2Itdjd2dmdwZGtSYXRpcmFPQVpNN2ViTGVzMFhlVFRkVVZoTWYzNy1JTXlvYTZkV05VUGpfRTczTWtoYVJmTU1TNVpjdHg5SmpKV2x2WklTYy11V3U0aFNqa1MyQTRn0gHPAUFVX3lxTE1lZG1MUU8xSm5UenhtbzBreTc1cDB0X1Yta1VkY3N3WXM5TE1GRHY4elhRWGxqZllXTzFKYWJPaTZQU01LRWVWMzBTc0tuM1RXaTA1WXp5aTB0VjJVZlZIN3g1OVc4MkxyUDN0bFJoOGRiakZtTWo2UHpmRFVmVzdKSDltZEVwMVFPUGJqaG8zMWNaenNva29EMC1RNWowaHhkaXJQWmo3QklHQzJNeWFXQnVuT1VRVG1ieFNEUzl6ZjVZTnZMS1NVQmRsUmNZcw?oc=5"
     },
     {
       "cat": "eleicoes",
       "titulo": "Moraes dá 15 dias para Flávio Bolsonaro se manifestar sobre calúnia contra Lula",
       "fonte": "Brasil de Fato",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZDBSeTM2MzNTcnlieVFaWUJQZ0NzVldaMnk5ZGF0Z2RLbFVVeGFISXd0M21WbUk2T05OaEEyenJpTnlCb0t2dDJxb0FtaTY3bXdjUk9LckpRblcyVEpSeWlmekdOYXJ5cE9BaVhoeVlZWGMwQzJfR3pUMnFyd2JXbEFELS0ya1lZbWR4OXhzRGxuY19SeGRaUTdZVUxpd1RWcWJxNG0xMWpZa200MktMemhVOS1zdW9fcXNxa1FURGg?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "'Acabou': o diagnóstico de um aliado sobre a distância de Flávio Bolsonaro",
-      "fonte": "PlatôBR",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQR2taa2R3dzlWQ2FGTFJSZkJ4bGZvaDZFeXhoSUE4NG41dDlFUDQ0MDA4OGF3d2puNFk3cjBQeU02WVRqRGlxSTRoQ1d2aXJzQ2t6QWFJQldlejlHd1lSNUNfSXk1cVRHS1dETWhlejR3M2xxYms0alZHWHFzNHJsZUF0aUhXYWlMNHhtNFFfd19ua0REX09pLQ?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "O argumento de Moraes para intimar Flávio Bolsonaro por edital",
-      "fonte": "CartaCapital",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTWZYbW1EQzdrbUxhVE1uQXZnLXoyVW9vc3Nlc3ZuUVoyY0ZTOUpPSzRHSWtXWHJWQVRUN3BMcERSVWpTYjRlbVhLZDl1LXNOWXJRN1h4MmRrNGdtZFMzMElNeF9jMEF4STF0ZlVXdW53YlZsMXJSdUxrbGZJREMyXzZmdWdMb1VOZngxSmx0SWEzTjUtQ21SNFJLTXU5bmRkOVZiT3lB?oc=5"
     }
   ],
   "indicadores": {
@@ -386,7 +386,7 @@
       },
       "cdi": {
         "valor": 13.65,
-        "data": "23/11/2026",
+        "data": "24/11/2026",
         "fonte": "Banco Central"
       },
       "ipca12": {
@@ -405,8 +405,8 @@
         "fonte": "Banco Central"
       },
       "poup": {
-        "valor": 0.6723,
-        "data": "23/11/2026",
+        "valor": 0.6719,
+        "data": "24/11/2026",
         "fonte": "Banco Central"
       },
       "desemp": {
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-25T01:19:07-03:00",
+    "atualizadoEm": "2026-11-25T12:39:33-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
