@@ -162,54 +162,54 @@
   },
   "mercado": {
     "ibov": {
-      "pontos": 176799.84,
-      "var": 6.07,
-      "anterior": 166684.61,
-      "minimo": 176799.84,
-      "maximo": 176799.84,
-      "hora": "27/11 09h30",
-      "ts": 1795782623492
+      "pontos": 176573.34,
+      "var": -0.13,
+      "anterior": 176799.84,
+      "minimo": 175898.8,
+      "maximo": 183625.66,
+      "hora": "27/11 18h59",
+      "ts": 1795816785398
     },
     "acoes": [
       {
         "ticker": "PETR4",
-        "preco": 43.19,
-        "var": 4.42
+        "preco": 42.14,
+        "var": -2.43
       },
       {
         "ticker": "VALE3",
-        "preco": 58.73,
-        "var": 3.22
+        "preco": 57.19,
+        "var": -2.62
       },
       {
         "ticker": "ITUB4",
-        "preco": 42.56,
-        "var": 6.37
+        "preco": 42.73,
+        "var": 0.4
       },
       {
         "ticker": "BBDC4",
-        "preco": 15.83,
-        "var": 11.56
+        "preco": 16.07,
+        "var": 1.52
       },
       {
         "ticker": "BBAS3",
-        "preco": 16.54,
-        "var": 12.59
+        "preco": 16.9,
+        "var": 2.18
       },
       {
         "ticker": "WEGE3",
-        "preco": 51.36,
-        "var": 3.44
+        "preco": 49.87,
+        "var": -2.9
       },
       {
         "ticker": "SUZB3",
-        "preco": 54.87,
-        "var": -0.96
+        "preco": 51.98,
+        "var": -5.27
       },
       {
         "ticker": "B3SA3",
-        "preco": 16.16,
-        "var": 10.84
+        "preco": 17.23,
+        "var": 6.62
       }
     ],
     "juros": [
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.5374,
-        "var": -2.02
+        "valor": 5.5582,
+        "var": -1.65
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.0736,
-        "var": -2.05
+        "valor": 6.0765,
+        "var": -2.0
       }
     ],
-    "acoesTs": 1795782623492,
-    "moedasTs": 1795782623492,
+    "acoesTs": 1795816785398,
+    "moedasTs": 1795816785398,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,57 +305,63 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Mega-Sena não tem ganhador e prêmio acumula para R$ 82 milhões",
+      "titulo": "Black Friday: papel higiênico lidera entre os mais vendidos no Mercado Livre e na Amazon",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNTUxVUWY0eXplOFA3S0VnakRfekJOSnFDd3NvcEpLMUhGb0ZHVVNQdEQ4UGYwM0xhaXNBMDBzVTg0eGpkNVZ2ZlhPSUJGdnFYQkdVNGl1akNscFdOaWxibDF2czNLYzNodEl2WWtyM2JSSHAzUEVkNUdVZi1nVVV1Z1BsME5lVFNuSTUyTUhzbTZXTmJMRTJEQU9MeHVrMHlwcXFGWF9oZGpUal91SEVnVkQ4Y1FCWjE2N0IyLUlnYUhSN0U1VkNZZmszVm9tN0ZaNHVsdzhmZHJXamJQSVJ5NlBYUlBKQjE0VWU4UWEtM2x2TDBrUFJmc2hEZVpGLWxod3AwRUVn0gGUAkFVX3lxTE5yMWlkZm9ITVl4by1EUEFXVEdOMk5peWpnVVU1RWdyS1dOS1I0SFFLM3BzRDlncTZxSzhBdnpoM2w5bFBGck1zdlFvdGJIVWlHZUxobWNjYTR1eWlUbW12X0o4T2Vac3dlQkxXblFUcnc2MURrejlhNTB0dDZRN21jamxIbVBPU2dteXptV3h3M1ZjZEE2Nmhwc2tVUTAtME1Mb1d0a0wtcE9iQXlqRXA3UTByOS1XaHpNY0swYVFZd1cyVDNEQXJtdk5QZVQwWFM0YVpFcmR1RDkyb1FoM2U5R3JubGZPdEx2TjNTTjN0Sl9YaTBLV0RmT1B2a1lYR1NQclpjRm9Vb0VZRHBSSnZRUGEtYg?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Taxa de desemprego fica em 5,1% no trimestre encerrado em outubro",
       "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMnhuaEp0MjRRRXd3Q0FXWW1rVUFYVHoxeUlhYU9wcXFUdHFucWEyWkEzRUxDNG5sazhLWEZBRC1Kb3FIYm9xMjZqMndidDB0TFVabHExLWxGV19TWkNMTXU1WDk2WDVfTHhJdzNlU2ZKaVk4LVFxSUNybThIVThRQnUySV9OQ0M3bDNLZE5NaUtXZ21RUDB0cE9mTWppaEtBT3VqYlFnbzBJX2NZakYwQ2xHTHN5V2xrSkFN?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQXzNDN1RTWm5tcXp5TkFlX0h2NHVhY01fRHZ5dG0zRGtWY0Q5SC1FdzJ6MExMWDBZTWhPNllIVEo3Q3pjWDhTcndKUEtjR2toVUFlWWg4QWlOamF0WmZDaktUcDc5Zm1vVS1mUWpXb2NqcWtNVjZCdWgwZjc2bEdWZjdWN1NBOTllZ0hZMFVROE02WVNBYTlrMk5uUkxrRFVXeS1VOGJRc0VES1piU3VKSnJEaW82MUxJSHlzU0FiVmdQY3c5V0NtXw?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Entra no rotativo do cartão com frequência ou tem empréstimo atrasado? Regras vão mudar. Veja perguntas e respostas",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOSEZRNnF3RXVrX29acjBMd0U0eUtOdnpSaEJwdWxZWmVZRHJsNzJCalExTnhXSXd5MHpUemFTWTB6d25fd2NDc19Xb002Q0Y4Ukl0d19aVVpZTXp2X1pNSzc2UHFVdUl0SVpRcTZ0cWE1SUZpUk4wMnBZNExBZENrY0R0Y2hHc1pBckh3alJ6MWhSaWNPY05UNFpKb2xhVlU2eGIxN3RTa3FHVU5FQ1NPOTdpcEh4TDltMmVCREhTU2RrWE41SURESi00YUJUbElyQ01fRjIzaUE4Zmh4bkU5c253M1JlTDhvdWpaNGVCR0hwTkV1VGktU2RERFp3d2lFekpvOUpqaEtGNWloTlHSAZwCQVVfeXFMUF9iZ3FTUjg1aGtNM191OEJ6N3MwekNlOEpwSWl4U0duQzFlRWxxRG1WYllKSjRvV3Z5U3M5T3VIT3lpWnVXZXlVMUU5ZFZxWnZIU3dFM3lFTThiUE9LRFRyY0lDTU9WMVdLT3NETlo3cjdHSERoYThFeVY5THNGUlBEQjNOc2NEMTRuY0p6OG9kZWZlWVI0RnBlTlBkVFRlT2J3bUgxbDlWeHF5M1F5R0xRQ0hDWTFpZ25NeTJXbjBXSkI0UXZMY0UxUzRGTHNKODd2akplZDBPTU9SUlBMbzVNUTBuaGpwQW5LM1dRWTJpTVJjVktNWWtBb0pCVGVTdWFuRTk3OWFtSlJuWUJNWFhPWW15SWtrbVRiS2o?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "No dia da Black Friday, 58% dos itens pesquisados têm descontos; 33% estão mais caros; veja lista",
+      "titulo": "No dia da Black Friday, 20% dos produtos ficam mais caros em apenas 12 horas; 60% dos itens seguem com desconto",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQN2VxbEZnQ2doa05FNlgzRV9BSTYzdGJJLUFWb05kcVhBY29XLWI5NTQ5bWdwT3prZEYzZ2hGWEw4NFhoVm5fWno1UVlOS05Wekh5ODQ4UV9TWFR6aUo2bEplN1BaWmlDMENPWjMtSEU1UUcyZzBPOVdHT1JuQ3ZsWXBjak5sU0Jab3o1d0RKb19mRUdxd1FwLTJkTzh2ZU5YSTdCTVNkYWdUMFJNdmJ1cmY4cm5jTHM3NWlqRFZFRUxHa0xtRWo4U2F1c19aT3hTOE01NFRpOWtmamPSAeoBQVVfeXFMT3FiUWV1NHpVWEJ5blU0bmo3WC1OY1NJUG9rNEZzaEptY3dPNG16cl8yQnE0MU9RMmRpUzZQaDZWZmF5dUFyLWRLQWZrX2FMVFBtS1hMLXdoeTBJWGd3Q19FTnZkWDVlc1pERnptYnhTNmh6NVhyQTFVZDlCMDA3eW1PTWRpOUhaZE1Tcnh0M3B0VTBGX3BFbzZxV3djR0ZHQjk4V1JGU18zWGJNXzVEQ0V2eUlGT3pmNjBfdk8tZjFsb1FGaUUteGdlQ18zRWktTTFUZG1ObFN3Ym9jZU1kcVVjczBvYmYzZlJ3?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObW8yNTZWLTlnc1M1Q3RaNXF3aWZUS1Rud1dia3l5UE1pRjIxTE92Qjd0NzlCU0JOYmNCeC1KcXptdURWZTBDOGVVRjl6LWkxN1RjbURaeVo4MVRRSkFscWVYcURldVF5Q1Roa3M2VDRLLWdsbTlZZ0haQ3ZFamtlSEtmLVp0YW9oS3lSSXpzN3UwaE5JcHZERk1fMm43YlFjeTdJRnl4aWxzN3Z4YlhPdnNnZ3BLLTY1V2pucE1GTFhvQdIB0AFBVV95cUxON2tDXzBNd1ZuR2x3RjFSRkdVUzJGRlZfNFR4TWFUeVFpUVEwM3BacnZ1ZWV0VGtzR0xSSS0wcjVFSFBvU0E5bjNxZmNxTG9POUFMTGg3cFJTSW9YVnpBc3p3dTFpSkpmVEt5QmRtcHpBWGtvM2hRQjMyRzFUX1BFZDZCWmlHZkdtT1V0RDdQQW9nNV96em81aTNDMEV3bGdOb01LcWUzWjhTSmdRRjl3T3NPT09vZHl0RnBoLXNGWXJ5SGJIdUJlSHJwYkVHaDRj?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Paulo Guedes, Haddad e Durigan: quem foram os últimos ministros da Fazenda do Brasil antes da escolha de Trabuco",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQNFB1SF9LQVlSaVhodnVmalp5bnF2ekQ4MlNqSlpSQmdSTGNXaGtVSXI3Zm5mb2Q5YmlMbk4xMEJEMERJNV8zX3E0M1ZLa25iY1F1elBPVXFlcGFQbVpSMVJnNjJ4UUNxV05XV0p0YzNsZWQwUU85d2xOeGVnaVM3VXNrZDNaTDJ0aW1wNGZkdlozMDJob3JFTVFwRmFVNEhqUVVSSi0yNW92aWFXc25xTEd0QnZObG05RTJFdTZRVkRUN1R4WTNTOHo3TVp6MlZfME9NdVdYQ3FJd2VMMHhwSjNKUnVsbjB2QThuNV8xMTZIc1BKWUVNTtIBhwJBVV95cUxNc1FmVm9iVkQtdHJaRnJpUHp2TnpGMnVWM2trTWVBVXJaSlRvdFhHQXlEMk5QcmRTekwxNm9rc0Y3Y05KUVQ4ZHBic0F3VFU1ZExzLWExMUl5N3RaVzBJdjZoXzZrN3FxZUVSbkdvQ0txVXZkS1h0VWtNVUozYm00dWxNSDZvVGR2VFJLRlNsNVNRMUNiQkRNY2hzZG01ZjU3OUUwRjRua3R1R0V2Y21xMndaR0xiUkxva0lMNVhmQXJuby13cVV3OTJKWFM0eVMwb0cycFVtOGlKWVpGaU9NcmVWOVNibDJ2RHhDMGQ0TTR3aFVTeVNkZDd3bG9pbXM4bk04MzM0NA?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Lula consulta Cármen Lúcia sobre nomes de mulheres para vaga no STF",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWDhnVkJsdU1zUjg0SzJOemtVTUVqYkxHekpQSnViNFA3eXZNY1gxZzRzTi02a0ZUSjFUT2ZmTHVHWHQxMFFiOENmNEpCT3IwUGd5dWsxRTF3WWZ3SG8xVDJPdWVrYkdyWWtVTTBqS1pOTEtCanFENnJoMVZ5UVdfTWVUMDN3SjJkaXdRX1FRdHhhT0ZzdHJ0d1lxYkFIUEE2WTFHXzJ4ZExtZkw5ck01dzhiWHRvaUExV2l1bjhueFZBQ21F0gHTAUFVX3lxTFBNeHBtcmtpV29oZ3RWeWNhUmxrMkRTU0lhbktvSTcwZFduZlVZQWRLaXZWdzVrZ21xVEFUVFdHemgtYzRyczl6NUJEcThCcUh1MlFEYU9NcnZkYW80U2xPbUxJRjJCN3JYTTBEdVQxZ2Vobjl5dGpsTXZ0c2tWMjE4VjBBYzFyMGJxTC1BTFdZeVAtMkV1TkFlaUNxS0tvTk5rSVRDWVlBLWRpcU51alVReTV2Z1hZbmc3RkN6eE5Uc2I4c2lvVGplb2VXRlhoaXJPbkk?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Ala do governo Lula vê negociação com Trump no limite e avalia reação",
+      "titulo": "Indicação de Trabuco derruba taxas e Tesouro Direto tem “circuit breaker”",
       "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRzlVTC1aa0VlOUc4Q1BCcS1YM1RJSmpwR1NlSWZ3M09LVGtVRWJLVTBuNXlWLUNZRU56Q0tVdlQ0LVBlZnZGeUdWYVJkQ1hyMk5ycVhyMVh2UTJTQ1dQazVWbGxtTG8zX21zNDBrT0hMSlJnQ1I0am51bWsySU1hYjBtVDI2MTFvOGl1eHphblZyeG9SWVE0b2pfdnVMUDhNbkdZQmJmNzBHb19BQzF4OVJR?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOW1tZDdPOFNNYVJIVGdMUUlNUTA4bWdNS2dwdVE4VGh3NGpfaTB4Y3pHa3lIaFRobkRsV1BLdko0WmtiamhXczlTeE5hYmNjN2tCRm5fUUctckZqU3VmSkEzWlNxN2JzTjJLMDhRdzdaaGFwTmk5dUZBX19YZl8wb19SRUJZLVMyNzBkNXo3dVl3aHFxVEN1bVhRLTc0d04ydGN6OHdTcFhFc0hEbEk1TE4tdXo2Zw?oc=5"
     },
     {
-      "cat": "politica",
-      "titulo": "Cúpula do Congresso avalia que indicação para vaga no STF deve ficar para 2027",
+      "cat": "brasil",
+      "titulo": "Lula escolhe Camilo Santana para comandar a Casa Civil, dizem aliados",
       "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOGpia285UDFlc012bDBqQXQ0a0RrYWNPU3BYS1VGQlZGYXpkMkRKb1FQTHVmaDZzam9ESjkxUC1GSjJVX1YxbFFMb0paRFptTlF3UUNlNTBLcnZrSUZ2ZFRydnJReGMxRHFxNHUwNWYyczNOYjlIME9HVG8zTF9Pbnc5NGxLcEI5TnJBUERwb1M4WUxiazJtUmZKVi1ZNXo0VE04bjBnZU1uRkdJbEdKVzlKUU01alc4LTI5Rm1HYkplemVsdVc1d1JjY09FLXFpczBN0gHiAUFVX3lxTE54VzhyOEZsN2gzREpDbk1sb0lQbzRoVTh6OWVqQkhuUXZwYzhrWXZFX2VhSlNDNXY4Q01BOWJZR1pZUHNMUVI5UFRUTEkwSm1vWFJzOUJmQW16X1g2UXlZUWJLRlowOXpzeUozZ0QzaGdaRnEtbE15b1VRdjdIOE1NcDVoUmQxbmlGNVBqT3ZTYjlma1JJTVd5aXVBNnp0YjFmdmlIQTZMZzZINHFBaFdTMy1DNlB0S3VMTEpsbWFieFFLUFR6WGtvb2hoT2VDMEFWd2dJd2wwVi0tVi1MZWs4WGc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOd0d2SmlOLWlZSHcwdHNZa3FIT3BJN3VLbzhnem9YT3IwV2tCcjN1LVRfZnB6dk1uMHVsa2pJNGJnU3RfdEdCN1pvVGNTX08tbzlEMFppRTZXM2N4YUZWMmJzS0dDWTd4TWVrVHJqb0N5dVdLN0JvRUF1czBBVlQwdDVUWVJ1aUx6SFlOeENXV1VmMTZsbkR1SkYwNlBndExQVWR3aVYxRUFmd19LSTdXLUE0Tklxc0gzZjltVDNTamxlS2MyTHfSAdQBQVVfeXFMUGNLTDdZUjhXemNpNmxtMUJqaS1UUHBKalBFWHVqb2xzR2g3SGduWlBkeHE5a24tci1PQVcxcE9abWtLWDFWX3VFYnRjbXJ6Tkl4VjBuN0ZaOEFkZ0NtYkEtM1Y4eklMVnh1ZVVNRUpfM1FGNzIwdWhTalVtejJJNS1FZ1R5dGloWVl6NmE5djg2QWIxLWRSTElFcXU5WDQ3QnNmM0NOcTFwWkVfZUdyQ0VDbFNNTHFCc3R3ZTJTdTBlc2tTSEluYU80R2JrOUhPQzRHY3o?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Lula na UFF, em Niterói: 'Agradecimento à lição que vocês deram ao Brasil'; vídeo",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaDZieGg0NTU5NDU3djRVUGdWamJfUWlIVFBEQW54cEdRTUtDcURLSFJSaFNoZllabk5NdVhWeG4zM3pVemF2YTRDZE1USU9EX2F4SUJBZWxLeDEzdlFpNVA5dURiRzNqR2haRXY1Nmg3ODh0S1ZUdlV0cnV5UGJYdUFLNHVuMlBOTVJQZFp4VEE0OFllV0xheFBDcVhUdDkxMjBQWW9mOVBaelVybVNuNXA3WW85ZmVaTHl4ZjloVi1DTk4ta05Fb9IB1wFBVV95cUxNRDI5RkVUellpY0I0aUlJTENkWUc1Vnkwd1Q4elV2TlV2eWl1YVNQRFBoY3hIbGFMNGJZMW02MHBBbFhMZGNNUTRtUVB1OHBRbF9RdlgwSHdudjIwWnp0TXNCOEpjUVhRcENvOTE1Nl91WmFVemRRWkV0WHpYQmQ5SHgzLWtQdHRwSVlTUjBvaXJTMTh0eUFtOW5vOUVqYVZWWWcxeGsxaWg1dTNLZzMydDl1VkJmQTBhTXBCVFdHYzYxQjA0TGxfSmgzQ2poMXRfV2JOSTJRMA?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Com 40 anos na política, Benedita abriu caminhos para mulheres negras",
-      "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWG5aNkcyZTRIQXd6cEpyM09mN2lXN1dDdmZpMVZ0N05hLTRoN081UFpMbXA2RzNtd0M1Si0yZnQ0QjhpXzZBbXRROTBiM0d5ajZHVlR0LTluSlBxTXo1YWxab0JfZ2k2NUFELUZzT0c0UkF6MXNybFVzejhCRVNlNzRIRUt5aG1VMVY0VlBab2ZTSXpFQkxrZDYwajYxaDBoVExIaC1yZFR6QncxNlRiRFo4a1ZNSkIxSTNBOGJyXzUxTG1v?oc=5"
+      "titulo": "Trabuco tem o atual Congresso a favor, mas há dúvida sobre o próximo e a sua autonomia",
+      "fonte": "NeoFeed",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQc01uOUY2NFpRUUI2TFdkM0hfZHlfNndBYV9vbjFsVnE1OGkwbDFBYmtTRExHUEtjaV95Y2dqc3JkYmVya2VJc09UQ2NUZjROTHlkc29HYjJkSTdCeVhOYnZzdTRFVmp5V1JZWnQxZ2xqUWlHS1lCcmtaRG8wRFdFNWFCSXpTU0dfbmgyQjdvUUd0ZWwwaTIyLVk1bWhmS3RKQ2Y3am5fckl5QVFETTJOVFZfeHpTUQ?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Educadores ambientais pedem reforço de orçamento e políticas públicas",
-      "fonte": "Portal da Câmara dos Deputados",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPanU2a2c5ckZPTTFIdE9kdlBWVzZudHh2eC1ONnNuOHFRR04ya0RQeVE5RnpaQmg0aHN2eUdMVU52cFU0QTJ0V3JiVW4tN2tIWS1ic1BtNDBDQlJSQm9XTUk4cXBRQ3cycmFiMnpXQXZuMHRTcFpkTElhVHlUbVRPNmlPYWR1RnZZQkk0d0FpZ1hzQ2hOeWZsdjhBTGYyaWE0UndHbEtfTFRicXo4SUpfVWZR?oc=5"
+      "titulo": "Reforma tributária e IA dominam agenda de entidades empresariais no Congresso, mostra estudo",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNX0V4ZE5vZzVISUVaaGVISVdaQ2xyazJFejRRV2FjbTc0TVRuWDZCem5ueHdaNnVRdE11cjJnWXlnZHR3S3lCTGFvbHFUYXl6SGNxblRwcnRDWHFLeWlOQVg2MW9iRGh4bWpXXzBzc2JRdGtOYUJpVzhJQ1VWV1djeXl0RVpGMFUwRnJpYmVGd3BTNFN3VWdPamxqbWxLV1BRWGMxTmk0R2drMGszc2RFU1FFZF9VcUprNUV0bTJqXzBJdzdya1VWODJZT3ZkVUMzOHV1QllNSWVNRXIzdDFPb0p6d0o1ODNyUnfSAfgBQVVfeXFMTjZjTk9ITnVDWXNONWQtN0p0N0dQT2NZbC1PVkJXTElEeG5kTGpEZ2hyMkZSYWdEUENfNnQtUHZwN0tQcHhtUVVqZkNKZjMxOFgwa0VmN2pFWkFmTTFUR25rYVlycDFvSXFoUUpJa1ZKcC01aDVuWUpBTVBTWnkwSHJ1M00xa3pCRldGd055Ni1PTENKY3l6YmxBSThDSnotVWxFWjlpU3QxaHYxUWZLUDF0aFVKR3hLTHRYVjE5MDAzWnVFR1pKSmlqcVB1bDVXWENzRFAzNEN6QzZBaVl5VkF0VEYyVXB0TXVYMlppQU1MaTE4WEZhaVQ?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Direita se tornou \"fenômeno de massa\" no Brasil, afirma Elias Jabbour",
+      "fonte": "Congresso em Foco",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaUtUeFhnaWdQYk4yOUlVRi1ZampDdmJyR01OaFBnZ3doQmlpcFJZblFiclBYMWo5eVVrOWlVSDY1Q01PVmE3Tl9QYjV3Nk0ycDlyT1BISUFNX2tsMnJvQnpyRjhhRTk4VVhLREVHNEdCRWtRc2xJZWxxaElvRGctM0xRNmltTU9fN0VUemc0YVVjYXdySjZweHBpQldFYWxPRExvV0l3dk53U0VLcWJ2Zzl0aHdwRjg?oc=5"
+    },
+    {
+      "cat": "eleicoes",
+      "titulo": "Flávio ironiza escolha de Trabuco: \"Lula assumindo que é Faria Limer\"",
+      "fonte": "Congresso em Foco",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPN0pTN0xEVW9LLVRqRG1Ib2t1SUx4ZlVBbGItb0YwMzJFYjVBWEE5djg1Nzg5YzdQLVFjZ1ZPdVprUWxHVXotcWs5X2FlZFdraF9QM0luVUZ6N1JMbTB6V01ieVN5S1NoRVM1NER5ZVFzN0hoTHY2YmtQRUdERWd3VHpOUFhpdTZLeXNxbEhzaDJjSUliNjVsS19hTU9BeC1uOGVmaWpzNmprcGlDa2ZndlBTLXJTbDZV?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -365,15 +371,9 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "Eleições 2026: Apuração Estadual em tempo real - Minas Gerais - 2º turno",
-      "fonte": "VEJA",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQX0RISjJUWmFVVlRSbWRrRTNZZ2VGU3NZZTQ1eXpVTl9vSkt0M3Z1T2JkTTJwVnN6NmpwbzZ6aklVU0lwQ1Y3SWVpSlhuU1BuNFl4VHBzWWVXSXRPS21zUHJ6Q0xjZGkwUl9FeGxidkRiMTF4cmlzdkRXR3AzaFJabjFSdE4?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Senado defende manter salário e verbas de Flávio Bolsonaro",
-      "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY3BWcHhKUVlUZTVKVmQ1eWVodUY2ZWl1SGJTTkZNODVkT3ZUd1labkxkYXVFR0dLd2V4aGJmME1yTkhvaWh5bWFjRHVxMVAxWFhlZ3FSTzl3QklYZlMyTWZraHNsc3JYOGJtMmpNWXNIX1Z3Zjk4b1FTcXNxVmVNRUF3aFBCVl9veXVscTh1aHoxVTUtbzJZTHNvbFVVQQ?oc=5"
+      "titulo": "Flávio Bolsonaro fala em impeachment de Lula e vê possibilidade de eleição antes de 2030",
+      "fonte": "www.correiodamanha.com.br",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPZHhhZ0gwVzhGb2RFa1RaSVA2LW9JNWpPNEoxSmtzMF82UlQtbExDd3JXQ1lyWmlFMXloQjBjSmh0ZDVCdkRtbjJIZG5KSjItNGtVLVhQUmRZT1MxbFh5SHBkR0NHekkzbHhtVVY2b3BnNDZLUEJXby14Q1dGamExSDB5VG5YM0haTTJ1Q2ZKRUYwcU0yVHRBTlMwalNSMjBqakZraGwzUkR0ekJxS0JpQTZZcWdEb3pyVHBOamtOZ1ZWSmhyM3YwNmdSaWNyOWI2SFBPeXlfcXhhTmRZZUQweEYxdGs3QQ?oc=5"
     }
   ],
   "indicadores": {
@@ -400,8 +400,8 @@
         "fonte": "Banco Central"
       },
       "igpm": {
-        "valor": 1.47,
-        "data": "01/10/2026",
+        "valor": 1.24,
+        "data": "01/11/2026",
         "fonte": "Banco Central"
       },
       "poup": {
@@ -410,8 +410,8 @@
         "fonte": "Banco Central"
       },
       "desemp": {
-        "valor": 5.2,
-        "data": "01/09/2026",
+        "valor": 5.1,
+        "data": "01/10/2026",
         "fonte": "Banco Central"
       }
     },
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-27T09:30:25-03:00",
+    "atualizadoEm": "2026-11-27T18:59:47-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
@@ -1551,7 +1551,8 @@
       "12 notícias"
     ],
     "falhas": [
-      "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
+      "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests",
+      "PTAX: https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados/ultimos/1?format…: HTTP Error 304: Not Modified"
     ]
   }
 }
