@@ -162,54 +162,54 @@
   },
   "mercado": {
     "ibov": {
-      "pontos": 173391.72,
-      "var": 4.02,
+      "pontos": 176799.84,
+      "var": 6.07,
       "anterior": 166684.61,
-      "minimo": 166695.8,
-      "maximo": 174331.95,
-      "hora": "26/11 16h39",
-      "ts": 1795721990790
+      "minimo": 176799.84,
+      "maximo": 176799.84,
+      "hora": "26/11 23h52",
+      "ts": 1795747977351
     },
     "acoes": [
       {
         "ticker": "PETR4",
-        "preco": 42.49,
-        "var": 2.73
-      },
-      {
-        "ticker": "VALE3",
-        "preco": 57.95,
-        "var": 1.85
-      },
-      {
-        "ticker": "ITUB4",
-        "preco": 41.78,
+        "preco": 43.19,
         "var": 4.42
       },
       {
+        "ticker": "VALE3",
+        "preco": 58.73,
+        "var": 3.22
+      },
+      {
+        "ticker": "ITUB4",
+        "preco": 42.56,
+        "var": 6.37
+      },
+      {
         "ticker": "BBDC4",
-        "preco": 15.22,
-        "var": 7.26
+        "preco": 15.83,
+        "var": 11.56
       },
       {
         "ticker": "BBAS3",
-        "preco": 15.67,
-        "var": 6.67
+        "preco": 16.54,
+        "var": 12.59
       },
       {
         "ticker": "WEGE3",
-        "preco": 50.59,
-        "var": 1.89
+        "preco": 51.36,
+        "var": 3.44
       },
       {
         "ticker": "SUZB3",
-        "preco": 55.18,
-        "var": -0.4
+        "preco": 54.87,
+        "var": -0.96
       },
       {
         "ticker": "B3SA3",
-        "preco": 15.61,
-        "var": 7.06
+        "preco": 16.16,
+        "var": 10.84
       }
     ],
     "juros": [
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.7445,
-        "var": -1.31
+        "valor": 5.6513,
+        "var": 0.0
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.3021,
-        "var": -1.36
+        "valor": 6.2008,
+        "var": 0.0
       }
     ],
-    "acoesTs": 1795721990790,
-    "moedasTs": 1795721990790,
+    "acoesTs": 1795747977351,
+    "moedasTs": 1795747977351,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,39 +305,45 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Bolsa dispara mais de 4% com possibilidade de Trabuco na Fazenda; dólar cai a R$ 5,71",
-      "fonte": "Folha de S.Paulo",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZFhYUncwRlNFaHFfU0pmNXJPRERXalN4LXA5TWwxSnVDRTV2TUtqMHpJd3Vua25xaHNLT3l3M3d5emlVSk9UNVY4WlNxTWVhdGtVc3JkaDRxNXNiTEU3YTRPQk1VeHBqbmJrVDdxaUxNek1pWm5hZ3RiYXNYQkVZNjItdlRXemRpVVVBM0FzdWh1ZWhELVMzRVFSa0xYQ1ppQjdKVnBhbm5USnZVbUpEN08wUXRlSW4yMUd6RU9mUW1zUQ?oc=5"
+      "titulo": "Medidas do BC para cartão de crédito e modalidades sem garantias atingem 20 milhões de clientes, diz Vivan",
+      "fonte": "Valor Econômico",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNc0ZJRE9fc09wOG9ETEQ0TXRCNDZaS09DTEtQTGt3b1RSa19mU2NUbWh5cTVrZWZ4ZGhsVnk2M1o0cjZEUGk4TmlsbTExN3U1QkxiOE1oQWczenhFYmFfVi1QX29EMXBTQkctMHl6V3R6NXgyZ0F5VHlHS002R3Iydi1jc2NkOGlRMWFmZ19SMXkySzZpdU5pRlpmd3hNQXN3N1RnSENwN3FIUVVmU1JwRVltNXRQdTVfMjJOMUhVQ0UtT2o3WmxUSV95NHJJTW9tNlpGbDRjbWc4cjNGNlFkM213QkpqWmhWcW1TZXlaejJxQdIBgAJBVV95cUxOSlVjU01PLV8yTHJEME1SZGtyMVJKSlhUTFcwYmthbjVfV1BVdHhXZ0FtNElsdjgzZTNNSmdBakk5ZUMwZDY4bkowYlZ4eThVeG5WeE0tTElqTUszQjR6MFNIbG14ZURxX1hwdlhNdjM5XzhlS19EMXJLeDJvVDlnd3Q0SUljUjJFWEQ0NXYyZzg3VFlrZFZrZzNPQ2Vqc3VYcGNqcjBjVmJMbjRFRWRZenRFRWxpQXZ4S0wwNmVTcWhOeVhlUlNHZmtGSjhuVTF2bkw0Yl93MHlIUF82VG9BajZUaVRUOWstNHItb1hOMVVLcDRWdkFNVFdycGZfSkhE?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Até 20 milhões de clientes podem ser afetados por medidas de restrição, incluindo no cartão rotativo, diz BC",
+      "titulo": "Mega-Sena 3091 acumula e prêmio vai a R$ 82 milhões; confira os números sorteados",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQUU5sQjBKcUU3enJReFczb1AtY0hpQ21BVWxSVVhlWm8zNzVZSHZtclFXZVZfVTZ3eWhBaFNaTXVRTjVXMmJxbTE0UzdkUTdRODhfZ1hLdWNTeFlIMTR0dmpTVlZOWW9XQU1mUmw0a3dtejhLU1hRX0lpdU1wakUtbnVtVkY4eWtjM3FZTTNaMC1hbnVhanRRZWZLZVJPYVFYZVpNVi1pNlR6WHJqd21WZDFIYWxHdmRqSlpTZkZ0U3pKQmEyR3N5eTVIdXYtVW9UaHkzS0JnOE8zNld5QnBrWFVudEVLLTlBN1hYWGhkX0ZvUVNqUnJHQlFDMi1PbGRk0gGPAkFVX3lxTE5pQTN5amVFY1BPRG1oTHpCLXk5b1VEcm1Sc0otcHhBN1pudGhOVXl4S1haMzNUTFZjTEYxREVvRHZweEdJYV9HbmhpZEZPckpJVmc0Ui1tdnB4TmdLYjBpMVhiczRtQmJkWjdSMVAyRlNfWkJ6RXdMTjFBZkZFcnE3V1ZDLW5reDloNF95bHc2ci1yNDJuQjI4ZG9hWlFhTzFiT0QzSzhTSFZzNkQ5Yi1SeHlEQ1dsVzk4dkJDSFJQSWxkYTdqenZHV28wRlhmWDhXcURYMVBIcVI5X1VoTk5Yd3daSDJZbjVCamdGSmZxQWVVTjFyaEZENnExV0M5OTVfeEE0aG5PdkpUb3plSmM?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWk54d1U1LUxFWGc5bTl2TEtmdWJYTHFfUXlhVzY5UjhNMTZ3MlREa2NDU2FRRmQwM2FOZUxzYXpsNTZoU3M2MGhrM3F6SjQwczVZVzY4TTA2Qk9yR3ZhRlJpbThSV1ItenloRFlhTXVoRWYxbko0dHlfTG9HaThMVUlVSmIyWFV2a09EQllCb0hSdjlUOW9wSWhDMFNTSHE2aEw4dzAxSy0yc1pIV1FHOTZVSUNPWTlH0gHHAUFVX3lxTE9HWFF1eGRLaXptZHFFdEZ4VTlfczR1bGlfR3RHRnRmR1htZnBmbXl1bEJrRFhTREdzWTNNWnV4Q1J4UHlJZkxBYjFQT0U1UVZMZFU1M2hOYUxQYmtnTVpmbEJUNEFQVjJNX1VWemVCZWtrdmVLdlhCcU9XYmdYNUZXTGZtR1A1TEs0TXVvOVdWZEpVUUUzcXFqak12Y3VmZFl0VTRVNmtwT2dLMWsxZDBmcDB3ZUNCRVdxNm1RSFRkUExVd1F0Mnc?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Durigan fala em combater supersalários e mudar aposentadoria de militares em novo pacote fiscal",
-      "fonte": "Folha de S.Paulo",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOUnhFRi1wSjVNRmVHQ2IzbGo0RHFfN3RURTA4cWtuOVo0cmcxVFRxVURoU1BtQnJWWVd1YXBxamxrTFlJX3VPQ0MzeEdlTElPaWcyY3Z3YUtsTEJPa1dpR2d1ZnFHZk1JdUtUVjhfNDBfSVV6aXNHQk1HRFgyWTUzNUxXV2lHNXRHZlhxMk5lY2szdThWVmM5RzF0bGNmZjB0cFJqTkFUNGprQ1p6V1RFYzVSb0xKZmwzeEVoTml3cDZJaEFseU15d0gxYm1pUTI1cXVaZC1sMmhfMFZ2RExzUQ?oc=5"
+      "titulo": "Dólar cai a R$ 5,73 e Bolsa sobe 4% com política fiscal no radar e rumores de Trabuco na Fazenda",
+      "fonte": "Terra",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQNHBTQXZWT2UwRGo5cnU2bld5aENNZmozem9xSjZ1cjhqbTVfeVFTem5yaGFlSTBCeXJ2Q3hIdVR4TzVmeW1odEsxTko4MVNFZC1LT2p0RTRhSjJmRmdpR1VkbVJ4RGk0cXZ6MGd1djhUemNWNkMxS0FWNFRSX0R2QnpqMi1ScGJ4dFpGN1JLZDJQb1dIOThVdDctbDJ1aFo3TVJhVl9pZGdoTUFyTXhLcjJxUzFkSnUxeW9XSU5GTmliMUtYVFotdFNjM3ZVaTF1d29rcG5qZ1loVVp0WWdGODhxZlpMMnhLTVV5YnJleXZHYldQa19RUGJiNDN6WkdzR05N?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Embraer diz que novas tarifas de Trump podem encarecer passagens e pressionar inflação nos EUA",
+      "titulo": "Saiba quem é Luiz Carlos Trabuco, novo ministro da Fazenda",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNVpfbU9md0Nxb25XaE9MazB2UWpQbkpVNy0xZG43dHhORW1JdmloYVZyQUM4OUE0NFNvb2JuVHE0cFlhTFZubEtuWWJQWEhEUGdTLXRtRkw1RUc0OVkzSjZHN2FJc1JHY1ByYUxnWldxbnJTeDRybjMtVGFjbzZ6UHpHMHNIX0lIVWVjcnF6V0ttWFoySlFkUnVBcHRvRUIzTjVB?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Bastidores: ‘Empoderado’, Lula prepara xeque-mate em Alcolumbre com indicação de mulher para o STF",
+      "fonte": "Estadão",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOQVBoU1JkQTJDRHhPTlZ0M3NGdF9McG41WjFaeUdtWGVFU1NNTXVRTk94YnJWU2NvWDFXYVRoLV9sR2kyNkUtaDhidW5tQVFhOWExODFDZjVjU0NscnB6dkNMTXlaNUN0OVBnVUlTS0duanpFZENPQ2RSUVR1dXItdHo3eG11M25QVi1RRlFIa1pITHdJVnhYRnlhb2RacjB6YWhDZ3p4a0NRMEh6WENDZnF3Z3dNN2lBNXYtS3pDZEFiOGRSS0lPU0tDVlJkTlV3SzFDcDRmVjhpd3NvOVlWcXVQVdIB6AFBVV95cUxPQjdTb1NPUXExWC16clV6bXE4ZWxVZnZ4c0FGT3pNWDlVLXdNMUEzVTI3RTgyYVo3V2o4TXFGSjZHRDdiUGxWUDRTQmRwSFpEU1lXN19jMlQ4dmNMTzU2eDZvT2RjWDhhdU9QTERzUEFmNHMwd19RX0FUa0RvS3hKbThLOXZBREhMd2tPakFWTWFFT0c1ZVpJSUtDS3FiOTc5WHVpZXdQMnJlbjMxQV9RM2V4aUtLaE51eks0QjR3b1dlcEdTcTBYV3dmcXhZX25zTW5mOS1qc1N5bHpYQTVGM0JZYmdteVZs?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Cleitinho diz que teve conversa 'cordial' com Lula sobre dívida de MG com União",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNHc0MHNlV2toQU9ETkNzeVBvV3hFdU1TVjdqemlrSHF5Rmk2YThXU2t4bWZIVHZmSG4yV1ZGaEJUVXE4Mm9XVzA3TnQ4eXZvb0hqa2xkSXFNQVVGNlRWT09wYlJja21hdjFJU19EVUFMMkpXdnZEVDFRRnBxb2pfNjhn0gGQAUFVX3lxTE1pQ2FqVWFVb0R3Vkw1NE5WZkkwUVdnYnFCZkxZUHNUSW5GWUFHTXE2d01GTXp3MXk5a2lWV0RLTkVsWDVkcHJWZnM4U1EtcEsyNHZEVWlmbGhZWGxUaFVnWnI0RTJ6M0ZCQXF4MXg1WmtGU0todVJzN1BwUU9ndWZ0a0txUlZPODdSQmlTQ1RPZA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNN1FhUTdZNXRKMkVVWURnV185cXN1RV9idTYtUjlITnktWXQ0ZGVRaE53QzJHN2RWN3E3MnhBM0pYZGhwc3FoMDFBR1AtbUlmWXJuemxDLWZPMkdkVm5WRlhkaUtINlo1M2FQQm0tVXN4TTEtQmh5QUlHSzhiaUc5bFVsYU1CRWh1OGxGNmszcDNhT1ptMzBHdWU4X1JUczJGUUFkd0V4ZnlxaTBsZlJ2NXZDRzEyNk12ZzJRaWJ0dTl4Qkcya0HSAdQBQVVfeXFMTUowa2szOXlkV1ctQnZOS0ZySUNjVmtieTkzcmNjN0hKc1kwal9VTGNmNnIyTERUVFE3dHJiVmR0RWJiVmw5cmo4QVR5eWJVZ0lpYmdjZ2dJYnpzbFlOX2xmNmZjVE9iNFA3RDFxQnM5Nk54Zm9ZNGJyOHZydzdXalQ5cURndkk3VkJxVGxGaFpSZnNOV1Q2WlJ0aUNDOE1jc19xWEtWR1FPczhlU1Z0a1J6OEZOVTVPUE1EQWVtZEREcVdLdDltNWNqREwybE4xWE5LMTc?oc=5"
     },
     {
-      "cat": "brasil",
-      "titulo": "Quem é Luiz Carlos Trabuco, cotado para assumir o Ministério da Fazenda no governo Lula",
-      "fonte": "Gazeta do Povo",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRE5ITkdQTk53RmR4dlJkcmktZ2UwaHlreWFMLUdlTzhZa2t2QTdITWJ4YTl3eE1iZVdJUHl2U21lZXNseURoeWt2UGRrN285YlhMQXFzaUdzZ0FjYW9VMkpkemc1N0Y1U0JjNXg3YWxGcVJveUZEN1N6WlNrRlFtWng2cG14cjFpWElqZGF1N3owVHZKbnQtMzdqMklUMUt4MnhwZ2Zic0ZwTk9BMWlvbU9kUHc3OGdpaHFSMTl3dmJ4VFlBbFAw?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Cleitinho se reúne com Lula, convida petista para posse e defende 'pacificação' do país",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPRFVJR3hMRzMyajUxczNCWm12dnhHYm1xS1FTTU5jQUxOM2poYzdsTkl2WUE5dUJuRHhLSDMyRHp5aS16WFhZcUpPRFdReEt2TC05S0RPV2kzeVBjN3lFQXRXYWhEeV9Dd1hRTm5tLVVvbHBybVpMMTFCX25sRXVfeGpsb3RRVEljT2k3QjhTWWtnc3BpSllVRjQ2bHV1YkZIS3BjYTJiSGZZY093d1d3aTFNRFdvOWZEXzFRS21EZExjb1hCUkV1MDhZNTlMbnVXbm9jSlhB0gHkAUFVX3lxTE55ZzkyOTNIU3VRYjhMU2QzOUp6eWQyZmRpX21ZakVHUnFjMHhocXRteGI0eldELWZtV1MzYm9hVTVha3A5bHRGaWNaemF1clRtdF9SUU5uNjB3TklJSk5CYkx4OG1mQ1RvMTROdndLTmpxdFY2ZkwwNkFjMkdFaE9ic3I1YU03OGpZanE0MERNTVg4VlhzZmVSOVYxQTdBTU14SGVXdEhfTzVCM0IwWkVpYmVCY3JYU1NlMEo1djdnNng5NkhheDN1M0I3bWk3RkZyemtxWWpMclhMNlluRTJoOWtDRA?oc=5"
+      "cat": "politica",
+      "titulo": "Presidente do Congresso elogia 'capacidade técnica' de Trabuco e defende diálogo para avançar com pautas econômicas",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQSUJ1SXdrNmFqZzNUeElsVDkwYlVKU2JUdVNuQ0d4cjVzcUhrMF9aYXZaNU1VWjU5MnJKUWRqMjNLNWFuempSWWFnYjkxUmlmc1RlUmdkVVFaWWQtV3IyaGE2U0N1RWlBUDZmUld4aW12SjNaSlg0SlVEWEQwYzJVWkdRWGhVWnowZWp1VHdqQnhZcnQ3VE1MNzZfRUlTcjVsMjZubDBHQm9WbFpVUk1Qdmc0R2pzdS1XWUVxTXJCSno2VDhyaEI1akxibG1ZMklXVEhEak8tWm9nc2hybmVPTHg2a3lZSFpma1oxRDh3bkprY2JUcTZBaDBFbWZ3SE9hVlNuc2x1UEJvYmhpeW5jV1l0Q19mZjdNVEh1bXVyYmltVzNkTjRj0gGnAkFVX3lxTFBJQnVJd2s2YWpnM1R4SWxUOTBiVUpTYlR1U25DR3hyNXNxSGswX1phdlo1TVVaNTkyckpRZGoyM0s1YW56alJZYWdiOTFSaWZzVGVSZ2RVUVpZZC1XcjJoYTZTQ3VFaUFQNmZSV3hpbXZKM1pKWDRKVURYRDBjMlVaR1FYaFVaejBlanVUd2pCeFlydDdUTUw3Nl9FSVNyNWwyNm5sMEdCb1ZsWlVSTVB2ZzRHanN1LVdZRXFNckJKejZUOHJoQjVqTGJsbVkySVdUSERqTy1ab2dzaHJuZU9MeDZreVlIWmZrWjFEOHduSmtjYlRxNkFoMEVtZndIT2FWU25zbHVQQm9iaGl5bmNXWXRDX2ZmN01USHVtdXJiaW1XM2RONGM?oc=5"
     },
     {
       "cat": "politica",
@@ -347,15 +353,15 @@
     },
     {
       "cat": "politica",
-      "titulo": "Comissão do Congresso aprova corte de R$ 2,1 bilhões em despesas do governo para turbinar emendas parlamentares",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNU2JaRVc2QzE3QjdKOUtvWnVpa3dNRUNKblNsYUVHWFZSYTR1cUlnRG0yN2pkWC1McnlWLUNneEtvQ2JCN1VrNUdyWVRuZFBBOFlmZUtuNzc5VldBMFlDdUY5QVcyU242OTg1Ym9JYTBlbGlmeUw0TlplbGQxTnN1YUxQUUk2U3ZjMUdNMmZwdDVNNHJBRVl0a2lXdnZrdjZtUnVoU3otLUpTWDlCR1MxOU9CZEo0WkY3bXZaQmE2TDRaV0JXaHBoQVhCcmRGNTFiTFhwZVkwX0lzLUJGa2o3VXREWTBnbWw5cXMwRjAxVkTSAf8BQVVfeXFMUElFZ19wdklVaFBrQVZvcERQTi12eVFtUGQ5emdIOFdnSnVGcWl1VkYtcGJjUU5aT1hOYkptVTBqNDJ1VGo1M0kwNGZFYUpwYU1KMEpfNGpXWTItSHhxTjVMUS1fV2ZwdFBpRUV5Z3BVRFR1RmgyTVdvOS1lZjA4VGQ3Q0YzcXV5WnlRNzFtbGdRV09LckdGdmxaZWV0UVNsQnhXclYta1dJaWphZUI0VzNuMGJXZDdCZDk2LW9DOTNVOWVRcEtpWHF6XzJYT2E5LXpaUzB0OEhrQThqSkxpSWVxTEN0UGxJYkVseXRkbC02eXJJYndqSGs3bjZGMDFn?oc=5"
+      "titulo": "Congresso quer facilitar indicação política para agências reguladoras",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNXzNza2lVaklfTDRyWmZmOVdOSnYwQnFjdEVqaWl3Q1A0UVdNalVjYnBqLThDMDFnbFRtSHJkeVpzREZVN25hc21IdGRNQ01ScUVKM2NILTBndlFXc2o5SDRiOWJ1TTdHR01KaGZPc0NLeHhSVTZIOF9ZZFBJaVRPMnl4VDl2d085b0ZMUHJycGtTMnVHdFJvcHlFSWdSbFdwbnlFbW91bmt3ekE2Q0ZGVF9pQ20?oc=5"
     },
     {
-      "cat": "politica",
-      "titulo": "Uma sugestão para a nova leva de novatos do Congresso Nacional",
-      "fonte": "PlatôBR",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZWJrYzZONXNQN2NvOW9LN2RFOFFjUFZIMU1XeGduaFM4cTlYbzY0WUZwcm9JWElCaXVERTl4djhNTGxwdng0V19HdmtHcUdxNWdiNUVZekxrdXVSR0FubVN1RV9NbXk2bzRSdktiXzl4T2FHbXpRMHdaY1hGWGtqRnFQbHdxVGRKZnY2LVFn?oc=5"
+      "cat": "eleicoes",
+      "titulo": "Lula escolheu Trabuco porque não tem ideia do que fazer com a economia, diz Flávio Bolsonaro",
+      "fonte": "Folha de S.Paulo",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTW1uYUVWZFNmZDdqTk9jQnVldElldnRla0ZkUUhZUUExOHVib3p1Z1lBc1hLMFgyRWppYVRtM2twNEYtb0dfSTk1WlNHUkVtbW1LNVhrcHM1a3JWQWJqLTlDb0tySlJpWUpnSHUtLWx4OFVXQ25Fb3RTajA2YUZTMmVjaFVyZHNBLWdfZWtjXy1hS3d1R3lHLWtpOHZwdzZ3TTlKdTVaZUl6MnZGelc4c05UWE1jS0lqdUstS0MzQ0pIT2l1Sl9sVlpuZGl3NVA5eng1NUZGZW1yc2c?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -365,15 +371,9 @@
     },
     {
       "cat": "eleicoes",
-      "titulo": "Flávio Bolsonaro tenta derrubar post que o chama de 'traidor da Pátria' e 'Judas', mas perde na Justiça",
-      "fonte": "CartaCapital",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWkJnbDJ5MEs3VFk0M0JDN2NXRExURldpeVZjYXBRX2hvYXZOU2UtYjZEbC10NmtmSmtsOUFiajdNdnFxMm9qRVRLSXRrNWw3dldtNE1jVGdZYzZ0SkxKNHhuM0hwQUZkc1hzYmZvTzJXUjV6RFJEXzEyODR0bnVLdW9NUm5RRnkxZzFDT0JBaVF6RmwtWUFkb0ZUSnF5Rk9OcW9CZnZxcmRxeVZDVkMxei02T1NiNmtVblhTVk1mdlIzNTZ5dkY4MUFTNGhtUHpfdUZyZkZGWmd5bUY0aEE?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Aliado de Flávio diz que ele seguirá à frente da oposição a Lula",
-      "fonte": "TV Sim Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbmM3aFV6QW43N2lKaGg0QVVwaVZFeTRRV0JtNkNUWENiN3MwLW9zMnpkYzBGMXk3MUYwMW9NWXlEd3FVMmNDUGMtRHZjazZXUHVGTUZHTDJqa0lrc2ZOWUtPcHgwWHJON05fM1huNVBwOVZfODgzaS02UFJiLTRHQzg0dnRqdjd5VGRfQTlOTzJzM1VmdU8zMXNhRE1POGozVExXV1ZMSEthOE1KVGhzTDJmZw?oc=5"
+      "titulo": "Senado defende manter salário e verbas de Flávio Bolsonaro",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY3BWcHhKUVlUZTVKVmQ1eWVodUY2ZWl1SGJTTkZNODVkT3ZUd1labkxkYXVFR0dLd2V4aGJmME1yTkhvaWh5bWFjRHVxMVAxWFhlZ3FSTzl3QklYZlMyTWZraHNsc3JYOGJtMmpNWXNIX1Z3Zjk4b1FTcXNxVmVNRUF3aFBCVl9veXVscTh1aHoxVTUtbzJZTHNvbFVVQQ?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-26T16:39:52-03:00",
+    "atualizadoEm": "2026-11-26T23:52:58-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
