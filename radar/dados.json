@@ -167,8 +167,8 @@
       "anterior": 166684.61,
       "minimo": 176799.84,
       "maximo": 176799.84,
-      "hora": "26/11 23h52",
-      "ts": 1795747977351
+      "hora": "27/11 09h30",
+      "ts": 1795782623492
     },
     "acoes": [
       {
@@ -243,18 +243,18 @@
       {
         "sigla": "USD",
         "nome": "Dólar Americano",
-        "valor": 5.6513,
-        "var": 0.0
+        "valor": 5.5374,
+        "var": -2.02
       },
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.2008,
-        "var": 0.0
+        "valor": 6.0736,
+        "var": -2.05
       }
     ],
-    "acoesTs": 1795747977351,
-    "moedasTs": 1795747977351,
+    "acoesTs": 1795782623492,
+    "moedasTs": 1795782623492,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,45 +305,45 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Medidas do BC para cartão de crédito e modalidades sem garantias atingem 20 milhões de clientes, diz Vivan",
-      "fonte": "Valor Econômico",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNc0ZJRE9fc09wOG9ETEQ0TXRCNDZaS09DTEtQTGt3b1RSa19mU2NUbWh5cTVrZWZ4ZGhsVnk2M1o0cjZEUGk4TmlsbTExN3U1QkxiOE1oQWczenhFYmFfVi1QX29EMXBTQkctMHl6V3R6NXgyZ0F5VHlHS002R3Iydi1jc2NkOGlRMWFmZ19SMXkySzZpdU5pRlpmd3hNQXN3N1RnSENwN3FIUVVmU1JwRVltNXRQdTVfMjJOMUhVQ0UtT2o3WmxUSV95NHJJTW9tNlpGbDRjbWc4cjNGNlFkM213QkpqWmhWcW1TZXlaejJxQdIBgAJBVV95cUxOSlVjU01PLV8yTHJEME1SZGtyMVJKSlhUTFcwYmthbjVfV1BVdHhXZ0FtNElsdjgzZTNNSmdBakk5ZUMwZDY4bkowYlZ4eThVeG5WeE0tTElqTUszQjR6MFNIbG14ZURxX1hwdlhNdjM5XzhlS19EMXJLeDJvVDlnd3Q0SUljUjJFWEQ0NXYyZzg3VFlrZFZrZzNPQ2Vqc3VYcGNqcjBjVmJMbjRFRWRZenRFRWxpQXZ4S0wwNmVTcWhOeVhlUlNHZmtGSjhuVTF2bkw0Yl93MHlIUF82VG9BajZUaVRUOWstNHItb1hOMVVLcDRWdkFNVFdycGZfSkhE?oc=5"
+      "titulo": "Mega-Sena não tem ganhador e prêmio acumula para R$ 82 milhões",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMnhuaEp0MjRRRXd3Q0FXWW1rVUFYVHoxeUlhYU9wcXFUdHFucWEyWkEzRUxDNG5sazhLWEZBRC1Kb3FIYm9xMjZqMndidDB0TFVabHExLWxGV19TWkNMTXU1WDk2WDVfTHhJdzNlU2ZKaVk4LVFxSUNybThIVThRQnUySV9OQ0M3bDNLZE5NaUtXZ21RUDB0cE9mTWppaEtBT3VqYlFnbzBJX2NZakYwQ2xHTHN5V2xrSkFN?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Mega-Sena 3091 acumula e prêmio vai a R$ 82 milhões; confira os números sorteados",
+      "titulo": "Entra no rotativo do cartão com frequência ou tem empréstimo atrasado? Regras vão mudar. Veja perguntas e respostas",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOSEZRNnF3RXVrX29acjBMd0U0eUtOdnpSaEJwdWxZWmVZRHJsNzJCalExTnhXSXd5MHpUemFTWTB6d25fd2NDc19Xb002Q0Y4Ukl0d19aVVpZTXp2X1pNSzc2UHFVdUl0SVpRcTZ0cWE1SUZpUk4wMnBZNExBZENrY0R0Y2hHc1pBckh3alJ6MWhSaWNPY05UNFpKb2xhVlU2eGIxN3RTa3FHVU5FQ1NPOTdpcEh4TDltMmVCREhTU2RrWE41SURESi00YUJUbElyQ01fRjIzaUE4Zmh4bkU5c253M1JlTDhvdWpaNGVCR0hwTkV1VGktU2RERFp3d2lFekpvOUpqaEtGNWloTlHSAZwCQVVfeXFMUF9iZ3FTUjg1aGtNM191OEJ6N3MwekNlOEpwSWl4U0duQzFlRWxxRG1WYllKSjRvV3Z5U3M5T3VIT3lpWnVXZXlVMUU5ZFZxWnZIU3dFM3lFTThiUE9LRFRyY0lDTU9WMVdLT3NETlo3cjdHSERoYThFeVY5THNGUlBEQjNOc2NEMTRuY0p6OG9kZWZlWVI0RnBlTlBkVFRlT2J3bUgxbDlWeHF5M1F5R0xRQ0hDWTFpZ25NeTJXbjBXSkI0UXZMY0UxUzRGTHNKODd2akplZDBPTU9SUlBMbzVNUTBuaGpwQW5LM1dRWTJpTVJjVktNWWtBb0pCVGVTdWFuRTk3OWFtSlJuWUJNWFhPWW15SWtrbVRiS2o?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "No dia da Black Friday, 58% dos itens pesquisados têm descontos; 33% estão mais caros; veja lista",
       "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWk54d1U1LUxFWGc5bTl2TEtmdWJYTHFfUXlhVzY5UjhNMTZ3MlREa2NDU2FRRmQwM2FOZUxzYXpsNTZoU3M2MGhrM3F6SjQwczVZVzY4TTA2Qk9yR3ZhRlJpbThSV1ItenloRFlhTXVoRWYxbko0dHlfTG9HaThMVUlVSmIyWFV2a09EQllCb0hSdjlUOW9wSWhDMFNTSHE2aEw4dzAxSy0yc1pIV1FHOTZVSUNPWTlH0gHHAUFVX3lxTE9HWFF1eGRLaXptZHFFdEZ4VTlfczR1bGlfR3RHRnRmR1htZnBmbXl1bEJrRFhTREdzWTNNWnV4Q1J4UHlJZkxBYjFQT0U1UVZMZFU1M2hOYUxQYmtnTVpmbEJUNEFQVjJNX1VWemVCZWtrdmVLdlhCcU9XYmdYNUZXTGZtR1A1TEs0TXVvOVdWZEpVUUUzcXFqak12Y3VmZFl0VTRVNmtwT2dLMWsxZDBmcDB3ZUNCRVdxNm1RSFRkUExVd1F0Mnc?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Dólar cai a R$ 5,73 e Bolsa sobe 4% com política fiscal no radar e rumores de Trabuco na Fazenda",
-      "fonte": "Terra",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQNHBTQXZWT2UwRGo5cnU2bld5aENNZmozem9xSjZ1cjhqbTVfeVFTem5yaGFlSTBCeXJ2Q3hIdVR4TzVmeW1odEsxTko4MVNFZC1LT2p0RTRhSjJmRmdpR1VkbVJ4RGk0cXZ6MGd1djhUemNWNkMxS0FWNFRSX0R2QnpqMi1ScGJ4dFpGN1JLZDJQb1dIOThVdDctbDJ1aFo3TVJhVl9pZGdoTUFyTXhLcjJxUzFkSnUxeW9XSU5GTmliMUtYVFotdFNjM3ZVaTF1d29rcG5qZ1loVVp0WWdGODhxZlpMMnhLTVV5YnJleXZHYldQa19RUGJiNDN6WkdzR05N?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQN2VxbEZnQ2doa05FNlgzRV9BSTYzdGJJLUFWb05kcVhBY29XLWI5NTQ5bWdwT3prZEYzZ2hGWEw4NFhoVm5fWno1UVlOS05Wekh5ODQ4UV9TWFR6aUo2bEplN1BaWmlDMENPWjMtSEU1UUcyZzBPOVdHT1JuQ3ZsWXBjak5sU0Jab3o1d0RKb19mRUdxd1FwLTJkTzh2ZU5YSTdCTVNkYWdUMFJNdmJ1cmY4cm5jTHM3NWlqRFZFRUxHa0xtRWo4U2F1c19aT3hTOE01NFRpOWtmamPSAeoBQVVfeXFMT3FiUWV1NHpVWEJ5blU0bmo3WC1OY1NJUG9rNEZzaEptY3dPNG16cl8yQnE0MU9RMmRpUzZQaDZWZmF5dUFyLWRLQWZrX2FMVFBtS1hMLXdoeTBJWGd3Q19FTnZkWDVlc1pERnptYnhTNmh6NVhyQTFVZDlCMDA3eW1PTWRpOUhaZE1Tcnh0M3B0VTBGX3BFbzZxV3djR0ZHQjk4V1JGU18zWGJNXzVEQ0V2eUlGT3pmNjBfdk8tZjFsb1FGaUUteGdlQ18zRWktTTFUZG1ObFN3Ym9jZU1kcVVjczBvYmYzZlJ3?oc=5"
     },
     {
       "cat": "brasil",
-      "titulo": "Saiba quem é Luiz Carlos Trabuco, novo ministro da Fazenda",
+      "titulo": "Paulo Guedes, Haddad e Durigan: quem foram os últimos ministros da Fazenda do Brasil antes da escolha de Trabuco",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQNFB1SF9LQVlSaVhodnVmalp5bnF2ekQ4MlNqSlpSQmdSTGNXaGtVSXI3Zm5mb2Q5YmlMbk4xMEJEMERJNV8zX3E0M1ZLa25iY1F1elBPVXFlcGFQbVpSMVJnNjJ4UUNxV05XV0p0YzNsZWQwUU85d2xOeGVnaVM3VXNrZDNaTDJ0aW1wNGZkdlozMDJob3JFTVFwRmFVNEhqUVVSSi0yNW92aWFXc25xTEd0QnZObG05RTJFdTZRVkRUN1R4WTNTOHo3TVp6MlZfME9NdVdYQ3FJd2VMMHhwSjNKUnVsbjB2QThuNV8xMTZIc1BKWUVNTtIBhwJBVV95cUxNc1FmVm9iVkQtdHJaRnJpUHp2TnpGMnVWM2trTWVBVXJaSlRvdFhHQXlEMk5QcmRTekwxNm9rc0Y3Y05KUVQ4ZHBic0F3VFU1ZExzLWExMUl5N3RaVzBJdjZoXzZrN3FxZUVSbkdvQ0txVXZkS1h0VWtNVUozYm00dWxNSDZvVGR2VFJLRlNsNVNRMUNiQkRNY2hzZG01ZjU3OUUwRjRua3R1R0V2Y21xMndaR0xiUkxva0lMNVhmQXJuby13cVV3OTJKWFM0eVMwb0cycFVtOGlKWVpGaU9NcmVWOVNibDJ2RHhDMGQ0TTR3aFVTeVNkZDd3bG9pbXM4bk04MzM0NA?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Lula consulta Cármen Lúcia sobre nomes de mulheres para vaga no STF",
+      "fonte": "O GLOBO",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWDhnVkJsdU1zUjg0SzJOemtVTUVqYkxHekpQSnViNFA3eXZNY1gxZzRzTi02a0ZUSjFUT2ZmTHVHWHQxMFFiOENmNEpCT3IwUGd5dWsxRTF3WWZ3SG8xVDJPdWVrYkdyWWtVTTBqS1pOTEtCanFENnJoMVZ5UVdfTWVUMDN3SjJkaXdRX1FRdHhhT0ZzdHJ0d1lxYkFIUEE2WTFHXzJ4ZExtZkw5ck01dzhiWHRvaUExV2l1bjhueFZBQ21F0gHTAUFVX3lxTFBNeHBtcmtpV29oZ3RWeWNhUmxrMkRTU0lhbktvSTcwZFduZlVZQWRLaXZWdzVrZ21xVEFUVFdHemgtYzRyczl6NUJEcThCcUh1MlFEYU9NcnZkYW80U2xPbUxJRjJCN3JYTTBEdVQxZ2Vobjl5dGpsTXZ0c2tWMjE4VjBBYzFyMGJxTC1BTFdZeVAtMkV1TkFlaUNxS0tvTk5rSVRDWVlBLWRpcU51alVReTV2Z1hZbmc3RkN6eE5Uc2I4c2lvVGplb2VXRlhoaXJPbkk?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Ala do governo Lula vê negociação com Trump no limite e avalia reação",
       "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNVpfbU9md0Nxb25XaE9MazB2UWpQbkpVNy0xZG43dHhORW1JdmloYVZyQUM4OUE0NFNvb2JuVHE0cFlhTFZubEtuWWJQWEhEUGdTLXRtRkw1RUc0OVkzSjZHN2FJc1JHY1ByYUxnWldxbnJTeDRybjMtVGFjbzZ6UHpHMHNIX0lIVWVjcnF6V0ttWFoySlFkUnVBcHRvRUIzTjVB?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Bastidores: ‘Empoderado’, Lula prepara xeque-mate em Alcolumbre com indicação de mulher para o STF",
-      "fonte": "Estadão",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOQVBoU1JkQTJDRHhPTlZ0M3NGdF9McG41WjFaeUdtWGVFU1NNTXVRTk94YnJWU2NvWDFXYVRoLV9sR2kyNkUtaDhidW5tQVFhOWExODFDZjVjU0NscnB6dkNMTXlaNUN0OVBnVUlTS0duanpFZENPQ2RSUVR1dXItdHo3eG11M25QVi1RRlFIa1pITHdJVnhYRnlhb2RacjB6YWhDZ3p4a0NRMEh6WENDZnF3Z3dNN2lBNXYtS3pDZEFiOGRSS0lPU0tDVlJkTlV3SzFDcDRmVjhpd3NvOVlWcXVQVdIB6AFBVV95cUxPQjdTb1NPUXExWC16clV6bXE4ZWxVZnZ4c0FGT3pNWDlVLXdNMUEzVTI3RTgyYVo3V2o4TXFGSjZHRDdiUGxWUDRTQmRwSFpEU1lXN19jMlQ4dmNMTzU2eDZvT2RjWDhhdU9QTERzUEFmNHMwd19RX0FUa0RvS3hKbThLOXZBREhMd2tPakFWTWFFT0c1ZVpJSUtDS3FiOTc5WHVpZXdQMnJlbjMxQV9RM2V4aUtLaE51eks0QjR3b1dlcEdTcTBYV3dmcXhZX25zTW5mOS1qc1N5bHpYQTVGM0JZYmdteVZs?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Cleitinho diz que teve conversa 'cordial' com Lula sobre dívida de MG com União",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNN1FhUTdZNXRKMkVVWURnV185cXN1RV9idTYtUjlITnktWXQ0ZGVRaE53QzJHN2RWN3E3MnhBM0pYZGhwc3FoMDFBR1AtbUlmWXJuemxDLWZPMkdkVm5WRlhkaUtINlo1M2FQQm0tVXN4TTEtQmh5QUlHSzhiaUc5bFVsYU1CRWh1OGxGNmszcDNhT1ptMzBHdWU4X1JUczJGUUFkd0V4ZnlxaTBsZlJ2NXZDRzEyNk12ZzJRaWJ0dTl4Qkcya0HSAdQBQVVfeXFMTUowa2szOXlkV1ctQnZOS0ZySUNjVmtieTkzcmNjN0hKc1kwal9VTGNmNnIyTERUVFE3dHJiVmR0RWJiVmw5cmo4QVR5eWJVZ0lpYmdjZ2dJYnpzbFlOX2xmNmZjVE9iNFA3RDFxQnM5Nk54Zm9ZNGJyOHZydzdXalQ5cURndkk3VkJxVGxGaFpSZnNOV1Q2WlJ0aUNDOE1jc19xWEtWR1FPczhlU1Z0a1J6OEZOVTVPUE1EQWVtZEREcVdLdDltNWNqREwybE4xWE5LMTc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRzlVTC1aa0VlOUc4Q1BCcS1YM1RJSmpwR1NlSWZ3M09LVGtVRWJLVTBuNXlWLUNZRU56Q0tVdlQ0LVBlZnZGeUdWYVJkQ1hyMk5ycVhyMVh2UTJTQ1dQazVWbGxtTG8zX21zNDBrT0hMSlJnQ1I0am51bWsySU1hYjBtVDI2MTFvOGl1eHphblZyeG9SWVE0b2pfdnVMUDhNbkdZQmJmNzBHb19BQzF4OVJR?oc=5"
     },
     {
       "cat": "politica",
-      "titulo": "Presidente do Congresso elogia 'capacidade técnica' de Trabuco e defende diálogo para avançar com pautas econômicas",
+      "titulo": "Cúpula do Congresso avalia que indicação para vaga no STF deve ficar para 2027",
       "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQSUJ1SXdrNmFqZzNUeElsVDkwYlVKU2JUdVNuQ0d4cjVzcUhrMF9aYXZaNU1VWjU5MnJKUWRqMjNLNWFuempSWWFnYjkxUmlmc1RlUmdkVVFaWWQtV3IyaGE2U0N1RWlBUDZmUld4aW12SjNaSlg0SlVEWEQwYzJVWkdRWGhVWnowZWp1VHdqQnhZcnQ3VE1MNzZfRUlTcjVsMjZubDBHQm9WbFpVUk1Qdmc0R2pzdS1XWUVxTXJCSno2VDhyaEI1akxibG1ZMklXVEhEak8tWm9nc2hybmVPTHg2a3lZSFpma1oxRDh3bkprY2JUcTZBaDBFbWZ3SE9hVlNuc2x1UEJvYmhpeW5jV1l0Q19mZjdNVEh1bXVyYmltVzNkTjRj0gGnAkFVX3lxTFBJQnVJd2s2YWpnM1R4SWxUOTBiVUpTYlR1U25DR3hyNXNxSGswX1phdlo1TVVaNTkyckpRZGoyM0s1YW56alJZYWdiOTFSaWZzVGVSZ2RVUVpZZC1XcjJoYTZTQ3VFaUFQNmZSV3hpbXZKM1pKWDRKVURYRDBjMlVaR1FYaFVaejBlanVUd2pCeFlydDdUTUw3Nl9FSVNyNWwyNm5sMEdCb1ZsWlVSTVB2ZzRHanN1LVdZRXFNckJKejZUOHJoQjVqTGJsbVkySVdUSERqTy1ab2dzaHJuZU9MeDZreVlIWmZrWjFEOHduSmtjYlRxNkFoMEVtZndIT2FWU25zbHVQQm9iaGl5bmNXWXRDX2ZmN01USHVtdXJiaW1XM2RONGM?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOGpia285UDFlc012bDBqQXQ0a0RrYWNPU3BYS1VGQlZGYXpkMkRKb1FQTHVmaDZzam9ESjkxUC1GSjJVX1YxbFFMb0paRFptTlF3UUNlNTBLcnZrSUZ2ZFRydnJReGMxRHFxNHUwNWYyczNOYjlIME9HVG8zTF9Pbnc5NGxLcEI5TnJBUERwb1M4WUxiazJtUmZKVi1ZNXo0VE04bjBnZU1uRkdJbEdKVzlKUU01alc4LTI5Rm1HYkplemVsdVc1d1JjY09FLXFpczBN0gHiAUFVX3lxTE54VzhyOEZsN2gzREpDbk1sb0lQbzRoVTh6OWVqQkhuUXZwYzhrWXZFX2VhSlNDNXY4Q01BOWJZR1pZUHNMUVI5UFRUTEkwSm1vWFJzOUJmQW16X1g2UXlZUWJLRlowOXpzeUozZ0QzaGdaRnEtbE15b1VRdjdIOE1NcDVoUmQxbmlGNVBqT3ZTYjlma1JJTVd5aXVBNnp0YjFmdmlIQTZMZzZINHFBaFdTMy1DNlB0S3VMTEpsbWFieFFLUFR6WGtvb2hoT2VDMEFWd2dJd2wwVi0tVi1MZWs4WGc?oc=5"
     },
     {
       "cat": "politica",
@@ -353,9 +353,9 @@
     },
     {
       "cat": "politica",
-      "titulo": "Congresso quer facilitar indicação política para agências reguladoras",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNXzNza2lVaklfTDRyWmZmOVdOSnYwQnFjdEVqaWl3Q1A0UVdNalVjYnBqLThDMDFnbFRtSHJkeVpzREZVN25hc21IdGRNQ01ScUVKM2NILTBndlFXc2o5SDRiOWJ1TTdHR01KaGZPc0NLeHhSVTZIOF9ZZFBJaVRPMnl4VDl2d085b0ZMUHJycGtTMnVHdFJvcHlFSWdSbFdwbnlFbW91bmt3ekE2Q0ZGVF9pQ20?oc=5"
+      "titulo": "Educadores ambientais pedem reforço de orçamento e políticas públicas",
+      "fonte": "Portal da Câmara dos Deputados",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPanU2a2c5ckZPTTFIdE9kdlBWVzZudHh2eC1ONnNuOHFRR04ya0RQeVE5RnpaQmg0aHN2eUdMVU52cFU0QTJ0V3JiVW4tN2tIWS1ic1BtNDBDQlJSQm9XTUk4cXBRQ3cycmFiMnpXQXZuMHRTcFpkTElhVHlUbVRPNmlPYWR1RnZZQkk0d0FpZ1hzQ2hOeWZsdjhBTGYyaWE0UndHbEtfTFRicXo4SUpfVWZR?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -386,7 +386,7 @@
       },
       "cdi": {
         "valor": 13.65,
-        "data": "25/11/2026",
+        "data": "26/11/2026",
         "fonte": "Banco Central"
       },
       "ipca12": {
@@ -405,8 +405,8 @@
         "fonte": "Banco Central"
       },
       "poup": {
-        "valor": 0.6719,
-        "data": "24/11/2026",
+        "valor": 0.6699,
+        "data": "26/11/2026",
         "fonte": "Banco Central"
       },
       "desemp": {
@@ -1536,13 +1536,14 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-26T23:52:58-03:00",
+    "atualizadoEm": "2026-11-27T09:30:25-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
       "BC ipca12",
       "BC ipcam",
       "BC igpm",
+      "BC poup",
       "BC desemp",
       "câmbio (Yahoo)",
       "Ibovespa",
@@ -1550,7 +1551,6 @@
       "12 notícias"
     ],
     "falhas": [
-      "BC poup: https://api.bcb.gov.br/dados/serie/bcdata.sgs.195/dados/ultimos/1?form…: HTTP Error 304: Not Modified",
       "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
     ]
   }
