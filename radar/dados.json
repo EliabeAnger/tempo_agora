@@ -167,8 +167,8 @@
       "anterior": 176799.84,
       "minimo": 175898.8,
       "maximo": 183625.66,
-      "hora": "28/11 00h55",
-      "ts": 1795838157481
+      "hora": "28/11 10h04",
+      "ts": 1795871083796
     },
     "acoes": [
       {
@@ -253,8 +253,8 @@
         "var": -1.99
       }
     ],
-    "acoesTs": 1795838157481,
-    "moedasTs": 1795838157481,
+    "acoesTs": 1795871083796,
+    "moedasTs": 1795871083796,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,39 +305,51 @@
   "noticias": [
     {
       "cat": "economia",
-      "titulo": "Fachin libera R$ 316 milhões da liquidação do Master para socorrer BRB",
+      "titulo": "É golpe: Falsas pesquisas de satisfação prometem recompensas de até R$ 2 mil por participação",
+      "fonte": "Extra online",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPTEhHMFQ0QW5LRnduVl8wdk9qeUktdnRzT244SnlCYkhEZktEdUo2d0Y5cDhSNTRtdkFMOGhETmgxd2gwdk0xWTdjeDRlNHVEcUNpVVJoX293MmFTalhHeWRFaUV2Zkk0azJVSDM3d1VZM05jMmFpS3R0b18zd3FlcUN4MVZnZ240bUlMZlJqbDMzck95YkNWM05pSU5ITEpYWklPU2YtY0ZzR1pHWm9MTVhhS3k4Q1F6TjI2Q2RCQXFtV0lQZS1PcU01TklQVjR6Mmt4TGVmMDA2dXo3MkdN0gHuAUFVX3lxTE9TRmNEa2VpRjVpUTNPMlAxY0lkTXdhQW1PbmktQlBIS2Y1MUdGQlNRekNlMl80dHR0M3F4X2JzWnBoWXBYM1hHU2FXNTRTQUZIQTRBQXZqN3U2LUEzczNHWHFaYjRDLUJGV1dPbjR2dE80WHk5UjQtc2FBaUsxN2RkWmZFSGxwdS1FOEJJMmRBT29YVUo1N2pfUi1BYzliMUZLUDRnU2NqZDV5VngwcGFDclRyZ1RTZDBKeGpPVFVfOXdYTHR5TlYxQ1J4MkFCUmZqRTF5Tm1yYWRtYmJiUVcxa21JdUdINjJTRk5MNXc?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "BTG cria fundo de investimentos para comprar até R$ 1,5 bilhão em créditos consignados do BRB",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPVURnaFJhLWlYbFl6Ykc2a2tCbTJ3OVBTalNncnhoZDhfRFZINml2ajBaV2FMa20xOUhlR0o0ZmVJRHhxaHdnRk5uOUZnMTlnakVrOXNmOTJQT1BHQ1pZMFFHcEFhcHFSWjRzUHd3a09zTWRwMGdRcGJnNVRvaWhaeTJNWGNhZ2FlbDY0cEF4S3B6b3RqUXBJZzI4UW54bmMxNGF4elpUdzN3Z25HYUtSd08zc3Nabmxibi16dExpOHdWRTZDR3lrbGZjbXg5YlkweTZCUUdqZEhkNzhPeWp5RXNKaldtcE5QUThIadIB-wFBVV95cUxNMWpXVE1wN25aYmNTVGJ4T29ucF96dl9FaThobUhoWWZ0bFlwMnd6c1NWTjRUMDM3ZHVQRkE4N0l2cUlUZ3NkUnBwZk9mLWJ0NzA3SVBPNTBwdmNPVVJRN3ppRXFYcVhRaWwtVnU4MEROMUY3OVZkZHVhd1dRckdVWEhYdFpfeUZJSk9HVU8tNXNHVmZhc3l2Q3VpT2NfQWpLNFl6Mk5ZV2Q2MjNYYjJHNDU4TVlwVlBPdmZHZXZUVG13T25YaXdvRmw3cV9YamdhUFl1SmRUTjJYZ0hvdl9DSm1aVWhlZkJHUjJrRWc4SURFQWVtdGNmT0lHcw?oc=5"
+    },
+    {
+      "cat": "economia",
+      "titulo": "Mega-Sena: quanto R$ 82 milhões rendem todo mês na poupança e no Tesouro",
+      "fonte": "UOL Economia",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPX3haUVctVFZkTmRZZ3drUXpGZHR2RVVaRllOWWNVRF9ad3hXUzdVem9MVGhIU0ZzQWIzWVVfSC1ZR3dtV0dJdGx4MTZwOElKSlM0Zk9yQVdySHhLS1ZpY0FwZnBqeWRFR2h1RDZsaHBLZXQtd0JuQUV1UTdETHo1QWRRY1lxRklkS3R1UklSa1B4a2dBdmlIUlRuakQzTlhjbWx5cVg4clAwZVVrYVdEWlJ6NEdoNEhUdDVqSF9GZ0lnQzRPc3h5QVdnUW43anpp?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Expectativa de vida dos brasileiros chega a quase 77 anos",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNndINl83Qkl1R1RLWmh0NU91MWVmTTQ5QWt1OGlVSDZ2SnozMEwxY2YzRG56YllQTnVhQVNoWWJuMjBzSkJFSjQ1Y0I2ZWl4ZHhqT1FCT1ZnYjN3T2ZwZVdKUl9XaWJFb0dMTXBFYkhFOWxEQ3p4X3V6ajhBU3dHYlFMUWxieENLMW1Kb0IybHF0bklTUUs4WFNOU2lEUk5yWk5TOTZoS2JyUm81M25SbkN3dFdmMFdqT05F0gHKAUFVX3lxTE1BRXR3dElkWWZxTTg4Z2M2VjRhaURvZHcwT2NEcmE5NUFFXzV2TExKQnE3b3FzcXlMRC1OenF4UXZyVm8xNGVFaktGT1ZFOVI2UmU4dm5KcVlMbDE5MU9yclE5YmVKTTlWQmw0eDB6dmJIQmUzbTZYaHBUdnhRcjVGNW5Vb1E2VnJvNlFMNVIyNDVYNkc1U0FzOTVmZkVQWEdGMnRMbUN6eTZJcVpkak96cXJDek9admk4RVQxbG5SWnQyUUo2TWtRT0E?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Ao agradecer a estudantes, Lula garante verba para a educação e defende gasto correto",
+      "fonte": "Partido dos Trabalhadores",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeXQ5SmpSaGdZRVFtaHRrMDljTXRoRFNoT1RZMmU4bXhoWVN3QmdFRXh5OGlxc2lGYlJHY29Pb1EyaDQzR3R6dWhSWjZXTnU3V2hxckpIQ01zYXNGU3hNRGJSejIteHFFOW9LUlJlQmZUMlplbm12bVBXUlpTMWN1Zm9weEFOQWZRYl9vMFliUC1uV3hpaU1IaFhSM1R1elVGRDdJ0gGrAUFVX3lxTE9aa0tMX2RFOW9hWUdrc3dxS3VwSTNsVE1nVm93YS1sZjVHOGZreWJQOWctR0xBLVZoaDE3T3RHcUliNjRrYlExOFRYcWV1UjNpYmhNcXdZR0dHS3VHZ3ZfU1ZRaGRSa0NrSTdnZ3pWSzdRRXEwTjBvYkx1UVpFTFB6YXg2c2Z6RGtRekVnUWlhODg2OVE1Z3AtUF94aUFTalVlMmluUVdZeHdCUQ?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Adolescente morto a tiros pelo pai tentou defender mãe durante discussão em prédio de Fortaleza",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOaElFNllXcWxVajVHQXJtVkFTOTBwXzQ5QTdIbDNHOWI3ZUJkQ2V5X2tqY0s4bi1XcmlBWEYzTjZrTGlNa01aNWpFNVhNZUFuaGhMX2ZYY2JlSXdNMlZwb0w5SkdoaTNrMmJqaUJyOF85NkNyRmZTN1hLQTVkOWVoaFBNeGw1dk0zNGFDbHJDY3E0cUpWVkpuNmRJNWlnZks2S3NfWTh2UFUxc0VCNWhpeF90RFhnZGVpQjZ4SW9RbnZZTVlySXBFZUVnZFhhbzM4R0JxV05JR2xMWGN5NHBVcVZrekHSAfMBQVVfeXFMUHdfWmhDYldEODFleVZiMVZsbHNYRGx4akVCeHpYVks2VkhIaHlLUklmU3IwZF9LdGRiazJTYnNKRFJWN2JYQ3k0NS1JaVB4WFZySUJ2LVFZUTRVN2RDRVlZWEQyblljSVRrMVRZM1phM2ZQRmZ6WDNwQ3Z1ellNU25yTjV5a1dTc20yOC02WEVSZjJWXzhiT1VtYlBTbWNSZHBSUUNYOFREenVtTldjb1JSQmhXNl9OREtLc2tYZTFnemEtd01IdC1UbWtpRjNUTnhfVnY5TFpmdDZLMWw1bXBqRXZ0UWFtSVJUbHM5am9IdFBF?oc=5"
+    },
+    {
+      "cat": "politica",
+      "titulo": "Emendas limitam políticas públicas de longo prazo, diz cientista política",
       "fonte": "CNN Brasil",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNS1cyTU1xMUhIR2N5NFBPMXd6UzR3LXhQWHMtZ3dmR25CT1hGMWhZV09mYnYxamlMY2g4R241SEozUENJd1JnVy1JcG05aDZmcjlIUDFkVTBvd0x4OGtPbC1aQVllSGdaM0RVNEwzNjRyQlM0empjLXJtbXpra0NmR1lDRUFWZGxLWUlRRnVjSkpIV3FSVGp6NnJUZU8wRzEzaHlFaC1UdnNGREp5?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQkxocmdOVHlJMjZ1b2p2V3RoWlBhaFpaVnJGZWRpeGkzS1Y1Y1FvSGRtT2Zad1JkWVN1N0hlZ0ZlQ0duMElUTmFweGd3SXowT21COFRuR0Q0cGwzZVpRTXU0QncwYncxZkt1cmh2ZGJBWUIxSGJKSGQ2ZjFVejV4SHp3aVNNLXdza3REY2RaR1ZDaU5GZFBTQ0NraDl4d1lKcXhjbU5lVlVvUXJ3c3BocQ?oc=5"
     },
     {
-      "cat": "economia",
-      "titulo": "Black Friday: papel higiênico lidera entre os mais vendidos no Mercado Livre e na Amazon",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNTUxVUWY0eXplOFA3S0VnakRfekJOSnFDd3NvcEpLMUhGb0ZHVVNQdEQ4UGYwM0xhaXNBMDBzVTg0eGpkNVZ2ZlhPSUJGdnFYQkdVNGl1akNscFdOaWxibDF2czNLYzNodEl2WWtyM2JSSHAzUEVkNUdVZi1nVVV1Z1BsME5lVFNuSTUyTUhzbTZXTmJMRTJEQU9MeHVrMHlwcXFGWF9oZGpUal91SEVnVkQ4Y1FCWjE2N0IyLUlnYUhSN0U1VkNZZmszVm9tN0ZaNHVsdzhmZHJXamJQSVJ5NlBYUlBKQjE0VWU4UWEtM2x2TDBrUFJmc2hEZVpGLWxod3AwRUVn0gGUAkFVX3lxTE5yMWlkZm9ITVl4by1EUEFXVEdOMk5peWpnVVU1RWdyS1dOS1I0SFFLM3BzRDlncTZxSzhBdnpoM2w5bFBGck1zdlFvdGJIVWlHZUxobWNjYTR1eWlUbW12X0o4T2Vac3dlQkxXblFUcnc2MURrejlhNTB0dDZRN21jamxIbVBPU2dteXptV3h3M1ZjZEE2Nmhwc2tVUTAtME1Mb1d0a0wtcE9iQXlqRXA3UTByOS1XaHpNY0swYVFZd1cyVDNEQXJtdk5QZVQwWFM0YVpFcmR1RDkyb1FoM2U5R3JubGZPdEx2TjNTTjN0Sl9YaTBLV0RmT1B2a1lYR1NQclpjRm9Vb0VZRHBSSnZRUGEtYg?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "Na Black Friday, notebook fica R$ 400 mais caro e Procon autua empresa",
-      "fonte": "Campo Grande News",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeFE3a2NvYmhiRW4ybVJaTjh2N3Z5SlRQaTJsdWE0aVVqcm1mM2VwUHFYdmkzWndPdU50V2F5TG1LNEpNY2p2b2NUaFdCcDB1XzNoTGVQYWp5OVhUb0xZV0U4Z1hrU3d6ZHRKd0tra25meElJdTFtcmRDSHhWb3FFNDRaZ3JnbHNPSmczY095Yzl1Sk9BQWRVVDRHOGRWSXI2NWk2WWNMYWdxdXp6NWZlTENCdzdEUGVJSWxV?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Lula na UFF, em Niterói: 'Agradecimento à lição que vocês deram ao Brasil'; vídeo",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaDZieGg0NTU5NDU3djRVUGdWamJfUWlIVFBEQW54cEdRTUtDcURLSFJSaFNoZllabk5NdVhWeG4zM3pVemF2YTRDZE1USU9EX2F4SUJBZWxLeDEzdlFpNVA5dURiRzNqR2haRXY1Nmg3ODh0S1ZUdlV0cnV5UGJYdUFLNHVuMlBOTVJQZFp4VEE0OFllV0xheFBDcVhUdDkxMjBQWW9mOVBaelVybVNuNXA3WW85ZmVaTHl4ZjloVi1DTk4ta05Fb9IB1wFBVV95cUxNRDI5RkVUellpY0I0aUlJTENkWUc1Vnkwd1Q4elV2TlV2eWl1YVNQRFBoY3hIbGFMNGJZMW02MHBBbFhMZGNNUTRtUVB1OHBRbF9RdlgwSHdudjIwWnp0TXNCOEpjUVhRcENvOTE1Nl91WmFVemRRWkV0WHpYQmQ5SHgzLWtQdHRwSVlTUjBvaXJTMTh0eUFtOW5vOUVqYVZWWWcxeGsxaWg1dTNLZzMydDl1VkJmQTBhTXBCVFdHYzYxQjA0TGxfSmgzQ2poMXRfV2JOSTJRMA?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Expectativa de vida no Brasil sobe para 76,9 anos, diz IBGE",
-      "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNa2JrR3ZNUnZmVEZMMmJKel9jUnBGdE1oVUFvUXBYNDNoZzQ1LXg5anQzVmJnamJfT2R5b2VJWFpHcDNCd0xGZExadWUzckpWNXRra0JVVmNvOHhtcWNEbFJhV1N5YlFWamFsUXRlTEFnY2xmaVNCcU8wZ0hXRlNKS2ZOdDFUREhaekR1ZlBwTDU3SWZ6QmVJZHZhaHF4ZlNYWVFlNlMyV3Bsd05DSGRwMzFZOThRQQ?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Dino suspende emendas de autoria de Flávio Bolsonaro",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOVpuRTN4VzBxbnk4MW5MSmxUOWNxZzBsMzJsVXFxVVhQRm1fNzNKTU5tb2hPWEU1OWYzREJUVXExcHB5U1BfYjRMb3I4R3h4RHZuVGdtRXVLbjFtOXdoellnVXQ1cjFXTTN0ZGNKVzZILUhhX1FKQmxOY2FCQU5iVWlmLXBqR2U3eW5jYnZWa0dwRzZNSS1oNm9FZw?oc=5"
+      "cat": "politica",
+      "titulo": "Fios clandestinos terão prazo para ser regularizados; entenda regras aprovadas pelo Congresso sobre compartilhamento de postes",
+      "fonte": "G1",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOT2Eyb0hYQ1JjYUk2aXhNRXlYZXVZcU1PTS0zLUZ2YnU4ektETW1tSk5fQ3pLN1MwelVrWklWaU1fck1EQndyVEc3U0pPZlNvLTNaT25WY21EUmxYSmoxbEN3QTRBUjVJOHdUc0p4ZWlCZ0EtNUdnd2R1dFpNZzNKUjFWZllxUFd4X3pGWnMyYTlkbzNQZnpTQjluTEpyemc3VG15Q2VvU0YwXzJVcTZzUVNmWEpBQzlOWlZOVmJDRjZBSWg5R2Z1Y1JtYnpPVjE4Y3d4WnRTWDM3YWFrZnFNZVNyNmQ2d2x0ZWxjSDJlMjRZWVZzcXNKbkFoSXVHZkxnY1hYV0NQYzF6cVhl0gGbAkFVX3lxTFB1MUV6YnlqM2Jsd1N4SXF0NnlIbklSbGswODNyRFAxdV9WN1RlRGRrQXNJWTV4T3N4SGRtUGN5d0Mydkx1bExjaXRrTC1GTFFvb2Q4NFdYM0ZWVjdJdjA4V245S3FueDZvbm5uN1NfQjJnTTJrQnBVSDVsN0JKWWJ4dnhSYkdzd0VwZkwwQnBqcFBDdXRHVFZLT1VuWTNjbFRXeGNINHhaeEVvVFgtdHNTRTZfZkFLZnpZRmZpRndZc1pqZXQtZUY1M2pFRUEzUDE0X0FOXzFCVXFUczFzOWRTdFVrMEhITHVHRndldlRiSk1OaTBXbDk2ZGI5UzlyQ1JBaExtSFYyMzZNYl8xVEFjOElYNkhGb3dJdmc?oc=5"
     },
     {
       "cat": "politica",
@@ -346,28 +358,16 @@
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQc01uOUY2NFpRUUI2TFdkM0hfZHlfNndBYV9vbjFsVnE1OGkwbDFBYmtTRExHUEtjaV95Y2dqc3JkYmVya2VJc09UQ2NUZjROTHlkc29HYjJkSTdCeVhOYnZzdTRFVmp5V1JZWnQxZ2xqUWlHS1lCcmtaRG8wRFdFNWFCSXpTU0dfbmgyQjdvUUd0ZWwwaTIyLVk1bWhmS3RKQ2Y3am5fckl5QVFETTJOVFZfeHpTUQ?oc=5"
     },
     {
-      "cat": "politica",
-      "titulo": "Reforma tributária e IA dominam agenda de entidades empresariais no Congresso, mostra estudo",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNX0V4ZE5vZzVISUVaaGVISVdaQ2xyazJFejRRV2FjbTc0TVRuWDZCem5ueHdaNnVRdE11cjJnWXlnZHR3S3lCTGFvbHFUYXl6SGNxblRwcnRDWHFLeWlOQVg2MW9iRGh4bWpXXzBzc2JRdGtOYUJpVzhJQ1VWV1djeXl0RVpGMFUwRnJpYmVGd3BTNFN3VWdPamxqbWxLV1BRWGMxTmk0R2drMGszc2RFU1FFZF9VcUprNUV0bTJqXzBJdzdya1VWODJZT3ZkVUMzOHV1QllNSWVNRXIzdDFPb0p6d0o1ODNyUnfSAfgBQVVfeXFMTjZjTk9ITnVDWXNONWQtN0p0N0dQT2NZbC1PVkJXTElEeG5kTGpEZ2hyMkZSYWdEUENfNnQtUHZwN0tQcHhtUVVqZkNKZjMxOFgwa0VmN2pFWkFmTTFUR25rYVlycDFvSXFoUUpJa1ZKcC01aDVuWUpBTVBTWnkwSHJ1M00xa3pCRldGd055Ni1PTENKY3l6YmxBSThDSnotVWxFWjlpU3QxaHYxUWZLUDF0aFVKR3hLTHRYVjE5MDAzWnVFR1pKSmlqcVB1bDVXWENzRFAzNEN6QzZBaVl5VkF0VEYyVXB0TXVYMlppQU1MaTE4WEZhaVQ?oc=5"
-    },
-    {
-      "cat": "politica",
-      "titulo": "Direita se tornou \"fenômeno de massa\" no Brasil, afirma Elias Jabbour",
-      "fonte": "Congresso em Foco",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaUtUeFhnaWdQYk4yOUlVRi1ZampDdmJyR01OaFBnZ3doQmlpcFJZblFiclBYMWo5eVVrOWlVSDY1Q01PVmE3Tl9QYjV3Nk0ycDlyT1BISUFNX2tsMnJvQnpyRjhhRTk4VVhLREVHNEdCRWtRc2xJZWxxaElvRGctM0xRNmltTU9fN0VUemc0YVVjYXdySjZweHBpQldFYWxPRExvV0l3dk53U0VLcWJ2Zzl0aHdwRjg?oc=5"
+      "cat": "eleicoes",
+      "titulo": "Em fuga nos EUA, Flávio Bolsonaro ataca Dino por suspender suas emendas",
+      "fonte": "CartaCapital",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQ0o2UVFjVlpmdE1ROGNuUlpwZ2dPUENXNl9vSTRhM1NuQ3FHZjNwc0VqUHhfdk5Ubm02T1lGT2tBaW1KVGU3T3o1eDhCNlZnS3gtOGxkLWJEcWJxcVBwYlRJWWJ4UGJxVy1SN210bTNoTmJBRDNwWVdFeFA3SzJ4QlNta1RFZHdZY2ROR1BYWUxDSHpFUzJGZUNPSHdxZ0VJLTIxQ2gydXBTNExCLVkzSldB?oc=5"
     },
     {
       "cat": "eleicoes",
       "titulo": "Dino cobra explicações do Senado sobre situação de Flávio Bolsonaro, foragido nos EUA",
       "fonte": "Brasil de Fato",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbVRjSTZoWFRBREtJVExzRmtDSnBibXpiOHhZdU9mc2pDRHpNU2tYUm91SkVQS3VMR2dBdFFGWnp2QmtCODdYbV9DN2dQVFhlMENBSm9uTWh0RlRKVVBubWtJRmNtUzdmVnBSYUp3eTdmd1hZQnIzaWV1aVJDZkdVdi1LWjBCV2JTc3JFcmtTOVJUb193d0tUbHU1T3RtNmlHWTktaWl5UV8wQmFhNTVNVEM0WFBFbWJQOVpZRGNfWHgxN3RHejVB?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Flávio ironiza escolha de Trabuco: \"Lula assumindo que é Faria Limer\"",
-      "fonte": "Congresso em Foco",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPN0pTN0xEVW9LLVRqRG1Ib2t1SUx4ZlVBbGItb0YwMzJFYjVBWEE5djg1Nzg5YzdQLVFjZ1ZPdVprUWxHVXotcWs5X2FlZFdraF9QM0luVUZ6N1JMbTB6V01ieVN5S1NoRVM1NER5ZVFzN0hoTHY2YmtQRUdERWd3VHpOUFhpdTZLeXNxbEhzaDJjSUliNjVsS19hTU9BeC1uOGVmaWpzNmprcGlDa2ZndlBTLXJTbDZV?oc=5"
     },
     {
       "cat": "eleicoes",
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-28T00:55:59-03:00",
+    "atualizadoEm": "2026-11-28T10:04:45-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
