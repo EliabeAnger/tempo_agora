@@ -167,8 +167,8 @@
       "anterior": 176799.84,
       "minimo": 175898.8,
       "maximo": 183625.66,
-      "hora": "27/11 18h59",
-      "ts": 1795816785398
+      "hora": "28/11 00h55",
+      "ts": 1795838157481
     },
     "acoes": [
       {
@@ -249,12 +249,12 @@
       {
         "sigla": "EUR",
         "nome": "Euro",
-        "valor": 6.0765,
-        "var": -2.0
+        "valor": 6.0775,
+        "var": -1.99
       }
     ],
-    "acoesTs": 1795816785398,
-    "moedasTs": 1795816785398,
+    "acoesTs": 1795838157481,
+    "moedasTs": 1795838157481,
     "moedasFonte": "Yahoo"
   },
   "combustiveis": {
@@ -305,39 +305,39 @@
   "noticias": [
     {
       "cat": "economia",
+      "titulo": "Fachin libera R$ 316 milhões da liquidação do Master para socorrer BRB",
+      "fonte": "CNN Brasil",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNS1cyTU1xMUhIR2N5NFBPMXd6UzR3LXhQWHMtZ3dmR25CT1hGMWhZV09mYnYxamlMY2g4R241SEozUENJd1JnVy1JcG05aDZmcjlIUDFkVTBvd0x4OGtPbC1aQVllSGdaM0RVNEwzNjRyQlM0empjLXJtbXpra0NmR1lDRUFWZGxLWUlRRnVjSkpIV3FSVGp6NnJUZU8wRzEzaHlFaC1UdnNGREp5?oc=5"
+    },
+    {
+      "cat": "economia",
       "titulo": "Black Friday: papel higiênico lidera entre os mais vendidos no Mercado Livre e na Amazon",
       "fonte": "O GLOBO",
       "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNTUxVUWY0eXplOFA3S0VnakRfekJOSnFDd3NvcEpLMUhGb0ZHVVNQdEQ4UGYwM0xhaXNBMDBzVTg0eGpkNVZ2ZlhPSUJGdnFYQkdVNGl1akNscFdOaWxibDF2czNLYzNodEl2WWtyM2JSSHAzUEVkNUdVZi1nVVV1Z1BsME5lVFNuSTUyTUhzbTZXTmJMRTJEQU9MeHVrMHlwcXFGWF9oZGpUal91SEVnVkQ4Y1FCWjE2N0IyLUlnYUhSN0U1VkNZZmszVm9tN0ZaNHVsdzhmZHJXamJQSVJ5NlBYUlBKQjE0VWU4UWEtM2x2TDBrUFJmc2hEZVpGLWxod3AwRUVn0gGUAkFVX3lxTE5yMWlkZm9ITVl4by1EUEFXVEdOMk5peWpnVVU1RWdyS1dOS1I0SFFLM3BzRDlncTZxSzhBdnpoM2w5bFBGck1zdlFvdGJIVWlHZUxobWNjYTR1eWlUbW12X0o4T2Vac3dlQkxXblFUcnc2MURrejlhNTB0dDZRN21jamxIbVBPU2dteXptV3h3M1ZjZEE2Nmhwc2tVUTAtME1Mb1d0a0wtcE9iQXlqRXA3UTByOS1XaHpNY0swYVFZd1cyVDNEQXJtdk5QZVQwWFM0YVpFcmR1RDkyb1FoM2U5R3JubGZPdEx2TjNTTjN0Sl9YaTBLV0RmT1B2a1lYR1NQclpjRm9Vb0VZRHBSSnZRUGEtYg?oc=5"
     },
     {
       "cat": "economia",
-      "titulo": "Taxa de desemprego fica em 5,1% no trimestre encerrado em outubro",
-      "fonte": "Agência Brasil",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQXzNDN1RTWm5tcXp5TkFlX0h2NHVhY01fRHZ5dG0zRGtWY0Q5SC1FdzJ6MExMWDBZTWhPNllIVEo3Q3pjWDhTcndKUEtjR2toVUFlWWg4QWlOamF0WmZDaktUcDc5Zm1vVS1mUWpXb2NqcWtNVjZCdWgwZjc2bEdWZjdWN1NBOTllZ0hZMFVROE02WVNBYTlrMk5uUkxrRFVXeS1VOGJRc0VES1piU3VKSnJEaW82MUxJSHlzU0FiVmdQY3c5V0NtXw?oc=5"
-    },
-    {
-      "cat": "economia",
-      "titulo": "No dia da Black Friday, 20% dos produtos ficam mais caros em apenas 12 horas; 60% dos itens seguem com desconto",
-      "fonte": "G1",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObW8yNTZWLTlnc1M1Q3RaNXF3aWZUS1Rud1dia3l5UE1pRjIxTE92Qjd0NzlCU0JOYmNCeC1KcXptdURWZTBDOGVVRjl6LWkxN1RjbURaeVo4MVRRSkFscWVYcURldVF5Q1Roa3M2VDRLLWdsbTlZZ0haQ3ZFamtlSEtmLVp0YW9oS3lSSXpzN3UwaE5JcHZERk1fMm43YlFjeTdJRnl4aWxzN3Z4YlhPdnNnZ3BLLTY1V2pucE1GTFhvQdIB0AFBVV95cUxON2tDXzBNd1ZuR2x3RjFSRkdVUzJGRlZfNFR4TWFUeVFpUVEwM3BacnZ1ZWV0VGtzR0xSSS0wcjVFSFBvU0E5bjNxZmNxTG9POUFMTGg3cFJTSW9YVnpBc3p3dTFpSkpmVEt5QmRtcHpBWGtvM2hRQjMyRzFUX1BFZDZCWmlHZkdtT1V0RDdQQW9nNV96em81aTNDMEV3bGdOb01LcWUzWjhTSmdRRjl3T3NPT09vZHl0RnBoLXNGWXJ5SGJIdUJlSHJwYkVHaDRj?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Indicação de Trabuco derruba taxas e Tesouro Direto tem “circuit breaker”",
-      "fonte": "Poder360",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOW1tZDdPOFNNYVJIVGdMUUlNUTA4bWdNS2dwdVE4VGh3NGpfaTB4Y3pHa3lIaFRobkRsV1BLdko0WmtiamhXczlTeE5hYmNjN2tCRm5fUUctckZqU3VmSkEzWlNxN2JzTjJLMDhRdzdaaGFwTmk5dUZBX19YZl8wb19SRUJZLVMyNzBkNXo3dVl3aHFxVEN1bVhRLTc0d04ydGN6OHdTcFhFc0hEbEk1TE4tdXo2Zw?oc=5"
-    },
-    {
-      "cat": "brasil",
-      "titulo": "Lula escolhe Camilo Santana para comandar a Casa Civil, dizem aliados",
-      "fonte": "O GLOBO",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOd0d2SmlOLWlZSHcwdHNZa3FIT3BJN3VLbzhnem9YT3IwV2tCcjN1LVRfZnB6dk1uMHVsa2pJNGJnU3RfdEdCN1pvVGNTX08tbzlEMFppRTZXM2N4YUZWMmJzS0dDWTd4TWVrVHJqb0N5dVdLN0JvRUF1czBBVlQwdDVUWVJ1aUx6SFlOeENXV1VmMTZsbkR1SkYwNlBndExQVWR3aVYxRUFmd19LSTdXLUE0Tklxc0gzZjltVDNTamxlS2MyTHfSAdQBQVVfeXFMUGNLTDdZUjhXemNpNmxtMUJqaS1UUHBKalBFWHVqb2xzR2g3SGduWlBkeHE5a24tci1PQVcxcE9abWtLWDFWX3VFYnRjbXJ6Tkl4VjBuN0ZaOEFkZ0NtYkEtM1Y4eklMVnh1ZVVNRUpfM1FGNzIwdWhTalVtejJJNS1FZ1R5dGloWVl6NmE5djg2QWIxLWRSTElFcXU5WDQ3QnNmM0NOcTFwWkVfZUdyQ0VDbFNNTHFCc3R3ZTJTdTBlc2tTSEluYU80R2JrOUhPQzRHY3o?oc=5"
+      "titulo": "Na Black Friday, notebook fica R$ 400 mais caro e Procon autua empresa",
+      "fonte": "Campo Grande News",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeFE3a2NvYmhiRW4ybVJaTjh2N3Z5SlRQaTJsdWE0aVVqcm1mM2VwUHFYdmkzWndPdU50V2F5TG1LNEpNY2p2b2NUaFdCcDB1XzNoTGVQYWp5OVhUb0xZV0U4Z1hrU3d6ZHRKd0tra25meElJdTFtcmRDSHhWb3FFNDRaZ3JnbHNPSmczY095Yzl1Sk9BQWRVVDRHOGRWSXI2NWk2WWNMYWdxdXp6NWZlTENCdzdEUGVJSWxV?oc=5"
     },
     {
       "cat": "brasil",
       "titulo": "Lula na UFF, em Niterói: 'Agradecimento à lição que vocês deram ao Brasil'; vídeo",
       "fonte": "O GLOBO",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaDZieGg0NTU5NDU3djRVUGdWamJfUWlIVFBEQW54cEdRTUtDcURLSFJSaFNoZllabk5NdVhWeG4zM3pVemF2YTRDZE1USU9EX2F4SUJBZWxLeDEzdlFpNVA5dURiRzNqR2haRXY1Nmg3ODh0S1ZUdlV0cnV5UGJYdUFLNHVuMlBOTVJQZFp4VEE0OFllV0xheFBDcVhUdDkxMjBQWW9mOVBaelVybVNuNXA3WW85ZmVaTHl4ZjloVi1DTk4ta05Fb9IB1wFBVV95cUxNRDI5RkVUellpY0I0aUlJTENkWUc1Vnkwd1Q4elV2TlV2eWl1YVNQRFBoY3hIbGFMNGJZMW02MHBBbFhMZGNNUTRtUVB1OHBRbF9RdlgwSHdudjIwWnp0TXNCOEpjUVhRcENvOTE1Nl91WmFVemRRWkV0WHpYQmQ5SHgzLWtQdHRwSVlTUjBvaXJTMTh0eUFtOW5vOUVqYVZWWWcxeGsxaWg1dTNLZzMydDl1VkJmQTBhTXBCVFdHYzYxQjA0TGxfSmgzQ2poMXRfV2JOSTJRMA?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Expectativa de vida no Brasil sobe para 76,9 anos, diz IBGE",
+      "fonte": "Agência Brasil",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNa2JrR3ZNUnZmVEZMMmJKel9jUnBGdE1oVUFvUXBYNDNoZzQ1LXg5anQzVmJnamJfT2R5b2VJWFpHcDNCd0xGZExadWUzckpWNXRra0JVVmNvOHhtcWNEbFJhV1N5YlFWamFsUXRlTEFnY2xmaVNCcU8wZ0hXRlNKS2ZOdDFUREhaekR1ZlBwTDU3SWZ6QmVJZHZhaHF4ZlNYWVFlNlMyV3Bsd05DSGRwMzFZOThRQQ?oc=5"
+    },
+    {
+      "cat": "brasil",
+      "titulo": "Dino suspende emendas de autoria de Flávio Bolsonaro",
+      "fonte": "Poder360",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPOVpuRTN4VzBxbnk4MW5MSmxUOWNxZzBsMzJsVXFxVVhQRm1fNzNKTU5tb2hPWEU1OWYzREJUVXExcHB5U1BfYjRMb3I4R3h4RHZuVGdtRXVLbjFtOXdoellnVXQ1cjFXTTN0ZGNKVzZILUhhX1FKQmxOY2FCQU5iVWlmLXBqR2U3eW5jYnZWa0dwRzZNSS1oNm9FZw?oc=5"
     },
     {
       "cat": "politica",
@@ -359,21 +359,21 @@
     },
     {
       "cat": "eleicoes",
+      "titulo": "Dino cobra explicações do Senado sobre situação de Flávio Bolsonaro, foragido nos EUA",
+      "fonte": "Brasil de Fato",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbVRjSTZoWFRBREtJVExzRmtDSnBibXpiOHhZdU9mc2pDRHpNU2tYUm91SkVQS3VMR2dBdFFGWnp2QmtCODdYbV9DN2dQVFhlMENBSm9uTWh0RlRKVVBubWtJRmNtUzdmVnBSYUp3eTdmd1hZQnIzaWV1aVJDZkdVdi1LWjBCV2JTc3JFcmtTOVJUb193d0tUbHU1T3RtNmlHWTktaWl5UV8wQmFhNTVNVEM0WFBFbWJQOVpZRGNfWHgxN3RHejVB?oc=5"
+    },
+    {
+      "cat": "eleicoes",
       "titulo": "Flávio ironiza escolha de Trabuco: \"Lula assumindo que é Faria Limer\"",
       "fonte": "Congresso em Foco",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPN0pTN0xEVW9LLVRqRG1Ib2t1SUx4ZlVBbGItb0YwMzJFYjVBWEE5djg1Nzg5YzdQLVFjZ1ZPdVprUWxHVXotcWs5X2FlZFdraF9QM0luVUZ6N1JMbTB6V01ieVN5S1NoRVM1NER5ZVFzN0hoTHY2YmtQRUdERWd3VHpOUFhpdTZLeXNxbEhzaDJjSUliNjVsS19hTU9BeC1uOGVmaWpzNmprcGlDa2ZndlBTLXJTbDZV?oc=5"
     },
     {
       "cat": "eleicoes",
-      "titulo": "Lula escolheu Trabuco porque não tem ideia do que fazer com a economia, diz Flávio Bolsonaro",
-      "fonte": "Folha de S.Paulo",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTW1uYUVWZFNmZDdqTk9jQnVldElldnRla0ZkUUhZUUExOHVib3p1Z1lBc1hLMFgyRWppYVRtM2twNEYtb0dfSTk1WlNHUkVtbW1LNVhrcHM1a3JWQWJqLTlDb0tySlJpWUpnSHUtLWx4OFVXQ25Fb3RTajA2YUZTMmVjaFVyZHNBLWdfZWtjXy1hS3d1R3lHLWtpOHZwdzZ3TTlKdTVaZUl6MnZGelc4c05UWE1jS0lqdUstS0MzQ0pIT2l1Sl9sVlpuZGl3NVA5eng1NUZGZW1yc2c?oc=5"
-    },
-    {
-      "cat": "eleicoes",
-      "titulo": "Flávio Bolsonaro fala em impeachment de Lula e vê possibilidade de eleição antes de 2030",
-      "fonte": "www.correiodamanha.com.br",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPZHhhZ0gwVzhGb2RFa1RaSVA2LW9JNWpPNEoxSmtzMF82UlQtbExDd3JXQ1lyWmlFMXloQjBjSmh0ZDVCdkRtbjJIZG5KSjItNGtVLVhQUmRZT1MxbFh5SHBkR0NHekkzbHhtVVY2b3BnNDZLUEJXby14Q1dGamExSDB5VG5YM0haTTJ1Q2ZKRUYwcU0yVHRBTlMwalNSMjBqakZraGwzUkR0ekJxS0JpQTZZcWdEb3pyVHBOamtOZ1ZWSmhyM3YwNmdSaWNyOWI2SFBPeXlfcXhhTmRZZUQweEYxdGs3QQ?oc=5"
+      "titulo": "Trabuco participou de encontros para aproximar Jair e Flávio Bolsonaro da elite financeira",
+      "fonte": "ICL Notícias",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE91NmNuMXZKUlhKZzE1TVVzcGp3YTczYi1DWW5xSjZwTlBCbHdEdkl6NXl1a1B0amVCT01kVUZhMVZkMkNmaTlIQlY1LWJmWEI2RUxPQVNvZ3ZaSXhwNVZIenlqTWdScGNZRGxYeml4SHZNaUd2ckhz?oc=5"
     }
   ],
   "indicadores": {
@@ -1536,7 +1536,7 @@
     }
   ],
   "robo": {
-    "atualizadoEm": "2026-11-27T18:59:47-03:00",
+    "atualizadoEm": "2026-11-28T00:55:59-03:00",
     "ok": [
       "BC selic",
       "BC cdi",
@@ -1551,8 +1551,7 @@
       "12 notícias"
     ],
     "falhas": [
-      "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests",
-      "PTAX: https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados/ultimos/1?format…: HTTP Error 304: Not Modified"
+      "câmbio AwesomeAPI: https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL…: HTTP Error 429: Too Many Requests"
     ]
   }
 }
